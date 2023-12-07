@@ -1,6 +1,6 @@
 {
   "name": "@that-hatter/scrapiyard",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Raw documentation files for EDOPro's Card Scripting API, along with a default typescript module for loading them.",
   "main": ".dist/",
   "types": "dist/index.d.ts",
