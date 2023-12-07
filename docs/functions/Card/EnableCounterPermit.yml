@@ -1,0 +1,19 @@
+---!function
+name: EnableCounterPermit
+namespace: Card
+description: |-
+  Makes the card (Card c) able to hold a type of counter (int countertype). If a location is provided (int location), the card will be able to hold counter only when in the specified location.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: countertype
+    type: [ int ]
+    description: (To be added)
+  - name: location
+    type: [ int ]
+    description: (To be added)
+    required: false
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_SET_BASE_ATTACK
+enum: EffectCode
+value: 103
+description: |-
+  Set the original attack of a monster
+status:
+  index: stable
+tags: [ under-construction ]

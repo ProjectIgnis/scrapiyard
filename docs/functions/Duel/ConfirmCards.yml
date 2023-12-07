@@ -1,0 +1,15 @@
+---!function
+name: ConfirmCards
+namespace: Duel
+description: |-
+  Reveals the passed cards to the passed player if they are in a private knowledge state.
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: targets
+    type: [ Card, Group ]
+    description: (To be added)
+tags: [ under-construction ]

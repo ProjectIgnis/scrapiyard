@@ -1,0 +1,12 @@
+---!function
+name: SetTargetParam
+namespace: Duel
+description: |-
+  Stores an arbitrary integer as the "target parameter" for the currently resolving chain, its uses vary depending on the type of effect, but for example with cards that damage/recover LP this value corresponds to the amount to gain/lose, so that other effects that change those amounts can access and change this value
+status:
+  index: stable
+parameters:
+  - name: value
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

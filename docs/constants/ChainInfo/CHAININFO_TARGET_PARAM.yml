@@ -1,0 +1,9 @@
+---!constant
+name: CHAININFO_TARGET_PARAM
+enum: ChainInfo
+value: 0x100
+description: |-
+  Get Value set in Duel.SetTargetParam()
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: TIMING_TOGRAVE
+enum: Timing
+value: 0x800000
+description: |-
+  This event is raised when a card is sent to the graveyard
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_CHANGE_RANK
+enum: EffectCode
+value: 133
+description: |-
+  Set affected card's rank to a value (written into Effect.SetValue())
+status:
+  index: stable
+tags: [ under-construction ]

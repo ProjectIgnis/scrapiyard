@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_ATTACK_COST
+enum: EffectCode
+value: 96
+description: |-
+  The affected player must pay a cost to attack.
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_TYPE_TARGET
+enum: EffectType
+value: 0x4000
+description: |-
+  Currently not used by any cards. Evaluated by the core in the following functions: effect::is_target, effect::is_available, card::add_effect and card::remove_effect
+status:
+  index: stable
+tags: [ under-construction ]

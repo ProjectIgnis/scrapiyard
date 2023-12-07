@@ -1,0 +1,31 @@
+---!function
+name: Remove
+namespace: Duel
+description: |-
+  Banishes a card or group (Card|Group targets) in position as supplied by (int pos) (nil means their current position), with (int reason) as reason, if (int player) is supplied, the destination would be that player's zone. If (int rp) is provided, sets the reason player to be that player. Returns the number of cards successfully banished.
+status:
+  index: stable
+parameters:
+  - name: targets
+    type: [ Card, Group ]
+    description: (To be added)
+  - name: pos
+    type: [ int, nil ]
+    description: (To be added)
+  - name: reason
+    type: [ int ]
+    description: (To be added)
+  - name: player
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: PLAYER_NONE
+  - name: rp
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: reason_player
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,18 @@
+---!function
+name: IsLevel
+namespace: Card
+description: |-
+  Checks if "c" has a Level equal to any of the levels passed as ...
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: ...
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: LOCATION_PZONE
+enum: Location
+value: 0x200
+description: |-
+  The Pendulum Zone
+status:
+  index: stable
+tags: [ under-construction ]

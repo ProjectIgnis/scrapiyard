@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_MATCH_KILL
+enum: EffectCode
+value: 300
+description: |-
+  When the affected card reduces its controller's opponent's LP to 0 by a direct attack, its controller wins the match.
+status:
+  index: stable
+tags: [ under-construction ]

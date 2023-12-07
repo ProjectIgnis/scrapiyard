@@ -1,0 +1,15 @@
+---!function
+name: GetTextAttack
+namespace: Card
+description: |-
+  Returns the original printed ATK of "c".
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

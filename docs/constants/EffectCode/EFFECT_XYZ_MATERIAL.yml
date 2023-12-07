@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_XYZ_MATERIAL
+enum: EffectCode
+value: 233
+description: |-
+  Can be used as Xyz material
+status:
+  index: stable
+tags: [ under-construction ]

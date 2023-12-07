@@ -1,0 +1,31 @@
+---!function
+name: Equip
+namespace: Duel
+description: |-
+  A Player (int player) equips a Card (Card c1) to another Card (Card c2). When up is false, the equip card will not have its position changed face-up. is_step is for using with Duel.EquipComplete. Returns true if the equip is successful.
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: c1
+    type: [ Card ]
+    description: (To be added)
+  - name: c2
+    type: [ Card ]
+    description: (To be added)
+  - name: up
+    type: [ bool ]
+    description: (To be added)
+    required: false
+    default: true
+  - name: is_step
+    type: [ bool ]
+    description: (To be added)
+    required: false
+    default: false
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

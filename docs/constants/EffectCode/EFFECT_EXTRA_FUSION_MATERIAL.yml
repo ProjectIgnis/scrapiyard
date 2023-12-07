@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_EXTRA_FUSION_MATERIAL
+enum: EffectCode
+value: 352
+description: |-
+  Allows using affected cards as Fusion Materials
+status:
+  index: stable
+tags: [ under-construction ]

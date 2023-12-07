@@ -1,0 +1,9 @@
+---!constant
+name: TIMING_ATTACK
+enum: Timing
+value: 0x1000
+description: |-
+  When an attack is declared
+status:
+  index: stable
+tags: [ under-construction ]

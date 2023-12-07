@@ -1,0 +1,13 @@
+---!function
+name: GetEnvironment
+namespace: Duel
+description: |-
+  Gets the environment code for the applied field card (the same as the Field Spell's code, usually). Returns the code, then the controlling player. Prioritizes the first player. **deprecated and should be avoided**
+status:
+  index: stable
+returns:
+  - type: [ int ]
+    description: (To be added)
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

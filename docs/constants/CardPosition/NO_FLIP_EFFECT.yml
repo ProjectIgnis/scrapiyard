@@ -1,0 +1,9 @@
+---!constant
+name: NO_FLIP_EFFECT
+enum: CardPosition
+value: 0x10000
+description: |-
+  Applies position change without triggering FLIP effects
+status:
+  index: stable
+tags: [ under-construction ]

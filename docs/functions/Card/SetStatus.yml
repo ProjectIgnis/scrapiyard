@@ -1,0 +1,18 @@
+---!function
+name: SetStatus
+namespace: Card
+description: |-
+  Sets the status (STATUS_x) of a Card (Card c) and possibly enables it
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: status
+    type: [ int ]
+    description: (To be added)
+  - name: enable
+    type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

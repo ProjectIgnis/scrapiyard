@@ -1,0 +1,13 @@
+---!function
+name: ChainAttack
+namespace: Duel
+description: |-
+  Makes the currently attacking card attacks able to declare a consecutive attack after the current one. If a card is passed, the next attack will have to be against that specific card.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+    required: false
+tags: [ under-construction ]

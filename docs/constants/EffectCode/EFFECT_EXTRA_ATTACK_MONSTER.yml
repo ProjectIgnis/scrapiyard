@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_EXTRA_ATTACK_MONSTER
+enum: EffectCode
+value: 346
+description: |-
+  Affected card can make a given number of additional attacks on monsters
+status:
+  index: stable
+tags: [ under-construction ]

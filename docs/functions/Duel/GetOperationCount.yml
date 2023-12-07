@@ -1,0 +1,15 @@
+---!function
+name: GetOperationCount
+namespace: Duel
+description: |-
+  Get the amount of operation info set by previous calls to Duel.SetOperationInfo for the corresponding chain.
+status:
+  index: stable
+parameters:
+  - name: chainc
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: TIMING_SPSUMMON
+enum: Timing
+value: 0x80
+description: |-
+  When a monster is Special Summoned
+status:
+  index: stable
+tags: [ under-construction ]

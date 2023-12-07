@@ -1,0 +1,9 @@
+---!constant
+name: RACE_AQUA
+enum: MonsterRace
+value: 0x40
+description: |-
+  Aqua type monster
+status:
+  index: stable
+tags: [ under-construction ]

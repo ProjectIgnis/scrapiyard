@@ -1,0 +1,15 @@
+---!function
+name: ChangeTargetCard
+namespace: Duel
+description: |-
+  Changes the target cards for the specific chain link (0 is the currently resolving one). This alters the value that that chain link set with Duel.SetTargetCards
+status:
+  index: stable
+parameters:
+  - name: chainc
+    type: [ int ]
+    description: (To be added)
+  - name: g
+    type: [ Group ]
+    description: (To be added)
+tags: [ under-construction ]

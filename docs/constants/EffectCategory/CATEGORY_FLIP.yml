@@ -1,0 +1,9 @@
+---!constant
+name: CATEGORY_FLIP
+enum: EffectCategory
+value: 0x800
+description: |-
+  Describes a FLIP effect
+status:
+  index: stable
+tags: [ under-construction ]

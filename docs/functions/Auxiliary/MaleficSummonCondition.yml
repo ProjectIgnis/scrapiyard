@@ -1,0 +1,21 @@
+---!function
+name: MaleficSummonCondition
+namespace: Auxiliary
+description: |-
+  Auxiliary function for the summoning procedure of "Malefic" monsters. Checks if the player has the zone to summon and the appropriate monster (cd) to banish.
+status:
+  index: stable
+parameters:
+  - name: cd
+    type: [ any ]
+    description: (To be added)
+  - name: loc
+    type: [ int ]
+    description: (To be added)
+  - name: excon
+    type: [ function ]
+    description: (To be added)
+returns:
+  - type: [ function ]
+    description: (To be added)
+tags: [ under-construction ]

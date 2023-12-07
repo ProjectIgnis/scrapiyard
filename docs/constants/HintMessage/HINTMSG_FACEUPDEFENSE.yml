@@ -1,0 +1,9 @@
+---!constant
+name: HINTMSG_FACEUPDEFENSE
+enum: HintMessage
+value: 523
+description: |-
+  Shows the following HintMessage: "Select a face-up Defense Position monster(s)"
+status:
+  index: stable
+tags: [ under-construction ]

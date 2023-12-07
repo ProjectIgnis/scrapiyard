@@ -1,0 +1,29 @@
+---!function
+name: IsCanBeFusionMaterial
+namespace: Card
+description: |-
+  Checks if a card (Card c) can be a Fusion material. If (Card fc) is provided, checks if it can be a Fusion Material for that card. Internally, this is checking if the card does not have status_forbidden and if it is not affected by EFFECT_CANNOT_BE_MATERIAL or EFFECT_CANNOT_BE_FUSION_MATERIAL (to be finished)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: fc
+    type: [ Card ]
+    description: (To be added)
+    required: false
+  - name: sumtype
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: SUMMON_TYPE_FUSION
+  - name: playerid
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: reason
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

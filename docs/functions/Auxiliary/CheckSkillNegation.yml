@@ -1,0 +1,18 @@
+---!function
+name: CheckSkillNegation
+namespace: Auxiliary
+description: |-
+  Function to check whether the Skill would be negated by Anti Skill
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ any ]
+    description: (To be added)
+  - name: tp
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

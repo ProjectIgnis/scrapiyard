@@ -1,0 +1,9 @@
+---!constant
+name: LOCATION_EMZONE
+enum: Location
+value: 0x1000
+description: |-
+  The Extra Monster Zones. Symbolic location. Can be used in functions expecting a location and also in SetRange (except with trigger effects)
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: OPCODE_NEG
+enum: Opcode
+value: 0x40000006
+description: |-
+  Operation of bitwise negation, to be used in an AnnounceCard filter.
+status:
+  index: stable
+tags: [ under-construction ]

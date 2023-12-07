@@ -1,0 +1,9 @@
+---!constant
+name: WIN_REASON_FINAL_DRAW
+enum: VictoryString
+value: 0x22
+description: |-
+  The hexadecimal value for a duel win caused by "Final Draw"
+status:
+  index: stable
+tags: [ under-construction ]

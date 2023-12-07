@@ -1,0 +1,9 @@
+---!constant
+name: ACTIVITY_ATTACK
+enum: ActivityCode
+value: 5
+description: |-
+  Refers to the action of declaration attacks
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_LEVEL_RANK
+enum: EffectCode
+value: 408
+description: |-
+  Gives Rank to an affected monster with a Level
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: RESET_CARD
+enum: Reset
+value: 0x2000
+description: |-
+  Resets Owner to specify the effect of the card
+status:
+  index: stable
+tags: [ under-construction ]

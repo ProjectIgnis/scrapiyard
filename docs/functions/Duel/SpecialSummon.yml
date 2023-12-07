@@ -1,0 +1,38 @@
+---!function
+name: SpecialSummon
+namespace: Duel
+description: |-
+  A player (int sumplayer) Special Summons a card/group of cards (Card|Group targets) with SummonType described with SUMMON_TYPE_x (int sumtype) to a player's (int target_player) field in the specific zone (here zone 0xff, means the default zones). If (bool nocheck) is true, it will summon ignoring conditions. If (bool nolimit) is true, it will summon ignoring the revive limit. Returns the number of cards successfully summoned.
+status:
+  index: stable
+parameters:
+  - name: targets
+    type: [ Card, Group ]
+    description: (To be added)
+  - name: sumtype
+    type: [ int ]
+    description: (To be added)
+  - name: sumplayer
+    type: [ int ]
+    description: (To be added)
+  - name: target_player
+    type: [ int ]
+    description: (To be added)
+  - name: nocheck
+    type: [ bool ]
+    description: (To be added)
+  - name: nolimit
+    type: [ bool ]
+    description: (To be added)
+  - name: pos
+    type: [ int ]
+    description: (To be added)
+  - name: zone
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: 0xff
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

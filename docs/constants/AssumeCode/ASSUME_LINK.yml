@@ -1,0 +1,9 @@
+---!constant
+name: ASSUME_LINK
+enum: AssumeCode
+value: 9
+description: |-
+  Temporarily assumes that the affected card has a given Link Rating
+status:
+  index: stable
+tags: [ under-construction ]

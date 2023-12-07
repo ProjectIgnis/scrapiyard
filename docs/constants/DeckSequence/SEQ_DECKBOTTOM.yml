@@ -1,0 +1,9 @@
+---!constant
+name: SEQ_DECKBOTTOM
+enum: DeckSequence
+value: 1
+description: |-
+  Sequence to be used with Duel.SendtoDeck. Sends the card to the bottom of the Deck
+status:
+  index: stable
+tags: [ under-construction ]

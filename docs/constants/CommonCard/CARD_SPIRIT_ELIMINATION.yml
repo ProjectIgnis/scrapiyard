@@ -1,0 +1,9 @@
+---!constant
+name: CARD_SPIRIT_ELIMINATION
+enum: CommonCard
+value: 69832741
+description: |-
+  Spirit Elimination's ID. Can be used when it is necessary to check for this card's effect.
+status:
+  index: stable
+tags: [ under-construction ]

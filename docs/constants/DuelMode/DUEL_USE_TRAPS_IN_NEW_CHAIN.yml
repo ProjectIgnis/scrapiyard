@@ -1,0 +1,9 @@
+---!constant
+name: DUEL_USE_TRAPS_IN_NEW_CHAIN
+enum: DuelMode
+value: 0x4
+description: |-
+  A flag for DuelModes. Deprecated flag in Edopro's 8.0 core
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,18 @@
+---!function
+name: NonTunerEx
+namespace: Synchro
+description: |-
+  A filter used in a Synchro procedure when a material is supposed to be non-Tuner. It also has to satisfy condition of (function f) which has to be Card.IsRace, Card.IsAttribute or Card.IsType, or a function that would use any of these 3. Also, (int val) is a parameter that is used in checking the (function f).
+status:
+  index: stable
+parameters:
+  - name: f
+    type: [ function ]
+    description: (To be added)
+  - name: val
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

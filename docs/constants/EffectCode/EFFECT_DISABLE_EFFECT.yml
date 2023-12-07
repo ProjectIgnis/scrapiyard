@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_DISABLE_EFFECT
+enum: EffectCode
+value: 8
+description: |-
+  The affected card has its effects negated
+status:
+  index: stable
+tags: [ under-construction ]

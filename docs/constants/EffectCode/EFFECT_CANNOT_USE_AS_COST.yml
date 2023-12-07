@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_CANNOT_USE_AS_COST
+enum: EffectCode
+value: 57
+description: |-
+  The affected card cannot be used as Cost. Usually used as a single effect. Does not use SetTarget
+status:
+  index: stable
+tags: [ under-construction ]

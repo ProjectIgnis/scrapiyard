@@ -1,0 +1,9 @@
+---!constant
+name: TIMING_BATTLED
+enum: Timing
+value: 0x8000000
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

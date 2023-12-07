@@ -1,0 +1,38 @@
+---!function
+name: SpecialSummonStep
+namespace: Duel
+description: |-
+  A player (int sumplayer) Special Summons a card (Card c) with SummonType described with SUMMON_TYPE_x (int sumtype) to a player's (int target_player) field in the specific zone (here zone 0xff, means the default zones). If (bool nocheck) is true, it will summon ignoring conditions. If (bool nolimit) is true, it will summon ignoring the revive limit. When a card is summoned this way, its summon is not considered complete until a call to Duel.SpecialSummonComplete is performed, this is useful when effects are to be applied to the card after it is "summoned" but before it "reaches the field".
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: sumtype
+    type: [ int ]
+    description: (To be added)
+  - name: sumplayer
+    type: [ int ]
+    description: (To be added)
+  - name: target_player
+    type: [ int ]
+    description: (To be added)
+  - name: nocheck
+    type: [ bool ]
+    description: (To be added)
+  - name: nolimit
+    type: [ bool ]
+    description: (To be added)
+  - name: pos
+    type: [ int ]
+    description: (To be added)
+  - name: zone
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: 0xff
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

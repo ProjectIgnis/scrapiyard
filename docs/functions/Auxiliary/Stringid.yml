@@ -1,0 +1,18 @@
+---!function
+name: Stringid
+namespace: Auxiliary
+description: |-
+  Returns the description code using the database entry's code (int code) and from the nth position (int position) which can be 0-15 corresponding to the str in the database which are from str1 to str16
+status:
+  index: stable
+parameters:
+  - name: code
+    type: [ int ]
+    description: (To be added)
+  - name: n
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

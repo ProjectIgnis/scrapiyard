@@ -1,0 +1,33 @@
+---!function
+name: IsLinkSummonable
+namespace: Card
+description: |-
+  Checks if "c" can be Link Summoned using "must_use" as part of its materials, choosing among "mg", with "min" and "max"as the number of materials materials to be used for the Link Summon.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: must_use
+    type: [ Group, Card, nil ]
+    description: (To be added)
+    required: false
+  - name: mg
+    type: [ Group, Card, nil ]
+    description: (To be added)
+    required: false
+  - name: min
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: 0
+  - name: max
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: 0
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

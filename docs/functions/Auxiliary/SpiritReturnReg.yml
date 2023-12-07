@@ -1,0 +1,33 @@
+---!function
+name: SpiritReturnReg
+namespace: Auxiliary
+description: |-
+  Function deprecated since version 40.0.0. Use "Spirit.SummonRegister"
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ any ]
+    description: (To be added)
+  - name: tp
+    type: [ any ]
+    description: (To be added)
+  - name: eg
+    type: [ any ]
+    description: (To be added)
+  - name: ep
+    type: [ any ]
+    description: (To be added)
+  - name: ev
+    type: [ any ]
+    description: (To be added)
+  - name: re
+    type: [ any ]
+    description: (To be added)
+  - name: r
+    type: [ any ]
+    description: (To be added)
+  - name: rp
+    type: [ any ]
+    description: (To be added)
+tags: [ under-construction ]

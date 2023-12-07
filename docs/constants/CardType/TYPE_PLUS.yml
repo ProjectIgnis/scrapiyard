@@ -1,0 +1,9 @@
+---!constant
+name: TYPE_PLUS
+enum: CardType
+value: 0x20000000
+description: |-
+  Plus Type, only usable if 419 is called
+status:
+  index: stable
+tags: [ under-construction ]

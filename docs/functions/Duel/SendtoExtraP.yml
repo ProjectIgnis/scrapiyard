@@ -1,0 +1,26 @@
+---!function
+name: SendtoExtraP
+namespace: Duel
+description: |-
+  Sends a card or group (Card|Group targets) to the Extra Deck face-up with (int reason) as reason, if (int player) is supplied, the destination would be that player's Extra Deck (for Pendulum monsters only). If (int rp) is provided, sets the reason player to be that player. Returns the number of cards successfully sent.
+status:
+  index: stable
+parameters:
+  - name: targets
+    type: [ Card, Group ]
+    description: (To be added)
+  - name: player
+    type: [ int, nil ]
+    description: (To be added)
+    default: PLAYER_NONE
+  - name: reason
+    type: [ int ]
+    description: (To be added)
+  - name: rp
+    type: [ int ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

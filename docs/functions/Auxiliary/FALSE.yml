@@ -1,0 +1,11 @@
+---!function
+name: 'FALSE'
+namespace: Auxiliary
+description: |-
+  Function that returns false
+status:
+  index: stable
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

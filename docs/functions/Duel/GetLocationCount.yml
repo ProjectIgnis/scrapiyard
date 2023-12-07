@@ -1,0 +1,32 @@
+---!function
+name: GetLocationCount
+namespace: Duel
+description: |-
+  Returns 2 values. First the number of zones that a player (target_player) has available in a location of the field (int location)[, that can be used by the player (use_player), with intention of (reason), among certain zones (zone)]. Second return is a flag with the available zones.
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: location
+    type: [ int ]
+    description: (To be added)
+  - name: use_player
+    type: [ int ]
+    description: (To be added)
+    required: false
+  - name: reason
+    type: [ int ]
+    description: (To be added)
+    required: false
+  - name: zone
+    type: [ int ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ int ]
+    description: (To be added)
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

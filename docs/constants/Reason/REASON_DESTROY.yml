@@ -1,0 +1,9 @@
+---!constant
+name: REASON_DESTROY
+enum: Reason
+value: 0x1
+description: |-
+  The card being destroyed
+status:
+  index: stable
+tags: [ under-construction ]

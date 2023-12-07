@@ -1,0 +1,9 @@
+---!constant
+name: TYPE_LINK
+enum: CardType
+value: 0x4000000
+description: |-
+  A Link
+status:
+  index: stable
+tags: [ under-construction ]

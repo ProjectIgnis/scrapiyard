@@ -1,0 +1,9 @@
+---!constant
+name: STATUS_FORBIDDEN
+enum: CardStatus
+value: 0x4000000
+description: |-
+  A card that cannot be used (for example, if it was declared by Prohibition or Psi-Blocker)
+status:
+  index: stable
+tags: [ under-construction ]

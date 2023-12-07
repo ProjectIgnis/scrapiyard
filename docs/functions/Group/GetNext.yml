@@ -1,0 +1,15 @@
+---!function
+name: GetNext
+namespace: Group
+description: |-
+  Gets then next member of Group g (moves the internal enumerator by a step). Returns nil when the whole group was iterated.
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ Group ]
+    description: (To be added)
+returns:
+  - type: [ Card, nil ]
+    description: (To be added)
+tags: [ under-construction ]

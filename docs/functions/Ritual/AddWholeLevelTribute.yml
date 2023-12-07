@@ -1,0 +1,18 @@
+---!function
+name: AddWholeLevelTribute
+namespace: Ritual
+description: |-
+  The current total level to match for the monster being summoned, to be used with monsters that can be used as whole tribute
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ card ]
+    description: (To be added)
+  - name: cond
+    type: [ function ]
+    description: (To be added)
+returns:
+  - type: [ effect ]
+    description: (To be added)
+tags: [ under-construction ]

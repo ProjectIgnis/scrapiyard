@@ -1,0 +1,9 @@
+---!constant
+name: CARD_UNIFORM_99
+enum: CommonCard
+value: 160007027
+description: |-
+  Constant for a commonly used Rush card
+status:
+  index: stable
+tags: [ under-construction ]

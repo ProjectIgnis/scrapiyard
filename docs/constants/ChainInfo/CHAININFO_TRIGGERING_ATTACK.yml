@@ -1,0 +1,9 @@
+---!constant
+name: CHAININFO_TRIGGERING_ATTACK
+enum: ChainInfo
+value: 0x400000
+description: |-
+  The attack of the card that triggered the current Chain Link
+status:
+  index: stable
+tags: [ under-construction ]

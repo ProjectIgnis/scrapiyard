@@ -1,0 +1,9 @@
+---!constant
+name: HINTMSG_TARGET
+enum: HintMessage
+value: 551
+description: |-
+  Shows the following HintMessage: "Select the target(s) of the effect"
+status:
+  index: stable
+tags: [ under-construction ]

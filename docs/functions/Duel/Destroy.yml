@@ -1,0 +1,26 @@
+---!function
+name: Destroy
+namespace: Duel
+description: |-
+  Destroys a card or group (Card|Group targets) with (int reason) as reason, and sends the card in the location specified by (int dest). If (int rp) is passed, sets the reason player to be that player. Returns the number of cards successfully destroyed.
+status:
+  index: stable
+parameters:
+  - name: targets
+    type: [ Card, Group ]
+    description: (To be added)
+  - name: reason
+    type: [ int ]
+    description: (To be added)
+  - name: dest
+    type: [ int ]
+    description: (To be added)
+    required: false
+  - name: rp
+    type: [ int ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

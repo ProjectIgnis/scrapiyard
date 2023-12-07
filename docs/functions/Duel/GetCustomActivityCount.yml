@@ -1,0 +1,21 @@
+---!function
+name: GetCustomActivityCount
+namespace: Duel
+description: |-
+  Same behaviour as Duel.GetActivityCount with the difference that returns the count of the activities that were registered with the specific counter_id as Duel.AddCustomActivityCounter.
+status:
+  index: stable
+parameters:
+  - name: counter_id
+    type: [ int ]
+    description: (To be added)
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: activity_type
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

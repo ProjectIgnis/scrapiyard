@@ -1,0 +1,18 @@
+---!function
+name: IsPlayerAffectedByEffect
+namespace: Duel
+description: |-
+  Returns the first instance of an effect affecting the player corresponding to the passed code, nil if there's none. The return can be used as boolean check with an Effect being returned as true and nil being returned as false.
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: code
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ Effect, nil ]
+    description: (To be added)
+tags: [ under-construction ]

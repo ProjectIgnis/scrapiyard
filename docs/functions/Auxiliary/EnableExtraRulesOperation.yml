@@ -1,0 +1,18 @@
+---!function
+name: EnableExtraRulesOperation
+namespace: Auxiliary
+description: |-
+  no description yet
+status:
+  index: stable
+parameters:
+  - name: card
+    type: [ any ]
+    description: (To be added)
+  - name: init
+    type: [ any ]
+    description: (To be added)
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+tags: [ under-construction ]

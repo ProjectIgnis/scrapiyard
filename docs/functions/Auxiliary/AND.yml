@@ -1,0 +1,15 @@
+---!function
+name: AND
+namespace: Auxiliary
+description: |-
+  First (...) is a list of functions which will be used to check the parameters in the second set of (...), separated with "and". The second set of (...) is applied automatically when used as a filter.
+status:
+  index: stable
+parameters:
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

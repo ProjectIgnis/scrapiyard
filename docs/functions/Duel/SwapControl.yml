@@ -1,0 +1,28 @@
+---!function
+name: SwapControl
+namespace: Duel
+description: |-
+  Swaps control of 2 cards or 2 groups. If groups are provided they must contain the same number of cards and each group must contains cards on the same side of the field. If reset_phase and reset_count is specified, will behave like other effects with those resets (and so, the control will be returned when the effect has expired). Works only for monsters in Monster Zone.
+status:
+  index: stable
+parameters:
+  - name: c1
+    type: [ Card, Group ]
+    description: (To be added)
+  - name: c2
+    type: [ Card, Group ]
+    description: (To be added)
+  - name: reset_phase
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: 0
+  - name: reset_count
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: 0
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

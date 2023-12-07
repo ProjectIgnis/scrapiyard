@@ -1,0 +1,9 @@
+---!constant
+name: TYPE_EFFECT
+enum: CardType
+value: 0x20
+description: |-
+  A card with effect
+status:
+  index: stable
+tags: [ under-construction ]

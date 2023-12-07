@@ -1,0 +1,9 @@
+---!constant
+name: EVENT_TOSS_COIN
+enum: Event
+value: 1151
+description: |-
+  This event is raised when coins are flipped
+status:
+  index: stable
+tags: [ under-construction ]

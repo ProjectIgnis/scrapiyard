@@ -1,0 +1,9 @@
+---!constant
+name: CHAININFO_TARGET_PLAYER
+enum: ChainInfo
+value: 0x80
+description: |-
+  Player targeted by the effect of the current Chain Link
+status:
+  index: stable
+tags: [ under-construction ]

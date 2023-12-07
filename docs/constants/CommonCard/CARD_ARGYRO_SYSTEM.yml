@@ -1,0 +1,9 @@
+---!constant
+name: CARD_ARGYRO_SYSTEM
+enum: CommonCard
+value: 21887075
+description: |-
+  Endless Engine Argyro System's ID
+status:
+  index: stable
+tags: [ under-construction ]

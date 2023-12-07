@@ -1,0 +1,9 @@
+---!constant
+name: SELECT_TAILS
+enum: HintMessage
+value: 61
+description: |-
+  Display "Tails". Used as description when an effect required the player to select heads/tails
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: TYPE_SPIRIT
+enum: CardType
+value: 0x200
+description: |-
+  Spirit monster
+status:
+  index: stable
+tags: [ under-construction ]

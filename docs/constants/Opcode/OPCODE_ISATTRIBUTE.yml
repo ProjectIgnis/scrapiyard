@@ -1,0 +1,9 @@
+---!constant
+name: OPCODE_ISATTRIBUTE
+enum: Opcode
+value: 0x40000104
+description: |-
+  Operation of the function Card.IsAttribute, to be used in an AnnounceCard filter.
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,37 @@
+---!function
+name: CheckEvent
+namespace: Duel
+description: |-
+  Returns if, at the activation timing, the (int event) passed is available. If (bool get_info) is set to true, all the even info are returned as extra return values
+status:
+  index: stable
+parameters:
+  - name: event
+    type: [ int ]
+    description: (To be added)
+  - name: get_info
+    type: [ bool ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ bool ]
+    description: (To be added)
+  - type: [ Group ]
+    description: (To be added)
+    required: false
+  - type: [ int ]
+    description: (To be added)
+    required: false
+  - type: [ int ]
+    description: (To be added)
+    required: false
+  - type: [ Effect ]
+    description: (To be added)
+    required: false
+  - type: [ int ]
+    description: (To be added)
+    required: false
+  - type: [ int ]
+    description: (To be added)
+    required: false
+tags: [ under-construction ]

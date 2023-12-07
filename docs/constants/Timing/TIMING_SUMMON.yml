@@ -1,0 +1,9 @@
+---!constant
+name: TIMING_SUMMON
+enum: Timing
+value: 0x40
+description: |-
+  When a monster is Summoned
+status:
+  index: stable
+tags: [ under-construction ]

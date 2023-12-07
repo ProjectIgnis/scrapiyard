@@ -1,0 +1,24 @@
+---!function
+name: zptgroupcon
+namespace: Auxiliary
+description: |-
+  no description yet
+status:
+  index: stable
+parameters:
+  - name: eg
+    type: [ group ]
+    description: (To be added)
+  - name: filter
+    type: [ function ]
+    description: (To be added)
+  - name: c
+    type: [ card ]
+    description: (To be added)
+  - name: tp
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

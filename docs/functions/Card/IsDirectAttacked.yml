@@ -1,0 +1,15 @@
+---!function
+name: IsDirectAttacked
+namespace: Card
+description: |-
+  Checks if a Card (Card c) has successfully attacked directly
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

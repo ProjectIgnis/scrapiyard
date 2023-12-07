@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_TRAP_ACT_IN_SET_TURN
+enum: EffectCode
+value: 16
+description: |-
+  Affected Trap Card can be activated the turn it was set. If the card is not TYPE_TRAP and/or does not have STATUS_SET_TURN, this effect is skipped. The property EFFECT_FLAG_SET_AVAILABLE should be set. Usually used as EFFECT_TYPE_SINGLE if a field version is used SetTarget receives e and c as parameters. It is suggested that SetDescription is also applied with this effect, for the scenarios where multiple similar effects are available, to allow the player to choose which one to apply.
+status:
+  index: stable
+tags: [ under-construction ]

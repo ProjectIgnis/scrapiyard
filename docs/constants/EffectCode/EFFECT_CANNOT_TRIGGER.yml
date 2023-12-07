@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_CANNOT_TRIGGER
+enum: EffectCode
+value: 7
+description: |-
+  The affected card cannot activate its effects. Usually used as EFFECT_TYPE_SINGLE. If a field version is used, cards that return true for the SetTarget are the ones that cannot activate their effects. In this card, SetTarget receives e and c as parameters.
+status:
+  index: stable
+tags: [ under-construction ]

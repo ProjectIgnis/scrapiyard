@@ -1,0 +1,9 @@
+---!constant
+name: CARD_LABRYNTH_LABYRINTH
+enum: CommonCard
+value: 33407125
+description: |-
+  Labrynth Labyrinth's ID
+status:
+  index: stable
+tags: [ under-construction ]

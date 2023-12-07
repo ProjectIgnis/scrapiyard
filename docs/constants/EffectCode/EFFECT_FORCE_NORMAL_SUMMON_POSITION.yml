@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_FORCE_NORMAL_SUMMON_POSITION
+enum: EffectCode
+value: 426
+description: |-
+  Listed in the core, but not implemented
+status:
+  index: stable
+tags: [ under-construction ]

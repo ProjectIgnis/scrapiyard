@@ -1,0 +1,15 @@
+---!function
+name: GetRange
+namespace: Effect
+description: |-
+  Gets an effect's range (the value defined in SetRange)
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

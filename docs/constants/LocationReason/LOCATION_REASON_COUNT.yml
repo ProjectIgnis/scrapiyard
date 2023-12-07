@@ -1,0 +1,9 @@
+---!constant
+name: LOCATION_REASON_COUNT
+enum: LocationReason
+value: 0x4
+description: |-
+  Duel.GetLocationCount() for DisableField
+status:
+  index: stable
+tags: [ under-construction ]

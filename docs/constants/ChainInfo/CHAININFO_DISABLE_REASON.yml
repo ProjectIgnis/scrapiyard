@@ -1,0 +1,9 @@
+---!constant
+name: CHAININFO_DISABLE_REASON
+enum: ChainInfo
+value: 0x200
+description: |-
+  The reason that disabled the effect/card/summon
+status:
+  index: stable
+tags: [ under-construction ]

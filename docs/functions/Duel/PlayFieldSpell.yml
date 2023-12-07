@@ -1,0 +1,42 @@
+---!function
+name: PlayFieldSpell
+namespace: Duel
+description: |-
+  Function deprecated since version 40.0.0. Use "Duel.ActivateFieldSpell" instead
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: e
+    type: [ any ]
+    description: (To be added)
+  - name: tp
+    type: [ any ]
+    description: (To be added)
+  - name: eg
+    type: [ any ]
+    description: (To be added)
+  - name: ep
+    type: [ any ]
+    description: (To be added)
+  - name: ev
+    type: [ any ]
+    description: (To be added)
+  - name: re
+    type: [ any ]
+    description: (To be added)
+  - name: r
+    type: [ any ]
+    description: (To be added)
+  - name: rp
+    type: [ any ]
+    description: (To be added)
+  - name: target_p
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

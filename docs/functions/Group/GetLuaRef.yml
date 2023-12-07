@@ -1,0 +1,15 @@
+---!function
+name: GetLuaRef
+namespace: Group
+description: |-
+  Returns an integer representing the internal value used by lua to access the Group g.
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ Group ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

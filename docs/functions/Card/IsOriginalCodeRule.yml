@@ -1,0 +1,18 @@
+---!function
+name: IsOriginalCodeRule
+namespace: Card
+description: |-
+  Checks if (Card c) has original code rule of (int cd)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: cd
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: EVENT_STARTUP
+enum: Event
+value: 1000
+description: |-
+  This event is raised once, at the start of the duel
+status:
+  index: stable
+tags: [ under-construction ]

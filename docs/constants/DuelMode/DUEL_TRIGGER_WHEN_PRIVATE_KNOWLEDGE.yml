@@ -1,0 +1,9 @@
+---!constant
+name: DUEL_TRIGGER_WHEN_PRIVATE_KNOWLEDGE
+enum: DuelMode
+value: 0x20
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

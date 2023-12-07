@@ -1,0 +1,15 @@
+---!function
+name: Clone
+namespace: Group
+description: |-
+  Create a copy of a group (Group g) with the same members
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ Group ]
+    description: (To be added)
+returns:
+  - type: [ Group ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,15 @@
+---!function
+name: KeepAlive
+namespace: Group
+description: |-
+  Makes a group (Group g) not be collected upon exiting the function. Returns the group itself.
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ Group ]
+    description: (To be added)
+returns:
+  - type: [ Group ]
+    description: (To be added)
+tags: [ under-construction ]

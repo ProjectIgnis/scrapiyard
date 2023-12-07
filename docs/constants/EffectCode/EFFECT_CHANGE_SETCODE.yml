@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_CHANGE_SETCODE
+enum: EffectCode
+value: 350
+description: |-
+  The affected card's setcode is changed to the new value, replacing the SetCode(s) it currently has
+status:
+  index: stable
+tags: [ under-construction ]

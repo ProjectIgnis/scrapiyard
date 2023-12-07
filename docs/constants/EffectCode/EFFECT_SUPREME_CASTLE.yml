@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_SUPREME_CASTLE
+enum: EffectCode
+value: 72043279
+description: |-
+  The ID of Supreme King's Castle, used for the hardcoded effect of it
+status:
+  index: stable
+tags: [ under-construction ]

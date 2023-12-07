@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_COUNT_CODE_OATH
+enum: CountLimitCode
+value: 0x1
+description: |-
+  A flag to be used with SetCountLimit. An effect that receives this can only be ACTIVATED a given number of times (activations that are negated do not count)
+status:
+  index: stable
+tags: [ under-construction ]

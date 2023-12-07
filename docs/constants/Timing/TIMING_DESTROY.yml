@@ -1,0 +1,9 @@
+---!constant
+name: TIMING_DESTROY
+enum: Timing
+value: 0x80000
+description: |-
+  When something is destroyed
+status:
+  index: stable
+tags: [ under-construction ]

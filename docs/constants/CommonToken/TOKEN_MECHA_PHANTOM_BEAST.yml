@@ -1,0 +1,9 @@
+---!constant
+name: TOKEN_MECHA_PHANTOM_BEAST
+enum: CommonToken
+value: 31533705
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

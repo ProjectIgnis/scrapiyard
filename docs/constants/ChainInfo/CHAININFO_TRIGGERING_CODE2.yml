@@ -1,0 +1,9 @@
+---!constant
+name: CHAININFO_TRIGGERING_CODE2
+enum: ChainInfo
+value: 0x10000
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

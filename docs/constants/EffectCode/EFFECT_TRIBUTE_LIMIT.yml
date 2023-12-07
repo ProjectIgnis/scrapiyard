@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_TRIBUTE_LIMIT
+enum: EffectCode
+value: 154
+description: |-
+  The affected card has restriction for the tribute summon
+status:
+  index: stable
+tags: [ under-construction ]

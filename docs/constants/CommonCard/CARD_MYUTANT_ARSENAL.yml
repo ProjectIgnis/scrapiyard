@@ -1,0 +1,9 @@
+---!constant
+name: CARD_MYUTANT_ARSENAL
+enum: CommonCard
+value: 7574904
+description: |-
+  Myutant Arsenal's ID
+status:
+  index: stable
+tags: [ under-construction ]

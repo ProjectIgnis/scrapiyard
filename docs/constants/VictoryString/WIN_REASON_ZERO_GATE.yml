@@ -1,0 +1,9 @@
+---!constant
+name: WIN_REASON_ZERO_GATE
+enum: VictoryString
+value: 0x53
+description: |-
+  The hexadecimal value for a duel win caused by "Zero Gate of the Void"
+status:
+  index: stable
+tags: [ under-construction ]

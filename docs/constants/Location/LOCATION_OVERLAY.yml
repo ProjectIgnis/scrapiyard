@@ -1,0 +1,9 @@
+---!constant
+name: LOCATION_OVERLAY
+enum: Location
+value: 0x80
+description: |-
+  The location for cards attached as Xyz Material. Also the location used for "stacked" cards  (for anime-only cards)
+status:
+  index: stable
+tags: [ under-construction ]

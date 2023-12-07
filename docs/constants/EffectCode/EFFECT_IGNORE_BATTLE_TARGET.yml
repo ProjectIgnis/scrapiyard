@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_IGNORE_BATTLE_TARGET
+enum: EffectCode
+value: 72
+description: |-
+  Affected card cannot be targeted for an attack, but it doesn't prevent direct attack.
+status:
+  index: stable
+tags: [ under-construction ]

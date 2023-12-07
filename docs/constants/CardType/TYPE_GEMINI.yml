@@ -1,0 +1,9 @@
+---!constant
+name: TYPE_GEMINI
+enum: CardType
+value: 0x800
+description: |-
+  A Gemini monster
+status:
+  index: stable
+tags: [ under-construction ]

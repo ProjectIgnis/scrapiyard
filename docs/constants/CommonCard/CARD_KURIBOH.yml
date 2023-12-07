@@ -1,0 +1,9 @@
+---!constant
+name: CARD_KURIBOH
+enum: CommonCard
+value: 40640057
+description: |-
+  Kuriboh's ID
+status:
+  index: stable
+tags: [ under-construction ]

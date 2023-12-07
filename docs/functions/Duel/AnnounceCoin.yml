@@ -1,0 +1,20 @@
+---!function
+name: AnnounceCoin
+namespace: Duel
+description: |-
+  Asks (int player) to call heads or tails. Returns COIN_HEADS or COIN_TAILS. If confirm_dialog is false, the announce will be performed, but the no selection hint will be shown to the opponent
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: confirm_dialog
+    type: [ bool ]
+    description: (To be added)
+    required: false
+    default: true
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

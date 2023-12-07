@@ -1,0 +1,66 @@
+---!function
+name: CreateSummonEff
+namespace: Fusion
+description: |-
+  Function that generates a Fusion Summon effect, called from the Fusion Summon Procedure defined in "proc_fusion.lua" and "proc_fusion2.lua". By default it's usable for Spells/Traps; usage in monsters requires changing type and code afterwards. Parameters: [Card c]: card that uses the effect, [fusfilter]: filter for the monster to be Fusion Summoned, [matfilter]: filter for the default materials returned by GetFusionMaterial, [extrafil]: function that returns a group of extra cards that can be used as materials, and as second optional return an additional filter function, [extraop]: function to perform a different operation on the materials, [gc]: mandatory card or function returning a group to be used (Soprano the Melodious Songtress), [stage2]: function called after the summon (Shaddol Ruq, Instant Fusion), [exactcount]: exact number of materials that must be used (Ostinato), [location]: the monster's summoning location (LOCATION_EXTRA by default), [chkf]: FUSPROC flags for the Fusion Summon, [desc]: string for the effect's description, [preselect]: function that is executed after selecting the monster but before performing the Fusion Summon (Clock Lizard), [nosummoncheck]: boolean, if true then the procedure won't check if the monster can be Special Summoned in its current state (Clock Lizard), [extratg]: additional target function that will be executed when activating the effect (Miracle Fusion), [mincount]: min number of materials, [maxcount]: max number of materials, [sumpos]: the monster's summoning position (POS_FACEUP by default)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: fusfilter
+    type: [ function ]
+    description: (To be added)
+  - name: matfilter
+    type: [ function ]
+    description: (To be added)
+  - name: extrafil
+    type: [ function ]
+    description: (To be added)
+  - name: extraop
+    type: [ function ]
+    description: (To be added)
+  - name: gc
+    type: [ Group, Card ]
+    description: (To be added)
+  - name: stage2
+    type: [ function ]
+    description: (To be added)
+  - name: exactcount
+    type: [ int ]
+    description: (To be added)
+  - name: value
+    type: [ int ]
+    description: (To be added)
+  - name: location
+    type: [ int ]
+    description: (To be added)
+  - name: chkf
+    type: [ int ]
+    description: (To be added)
+  - name: desc
+    type: [ string ]
+    description: (To be added)
+  - name: preselect
+    type: [ function ]
+    description: (To be added)
+  - name: nosummoncheck
+    type: [ bool ]
+    description: (To be added)
+  - name: extratg
+    type: [ function ]
+    description: (To be added)
+  - name: mincount
+    type: [ int ]
+    description: (To be added)
+  - name: maxcount
+    type: [ int ]
+    description: (To be added)
+  - name: sumpos
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ effect ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,21 @@
+---!function
+name: CheckSameProperty
+namespace: Group
+description: |-
+  Returns if the members of (Group  g) share a same property, provided in (Function f)
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ group ]
+    description: (To be added)
+  - name: f
+    type: [ function ]
+    description: (To be added)
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

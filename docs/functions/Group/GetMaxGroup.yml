@@ -1,0 +1,23 @@
+---!function
+name: GetMaxGroup
+namespace: Group
+description: |-
+  Create a new group with members from another group (Group g) which has the maximum result from f(c,...). Function f accepts at least one parameter (f(c,...), with c as each member of the group), and the return value should be integer, if the group g have no element, that function will return nil.
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ Group ]
+    description: (To be added)
+  - name: f
+    type: [ function ]
+    description: (To be added)
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ Group ]
+    description: (To be added)
+  - type: [ int, nil ]
+    description: (To be added)
+tags: [ under-construction ]

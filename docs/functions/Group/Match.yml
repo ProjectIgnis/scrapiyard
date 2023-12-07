@@ -1,0 +1,24 @@
+---!function
+name: Match
+namespace: Group
+description: |-
+  It has the same behaviour as Group.Filter but the changes are done to the Group g and no new group is created.
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ Group ]
+    description: (To be added)
+  - name: f
+    type: [ function ]
+    description: (To be added)
+  - name: ex
+    type: [ Group, Card, nil ]
+    description: (To be added)
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ Group ]
+    description: (To be added)
+tags: [ under-construction ]

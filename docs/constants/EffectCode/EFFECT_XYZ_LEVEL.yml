@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_XYZ_LEVEL
+enum: EffectCode
+value: 242
+description: |-
+  Affected card can be treated as a given level if used for an Xyz Summon
+status:
+  index: stable
+tags: [ under-construction ]

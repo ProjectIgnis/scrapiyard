@@ -1,0 +1,21 @@
+---!function
+name: MaleficSummonSubstitute
+namespace: Auxiliary
+description: |-
+  Used with the Summoning Procedure of "Malefic" monsters. Checks for the effect of "Malefic Paradox Gear"
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ card ]
+    description: (To be added)
+  - name: cd
+    type: [ card ]
+    description: (To be added)
+  - name: tp
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ function ]
+    description: (To be added)
+tags: [ under-construction ]

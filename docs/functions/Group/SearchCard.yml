@@ -1,0 +1,21 @@
+---!function
+name: SearchCard
+namespace: Group
+description: |-
+  Gets the first card found in a group (Group g) which f(c,...) returns true. Function f accepts at least one parameter (f(c,...), with c as each member of the group), and must return a boolean.
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ Group ]
+    description: (To be added)
+  - name: f
+    type: [ function ]
+    description: (To be added)
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ Card ]
+    description: (To be added)
+tags: [ under-construction ]

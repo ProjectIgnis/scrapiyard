@@ -1,0 +1,15 @@
+---!function
+name: IsPhase
+namespace: Duel
+description: |-
+  Returns if the current phase is the equal to (int phase)
+status:
+  index: stable
+parameters:
+  - name: phase
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

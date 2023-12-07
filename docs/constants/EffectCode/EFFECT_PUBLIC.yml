@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_PUBLIC
+enum: EffectCode
+value: 160
+description: |-
+  Affected card becomes public knowledge
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_MUST_ATTACK
+enum: EffectCode
+value: 191
+description: |-
+  Affected card must attack if able
+status:
+  index: stable
+tags: [ under-construction ]

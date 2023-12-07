@@ -1,0 +1,16 @@
+---!function
+name: LinkMarker
+namespace: Card
+description: |-
+  Changes (Card c)'s original LinkMarkers if (int linkmarker) is inputted, else returns the current card's original LinkMarkers.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: linkmarker
+    type: [ int ]
+    description: (To be added)
+    required: false
+tags: [ under-construction ]

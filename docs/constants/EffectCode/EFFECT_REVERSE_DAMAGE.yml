@@ -1,0 +1,14 @@
+---!constant
+name: EFFECT_REVERSE_DAMAGE
+enum: EffectCode
+value: 80
+description: |-
+  If the affected player would take damage, they gain that much LP instead. SetValue in this effect receives the following parameters:
+e: this effect itself
+re: reason effect
+r: reason
+rp: reason player
+rc: reason card
+status:
+  index: stable
+tags: [ under-construction ]

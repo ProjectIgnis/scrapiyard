@@ -1,0 +1,9 @@
+---!constant
+name: OPCODE_GETRACE
+enum: Opcode
+value: 0x40000108
+description: |-
+  Operation of the function Card.GetRace, to be used in an AnnounceCard filter.
+status:
+  index: stable
+tags: [ under-construction ]

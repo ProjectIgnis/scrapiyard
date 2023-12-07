@@ -1,0 +1,11 @@
+---!constant
+name: EFFECT_CANNOT_INACTIVATE
+enum: EffectCode
+value: 12
+description: |-
+  Affected cards (single range or via set target range) cannot have the activation of their effect(s) negated. If SetValue is used, it receives the following parameters:
+e: this effect itself
+chaincount:
+status:
+  index: stable
+tags: [ under-construction ]

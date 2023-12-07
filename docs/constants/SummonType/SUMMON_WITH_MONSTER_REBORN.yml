@@ -1,0 +1,9 @@
+---!constant
+name: SUMMON_WITH_MONSTER_REBORN
+enum: SummonType
+value: 1010
+description: |-
+  Summon value (sumtype variable) used by the "Monster Reborn". Cards that need to check if a monster was summoned by Monster Reborn should check for this SummonType
+status:
+  index: stable
+tags: [ under-construction ]

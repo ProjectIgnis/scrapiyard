@@ -1,0 +1,9 @@
+---!constant
+name: TIMING_CHAIN_END
+enum: Timing
+value: 0x8000
+description: |-
+  When a chain ends
+status:
+  index: stable
+tags: [ under-construction ]

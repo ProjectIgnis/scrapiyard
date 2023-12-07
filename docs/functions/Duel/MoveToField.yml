@@ -1,0 +1,34 @@
+---!function
+name: MoveToField
+namespace: Duel
+description: |-
+  A player (int move_player) moves a card (Card c) to the target player's field. The destination must be either LOCATION_MZONE or LOCATION_SZONE (maybe LOCATION_ONFIELD too). It will be sent with the given position (int pos). Its effects will either be enabled or disabled according to the last parameter (bool enabled), if zone is specified, it can only place the card in these zones.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: move_player
+    type: [ int ]
+    description: (To be added)
+  - name: target_player
+    type: [ int ]
+    description: (To be added)
+  - name: dest
+    type: [ int ]
+    description: (To be added)
+  - name: pos
+    type: [ int ]
+    description: (To be added)
+  - name: enabled
+    type: [ bool ]
+    description: (To be added)
+  - name: zone
+    type: [ int ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

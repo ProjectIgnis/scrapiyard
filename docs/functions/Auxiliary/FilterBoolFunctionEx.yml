@@ -1,0 +1,18 @@
+---!function
+name: FilterBoolFunctionEx
+namespace: Auxiliary
+description: |-
+  Used filter for the Fusion, Xyz, Synchro and Link Procedures where (function f) can be Card.IsRace, Card.IsAttribute and Card.IsType and (int value) corresponds to the required Race, Attribute and Type.
+status:
+  index: stable
+parameters:
+  - name: f
+    type: [ function ]
+    description: (To be added)
+  - name: value
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

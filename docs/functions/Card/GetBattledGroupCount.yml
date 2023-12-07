@@ -1,0 +1,15 @@
+---!function
+name: GetBattledGroupCount
+namespace: Card
+description: |-
+  Gets the count of cards that has battled (all the attacking and the attacked cards)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

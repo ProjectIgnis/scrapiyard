@@ -1,0 +1,18 @@
+---!function
+name: IsDoubleTribute
+namespace: Card
+description: |-
+  Rush related function. Returns false if (Card c) does not have all the flags (int ...) passed as arguments
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: ...
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

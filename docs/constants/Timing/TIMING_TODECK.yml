@@ -1,0 +1,9 @@
+---!constant
+name: TIMING_TODECK
+enum: Timing
+value: 0x400000
+description: |-
+  This event is raised when a card is sent to the deck
+status:
+  index: stable
+tags: [ under-construction ]

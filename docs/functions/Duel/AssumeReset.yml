@@ -1,0 +1,8 @@
+---!function
+name: AssumeReset
+namespace: Duel
+description: |-
+  Manually resets assumed effects. Usually used in Synchro Summon procedure (eg: it resets the applied effect of "Influence Dragon (Anime)" on the other materials in the Synchro Summon.)
+status:
+  index: stable
+tags: [ under-construction ]

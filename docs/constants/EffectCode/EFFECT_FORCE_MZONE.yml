@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_FORCE_MZONE
+enum: EffectCode
+value: 265
+description: |-
+  Forces a zone to be used (see Dai Dance).
+status:
+  index: stable
+tags: [ under-construction ]

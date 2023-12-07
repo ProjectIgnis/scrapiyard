@@ -1,0 +1,9 @@
+---!constant
+name: STATUS_FORM_CHANGED
+enum: CardStatus
+value: 0x100
+description: |-
+  A monster that had his position manually changed in the current turn
+status:
+  index: stable
+tags: [ under-construction ]

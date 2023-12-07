@@ -1,0 +1,9 @@
+---!constant
+name: CATEGORY_ANNOUNCE
+enum: EffectCategory
+value: 0x20000000
+description: |-
+  Describes an effect that requires declaring a card name
+status:
+  index: stable
+tags: [ under-construction ]

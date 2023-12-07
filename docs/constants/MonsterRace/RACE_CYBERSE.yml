@@ -1,0 +1,9 @@
+---!constant
+name: RACE_CYBERSE
+enum: MonsterRace
+value: 0x1000000
+description: |-
+  The Cyberse monster type
+status:
+  index: stable
+tags: [ under-construction ]

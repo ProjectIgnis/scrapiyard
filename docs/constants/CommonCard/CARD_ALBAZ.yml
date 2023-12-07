@@ -1,0 +1,9 @@
+---!constant
+name: CARD_ALBAZ
+enum: CommonCard
+value: 68468459
+description: |-
+  Fallen of Albaz's ID used for listed_names and specific support
+status:
+  index: stable
+tags: [ under-construction ]

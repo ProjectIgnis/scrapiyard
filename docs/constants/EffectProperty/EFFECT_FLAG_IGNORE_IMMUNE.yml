@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_FLAG_IGNORE_IMMUNE
+enum: EffectProperty
+value: 0x80
+description: |-
+  Effect applies regardless of a card being "Unaffected by card effects"
+status:
+  index: stable
+tags: [ under-construction ]

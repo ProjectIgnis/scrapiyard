@@ -1,0 +1,15 @@
+---!function
+name: PayLPCost
+namespace: Duel
+description: |-
+  Makes a player (int player) pay an amount (int cost) of LP
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: cost
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

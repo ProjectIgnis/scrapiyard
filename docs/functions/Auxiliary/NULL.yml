@@ -1,0 +1,11 @@
+---!function
+name: 'NULL'
+namespace: Auxiliary
+description: |-
+  Function that returns nil
+status:
+  index: stable
+returns:
+  - type: [ nil ]
+    description: (To be added)
+tags: [ under-construction ]

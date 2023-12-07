@@ -1,0 +1,9 @@
+---!constant
+name: RESET_OPPO_TURN
+enum: Reset
+value: 0x20000000
+description: |-
+  Resets on the opponent's turn. If this reset is used with an effect registered to a card, it is seen from the point of view of that card's controler. Thus, it should be limited to the Duel version of RegisterEffect
+status:
+  index: stable
+tags: [ under-construction ]

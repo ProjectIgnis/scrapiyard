@@ -1,0 +1,9 @@
+---!constant
+name: GLOBALFLAG_DELAYED_QUICKEFFECT
+enum: GlobalFlag
+value: 0x8
+description: |-
+  N/A
+status:
+  index: stable
+tags: [ under-construction ]

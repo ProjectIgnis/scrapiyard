@@ -1,0 +1,15 @@
+---!function
+name: GetRightScale
+namespace: Card
+description: |-
+  Returns the current right Pendulum Scale of "c". (Returns 0 if it has no Pendulum Scale.)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

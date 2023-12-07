@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_LEVEL_RANK_S
+enum: EffectCode
+value: 410
+description: |-
+  Gives Rank to an affected monster with a Level, Level and Rank are always synced.
+status:
+  index: stable
+tags: [ under-construction ]

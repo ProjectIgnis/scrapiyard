@@ -1,0 +1,9 @@
+---!constant
+name: STATUS_SPSUMMON_STEP
+enum: CardStatus
+value: 0x80
+description: |-
+  Special Summon not yet finished aka "Step"
+status:
+  index: stable
+tags: [ under-construction ]

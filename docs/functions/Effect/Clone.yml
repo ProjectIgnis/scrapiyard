@@ -1,0 +1,15 @@
+---!function
+name: Clone
+namespace: Effect
+description: |-
+  Clone an effect object (Effect e), duplicating all except register status and assigned labels.
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+returns:
+  - type: [ Effect ]
+    description: (To be added)
+tags: [ under-construction ]

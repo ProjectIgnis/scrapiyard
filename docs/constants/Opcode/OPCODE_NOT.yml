@@ -1,0 +1,9 @@
+---!constant
+name: OPCODE_NOT
+enum: Opcode
+value: 0x40000007
+description: |-
+  Operation of changing sign (+/-), to be used in an AnnounceCard filter.
+status:
+  index: stable
+tags: [ under-construction ]

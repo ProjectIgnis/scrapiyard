@@ -1,0 +1,15 @@
+---!function
+name: NOT
+namespace: Auxiliary
+description: |-
+  This is equivalent to not f(...), if used as filter checking, (...) is automatically applied
+status:
+  index: stable
+parameters:
+  - name: f
+    type: [ function ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_CHANGE_LSCALE
+enum: EffectCode
+value: 135
+description: |-
+  Set affected card's left pendulum scale (blue scale) to a value (written into Effect.SetValue())
+status:
+  index: stable
+tags: [ under-construction ]

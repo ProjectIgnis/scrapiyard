@@ -1,0 +1,9 @@
+---!constant
+name: HINTMSG_DESREPLACE
+enum: HintMessage
+value: 521
+description: |-
+  Shows the following HintMessage: "Select the card(s) to replace"
+status:
+  index: stable
+tags: [ under-construction ]

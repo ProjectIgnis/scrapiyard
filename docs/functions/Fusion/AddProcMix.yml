@@ -1,0 +1,21 @@
+---!function
+name: AddProcMix
+namespace: Fusion
+description: |-
+  Adds a Fusion Procedure where (bool sub) is a check if Fusion Substitutes are allowed. (bool insf) is a check if using no materials are allowed (e.g. Instant Fusion). (int|function ...) is a list of any number of codes/conditions as Fusion Materials. Member function from the Fusion namespace. Definition available in proc_fusion.lua.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: sub
+    type: [ bool ]
+    description: (To be added)
+  - name: insf
+    type: [ bool ]
+    description: (To be added)
+  - name: ...
+    type: [ int, function ]
+    description: (To be added)
+tags: [ under-construction ]

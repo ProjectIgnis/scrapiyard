@@ -1,0 +1,8 @@
+---!function
+name: EquipComplete
+namespace: Duel
+description: |-
+  Concludes a series of Equips (Always used with 'is_step = true' in Duel.Equip())
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: EVENT_CHAIN_NEGATED
+enum: Event
+value: 1024
+description: |-
+  This event is raised when a chain link has its activation negated (after EVENT_CHAIN_ACTIVATING)
+status:
+  index: stable
+tags: [ under-construction ]

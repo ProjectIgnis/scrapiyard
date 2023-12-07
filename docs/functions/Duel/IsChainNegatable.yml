@@ -1,0 +1,15 @@
+---!function
+name: IsChainNegatable
+namespace: Duel
+description: |-
+  Checks if a chain's (int chainc) effect activation can be negated (Negate Activation)
+status:
+  index: stable
+parameters:
+  - name: chainc
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

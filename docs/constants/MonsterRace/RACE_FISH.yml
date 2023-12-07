@@ -1,0 +1,9 @@
+---!constant
+name: RACE_FISH
+enum: MonsterRace
+value: 0x20000
+description: |-
+  Fish type monster
+status:
+  index: stable
+tags: [ under-construction ]

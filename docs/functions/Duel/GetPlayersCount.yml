@@ -1,0 +1,15 @@
+---!function
+name: GetPlayersCount
+namespace: Duel
+description: |-
+  Get the amount of player for that specific team. (Can be used to deduce if the duel is an "n vs m" duel and also in conjunction with Duel.TagSwap to "iterate" all the players in the duel.)
+status:
+  index: stable
+parameters:
+  - name: team
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

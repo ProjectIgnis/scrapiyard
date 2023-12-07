@@ -1,0 +1,15 @@
+---!function
+name: UnionSumOperation
+namespace: Auxiliary
+description: |-
+  no description yet
+status:
+  index: stable
+parameters:
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ function ]
+    description: (To be added)
+tags: [ under-construction ]

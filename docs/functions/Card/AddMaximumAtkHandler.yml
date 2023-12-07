@@ -1,0 +1,12 @@
+---!function
+name: AddMaximumAtkHandler
+namespace: Card
+description: |-
+  Rush related function
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ any ]
+    description: (To be added)
+tags: [ under-construction ]

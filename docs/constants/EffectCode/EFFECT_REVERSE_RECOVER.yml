@@ -1,0 +1,12 @@
+---!constant
+name: EFFECT_REVERSE_RECOVER
+enum: EffectCode
+value: 81
+description: |-
+  If the affected player would gain LP, they take that much damage instead. SetValue in this effect receives the following parameters:
+e: this effect itself
+r: reason
+rp: reason player
+status:
+  index: stable
+tags: [ under-construction ]

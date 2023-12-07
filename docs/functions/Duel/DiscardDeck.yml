@@ -1,0 +1,21 @@
+---!function
+name: DiscardDeck
+namespace: Duel
+description: |-
+  Makes player (int player) send a number of cards (int count)  from the top of their Deck  to the Graveyard (discard mechanic) with the reason defined by (int reason)
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: count
+    type: [ int ]
+    description: (To be added)
+  - name: reason
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

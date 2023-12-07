@@ -1,0 +1,32 @@
+---!function
+name: CheckTribute
+namespace: Duel
+description: |-
+  Checkd if there are valid tributes on the field to summon Card c to tp's field in the zones specified by zone using the rules of a normal tribute summon.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: min
+    type: [ int ]
+    description: (To be added)
+  - name: max
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: min
+  - name: mg
+    type: [ Group, nil ]
+    description: (To be added)
+    required: false
+  - name: tp
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: c:GetControle
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

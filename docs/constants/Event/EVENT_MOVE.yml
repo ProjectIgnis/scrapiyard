@@ -1,0 +1,9 @@
+---!constant
+name: EVENT_MOVE
+enum: Event
+value: 1030
+description: |-
+  This event is raised when a card moves from one location or sequence to another
+status:
+  index: stable
+tags: [ under-construction ]

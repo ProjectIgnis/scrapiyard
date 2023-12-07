@@ -1,0 +1,9 @@
+---!constant
+name: OPCODE_LSHIFT
+enum: Opcode
+value: 0x40000012
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

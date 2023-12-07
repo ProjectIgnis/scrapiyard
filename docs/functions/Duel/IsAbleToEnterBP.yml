@@ -1,0 +1,11 @@
+---!function
+name: IsAbleToEnterBP
+namespace: Duel
+description: |-
+  Checks if the player can enter BP this turn. This function returns true when eother of these is true: - it is not the first turn of the duel, - the DuelMode flag DUEL_ATTACK_FIRST_TURN is set, - the turn player is affected by EFFECT_BP_FIRST_TURN and that player is not affected by EFFECT_CANNOT_BP and the current phase is lower than PHASE_BATTLE_START.
+status:
+  index: stable
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

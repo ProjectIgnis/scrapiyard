@@ -1,0 +1,26 @@
+---!function
+name: CanSummonOrSet
+namespace: Card
+description: |-
+  Returns if the (Card c) can be either Normal Summoned or Set by (Effect e), if it is not nil. If (bool ignore_count) is true, it ignores the standard once per turn summon limit. (int min) is the minimum number of tributes that are required
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: ignore_count
+    type: [ bool ]
+    description: (To be added)
+  - name: e
+    type: [ Effect,nil ]
+    description: (To be added)
+  - name: min
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: 0
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

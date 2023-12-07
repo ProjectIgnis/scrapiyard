@@ -1,0 +1,18 @@
+---!function
+name: IsStatus
+namespace: Card
+description: |-
+  Checks if "c" has the given status (STATUS_x)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: status
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

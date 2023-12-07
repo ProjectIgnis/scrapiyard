@@ -1,0 +1,15 @@
+---!function
+name: GetActiveType
+namespace: Effect
+description: |-
+  Gets an effect's (Effect e) CardType of activation effect. Activation type is often the effect handler's CardType, or the owner's if not attached to a card. Exception for Pendulum scale activation (would return TYPE_SPELL+TYPE_PENDULUM).
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

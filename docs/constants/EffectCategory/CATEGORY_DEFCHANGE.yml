@@ -1,0 +1,9 @@
+---!constant
+name: CATEGORY_DEFCHANGE
+enum: EffectCategory
+value: 0x400000
+description: |-
+  Describes that a card changes DEF
+status:
+  index: stable
+tags: [ under-construction ]

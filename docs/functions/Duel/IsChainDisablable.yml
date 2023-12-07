@@ -1,0 +1,15 @@
+---!function
+name: IsChainDisablable
+namespace: Duel
+description: |-
+  Checks if a chain's (int chainc) effect can be disabled (Negate Effect)
+status:
+  index: stable
+parameters:
+  - name: chainc
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

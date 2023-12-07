@@ -1,0 +1,20 @@
+---!function
+name: IsAbleToRemoveAsCost
+namespace: Card
+description: |-
+  Checks if a card (Card c) is able to be banished as a cost. If (int pos) is provided, checks if it can be banished in that position.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: pos
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: POS_FACEUP
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

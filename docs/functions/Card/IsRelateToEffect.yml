@@ -1,0 +1,18 @@
+---!function
+name: IsRelateToEffect
+namespace: Card
+description: |-
+  Checks whether a card (Card c) is related to an effect (Effect e)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

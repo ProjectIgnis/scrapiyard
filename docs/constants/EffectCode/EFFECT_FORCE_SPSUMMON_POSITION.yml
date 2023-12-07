@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_FORCE_SPSUMMON_POSITION
+enum: EffectCode
+value: 427
+description: |-
+  This effect's SetTarget takes the following parameters: eff, pcard, playerid, sumtype, sumpos, toplayer, peffect
+status:
+  index: stable
+tags: [ under-construction ]

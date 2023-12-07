@@ -1,0 +1,9 @@
+---!constant
+name: TYPE_RITUAL
+enum: CardType
+value: 0x80
+description: |-
+  A Ritual card
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: CARD_TRANSAMU_RAINAC
+enum: CommonCard
+value: 160425001
+description: |-
+  Constant for a commonly used Rush card
+status:
+  index: stable
+tags: [ under-construction ]

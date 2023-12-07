@@ -1,0 +1,9 @@
+---!constant
+name: LOCATION_STZONE
+enum: Location
+value: 0x400
+description: |-
+  The Spell/Trap Zone (without the Field Zone). Symbolic location. Can be used in functions expecting a location and also in SetRange (except with trigger effects)
+status:
+  index: stable
+tags: [ under-construction ]

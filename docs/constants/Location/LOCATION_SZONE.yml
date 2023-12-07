@@ -1,0 +1,9 @@
+---!constant
+name: LOCATION_SZONE
+enum: Location
+value: 0x8
+description: |-
+  The Spell/Trap Zones. It includes the Field Spell Zone and the Pendulum Zones (<=MR3).
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,22 @@
+---!function
+name: LoadScript
+namespace: Duel
+description: |-
+  Loads into the current environment (duel/puzzle) (file_name)'s script, and return true or false depending on the script loading success. If "forced" is false, the file name is loaded only if it hasn't been loaded before. If "forced" is true, other than loading the script regardless if it has been loaded previously, the 2nd returned value will be whatever was set as the global variable "edopro_export" from the loaded script.
+status:
+  index: stable
+parameters:
+  - name: file_name
+    type: [ string ]
+    description: (To be added)
+  - name: forced
+    type: [ bool ]
+    description: (To be added)
+    required: false
+    default: false
+returns:
+  - type: [ bool ]
+    description: (To be added)
+  - type: [ object, nil ]
+    description: (To be added)
+tags: [ under-construction ]

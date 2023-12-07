@@ -1,0 +1,9 @@
+---!constant
+name: CARD_NECROVALLEY
+enum: CommonCard
+value: 47355498
+description: |-
+  Necrovalley's ID, used for hardcoded effect and specific support
+status:
+  index: stable
+tags: [ under-construction ]

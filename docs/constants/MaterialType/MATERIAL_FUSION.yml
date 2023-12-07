@@ -1,0 +1,9 @@
+---!constant
+name: MATERIAL_FUSION
+enum: MaterialType
+value: 0x1<<32
+description: |-
+  Value= 0x1<<32
+status:
+  index: stable
+tags: [ under-construction ]

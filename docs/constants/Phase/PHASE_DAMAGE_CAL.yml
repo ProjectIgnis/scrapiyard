@@ -1,0 +1,9 @@
+---!constant
+name: PHASE_DAMAGE_CAL
+enum: Phase
+value: 0x40
+description: |-
+  The Damage Calculation
+status:
+  index: stable
+tags: [ under-construction ]

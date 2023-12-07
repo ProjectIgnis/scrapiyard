@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_COUNTER_PERMIT
+enum: EffectCode
+value: 0x10000
+description: |-
+  Allow placement of counter type
+status:
+  index: stable
+tags: [ under-construction ]

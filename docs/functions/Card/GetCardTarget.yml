@@ -1,0 +1,15 @@
+---!function
+name: GetCardTarget
+namespace: Card
+description: |-
+  Gets the group of cards that a card (Card c) is assigned targets to
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ Group ]
+    description: (To be added)
+tags: [ under-construction ]

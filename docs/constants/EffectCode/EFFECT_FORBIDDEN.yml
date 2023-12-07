@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_FORBIDDEN
+enum: EffectCode
+value: 292
+description: |-
+  Card cannot be used (Prohibition, Psi-Blocker)
+status:
+  index: stable
+tags: [ under-construction ]

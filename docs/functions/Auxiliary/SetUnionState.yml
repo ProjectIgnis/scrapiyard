@@ -1,0 +1,12 @@
+---!function
+name: SetUnionState
+namespace: Auxiliary
+description: |-
+  See proc_union.lua.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ card ]
+    description: (To be added)
+tags: [ under-construction ]

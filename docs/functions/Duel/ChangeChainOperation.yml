@@ -1,0 +1,15 @@
+---!function
+name: ChangeChainOperation
+namespace: Duel
+description: |-
+  Replaces the operation executed by the effect at the specific chain index with the passed function.
+status:
+  index: stable
+parameters:
+  - name: chain_idx
+    type: [ int ]
+    description: (To be added)
+  - name: f
+    type: [ function ]
+    description: (To be added)
+tags: [ under-construction ]

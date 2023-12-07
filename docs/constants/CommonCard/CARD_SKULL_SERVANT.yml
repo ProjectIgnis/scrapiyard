@@ -1,0 +1,9 @@
+---!constant
+name: CARD_SKULL_SERVANT
+enum: CommonCard
+value: 32274490
+description: |-
+  Skull Servant's ID
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,18 @@
+---!function
+name: SelectEffect
+namespace: Auxiliary
+description: |-
+  Function deprecated since version 40.0.0. Use "Duel.SelectEffect" instead
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ int, nil ]
+    description: (To be added)
+tags: [ under-construction ]

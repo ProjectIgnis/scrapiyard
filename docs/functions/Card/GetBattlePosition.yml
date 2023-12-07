@@ -1,0 +1,15 @@
+---!function
+name: GetBattlePosition
+namespace: Card
+description: |-
+  Returns the position of "c" at the start of the Damage Step (see "Marshmallon").
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

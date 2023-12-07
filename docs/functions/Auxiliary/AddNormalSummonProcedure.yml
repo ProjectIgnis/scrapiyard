@@ -1,0 +1,39 @@
+---!function
+name: AddNormalSummonProcedure
+namespace: Auxiliary
+description: |-
+  no description yet
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ card ]
+    description: (To be added)
+  - name: ns
+    type: [ bool ]
+    description: (To be added)
+  - name: opt
+    type: [ bool ]
+    description: (To be added)
+  - name: min
+    type: [ int ]
+    description: (To be added)
+  - name: max
+    type: [ int ]
+    description: (To be added)
+  - name: sum_type_val
+    type: [ int ]
+    description: (To be added)
+  - name: desc
+    type: [ string ]
+    description: (To be added)
+  - name: f
+    type: [ function ]
+    description: (To be added)
+  - name: sumop
+    type: [ function ]
+    description: (To be added)
+returns:
+  - type: [ effect ]
+    description: (To be added)
+tags: [ under-construction ]

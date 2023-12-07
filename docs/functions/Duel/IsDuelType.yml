@@ -1,0 +1,15 @@
+---!function
+name: IsDuelType
+namespace: Duel
+description: |-
+  Check if the current duel flags match the passed ones. (Check the "DUEL_XXX" constants for the available flags)
+status:
+  index: stable
+parameters:
+  - name: flag
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

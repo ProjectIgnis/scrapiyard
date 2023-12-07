@@ -1,0 +1,9 @@
+---!constant
+name: CARD_NATURIA_CAMELLIA
+enum: CommonCard
+value: 29942771
+description: |-
+  Naturia Camellia's ID
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,33 @@
+---!function
+name: GetMZoneCount
+namespace: Duel
+description: |-
+  Gets the number of available Main Monster Zones of a player (target_player)[, excluding card|group (ex), that can be used by the player (use_player), with intention of (reason), among certain zones (zone)]    {note: Basically it is Duel.GetLocationCount that excludes}. The second return is a flag with the available zones.
+status:
+  index: stable
+parameters:
+  - name: target_player
+    type: [ int ]
+    description: (To be added)
+  - name: ex
+    type: [ card, group ]
+    description: (To be added)
+    required: false
+  - name: use_player
+    type: [ int ]
+    description: (To be added)
+    required: false
+  - name: reason
+    type: [ int ]
+    description: (To be added)
+    required: false
+  - name: zone
+    type: [ int ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ int ]
+    description: (To be added)
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

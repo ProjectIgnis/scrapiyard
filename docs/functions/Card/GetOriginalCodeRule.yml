@@ -1,0 +1,17 @@
+---!function
+name: GetOriginalCodeRule
+namespace: Card
+description: |-
+  Returns the original code (ID/name) of the card "c" while taking into account name clauses/alias (used for the "original name" wording).
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

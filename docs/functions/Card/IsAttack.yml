@@ -1,0 +1,18 @@
+---!function
+name: IsAttack
+namespace: Card
+description: |-
+  Returns if a card (Card c) has an ATK equal to any of the values passed
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: ...
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

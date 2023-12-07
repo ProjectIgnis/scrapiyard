@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_IRON_WALL
+enum: EffectCode
+value: 361
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

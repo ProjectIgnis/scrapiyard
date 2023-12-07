@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_SET_PROC
+enum: EffectCode
+value: 36
+description: |-
+  Specifies a special method through which the affected card can be Normal Set
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: HINTMSG_OPPO
+enum: HintMessage
+value: 530
+description: |-
+  Shows the following HintMessage: "Select an opponent's card"
+status:
+  index: stable
+tags: [ under-construction ]

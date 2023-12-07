@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_SEND_REPLACE
+enum: EffectCode
+value: 52
+description: |-
+  Card is sent to some location instead of another (Madolche Chateau)
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_REVIVE_LIMIT
+enum: EffectCode
+value: 31
+description: |-
+  The affected card must be Special Summoned properly before being Special Summoned from public locations
+status:
+  index: stable
+tags: [ under-construction ]

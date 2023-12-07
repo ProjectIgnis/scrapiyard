@@ -1,0 +1,20 @@
+---!function
+name: IsPlayerCanDraw
+namespace: Duel
+description: |-
+  If (int count) is not provided, checks if the provided player (int player) can draw cards from the deck (i.e if it is not affected by EFFECT_CANNOT_DRAW). If (int count) is provided and it is not 0, additionally checks if the player has at least that many cards in the deck.
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: count
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: 0
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

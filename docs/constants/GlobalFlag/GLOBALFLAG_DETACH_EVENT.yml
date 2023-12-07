@@ -1,0 +1,9 @@
+---!constant
+name: GLOBALFLAG_DETACH_EVENT
+enum: GlobalFlag
+value: 0x10
+description: |-
+  This flag is required when using EVENT_DETACH_MATERIAL
+status:
+  index: stable
+tags: [ under-construction ]

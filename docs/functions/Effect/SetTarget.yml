@@ -1,0 +1,15 @@
+---!function
+name: SetTarget
+namespace: Effect
+description: |-
+  Sets (Effect e)'s target function. In a activate effects, the target function is the function used to do the activation legality check and to execute steps that must be done during the activation (e.g. targeting cards, declaring names or numbers, etc).
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+  - name: targ_func
+    type: [ function ]
+    description: (To be added)
+tags: [ under-construction ]

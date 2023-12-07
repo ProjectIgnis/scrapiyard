@@ -1,0 +1,18 @@
+---!function
+name: HasCounterListed
+namespace: Auxiliary
+description: |-
+  Function deprecated since version 40.0.0. Use "Card.ListsCounter" instead
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ card ]
+    description: (To be added)
+  - name: counter_type
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

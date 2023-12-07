@@ -1,0 +1,9 @@
+---!constant
+name: CHAININFO_TRIGGERING_SEQUENCE_SYMBOLIC
+enum: ChainInfo
+value: 0x21
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

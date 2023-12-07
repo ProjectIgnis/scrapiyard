@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_DIRECT_ATTACK
+enum: EffectCode
+value: 74
+description: |-
+  Affected card can make a direct attack.
+status:
+  index: stable
+tags: [ under-construction ]

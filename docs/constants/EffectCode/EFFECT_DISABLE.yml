@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_DISABLE
+enum: EffectCode
+value: 2
+description: |-
+  Ineffective (skills extraction)
+status:
+  index: stable
+tags: [ under-construction ]

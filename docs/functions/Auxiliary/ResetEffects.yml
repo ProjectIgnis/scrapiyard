@@ -1,0 +1,15 @@
+---!function
+name: ResetEffects
+namespace: Auxiliary
+description: |-
+  Resets all effects with code (int eff) in a group of cards defined (Group g).
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ Group ]
+    description: (To be added)
+  - name: eff
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

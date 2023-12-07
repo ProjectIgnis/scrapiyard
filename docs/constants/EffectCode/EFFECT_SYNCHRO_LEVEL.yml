@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_SYNCHRO_LEVEL
+enum: EffectCode
+value: 240
+description: |-
+  Affected card can be treated as a given level if used for a Synchro Summon
+status:
+  index: stable
+tags: [ under-construction ]

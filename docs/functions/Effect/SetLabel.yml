@@ -1,0 +1,19 @@
+---!function
+name: SetLabel
+namespace: Effect
+description: |-
+  Sets an effect's (Effect e) internal labels to the integers passed as parameter (Multiple values and tables can used). This operation replaces previously set labels.
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+  - name: label
+    type: [ int ]
+    description: (To be added)
+  - name: ...
+    type: [ int ]
+    description: (To be added)
+    required: false
+tags: [ under-construction ]

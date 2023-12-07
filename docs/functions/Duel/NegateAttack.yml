@@ -1,0 +1,11 @@
+---!function
+name: NegateAttack
+namespace: Duel
+description: |-
+  Negates the current attack. Has no effect if the game has confirmed battle (about to enter Damage Step)
+status:
+  index: stable
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

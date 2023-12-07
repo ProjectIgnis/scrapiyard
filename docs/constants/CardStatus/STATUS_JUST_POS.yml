@@ -1,0 +1,9 @@
+---!constant
+name: STATUS_JUST_POS
+enum: CardStatus
+value: 0x1000000
+description: |-
+  A monster that had just changed its position
+status:
+  index: stable
+tags: [ under-construction ]

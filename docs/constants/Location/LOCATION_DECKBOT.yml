@@ -1,0 +1,9 @@
+---!constant
+name: LOCATION_DECKBOT
+enum: Location
+value: 0x10001
+description: |-
+  The Bottom of Deck. Used only in Location Redirect
+status:
+  index: stable
+tags: [ under-construction ]

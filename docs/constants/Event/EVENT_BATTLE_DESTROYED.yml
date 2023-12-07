@@ -1,0 +1,9 @@
+---!constant
+name: EVENT_BATTLE_DESTROYED
+enum: Event
+value: 1140
+description: |-
+  This event is raised after a monster is destroyed by battle
+status:
+  index: stable
+tags: [ under-construction ]

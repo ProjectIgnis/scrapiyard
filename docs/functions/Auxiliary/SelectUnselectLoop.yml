@@ -1,0 +1,15 @@
+---!function
+name: SelectUnselectLoop
+namespace: Auxiliary
+description: |-
+  Auxiliary function used by the SelectUnselectGroup function only
+status:
+  index: stable
+parameters:
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ bool, Group ]
+    description: (To be added)
+tags: [ under-construction ]

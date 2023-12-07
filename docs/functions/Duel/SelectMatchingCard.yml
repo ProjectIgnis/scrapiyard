@@ -1,0 +1,46 @@
+---!function
+name: SelectMatchingCard
+namespace: Duel
+description: |-
+  Makes (int sel_player) select between a minimum and maximum (int min, int max) number of cards in locations (int s) (on (int player)'s side of the field) and (int o) (on their opponent's) for which (function f) returns true, except (Card ex). If cancelable is true and the selection is canceled nil will be returned. If both cancelable and a minimum of 0 are passed, the result is unspecified.
+status:
+  index: stable
+parameters:
+  - name: sel_player
+    type: [ int ]
+    description: (To be added)
+  - name: f
+    type: [ function ]
+    description: (To be added)
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: s
+    type: [ int ]
+    description: (To be added)
+  - name: o
+    type: [ int ]
+    description: (To be added)
+  - name: min
+    type: [ int ]
+    description: (To be added)
+  - name: max
+    type: [ int ]
+    description: (To be added)
+  - name: cancelable
+    type: [ any ]
+    description: (To be added)
+    required: false
+    default: false]
+  - name: ex
+    type: [ Group, Card, nil ]
+    description: (To be added)
+    required: false
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ Group ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: STATUS_SUMMON_TURN
+enum: CardStatus
+value: 0x800
+description: |-
+  The monster was Normal Summoned/Set in the current turn
+status:
+  index: stable
+tags: [ under-construction ]

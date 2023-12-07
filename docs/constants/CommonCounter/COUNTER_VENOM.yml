@@ -1,0 +1,9 @@
+---!constant
+name: COUNTER_VENOM
+enum: CommonCounter
+value: 0x1009
+description: |-
+  The hexadecimal value of Venom Counters
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: DUEL_SEPARATE_PZONE
+enum: DuelMode
+value: 0x1000
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

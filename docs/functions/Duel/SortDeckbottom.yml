@@ -1,0 +1,18 @@
+---!function
+name: SortDeckbottom
+namespace: Duel
+description: |-
+  Player (int sort_player) sorts an amount of cards (int count) of a player's (int target_player) deck bottom
+status:
+  index: stable
+parameters:
+  - name: sort_player
+    type: [ int ]
+    description: (To be added)
+  - name: target_player
+    type: [ int ]
+    description: (To be added)
+  - name: count
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: ACTIVITY_BATTLE_PHASE
+enum: ActivityCode
+value: 6
+description: |-
+  Refers to the act of conducting a battle phase. This activity is not available with custom counter
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: CARD_CHIMERA_MYTHICAL_BEAST
+enum: CommonCard
+value: 4796100
+description: |-
+  Chimera the Flying Mythical Beast's ID
+status:
+  index: stable
+tags: [ under-construction ]

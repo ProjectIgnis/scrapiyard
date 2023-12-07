@@ -1,0 +1,15 @@
+---!function
+name: GetLinkedZone
+namespace: Duel
+description: |-
+  Gets all the zones that (int player) has that Link Monsters points to
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

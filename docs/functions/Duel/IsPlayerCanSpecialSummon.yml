@@ -1,0 +1,31 @@
+---!function
+name: IsPlayerCanSpecialSummon
+namespace: Duel
+description: |-
+  If only the player is passed as parameter, it checks if the player is affected by any effect that would prevent him to special summon a monster, otherwise checks if the player can Special Summon "c" as "sumtype", to "target_player"'s field in the passed position.
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: sumtype
+    type: [ int ]
+    description: (To be added)
+    required: false
+  - name: sumpos
+    type: [ int ]
+    description: (To be added)
+    required: false
+  - name: target_player
+    type: [ int ]
+    description: (To be added)
+    required: false
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

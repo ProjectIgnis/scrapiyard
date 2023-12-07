@@ -1,0 +1,9 @@
+---!constant
+name: CATEGORY_RELEASE
+enum: EffectCategory
+value: 0x2
+description: |-
+  Describes that an effect tributes
+status:
+  index: stable
+tags: [ under-construction ]

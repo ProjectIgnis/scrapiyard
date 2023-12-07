@@ -1,0 +1,30 @@
+---!function
+name: AddProcMixRep
+namespace: Fusion
+description: |-
+  Adds a Fusion Procedure where (bool sub) is a check if Fusion Substitutes are allowed. (bool insf) is a check if using no materials are allowed (e.g. Instant Fusion). (function fun1) is a condition for a Fusion Material with a minimum (int minc) and maximum (int maxc) and (int|function ...) is a list of any number of codes/conditions as Fusion Materials.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: sub
+    type: [ bool ]
+    description: (To be added)
+  - name: insf
+    type: [ bool ]
+    description: (To be added)
+  - name: fun1
+    type: [ function ]
+    description: (To be added)
+  - name: minc
+    type: [ int ]
+    description: (To be added)
+  - name: maxc
+    type: [ int ]
+    description: (To be added)
+  - name: ...
+    type: [ int, function ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_ONLY_ATTACK_MONSTER
+enum: EffectCode
+value: 343
+description: |-
+  Affected card can only attack monster.
+status:
+  index: stable
+tags: [ under-construction ]

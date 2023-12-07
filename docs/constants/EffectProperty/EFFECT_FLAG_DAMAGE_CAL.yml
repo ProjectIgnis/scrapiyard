@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_FLAG_DAMAGE_CAL
+enum: EffectProperty
+value: 0x8000
+description: |-
+  Effect can activate during Damage Calculation, a sub-step of the Damage Step.
+status:
+  index: stable
+tags: [ under-construction ]

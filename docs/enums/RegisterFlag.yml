@@ -1,0 +1,6 @@
+---!enum
+name: RegisterFlag
+description: |-
+  (To be added)
+bitmaskInt: true
+tags: [ under-construction ]

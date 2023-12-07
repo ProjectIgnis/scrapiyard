@@ -1,0 +1,20 @@
+---!function
+name: IsCanBeDisabledByEffect
+namespace: Card
+description: |-
+  Checks if a card (Card c) can have its effects negated by an effect (Effect e)
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ effect ]
+    description: (To be added)
+  - name: is_monster_effect
+    type: [ bool ]
+    description: (To be added)
+    required: false
+    default: true
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

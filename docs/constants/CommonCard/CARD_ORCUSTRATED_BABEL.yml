@@ -1,0 +1,9 @@
+---!constant
+name: CARD_ORCUSTRATED_BABEL
+enum: CommonCard
+value: 90351981
+description: |-
+  Orcustrated Babel's ID, used for hardcoded effect
+status:
+  index: stable
+tags: [ under-construction ]

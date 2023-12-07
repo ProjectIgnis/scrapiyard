@@ -1,0 +1,22 @@
+---!function
+name: TossDice
+namespace: Duel
+description: |-
+  Rolls (int count1) dice on behalf of (int player) and (int count1) dice on behalf of the opponent of (int player). Returns all the results of the rolls.
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: count1
+    type: [ int ]
+    description: (To be added)
+  - name: count2
+    type: [ int ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ any ]
+    description: (To be added)
+tags: [ under-construction ]

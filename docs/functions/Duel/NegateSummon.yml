@@ -1,0 +1,12 @@
+---!function
+name: NegateSummon
+namespace: Duel
+description: |-
+  Negates the summon of a card or a group of cards
+status:
+  index: stable
+parameters:
+  - name: targets
+    type: [ Card, Group ]
+    description: (To be added)
+tags: [ under-construction ]

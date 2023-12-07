@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_BATTLE_DAMAGE_TO_EFFECT
+enum: EffectCode
+value: 205
+description: |-
+  The affected card deals effect damage when it battles (Gravekeeper's Vassal)
+status:
+  index: stable
+tags: [ under-construction ]

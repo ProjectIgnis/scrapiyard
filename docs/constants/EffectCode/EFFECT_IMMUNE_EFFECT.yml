@@ -1,0 +1,12 @@
+---!constant
+name: EFFECT_IMMUNE_EFFECT
+enum: EffectCode
+value: 1
+description: |-
+  Affected card is unaffected by card effects. The SetValue of this effect takes the following parameters:
+e: this effect itself
+re: the effect that would affect the card.
+c: the card that would be affected (uncertain, to be confirmed)
+status:
+  index: stable
+tags: [ under-construction ]

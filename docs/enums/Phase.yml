@@ -1,0 +1,6 @@
+---!enum
+name: Phase
+description: |-
+  (To be added)
+bitmaskInt: true
+tags: [ under-construction ]

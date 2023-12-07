@@ -1,0 +1,21 @@
+---!function
+name: SetFlagEffectLabel
+namespace: Duel
+description: |-
+  Assigns an integer (int label) number to the flag effect registered to the player (int player) with (int code) as the EffectCode. Returns true if a flag effect with such code existed and the label was set.
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: code
+    type: [ int ]
+    description: (To be added)
+  - name: label
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

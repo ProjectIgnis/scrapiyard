@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_RITUAL_LEVEL
+enum: EffectCode
+value: 241
+description: |-
+  Affected card can be treated as a given level if used for a Ritual Summon
+status:
+  index: stable
+tags: [ under-construction ]

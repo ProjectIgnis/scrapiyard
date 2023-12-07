@@ -1,0 +1,30 @@
+---!function
+name: AddProcCode4
+namespace: Fusion
+description: |-
+  Recipe for Fusion monsters that have code1+ code2 + code3 + code4 as materials. Not used by any cards.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ any ]
+    description: (To be added)
+  - name: code1
+    type: [ any ]
+    description: (To be added)
+  - name: code2
+    type: [ any ]
+    description: (To be added)
+  - name: code3
+    type: [ any ]
+    description: (To be added)
+  - name: code4
+    type: [ any ]
+    description: (To be added)
+  - name: sub
+    type: [ any ]
+    description: (To be added)
+  - name: insf
+    type: [ any ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,18 @@
+---!function
+name: SetTargetRange
+namespace: Effect
+description: |-
+  Sets (Effect e)'s target range, s_range denotes the effect's handler player's range and o_range denotes the opponent's. If the effect has "EFFECT_FLAG_PLAYER_TARGET" as property, then here 1 as "s_range" would mean it affect the handler and 0 would mean it doesn't, and "o_range" would refer to the opponent of the handler.
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+  - name: s_range
+    type: [ int ]
+    description: (To be added)
+  - name: o_range
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

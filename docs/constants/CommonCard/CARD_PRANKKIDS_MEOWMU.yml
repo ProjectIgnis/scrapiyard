@@ -1,0 +1,9 @@
+---!constant
+name: CARD_PRANKKIDS_MEOWMU
+enum: CommonCard
+value: 25725326
+description: |-
+  Prank-Kids Meow-Meow-Mu's ID
+status:
+  index: stable
+tags: [ under-construction ]

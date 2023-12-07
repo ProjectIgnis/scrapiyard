@@ -1,0 +1,9 @@
+---!constant
+name: DUEL_OBSOLETE_IGNITION
+enum: DuelMode
+value: 0x100
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

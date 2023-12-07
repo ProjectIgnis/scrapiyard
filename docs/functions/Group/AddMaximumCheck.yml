@@ -1,0 +1,15 @@
+---!function
+name: AddMaximumCheck
+namespace: Group
+description: |-
+  Returns a group containing all the maximum parts of cards that are in maximum mode in the group g,
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ Group ]
+    description: (To be added)
+returns:
+  - type: [ Group ]
+    description: (To be added)
+tags: [ under-construction ]

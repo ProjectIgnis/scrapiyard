@@ -1,0 +1,20 @@
+---!function
+name: ChangeBattleDamage
+namespace: Duel
+description: |-
+  Changes the battle damage (int player) would take to (int value). If (bool check) == false, you are able change the battle damage that originally is 0.
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: value
+    type: [ int ]
+    description: (To be added)
+  - name: check
+    type: [ bool ]
+    description: (To be added)
+    required: false
+    default: true
+tags: [ under-construction ]

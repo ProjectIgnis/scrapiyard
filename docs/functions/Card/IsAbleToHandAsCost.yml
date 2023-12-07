@@ -1,0 +1,15 @@
+---!function
+name: IsAbleToHandAsCost
+namespace: Card
+description: |-
+  Checks if a card (Card c) is able to go to the Hand as a cost
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

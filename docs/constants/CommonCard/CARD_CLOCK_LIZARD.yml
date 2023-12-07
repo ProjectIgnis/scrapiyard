@@ -1,0 +1,9 @@
+---!constant
+name: CARD_CLOCK_LIZARD
+enum: CommonCard
+value: 51476410
+description: |-
+  Clock Lizard's ID
+status:
+  index: stable
+tags: [ under-construction ]

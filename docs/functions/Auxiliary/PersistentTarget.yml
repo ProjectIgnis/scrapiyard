@@ -1,0 +1,18 @@
+---!function
+name: PersistentTarget
+namespace: Auxiliary
+description: |-
+  no description yet
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ function ]
+    description: (To be added)
+tags: [ under-construction ]

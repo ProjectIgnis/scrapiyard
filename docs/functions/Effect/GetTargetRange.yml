@@ -1,0 +1,17 @@
+---!function
+name: GetTargetRange
+namespace: Effect
+description: |-
+  Returns the pair of values set in (Effect e)'s SetTargetRange.
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

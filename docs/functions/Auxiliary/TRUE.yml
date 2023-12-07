@@ -1,0 +1,11 @@
+---!function
+name: 'TRUE'
+namespace: Auxiliary
+description: |-
+  Function that returns true. Can be used to return a whole group of cards in a certain location
+status:
+  index: stable
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

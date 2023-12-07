@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_BOTH_BATTLE_DAMAGE
+enum: EffectCode
+value: 206
+description: |-
+  Both players take the battle damage. See Double-Edged Sword
+status:
+  index: stable
+tags: [ under-construction ]

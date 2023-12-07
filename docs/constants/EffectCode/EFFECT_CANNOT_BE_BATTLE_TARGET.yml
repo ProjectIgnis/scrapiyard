@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_CANNOT_BE_BATTLE_TARGET
+enum: EffectCode
+value: 70
+description: |-
+  The affected card cannot be targeted for an attack
+status:
+  index: stable
+tags: [ under-construction ]

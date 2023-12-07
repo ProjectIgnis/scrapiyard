@@ -1,0 +1,31 @@
+---!function
+name: Summon
+namespace: Duel
+description: |-
+  Makes a player (int player) Normal Summons a card (Card c) using the Normal Summon procedure that the card has. If (ignore_count) is set to true, the Summon would not count towards the standard limit of Normal Summon/Set. If an effect (Effect e) is provided, the Normal Summon is counted as a Summon by that effect. If (min) is greater than 0, the Summon proc must need that amount or more tributes. If zone is provided, the card will be summonable only to the specific zones.
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: ignore_count
+    type: [ bool ]
+    description: (To be added)
+  - name: e
+    type: [ Effect, nil ]
+    description: (To be added)
+  - name: min
+    type: [ any ]
+    description: (To be added)
+    required: false
+    default: 0
+  - name: zone
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: 0x1f
+tags: [ under-construction ]

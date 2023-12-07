@@ -1,0 +1,9 @@
+---!constant
+name: RESETS_STANDARD
+enum: Reset
+value: 0x01fe0000
+description: |-
+  Complex reset. The sum of RESET_TURN_SET, TOGRAVE, REMOVE, TEMP_REMOVE, TOHAND, TODECK, LEAVE and TOFIELD, to be used with RESET_EVENT
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: EVENT_TOSS_DICE
+enum: Event
+value: 1150
+description: |-
+  This event is raised when dice are rolled
+status:
+  index: stable
+tags: [ under-construction ]

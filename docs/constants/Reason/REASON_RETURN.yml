@@ -1,0 +1,9 @@
+---!constant
+name: REASON_RETURN
+enum: Reason
+value: 0x20000
+description: |-
+  Return from banished to Graveyard
+status:
+  index: stable
+tags: [ under-construction ]

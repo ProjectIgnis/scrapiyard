@@ -1,0 +1,24 @@
+---!function
+name: zptgroup
+namespace: Auxiliary
+description: |-
+  Filter for "If a (function filter) monster is Special Summoned to a zone this card points to". Includes non-trivial handling of self-destructing Burning Abyss monsters
+status:
+  index: stable
+parameters:
+  - name: eg
+    type: [ group ]
+    description: (To be added)
+  - name: filter
+    type: [ function ]
+    description: (To be added)
+  - name: c
+    type: [ card ]
+    description: (To be added)
+  - name: tp
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ group ]
+    description: (To be added)
+tags: [ under-construction ]

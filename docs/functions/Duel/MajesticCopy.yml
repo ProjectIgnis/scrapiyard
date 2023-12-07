@@ -1,0 +1,24 @@
+---!function
+name: MajesticCopy
+namespace: Duel
+description: |-
+  Copies c1's effect to c2 allowing c2 to use c1's activated effects. If reset_value and reset_count are provided, use those parameter as reset parameters for the copied effects (reset_value default value is RESET_EVENT|0x1fe0000|RESET_PHASE|PHASE_END |RESET_SELF_TURN|RESET_OPPO_TURN). This is an ad hoc function for Majestic Star Dragon.
+status:
+  index: stable
+parameters:
+  - name: c1
+    type: [ Card ]
+    description: (To be added)
+  - name: c2
+    type: [ Card ]
+    description: (To be added)
+  - name: reset_value
+    type: [ int ]
+    description: (To be added)
+    required: false
+  - name: reset_count
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: 1
+tags: [ under-construction ]

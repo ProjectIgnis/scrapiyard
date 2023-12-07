@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_UPDATE_DEFENSE
+enum: EffectCode
+value: 104
+description: |-
+  Change the defense of a monster by a value (written into Effect.SetValue())
+status:
+  index: stable
+tags: [ under-construction ]

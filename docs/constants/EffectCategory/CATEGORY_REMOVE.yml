@@ -1,0 +1,9 @@
+---!constant
+name: CATEGORY_REMOVE
+enum: EffectCategory
+value: 0x4
+description: |-
+  Describes that an effect banishes
+status:
+  index: stable
+tags: [ under-construction ]

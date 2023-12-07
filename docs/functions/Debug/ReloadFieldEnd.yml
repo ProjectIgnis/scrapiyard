@@ -1,0 +1,8 @@
+---!function
+name: ReloadFieldEnd
+namespace: Debug
+description: |-
+  Stops loading the field for a puzzle.
+status:
+  index: stable
+tags: [ under-construction ]

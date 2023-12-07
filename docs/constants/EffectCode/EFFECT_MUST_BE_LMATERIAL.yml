@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_MUST_BE_LMATERIAL
+enum: EffectCode
+value: 318
+description: |-
+  Deprecated. Use EFFECT_MUST_BE_MATERIAL with REASON_LINK in the SetValue
+status:
+  index: stable
+tags: [ under-construction ]

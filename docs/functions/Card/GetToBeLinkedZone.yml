@@ -1,0 +1,29 @@
+---!function
+name: GetToBeLinkedZone
+namespace: Card
+description: |-
+  Iterates group g with "Card.GetToBeLinkedZone" operations.
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ group ]
+    description: (To be added)
+  - name: c
+    type: [ card ]
+    description: (To be added)
+  - name: tp
+    type: [ int ]
+    description: (To be added)
+  - name: clink
+    type: [ bool ]
+    description: (To be added)
+    required: false
+  - name: emz
+    type: [ bool ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

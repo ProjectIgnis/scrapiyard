@@ -1,0 +1,15 @@
+---!function
+name: GetFieldID
+namespace: Effect
+description: |-
+  Gets a unique ID representing a certain instance of an effect.
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

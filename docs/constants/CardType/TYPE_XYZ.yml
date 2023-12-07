@@ -1,0 +1,9 @@
+---!constant
+name: TYPE_XYZ
+enum: CardType
+value: 0x800000
+description: |-
+  An Xyz
+status:
+  index: stable
+tags: [ under-construction ]

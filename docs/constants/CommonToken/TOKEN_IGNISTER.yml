@@ -1,0 +1,9 @@
+---!constant
+name: TOKEN_IGNISTER
+enum: CommonToken
+value: 11738490
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

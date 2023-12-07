@@ -1,0 +1,26 @@
+---!function
+name: Split
+namespace: Group
+description: |-
+  Returns 2 groups, the first group will contain cards matched with the same behaviour as Group.Filter, the second group will contain the remaining cards from the Group g.
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ Group ]
+    description: (To be added)
+  - name: f
+    type: [ function ]
+    description: (To be added)
+  - name: ex
+    type: [ Group, Card, nil ]
+    description: (To be added)
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ Group ]
+    description: (To be added)
+  - type: [ Group ]
+    description: (To be added)
+tags: [ under-construction ]

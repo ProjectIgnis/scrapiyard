@@ -1,0 +1,15 @@
+---!function
+name: SetCost
+namespace: Effect
+description: |-
+  Sets (Effect e)'s cost function
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+  - name: cost_func
+    type: [ function ]
+    description: (To be added)
+tags: [ under-construction ]

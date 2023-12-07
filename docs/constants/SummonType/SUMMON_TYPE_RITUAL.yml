@@ -1,0 +1,9 @@
+---!constant
+name: SUMMON_TYPE_RITUAL
+enum: SummonType
+value: 0x45000000
+description: |-
+  Ritual Summon
+status:
+  index: stable
+tags: [ under-construction ]

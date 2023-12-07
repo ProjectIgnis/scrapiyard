@@ -1,0 +1,15 @@
+---!function
+name: GetPreviousAttributeOnField
+namespace: Card
+description: |-
+  Returns the Attribute that "c" had when it was on the field.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

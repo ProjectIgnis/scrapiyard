@@ -1,0 +1,18 @@
+---!function
+name: IsInExtraMZone
+namespace: Card
+description: |-
+  Checks if (Card c) is in an Extra Monster Zone. If (int tp) is provided, also returns if (Card c) is of that controller.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: tp
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

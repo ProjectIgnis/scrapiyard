@@ -1,0 +1,18 @@
+---!function
+name: ChangeBattleDamage
+namespace: Auxiliary
+description: |-
+  Changes the battle damage that (int player) would have taken to (int value)
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: value
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

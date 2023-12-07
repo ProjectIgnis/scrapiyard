@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_XYZ_MAT_RESTRICTION
+enum: EffectCode
+value: 73941492+TYPE_XYZ
+description: |-
+  73941492+TYPE_XYZ. Used by the XyzSummon procedure as an implementation of Harmonizing Magician's effect
+status:
+  index: stable
+tags: [ under-construction ]

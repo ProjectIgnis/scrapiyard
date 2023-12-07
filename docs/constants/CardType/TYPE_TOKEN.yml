@@ -1,0 +1,9 @@
+---!constant
+name: TYPE_TOKEN
+enum: CardType
+value: 0x4000
+description: |-
+  A token
+status:
+  index: stable
+tags: [ under-construction ]

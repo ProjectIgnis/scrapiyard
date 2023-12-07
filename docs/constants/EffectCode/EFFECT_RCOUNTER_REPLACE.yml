@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_RCOUNTER_REPLACE
+enum: EffectCode
+value: 0x30000
+description: |-
+  Instead of removing the counter
+status:
+  index: stable
+tags: [ under-construction ]

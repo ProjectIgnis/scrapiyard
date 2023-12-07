@@ -1,0 +1,9 @@
+---!constant
+name: HINTMSG_FMATERIAL
+enum: HintMessage
+value: 511
+description: |-
+  Shows the following HintMessage: "Select the card(s) to use as Fusion Material"
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,18 @@
+---!function
+name: PreAddCounter
+namespace: Debug
+description: |-
+  Adds (int count) counters of (int counter_type) to (Card c)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: counter_type
+    type: [ int ]
+    description: (To be added)
+  - name: count
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

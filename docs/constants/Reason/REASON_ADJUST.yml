@@ -1,0 +1,9 @@
+---!constant
+name: REASON_ADJUST
+enum: Reason
+value: 0x100
+description: |-
+  Adjustment (Royal before the test)
+status:
+  index: stable
+tags: [ under-construction ]

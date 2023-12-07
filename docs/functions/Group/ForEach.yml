@@ -1,0 +1,18 @@
+---!function
+name: ForEach
+namespace: Group
+description: |-
+  Executes a function for each card in a group (Group g), function f should accept one parameter (e.g. f(c, ...), with c as each member of the group and ... can be any number of parameters)
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ Group ]
+    description: (To be added)
+  - name: f
+    type: [ function ]
+    description: (To be added)
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+tags: [ under-construction ]

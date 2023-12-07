@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_TYPE_SINGLE
+enum: EffectType
+value: 0x1
+description: |-
+  An effect that applies only to itself. When used with trigger effects, this makes the card look for the event only when it happens to itself.
+status:
+  index: stable
+tags: [ under-construction ]

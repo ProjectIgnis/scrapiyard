@@ -1,0 +1,9 @@
+---!constant
+name: CATEGORY_DESTROY
+enum: EffectCategory
+value: 0x1
+description: |-
+  Describes that an effect destroys cards
+status:
+  index: stable
+tags: [ under-construction ]

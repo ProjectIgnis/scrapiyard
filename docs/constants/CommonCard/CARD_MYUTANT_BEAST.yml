@@ -1,0 +1,9 @@
+---!constant
+name: CARD_MYUTANT_BEAST
+enum: CommonCard
+value: 34695290
+description: |-
+  Myutant Beast's ID
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: RACE_ZOMBIE
+enum: MonsterRace
+value: 0x10
+description: |-
+  Zombie type monster
+status:
+  index: stable
+tags: [ under-construction ]

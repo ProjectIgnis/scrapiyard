@@ -1,0 +1,25 @@
+---!function
+name: CopyEffect
+namespace: Card
+description: |-
+  Temporarily adds to a card (Card c) the effect of card with the specified card code (int code) that resets according to the ascribed reset flag (int reset_flag)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: code
+    type: [ int ]
+    description: (To be added)
+  - name: reset_flag
+    type: [ int ]
+    description: (To be added)
+  - name: reset_count
+    type: [ int ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

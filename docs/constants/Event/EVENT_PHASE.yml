@@ -1,0 +1,9 @@
+---!constant
+name: EVENT_PHASE
+enum: Event
+value: 0x1000
+description: |-
+  This event is raised when a certain phase is reached (the required Phase value must be added to it, for example EVENT_PHASE+PHASE_END)
+status:
+  index: stable
+tags: [ under-construction ]

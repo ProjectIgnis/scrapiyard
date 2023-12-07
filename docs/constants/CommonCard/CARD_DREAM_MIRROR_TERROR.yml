@@ -1,0 +1,9 @@
+---!constant
+name: CARD_DREAM_MIRROR_TERROR
+enum: CommonCard
+value: 1050355
+description: |-
+  Dream Mirror of Terror's ID, used because of the number of scripts that call it
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_FLAG_NO_TURN_RESET
+enum: EffectProperty
+value: 0x400000
+description: |-
+  Flag used for effects that "can only be used once while this card is face-up on the field", e.g. Wind-Up monsters.
+status:
+  index: stable
+tags: [ under-construction ]

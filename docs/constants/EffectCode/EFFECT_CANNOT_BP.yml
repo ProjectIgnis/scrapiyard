@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_CANNOT_BP
+enum: EffectCode
+value: 185
+description: |-
+  The affected player cannot enter the Battle Phase
+status:
+  index: stable
+tags: [ under-construction ]

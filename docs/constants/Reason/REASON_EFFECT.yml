@@ -1,0 +1,9 @@
+---!constant
+name: REASON_EFFECT
+enum: Reason
+value: 0x40
+description: |-
+  The reason that causes the event is a card effect
+status:
+  index: stable
+tags: [ under-construction ]

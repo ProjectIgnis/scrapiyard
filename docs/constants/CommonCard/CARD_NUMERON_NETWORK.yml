@@ -1,0 +1,9 @@
+---!constant
+name: CARD_NUMERON_NETWORK
+enum: CommonCard
+value: 41418852
+description: |-
+  Numeron Networks's ID, used for listed_names
+status:
+  index: stable
+tags: [ under-construction ]

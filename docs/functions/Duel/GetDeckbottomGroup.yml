@@ -1,0 +1,18 @@
+---!function
+name: GetDeckbottomGroup
+namespace: Duel
+description: |-
+  Returns a group with the (int count) cards on the bottom of (int player)'s Deck
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: count
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ Group ]
+    description: (To be added)
+tags: [ under-construction ]

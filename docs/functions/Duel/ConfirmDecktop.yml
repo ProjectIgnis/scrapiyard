@@ -1,0 +1,15 @@
+---!function
+name: ConfirmDecktop
+namespace: Duel
+description: |-
+  Reveals a number (int count) of cards from the top of a player's (int player) Deck to both players
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: count
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

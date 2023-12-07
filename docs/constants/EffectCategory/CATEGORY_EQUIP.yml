@@ -1,0 +1,9 @@
+---!constant
+name: CATEGORY_EQUIP
+enum: EffectCategory
+value: 0x40000
+description: |-
+  Describes that a card equips
+status:
+  index: stable
+tags: [ under-construction ]

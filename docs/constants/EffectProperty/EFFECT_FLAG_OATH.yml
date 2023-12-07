@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_FLAG_OATH
+enum: EffectProperty
+value: 0x80000
+description: |-
+  Oath effect
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,11 @@
+---!function
+name: IsChainSolving
+namespace: Duel
+description: |-
+  Checks if there is a chain currently resolving. (retrieves the processor's chain_solving data member, without calling any function)
+status:
+  index: stable
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

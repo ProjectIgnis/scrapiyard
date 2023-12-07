@@ -1,0 +1,21 @@
+---!function
+name: AddShaddolProcMix
+namespace: Fusion
+description: |-
+  Adds a Fusion Procedure where (bool insf) is a check if using no materials are allowed (e.g. Instant Fusion) and accepts 1 condition (function f) and 1 Attribute (int att).
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: insf
+    type: [ bool ]
+    description: (To be added)
+  - name: f
+    type: [ function ]
+    description: (To be added)
+  - name: att
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

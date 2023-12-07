@@ -1,0 +1,9 @@
+---!constant
+name: CATEGORY_TOKEN
+enum: EffectCategory
+value: 0x400
+description: |-
+  Describes that an effect Special Summons a token(s)
+status:
+  index: stable
+tags: [ under-construction ]

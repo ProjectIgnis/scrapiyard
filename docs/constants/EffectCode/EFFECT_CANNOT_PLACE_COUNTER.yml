@@ -1,0 +1,14 @@
+---!constant
+name: EFFECT_CANNOT_PLACE_COUNTER
+enum: EffectCode
+value: 58
+description: |-
+  The affected player cannot place counters (See Gate Blocker). The SetTarget in this effect takes the following parameters:
+-e: this effect itself
+-c: the cards that cannot receive the counters (to be confirmed)
+-tp: the player that cannot place the counters
+-ctype: the type of the counter that cannot be placed
+-count: the amount of counters that cannot be placed
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: CARD_QUEEN_KNIGHT
+enum: CommonCard
+value: 25652259
+description: |-
+  Queen's Knight's ID
+status:
+  index: stable
+tags: [ under-construction ]

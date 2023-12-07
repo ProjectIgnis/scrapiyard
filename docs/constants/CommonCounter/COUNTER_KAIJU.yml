@@ -1,0 +1,9 @@
+---!constant
+name: COUNTER_KAIJU
+enum: CommonCounter
+value: 0x37
+description: |-
+  The hexadecimal value of Kaiju Counters
+status:
+  index: stable
+tags: [ under-construction ]

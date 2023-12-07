@@ -1,0 +1,43 @@
+---!function
+name: SelectTribute
+namespace: Duel
+description: |-
+  Makes (int player) select a (int min) and (int max) number of tributes to be used for (Card c) to be summoned in the passed zones to to_player's field by also forcefully selecting the cards from mg. If cancelable is true and the selection is canceled, nil will be returned.
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: min
+    type: [ int ]
+    description: (To be added)
+  - name: max
+    type: [ int ]
+    description: (To be added)
+  - name: mg
+    type: [ Group ]
+    description: (To be added)
+    required: false
+  - name: to_player
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: player
+  - name: zone
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: 0x1f
+  - name: cancelable
+    type: [ bool ]
+    description: (To be added)
+    required: false
+    default: false
+returns:
+  - type: [ Group ]
+    description: (To be added)
+tags: [ under-construction ]

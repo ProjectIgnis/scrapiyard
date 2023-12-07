@@ -1,0 +1,6 @@
+---!enum
+name: CardStatus
+description: |-
+  (To be added)
+bitmaskInt: true
+tags: [ under-construction ]

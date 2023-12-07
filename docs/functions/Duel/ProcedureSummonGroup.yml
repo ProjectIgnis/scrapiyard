@@ -1,0 +1,15 @@
+---!function
+name: ProcedureSummonGroup
+namespace: Duel
+description: |-
+  Makes the player perform a summon using a field effect EFFECT_SPSUMMON_PROC_G
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: sumtype
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

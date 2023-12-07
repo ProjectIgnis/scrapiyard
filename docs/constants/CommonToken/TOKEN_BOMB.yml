@@ -1,0 +1,9 @@
+---!constant
+name: TOKEN_BOMB
+enum: CommonToken
+value: 22411610
+description: |-
+  Bomb Token, summoned by Fire Injection and Volcanic Mine
+status:
+  index: stable
+tags: [ under-construction ]

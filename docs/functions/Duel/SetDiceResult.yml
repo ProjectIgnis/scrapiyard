@@ -1,0 +1,15 @@
+---!function
+name: SetDiceResult
+namespace: Duel
+description: |-
+  Changes the result of the latest executed dice rolls to the provided values.
+status:
+  index: stable
+parameters:
+  - name: res
+    type: [ int ]
+    description: (To be added)
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+tags: [ under-construction ]

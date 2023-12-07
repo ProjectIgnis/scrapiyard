@@ -1,0 +1,9 @@
+---!constant
+name: HINTMSG_XMATERIAL
+enum: HintMessage
+value: 513
+description: |-
+  Shows the following HintMessage: "Select the card(s) to use as Xyz Material"
+status:
+  index: stable
+tags: [ under-construction ]

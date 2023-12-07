@@ -1,0 +1,15 @@
+---!function
+name: GetEquipCount
+namespace: Card
+description: |-
+  Gets the number of cards equipped to a Card (Card c)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

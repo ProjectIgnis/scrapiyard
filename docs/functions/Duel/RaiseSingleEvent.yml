@@ -1,0 +1,30 @@
+---!function
+name: RaiseSingleEvent
+namespace: Duel
+description: |-
+  Raises a specific event that will raise effects of type EFFECT_TYPE_SINGLE on the specific ec, by relying re,r,rp,ep,ev as the arguments of that event.
+status:
+  index: stable
+parameters:
+  - name: ec
+    type: [ Card ]
+    description: (To be added)
+  - name: code
+    type: [ int ]
+    description: (To be added)
+  - name: re
+    type: [ Effect ]
+    description: (To be added)
+  - name: r
+    type: [ int ]
+    description: (To be added)
+  - name: rp
+    type: [ int ]
+    description: (To be added)
+  - name: ep
+    type: [ int ]
+    description: (To be added)
+  - name: ev
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

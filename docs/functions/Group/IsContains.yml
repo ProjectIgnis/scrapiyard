@@ -1,0 +1,18 @@
+---!function
+name: IsContains
+namespace: Group
+description: |-
+  Checks if a group (Group g) contains a specified card (Card c)
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ Group ]
+    description: (To be added)
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

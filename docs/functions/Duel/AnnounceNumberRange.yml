@@ -1,0 +1,30 @@
+---!function
+name: AnnounceNumberRange
+namespace: Duel
+description: |-
+  Asks (int player) to announce a number between (int min) and (int max). Extra integers can be  passed as the exceptions. Returns the chosen number, and the index of that number amongst the choices.
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: min
+    type: [ int ]
+    description: (To be added)
+    required: false
+  - name: max
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: 12
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ int, nil ]
+    description: (To be added)
+  - type: [ int, nil ]
+    description: (To be added)
+tags: [ under-construction ]

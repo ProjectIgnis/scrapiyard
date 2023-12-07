@@ -1,0 +1,21 @@
+---!function
+name: AddProcedure
+namespace: Link
+description: |-
+  Adds a Link Procedure where (function f) is the required material with a minimum (int min) and maximum (int max) amount where (function specialchk) is an additional check after obtaining all materials (e.g. Akashic Magician) and (int desc) is the description to its Link Summoning Procedure,
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: f
+    type: [ function, nil ]
+    description: (To be added)
+  - name: min
+    type: [ int ]
+    description: (To be added)
+  - name: max
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

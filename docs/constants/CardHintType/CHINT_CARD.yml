@@ -1,0 +1,9 @@
+---!constant
+name: CHINT_CARD
+enum: CardHintType
+value: 2
+description: |-
+  Used to display a string when the player hovers over the card. Shows the following text: "Declared card: "
+status:
+  index: stable
+tags: [ under-construction ]

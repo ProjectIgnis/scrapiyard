@@ -1,0 +1,27 @@
+---!function
+name: IsCanBeXyzMaterial
+namespace: Card
+description: |-
+  Checks if a card (Card c) can be used as an Xyz Material. If (Card sc) is provided, checks if it can be used for that card's Xyz Summon. If tp and the reason are provided, checks if that player can attach the card with the given reason.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: sc
+    type: [ Card, nil ]
+    description: (To be added)
+    required: false
+  - name: tp
+    type: [ int ]
+    description: (To be added)
+    required: false
+  - name: reason
+    type: [ int ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

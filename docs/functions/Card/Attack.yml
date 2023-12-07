@@ -1,0 +1,16 @@
+---!function
+name: Attack
+namespace: Card
+description: |-
+  Changes (Card c)'s original ATK if (int val) is inputted, else returns the current card's original ATK.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: val
+    type: [ int ]
+    description: (To be added)
+    required: false
+tags: [ under-construction ]

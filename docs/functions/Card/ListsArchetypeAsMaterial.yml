@@ -1,0 +1,18 @@
+---!function
+name: ListsArchetypeAsMaterial
+namespace: Card
+description: |-
+  Checks if 1 of the setcodes in (int ...) is a listed archetype in a material of (Card c)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: ...
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

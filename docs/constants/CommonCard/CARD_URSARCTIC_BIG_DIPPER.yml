@@ -1,0 +1,9 @@
+---!constant
+name: CARD_URSARCTIC_BIG_DIPPER
+enum: CommonCard
+value: 89264428
+description: |-
+  Ursarctic Big Dipper's ID
+status:
+  index: stable
+tags: [ under-construction ]

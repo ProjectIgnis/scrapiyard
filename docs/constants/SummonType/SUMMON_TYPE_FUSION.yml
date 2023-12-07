@@ -1,0 +1,9 @@
+---!constant
+name: SUMMON_TYPE_FUSION
+enum: SummonType
+value: 0x43000000
+description: |-
+  Fusion Summon
+status:
+  index: stable
+tags: [ under-construction ]

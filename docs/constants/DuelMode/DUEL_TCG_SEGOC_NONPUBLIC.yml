@@ -1,0 +1,9 @@
+---!constant
+name: DUEL_TCG_SEGOC_NONPUBLIC
+enum: DuelMode
+value: 0x100000000
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

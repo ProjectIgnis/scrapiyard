@@ -1,0 +1,15 @@
+---!function
+name: BitSplit
+namespace: Auxiliary
+description: |-
+  Auxiliary function to help printing hints for attribute-related cards such as Cynet Codec
+status:
+  index: stable
+parameters:
+  - name: number
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ table ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_SPSUMMON_PROC
+enum: EffectCode
+value: 34
+description: |-
+  Specifies a special method through which the affected card can be Special Summoned
+status:
+  index: stable
+tags: [ under-construction ]

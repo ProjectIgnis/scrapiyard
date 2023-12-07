@@ -1,0 +1,13 @@
+---!constant
+name: EFFECT_UNRELEASABLE_EFFECT
+enum: EffectCode
+value: 48
+description: |-
+  Affected card cannot be Tributed by card effects.  SetValue receives the following parameters:
+e: this effect itself
+re: reason effect, the effect that would tribute the card
+rp: reason player, the player that would tribute the card
+c: this card (to be confirmed)
+status:
+  index: stable
+tags: [ under-construction ]

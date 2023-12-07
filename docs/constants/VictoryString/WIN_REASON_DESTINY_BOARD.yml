@@ -1,0 +1,9 @@
+---!constant
+name: WIN_REASON_DESTINY_BOARD
+enum: VictoryString
+value: 0x15
+description: |-
+  The hexadecimal value for a duel win caused by "Destiny Board"
+status:
+  index: stable
+tags: [ under-construction ]

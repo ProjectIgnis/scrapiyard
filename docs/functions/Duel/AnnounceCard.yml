@@ -1,0 +1,19 @@
+---!function
+name: AnnounceCard
+namespace: Duel
+description: |-
+  Makes the player declare a card name. With no extra parameters, the function allows declaring any monster, spell and trap card names. If a single int parameter is passed as second parameter, that parameter will be used to limit the types that are declarable (for example passing TYPE_MONSTER to only declare monster cards). If 3 or more parameters are passed, the function will use the OPCODE_ constants to build a filter based on the reverse polish notation to allow declaring cards with more specific restrictions (for example declaring cards of a specific archetype only). The opcode parameters can also be passed all in a table as the second parameter.
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

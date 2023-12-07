@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_CHANGE_TYPE
+enum: EffectCode
+value: 117
+description: |-
+  Treats a Card(s) as another type overwriting its type (written into Effect.SetValue())
+status:
+  index: stable
+tags: [ under-construction ]

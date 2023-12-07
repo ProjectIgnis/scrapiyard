@@ -1,0 +1,18 @@
+---!function
+name: SelectYesNo
+namespace: Duel
+description: |-
+  Asks (int player) Yes or No, with the question being specified by (int desc)
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: desc
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

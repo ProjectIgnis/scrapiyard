@@ -1,0 +1,9 @@
+---!constant
+name: POS_FACEUP_DEFENSE
+enum: CardPosition
+value: 0x4
+description: |-
+  Face-up defense position
+status:
+  index: stable
+tags: [ under-construction ]

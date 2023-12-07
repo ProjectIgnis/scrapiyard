@@ -1,0 +1,9 @@
+---!constant
+name: CATEGORY_TOGRAVE
+enum: EffectCategory
+value: 0x20
+description: |-
+  Describes that an effect sends a card to the Graveyard (from any location)
+status:
+  index: stable
+tags: [ under-construction ]

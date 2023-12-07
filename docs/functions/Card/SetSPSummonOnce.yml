@@ -1,0 +1,15 @@
+---!function
+name: SetSPSummonOnce
+namespace: Card
+description: |-
+  Makes so (Card c) can only be Special Summoned when the turn has not Special Summoned another card with the same code (int code) as its Card.SetSpecialSummonOnce. In other words: creates the "You can only Special Summon "Some Monster" once per turn" condition.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: spsummon_code
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

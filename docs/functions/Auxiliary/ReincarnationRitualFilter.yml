@@ -1,0 +1,18 @@
+---!function
+name: ReincarnationRitualFilter
+namespace: Auxiliary
+description: |-
+  Auxiliary filter for "Salamangreat" Reincarnation procedure to handle the rituals.
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

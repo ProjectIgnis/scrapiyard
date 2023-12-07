@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_CANNOT_M2
+enum: EffectCode
+value: 186
+description: |-
+  The affected player cannot enter the Main Phase 2
+status:
+  index: stable
+tags: [ under-construction ]

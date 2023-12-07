@@ -1,0 +1,9 @@
+---!constant
+name: RACE_FAIRY
+enum: MonsterRace
+value: 0x4
+description: |-
+  Fairy type monster
+status:
+  index: stable
+tags: [ under-construction ]

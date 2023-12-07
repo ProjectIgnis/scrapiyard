@@ -1,0 +1,30 @@
+---!function
+name: GetReleaseGroupCount
+namespace: Duel
+description: |-
+  Returns the number of cards that would be returned by Duel.GetReleaseGroup
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: use_hand
+    type: [ bool ]
+    description: (To be added)
+    required: false
+    default: false
+  - name: use_oppo
+    type: [ bool ]
+    description: (To be added)
+    required: false
+    default: false
+  - name: reason
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: REASON_COST
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

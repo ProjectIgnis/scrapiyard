@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_BATTLE_DESTROY_REDIRECT
+enum: EffectCode
+value: 204
+description: |-
+  If the affected card is destroyed by battle, send it to a given location
+status:
+  index: stable
+tags: [ under-construction ]

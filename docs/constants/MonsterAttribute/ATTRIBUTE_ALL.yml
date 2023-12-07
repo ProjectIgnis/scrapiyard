@@ -1,0 +1,9 @@
+---!constant
+name: ATTRIBUTE_ALL
+enum: MonsterAttribute
+value: 0x7f
+description: |-
+  The sum of all official MonsterAttributes (including divine)
+status:
+  index: stable
+tags: [ under-construction ]

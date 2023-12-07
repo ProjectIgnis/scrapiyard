@@ -1,0 +1,9 @@
+---!constant
+name: HINT_NUMBER
+enum: HintType
+value: 9
+description: |-
+  Called when a player has to pick/declare a number
+status:
+  index: stable
+tags: [ under-construction ]

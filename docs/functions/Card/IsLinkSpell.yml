@@ -1,0 +1,15 @@
+---!function
+name: IsLinkSpell
+namespace: Card
+description: |-
+  Returns if (Card c) is a Link Spell.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ card ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

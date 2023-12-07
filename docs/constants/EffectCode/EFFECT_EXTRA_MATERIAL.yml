@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_EXTRA_MATERIAL
+enum: EffectCode
+value: 358
+description: |-
+  Allows the use of an extra material in a group of materials to summon a monster (e.g. "Micro Coder). This effect is not defined in the core. See the utility for its implementation
+status:
+  index: stable
+tags: [ under-construction ]

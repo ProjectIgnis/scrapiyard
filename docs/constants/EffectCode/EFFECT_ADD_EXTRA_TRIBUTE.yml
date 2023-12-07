@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_ADD_EXTRA_TRIBUTE
+enum: EffectCode
+value: 157
+description: |-
+  The affected card can use as tribute other cards (than the default ones). Requires SetTargetRange and SetTarget
+status:
+  index: stable
+tags: [ under-construction ]

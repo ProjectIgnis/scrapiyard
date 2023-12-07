@@ -1,0 +1,16 @@
+---!function
+name: Type
+namespace: Card
+description: |-
+  Changes (Card c)'s original type(s) if (int type) is inputted, else returns the current card's original type(s).
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: type
+    type: [ int ]
+    description: (To be added)
+    required: false
+tags: [ under-construction ]

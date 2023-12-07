@@ -1,0 +1,9 @@
+---!constant
+name: LOCATION_REMOVED
+enum: Location
+value: 0x20
+description: |-
+  The area where banished card go
+status:
+  index: stable
+tags: [ under-construction ]

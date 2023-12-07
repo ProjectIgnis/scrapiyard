@@ -1,0 +1,36 @@
+---!function
+name: GetControl
+namespace: Duel
+description: |-
+  Gives control of a card/group (Card|Group targets) to a player (int player). If reset_phase and reset_count is specified, will behave like other effects with those resets (and so, the control will be returned when the effect has expired). Works only for monsters in Monster Zone, if zone is specified, if moves monster to that zones only or destroy if they are full. If chose_player is provided, the player selecting the zone is the passed value, if PLAYER_NONE is passed, the player performing the selection is player (int player), otherwise the selecting player will be the current reason player.
+status:
+  index: stable
+parameters:
+  - name: targets
+    type: [ Card, Group ]
+    description: (To be added)
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: reset_phase
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: 0
+  - name: reset_count
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: 0
+  - name: zone
+    type: [ int ]
+    description: (To be added)
+    required: false
+  - name: chose_player
+    type: [ int ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

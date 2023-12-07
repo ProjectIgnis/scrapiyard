@@ -1,0 +1,24 @@
+---!function
+name: CheckRemoveOverlayCard
+namespace: Card
+description: |-
+  Checks if the player (int player) can remove a number (int count) of Xyz materials from a Card c for a specific reason (int reason)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: count
+    type: [ int ]
+    description: (To be added)
+  - name: reason
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

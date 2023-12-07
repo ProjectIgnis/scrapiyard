@@ -1,0 +1,18 @@
+---!function
+name: GetFlagEffect
+namespace: Duel
+description: |-
+  Gets the flag effect with (int code) as the EffectCode that is registered to a player (int player), returns 0 if no effect, a positive integer otherwise
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: code
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

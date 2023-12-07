@@ -1,0 +1,33 @@
+---!function
+name: DiscardHand
+namespace: Duel
+description: |-
+  Makes (int player) discard between (int min) and (int max) cards from their hand for which (function f) returns true  sing as reason (int reason), except  (Group|Card ex).
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: f
+    type: [ function, nil ]
+    description: (To be added)
+  - name: min
+    type: [ int ]
+    description: (To be added)
+  - name: max
+    type: [ int ]
+    description: (To be added)
+  - name: reason
+    type: [ int ]
+    description: (To be added)
+  - name: ex
+    type: [ Group, Card, nil ]
+    description: (To be added)
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

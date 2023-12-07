@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_COUNT_CODE_DUEL
+enum: CountLimitCode
+value: 0x2
+description: |-
+  A flag to be used with SetCountLimit. The effect that receives this flag can only be used a given amount of times per duel.
+status:
+  index: stable
+tags: [ under-construction ]

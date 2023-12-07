@@ -1,0 +1,48 @@
+---!function
+name: SelectUnselectGroup
+namespace: Auxiliary
+description: |-
+  Recursion checking and selection. (Group g) is the group to check and choose from, with a minimum (int minc) that defaults to 1 if set to nil and maximum (int maxc) that defaults to 99 if set to nil. (function rescon) is the condition to check which is needed fulfill. (int chk) is set to 0 to check and 1 to select. if it is 0, the remaining parameters aren't required. (int seltp) is the selecting player. (int hintmsg) is the HINTMSG that will be displayed on selection. (function cancelcon) is the condition when fulfilled allows you to end selection. (function breakcon) when fulfilled ends the selection automatically.
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ Group ]
+    description: (To be added)
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+  - name: tp
+    type: [ int ]
+    description: (To be added)
+  - name: minc
+    type: [ int ]
+    description: (To be added)
+  - name: maxc
+    type: [ int ]
+    description: (To be added)
+  - name: rescon
+    type: [ function, nil ]
+    description: (To be added)
+  - name: chk
+    type: [ int ]
+    description: (To be added)
+  - name: seltp
+    type: [ int ]
+    description: (To be added)
+  - name: hintmsg
+    type: [ int ]
+    description: (To be added)
+  - name: cancelcon
+    type: [ function, nil ]
+    description: (To be added)
+  - name: breakcon
+    type: [ function, nil ]
+    description: (To be added)
+  - name: cancelable
+    type: [ bool ]
+    description: (To be added)
+returns:
+  - type: [ bool, Group ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: FUSPROC_CONTACTFUS
+enum: FusionProcFlag
+value: 0x200
+description: |-
+  Flag used for the various filters in the fusion procedure.
+status:
+  index: stable
+tags: [ under-construction ]

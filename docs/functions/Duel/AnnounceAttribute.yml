@@ -1,0 +1,21 @@
+---!function
+name: AnnounceAttribute
+namespace: Duel
+description: |-
+  Asks (int player) to announce (int count) number of Attributes, amongst those specified in (int available).
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: count
+    type: [ int ]
+    description: (To be added)
+  - name: available
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

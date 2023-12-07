@@ -1,0 +1,20 @@
+---!function
+name: IsDiscardable
+namespace: Card
+description: |-
+  Checks if a card (Card c) can be discarded for (int reason).
+status:
+  index: stable
+parameters:
+  - name: Card
+    type: [ any ]
+    description: (To be added)
+  - name: reason
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: REASON_COST
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

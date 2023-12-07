@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_ONLY_BE_ATTACKED
+enum: EffectCode
+value: 196
+description: |-
+  Only the affected card can be attacked
+status:
+  index: stable
+tags: [ under-construction ]

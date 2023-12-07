@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_REMOVE_ATTRIBUTE
+enum: EffectCode
+value: 126
+description: |-
+  Treats a Card(s) as not a element(s) (written into Effect.SetValue())
+status:
+  index: stable
+tags: [ under-construction ]

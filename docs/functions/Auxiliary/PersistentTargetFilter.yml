@@ -1,0 +1,18 @@
+---!function
+name: PersistentTargetFilter
+namespace: Auxiliary
+description: |-
+  Default filter for checking if it's targeted by the Persistent Trap.
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

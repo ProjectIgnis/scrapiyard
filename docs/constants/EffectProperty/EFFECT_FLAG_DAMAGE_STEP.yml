@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_FLAG_DAMAGE_STEP
+enum: EffectProperty
+value: 0x4000
+description: |-
+  Effect can activate during the Damage Step
+status:
+  index: stable
+tags: [ under-construction ]

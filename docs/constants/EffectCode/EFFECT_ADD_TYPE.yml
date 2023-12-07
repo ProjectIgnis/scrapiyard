@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_ADD_TYPE
+enum: EffectCode
+value: 115
+description: |-
+  Treats a Card(s) as a additional type(s) (written into Effect.SetValue())
+status:
+  index: stable
+tags: [ under-construction ]

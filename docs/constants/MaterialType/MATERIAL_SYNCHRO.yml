@@ -1,0 +1,9 @@
+---!constant
+name: MATERIAL_SYNCHRO
+enum: MaterialType
+value: 0x2<<32
+description: |-
+  Value= 0x2<<32
+status:
+  index: stable
+tags: [ under-construction ]

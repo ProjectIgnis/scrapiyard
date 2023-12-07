@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_CANNOT_EP
+enum: EffectCode
+value: 187
+description: |-
+  The affected player cannot enter the End Phase
+status:
+  index: stable
+tags: [ under-construction ]

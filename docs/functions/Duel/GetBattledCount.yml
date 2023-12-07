@@ -1,0 +1,15 @@
+---!function
+name: GetBattledCount
+namespace: Duel
+description: |-
+  Gets the number of battles (int player) has been involved in this turn
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

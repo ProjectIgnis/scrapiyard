@@ -1,0 +1,38 @@
+---!function
+name: ChangePosition
+namespace: Duel
+description: |-
+  Changes the battle position of (Card|Group targets). (int au), (int ad), int (du) and (int dd) are the positions cards in face-up attack, face-down attack, face-up defense, and face-down defense positions will be changed to, respectively. If (bool noflip) is true, FLIP effects will not be activated by this change. Returns the number of cards successfully affected.
+status:
+  index: stable
+parameters:
+  - name: targets
+    type: [ Card, Group ]
+    description: (To be added)
+  - name: au
+    type: [ int ]
+    description: (To be added)
+  - name: ad
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: au
+  - name: du
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: au
+  - name: dd
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: au
+  - name: noflip
+    type: [ bool ]
+    description: (To be added)
+    required: false
+    default: false
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

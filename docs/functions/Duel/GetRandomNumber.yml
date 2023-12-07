@@ -1,0 +1,20 @@
+---!function
+name: GetRandomNumber
+namespace: Duel
+description: |-
+  Gets a random number between min (default is 0) and max.
+status:
+  index: stable
+parameters:
+  - name: min
+    type: [ int ]
+    description: (To be added)
+    required: false
+  - name: max
+    type: [ int ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

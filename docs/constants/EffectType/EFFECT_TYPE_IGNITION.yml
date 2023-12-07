@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_TYPE_IGNITION
+enum: EffectType
+value: 0x40
+description: |-
+  An effect that the turn player chooses to apply during their Main Phase, in a open game state. It is Speed Spell 1
+status:
+  index: stable
+tags: [ under-construction ]

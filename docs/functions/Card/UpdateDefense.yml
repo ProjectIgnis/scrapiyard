@@ -1,0 +1,26 @@
+---!function
+name: UpdateDefense
+namespace: Card
+description: |-
+  Applies a DEF change to card c, equal to int amount. If the reset values (int reset) are not provided, the default is RESET_EVENT (+RESETS_STANDARD_DISABLE , if rc == c, or just +RESETS_STANDARD). If the reason card rc is not provided, uses as default card c. Returns the amount of DEF successfully changed.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ card ]
+    description: (To be added)
+  - name: amount
+    type: [ int ]
+    description: (To be added)
+  - name: reset
+    type: [ int ]
+    description: (To be added)
+    required: false
+  - name: rc
+    type: [ card ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

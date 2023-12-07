@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_CANNOT_LOSE_LP
+enum: EffectCode
+value: 401
+description: |-
+  The affected player is prevent from losing the duel while their LP is 0
+status:
+  index: stable
+tags: [ under-construction ]

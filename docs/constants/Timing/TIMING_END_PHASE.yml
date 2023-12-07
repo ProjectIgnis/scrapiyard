@@ -1,0 +1,9 @@
+---!constant
+name: TIMING_END_PHASE
+enum: Timing
+value: 0x20
+description: |-
+  During the End Phase of a turn
+status:
+  index: stable
+tags: [ under-construction ]

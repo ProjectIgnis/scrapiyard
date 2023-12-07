@@ -1,0 +1,9 @@
+---!constant
+name: TYPE_TRAP
+enum: CardType
+value: 0x4
+description: |-
+  A Trap card
+status:
+  index: stable
+tags: [ under-construction ]

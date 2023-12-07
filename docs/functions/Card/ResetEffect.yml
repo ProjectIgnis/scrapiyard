@@ -1,0 +1,18 @@
+---!function
+name: ResetEffect
+namespace: Card
+description: |-
+  Resets all effects of a Card (Card c) (e.g. "c:ResetEffect(RESET_DISABLE,RESET_EVENT)")
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: reset_code
+    type: [ int ]
+    description: (To be added)
+  - name: reset_type
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

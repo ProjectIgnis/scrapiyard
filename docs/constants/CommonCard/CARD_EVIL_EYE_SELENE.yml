@@ -1,0 +1,9 @@
+---!constant
+name: CARD_EVIL_EYE_SELENE
+enum: CommonCard
+value: 44133040
+description: |-
+  Evil Eye of Selene's ID, used because it has a lot of specific support
+status:
+  index: stable
+tags: [ under-construction ]

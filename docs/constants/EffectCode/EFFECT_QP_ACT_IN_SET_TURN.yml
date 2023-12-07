@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_QP_ACT_IN_SET_TURN
+enum: EffectCode
+value: 19
+description: |-
+  Allows Quick-Play Spells to be activated the turn they are set. This effect is skipped if any of the following 3 tests is false: the card is TYPE_SPELL, the card is TYPE_QUICKPLAY or has EFFECT_BECOME_QUICK, the card has STATUS_SET_TURN. Usually used as EFFECT_TYPE_SINGLE if a field version is used SetTarget receives e and c as parameters. It is suggested that SetDescription is also applied with this effect, for the scenarios where multiple similar effects are available, to allow the player to choose which one to apply.
+status:
+  index: stable
+tags: [ under-construction ]

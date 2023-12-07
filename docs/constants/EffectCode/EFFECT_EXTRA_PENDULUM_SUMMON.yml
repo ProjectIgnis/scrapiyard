@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_EXTRA_PENDULUM_SUMMON
+enum: EffectCode
+value: 360
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: LOCATION_DECK
+enum: Location
+value: 0x1
+description: |-
+  The Deck. If it is used as Location Redirect, the card is placed on the top.
+status:
+  index: stable
+tags: [ under-construction ]

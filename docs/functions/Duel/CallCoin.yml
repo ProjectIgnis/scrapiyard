@@ -1,0 +1,15 @@
+---!function
+name: CallCoin
+namespace: Duel
+description: |-
+  Tosses a coin and returns true if the player guessed right, false if he didn't
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

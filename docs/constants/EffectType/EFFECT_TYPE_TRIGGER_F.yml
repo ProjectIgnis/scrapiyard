@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_TYPE_TRIGGER_F
+enum: EffectType
+value: 0x200
+description: |-
+  Mandatory Trigger effect
+status:
+  index: stable
+tags: [ under-construction ]

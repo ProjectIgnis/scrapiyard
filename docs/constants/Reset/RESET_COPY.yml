@@ -1,0 +1,9 @@
+---!constant
+name: RESET_COPY
+enum: Reset
+value: 0x8000
+description: |-
+  Resets to copy the effect achieved
+status:
+  index: stable
+tags: [ under-construction ]

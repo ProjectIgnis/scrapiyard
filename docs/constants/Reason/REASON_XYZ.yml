@@ -1,0 +1,9 @@
+---!constant
+name: REASON_XYZ
+enum: Reason
+value: 0x200000
+description: |-
+  Used for Xyz Summon
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: TIMING_FLIPSUMMON
+enum: Timing
+value: 0x100
+description: |-
+  When a monster is Flip Summoned
+status:
+  index: stable
+tags: [ under-construction ]

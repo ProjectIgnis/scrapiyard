@@ -1,0 +1,24 @@
+---!function
+name: AddProcFunFun
+namespace: Fusion
+description: |-
+  Fusion monster, condition1 + condition2 * n
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ any ]
+    description: (To be added)
+  - name: f1
+    type: [ any ]
+    description: (To be added)
+  - name: f2
+    type: [ any ]
+    description: (To be added)
+  - name: cc
+    type: [ any ]
+    description: (To be added)
+  - name: insf
+    type: [ any ]
+    description: (To be added)
+tags: [ under-construction ]

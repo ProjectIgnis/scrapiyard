@@ -1,0 +1,9 @@
+---!constant
+name: RACE_PLANT
+enum: MonsterRace
+value: 0x400
+description: |-
+  Plant type monster
+status:
+  index: stable
+tags: [ under-construction ]

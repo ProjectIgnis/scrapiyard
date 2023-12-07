@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_MULTIPLE_TUNERS
+enum: EffectCode
+value: 21142671
+description: |-
+  An effect that flags the card that uses it as card that require 2or more tuners. Uses "Red-Nova" as ID
+status:
+  index: stable
+tags: [ under-construction ]

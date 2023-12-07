@@ -1,0 +1,9 @@
+---!constant
+name: TYPE_PENDULUM
+enum: CardType
+value: 0x1000000
+description: |-
+  Pendulum
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: LOCATION_MMZONE
+enum: Location
+value: 0x800
+description: |-
+  The Main Monster Zones. Symbolic location. Can be used in functions expecting a location and also in SetRange (except with trigger effects)
+status:
+  index: stable
+tags: [ under-construction ]

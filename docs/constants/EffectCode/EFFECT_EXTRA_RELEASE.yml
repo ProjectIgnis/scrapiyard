@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_EXTRA_RELEASE
+enum: EffectCode
+value: 153
+description: |-
+  The affected card must be used when performing a tribute (Soul Exchange)
+status:
+  index: stable
+tags: [ under-construction ]

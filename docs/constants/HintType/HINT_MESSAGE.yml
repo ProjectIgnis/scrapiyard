@@ -1,0 +1,9 @@
+---!constant
+name: HINT_MESSAGE
+enum: HintType
+value: 2
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

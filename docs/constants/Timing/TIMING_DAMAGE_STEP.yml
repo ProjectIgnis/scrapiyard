@@ -1,0 +1,9 @@
+---!constant
+name: TIMING_DAMAGE_STEP
+enum: Timing
+value: 0x2000
+description: |-
+  During the Damage Step
+status:
+  index: stable
+tags: [ under-construction ]

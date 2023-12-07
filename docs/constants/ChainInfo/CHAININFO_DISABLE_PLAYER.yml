@@ -1,0 +1,9 @@
+---!constant
+name: CHAININFO_DISABLE_PLAYER
+enum: ChainInfo
+value: 0x400
+description: |-
+  The player that disabled the effect/card/summon
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: HINTMSG_DEFENSE
+enum: HintMessage
+value: 517
+description: |-
+  Shows the following HintMessage: "Select a monster(s) in Defense Position"
+status:
+  index: stable
+tags: [ under-construction ]

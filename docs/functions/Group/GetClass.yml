@@ -1,0 +1,21 @@
+---!function
+name: GetClass
+namespace: Group
+description: |-
+  Returns a table containing all the different values returned by applying the function f to all the members of the Group g,
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ Group ]
+    description: (To be added)
+  - name: f
+    type: [ function ]
+    description: (To be added)
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ table ]
+    description: (To be added)
+tags: [ under-construction ]

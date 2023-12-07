@@ -1,0 +1,9 @@
+---!constant
+name: PLAYER_NONE
+enum: Player
+value: 2
+description: |-
+  No player
+status:
+  index: stable
+tags: [ under-construction ]

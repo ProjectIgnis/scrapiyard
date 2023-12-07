@@ -1,0 +1,9 @@
+---!constant
+name: CATEGORY_CONTROL
+enum: EffectCategory
+value: 0x2000
+description: |-
+  Describes that an effect takes or switches control
+status:
+  index: stable
+tags: [ under-construction ]

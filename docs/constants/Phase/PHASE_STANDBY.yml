@@ -1,0 +1,9 @@
+---!constant
+name: PHASE_STANDBY
+enum: Phase
+value: 0x02
+description: |-
+  The Standby Phase
+status:
+  index: stable
+tags: [ under-construction ]

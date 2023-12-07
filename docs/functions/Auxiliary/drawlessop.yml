@@ -1,0 +1,15 @@
+---!function
+name: drawlessop
+namespace: Auxiliary
+description: |-
+  Auxiliary function for skills that have "You draw 1 less card at the beginning of the duel".
+status:
+  index: stable
+parameters:
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ function ]
+    description: (To be added)
+tags: [ under-construction ]

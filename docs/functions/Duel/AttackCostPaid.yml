@@ -1,0 +1,14 @@
+---!function
+name: AttackCostPaid
+namespace: Duel
+description: |-
+  Registers the status of payment of attack cost. A value of 2 means that the attack cost was not paid, 1 means the attack cost was paid.
+status:
+  index: stable
+parameters:
+  - name: paid
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: 1
+tags: [ under-construction ]

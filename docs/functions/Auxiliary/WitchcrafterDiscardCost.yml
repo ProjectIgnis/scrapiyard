@@ -1,0 +1,18 @@
+---!function
+name: WitchcrafterDiscardCost
+namespace: Auxiliary
+description: |-
+  Auxiliary function for the discard cost of "Witchcrafter" monsters. Performs the actual discard part, considering a minimum (minc) and maximum (maxc) amount of cards to discard. It also handles cards with EFFECT_WITCHCRAFTER_REPLACE, setting the reason for REASON_COST for those, or REASON_COST+REASON_DISCARD if a card is sent from hand instead.
+status:
+  index: stable
+parameters:
+  - name: f
+    type: [ any ]
+    description: (To be added)
+  - name: minc
+    type: [ int ]
+    description: (To be added)
+  - name: maxc
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,15 @@
+---!function
+name: ReleaseRelation
+namespace: Card
+description: |-
+  Releases the relation between the first card (Card c1) and the second card (Card c2). Does not release relation from the second card that is resulting from _c2:CreateRelation(c1)_
+status:
+  index: stable
+parameters:
+  - name: c1
+    type: [ Card ]
+    description: (To be added)
+  - name: c2
+    type: [ Card ]
+    description: (To be added)
+tags: [ under-construction ]

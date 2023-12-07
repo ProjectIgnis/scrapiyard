@@ -1,0 +1,18 @@
+---!function
+name: IsCanBeBattleTarget
+namespace: Card
+description: |-
+  Checks if a card (Card c1) is a valid battle target for another card (Card c2)
+status:
+  index: stable
+parameters:
+  - name: c1
+    type: [ Card ]
+    description: (To be added)
+  - name: c2
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

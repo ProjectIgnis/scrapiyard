@@ -1,0 +1,9 @@
+---!constant
+name: TIMING_TOHAND
+enum: Timing
+value: 0x200000
+description: |-
+  When you add a hand (retrieve, recycle, etc.)
+status:
+  index: stable
+tags: [ under-construction ]

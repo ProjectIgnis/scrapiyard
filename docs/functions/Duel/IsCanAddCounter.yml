@@ -1,0 +1,27 @@
+---!function
+name: IsCanAddCounter
+namespace: Duel
+description: |-
+  If only (int player) is passed, it checks if that player is not affected by "EFFECT_CANNOT_PLACE_COUNTER" that doesn't have a specific target (and thus no extra checks). If all the other 3 parameters are provided, it checks if that player is affected by "EFFECT_CANNOT_PLACE_COUNTER" effects with those parameters as arguments.
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: countertype
+    type: [ int ]
+    description: (To be added)
+    required: false
+  - name: count
+    type: [ int ]
+    description: (To be added)
+    required: false
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

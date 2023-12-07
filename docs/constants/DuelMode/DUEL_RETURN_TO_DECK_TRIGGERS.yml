@@ -1,0 +1,9 @@
+---!constant
+name: DUEL_RETURN_TO_DECK_TRIGGERS
+enum: DuelMode
+value: 0x10000
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

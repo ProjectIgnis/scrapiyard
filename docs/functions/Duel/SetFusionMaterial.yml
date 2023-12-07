@@ -1,0 +1,12 @@
+---!function
+name: SetFusionMaterial
+namespace: Duel
+description: |-
+  Sets the internal group of selected fusion materials, this function is to be used in EFFECT_SUMMON_MATERIAL after the materials are selected, as this group is what will then be returned from Duel.SetFusionMaterial
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ Group ]
+    description: (To be added)
+tags: [ under-construction ]

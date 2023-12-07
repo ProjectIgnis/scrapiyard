@@ -1,0 +1,9 @@
+---!constant
+name: EVENT_ATTACK_ANNOUNCE
+enum: Event
+value: 1130
+description: |-
+  This event is raised when an attack is declared
+status:
+  index: stable
+tags: [ under-construction ]

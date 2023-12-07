@@ -1,0 +1,15 @@
+---!function
+name: AskEveryone
+namespace: Auxiliary
+description: |-
+  Function deprecated since version 40.0.0. Use "Duel.AskEveryone" instead
+status:
+  index: stable
+parameters:
+  - name: stringid
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

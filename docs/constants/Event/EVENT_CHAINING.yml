@@ -1,0 +1,9 @@
+---!constant
+name: EVENT_CHAINING
+enum: Event
+value: 1027
+description: |-
+  This event is raised when a chain is being built
+status:
+  index: stable
+tags: [ under-construction ]

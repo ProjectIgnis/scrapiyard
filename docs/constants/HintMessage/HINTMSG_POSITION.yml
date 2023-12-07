@@ -1,0 +1,9 @@
+---!constant
+name: HINTMSG_POSITION
+enum: HintMessage
+value: 561
+description: |-
+  Shows the following HintMessage: "Select the battle position"
+status:
+  index: stable
+tags: [ under-construction ]

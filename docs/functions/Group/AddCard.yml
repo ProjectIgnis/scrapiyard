@@ -1,0 +1,18 @@
+---!function
+name: AddCard
+namespace: Group
+description: |-
+  Adds a card or group (Card|Group other) to a group (Group g). Returns the group itself. Equivalent to Group.Merge
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ Group ]
+    description: (To be added)
+  - name: other
+    type: [ Card, Group ]
+    description: (To be added)
+returns:
+  - type: [ Group ]
+    description: (To be added)
+tags: [ under-construction ]

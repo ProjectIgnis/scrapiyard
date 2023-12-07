@@ -1,0 +1,9 @@
+---!constant
+name: CARD_TASTE_INSPECTOR
+enum: CommonCard
+value: 160007008
+description: |-
+  Constant for a commonly used Rush card
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,18 @@
+---!function
+name: IsPreviousPosition
+namespace: Card
+description: |-
+  Checks if a card (Card c) is previously in the specified position (int pos)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: pos
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

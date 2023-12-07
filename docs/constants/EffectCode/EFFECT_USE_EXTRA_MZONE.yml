@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_USE_EXTRA_MZONE
+enum: EffectCode
+value: 261
+description: |-
+  Card uses an additional Monster zone
+status:
+  index: stable
+tags: [ under-construction ]

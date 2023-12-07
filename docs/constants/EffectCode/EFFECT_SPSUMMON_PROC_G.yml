@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_SPSUMMON_PROC_G
+enum: EffectCode
+value: 320
+description: |-
+  Pendulum Summon rules (e.g. Harmonic Oscillation)
+status:
+  index: stable
+tags: [ under-construction ]

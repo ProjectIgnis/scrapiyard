@@ -1,0 +1,9 @@
+---!constant
+name: CARD_SKYSAVIOR_LUA
+enum: CommonCard
+value: 160012021
+description: |-
+  Constant for a commonly used Rush card
+status:
+  index: stable
+tags: [ under-construction ]

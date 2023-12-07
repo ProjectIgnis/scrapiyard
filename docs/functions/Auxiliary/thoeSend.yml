@@ -1,0 +1,12 @@
+---!function
+name: thoeSend
+namespace: Auxiliary
+description: |-
+  Sends (card c) to the grave. Function added to be used with aux.ToHandOrElse
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ card ]
+    description: (To be added)
+tags: [ under-construction ]

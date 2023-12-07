@@ -1,0 +1,9 @@
+---!constant
+name: EVENT_CHAIN_SOLVED
+enum: Event
+value: 1022
+description: |-
+  This event is raised after a Chain Link resolves
+status:
+  index: stable
+tags: [ under-construction ]

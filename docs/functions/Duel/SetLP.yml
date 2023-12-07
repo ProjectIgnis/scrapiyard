@@ -1,0 +1,15 @@
+---!function
+name: SetLP
+namespace: Duel
+description: |-
+  Sets a specified player's (int player) current Life Point to (int lp). (Used by effects that "make the LP become X")
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: lp
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

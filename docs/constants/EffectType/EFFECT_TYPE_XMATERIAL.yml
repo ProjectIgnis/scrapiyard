@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_TYPE_XMATERIAL
+enum: EffectType
+value: 0x1000
+description: |-
+  Applies an effect to a monster that has this card as Xyz Material (see "Zoodiac" cards)
+status:
+  index: stable
+tags: [ under-construction ]

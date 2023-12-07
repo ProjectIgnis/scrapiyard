@@ -1,0 +1,19 @@
+---!function
+name: cannotmatfilter
+namespace: Auxiliary
+description: |-
+  Returns the value(s) passed formatted to be used for EFFECT_CANNOT_BE_MATERIAL.
+status:
+  index: stable
+parameters:
+  - name: val1
+    type: [ int ]
+    description: (To be added)
+  - name: ...
+    type: [ int ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

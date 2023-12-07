@@ -1,0 +1,15 @@
+---!function
+name: ForcedHandler
+namespace: Fusion
+description: |-
+  Used by the Fusion Summon procedure.
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ effect ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

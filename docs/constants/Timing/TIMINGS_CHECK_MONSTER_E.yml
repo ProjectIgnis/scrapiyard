@@ -1,0 +1,9 @@
+---!constant
+name: TIMINGS_CHECK_MONSTER_E
+enum: Timing
+value: 0x1e0
+description: |-
+  When a monster is placed on the field and also during the End Phase
+status:
+  index: stable
+tags: [ under-construction ]

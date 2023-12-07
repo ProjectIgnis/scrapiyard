@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_UPDATE_ATTACK
+enum: EffectCode
+value: 100
+description: |-
+  Changes the ATK of a monster by a value (taken from the return in Effect.SetValue())
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,31 @@
+---!function
+name: ToHandOrElse
+namespace: Auxiliary
+description: |-
+  Makes (int player) either add (card c|group tg) to hand or perform a secondary action. If the optional parameters are not provided, the default secondary action is to send the card or group to the GY. If  the provided (function check) is true (for all the cards in the group) , the secondary action, with string called from (str), will be the one defined in (function oper). The ellipsis (...), if used, allows extra parameters to be passed to (function check)
+status:
+  index: stable
+parameters:
+  - name: cg
+    type: [ Card, Group ]
+    description: (To be added)
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: check
+    type: [ function ]
+    description: (To be added)
+    required: false
+  - name: oper
+    type: [ function ]
+    description: (To be added)
+    required: false
+  - name: str
+    type: [ any ]
+    description: (To be added)
+    required: false
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+    required: false
+tags: [ under-construction ]

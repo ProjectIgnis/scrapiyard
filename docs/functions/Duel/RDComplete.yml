@@ -1,0 +1,8 @@
+---!function
+name: RDComplete
+namespace: Duel
+description: |-
+  Complete Damage/Recover step (for simultaneous damage/recovery)
+status:
+  index: stable
+tags: [ under-construction ]

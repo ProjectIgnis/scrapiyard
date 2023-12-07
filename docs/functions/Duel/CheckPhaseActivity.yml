@@ -1,0 +1,11 @@
+---!function
+name: CheckPhaseActivity
+namespace: Duel
+description: |-
+  Checks if the an "activity" was not performed yet which means that the player is at "the start" of the current phase. Used for effects like Pot of Extravagance, Soundproofed and Mimir of the Nordic Ascendant.
+status:
+  index: stable
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

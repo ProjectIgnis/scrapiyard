@@ -1,0 +1,9 @@
+---!constant
+name: CARD_JELLYPLUG
+enum: CommonCard
+value: 160008006
+description: |-
+  Constant for a commonly used Rush card
+status:
+  index: stable
+tags: [ under-construction ]

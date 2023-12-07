@@ -1,0 +1,15 @@
+---!function
+name: Next
+namespace: Auxiliary
+description: |-
+  Iterates over the cards in (Group g) for use with for loops
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ Group ]
+    description: (To be added)
+returns:
+  - type: [ iterator ]
+    description: (To be added)
+tags: [ under-construction ]

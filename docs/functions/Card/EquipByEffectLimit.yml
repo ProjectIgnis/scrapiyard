@@ -1,0 +1,30 @@
+---!function
+name: EquipByEffectLimit
+namespace: Card
+description: |-
+  Equips (Card tc) to (Card c). Adding a (int code) will register that code as flag effect to the equipped card  (bool mustbefaceup) defines if the card to be equipped is required to be face-up.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+  - name: tp
+    type: [ int ]
+    description: (To be added)
+  - name: tc
+    type: [ Card ]
+    description: (To be added)
+  - name: code
+    type: [ int, nil ]
+    description: (To be added)
+  - name: mustbefaceup
+    type: [ bool ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

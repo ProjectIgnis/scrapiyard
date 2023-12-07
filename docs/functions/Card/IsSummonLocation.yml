@@ -1,0 +1,18 @@
+---!function
+name: IsSummonLocation
+namespace: Card
+description: |-
+  Checks if (Card c) was summoned from the location passed as (int loca)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ card ]
+    description: (To be added)
+  - name: loc
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

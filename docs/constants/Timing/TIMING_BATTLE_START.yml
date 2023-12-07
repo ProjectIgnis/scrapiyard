@@ -1,0 +1,9 @@
+---!constant
+name: TIMING_BATTLE_START
+enum: Timing
+value: 0x8
+description: |-
+  When the Battle Phase has just started
+status:
+  index: stable
+tags: [ under-construction ]

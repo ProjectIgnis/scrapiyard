@@ -1,0 +1,9 @@
+---!constant
+name: RESET_OVERLAY
+enum: Reset
+value: 0x4000000
+description: |-
+  Resets when the card is used as Xyz Material
+status:
+  index: stable
+tags: [ under-construction ]

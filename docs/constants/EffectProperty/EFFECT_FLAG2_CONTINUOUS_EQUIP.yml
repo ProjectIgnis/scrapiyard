@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_FLAG2_CONTINUOUS_EQUIP
+enum: EffectProperty
+value: 0x001
+description: |-
+  This flag allows Continuous Traps that equip themselves to use their trigger/quick effects while equipped
+status:
+  index: stable
+tags: [ under-construction ]

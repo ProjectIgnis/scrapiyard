@@ -1,0 +1,19 @@
+---!function
+name: FromCards
+namespace: Group
+description: |-
+  Create a new Group object and populate it with cards (Card c, ...)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ Group ]
+    description: (To be added)
+tags: [ under-construction ]

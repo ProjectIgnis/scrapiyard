@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_PRE_MONSTER
+enum: EffectCode
+value: 250
+description: |-
+  Can access the monster's value (Card.AddMonsterAttribute () only)
+status:
+  index: stable
+tags: [ under-construction ]

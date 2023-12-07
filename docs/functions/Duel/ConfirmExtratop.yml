@@ -1,0 +1,15 @@
+---!function
+name: ConfirmExtratop
+namespace: Duel
+description: |-
+  Reveals a number (int count) of  facedown cards from the top of a player's (int player) Extra Deck to both players. (faceup pendulum monsters are ignored)
+status:
+  index: stable
+parameters:
+  - name: tp
+    type: [ int ]
+    description: (To be added)
+  - name: count
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

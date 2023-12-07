@@ -1,0 +1,9 @@
+---!constant
+name: RESET_PHASE
+enum: Reset
+value: 0x40000000
+description: |-
+  Resets at a given phase (add the phase value)
+status:
+  index: stable
+tags: [ under-construction ]

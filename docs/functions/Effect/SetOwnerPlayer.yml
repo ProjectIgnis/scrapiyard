@@ -1,0 +1,15 @@
+---!function
+name: SetOwnerPlayer
+namespace: Effect
+description: |-
+  Sets (int player) as the (Effect e)'s owner player.
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+  - name: player
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

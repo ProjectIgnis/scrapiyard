@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_SKIP_TURN
+enum: EffectCode
+value: 188
+description: |-
+  The affected player's whole next turn is skipped
+status:
+  index: stable
+tags: [ under-construction ]

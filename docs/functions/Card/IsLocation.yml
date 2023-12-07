@@ -1,0 +1,18 @@
+---!function
+name: IsLocation
+namespace: Card
+description: |-
+  Checks if a card (Card c) is located on the specified location (int location)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: location
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: ACTIVITY_SPSUMMON
+enum: ActivityCode
+value: 3
+description: |-
+  Refers to the action of performing Special Summons
+status:
+  index: stable
+tags: [ under-construction ]

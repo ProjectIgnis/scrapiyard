@@ -1,0 +1,15 @@
+---!function
+name: IsCanTurnSet
+namespace: Card
+description: |-
+  Checks if a card (Card c) can be made to face-down position (Set)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,18 @@
+---!function
+name: PreEquip
+namespace: Debug
+description: |-
+  Equips (Card equip_card) to (Card target)
+status:
+  index: stable
+parameters:
+  - name: equip_card
+    type: [ Card ]
+    description: (To be added)
+  - name: target
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

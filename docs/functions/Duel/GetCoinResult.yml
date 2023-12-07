@@ -1,0 +1,11 @@
+---!function
+name: GetCoinResult
+namespace: Duel
+description: |-
+  Returns the values corresponding to the results of the last coins tosses.
+status:
+  index: stable
+returns:
+  - type: [ any ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,27 @@
+---!function
+name: SetPossibleOperationInfo
+namespace: Duel
+description: |-
+  Behavior similar to Duel.SetOperationInfo, but those properties are stored separately and are meant to be set for cards that "could" perform such action (for example for cards that include an effect that can be negated by Ghost Belle)
+status:
+  index: stable
+parameters:
+  - name: chainc
+    type: [ int ]
+    description: (To be added)
+  - name: category
+    type: [ int ]
+    description: (To be added)
+  - name: targets
+    type: [ Card, Group ]
+    description: (To be added)
+  - name: count
+    type: [ int ]
+    description: (To be added)
+  - name: target_player
+    type: [ int ]
+    description: (To be added)
+  - name: target_param
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

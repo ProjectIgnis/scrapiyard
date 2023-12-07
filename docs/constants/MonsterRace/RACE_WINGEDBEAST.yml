@@ -1,0 +1,9 @@
+---!constant
+name: RACE_WINGEDBEAST
+enum: MonsterRace
+value: 0x200
+description: |-
+  Winged Beast type monster
+status:
+  index: stable
+tags: [ under-construction ]

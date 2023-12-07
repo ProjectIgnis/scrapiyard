@@ -1,0 +1,9 @@
+---!constant
+name: TYPE_SPELL
+enum: CardType
+value: 0x2
+description: |-
+  A Spell card
+status:
+  index: stable
+tags: [ under-construction ]

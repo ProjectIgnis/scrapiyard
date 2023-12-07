@@ -1,0 +1,12 @@
+---!function
+name: ShuffleHand
+namespace: Duel
+description: |-
+  Shuffles the hand of (int player). Handled automatically after Duel.ConfirmCards().
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_BECOME_QUICK
+enum: EffectCode
+value: 407
+description: |-
+  The affected Spell cards can be played like Quick-Play Spells
+status:
+  index: stable
+tags: [ under-construction ]

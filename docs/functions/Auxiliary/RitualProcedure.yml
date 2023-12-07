@@ -1,0 +1,11 @@
+---!function
+name: RitualProcedure
+namespace: Auxiliary
+description: |-
+  Function used by the ritual procedure. An alias of the Ritual table.
+status:
+  index: stable
+returns:
+  - type: [ function ]
+    description: (To be added)
+tags: [ under-construction ]

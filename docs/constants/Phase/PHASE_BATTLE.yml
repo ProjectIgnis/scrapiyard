@@ -1,0 +1,9 @@
+---!constant
+name: PHASE_BATTLE
+enum: Phase
+value: 0x80
+description: |-
+  Battle Phase/End of Battle Phase
+status:
+  index: stable
+tags: [ under-construction ]

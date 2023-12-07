@@ -1,0 +1,15 @@
+---!function
+name: ChangeAttackTarget
+namespace: Duel
+description: |-
+  Changes the current monster being attacker to another card (or makes the attack a direct attack in case of no card being passed)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card, nil ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,20 @@
+---!function
+name: SetReset
+namespace: Effect
+description: |-
+  Sets the timing that the effect (Effect e) would be erased (with reset_flag)
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+  - name: reset_flag
+    type: [ int ]
+    description: (To be added)
+  - name: reset_count
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: 1
+tags: [ under-construction ]

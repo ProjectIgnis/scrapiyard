@@ -1,0 +1,21 @@
+---!function
+name: BanishMaterial
+namespace: Fusion
+description: |-
+  Banishes (group sg), face-up, with REASON_EFFECT+REASON_MATERIAL+REASON_FUSION. Then clears the group sg. Used by the Fusion Summon procedure.
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ any ]
+    description: (To be added)
+  - name: tc
+    type: [ any ]
+    description: (To be added)
+  - name: tp
+    type: [ any ]
+    description: (To be added)
+  - name: sg
+    type: [ group ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_SYNCHRO_MATERIAL_CUSTOM
+enum: EffectCode
+value: 237
+description: |-
+  Coexistence of material constraints
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,18 @@
+---!function
+name: RemoveCard
+namespace: Group
+description: |-
+  Removes from (Group g) a card or group (Card|Group other). Returns the group itself. Equivalent to Group.Sub
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ Group ]
+    description: (To be added)
+  - name: other
+    type: [ Card, Group ]
+    description: (To be added)
+returns:
+  - type: [ Group ]
+    description: (To be added)
+tags: [ under-construction ]

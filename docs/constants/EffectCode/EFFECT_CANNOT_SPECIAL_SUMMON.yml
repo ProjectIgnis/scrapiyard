@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_CANNOT_SPECIAL_SUMMON
+enum: EffectCode
+value: 22
+description: |-
+  The affected player cannot Special Summon. Requires the property EFFECT_FLAG_PLAYER_TARGET and the players defined via SetRange.
+status:
+  index: stable
+tags: [ under-construction ]

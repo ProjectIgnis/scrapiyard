@@ -1,0 +1,9 @@
+---!constant
+name: GLOBALFLAG_XMAT_COUNT_LIMIT
+enum: GlobalFlag
+value: 0x80
+description: |-
+  Allows EFFECT_TYPE_XMATERIAL to take SetCountLimit into account
+status:
+  index: stable
+tags: [ under-construction ]

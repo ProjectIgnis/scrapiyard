@@ -1,0 +1,15 @@
+---!function
+name: NormalStatusCondition
+namespace: Gemini
+description: |-
+  Checks if a monster is face-up and is not a Gemini monster or has not been Normal Summoned on the field.
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

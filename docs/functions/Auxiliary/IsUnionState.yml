@@ -1,0 +1,15 @@
+---!function
+name: IsUnionState
+namespace: Auxiliary
+description: |-
+  Used as a default condition to check if the handler of the effect is a Union monster equipped to another monster.
+status:
+  index: stable
+parameters:
+  - name: effect
+    type: [ Effect ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

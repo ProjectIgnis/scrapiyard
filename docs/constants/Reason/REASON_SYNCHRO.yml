@@ -1,0 +1,9 @@
+---!constant
+name: REASON_SYNCHRO
+enum: Reason
+value: 0x80000
+description: |-
+  Used for Synchro Summon
+status:
+  index: stable
+tags: [ under-construction ]

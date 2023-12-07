@@ -1,0 +1,9 @@
+---!constant
+name: RESET_TOFIELD
+enum: Reset
+value: 0x1000000
+description: |-
+  Resets when the card moves to the field (the card moves to LOCATION_MZONE or LOCATION_SZONE from a different location. Returning to the field is not included)
+status:
+  index: stable
+tags: [ under-construction ]

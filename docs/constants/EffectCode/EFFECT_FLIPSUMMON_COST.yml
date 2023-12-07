@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_FLIPSUMMON_COST
+enum: EffectCode
+value: 93
+description: |-
+  Affected player must pay a cost to Flip Summon.
+status:
+  index: stable
+tags: [ under-construction ]

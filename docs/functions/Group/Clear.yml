@@ -1,0 +1,15 @@
+---!function
+name: Clear
+namespace: Group
+description: |-
+  Removes all the elements from a group (Group g). Returns the group itself.
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ Group ]
+    description: (To be added)
+returns:
+  - type: [ Group ]
+    description: (To be added)
+tags: [ under-construction ]

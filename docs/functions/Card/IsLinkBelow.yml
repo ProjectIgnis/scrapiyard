@@ -1,0 +1,18 @@
+---!function
+name: IsLinkBelow
+namespace: Card
+description: |-
+  Checks if (Card c) has a Link Rating (link_rating) equal or lower than the given number
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: link_rating
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

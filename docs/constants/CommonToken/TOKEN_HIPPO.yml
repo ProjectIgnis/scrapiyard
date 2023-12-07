@@ -1,0 +1,9 @@
+---!constant
+name: TOKEN_HIPPO
+enum: CommonToken
+value: 11050416
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,18 @@
+---!function
+name: imval2
+namespace: Auxiliary
+description: |-
+  similar to aux.imval1, but also check if the monster is from opponent.
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

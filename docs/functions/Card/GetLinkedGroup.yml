@@ -1,0 +1,15 @@
+---!function
+name: GetLinkedGroup
+namespace: Card
+description: |-
+  Returns a group with all the cards that "c" points to. (Returns an empty group if it does not point to any cards.)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ Group ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,15 @@
+---!function
+name: ForceAttack
+namespace: Duel
+description: |-
+  Last Turn's specific effect: after the chain resolves, switches to a standalone Battle Phase and makes card (card c1) attack (card c2). After that, returns to the previous phase.
+status:
+  index: stable
+parameters:
+  - name: c1
+    type: [ Card ]
+    description: (To be added)
+  - name: c2
+    type: [ Card ]
+    description: (To be added)
+tags: [ under-construction ]

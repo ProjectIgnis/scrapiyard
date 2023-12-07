@@ -1,0 +1,12 @@
+---!function
+name: EnableCheckReincarnation
+namespace: Auxiliary
+description: |-
+  Auxiliary function for "Salamangreat" Reincarnation procedure. Enables reincarnation links.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+tags: [ under-construction ]

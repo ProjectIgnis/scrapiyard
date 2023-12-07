@@ -1,0 +1,39 @@
+---!function
+name: IsProcedureSummonable
+namespace: Card
+description: |-
+  Checks if "c" or type "cardtype" can be Summoned according to the "sumtype" procedure using "must_use" as part of its materials, choosing among "mg", with "min" and "max" materials to be used for the Xyz Summon
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: cardtype
+    type: [ int ]
+    description: (To be added)
+  - name: sumtype
+    type: [ int ]
+    description: (To be added)
+  - name: must_use
+    type: [ Group, Card, nil ]
+    description: (To be added)
+    required: false
+  - name: mg
+    type: [ Group, Card, nil ]
+    description: (To be added)
+    required: false
+  - name: min
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: 0
+  - name: max
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: 0
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,16 @@
+---!function
+name: ChangeAttacker
+namespace: Duel
+description: |-
+  Changes the current monster attacking to another card (Card c), if ignore counts is set to true (int ign) it will ignore if the card can still attack.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: ign
+    type: [ int ]
+    description: (To be added)
+    required: false
+tags: [ under-construction ]

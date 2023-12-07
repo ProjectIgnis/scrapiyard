@@ -1,0 +1,8 @@
+---!function
+name: BreakEffect
+namespace: Duel
+description: |-
+  Separates an effect for the purposes of timing (Reflects the effects of the conjunctives "then" and "also after that")
+status:
+  index: stable
+tags: [ under-construction ]

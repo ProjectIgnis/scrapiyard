@@ -1,0 +1,9 @@
+---!constant
+name: TYPE_CONTINUOUS
+enum: CardType
+value: 0x20000
+description: |-
+  A Continuous card
+status:
+  index: stable
+tags: [ under-construction ]

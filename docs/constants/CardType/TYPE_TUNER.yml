@@ -1,0 +1,9 @@
+---!constant
+name: TYPE_TUNER
+enum: CardType
+value: 0x1000
+description: |-
+  Tuner
+status:
+  index: stable
+tags: [ under-construction ]

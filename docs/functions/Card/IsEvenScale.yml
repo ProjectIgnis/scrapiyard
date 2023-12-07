@@ -1,0 +1,15 @@
+---!function
+name: IsEvenScale
+namespace: Card
+description: |-
+  Returns if a pendulum card (Card c) is a card with an even value for the scale, using Card.GetScale to get the value.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

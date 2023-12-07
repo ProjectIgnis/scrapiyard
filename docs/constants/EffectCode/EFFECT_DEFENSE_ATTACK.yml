@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_DEFENSE_ATTACK
+enum: EffectCode
+value: 190
+description: |-
+  Affected card can attack while in defense position. The stats it uses depends on Effect.Setvalue (if any), where it applies DEF if effect value is 1 and atk if it is 0 or doesn't exist.
+status:
+  index: stable
+tags: [ under-construction ]

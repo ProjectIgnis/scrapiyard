@@ -1,0 +1,15 @@
+---!function
+name: GlobalCheck
+namespace: Auxiliary
+description: |-
+  Enables a global check to be used with function "func"
+status:
+  index: stable
+parameters:
+  - name: s
+    type: [ any ]
+    description: (To be added)
+  - name: func
+    type: [ function ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,45 @@
+---!function
+name: AddPersistentProcedure
+namespace: Auxiliary
+description: |-
+  Adds the Persistent Trap Procedure where is the player, setting 0 will limit to monsters you control, setting to 1 will be your opponent and PLAYER_ALL/nil will be for either player. (function f) is the filters on which monsters you can target. (bool anypos) is a check if the target needs to be face-up. Setting this to true will allow it to be targeted even if it isn't face-up.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: p
+    type: [ int, nil ]
+    description: (To be added)
+  - name: f
+    type: [ function, nil ]
+    description: (To be added)
+  - name: category
+    type: [ int, nil ]
+    description: (To be added)
+  - name: property
+    type: [ int, nil ]
+    description: (To be added)
+  - name: hint1
+    type: [ int, nil ]
+    description: (To be added)
+  - name: hint2
+    type: [ int, nil ]
+    description: (To be added)
+  - name: con
+    type: [ function, nil ]
+    description: (To be added)
+  - name: cost
+    type: [ function, nil ]
+    description: (To be added)
+  - name: tg
+    type: [ function, nil ]
+    description: (To be added)
+  - name: op
+    type: [ function, nil ]
+    description: (To be added)
+  - name: anypos
+    type: [ bool, nil ]
+    description: (To be added)
+tags: [ under-construction ]

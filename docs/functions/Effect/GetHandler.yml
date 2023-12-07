@@ -1,0 +1,15 @@
+---!function
+name: GetHandler
+namespace: Effect
+description: |-
+  Gets an effect's (Effect e) card handler (that being the card on which the effect is registered on), if the effect is not attached to a card (i.e. registered to player) it returns its owner.
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+returns:
+  - type: [ Card ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,26 @@
+---!function
+name: IsMSetable
+namespace: Card
+description: |-
+  Checks whether a card (Card c) can be Normal Set as a monster. Setting ignore_count to true makes it ignore the standard once per turn summon limit. If an effect (Effect e) is given, checks whether it can be Normal Summoned by that effect. The last value denotes the minimum tribute amount.
+status:
+  index: stable
+parameters:
+  - name: Card
+    type: [ any ]
+    description: (To be added)
+  - name: ignore_count
+    type: [ bool ]
+    description: (To be added)
+  - name: e
+    type: [ Effect, nil ]
+    description: (To be added)
+  - name: min
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: 0
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

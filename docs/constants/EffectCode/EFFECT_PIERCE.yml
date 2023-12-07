@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_PIERCE
+enum: EffectCode
+value: 203
+description: |-
+  The affected monster deals piercing battle damage
+status:
+  index: stable
+tags: [ under-construction ]

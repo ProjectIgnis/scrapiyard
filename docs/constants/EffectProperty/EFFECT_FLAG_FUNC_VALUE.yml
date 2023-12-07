@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_FLAG_FUNC_VALUE
+enum: EffectProperty
+value: 0x2
+description: |-
+  The Value property of this effect is a function
+status:
+  index: stable
+tags: [ under-construction ]

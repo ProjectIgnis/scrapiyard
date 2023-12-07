@@ -1,0 +1,9 @@
+---!constant
+name: HINTMSG_CODE
+enum: HintMessage
+value: 564
+description: |-
+  Shows the following HintMessage: "Declare a card name"
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: RESET_CONTROL
+enum: Reset
+value: 0x2000000
+description: |-
+  Resets when control of the card changes
+status:
+  index: stable
+tags: [ under-construction ]

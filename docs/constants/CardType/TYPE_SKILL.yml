@@ -1,0 +1,9 @@
+---!constant
+name: TYPE_SKILL
+enum: CardType
+value: 0x8000000
+description: |-
+  A Skill Card.
+status:
+  index: stable
+tags: [ under-construction ]

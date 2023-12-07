@@ -1,0 +1,30 @@
+---!function
+name: IsAttributeExcept
+namespace: Card
+description: |-
+  Checks if (Card c) has any attribute other than (int att). If the optional parameters are passed, does the checks by calling the equivalent behavior with such parameters with Card.GetAttribute
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: att
+    type: [ int ]
+    description: (To be added)
+  - name: scard
+    type: [ card ]
+    description: (To be added)
+    required: false
+  - name: sumtype
+    type: [ int ]
+    description: (To be added)
+    required: false
+  - name: playerid
+    type: [ int ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

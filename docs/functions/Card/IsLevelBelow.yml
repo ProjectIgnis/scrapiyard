@@ -1,0 +1,18 @@
+---!function
+name: IsLevelBelow
+namespace: Card
+description: |-
+  Checks if a card (Card c) has level equal or below the specified number (int level), will return false if the card has no level.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: level
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

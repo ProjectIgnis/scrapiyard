@@ -1,0 +1,15 @@
+---!function
+name: SetCode
+namespace: Effect
+description: |-
+  Sets an effect's (Effect e) code. Refer to constant.lua and card scripts that has been already there for valid codes (or ask someone).
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+  - name: code
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

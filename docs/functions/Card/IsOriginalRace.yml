@@ -1,0 +1,18 @@
+---!function
+name: IsOriginalRace
+namespace: Card
+description: |-
+  Checks if (Card c) is of original monster type (int val)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: val
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

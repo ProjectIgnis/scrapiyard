@@ -1,0 +1,9 @@
+---!constant
+name: CATEGORY_TODECK
+enum: EffectCategory
+value: 0x10
+description: |-
+  Describes that an effect adds a card to the Deck (from any location)
+status:
+  index: stable
+tags: [ under-construction ]

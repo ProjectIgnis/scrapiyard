@@ -1,0 +1,9 @@
+---!constant
+name: ACTIVITY_CHAIN
+enum: ActivityCode
+value: 7
+description: |-
+  An activity only available with custom counter
+status:
+  index: stable
+tags: [ under-construction ]

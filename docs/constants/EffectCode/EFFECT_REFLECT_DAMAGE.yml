@@ -1,0 +1,15 @@
+---!constant
+name: EFFECT_REFLECT_DAMAGE
+enum: EffectCode
+value: 83
+description: |-
+  If the affected player would take damage, their opponent takes damage instead. SetValue in this effect receives the following parameters:
+e: this effect itself
+amount: the amount of damage
+re: reason effect that would inflict the damage
+r: the reason for the damage
+rp: reason player, the player that would inflict the damage
+rc: reason card
+status:
+  index: stable
+tags: [ under-construction ]

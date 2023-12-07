@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_BP_FIRST_TURN
+enum: EffectCode
+value: 403
+description: |-
+  Allows entering Battle Phase during the first turn
+status:
+  index: stable
+tags: [ under-construction ]

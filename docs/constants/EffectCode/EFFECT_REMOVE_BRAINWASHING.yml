@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_REMOVE_BRAINWASHING
+enum: EffectCode
+value: 295
+description: |-
+  Control of all monsters is returned to their owner
+status:
+  index: stable
+tags: [ under-construction ]

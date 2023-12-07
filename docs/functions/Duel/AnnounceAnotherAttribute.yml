@@ -1,0 +1,18 @@
+---!function
+name: AnnounceAnotherAttribute
+namespace: Duel
+description: |-
+  Makes (int player) announce an attribute different from the one(s) already among the members of (group g)
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ group ]
+    description: (To be added)
+  - name: player
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: REASON_DISCARD
+enum: Reason
+value: 0x4000
+description: |-
+  The reason for the even is a card being discarded
+status:
+  index: stable
+tags: [ under-construction ]

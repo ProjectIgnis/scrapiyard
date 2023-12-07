@@ -1,0 +1,9 @@
+---!constant
+name: DUEL_SPSUMMON_ONCE_OLD_NEGATE
+enum: DuelMode
+value: 0x40000
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

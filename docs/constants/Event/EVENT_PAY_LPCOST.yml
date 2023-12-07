@@ -1,0 +1,9 @@
+---!constant
+name: EVENT_PAY_LPCOST
+enum: Event
+value: 1201
+description: |-
+  This event is raised when LP is paid as a cost
+status:
+  index: stable
+tags: [ under-construction ]

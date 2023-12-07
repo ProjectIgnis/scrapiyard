@@ -1,0 +1,9 @@
+---!constant
+name: CHAININFO_TRIGGERING_EFFECT
+enum: ChainInfo
+value: 0x2
+description: |-
+  The effect that triggered the current Chain Link
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,16 @@
+---!function
+name: MoveToDeckBottom
+namespace: Duel
+description: |-
+  Places the passed cards in the deck to the bottom of player's deck. If the argument is an integer then it moves the top n cards from player's deck.
+status:
+  index: stable
+parameters:
+  - name: targets
+    type: [ int, Card, Group ]
+    description: (To be added)
+  - name: player
+    type: [ int ]
+    description: (To be added)
+    required: false
+tags: [ under-construction ]

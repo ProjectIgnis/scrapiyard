@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_ALSO_BATTLE_DAMAGE
+enum: EffectCode
+value: 207
+description: |-
+  The opponent also takes the battle damage. See Lyrilusc - Recital Starling
+status:
+  index: stable
+tags: [ under-construction ]

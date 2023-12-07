@@ -1,0 +1,7 @@
+---!namespace
+name: Xyz
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

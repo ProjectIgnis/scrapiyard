@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_TOSS_DICE_REPLACE
+enum: EffectCode
+value: 221
+description: |-
+  If an effect requires a dice roll, replace it with a given result instead
+status:
+  index: stable
+tags: [ under-construction ]

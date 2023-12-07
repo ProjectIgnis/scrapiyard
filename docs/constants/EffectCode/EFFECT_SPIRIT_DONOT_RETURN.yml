@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_SPIRIT_DONOT_RETURN
+enum: EffectCode
+value: 280
+description: |-
+  Affected card does not return to the hand in the End Phase even if a Spirit Monster
+status:
+  index: stable
+tags: [ under-construction ]

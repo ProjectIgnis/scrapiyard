@@ -1,0 +1,23 @@
+---!function
+name: CanChainAttack
+namespace: Card
+description: |-
+  Checks if a card (Card c) can make a follow-up attack. Specifying the integer ac checks whether it can attack that number of times. Setting monsteronly to true checks only the possibility of follow-up attack to monster
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: ac
+    type: [ int ]
+    description: (To be added)
+    required: false
+  - name: monsteronly
+    type: [ bool ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,28 @@
+---!function
+name: CheckFusionMaterial
+namespace: Card
+description: |-
+  Check if g contains a set of fusion material that c needs [must contain gc]. Check the Condition function for the effect of EFFECT_FUSION_MATERIAL according to the type of c
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: g
+    type: [ Group ]
+    description: (To be added)
+    required: false
+  - name: gc
+    type: [ Card, nil ]
+    description: (To be added)
+    required: false
+  - name: chkf
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: PLAYER_NONE
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

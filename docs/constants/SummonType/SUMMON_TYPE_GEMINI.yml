@@ -1,0 +1,9 @@
+---!constant
+name: SUMMON_TYPE_GEMINI
+enum: SummonType
+value: 0x12000000
+description: |-
+  Normal Summoned Gemini Monster.
+status:
+  index: stable
+tags: [ under-construction ]

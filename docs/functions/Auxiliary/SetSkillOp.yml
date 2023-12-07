@@ -1,0 +1,30 @@
+---!function
+name: SetSkillOp
+namespace: Auxiliary
+description: |-
+  no description yet
+status:
+  index: stable
+parameters:
+  - name: coverNum
+    type: [ any ]
+    description: (To be added)
+  - name: drawless
+    type: [ any ]
+    description: (To be added)
+  - name: skillcon
+    type: [ any ]
+    description: (To be added)
+  - name: skillop
+    type: [ any ]
+    description: (To be added)
+  - name: countlimit
+    type: [ any ]
+    description: (To be added)
+  - name: efftype
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ effect ]
+    description: (To be added)
+tags: [ under-construction ]

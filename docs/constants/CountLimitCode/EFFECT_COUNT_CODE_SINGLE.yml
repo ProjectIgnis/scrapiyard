@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_COUNT_CODE_SINGLE
+enum: CountLimitCode
+value: 0x4
+description: |-
+  A flag to be used with SetCountLimit. Usually used with multiple effects of the same card, the value set is the maximum count among all those effects. Example: "Once per turn: You can activate 1 of these effects."
+status:
+  index: stable
+tags: [ under-construction ]

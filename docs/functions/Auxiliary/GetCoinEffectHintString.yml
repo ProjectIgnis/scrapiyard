@@ -1,0 +1,11 @@
+---!function
+name: GetCoinEffectHintString
+namespace: Auxiliary
+description: |-
+  no description yet
+status:
+  index: stable
+returns:
+  - type: [ table ]
+    description: (To be added)
+tags: [ under-construction ]

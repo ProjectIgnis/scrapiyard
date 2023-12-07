@@ -1,0 +1,9 @@
+---!constant
+name: TOKEN_SWORDSOUL
+enum: CommonToken
+value: 20001444
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

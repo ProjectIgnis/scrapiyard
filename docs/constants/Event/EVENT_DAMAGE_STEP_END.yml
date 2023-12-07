@@ -1,0 +1,9 @@
+---!constant
+name: EVENT_DAMAGE_STEP_END
+enum: Event
+value: 1141
+description: |-
+  At the end of the Damage Step
+status:
+  index: stable
+tags: [ under-construction ]

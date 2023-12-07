@@ -1,0 +1,15 @@
+---!function
+name: CalculateDamage
+namespace: Duel
+description: |-
+  Conduct damage calculation between (Card c1) as attacker and (Card c2) or opponent player (nil)
+status:
+  index: stable
+parameters:
+  - name: c1
+    type: [ Card ]
+    description: (To be added)
+  - name: c2
+    type: [ Card, nil ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,15 @@
+---!function
+name: IsPlayerCanAdditionalSummon
+namespace: Duel
+description: |-
+  Returns if the player can perform an additional normal summon via a EFFECT_EXTRA_SUMMON_COUNT (e.g. "Fire Formation - Tensu")
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

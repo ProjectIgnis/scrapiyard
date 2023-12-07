@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_TYPE_ACTIONS
+enum: EffectType
+value: 0x8
+description: |-
+  Effects that trigger. (Added to effects automatically)
+status:
+  index: stable
+tags: [ under-construction ]

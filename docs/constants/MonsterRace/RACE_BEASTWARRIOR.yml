@@ -1,0 +1,9 @@
+---!constant
+name: RACE_BEASTWARRIOR
+enum: MonsterRace
+value: 0x8000
+description: |-
+  Beast-Warrior type monster
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,11 @@
+---!constant
+name: EFFECT_NONTUNER
+enum: EffectCode
+value: 244
+description: |-
+  Affected card can be treated as a non-Tuner despite being a Tuner (Phantom King Hydride). When used as a single effect, SetValue receives the following parameters:
+e: this effect
+sc: the monster that would use this card as material
+status:
+  index: stable
+tags: [ under-construction ]

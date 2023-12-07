@@ -1,0 +1,9 @@
+---!constant
+name: CARD_DARK_SANCTUARY
+enum: CommonCard
+value: 16625614
+description: |-
+  Dark Sanctuary's ID, frequently called by some scripts
+status:
+  index: stable
+tags: [ under-construction ]

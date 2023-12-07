@@ -1,0 +1,9 @@
+---!constant
+name: STATUS_ATTACK_CANCELED
+enum: CardStatus
+value: 0x200000
+description: |-
+  Attack was negated
+status:
+  index: stable
+tags: [ under-construction ]

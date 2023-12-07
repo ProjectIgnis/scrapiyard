@@ -1,0 +1,18 @@
+---!function
+name: SetHint
+namespace: Card
+description: |-
+  Sets a card (Card c) hint displaying, type is CHINT_* and value is the appropriate value depending on the type
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: type
+    type: [ int ]
+    description: (To be added)
+  - name: value
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

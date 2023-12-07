@@ -1,0 +1,9 @@
+---!constant
+name: COIN_TAILS
+enum: Coin
+value: 1
+description: |-
+  Value for coin results
+status:
+  index: stable
+tags: [ under-construction ]

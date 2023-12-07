@@ -1,0 +1,18 @@
+---!function
+name: SelectAdjacent
+namespace: Card
+description: |-
+  Makes (int player) select a zone adjacent (horizontally) to (card c)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: sel_player
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ number ]
+    description: (To be added)
+tags: [ under-construction ]

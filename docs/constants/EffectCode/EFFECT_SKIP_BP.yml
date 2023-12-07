@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_SKIP_BP
+enum: EffectCode
+value: 183
+description: |-
+  Skip affected player's battle phase (used with SetTargetRange(tp value,1-tp value), 0 for not affected, 1 for affect)
+status:
+  index: stable
+tags: [ under-construction ]

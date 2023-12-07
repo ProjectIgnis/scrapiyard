@@ -1,0 +1,13 @@
+---!constant
+name: EFFECT_INDESTRUCTABLE
+enum: EffectCode
+value: 40
+description: |-
+  Affected card cannot be destroyed. SetValue receives the following parameters:
+e: this effect itself
+re: reason effect, the effect that would cause the destruction
+r: reason, always considered as REASON_EFFECT by the core
+rp: reason player
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_CHANGE_ENVIRONMENT
+enum: EffectCode
+value: 290
+description: |-
+  The active Field Spell is treated as a given card if none exists (Maiden of the Aqua, Gravekeeper's Priestess)
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_SELF_DESTROY
+enum: EffectCode
+value: 141
+description: |-
+  Affected card destroys itself
+status:
+  index: stable
+tags: [ under-construction ]

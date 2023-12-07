@@ -1,0 +1,15 @@
+---!function
+name: nvfilter
+namespace: Auxiliary
+description: |-
+  Filter check "not affected by Necrovalley"
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

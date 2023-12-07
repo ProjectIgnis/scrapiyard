@@ -1,0 +1,9 @@
+---!constant
+name: CHAININFO_TRIGGERING_SEQUENCE
+enum: ChainInfo
+value: 0x20
+description: |-
+  The sequence (zone within a location) that triggered the current Chain Link
+status:
+  index: stable
+tags: [ under-construction ]

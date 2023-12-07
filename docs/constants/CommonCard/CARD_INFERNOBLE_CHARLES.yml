@@ -1,0 +1,9 @@
+---!constant
+name: CARD_INFERNOBLE_CHARLES
+enum: CommonCard
+value: 77656797
+description: |-
+  Infernoble Knight Emperor Charles's ID
+status:
+  index: stable
+tags: [ under-construction ]

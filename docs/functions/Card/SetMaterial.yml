@@ -1,0 +1,15 @@
+---!function
+name: SetMaterial
+namespace: Card
+description: |-
+  Sets the Material of a Card (Card c) to the passed ones. If nil is passed, the material group of the card is cleared.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: materials
+    type: [ Card, Group, nil ]
+    description: (To be added)
+tags: [ under-construction ]

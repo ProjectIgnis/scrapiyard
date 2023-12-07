@@ -1,0 +1,36 @@
+---!function
+name: seqmovtg
+namespace: Auxiliary
+description: |-
+  no description yet
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ any ]
+    description: (To be added)
+  - name: tp
+    type: [ any ]
+    description: (To be added)
+  - name: eg
+    type: [ any ]
+    description: (To be added)
+  - name: ep
+    type: [ any ]
+    description: (To be added)
+  - name: ev
+    type: [ any ]
+    description: (To be added)
+  - name: re
+    type: [ any ]
+    description: (To be added)
+  - name: r
+    type: [ any ]
+    description: (To be added)
+  - name: rp
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ function ]
+    description: (To be added)
+tags: [ under-construction ]

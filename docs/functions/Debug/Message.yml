@@ -1,0 +1,12 @@
+---!function
+name: Message
+namespace: Debug
+description: |-
+  Sends (any msg) as a script error to the logs
+status:
+  index: stable
+parameters:
+  - name: msg
+    type: [ any ]
+    description: (To be added)
+tags: [ under-construction ]

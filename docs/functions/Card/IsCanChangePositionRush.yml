@@ -1,0 +1,15 @@
+---!function
+name: IsCanChangePositionRush
+namespace: Card
+description: |-
+  Rush related function. Returns if (Card c) can change its position and is not in Maximum mode
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

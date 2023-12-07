@@ -1,0 +1,22 @@
+---!function
+name: IsHasProperty
+namespace: Effect
+description: |-
+  Returns true if the effect (Effect e) has any property listed in (int prop1) or (int prop2), otherwise returns false
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+  - name: prop1
+    type: [ int ]
+    description: (To be added)
+  - name: prop2
+    type: [ int ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

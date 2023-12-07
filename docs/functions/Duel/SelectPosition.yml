@@ -1,0 +1,21 @@
+---!function
+name: SelectPosition
+namespace: Duel
+description: |-
+  Makes int player select a position int pos for card c
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: pos
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

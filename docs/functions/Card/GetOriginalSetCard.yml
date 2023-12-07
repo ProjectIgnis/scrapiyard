@@ -1,0 +1,15 @@
+---!function
+name: GetOriginalSetCard
+namespace: Card
+description: |-
+  Returns the original archetype(s) that "c" is a part of.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

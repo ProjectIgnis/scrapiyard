@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_FUSION_SUBSTITUTE
+enum: EffectCode
+value: 234
+description: |-
+  When Fusion Summoning, the affected card can be used to substitute for any specifically named material
+status:
+  index: stable
+tags: [ under-construction ]

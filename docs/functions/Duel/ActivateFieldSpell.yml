@@ -1,0 +1,42 @@
+---!function
+name: ActivateFieldSpell
+namespace: Duel
+description: |-
+  Activates a field spell Card "c". Already handles interactions with Field Spells that are already face up, rules for only 1 Field Spell at time, checks for costs and activated effects of the field spell and als the interaction with Ancient Pixie Dragon.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: e
+    type: [ any ]
+    description: (To be added)
+  - name: tp
+    type: [ any ]
+    description: (To be added)
+  - name: eg
+    type: [ any ]
+    description: (To be added)
+  - name: ep
+    type: [ any ]
+    description: (To be added)
+  - name: ev
+    type: [ any ]
+    description: (To be added)
+  - name: re
+    type: [ any ]
+    description: (To be added)
+  - name: r
+    type: [ any ]
+    description: (To be added)
+  - name: rp
+    type: [ any ]
+    description: (To be added)
+  - name: target_p
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

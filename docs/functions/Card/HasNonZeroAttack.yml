@@ -1,0 +1,15 @@
+---!function
+name: HasNonZeroAttack
+namespace: Card
+description: |-
+  Filter checking if (Card c) is face-up and has more than 0 ATK
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,23 @@
+---!function
+name: CanPlayerSetMonster
+namespace: Duel
+description: |-
+  Returns if player can set a monster, if sumcard and sumtype are passed, those parameters are also passed to the EFFECT_CANNOT_MSET effects.
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: sumcard
+    type: [ Card ]
+    description: (To be added)
+    required: false
+  - name: sumtype
+    type: [ int ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

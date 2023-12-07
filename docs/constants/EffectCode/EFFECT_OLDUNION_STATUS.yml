@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_OLDUNION_STATUS
+enum: EffectCode
+value: 348
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

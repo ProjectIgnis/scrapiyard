@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_UPDATE_RSCALE
+enum: EffectCode
+value: 136
+description: |-
+  Increase/decrease affected card's right pendulum scale (red scale) by a value (written into Effect.SetValue())
+status:
+  index: stable
+tags: [ under-construction ]

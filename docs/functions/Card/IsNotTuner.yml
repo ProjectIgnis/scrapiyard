@@ -1,0 +1,15 @@
+---!function
+name: IsNotTuner
+namespace: Card
+description: |-
+  Checks if "c" is a non-Tuner monster.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

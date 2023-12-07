@@ -1,0 +1,8 @@
+---!function
+name: Readjust
+namespace: Duel
+description: |-
+  Makes the game do the adjustments ( win, disable, control, self destroy, equip, position, trap monster). Calling this while adjusting (most likely, in EVENT_ADJUST) four times with the same card (calling this will raise EVENT_ADJUST at the end, so it is possible to loop) will make the card instantly destroyed.
+status:
+  index: stable
+tags: [ under-construction ]

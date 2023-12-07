@@ -1,0 +1,9 @@
+---!constant
+name: SUMMON_TYPE_MAXIMUM
+enum: SummonType
+value: 0x4e000000
+description: |-
+  Maximum Summon (Rush duel SummonType)
+status:
+  index: stable
+tags: [ under-construction ]

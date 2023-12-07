@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_DUAL_STATUS
+enum: EffectCode
+value: 75
+description: |-
+  Affected card is a Gemini Monster that has its effect
+status:
+  index: stable
+tags: [ under-construction ]

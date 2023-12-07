@@ -1,0 +1,9 @@
+---!constant
+name: CARD_VIJAM
+enum: CommonCard
+value: 15610297
+description: |-
+  Vijam the Cubic Seed's ID, used because it has a lot of specific support
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: OPCODE_ISTYPE
+enum: Opcode
+value: 0x40000102
+description: |-
+  Operation of the function Card.IsType, to be used in an AnnounceCard filter.
+status:
+  index: stable
+tags: [ under-construction ]

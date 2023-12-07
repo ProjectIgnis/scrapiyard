@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_SPIRIT_MAYNOT_RETURN
+enum: EffectCode
+value: 281
+description: |-
+  Affected card optionally may not return to the hand in the End Phase even if a Spirit Monster
+status:
+  index: stable
+tags: [ under-construction ]

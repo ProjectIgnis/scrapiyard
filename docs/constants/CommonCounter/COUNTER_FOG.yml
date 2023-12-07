@@ -1,0 +1,9 @@
+---!constant
+name: COUNTER_FOG
+enum: CommonCounter
+value: 0x1019
+description: |-
+  The hexadecimal value of Fog Counters
+status:
+  index: stable
+tags: [ under-construction ]

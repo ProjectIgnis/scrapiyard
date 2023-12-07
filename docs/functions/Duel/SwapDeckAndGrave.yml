@@ -1,0 +1,12 @@
+---!function
+name: SwapDeckAndGrave
+namespace: Duel
+description: |-
+  Swaps the cards from (int player)'s GY with the cards from his deck. This is an ad hoc function for Exchange of the Spirit.
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

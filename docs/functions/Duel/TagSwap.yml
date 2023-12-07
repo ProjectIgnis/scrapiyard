@@ -1,0 +1,12 @@
+---!function
+name: TagSwap
+namespace: Duel
+description: |-
+  If the current team has more than 1 player, switches to the next player of that team.
+status:
+  index: stable
+parameters:
+  - name: team
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

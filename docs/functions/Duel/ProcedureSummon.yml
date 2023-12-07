@@ -1,0 +1,36 @@
+---!function
+name: ProcedureSummon
+namespace: Duel
+description: |-
+  A player (int player) "Procedure Summons" (the SummonType performed is determined by the corresponding parameter) a card (Card c) using "must_use" as part of its materials, choosing among "mg", with "min" and "max" materials to be used for the Summon.
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: sumtype
+    type: [ int ]
+    description: (To be added)
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: must_use
+    type: [ Group, Card, nil ]
+    description: (To be added)
+    required: false
+  - name: mg
+    type: [ Group, Card, nil ]
+    description: (To be added)
+    required: false
+  - name: minc
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: 0
+  - name: maxc
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: 0
+tags: [ under-construction ]

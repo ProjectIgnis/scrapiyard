@@ -1,0 +1,9 @@
+---!constant
+name: WIN_REASON_EVIL_1
+enum: VictoryString
+value: 0x51
+description: |-
+  Not used by cards.
+status:
+  index: stable
+tags: [ under-construction ]

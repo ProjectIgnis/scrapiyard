@@ -1,0 +1,9 @@
+---!constant
+name: CARD_ASSAULT_MODE
+enum: CommonCard
+value: 80280737
+description: |-
+  Assault Mode Activate's ID, used for listed_names and specific support
+status:
+  index: stable
+tags: [ under-construction ]

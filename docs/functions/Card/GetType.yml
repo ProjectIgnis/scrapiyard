@@ -1,0 +1,27 @@
+---!function
+name: GetType
+namespace: Card
+description: |-
+  Gets the current type of a Card (Card c) where (Card scard) if provided checks the monster that (Card c) would be used as material, (int sumtype) is for checking the SummonType and (int playerid) is the player checking the type.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: scard
+    type: [ Card, nil ]
+    description: (To be added)
+    required: false
+  - name: sumtype
+    type: [ int ]
+    description: (To be added)
+    required: false
+  - name: playerid
+    type: [ int ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

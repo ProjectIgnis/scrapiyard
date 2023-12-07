@@ -1,0 +1,36 @@
+---!function
+name: CheckReleaseGroupSummon
+namespace: Duel
+description: |-
+  no description yet
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ card ]
+    description: (To be added)
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: e
+    type: [ effect ]
+    description: (To be added)
+  - name: fil
+    type: [ function ]
+    description: (To be added)
+  - name: min
+    type: [ int ]
+    description: (To be added)
+  - name: max
+    type: [ int ]
+    description: (To be added)
+  - name: last
+    type: [ function ]
+    description: (To be added)
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

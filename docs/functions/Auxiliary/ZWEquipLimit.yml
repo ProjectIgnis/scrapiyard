@@ -1,0 +1,15 @@
+---!function
+name: ZWEquipLimit
+namespace: Auxiliary
+description: |-
+  to be added
+status:
+  index: stable
+parameters:
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ function ]
+    description: (To be added)
+tags: [ under-construction ]

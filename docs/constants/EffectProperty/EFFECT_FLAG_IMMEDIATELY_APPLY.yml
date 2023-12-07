@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_FLAG_IMMEDIATELY_APPLY
+enum: EffectProperty
+value: 0x80000000
+description: |-
+  The effect of the card immediately when launched (Toon Kingdom)
+status:
+  index: stable
+tags: [ under-construction ]

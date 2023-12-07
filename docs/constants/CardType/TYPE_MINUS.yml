@@ -1,0 +1,9 @@
+---!constant
+name: TYPE_MINUS
+enum: CardType
+value: 0x40000000
+description: |-
+  Minus Type, only usable if 419 is called
+status:
+  index: stable
+tags: [ under-construction ]

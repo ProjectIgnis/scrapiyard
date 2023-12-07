@@ -1,0 +1,15 @@
+---!function
+name: exccon
+namespace: Auxiliary
+description: |-
+  SetCondition for "except the turn this card was sent to the Graveyard".
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

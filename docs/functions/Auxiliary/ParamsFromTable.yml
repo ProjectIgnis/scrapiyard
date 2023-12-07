@@ -1,0 +1,21 @@
+---!function
+name: ParamsFromTable
+namespace: Auxiliary
+description: |-
+  no description yet
+status:
+  index: stable
+parameters:
+  - name: t
+    type: [ table ]
+    description: (To be added)
+  - name: key
+    type: [ any ]
+    description: (To be added)
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ table ]
+    description: (To be added)
+tags: [ under-construction ]

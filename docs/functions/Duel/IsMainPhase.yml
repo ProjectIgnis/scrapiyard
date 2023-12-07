@@ -1,0 +1,11 @@
+---!function
+name: IsMainPhase
+namespace: Duel
+description: |-
+  Returns if the current phase is either Main Phase 1 or Main Phase 2.
+status:
+  index: stable
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

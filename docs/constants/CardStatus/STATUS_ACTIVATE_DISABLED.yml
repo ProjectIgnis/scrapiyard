@@ -1,0 +1,9 @@
+---!constant
+name: STATUS_ACTIVATE_DISABLED
+enum: CardStatus
+value: 0x40000
+description: |-
+  A card that had its activation negated
+status:
+  index: stable
+tags: [ under-construction ]

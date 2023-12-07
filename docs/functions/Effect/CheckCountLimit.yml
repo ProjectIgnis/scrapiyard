@@ -1,0 +1,15 @@
+---!function
+name: CheckCountLimit
+namespace: Effect
+description: |-
+  Checks if the effect can still be used by tp or the player has finished its uses.
+status:
+  index: stable
+parameters:
+  - name: tp
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,12 @@
+---!function
+name: SetSelectedCard
+namespace: Duel
+description: |-
+  Sets the current selected cards that are to be used by Group.Select/CheckWithSumGreater and Group.Select/CheckWithSumEqual, also by Duel.CheckReleaseGroup and Duel.CheckReleaseGroupEx
+status:
+  index: stable
+parameters:
+  - name: cards
+    type: [ Card, Group ]
+    description: (To be added)
+tags: [ under-construction ]

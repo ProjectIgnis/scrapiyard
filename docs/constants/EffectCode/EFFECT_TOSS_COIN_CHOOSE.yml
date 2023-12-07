@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_TOSS_COIN_CHOOSE
+enum: EffectCode
+value: 222
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

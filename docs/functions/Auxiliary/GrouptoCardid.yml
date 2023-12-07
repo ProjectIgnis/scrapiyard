@@ -1,0 +1,11 @@
+---!function
+name: GrouptoCardid
+namespace: Auxiliary
+description: |-
+  no description yet
+status:
+  index: stable
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

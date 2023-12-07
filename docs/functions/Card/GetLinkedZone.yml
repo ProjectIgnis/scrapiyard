@@ -1,0 +1,19 @@
+---!function
+name: GetLinkedZone
+namespace: Card
+description: |-
+  Returns all the zones that "c" points to (on the field of player "cp").
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: cp
+    type: [ int ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

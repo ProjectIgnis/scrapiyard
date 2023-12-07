@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_ICEBARRIER_REPLACE
+enum: EffectCode
+value: 18319762
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

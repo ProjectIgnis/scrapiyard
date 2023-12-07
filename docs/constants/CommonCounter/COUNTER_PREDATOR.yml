@@ -1,0 +1,9 @@
+---!constant
+name: COUNTER_PREDATOR
+enum: CommonCounter
+value: 0x1041
+description: |-
+  The hexadecimal value of Predator Counters
+status:
+  index: stable
+tags: [ under-construction ]

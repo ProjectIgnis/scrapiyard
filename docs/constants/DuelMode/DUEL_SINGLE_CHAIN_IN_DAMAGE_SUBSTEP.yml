@@ -1,0 +1,9 @@
+---!constant
+name: DUEL_SINGLE_CHAIN_IN_DAMAGE_SUBSTEP
+enum: DuelMode
+value: 0x40000000
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

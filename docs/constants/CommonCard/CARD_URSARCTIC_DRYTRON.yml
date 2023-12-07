@@ -1,0 +1,9 @@
+---!constant
+name: CARD_URSARCTIC_DRYTRON
+enum: CommonCard
+value: 89771220
+description: |-
+  Ursarctic Drytron's ID
+status:
+  index: stable
+tags: [ under-construction ]

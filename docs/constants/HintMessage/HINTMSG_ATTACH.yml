@@ -1,0 +1,9 @@
+---!constant
+name: HINTMSG_ATTACH
+enum: HintMessage
+value: 578
+description: |-
+  Shows the following HintMessage: "Select the card(s) to attach as material"
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,16 @@
+---!function
+name: Code
+namespace: Card
+description: |-
+  Changes (Card c)'s original card name if (int code) is inputted, else returns the current original card name.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: code
+    type: [ int ]
+    description: (To be added)
+    required: false
+tags: [ under-construction ]

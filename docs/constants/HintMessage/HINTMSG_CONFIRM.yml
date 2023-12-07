@@ -1,0 +1,9 @@
+---!constant
+name: HINTMSG_CONFIRM
+enum: HintMessage
+value: 526
+description: |-
+  Shows the following HintMessage: "Select the card(s) to reveal"
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,12 @@
+---!function
+name: GetID
+description: |-
+  Returns two values, a card object and its ID, used before the initial effect.
+status:
+  index: stable
+returns:
+  - type: [ table ]
+    description: (To be added)
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

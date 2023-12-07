@@ -1,0 +1,9 @@
+---!constant
+name: CATEGORY_POSITION
+enum: EffectCategory
+value: 0x1000
+description: |-
+  Describes an effect that changes a card's battle position
+status:
+  index: stable
+tags: [ under-construction ]

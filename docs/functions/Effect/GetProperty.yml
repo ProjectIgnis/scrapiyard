@@ -1,0 +1,17 @@
+---!function
+name: GetProperty
+namespace: Effect
+description: |-
+  Gets an effect's (Effect e) properties. The first return contains flags in the category EFFECT_FLAG_ while the second return value contains flags in the category EFFECT_FLAG2_ . A list of all the properties can be found in in constant.lua or defined in the core (effect_constants.h)
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

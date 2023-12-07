@@ -1,0 +1,9 @@
+---!constant
+name: TYPE_FLIP
+enum: CardType
+value: 0x200000
+description: |-
+  Flip
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_CYBERDARK_WORLD
+enum: EffectCode
+value: 64753988
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

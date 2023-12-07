@@ -1,0 +1,31 @@
+---!function
+name: Damage
+namespace: Duel
+description: |-
+  Damages/Decreases player's (int player) Life Points by an amount (int value) for a reason (int reason). The damage is considered to be dealt by (int rp). Setting (bool is_step) to true will make so the damage is considered dealt at the call of Duel.RDComplete().
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: value
+    type: [ int ]
+    description: (To be added)
+  - name: reason
+    type: [ int ]
+    description: (To be added)
+  - name: is_step
+    type: [ bool ]
+    description: (To be added)
+    required: false
+    default: false
+  - name: rp
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: reason_player
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

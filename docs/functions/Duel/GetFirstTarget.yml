@@ -1,0 +1,13 @@
+---!function
+name: GetFirstTarget
+namespace: Duel
+description: |-
+  Returns all the cards that got targeted in the current chain link as separate return values, Duel.GetChainInfo(0,CHAININFO_TARGET_CARDS) is an equivalent alternative that directly returns a group. Duel.GetTargetCards() is a better alternative that returns a group and of target cards that are filtered depending on their relation to the effect.
+status:
+  index: stable
+returns:
+  - type: [ Card ]
+    description: (To be added)
+  - type: [ any ]
+    description: (To be added)
+tags: [ under-construction ]

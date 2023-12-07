@@ -1,0 +1,9 @@
+---!constant
+name: EVENT_DAMAGE
+enum: Event
+value: 1111
+description: |-
+  This event is raised when a player takes damage, either by battle or by a card effect.
+status:
+  index: stable
+tags: [ under-construction ]

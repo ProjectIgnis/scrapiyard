@@ -1,0 +1,9 @@
+---!constant
+name: EVENT_DRAW
+enum: Event
+value: 1110
+description: |-
+  This event is raised when a card is drawn
+status:
+  index: stable
+tags: [ under-construction ]

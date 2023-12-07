@@ -1,0 +1,12 @@
+---!namespace
+# it might better to document `aux` as the "main" name since it's
+# what's actually used in scripts, which could confuse beginners
+name: Auxiliary
+description: |-
+  (To be added)
+status:
+  index: stable
+aliases:
+  - name: aux
+    status: { index: stable }
+tags: [ under-construction ]

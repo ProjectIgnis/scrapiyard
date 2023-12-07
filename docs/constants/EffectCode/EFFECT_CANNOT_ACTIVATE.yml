@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_CANNOT_ACTIVATE
+enum: EffectCode
+value: 6
+description: |-
+  The affected player(s) cannot activate the effects that match this effect's SetValue.
+status:
+  index: stable
+tags: [ under-construction ]

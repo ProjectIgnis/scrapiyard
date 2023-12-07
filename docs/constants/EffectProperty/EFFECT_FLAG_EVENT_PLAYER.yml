@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_FLAG_EVENT_PLAYER
+enum: EffectProperty
+value: 0x800000
+description: |-
+  As the other player's effect (action?)
+status:
+  index: stable
+tags: [ under-construction ]

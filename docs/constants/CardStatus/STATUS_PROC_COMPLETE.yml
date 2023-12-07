@@ -1,0 +1,9 @@
+---!constant
+name: STATUS_PROC_COMPLETE
+enum: CardStatus
+value: 0x8
+description: |-
+  The card has been summoned properly  (usually by its own condition)
+status:
+  index: stable
+tags: [ under-construction ]

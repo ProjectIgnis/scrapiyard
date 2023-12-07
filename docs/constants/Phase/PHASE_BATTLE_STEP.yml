@@ -1,0 +1,9 @@
+---!constant
+name: PHASE_BATTLE_STEP
+enum: Phase
+value: 0x10
+description: |-
+  The Battle Step
+status:
+  index: stable
+tags: [ under-construction ]

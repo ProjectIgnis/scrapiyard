@@ -1,0 +1,9 @@
+---!constant
+name: CARD_VISAS_STARFROST
+enum: CommonCard
+value: 56099748
+description: |-
+  Visas Starfrost's ID
+status:
+  index: stable
+tags: [ under-construction ]

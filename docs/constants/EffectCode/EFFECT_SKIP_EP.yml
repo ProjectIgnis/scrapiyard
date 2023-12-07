@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_SKIP_EP
+enum: EffectCode
+value: 189
+description: |-
+  The affected player's End Phase is skipped
+status:
+  index: stable
+tags: [ under-construction ]

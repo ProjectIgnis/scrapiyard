@@ -1,0 +1,21 @@
+---!function
+name: indoval
+namespace: Auxiliary
+description: |-
+  Returns if the reason player is equal to 1-effect e's handler player. Commonly used as filter for EFFECT_INDESTRUCTABLE_EFFECT + opponent
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+  - name: re
+    type: [ Effect ]
+    description: (To be added)
+  - name: rp
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: TOKEN_SLIME
+enum: CommonToken
+value: 21770261
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

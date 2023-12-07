@@ -1,0 +1,9 @@
+---!constant
+name: HINTMSG_ZONE
+enum: HintMessage
+value: 569
+description: |-
+  Shows the following HintMessage: "Select the zone to place "card name""
+status:
+  index: stable
+tags: [ under-construction ]

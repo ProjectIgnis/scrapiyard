@@ -1,0 +1,12 @@
+---!function
+name: AddValuesReset
+namespace: Auxiliary
+description: |-
+  Executes, at EVENT_TURN_END, the reset function(s) passed as argument (function resetfunc)
+status:
+  index: stable
+parameters:
+  - name: resetfunc
+    type: [ function ]
+    description: (To be added)
+tags: [ under-construction ]

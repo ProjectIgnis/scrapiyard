@@ -1,0 +1,9 @@
+---!constant
+name: RACE_PSYCHIC
+enum: MonsterRace
+value: 0x100000
+description: |-
+  Psychic type monster
+status:
+  index: stable
+tags: [ under-construction ]

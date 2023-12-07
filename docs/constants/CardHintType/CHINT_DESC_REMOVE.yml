@@ -1,0 +1,9 @@
+---!constant
+name: CHINT_DESC_REMOVE
+enum: CardHintType
+value: 7
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

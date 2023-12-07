@@ -1,0 +1,9 @@
+---!constant
+name: REASON_FLIP
+enum: Reason
+value: 0x2000
+description: |-
+  Being flipped
+status:
+  index: stable
+tags: [ under-construction ]

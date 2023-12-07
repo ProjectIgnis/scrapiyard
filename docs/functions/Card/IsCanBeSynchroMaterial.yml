@@ -1,0 +1,28 @@
+---!function
+name: IsCanBeSynchroMaterial
+namespace: Card
+description: |-
+  Checks if a card (Card c) can be used as a Synchro Material. If (Card sc) is provided, checks if it can be a Synchro Material for that card. If (Card tuner) is also provided, also checks if it can be a Synchro Material if the tuner if that card. If (int player) is provided, checks if it can be used by that player.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: sc
+    type: [ Card ]
+    description: (To be added)
+    required: false
+  - name: tuner
+    type: [ Card ]
+    description: (To be added)
+    required: false
+  - name: player
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: PLAYER_NONE
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

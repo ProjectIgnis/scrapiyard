@@ -1,0 +1,15 @@
+---!function
+name: AnnounceType
+namespace: Duel
+description: |-
+  Makes (int player) declare a type
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

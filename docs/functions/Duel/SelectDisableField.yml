@@ -1,0 +1,34 @@
+---!function
+name: SelectDisableField
+namespace: Duel
+description: |-
+  Asks (int player) to select zones to be disabled, a number of zones up to (int count), in locations (location_player) for the player and (location_oppo) for their opponent, that are bitmasked by (int filter) <in another word, zones that are not filter>. If all_field is true the player can select any zones, including Pendulum and Extra Monster Zone which are normally not allowed.
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: count
+    type: [ int ]
+    description: (To be added)
+  - name: location_player
+    type: [ int ]
+    description: (To be added)
+  - name: location_oppo
+    type: [ int ]
+    description: (To be added)
+  - name: filter
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: 0xe0e0e0e0
+  - name: all_field
+    type: [ bool ]
+    description: (To be added)
+    required: false
+    default: false
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

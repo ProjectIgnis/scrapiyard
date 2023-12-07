@@ -1,0 +1,15 @@
+---!function
+name: SetType
+namespace: Effect
+description: |-
+  Sets an effect's (Effect e) type. constant.lua contains the list with all valid EffectTypes but other cards' scripts can be used as reference
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+  - name: type
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

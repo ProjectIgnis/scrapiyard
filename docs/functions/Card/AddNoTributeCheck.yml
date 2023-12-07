@@ -1,0 +1,24 @@
+---!function
+name: AddNoTributeCheck
+namespace: Card
+description: |-
+  to be added. Available in proc_maximum.lua
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ any ]
+    description: (To be added)
+  - name: id
+    type: [ any ]
+    description: (To be added)
+  - name: stringid
+    type: [ any ]
+    description: (To be added)
+  - name: rangeP1
+    type: [ any ]
+    description: (To be added)
+  - name: rangeP2
+    type: [ any ]
+    description: (To be added)
+tags: [ under-construction ]

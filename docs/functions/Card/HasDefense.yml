@@ -1,0 +1,15 @@
+---!function
+name: HasDefense
+namespace: Card
+description: |-
+  Rush related function. Returns false if any of the following is true for (Card c):  -its type includes TYPE_LINK, -its type is TYPE_MAXIMUM and it is in Maximum mode. Returns true otherwise.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

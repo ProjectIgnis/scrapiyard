@@ -1,0 +1,20 @@
+---!function
+name: GetFlagEffectLabel
+namespace: Card
+description: |-
+  Gets the integer labels to the flag effect attached to a card (Card c) with (int code) as the EffectCode, returns nil if there is no integer label.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: code
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+  - type: [ any ]
+    description: (To be added)
+tags: [ under-construction ]

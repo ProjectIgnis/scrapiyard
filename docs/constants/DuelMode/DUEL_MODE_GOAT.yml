@@ -1,0 +1,9 @@
+---!constant
+name: DUEL_MODE_GOAT
+enum: DuelMode
+value: 0
+description: |-
+  A composite flag for DuelModes.
+status:
+  index: stable
+tags: [ under-construction ]

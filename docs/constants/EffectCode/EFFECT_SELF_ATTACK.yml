@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_SELF_ATTACK
+enum: EffectCode
+value: 406
+description: |-
+  Allows players to attack themselves using monsters they control
+status:
+  index: stable
+tags: [ under-construction ]

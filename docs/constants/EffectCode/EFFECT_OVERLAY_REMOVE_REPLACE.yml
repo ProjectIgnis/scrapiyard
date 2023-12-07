@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_OVERLAY_REMOVE_REPLACE
+enum: EffectCode
+value: 245
+description: |-
+  Replaces detaching Xyz materials from monsters by some other operation. SetCondition must be used to match the exact effects that can be replaced. SetOperation must return something.
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: RESET_TURN_SET
+enum: Reset
+value: 0x20000
+description: |-
+  Resets when the card is turned face-down ("Set")
+status:
+  index: stable
+tags: [ under-construction ]

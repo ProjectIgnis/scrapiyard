@@ -1,0 +1,18 @@
+---!function
+name: CheckWithHandler
+namespace: Fusion
+description: |-
+  Used by the Fusion Summon procedure.
+status:
+  index: stable
+parameters:
+  - name: fun
+    type: [ any ]
+    description: (To be added)
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

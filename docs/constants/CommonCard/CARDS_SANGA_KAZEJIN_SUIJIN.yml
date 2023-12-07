@@ -1,0 +1,9 @@
+---!constant
+name: CARDS_SANGA_KAZEJIN_SUIJIN
+enum: CommonCard
+value: 0
+description: |-
+  A table with the IDs of Sanga of the Thunder, Suijin, Kazejin. The IDs are: {25955164,62340868,98434877}
+status:
+  index: stable
+tags: [ under-construction ]

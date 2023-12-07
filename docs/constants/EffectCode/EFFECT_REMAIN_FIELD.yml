@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_REMAIN_FIELD
+enum: EffectCode
+value: 17
+description: |-
+  Affected card remains on the field (e.g. Swords of Revealing Light)
+status:
+  index: stable
+tags: [ under-construction ]

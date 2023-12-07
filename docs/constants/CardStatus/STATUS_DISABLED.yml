@@ -1,0 +1,9 @@
+---!constant
+name: STATUS_DISABLED
+enum: CardStatus
+value: 0x1
+description: |-
+  Effect is negated
+status:
+  index: stable
+tags: [ under-construction ]

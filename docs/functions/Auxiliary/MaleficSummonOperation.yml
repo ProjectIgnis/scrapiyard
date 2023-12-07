@@ -1,0 +1,18 @@
+---!function
+name: MaleficSummonOperation
+namespace: Auxiliary
+description: |-
+  Auxiliary function to handle the summoning procedure of "Malefic" monsters. Performs the actual summon of the monster by removing the appropriate monster.
+status:
+  index: stable
+parameters:
+  - name: cd
+    type: [ any ]
+    description: (To be added)
+  - name: loc
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ function ]
+    description: (To be added)
+tags: [ under-construction ]

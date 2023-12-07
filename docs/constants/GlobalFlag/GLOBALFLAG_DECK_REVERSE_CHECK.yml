@@ -1,0 +1,9 @@
+---!constant
+name: GLOBALFLAG_DECK_REVERSE_CHECK
+enum: GlobalFlag
+value: 0x1
+description: |-
+  This flags is required to use EFFECT_REVERSE_DECK
+status:
+  index: stable
+tags: [ under-construction ]

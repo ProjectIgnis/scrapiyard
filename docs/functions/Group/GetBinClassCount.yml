@@ -1,0 +1,18 @@
+---!function
+name: GetBinClassCount
+namespace: Group
+description: |-
+  no description yet
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ group ]
+    description: (To be added)
+  - name: f
+    type: [ function ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

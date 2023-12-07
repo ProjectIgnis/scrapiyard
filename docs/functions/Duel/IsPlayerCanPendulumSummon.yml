@@ -1,0 +1,15 @@
+---!function
+name: IsPlayerCanPendulumSummon
+namespace: Duel
+description: |-
+  Returns if the player can perform a pendulum summon. (equivalent of calling Duel.IsPlayerCanProcedureSummonGroup(player,SUMMON_TYPE_PENDULUM))
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

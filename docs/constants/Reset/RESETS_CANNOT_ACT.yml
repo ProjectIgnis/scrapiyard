@@ -1,0 +1,9 @@
+---!constant
+name: RESETS_CANNOT_ACT
+enum: Reset
+value: 0x17e0000
+description: |-
+  Complex reset. The sum of RESETS_STANDARD-RESET_LEAVE, used in cards like Ancient Gear Drill and Knightmares (to be confirmed)
+status:
+  index: stable
+tags: [ under-construction ]

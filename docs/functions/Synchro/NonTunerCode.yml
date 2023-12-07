@@ -1,0 +1,15 @@
+---!function
+name: NonTunerCode
+namespace: Synchro
+description: |-
+  Used in the Synchro Summon procedure.
+status:
+  index: stable
+parameters:
+  - name: params
+    type: [ table ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

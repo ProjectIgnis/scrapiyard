@@ -1,0 +1,12 @@
+---!function
+name: EnableGeminiState
+namespace: Card
+description: |-
+  Enables the Gemini effect of a card (Card c). To be deprecated. Use EnableGeminiStatus instead
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+tags: [ under-construction ]

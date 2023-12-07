@@ -1,0 +1,8 @@
+---!function
+name: SpecialSummonComplete
+namespace: Duel
+description: |-
+  Completes Special Summons conducted with Duel.SpecialSummonStep. This has to be called even if all the Duel.SpecialSummonStep fails.
+status:
+  index: stable
+tags: [ under-construction ]

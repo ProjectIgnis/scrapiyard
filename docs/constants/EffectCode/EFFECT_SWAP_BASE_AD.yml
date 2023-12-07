@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_SWAP_BASE_AD
+enum: EffectCode
+value: 110
+description: |-
+  Swap the affected card's original ATK and DEF
+status:
+  index: stable
+tags: [ under-construction ]

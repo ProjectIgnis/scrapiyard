@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_SUMMON_PROC
+enum: EffectCode
+value: 32
+description: |-
+  Specifies a special method through which the affected card can be Normal Summoned
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_CANNOT_CHANGE_CONTROL
+enum: EffectCode
+value: 5
+description: |-
+  Control of the affected card cannot change. Does not take a SetTarget or Setvalue.
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,18 @@
+---!function
+name: GetChainInfo
+namespace: Duel
+description: |-
+  Returns the chain link properties (aka, ChainInfo, described by constant group CHAININFO_) of the passed chain link (int chainc), or current chain if it's 0.
+status:
+  index: stable
+parameters:
+  - name: chainc
+    type: [ int ]
+    description: (To be added)
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ any ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,37 @@
+---!function
+name: SelectUnselect
+namespace: Group
+description: |-
+  Selects cards in a loop that allows unselection/cancellation. (Group g1) is the group of not selected cards, (Group g2) is the group of already selected cards, (int player) is the player who selects the card, (bool finishable) indicates that the current selection has met the requirements and thus can be finished with the right click, (bool cancelable) indicates that the selection can be canceled with the right click (in the procedures this is set when the selected group is empty and no chain is going on), (int max) and (int min) does nothing to the function, they are only the max and min values shown in the hint. Every card in both the groups can be selected. The function returns a single card
+status:
+  index: stable
+parameters:
+  - name: g1
+    type: [ Group ]
+    description: (To be added)
+  - name: g2
+    type: [ Group ]
+    description: (To be added)
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: finishable
+    type: [ bool ]
+    description: (To be added)
+    required: false
+  - name: cancelable
+    type: [ bool ]
+    description: (To be added)
+    required: false
+  - name: min
+    type: [ int ]
+    description: (To be added)
+    required: false
+  - name: max
+    type: [ int ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ Card ]
+    description: (To be added)
+tags: [ under-construction ]

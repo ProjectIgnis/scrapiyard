@@ -1,0 +1,15 @@
+---!function
+name: ResetFlagEffect
+namespace: Duel
+description: |-
+  Resets a flag with (int code) as the EffectCode from a player (int player)
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: code
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,26 @@
+---!function
+name: SetUniqueOnField
+namespace: Card
+description: |-
+  Sets a card's (Card c) "Can only control 1" clause, int s denotes checking of the would-be owner's field, int o denotes checking the opposing field. unique_location denotes the location the card is unique (setting location outside the field has no meaning)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: s
+    type: [ int ]
+    description: (To be added)
+  - name: o
+    type: [ int ]
+    description: (To be added)
+  - name: unique_code
+    type: [ int ]
+    description: (To be added)
+  - name: unique_location
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: LOCATION_ONFIELD
+tags: [ under-construction ]

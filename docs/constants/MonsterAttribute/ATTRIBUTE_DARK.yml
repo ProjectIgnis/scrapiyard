@@ -1,0 +1,9 @@
+---!constant
+name: ATTRIBUTE_DARK
+enum: MonsterAttribute
+value: 0x20
+description: |-
+  The DARK attribute for monsters
+status:
+  index: stable
+tags: [ under-construction ]

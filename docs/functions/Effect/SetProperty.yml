@@ -1,0 +1,19 @@
+---!function
+name: SetProperty
+namespace: Effect
+description: |-
+  Sets an effect's (Effect e) property. Refer to constant.lua and card scripts that has been already there for valid properties (or ask someone).
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+  - name: prop1
+    type: [ int ]
+    description: (To be added)
+  - name: prop2
+    type: [ int ]
+    description: (To be added)
+    required: false
+tags: [ under-construction ]

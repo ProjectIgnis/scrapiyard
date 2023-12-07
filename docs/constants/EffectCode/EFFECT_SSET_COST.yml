@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_SSET_COST
+enum: EffectCode
+value: 95
+description: |-
+  The affected player must pay a cost to Set Spell/Traps.
+status:
+  index: stable
+tags: [ under-construction ]

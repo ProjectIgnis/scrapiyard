@@ -1,0 +1,9 @@
+---!constant
+name: PLAYER_EITHER
+enum: Player
+value: 4
+description: |-
+  Any player. This constant is not defined in the core
+status:
+  index: stable
+tags: [ under-construction ]

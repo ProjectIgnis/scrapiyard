@@ -1,0 +1,15 @@
+---!function
+name: ReleaseEffectRelation
+namespace: Card
+description: |-
+  Releases any relation between a card (Card c) and an effect (Effect e)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+tags: [ under-construction ]

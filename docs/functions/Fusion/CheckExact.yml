@@ -1,0 +1,11 @@
+---!function
+name: CheckExact
+namespace: Fusion
+description: |-
+  A variable used temporarily to limit the usable materials' number
+status:
+  index: stable
+returns:
+  - type: [ nil, int ]
+    description: (To be added)
+tags: [ under-construction ]

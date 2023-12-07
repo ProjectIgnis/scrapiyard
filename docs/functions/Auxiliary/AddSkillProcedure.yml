@@ -1,0 +1,30 @@
+---!function
+name: AddSkillProcedure
+namespace: Auxiliary
+description: |-
+  Procedure for basic skill. - c: the card (card), - coverNum: the Number of the cover (int). - drawless: if the player draw 1 less card at the start of the duel (bool), - flip con: condition to activate the skill (function), - flipOp: operation related to the skill activation (function)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: coverNum
+    type: [ int ]
+    description: (To be added)
+  - name: drawless
+    type: [ any ]
+    description: (To be added)
+  - name: skillcon
+    type: [ any ]
+    description: (To be added)
+  - name: skillop
+    type: [ any ]
+    description: (To be added)
+  - name: countlimit
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ effect ]
+    description: (To be added)
+tags: [ under-construction ]

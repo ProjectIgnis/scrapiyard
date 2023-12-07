@@ -1,0 +1,42 @@
+---!function
+name: CreateMysteruneQPEffect
+namespace: Effect
+description: |-
+  no description yet
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ any ]
+    description: (To be added)
+  - name: id
+    type: [ any ]
+    description: (To be added)
+  - name: uniquecat
+    type: [ any ]
+    description: (To be added)
+    required: false
+  - name: uniquetg
+    type: [ any ]
+    description: (To be added)
+    required: false
+  - name: uniqueop
+    type: [ any ]
+    description: (To be added)
+    required: false
+  - name: rmcount
+    type: [ any ]
+    description: (To be added)
+    required: false
+  - name: uniqueprop
+    type: [ any ]
+    description: (To be added)
+    required: false
+  - name: uniquecode
+    type: [ any ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ Effect ]
+    description: (To be added)
+tags: [ under-construction ]

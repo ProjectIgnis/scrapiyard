@@ -1,0 +1,9 @@
+---!constant
+name: EVENT_LEVEL_UP
+enum: Event
+value: 1200
+description: |-
+  This event is raised when the level of monster increases (might also be raised for general level changes, but only for single effect. check the core's implementation for details)
+status:
+  index: stable
+tags: [ under-construction ]

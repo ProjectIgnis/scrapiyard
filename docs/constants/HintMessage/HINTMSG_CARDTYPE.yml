@@ -1,0 +1,9 @@
+---!constant
+name: HINTMSG_CARDTYPE
+enum: HintMessage
+value: 554
+description: |-
+  Shows the following HintMessage: "Declare 1 CardType"
+status:
+  index: stable
+tags: [ under-construction ]

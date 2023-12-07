@@ -1,0 +1,39 @@
+---!function
+name: bfgcost
+namespace: Auxiliary
+description: |-
+  Default SetCost for "You can banish this card from your Graveyard"
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+  - name: tp
+    type: [ int ]
+    description: (To be added)
+  - name: eg
+    type: [ Group, nil ]
+    description: (To be added)
+  - name: ep
+    type: [ int ]
+    description: (To be added)
+  - name: ev
+    type: [ int ]
+    description: (To be added)
+  - name: re
+    type: [ Effect ]
+    description: (To be added)
+  - name: r
+    type: [ int ]
+    description: (To be added)
+  - name: rp
+    type: [ int ]
+    description: (To be added)
+  - name: chk
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_LPCOST_CHANGE
+enum: EffectCode
+value: 170
+description: |-
+  Modify the amount of LP a given player must pay for a cost. When it is used, the SetValue in this effect must return the changed cost and the parameters available for it are: e,re,rp,val
+status:
+  index: stable
+tags: [ under-construction ]

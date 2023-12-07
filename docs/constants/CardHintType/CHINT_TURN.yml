@@ -1,0 +1,9 @@
+---!constant
+name: CHINT_TURN
+enum: CardHintType
+value: 1
+description: |-
+  Used to display a string when the player hovers over the card. Shows the following text: "Turns passed: "
+status:
+  index: stable
+tags: [ under-construction ]

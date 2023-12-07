@@ -1,0 +1,9 @@
+---!constant
+name: CATEGORY_FUSION_SUMMON
+enum: EffectCategory
+value: 0x40000000
+description: |-
+  Describes an effect that Fusion Summons
+status:
+  index: stable
+tags: [ under-construction ]

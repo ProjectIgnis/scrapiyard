@@ -1,0 +1,15 @@
+---!function
+name: SetReasonEffect
+namespace: Card
+description: |-
+  Sets "re" as the effect that was the reason of an event that happened to "c".
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: re
+    type: [ Effect ]
+    description: (To be added)
+tags: [ under-construction ]

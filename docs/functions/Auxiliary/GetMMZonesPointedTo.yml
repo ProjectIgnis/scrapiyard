@@ -1,0 +1,35 @@
+---!function
+name: GetMMZonesPointedTo
+namespace: Auxiliary
+description: |-
+  Returns the zone values (bitfield mask) of the Main Monster Zones on the field of "target_player" that are pointed to by any Link Cards, which match the "by_filter" function/filter, in the locations "player_location" and "oppo_location", from the perspective of "player". The filter by default checks that the card is face-up and is a Link Card, any additional check (e.g. archetype) is added onto that. Both locations default to LOCATION_MZONE if not provided since most cards care about zones that any Link Monster points to, if you want to include Link Spells then use LOCATION_ONFIELD, or LOCATION_SZONE to exclude Link Monsters and check for Link Spells only. The second location defaults to the first one if not provided, but 0 can be passed if you need to not count a side of the field for that location. "target_player" defaults to "player" if not provided. "..." are any additional parameters that "by_filter" might need.
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: by_filter
+    type: [ function ]
+    description: (To be added)
+    required: false
+  - name: player_location
+    type: [ int ]
+    description: (To be added)
+    required: false
+  - name: oppo_location
+    type: [ int ]
+    description: (To be added)
+    required: false
+  - name: target_player
+    type: [ int ]
+    description: (To be added)
+    required: false
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

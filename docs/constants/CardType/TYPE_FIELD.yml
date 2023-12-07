@@ -1,0 +1,9 @@
+---!constant
+name: TYPE_FIELD
+enum: CardType
+value: 0x80000
+description: |-
+  A field card
+status:
+  index: stable
+tags: [ under-construction ]

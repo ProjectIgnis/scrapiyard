@@ -1,0 +1,9 @@
+---!constant
+name: CARD_CELEB_ROSE_WITCH
+enum: CommonCard
+value: 160013011
+description: |-
+  Constant for a commonly used Rush card
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,21 @@
+---!function
+name: tgoval
+namespace: Auxiliary
+description: |-
+  filter for EFFECT_CANNOT_BE_EFFECT_TARGET, "cannot be targeted by your opponent's card effects"
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+  - name: re
+    type: [ Effect ]
+    description: (To be added)
+  - name: rp
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

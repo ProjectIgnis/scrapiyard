@@ -1,0 +1,23 @@
+---!function
+name: GetActivityCount
+namespace: Duel
+description: |-
+  Gets the number of times (int player) has performed activities of (int activity_type). (See ACTIVITY_XXX constants,)
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: activity_type
+    type: [ int ]
+    description: (To be added)
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+  - type: [ any ]
+    description: (To be added)
+tags: [ under-construction ]

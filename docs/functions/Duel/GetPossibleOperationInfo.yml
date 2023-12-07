@@ -1,0 +1,26 @@
+---!function
+name: GetPossibleOperationInfo
+namespace: Duel
+description: |-
+  Behaviour similar to Duel.GetOperationInfo, but returns the value set by Duel.SetPossibleOperationInfo instead
+status:
+  index: stable
+parameters:
+  - name: chainc
+    type: [ int ]
+    description: (To be added)
+  - name: category
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+  - type: [ Card, Group ]
+    description: (To be added)
+  - type: [ int ]
+    description: (To be added)
+  - type: [ int ]
+    description: (To be added)
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

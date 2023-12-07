@@ -1,0 +1,51 @@
+---!function
+name: AddProcedure
+namespace: Synchro
+description: |-
+  Adds a Synchro Procedure to (Card c) where (function f1) is the required Tuner, with a minimum (int min1) and maximum (int max1). (function f2) is the second material (which usually is a non-Tuner, with a minimum (int min2) and maximum (int max2). (function sub1) is a Tuner substitute (e.g. Nirvana High Paladin) while (function sub2) is a substitute to the second material(s). (function req1) are required Tuners to be used in that Summon, with a fixed number (int reqct1) on how many are needed to be used. (function req2) follows the same pattern but for the secondary material (e.g. Crystal Wing Synchro Dragon (Anime)). (function reqm) is the required material needed to be used in that Summon regardless if it's a Tuner or the second material (e.g. function overwrite by Blackwing - Gofu the Vague Shadow (Anime)).
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: f1
+    type: [ function ]
+    description: (To be added)
+  - name: min1
+    type: [ int ]
+    description: (To be added)
+  - name: max1
+    type: [ int ]
+    description: (To be added)
+  - name: f2
+    type: [ function ]
+    description: (To be added)
+  - name: min2
+    type: [ int ]
+    description: (To be added)
+  - name: max2
+    type: [ int ]
+    description: (To be added)
+  - name: sub1
+    type: [ function ]
+    description: (To be added)
+  - name: sub2
+    type: [ function ]
+    description: (To be added)
+  - name: req1
+    type: [ function ]
+    description: (To be added)
+  - name: reqct1
+    type: [ int ]
+    description: (To be added)
+  - name: req2
+    type: [ function ]
+    description: (To be added)
+  - name: reqct2
+    type: [ int ]
+    description: (To be added)
+  - name: reqm
+    type: [ function ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,11 @@
+---!function
+name: NormalSummonCondition2
+namespace: Auxiliary
+description: |-
+  no description yet
+status:
+  index: stable
+returns:
+  - type: [ function ]
+    description: (To be added)
+tags: [ under-construction ]

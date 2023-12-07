@@ -1,0 +1,34 @@
+---!function
+name: RemoveOverlayCard
+namespace: Duel
+description: |-
+  Player (int player) removes cards attached, from your field (int s) and/or opponent's  (int o), with a minimum of (int min), and a maximum of (int max), with reason (int reason). If Group rg is provided, then the player removes only from monsters in that group. Returns the number of cards removed
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: s
+    type: [ int ]
+    description: (To be added)
+  - name: o
+    type: [ int ]
+    description: (To be added)
+  - name: min
+    type: [ int ]
+    description: (To be added)
+  - name: max
+    type: [ int ]
+    description: (To be added)
+  - name: reason
+    type: [ int ]
+    description: (To be added)
+  - name: rg
+    type: [ Group ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,30 @@
+---!function
+name: GetReleaseGroup
+namespace: Duel
+description: |-
+  Returns the group of cards that can be used as tribute **NOT** for a Tribute Summon
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: use_hand
+    type: [ bool ]
+    description: (To be added)
+    required: false
+    default: false
+  - name: use_oppo
+    type: [ bool ]
+    description: (To be added)
+    required: false
+    default: false
+  - name: reason
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: REASON_COST
+returns:
+  - type: [ Group ]
+    description: (To be added)
+tags: [ under-construction ]

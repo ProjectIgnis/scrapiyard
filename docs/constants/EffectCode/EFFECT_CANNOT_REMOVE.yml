@@ -1,0 +1,14 @@
+---!constant
+name: EFFECT_CANNOT_REMOVE
+enum: EffectCode
+value: 67
+description: |-
+  Affected card cannot be banished. If it is used as a field effect, cards that return true for the SetTarget cannot be banished. SetTarget receives the following parameters:
+e: this effect itself
+c: the card that would be banished
+tp: the player that would banish
+r: the reason that would be applied to the banishing
+re: reason effect (defaults to core.reason_effect, to be confirmed)
+status:
+  index: stable
+tags: [ under-construction ]

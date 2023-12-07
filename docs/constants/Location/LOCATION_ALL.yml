@@ -1,0 +1,9 @@
+---!constant
+name: LOCATION_ALL
+enum: Location
+value: 0x3ff
+description: |-
+  All possible locations. This is the sum of LOCATION_ONFIELD, LOCATION_DECK, LOCATION_HAND, LOCATION_GRAVE, LOCATION_REMOVED, LOCATION_EXTRA and LOCATION_OVERLAY
+status:
+  index: stable
+tags: [ under-construction ]

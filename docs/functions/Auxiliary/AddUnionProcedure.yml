@@ -1,0 +1,21 @@
+---!function
+name: AddUnionProcedure
+namespace: Auxiliary
+description: |-
+  Adds the Union Procedure to (Card c) where (function f) is the cards you can equip the Union monster to, and (bool oldrule) is a check to apply old rulings of the Union monster. if oldprotect is not nil, uses old rules for destroy replacement (If the equipped monster would be destroyed, destroy this card instead.)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: f
+    type: [ function ]
+    description: (To be added)
+  - name: oldrule
+    type: [ bool ]
+    description: (To be added)
+  - name: oldprotect
+    type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

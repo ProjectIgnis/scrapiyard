@@ -1,0 +1,9 @@
+---!constant
+name: TOKEN_ADVENTURER
+enum: CommonToken
+value: 3285552
+description: |-
+  Adventurer Token, summoned by Rite of Aramesir
+status:
+  index: stable
+tags: [ under-construction ]

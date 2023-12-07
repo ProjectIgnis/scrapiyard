@@ -1,0 +1,17 @@
+---!function
+name: CancelToGrave
+namespace: Card
+description: |-
+  if cancel is true, cancels the to-grave rule and movement of a card (Card c). If false, enforce the rule that it must go from the field to Graveyard instead.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: cancel
+    type: [ bool ]
+    description: (To be added)
+    required: false
+    default: true
+tags: [ under-construction ]

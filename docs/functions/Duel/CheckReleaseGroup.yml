@@ -1,0 +1,64 @@
+---!function
+name: CheckReleaseGroup
+namespace: Duel
+description: |-
+  Checks if there is a monster that can be used as tribute from the int player, that satisfies function, having a min and a max of the count specified with the exception of some card/group if specified, ... are extra arguments. If use_hand is true, then cards in the hand are considered for the tribute. If use_oppo is true, opponent's cards are also considered for the tribute. If check_field is true and card_to_check is passed, the function will also take in account to check if there are free zones (int zone) left on to_player's field to summon that card after tributing the cards. Also effects of cards like "Lair of Darkness" are taken into account when performing those checks.
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: f
+    type: [ function ]
+    description: (To be added)
+  - name: count
+    type: [ int ]
+    description: (To be added)
+  - name: use_hand
+    type: [ bool ]
+    description: (To be added)
+    required: false
+    default: false
+  - name: max
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: min
+  - name: check_field
+    type: [ bool ]
+    description: (To be added)
+    required: false
+    default: false
+  - name: card_to_check
+    type: [ Card ]
+    description: (To be added)
+    required: false
+    default: nil
+  - name: to_player
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: player
+  - name: zone
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: 0xff
+  - name: use_oppo
+    type: [ bool ]
+    description: (To be added)
+    required: false
+    default: false]
+  - name: ex
+    type: [ Group, Card, nil ]
+    description: (To be added)
+    required: false
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

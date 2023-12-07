@@ -1,0 +1,9 @@
+---!constant
+name: TOKEN_MECHA_PHANTOM_BEAST_TETHERWOLF
+enum: CommonToken
+value: 67922703
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

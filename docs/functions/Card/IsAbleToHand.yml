@@ -1,0 +1,15 @@
+---!function
+name: IsAbleToHand
+namespace: Card
+description: |-
+  Checks if the card c can be returned to the hand
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

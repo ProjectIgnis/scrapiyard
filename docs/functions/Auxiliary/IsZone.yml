@@ -1,0 +1,21 @@
+---!function
+name: IsZone
+namespace: Auxiliary
+description: |-
+  Returns if (card c) is in the (int zone), (int tp) is the reference player.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ card ]
+    description: (To be added)
+  - name: zone
+    type: [ int ]
+    description: (To be added)
+  - name: tp
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

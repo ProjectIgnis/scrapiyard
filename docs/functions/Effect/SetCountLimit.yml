@@ -1,0 +1,28 @@
+---!function
+name: SetCountLimit
+namespace: Effect
+description: |-
+  Sets an effect's (Effect e) use limit per turn to (int count). If "code" is supplied, then it would count toward all effects with the same CountLimitCode (i.e. Hard OPT). If a card has multiple HOPT effects on it, then instead of passing "code" as integer, a table can be used as parameter, the first element of this table will be still "code", the second element will instead be the HOPT index of that effect, this is done to prevent the passed code from clashing with other HOPT effects. (e.g. calling "e:SetCountLimit(1,1234)" is the same as calling "e:SetCountLimit(1,{1234,0})". The flag parameter consists of the "EFFECT_COUNT_CODE_XXX" constants.
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+  - name: count
+    type: [ int ]
+    description: (To be added)
+  - name: code
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: 0|{
+  - name: hopt_index
+    type: [ int ]
+    description: (To be added)
+    required: false
+  - name: flag
+    type: [ int ]
+    description: (To be added)
+    required: false
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: ACTIVITY_FLIPSUMMON
+enum: ActivityCode
+value: 4
+description: |-
+  Refers to the action of performing Flip Summons
+status:
+  index: stable
+tags: [ under-construction ]

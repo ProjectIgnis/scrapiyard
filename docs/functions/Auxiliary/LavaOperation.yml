@@ -1,0 +1,15 @@
+---!function
+name: LavaOperation
+namespace: Auxiliary
+description: |-
+  no description yet
+status:
+  index: stable
+parameters:
+  - name: required
+    type: [ any ]
+    description: (To be added)
+  - name: filter
+    type: [ any ]
+    description: (To be added)
+tags: [ under-construction ]

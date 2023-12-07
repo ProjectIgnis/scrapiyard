@@ -1,0 +1,9 @@
+---!constant
+name: RESET_MSCHANGE
+enum: Reset
+value: 0x8000000
+description: |-
+  Resets when moving between the monster zones and Spell/Trap zones (MoveToField(), Crystal Beasts)
+status:
+  index: stable
+tags: [ under-construction ]

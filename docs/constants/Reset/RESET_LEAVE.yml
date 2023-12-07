@@ -1,0 +1,9 @@
+---!constant
+name: RESET_LEAVE
+enum: Reset
+value: 0x800000
+description: |-
+  Resets when the card leaves the field (the card moves to a different location from LOCATION_MZONE or LOCATION_SZONE)
+status:
+  index: stable
+tags: [ under-construction ]

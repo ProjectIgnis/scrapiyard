@@ -1,0 +1,9 @@
+---!constant
+name: TOKEN_INSECT_MONSTER
+enum: CommonToken
+value: 91512836
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

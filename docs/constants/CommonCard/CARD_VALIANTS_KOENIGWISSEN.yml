@@ -1,0 +1,9 @@
+---!constant
+name: CARD_VALIANTS_KOENIGWISSEN
+enum: CommonCard
+value: 75952542
+description: |-
+  Vaylantz World - Konig Wissen's ID
+status:
+  index: stable
+tags: [ under-construction ]

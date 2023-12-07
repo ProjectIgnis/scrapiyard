@@ -1,0 +1,12 @@
+---!function
+name: EnableGeminiStatus
+namespace: Card
+description: |-
+  Enables the Gemini effect of a card (Card c). Alias to Card.EnableGeminiState
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ card ]
+    description: (To be added)
+tags: [ under-construction ]

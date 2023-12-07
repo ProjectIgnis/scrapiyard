@@ -1,0 +1,9 @@
+---!constant
+name: OPCODE_AND
+enum: Opcode
+value: 0x40000004
+description: |-
+  Operation of logical AND, to be used in an AnnounceCard filter.
+status:
+  index: stable
+tags: [ under-construction ]

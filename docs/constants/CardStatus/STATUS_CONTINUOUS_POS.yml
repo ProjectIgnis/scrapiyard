@@ -1,0 +1,9 @@
+---!constant
+name: STATUS_CONTINUOUS_POS
+enum: CardStatus
+value: 0x2000000
+description: |-
+  Set again after changing to other positions
+status:
+  index: stable
+tags: [ under-construction ]

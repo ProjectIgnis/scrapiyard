@@ -1,0 +1,9 @@
+---!constant
+name: RESET_TEMP_REMOVE
+enum: Reset
+value: 0x100000
+description: |-
+  Resets when the card is temporarily banished
+status:
+  index: stable
+tags: [ under-construction ]

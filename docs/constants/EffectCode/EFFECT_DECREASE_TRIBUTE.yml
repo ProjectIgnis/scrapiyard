@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_DECREASE_TRIBUTE
+enum: EffectCode
+value: 151
+description: |-
+  Decreases the amount of tributes to perform a Tribute Summon
+status:
+  index: stable
+tags: [ under-construction ]

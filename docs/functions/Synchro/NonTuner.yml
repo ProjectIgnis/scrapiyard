@@ -1,0 +1,24 @@
+---!function
+name: NonTuner
+namespace: Synchro
+description: |-
+  A filter used in a Synchro procedure when a material is supposed to be non-Tuner. It also has to satisfy condition of (function f) if provided with (a, b, c) parameters.
+status:
+  index: stable
+parameters:
+  - name: f
+    type: [ function ]
+    description: (To be added)
+  - name: a
+    type: [ any ]
+    description: (To be added)
+  - name: b
+    type: [ any ]
+    description: (To be added)
+  - name: c
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

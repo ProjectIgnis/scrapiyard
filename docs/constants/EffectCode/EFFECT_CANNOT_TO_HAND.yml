@@ -1,0 +1,13 @@
+---!constant
+name: EFFECT_CANNOT_TO_HAND
+enum: EffectCode
+value: 65
+description: |-
+  Affected card cannot be send to the hand. If it is used as a field effect, cards that return true for the SetTarget cannot be sent to the hand. SetTarget receives the following parameters:
+e: this effect itself
+c: the card that would be sent to the hand
+tp: the player that would send the card
+re: reason effect (defaults to core.reason_effect, to be confirmed)
+status:
+  index: stable
+tags: [ under-construction ]

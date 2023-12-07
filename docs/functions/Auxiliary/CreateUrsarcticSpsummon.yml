@@ -1,0 +1,18 @@
+---!function
+name: CreateUrsarcticSpsummon
+namespace: Auxiliary
+description: |-
+  Registers to (Card c) a Quick Effect that Special Summons itself from the hand by tributing another level 7 or higher monster from the hand. This is the common effect for "Ursarctic" monsters and already handles the cost replacement from "Ursarctic Big Dipper". (int id) is (Card c)'s ID, to register the effect as HOPT.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ any ]
+    description: (To be added)
+  - name: id
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ effect ]
+    description: (To be added)
+tags: [ under-construction ]

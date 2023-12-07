@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_EXTRA_RELEASE_SUM
+enum: EffectCode
+value: 155
+description: |-
+  Allows, optionally, to tributed the affected card (Monarch's Stormforth, Vampire Sucker)
+status:
+  index: stable
+tags: [ under-construction ]

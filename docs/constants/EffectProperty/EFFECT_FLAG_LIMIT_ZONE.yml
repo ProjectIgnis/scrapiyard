@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_FLAG_LIMIT_ZONE
+enum: EffectProperty
+value: 0x10000000
+description: |-
+  When this flag is added to an effect, using that effect would cause the number of zones available to decrease (see Draco Face-off). The SetValue must be used to define the zones that will still be available with the activation.
+status:
+  index: stable
+tags: [ under-construction ]

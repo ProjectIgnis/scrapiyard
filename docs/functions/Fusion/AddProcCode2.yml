@@ -1,0 +1,24 @@
+---!function
+name: AddProcCode2
+namespace: Fusion
+description: |-
+  Recipe for Fusion monsters that have code1 + code2 as materials. Example: Beast Machine King Barbaros Ür (Manga)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ any ]
+    description: (To be added)
+  - name: code1
+    type: [ any ]
+    description: (To be added)
+  - name: code2
+    type: [ any ]
+    description: (To be added)
+  - name: sub
+    type: [ any ]
+    description: (To be added)
+  - name: insf
+    type: [ any ]
+    description: (To be added)
+tags: [ under-construction ]

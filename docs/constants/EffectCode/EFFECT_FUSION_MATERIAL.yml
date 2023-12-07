@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_FUSION_MATERIAL
+enum: EffectCode
+value: 230
+description: |-
+  Placeholder effect of a Fusion Monster's listed Fusion Material
+status:
+  index: stable
+tags: [ under-construction ]

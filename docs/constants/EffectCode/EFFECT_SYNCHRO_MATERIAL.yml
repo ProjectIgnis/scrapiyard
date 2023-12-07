@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_SYNCHRO_MATERIAL
+enum: EffectCode
+value: 232
+description: |-
+  Can be used as Synchro material
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: STATUS_COPYING_EFFECT
+enum: CardStatus
+value: 0x8000
+description: |-
+  A card with this status is copying the effect of another card
+status:
+  index: stable
+tags: [ under-construction ]

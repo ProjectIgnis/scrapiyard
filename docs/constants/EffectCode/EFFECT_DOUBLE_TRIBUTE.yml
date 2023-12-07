@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_DOUBLE_TRIBUTE
+enum: EffectCode
+value: 150
+description: |-
+  Treats a card as 2 tributes for a tribute summon
+status:
+  index: stable
+tags: [ under-construction ]

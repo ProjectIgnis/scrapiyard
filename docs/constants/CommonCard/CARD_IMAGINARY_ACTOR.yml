@@ -1,0 +1,9 @@
+---!constant
+name: CARD_IMAGINARY_ACTOR
+enum: CommonCard
+value: 160204006
+description: |-
+  Constant for a commonly used Rush card
+status:
+  index: stable
+tags: [ under-construction ]

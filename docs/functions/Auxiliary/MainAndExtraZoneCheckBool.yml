@@ -1,0 +1,48 @@
+---!function
+name: MainAndExtraZoneCheckBool
+namespace: Auxiliary
+description: |-
+  no description yet
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ card ]
+    description: (To be added)
+  - name: mmz
+    type: [ int ]
+    description: (To be added)
+  - name: emz
+    type: [ int ]
+    description: (To be added)
+  - name: e
+    type: [ effect ]
+    description: (To be added)
+  - name: sumtype
+    type: [ int ]
+    description: (To be added)
+  - name: sump
+    type: [ int ]
+    description: (To be added)
+  - name: targetp
+    type: [ int ]
+    description: (To be added)
+  - name: nocheck
+    type: [ bool ]
+    description: (To be added)
+  - name: nolimit
+    type: [ bool ]
+    description: (To be added)
+  - name: pos
+    type: [ int ]
+    description: (To be added)
+  - name: nc
+    type: [ any ]
+    description: (To be added)
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

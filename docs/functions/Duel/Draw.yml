@@ -1,0 +1,21 @@
+---!function
+name: Draw
+namespace: Duel
+description: |-
+  Player (int player) draws a specific amount (int count) of Cards for a reason (REASON_x)
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: count
+    type: [ int ]
+    description: (To be added)
+  - name: reason
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: CARD_GAIA_CHAMPION
+enum: CommonCard
+value: 66889139
+description: |-
+  Gaia the Dragon Champion's ID, used because it has a lot of specific support
+status:
+  index: stable
+tags: [ under-construction ]

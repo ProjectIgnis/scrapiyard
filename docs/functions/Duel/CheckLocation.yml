@@ -1,0 +1,21 @@
+---!function
+name: CheckLocation
+namespace: Duel
+description: |-
+  Checks if there is an position (int seq) available for the player (int player) in the location (int location). (The sequence (int seq) is used to indicate the specific position of the location, for example in the location of monsters the sequence would go from 0 to 7., etc.)
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: location
+    type: [ int ]
+    description: (To be added)
+  - name: seq
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

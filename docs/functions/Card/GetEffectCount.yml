@@ -1,0 +1,18 @@
+---!function
+name: GetEffectCount
+namespace: Card
+description: |-
+  Gets the amount of an Effect (EFFECT_x) registered to a Card (Card c)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: code
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

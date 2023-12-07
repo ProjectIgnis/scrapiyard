@@ -1,0 +1,15 @@
+---!function
+name: AttractionEquipCon
+namespace: Auxiliary
+description: |-
+  Returns a function which checks if the card is equipped and if the equipped monster is controlled by the player (self=true) or by the opponent (self=false)
+status:
+  index: stable
+parameters:
+  - name: self
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ function ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,21 @@
+---!function
+name: GetPlayerEffect
+namespace: Duel
+description: |-
+  Returns all the effect with that code (int effect_type) applied on the player. With no effect_type or effect_type=0 it will return all the effects applied on the player. [effect_type refer to "EFFECT_" constants, eg: EFFECT_REVERSE_DAMAGE, EFFECT_CANNOT_MSET]
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: effect_type
+    type: [ int ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ Effect ]
+    description: (To be added)
+  - type: [ any ]
+    description: (To be added)
+tags: [ under-construction ]

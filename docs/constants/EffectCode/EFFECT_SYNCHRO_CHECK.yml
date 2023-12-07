@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_SYNCHRO_CHECK
+enum: EffectCode
+value: 310
+description: |-
+  Genomix Fighter
+status:
+  index: stable
+tags: [ under-construction ]

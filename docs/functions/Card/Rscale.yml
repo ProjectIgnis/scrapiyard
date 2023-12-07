@@ -1,0 +1,16 @@
+---!function
+name: Rscale
+namespace: Card
+description: |-
+  Changes (Card c)'s original left scale if (int scale) is inputted, else returns the current card's original left scale.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: scale
+    type: [ int ]
+    description: (To be added)
+    required: false
+tags: [ under-construction ]

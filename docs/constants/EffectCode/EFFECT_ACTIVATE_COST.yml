@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_ACTIVATE_COST
+enum: EffectCode
+value: 90
+description: |-
+  Affected player must pay a cost to activate effects
+status:
+  index: stable
+tags: [ under-construction ]

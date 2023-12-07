@@ -1,0 +1,15 @@
+---!function
+name: GetLabelObject
+namespace: Effect
+description: |-
+  Gets an effect's (Effect e) internal label object
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+returns:
+  - type: [ Card, Group, Effect, table ]
+    description: (To be added)
+tags: [ under-construction ]

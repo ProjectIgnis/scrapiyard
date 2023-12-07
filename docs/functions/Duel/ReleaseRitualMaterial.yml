@@ -1,0 +1,12 @@
+---!function
+name: ReleaseRitualMaterial
+namespace: Duel
+description: |-
+  Tributes monsters from (Group g) for a Ritual Summon
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ Group ]
+    description: (To be added)
+tags: [ under-construction ]

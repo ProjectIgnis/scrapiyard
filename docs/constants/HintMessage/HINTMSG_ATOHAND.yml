@@ -1,0 +1,9 @@
+---!constant
+name: HINTMSG_ATOHAND
+enum: HintMessage
+value: 506
+description: |-
+  Shows the following HintMessage: "Select the card(s) to add to your hand"
+status:
+  index: stable
+tags: [ under-construction ]

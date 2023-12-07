@@ -1,0 +1,33 @@
+---!function
+name: AddZWEquipLimit
+namespace: Auxiliary
+description: |-
+  Equip Limit Proc for cards that equip themselves to another card. - con - condition for when the card can equip to another 'f(e)', - equipval - filter for the equip target,  - equipop - what happens when the card is equipped to the target, - (tc is equip target, c is equip card), - linkedeffect - usually the effect of Card c that equips, this ensures Phantom of Chaos handling, - prop - extra effect properties, - resetflag/resetcount - resets
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: con
+    type: [ function ]
+    description: (To be added)
+  - name: equipval
+    type: [ any ]
+    description: (To be added)
+  - name: equipop
+    type: [ any ]
+    description: (To be added)
+  - name: linkedeff
+    type: [ any ]
+    description: (To be added)
+  - name: prop
+    type: [ any ]
+    description: (To be added)
+  - name: resetflag
+    type: [ any ]
+    description: (To be added)
+  - name: resetcount
+    type: [ any ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,17 @@
+---!function
+name: GetHintTiming
+namespace: Effect
+description: |-
+  Returns a pair of integers with the hint timings set to Effect e. The first return value are the timings for the first player's turn and the second return are the hint timings set to the opponent
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

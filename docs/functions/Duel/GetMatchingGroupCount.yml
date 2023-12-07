@@ -1,0 +1,30 @@
+---!function
+name: GetMatchingGroupCount
+namespace: Duel
+description: |-
+  Returns the number of cards that would be returned by Duel.GetMatchingGroup
+status:
+  index: stable
+parameters:
+  - name: f
+    type: [ function ]
+    description: (To be added)
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: s
+    type: [ int ]
+    description: (To be added)
+  - name: o
+    type: [ int ]
+    description: (To be added)
+  - name: ex
+    type: [ Group, Card, nil ]
+    description: (To be added)
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_REMOVE_SETCODE
+enum: EffectCode
+value: 349
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

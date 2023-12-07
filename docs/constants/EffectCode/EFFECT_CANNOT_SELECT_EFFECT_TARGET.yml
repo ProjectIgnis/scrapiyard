@@ -1,0 +1,12 @@
+---!constant
+name: EFFECT_CANNOT_SELECT_EFFECT_TARGET
+enum: EffectCode
+value: 333
+description: |-
+  The affected cards cannot activate their effects that target. SetValue takes the following parameters:
+e: this effect
+re: the effect that would be activated
+c: the cards that cannot activate the effect
+status:
+  index: stable
+tags: [ under-construction ]

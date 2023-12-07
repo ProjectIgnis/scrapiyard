@@ -1,0 +1,9 @@
+---!constant
+name: ANNOUNCE_CARD
+enum: AnnouncementType
+value: 0x7
+description: |-
+  Card declaration
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: CHAININFO_TYPE
+enum: ChainInfo
+value: 0x1000
+description: |-
+  Chain type
+status:
+  index: stable
+tags: [ under-construction ]

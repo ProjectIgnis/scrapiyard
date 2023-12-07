@@ -1,0 +1,18 @@
+---!function
+name: Includes
+namespace: Group
+description: |-
+  Checks if (Group g1) contains all cards in (Group g2)
+status:
+  index: stable
+parameters:
+  - name: g1
+    type: [ Group ]
+    description: (To be added)
+  - name: g2
+    type: [ Group ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

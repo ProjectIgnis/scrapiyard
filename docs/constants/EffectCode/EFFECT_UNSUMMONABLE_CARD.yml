@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_UNSUMMONABLE_CARD
+enum: EffectCode
+value: 336
+description: |-
+  The affected card cannot be Normal Summoned
+status:
+  index: stable
+tags: [ under-construction ]

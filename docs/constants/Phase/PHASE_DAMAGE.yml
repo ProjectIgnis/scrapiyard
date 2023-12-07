@@ -1,0 +1,9 @@
+---!constant
+name: PHASE_DAMAGE
+enum: Phase
+value: 0x20
+description: |-
+  The Damage Step
+status:
+  index: stable
+tags: [ under-construction ]

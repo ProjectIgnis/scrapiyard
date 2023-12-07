@@ -1,0 +1,15 @@
+---!function
+name: IsRitualMonster
+namespace: Card
+description: |-
+  Returns if (Card c) is a Ritual Monster.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,15 @@
+---!function
+name: TatsunecroFilter
+namespace: Auxiliary
+description: |-
+  Returns is Card c has "3096468" as flag effect. Used in the Synchro summon procedure
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

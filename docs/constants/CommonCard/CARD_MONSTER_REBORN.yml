@@ -1,0 +1,9 @@
+---!constant
+name: CARD_MONSTER_REBORN
+enum: CommonCard
+value: 83764718
+description: |-
+  Monster Reborn's ID
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,15 @@
+---!function
+name: IsDeleted
+namespace: Card
+description: |-
+  Returns if the Card object got internally deleted and remained as dangling reference inside the lua state.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

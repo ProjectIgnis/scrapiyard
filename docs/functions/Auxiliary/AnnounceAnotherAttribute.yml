@@ -1,0 +1,18 @@
+---!function
+name: AnnounceAnotherAttribute
+namespace: Auxiliary
+description: |-
+  Function deprecated since version 40.0.0. Use "Card.AnnounceAnotherAttribute" instead
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: player
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

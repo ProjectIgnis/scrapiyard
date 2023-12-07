@@ -1,0 +1,12 @@
+---!function
+name: RemoveCards
+namespace: Duel
+description: |-
+  Removes the passed cards from the duel.
+status:
+  index: stable
+parameters:
+  - name: cards
+    type: [ Card, Group ]
+    description: (To be added)
+tags: [ under-construction ]

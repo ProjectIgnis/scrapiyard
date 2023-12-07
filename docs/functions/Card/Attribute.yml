@@ -1,0 +1,16 @@
+---!function
+name: Attribute
+namespace: Card
+description: |-
+  Changes (Card c)'s original attribute(s) if (int att) is inputted, else returns the current card's original attribute(s).
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: att
+    type: [ int ]
+    description: (To be added)
+    required: false
+tags: [ under-construction ]

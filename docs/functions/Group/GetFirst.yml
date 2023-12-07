@@ -1,0 +1,15 @@
+---!function
+name: GetFirst
+namespace: Group
+description: |-
+  Gets the first member of Group g (also resets the internal enumerator). Returns nil if the group is empty.
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ Group ]
+    description: (To be added)
+returns:
+  - type: [ Card, nil ]
+    description: (To be added)
+tags: [ under-construction ]

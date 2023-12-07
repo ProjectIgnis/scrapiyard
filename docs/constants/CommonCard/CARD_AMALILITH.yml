@@ -1,0 +1,9 @@
+---!constant
+name: CARD_AMALILITH
+enum: CommonCard
+value: 160428037
+description: |-
+  Constant for a commonly used Rush card
+status:
+  index: stable
+tags: [ under-construction ]

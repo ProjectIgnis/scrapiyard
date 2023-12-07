@@ -1,0 +1,9 @@
+---!constant
+name: CARD_FUSION
+enum: CommonCard
+value: 160204050
+description: |-
+  Constant for a commonly used Rush card
+status:
+  index: stable
+tags: [ under-construction ]

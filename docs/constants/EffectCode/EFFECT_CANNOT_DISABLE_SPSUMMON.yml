@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_CANNOT_DISABLE_SPSUMMON
+enum: EffectCode
+value: 27
+description: |-
+  The affected monster cannot have its Special Summon negated
+status:
+  index: stable
+tags: [ under-construction ]

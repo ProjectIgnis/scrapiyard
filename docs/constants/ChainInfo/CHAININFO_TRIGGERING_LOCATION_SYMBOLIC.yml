@@ -1,0 +1,9 @@
+---!constant
+name: CHAININFO_TRIGGERING_LOCATION_SYMBOLIC
+enum: ChainInfo
+value: 0x11
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

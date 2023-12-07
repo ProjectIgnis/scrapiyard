@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_REFLECT_BATTLE_DAMAGE
+enum: EffectCode
+value: 202
+description: |-
+  If the controller of the affected card would take battle damage from a battle involving that card, the opponent takes the damage
+status:
+  index: stable
+tags: [ under-construction ]

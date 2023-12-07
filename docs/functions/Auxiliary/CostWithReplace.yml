@@ -1,0 +1,24 @@
+---!function
+name: CostWithReplace
+namespace: Auxiliary
+description: |-
+  no description yet
+status:
+  index: stable
+parameters:
+  - name: base
+    type: [ function ]
+    description: (To be added)
+  - name: replacecode
+    type: [ int ]
+    description: (To be added)
+  - name: extracon
+    type: [ function ]
+    description: (To be added)
+  - name: alwaysexecute
+    type: [ function ]
+    description: (To be added)
+returns:
+  - type: [ function ]
+    description: (To be added)
+tags: [ under-construction ]

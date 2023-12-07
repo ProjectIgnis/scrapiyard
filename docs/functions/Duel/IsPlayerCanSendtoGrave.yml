@@ -1,0 +1,19 @@
+---!function
+name: IsPlayerCanSendtoGrave
+namespace: Duel
+description: |-
+  If c is not passed, only checks if the player is not affected by EFFECT_CANNOT_TO_GRAVE, otherwise checks if the player can send the passed card to the GY.
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

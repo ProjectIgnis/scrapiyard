@@ -1,0 +1,9 @@
+---!constant
+name: EVENT_BE_BATTLE_TARGET
+enum: Event
+value: 1131
+description: |-
+  This event is raised when a monster is targeted for an attack
+status:
+  index: stable
+tags: [ under-construction ]

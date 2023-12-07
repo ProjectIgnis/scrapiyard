@@ -1,0 +1,28 @@
+---!type
+name: SubgroupFilter
+supertype: function
+description: |-
+  (To be added)
+parameters:
+  - name: sg
+    type: [ Group ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+overloads:
+  - description: (To be added)
+    parameters:
+      - name: c
+        type: [ Card ]
+        description: (To be added)
+    returns:
+      - type: [ nil ]
+        description: (To be added)
+tags: [ under-construction ]
+suggestedLinks:
+  - name: github
+    link: https://github.com
+    message: Git gud
+  - name: AddCounter
+    link: api/functions/Card/AddCounter

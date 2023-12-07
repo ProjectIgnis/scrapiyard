@@ -1,0 +1,9 @@
+---!constant
+name: CARD_DREAMING_NEMLERIA
+enum: CommonCard
+value: 70155677
+description: |-
+  Dreaming Nemleria's ID
+status:
+  index: stable
+tags: [ under-construction ]

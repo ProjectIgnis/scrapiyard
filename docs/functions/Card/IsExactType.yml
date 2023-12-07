@@ -1,0 +1,30 @@
+---!function
+name: IsExactType
+namespace: Card
+description: |-
+  Checks if (Card c)'s type (returned by Card.GetType) is exactly (int typ)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: typ
+    type: [ int ]
+    description: (To be added)
+  - name: sumc
+    type: [ card ]
+    description: (To be added)
+    required: false
+  - name: sumtype
+    type: [ int ]
+    description: (To be added)
+    required: false
+  - name: player
+    type: [ int ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

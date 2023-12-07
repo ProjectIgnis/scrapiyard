@@ -1,0 +1,9 @@
+---!constant
+name: ATTRIBUTE_WIND
+enum: MonsterAttribute
+value: 0x8
+description: |-
+  The WIND attribute for monsters
+status:
+  index: stable
+tags: [ under-construction ]

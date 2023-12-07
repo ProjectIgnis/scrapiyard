@@ -1,0 +1,9 @@
+---!constant
+name: TYPE_QUICKPLAY
+enum: CardType
+value: 0x10000
+description: |-
+  A Quick Play card
+status:
+  index: stable
+tags: [ under-construction ]

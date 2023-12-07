@@ -1,0 +1,15 @@
+---!function
+name: GetCost
+namespace: Effect
+description: |-
+  Gets an effect's (Effect e) cost function, returns nil if no function was set
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+returns:
+  - type: [ function ]
+    description: (To be added)
+tags: [ under-construction ]

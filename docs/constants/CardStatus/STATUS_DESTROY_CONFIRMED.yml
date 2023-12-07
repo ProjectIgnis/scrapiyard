@@ -1,0 +1,9 @@
+---!constant
+name: STATUS_DESTROY_CONFIRMED
+enum: CardStatus
+value: 0x1000
+description: |-
+  The card is going to be destroyed
+status:
+  index: stable
+tags: [ under-construction ]

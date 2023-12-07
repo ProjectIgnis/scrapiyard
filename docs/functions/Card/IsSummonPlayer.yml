@@ -1,0 +1,18 @@
+---!function
+name: IsSummonPlayer
+namespace: Card
+description: |-
+  Checks if (Card c) is summoned by player (int tp)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: tp
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

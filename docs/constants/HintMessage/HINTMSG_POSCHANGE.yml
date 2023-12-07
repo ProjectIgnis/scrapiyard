@@ -1,0 +1,9 @@
+---!constant
+name: HINTMSG_POSCHANGE
+enum: HintMessage
+value: 528
+description: |-
+  Shows the following HintMessage: "Select a monster to change its battle position"
+status:
+  index: stable
+tags: [ under-construction ]

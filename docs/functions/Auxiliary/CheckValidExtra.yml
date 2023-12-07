@@ -1,0 +1,33 @@
+---!function
+name: CheckValidExtra
+namespace: Auxiliary
+description: |-
+  Auxiliary function used by the Link Summon procedure.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ card ]
+    description: (To be added)
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: sg
+    type: [ group ]
+    description: (To be added)
+  - name: mg
+    type: [ group ]
+    description: (To be added)
+  - name: lc
+    type: [ any ]
+    description: (To be added)
+  - name: emt
+    type: [ group ]
+    description: (To be added)
+  - name: filt
+    type: [ function ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

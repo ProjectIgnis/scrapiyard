@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_EXTRA_RITUAL_MATERIAL
+enum: EffectCode
+value: 243
+description: |-
+  Affected card can be used for a Ritual Summon in addition to what the Ritual Spell states (e.g. Sphere Kuriboh).
+status:
+  index: stable
+tags: [ under-construction ]

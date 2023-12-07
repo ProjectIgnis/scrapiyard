@@ -1,0 +1,9 @@
+---!constant
+name: CATEGORY_LVCHANGE
+enum: EffectCategory
+value: 0x8000000
+description: |-
+  Describes an effect that changes a card's level
+status:
+  index: stable
+tags: [ under-construction ]

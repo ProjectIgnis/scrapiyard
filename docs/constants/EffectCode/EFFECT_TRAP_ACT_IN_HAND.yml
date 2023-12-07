@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_TRAP_ACT_IN_HAND
+enum: EffectCode
+value: 15
+description: |-
+  The affected Trap Card can be activated from the hand. If the card is not TYPE_TRAP, this effect is skipped. Usually used as EFFECT_TYPE_SINGLE if a field version is used SetTarget receives e and c as parameters. It is suggested that SetDescription is also applied with this effect, for the scenarios where multiple similar effects are available, to allow the player to choose which one to apply.
+status:
+  index: stable
+tags: [ under-construction ]

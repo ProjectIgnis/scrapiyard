@@ -1,0 +1,9 @@
+---!constant
+name: CARD_KING_KNIGHT
+enum: CommonCard
+value: 64788463
+description: |-
+  King's Knight's ID
+status:
+  index: stable
+tags: [ under-construction ]

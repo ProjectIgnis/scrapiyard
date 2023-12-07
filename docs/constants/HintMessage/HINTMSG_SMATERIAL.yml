@@ -1,0 +1,9 @@
+---!constant
+name: HINTMSG_SMATERIAL
+enum: HintMessage
+value: 512
+description: |-
+  Shows the following HintMessage: "Select the card(s) to use as Synchro Material"
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: CARD_BLACK_WINGED_DRAGON
+enum: CommonCard
+value: 9012916
+description: |-
+  Black-Winged Dragon's ID
+status:
+  index: stable
+tags: [ under-construction ]

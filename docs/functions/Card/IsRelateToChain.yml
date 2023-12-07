@@ -1,0 +1,18 @@
+---!function
+name: IsRelateToChain
+namespace: Card
+description: |-
+  Checks whether a card (Card c) is related to the chain numbered (int chainc)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: chainc
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: TIMING_REMOVE
+enum: Timing
+value: 0x100000
+description: |-
+  This event is raised when a card is removed
+status:
+  index: stable
+tags: [ under-construction ]

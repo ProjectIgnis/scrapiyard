@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_NECRO_VALLEY_IM
+enum: EffectCode
+value: 293
+description: |-
+  Affected card is unaffected by the effects of Necrovalley
+status:
+  index: stable
+tags: [ under-construction ]

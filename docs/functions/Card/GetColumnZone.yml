@@ -1,0 +1,30 @@
+---!function
+name: GetColumnZone
+namespace: Card
+description: |-
+  Returns all the zones in the same column as "c" that are part of the location "loc". If "cp" is provided, the returned zones will only include the ones that belong to player "cp". If "left" or "right" are provided, the returned zones will also include the ones from the N columns on the left or right of "c" respectively, where N is the number passed for the "left" or "right" parameter.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: loc
+    type: [ int ]
+    description: (To be added)
+  - name: left
+    type: [ int, nil ]
+    description: (To be added)
+    required: false
+  - name: right
+    type: [ int, nil ]
+    description: (To be added)
+    required: false
+  - name: cp
+    type: [ int ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

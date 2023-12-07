@@ -1,0 +1,18 @@
+---!function
+name: GetDecktopGroup
+namespace: Duel
+description: |-
+  Gets a group of a player's (int player) top n (int count) cards of their Deck
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: count
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ Group ]
+    description: (To be added)
+tags: [ under-construction ]

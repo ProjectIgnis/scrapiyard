@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_UPDATE_LINK
+enum: EffectCode
+value: 420
+description: |-
+  Increase/decrease affected card's Link Value by a value (written into Effect.SetValue())
+status:
+  index: stable
+tags: [ under-construction ]

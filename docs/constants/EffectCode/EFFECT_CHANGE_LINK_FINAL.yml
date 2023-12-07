@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_CHANGE_LINK_FINAL
+enum: EffectCode
+value: 422
+description: |-
+  Set affected card's Link Value to a value, overriding other changes
+status:
+  index: stable
+tags: [ under-construction ]

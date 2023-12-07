@@ -1,0 +1,22 @@
+---!function
+name: AddProcEqualCode
+namespace: Ritual
+description: |-
+  Adds a Ritual Summoning activation, requiring Tributes with any of the card names of code (int ...), and with levels exactly equal to the Ritual Monster's level or if (int lv) is provided, with level equal to that value. (int desc) is the description when activating the Ritual Spell when provided.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: lv
+    type: [ int ]
+    description: (To be added)
+  - name: desc
+    type: [ int ]
+    description: (To be added)
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+    required: false
+tags: [ under-construction ]

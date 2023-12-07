@@ -1,0 +1,9 @@
+---!constant
+name: HINT_EFFECT
+enum: HintType
+value: 5
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

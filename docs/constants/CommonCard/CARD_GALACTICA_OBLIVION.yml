@@ -1,0 +1,9 @@
+---!constant
+name: CARD_GALACTICA_OBLIVION
+enum: CommonCard
+value: 160009002
+description: |-
+  Constant for a commonly used Rush card
+status:
+  index: stable
+tags: [ under-construction ]

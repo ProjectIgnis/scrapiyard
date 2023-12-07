@@ -1,0 +1,9 @@
+---!constant
+name: CARD_MYUTANT_MIST
+enum: CommonCard
+value: 61089209
+description: |-
+  Myutant Mist's ID
+status:
+  index: stable
+tags: [ under-construction ]

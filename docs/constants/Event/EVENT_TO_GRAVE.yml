@@ -1,0 +1,9 @@
+---!constant
+name: EVENT_TO_GRAVE
+enum: Event
+value: 1014
+description: |-
+  This event is raised when a card is sent to the graveyard
+status:
+  index: stable
+tags: [ under-construction ]

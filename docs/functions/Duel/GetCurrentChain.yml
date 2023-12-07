@@ -1,0 +1,17 @@
+---!function
+name: GetCurrentChain
+namespace: Duel
+description: |-
+  Returns the number of the current chain link. If real chain is true, then it will return the number of ACTUAL chains that have already formed, so in a target or cost function, it will not include the current chain in this count, while with that parameter as false the current chain will be included as well. Set this when you need to check for the current chain in an effect condition.
+status:
+  index: stable
+parameters:
+  - name: real_chain
+    type: [ bool ]
+    description: (To be added)
+    required: false
+    default: false
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

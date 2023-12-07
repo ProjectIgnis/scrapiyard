@@ -1,0 +1,15 @@
+---!function
+name: PuzzleOp
+namespace: Auxiliary
+description: |-
+  Used by aux.BeginPuzzle(), sets the first turn player's LP to 0
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+  - name: tp
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

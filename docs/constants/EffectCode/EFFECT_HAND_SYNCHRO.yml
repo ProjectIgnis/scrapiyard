@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_HAND_SYNCHRO
+enum: EffectCode
+value: 339
+description: |-
+  Can Synchro Summon using monsters in the hand (e.g. Tatsunoko)
+status:
+  index: stable
+tags: [ under-construction ]

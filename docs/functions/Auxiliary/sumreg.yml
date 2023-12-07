@@ -1,0 +1,33 @@
+---!function
+name: sumreg
+namespace: Auxiliary
+description: |-
+  Used as SetOperation which registers a FlagEffect to cards in the event group with the same OriginalCode as itself
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+  - name: tp
+    type: [ int ]
+    description: (To be added)
+  - name: eg
+    type: [ Group ]
+    description: (To be added)
+  - name: ep
+    type: [ int ]
+    description: (To be added)
+  - name: ev
+    type: [ int ]
+    description: (To be added)
+  - name: re
+    type: [ Effect ]
+    description: (To be added)
+  - name: r
+    type: [ int ]
+    description: (To be added)
+  - name: rp
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

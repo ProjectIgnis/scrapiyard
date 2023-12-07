@@ -1,0 +1,9 @@
+---!constant
+name: RACES_BEAST_BWARRIOR_WINGB
+enum: MonsterRace
+value: 0xc200
+description: |-
+  Union of Beast, Beast-Warrior and Winged Beast types, for the many cards that support all 3 at once.
+status:
+  index: stable
+tags: [ under-construction ]

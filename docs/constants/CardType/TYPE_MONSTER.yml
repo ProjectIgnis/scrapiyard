@@ -1,0 +1,9 @@
+---!constant
+name: TYPE_MONSTER
+enum: CardType
+value: 0x1
+description: |-
+  A Monster card
+status:
+  index: stable
+tags: [ under-construction ]

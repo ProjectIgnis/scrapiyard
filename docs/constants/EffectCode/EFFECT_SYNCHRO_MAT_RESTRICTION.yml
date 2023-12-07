@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_SYNCHRO_MAT_RESTRICTION
+enum: EffectCode
+value: 73941492+TYPE_SYNCHRO
+description: |-
+  73941492+TYPE_SYNCHRO. Used by the Synchro Summon procedure as an implementation of Harmonizing Magician's effect
+status:
+  index: stable
+tags: [ under-construction ]

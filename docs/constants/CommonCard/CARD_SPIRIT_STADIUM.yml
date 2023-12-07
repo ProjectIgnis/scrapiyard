@@ -1,0 +1,9 @@
+---!constant
+name: CARD_SPIRIT_STADIUM
+enum: CommonCard
+value: 160007047
+description: |-
+  Constant for a commonly used Rush card
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: HINTMSG_SELECT
+enum: HintMessage
+value: 560
+description: |-
+  Shows the following HintMessage: "Select"
+status:
+  index: stable
+tags: [ under-construction ]

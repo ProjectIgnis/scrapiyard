@@ -1,0 +1,12 @@
+---!function
+name: CompleteProcedure
+namespace: Card
+description: |-
+  Makes a card (Card c) be considered that it's Summon procedure is complete
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,11 @@
+---!function
+name: GetDuelType
+namespace: Duel
+description: |-
+  Returns all of the Duel flags used in the current duel
+status:
+  index: stable
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

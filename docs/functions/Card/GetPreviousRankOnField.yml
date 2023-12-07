@@ -1,0 +1,15 @@
+---!function
+name: GetPreviousRankOnField
+namespace: Card
+description: |-
+  Returns the Rank that "c" had when it was on the field.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

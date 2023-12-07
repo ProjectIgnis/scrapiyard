@@ -1,0 +1,40 @@
+---!function
+name: AddProcedure
+namespace: Xyz
+description: |-
+  Adds an Xyz Procedure where (function f) is the required Xyz Material, and (int lv) is the required level, but it can also be nil if there is no required Level. (int ct) is the required number of materials. (function alterf) is the alternate material, e.g. Number C39: Utopia Ray. (int desc) is the description shown when attempting to Xyz Summon using (function alterf). (int maxct) is the maximum number of materials, which defaults to (int ct). (function op) is used by some monsters do something else in addition to using an Xyz Material (e.g. Digital Bug Corebage (detach 2 materials) or Number 99: Utopic Dragon (discard 1 "Rank-Up-Magic")). (bool mustbemat) is used if you can only use the listed materials during the Xyz Summon, this disallows Anime effects such as Orichalcum Chain (minus 1 material) or Triangle Evolution (triple material). (function exchk) is an additional check at the end of selecting materials (e.g. Number F0: Utopic Future (checks if the materials have the same Rank)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: f
+    type: [ function, nil ]
+    description: (To be added)
+  - name: lv
+    type: [ int, nil ]
+    description: (To be added)
+  - name: ct
+    type: [ int ]
+    description: (To be added)
+  - name: alterf
+    type: [ f, nil ]
+    description: (To be added)
+  - name: desc
+    type: [ int ]
+    description: (To be added)
+  - name: maxct
+    type: [ int ]
+    description: (To be added)
+    default: ct
+  - name: op
+    type: [ function ]
+    description: (To be added)
+  - name: mustbemat
+    type: [ bool ]
+    description: (To be added)
+  - name: exchk
+    type: [ function ]
+    description: (To be added)
+tags: [ under-construction ]

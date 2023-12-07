@@ -1,0 +1,9 @@
+---!constant
+name: CARD_SKYSAVIOR_SOLEIL
+enum: CommonCard
+value: 160012020
+description: |-
+  Constant for a commonly used Rush card
+status:
+  index: stable
+tags: [ under-construction ]

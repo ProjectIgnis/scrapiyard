@@ -1,0 +1,18 @@
+---!function
+name: TossCoin
+namespace: Duel
+description: |-
+  Tosses (int count) coins on behalf of (int player). Returns all the results of the tosses.
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: count
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ any ]
+    description: (To be added)
+tags: [ under-construction ]

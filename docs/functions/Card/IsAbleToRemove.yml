@@ -1,0 +1,30 @@
+---!function
+name: IsAbleToRemove
+namespace: Card
+description: |-
+  Checks if a card (Card c) can be banished. The optional parameters are the player that would banish the card (int player), the position the card must go (int pos) and the reason for the banishing (int reason).
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: player
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: reason
+  - name: pos
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: POS_FACEUP
+  - name: reason
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: REASON_EFFECT
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

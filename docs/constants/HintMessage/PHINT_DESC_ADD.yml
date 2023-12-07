@@ -1,0 +1,9 @@
+---!constant
+name: PHINT_DESC_ADD
+enum: HintMessage
+value: 6
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

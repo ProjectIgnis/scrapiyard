@@ -1,0 +1,9 @@
+---!constant
+name: HINTMSG_COUNTER
+enum: HintMessage
+value: 572
+description: |-
+  Shows the following HintMessage: "Select the card(s) to place a counter on"
+status:
+  index: stable
+tags: [ under-construction ]

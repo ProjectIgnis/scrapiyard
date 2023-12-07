@@ -1,0 +1,9 @@
+---!constant
+name: EVENT_RETURN_TO_GRAVE
+enum: Event
+value: 1203
+description: |-
+  Deprecated and removed event. See core's "effect.h". Card is being returned to the Graveyard
+status:
+  index: stable
+tags: [ under-construction ]

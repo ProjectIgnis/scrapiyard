@@ -1,0 +1,12 @@
+---!constant
+name: EFFECT_CANNOT_TO_DECK
+enum: EffectCode
+value: 66
+description: |-
+  Affected card cannot be sent to the deck. If it is used as a field effect, cards that return true for the SetTarget cannot be sent to the hand. SetTarget receives the following parameters:
+e: this effect itself
+c: the card that would be sent to the Deck
+tp: the player that would send the card
+status:
+  index: stable
+tags: [ under-construction ]

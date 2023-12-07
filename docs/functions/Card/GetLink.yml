@@ -1,0 +1,15 @@
+---!function
+name: GetLink
+namespace: Card
+description: |-
+  Returns the current Link Rating of "c". (Returns 0 if it has no Link Rating.)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

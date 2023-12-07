@@ -1,0 +1,9 @@
+---!constant
+name: LOCATION_HAND
+enum: Location
+value: 0x2
+description: |-
+  The hand
+status:
+  index: stable
+tags: [ under-construction ]

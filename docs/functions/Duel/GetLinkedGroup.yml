@@ -1,0 +1,21 @@
+---!function
+name: GetLinkedGroup
+namespace: Duel
+description: |-
+  Returns the group of cards in the specified locations that are pointed by a link card.
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: location1
+    type: [ int ]
+    description: (To be added)
+  - name: location2
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ Group ]
+    description: (To be added)
+tags: [ under-construction ]

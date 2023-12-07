@@ -1,0 +1,9 @@
+---!constant
+name: TYPE_ARMOR
+enum: CardType
+value: 0x80000000
+description: |-
+  Armor Type, only usable if 419 is called
+status:
+  index: stable
+tags: [ under-construction ]

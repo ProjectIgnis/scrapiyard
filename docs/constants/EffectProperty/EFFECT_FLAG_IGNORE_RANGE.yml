@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_FLAG_IGNORE_RANGE
+enum: EffectProperty
+value: 0x20
+description: |-
+  Card affecting all areas "(Prohibition", "Imperial Iron Wall")
+status:
+  index: stable
+tags: [ under-construction ]

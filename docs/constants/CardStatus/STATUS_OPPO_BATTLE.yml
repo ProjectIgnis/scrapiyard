@@ -1,0 +1,9 @@
+---!constant
+name: STATUS_OPPO_BATTLE
+enum: CardStatus
+value: 0x10000000
+description: |-
+  A monster with this status is battling an opponent's monsters. The status is reseted at the End of the Damage Step
+status:
+  index: stable
+tags: [ under-construction ]

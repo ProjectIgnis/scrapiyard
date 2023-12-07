@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_ATTACK_DISABLED
+enum: EffectCode
+value: 197
+description: |-
+  The affected card's attack has been negated (shows application of Duel.NegateAttack() )
+status:
+  index: stable
+tags: [ under-construction ]

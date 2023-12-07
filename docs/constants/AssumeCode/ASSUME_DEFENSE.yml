@@ -1,0 +1,9 @@
+---!constant
+name: ASSUME_DEFENSE
+enum: AssumeCode
+value: 8
+description: |-
+  Temporarily assumes that the affected card has a given DEF
+status:
+  index: stable
+tags: [ under-construction ]

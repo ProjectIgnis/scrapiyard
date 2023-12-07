@@ -1,0 +1,15 @@
+---!function
+name: GetCardID
+namespace: Card
+description: |-
+  Returns the internal card ID that "c" has. This will be unique per card and won't change during the course of the duel.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

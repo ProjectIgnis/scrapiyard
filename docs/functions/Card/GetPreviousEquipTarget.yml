@@ -1,0 +1,15 @@
+---!function
+name: GetPreviousEquipTarget
+namespace: Card
+description: |-
+  Gets the Card that a Card (Card c) was equipped to
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ Card ]
+    description: (To be added)
+tags: [ under-construction ]

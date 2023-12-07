@@ -1,0 +1,9 @@
+---!constant
+name: OPCODE_RSHIFT
+enum: Opcode
+value: 0x40000013
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

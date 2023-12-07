@@ -1,0 +1,18 @@
+---!function
+name: IsHasCardTarget
+namespace: Card
+description: |-
+  Checks whether the second card (Card c2) is a target of the first card (Card c1)
+status:
+  index: stable
+parameters:
+  - name: c1
+    type: [ Card ]
+    description: (To be added)
+  - name: c2
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

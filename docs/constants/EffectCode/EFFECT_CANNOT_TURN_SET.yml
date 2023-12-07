@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_CANNOT_TURN_SET
+enum: EffectCode
+value: 69
+description: |-
+  The affected card cannot be turned face-down ("Set"). If used as a field effect, only e and c are passed to SetTarget
+status:
+  index: stable
+tags: [ under-construction ]

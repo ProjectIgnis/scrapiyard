@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_NECRO_VALLEY
+enum: EffectCode
+value: 291
+description: |-
+  Cannot affect cards in the Graveyard (Necrovalley)
+status:
+  index: stable
+tags: [ under-construction ]

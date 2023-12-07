@@ -1,0 +1,12 @@
+---!function
+name: SetAIName
+namespace: Debug
+description: |-
+  Sets the name of the AI to (string name)
+status:
+  index: stable
+parameters:
+  - name: name
+    type: [ string ]
+    description: (To be added)
+tags: [ under-construction ]

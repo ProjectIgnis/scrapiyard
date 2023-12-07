@@ -1,0 +1,9 @@
+---!constant
+name: CARD_KURIBOT
+enum: CommonCard
+value: 160001017
+description: |-
+  Constant for a commonly used Rush card
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: CATEGORY_DAMAGE
+enum: EffectCategory
+value: 0x80000
+description: |-
+  Describes that a card deals damage
+status:
+  index: stable
+tags: [ under-construction ]

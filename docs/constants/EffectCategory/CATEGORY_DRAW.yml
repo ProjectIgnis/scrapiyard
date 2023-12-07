@@ -1,0 +1,9 @@
+---!constant
+name: CATEGORY_DRAW
+enum: EffectCategory
+value: 0x10000
+description: |-
+  Describes that a card draws
+status:
+  index: stable
+tags: [ under-construction ]

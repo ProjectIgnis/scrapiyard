@@ -1,0 +1,9 @@
+---!constant
+name: CARD_DESTINY_BOARD
+enum: CommonCard
+value: 94212438
+description: |-
+  Destiny Board's ID, frequently called by some scripts.
+status:
+  index: stable
+tags: [ under-construction ]

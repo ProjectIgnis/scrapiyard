@@ -1,0 +1,20 @@
+---!function
+name: SetReason
+namespace: Card
+description: |-
+  Sets the reason of "c" as "reason". If "keep" is set to true "c" will maintain the previous reason that it had.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: reason
+    type: [ int ]
+    description: (To be added)
+  - name: keep
+    type: [ bool ]
+    description: (To be added)
+    required: false
+    default: false
+tags: [ under-construction ]

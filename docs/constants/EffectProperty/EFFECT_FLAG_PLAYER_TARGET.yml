@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_FLAG_PLAYER_TARGET
+enum: EffectProperty
+value: 0x800
+description: |-
+  Effect targets a player (Mystical Refpanel)
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: TYPES_TOKEN
+enum: CardType
+value: 0x4011
+description: |-
+  Constant used to simplify cards that summon tokens. Sum of the following values: Monster + Normal + Token
+status:
+  index: stable
+tags: [ under-construction ]

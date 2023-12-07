@@ -1,0 +1,9 @@
+---!constant
+name: POS_ATTACK
+enum: CardPosition
+value: 0x3
+description: |-
+  Attack position, face-up + face-down
+status:
+  index: stable
+tags: [ under-construction ]

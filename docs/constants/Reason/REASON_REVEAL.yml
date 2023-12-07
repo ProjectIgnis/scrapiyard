@@ -1,0 +1,9 @@
+---!constant
+name: REASON_REVEAL
+enum: Reason
+value: 0x8000000
+description: |-
+  Used by cards that require being sent to the GY after being excavated. See "Sylvan" monsters
+status:
+  index: stable
+tags: [ under-construction ]

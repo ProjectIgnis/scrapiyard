@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_CHANGE_DAMAGE
+enum: EffectCode
+value: 82
+description: |-
+  Modify the amount of damage the affected player would take
+status:
+  index: stable
+tags: [ under-construction ]

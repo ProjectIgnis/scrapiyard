@@ -1,0 +1,15 @@
+---!function
+name: GetRaceStrings
+namespace: Auxiliary
+description: |-
+  no description yet
+status:
+  index: stable
+parameters:
+  - name: number
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ table ]
+    description: (To be added)
+tags: [ under-construction ]

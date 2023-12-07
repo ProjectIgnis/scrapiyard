@@ -1,0 +1,9 @@
+---!constant
+name: CATEGORY_COUNTER
+enum: EffectCategory
+value: 0x800000
+description: |-
+  Describes an effect that places Counters
+status:
+  index: stable
+tags: [ under-construction ]

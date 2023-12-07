@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_REMOVE_TYPE
+enum: EffectCode
+value: 116
+description: |-
+  Treats a Card(s) as not a type(s) (written into Effect.SetValue())
+status:
+  index: stable
+tags: [ under-construction ]

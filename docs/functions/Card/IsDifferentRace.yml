@@ -1,0 +1,18 @@
+---!function
+name: IsDifferentRace
+namespace: Card
+description: |-
+  Returns if (Card c) does not have Race (int race)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: race
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

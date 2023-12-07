@@ -1,0 +1,9 @@
+---!constant
+name: TOKEN_REPTILIANNE
+enum: CommonToken
+value: 21179144
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

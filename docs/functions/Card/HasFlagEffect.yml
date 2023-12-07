@@ -1,0 +1,22 @@
+---!function
+name: HasFlagEffect
+namespace: Card
+description: |-
+  Returns if (Card c) has a flag with id equal to (int id). If (int ct) is provided, checks if the flags was registered at least that many times.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: id
+    type: [ int ]
+    description: (To be added)
+  - name: ct
+    type: [ int ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

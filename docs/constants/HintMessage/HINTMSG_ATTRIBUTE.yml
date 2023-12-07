@@ -1,0 +1,9 @@
+---!constant
+name: HINTMSG_ATTRIBUTE
+enum: HintMessage
+value: 562
+description: |-
+  Shows the following HintMessage: "Declare an Attribute"
+status:
+  index: stable
+tags: [ under-construction ]

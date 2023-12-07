@@ -1,0 +1,9 @@
+---!constant
+name: TOKEN_SHINOBIRD
+enum: CommonToken
+value: 52900001
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

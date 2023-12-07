@@ -1,0 +1,9 @@
+---!constant
+name: ATTRIBUTE_EARTH
+enum: MonsterAttribute
+value: 0x1
+description: |-
+  The EARTH attribute for monsters
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,20 @@
+---!function
+name: SpecialSummonRule
+namespace: Duel
+description: |-
+  A player (int player) Special Summons a card (Card c) using Special Summon proc that the card has that matches the provided SummonType (0 means any).
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: sumtype
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: 0
+tags: [ under-construction ]

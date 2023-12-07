@@ -1,0 +1,9 @@
+---!constant
+name: STATUS_NO_LEVEL
+enum: CardStatus
+value: 0x20
+description: |-
+  The card is treated as having Level/Rank/Link 0
+status:
+  index: stable
+tags: [ under-construction ]

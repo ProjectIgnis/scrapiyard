@@ -1,0 +1,24 @@
+---!function
+name: EnableNeosReturn
+namespace: Auxiliary
+description: |-
+  Adds the effect to shuffle the card into the Extra Deck at the End Phase (most commonly used by "Neos" Fusion Monsters). If provided, "extracat", "extrainfo" and "extraop" will add additional effect categories, operation info and operations respectively to the effect. The Condition, Target and Operation functions of this effect, named NeosReturnCondition1/2, NeosReturnTarget and NeosReturnOperation, are detailed in cards_specific_functions.lua.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: extracat
+    type: [ int ]
+    description: (To be added)
+    required: false
+  - name: extrainfo
+    type: [ function ]
+    description: (To be added)
+    required: false
+  - name: extraop
+    type: [ function ]
+    description: (To be added)
+    required: false
+tags: [ under-construction ]

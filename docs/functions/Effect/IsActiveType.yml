@@ -1,0 +1,18 @@
+---!function
+name: IsActiveType
+namespace: Effect
+description: |-
+  Compares (with OR) an effect's (Effect e) CardType of activation effect with supplied type (int type). Activation type is often the handler's CardType, or the owner's if not attached to a card. Exception for Pendulum scale activation (would return TYPE_SPELL+TYPE_PENDULUM).
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+  - name: type
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_RELEASE_REPLACE
+enum: EffectCode
+value: 51
+description: |-
+  If the affected card would be Tributed, perform a given operation instead
+status:
+  index: stable
+tags: [ under-construction ]

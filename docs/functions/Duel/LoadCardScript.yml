@@ -1,0 +1,12 @@
+---!function
+name: LoadCardScript
+namespace: Duel
+description: |-
+  Loads into the current environment (duel/puzzle) the script from card which id is int code. If a string is used, it must be "c'code'.lua"
+status:
+  index: stable
+parameters:
+  - name: code
+    type: [ string, int ]
+    description: (To be added)
+tags: [ under-construction ]

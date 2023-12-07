@@ -1,0 +1,16 @@
+---!function
+name: Level
+namespace: Card
+description: |-
+  Changes (Card c)'s original level/rank/link rating if (int level) is inputted, else returns the current card's original level/rank/link rating
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: level
+    type: [ int ]
+    description: (To be added)
+    required: false
+tags: [ under-construction ]

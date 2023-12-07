@@ -1,0 +1,9 @@
+---!constant
+name: WIN_REASON_MUSICAL_SUMO
+enum: VictoryString
+value: 0x58
+description: |-
+  The hexadecimal value for a duel win caused by "Musical Sumo Dice Games"
+status:
+  index: stable
+tags: [ under-construction ]

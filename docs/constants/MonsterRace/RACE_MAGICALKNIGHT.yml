@@ -1,0 +1,9 @@
+---!constant
+name: RACE_MAGICALKNIGHT
+enum: MonsterRace
+value: 0x8000000
+description: |-
+  Rush duel monster type (race)
+status:
+  index: stable
+tags: [ under-construction ]

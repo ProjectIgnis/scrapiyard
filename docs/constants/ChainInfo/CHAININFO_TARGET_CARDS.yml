@@ -1,0 +1,9 @@
+---!constant
+name: CHAININFO_TARGET_CARDS
+enum: ChainInfo
+value: 0x40
+description: |-
+  Cards targeted by the effect of the current Chain Link
+status:
+  index: stable
+tags: [ under-construction ]

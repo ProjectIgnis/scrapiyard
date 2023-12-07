@@ -1,0 +1,33 @@
+---!function
+name: IsExistingTarget
+namespace: Duel
+description: |-
+  This function's behaviour is equivalent of calling Duel.IsExistingMatchingCard with the same arguments and filtering cards with Card.IsCanBeEffectTarget with the current reason effect as parameter (internal to the core, but most of the time corresponds to the effect itself)
+status:
+  index: stable
+parameters:
+  - name: f
+    type: [ function ]
+    description: (To be added)
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: s
+    type: [ int ]
+    description: (To be added)
+  - name: o
+    type: [ int ]
+    description: (To be added)
+  - name: count
+    type: [ int ]
+    description: (To be added)
+  - name: ex
+    type: [ Group, Card, nil ]
+    description: (To be added)
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

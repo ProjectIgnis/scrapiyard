@@ -1,0 +1,15 @@
+---!constant
+name: EFFECT_SPSUMMON_CONDITION
+enum: EffectCode
+value: 30
+description: |-
+  The affected monster has an Special Summon condition that must be fulfilled. Cards/effects that return true for the SetValue are allowed to Special Summon the monster. SetValue for this function takes the following parameters:
+-effect: this effect itself
+-sum_effect: the effect that would summon
+-sum_player: the player that would summon
+-sum_type: the SummonType what would be used for the summon
+-sum_pos: the position in which the monster would be summoned
+-toplayer: the player that would receive the monster
+status:
+  index: stable
+tags: [ under-construction ]

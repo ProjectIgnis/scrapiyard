@@ -1,0 +1,21 @@
+---!function
+name: GetOverlayGroup
+namespace: Duel
+description: |-
+  Returns the group of cards that are currently attached to monsters. (int player) is the reference player, and (int s) and (int o) check, respectively for your cards and your opponent's cards.
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: s
+    type: [ int ]
+    description: (To be added)
+  - name: o
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ Group ]
+    description: (To be added)
+tags: [ under-construction ]

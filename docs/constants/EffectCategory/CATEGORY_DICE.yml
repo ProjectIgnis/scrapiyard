@@ -1,0 +1,9 @@
+---!constant
+name: CATEGORY_DICE
+enum: EffectCategory
+value: 0x2000000
+description: |-
+  Describes that a card uses a dice
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: TOKEN_LINK
+enum: CommonToken
+value: 48068379
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: TIMING_DAMAGE_CAL
+enum: Timing
+value: 0x4000
+description: |-
+  When performing Damage Calculation
+status:
+  index: stable
+tags: [ under-construction ]

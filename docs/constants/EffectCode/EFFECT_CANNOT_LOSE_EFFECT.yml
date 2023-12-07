@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_CANNOT_LOSE_EFFECT
+enum: EffectCode
+value: 402
+description: |-
+  The affected player is prevented from losing the duel via card effects (anything that calls the Duel.Win function)
+status:
+  index: stable
+tags: [ under-construction ]

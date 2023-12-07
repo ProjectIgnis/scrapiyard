@@ -1,0 +1,18 @@
+---!function
+name: ReleaseCheckMMZ
+namespace: Auxiliary
+description: |-
+  no description yet
+status:
+  index: stable
+parameters:
+  - name: sg
+    type: [ group ]
+    description: (To be added)
+  - name: player
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

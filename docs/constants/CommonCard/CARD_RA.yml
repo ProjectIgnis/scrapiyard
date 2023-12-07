@@ -1,0 +1,9 @@
+---!constant
+name: CARD_RA
+enum: CommonCard
+value: 10000010
+description: |-
+  Winged Dragon of Ra's ID
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,20 @@
+---!function
+name: ResetNegateEffect
+namespace: Card
+description: |-
+  Resets a card c affected by the effect of cards whose card number is code1, code2 ...
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: code1
+    type: [ int ]
+    description: (To be added)
+    required: false
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+    required: false
+tags: [ under-construction ]

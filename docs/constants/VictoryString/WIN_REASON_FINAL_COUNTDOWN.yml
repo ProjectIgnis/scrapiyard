@@ -1,0 +1,9 @@
+---!constant
+name: WIN_REASON_FINAL_COUNTDOWN
+enum: VictoryString
+value: 0x11
+description: |-
+  The hexadecimal value for a duel win caused by "Countdown"
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_EXTRA_ATTACK
+enum: EffectCode
+value: 194
+description: |-
+  Affected card can make a given number of additional attacks
+status:
+  index: stable
+tags: [ under-construction ]

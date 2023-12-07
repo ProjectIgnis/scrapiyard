@@ -1,0 +1,48 @@
+---!function
+name: AddProcGreater
+namespace: Ritual
+description: |-
+  Adds a Ritual Summoning activation requiring Tributes that meet (function filter), and with levels equal to or greater than the Ritual Monster's level
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: filter
+    type: [ function ]
+    description: (To be added)
+  - name: lv
+    type: [ int ]
+    description: (To be added)
+  - name: desc
+    type: [ string ]
+    description: (To be added)
+  - name: extrafil
+    type: [ function ]
+    description: (To be added)
+  - name: extraop
+    type: [ function ]
+    description: (To be added)
+  - name: matfilter
+    type: [ function ]
+    description: (To be added)
+  - name: stage2
+    type: [ function ]
+    description: (To be added)
+  - name: location
+    type: [ int ]
+    description: (To be added)
+  - name: forcedselection
+    type: [ any ]
+    description: (To be added)
+  - name: customoperation
+    type: [ function ]
+    description: (To be added)
+  - name: specificmatfilter
+    type: [ function ]
+    description: (To be added)
+returns:
+  - type: [ effect ]
+    description: (To be added)
+tags: [ under-construction ]

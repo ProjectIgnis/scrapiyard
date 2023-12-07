@@ -1,0 +1,40 @@
+---!function
+name: Sendto
+namespace: Duel
+description: |-
+  Sends a card or group (Card|Group targets) to the location (int location) with (int reason) as reason in (ins pos) position (only applies in Extra Deck and Banish). If (int player) is supplied, the destination would be that player's location. A seq value of 0 means it's put on the top, 1 means it's put on the bottom, other values means it's put on the top, and then if it is in the Deck, it will be shuffled after the function resolution, except if Duel.DisableShuffleCheck() is set to true beforehand. If (int rp) is provided, sets the reason player to be that player. Returns the number of cards successfully sent.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card, Group ]
+    description: (To be added)
+  - name: location
+    type: [ int ]
+    description: (To be added)
+  - name: reason
+    type: [ int ]
+    description: (To be added)
+  - name: pos
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: POS_FACEUP
+  - name: player
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: PLAYER_NONE
+  - name: sequence
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: 0
+  - name: rp
+    type: [ int ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

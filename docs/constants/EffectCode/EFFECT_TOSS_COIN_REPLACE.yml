@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_TOSS_COIN_REPLACE
+enum: EffectCode
+value: 220
+description: |-
+  If an effect requires a coin toss, replace it with a given result instead
+status:
+  index: stable
+tags: [ under-construction ]

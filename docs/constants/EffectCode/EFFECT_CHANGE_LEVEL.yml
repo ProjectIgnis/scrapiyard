@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_CHANGE_LEVEL
+enum: EffectCode
+value: 131
+description: |-
+  Set affected card's level to a value (written into Effect.SetValue())
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,27 @@
+---!function
+name: AddDoubleTribute
+namespace: Card
+description: |-
+  Rush related function
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ any ]
+    description: (To be added)
+  - name: id
+    type: [ any ]
+    description: (To be added)
+  - name: otfilter
+    type: [ any ]
+    description: (To be added)
+  - name: eftg
+    type: [ any ]
+    description: (To be added)
+  - name: reset
+    type: [ any ]
+    description: (To be added)
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+tags: [ under-construction ]

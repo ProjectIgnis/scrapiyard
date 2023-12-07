@@ -1,0 +1,9 @@
+---!constant
+name: CATEGORY_SEARCH
+enum: EffectCategory
+value: 0x20000
+description: |-
+  Describes that a card searches
+status:
+  index: stable
+tags: [ under-construction ]

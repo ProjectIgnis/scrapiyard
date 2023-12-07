@@ -1,0 +1,18 @@
+---!function
+name: TakeatPos
+namespace: Group
+description: |-
+  Returns the card at the index specified (int pos) in the group. Returns nil if the index is greater than the size of the group.
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ Group ]
+    description: (To be added)
+  - name: pos
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ Card, nil ]
+    description: (To be added)
+tags: [ under-construction ]

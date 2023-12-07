@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_CANNOT_DIRECT_ATTACK
+enum: EffectCode
+value: 73
+description: |-
+  Affected card cannot attack directly
+status:
+  index: stable
+tags: [ under-construction ]

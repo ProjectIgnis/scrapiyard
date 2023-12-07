@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_TYPE_CONTINUOUS
+enum: EffectType
+value: 0x800
+description: |-
+  Auxiliary effect / persistent effect triggered by an event
+status:
+  index: stable
+tags: [ under-construction ]

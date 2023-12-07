@@ -1,0 +1,15 @@
+---!function
+name: ChangeTargetParam
+namespace: Duel
+description: |-
+  Changes the target parameter for the specific chain link (0 is the currently resolving one). This alters the value that that chain link set with Duel.SetTargetParam
+status:
+  index: stable
+parameters:
+  - name: chainc
+    type: [ int ]
+    description: (To be added)
+  - name: param
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

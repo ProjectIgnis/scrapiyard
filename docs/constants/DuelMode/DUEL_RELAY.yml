@@ -1,0 +1,9 @@
+---!constant
+name: DUEL_RELAY
+enum: DuelMode
+value: 0x80
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

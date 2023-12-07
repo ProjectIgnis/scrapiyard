@@ -1,0 +1,12 @@
+---!function
+name: DeleteGroup
+namespace: Group
+description: |-
+  Makes a group that was kept alive be collectable (Group g)
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ Group ]
+    description: (To be added)
+tags: [ under-construction ]

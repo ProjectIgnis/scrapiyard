@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_UNION_LIMIT
+enum: EffectCode
+value: 78
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

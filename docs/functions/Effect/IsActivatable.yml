@@ -1,0 +1,28 @@
+---!function
+name: IsActivatable
+namespace: Effect
+description: |-
+  Checks if an effect (Effect e) can be activated by a player (int player). If ignore location is true, the handler of the effect is not checked to be in a valid location for that effect to be activated. If ignore target is true, then the target function is not executed to check if the effect can be activated.
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: ignore_location
+    type: [ bool ]
+    description: (To be added)
+    required: false
+    default: false
+  - name: ignore_target
+    type: [ bool ]
+    description: (To be added)
+    required: false
+    default: false
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

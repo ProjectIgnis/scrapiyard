@@ -1,0 +1,18 @@
+---!function
+name: CreateToken
+namespace: Duel
+description: |-
+  Creates a new instance of a card owned by player (int player) with card code (int code).
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: code
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ Card ]
+    description: (To be added)
+tags: [ under-construction ]

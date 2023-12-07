@@ -1,0 +1,27 @@
+---!function
+name: SetOperationInfo
+namespace: Duel
+description: |-
+  Sets informations about the operation being performed in the current (int chainc = 0) chain, belonging to (int category), with a total of (int count) of card(s) from (Card|Group targets) being affected. These are used with GetOperationInfo. Also, the parameter passed here are checked if any of the summon related activities are checked like ACTIVITY_SUMMON, ACTIVITY_NORMALSUMMON, ACTIVITY_SPSUMMON and ACTIVITY_FLIPSUMMON.
+status:
+  index: stable
+parameters:
+  - name: chainc
+    type: [ int ]
+    description: (To be added)
+  - name: category
+    type: [ int ]
+    description: (To be added)
+  - name: targets
+    type: [ Card, Group ]
+    description: (To be added)
+  - name: count
+    type: [ int ]
+    description: (To be added)
+  - name: target_player
+    type: [ int ]
+    description: (To be added)
+  - name: target_param
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

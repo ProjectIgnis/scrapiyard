@@ -1,0 +1,9 @@
+---!constant
+name: LOCATION_DECKSHF
+enum: Location
+value: 0x20001
+description: |-
+  Location for cards that are place in Deck and then the Deck is shuffled. Used only in Location Redirect
+status:
+  index: stable
+tags: [ under-construction ]

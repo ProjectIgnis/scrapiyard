@@ -1,0 +1,9 @@
+---!constant
+name: DUEL_1ST_TURN_DRAW
+enum: DuelMode
+value: 0x200
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

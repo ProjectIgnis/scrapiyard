@@ -1,0 +1,15 @@
+---!function
+name: FromLuaRef
+namespace: Group
+description: |-
+  Returns a Group object from a given lua reference. The function errors out if the reference is invalid or does not refer to a Group object.
+status:
+  index: stable
+parameters:
+  - name: ref
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ Group ]
+    description: (To be added)
+tags: [ under-construction ]

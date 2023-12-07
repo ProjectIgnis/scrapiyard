@@ -1,0 +1,15 @@
+---!function
+name: IsFaceup
+namespace: Card
+description: |-
+  Checks if a card (Card c) is face-up
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,15 @@
+---!function
+name: GetCardFromCardID
+namespace: Duel
+description: |-
+  Returns the card whose internal id matches cardid, if no card matches, nil is returned.
+status:
+  index: stable
+parameters:
+  - name: cardid
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ Card ]
+    description: (To be added)
+tags: [ under-construction ]

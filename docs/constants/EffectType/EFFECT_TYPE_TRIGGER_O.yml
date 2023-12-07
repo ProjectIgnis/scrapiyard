@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_TYPE_TRIGGER_O
+enum: EffectType
+value: 0x80
+description: |-
+  Optional Trigger effect
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,16 @@
+---!function
+name: Defense
+namespace: Card
+description: |-
+  Changes (Card c)'s original DEF if (int val) is inputted, else returns the current card's original DEF.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: val
+    type: [ int ]
+    description: (To be added)
+    required: false
+tags: [ under-construction ]

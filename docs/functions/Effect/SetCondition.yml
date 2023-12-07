@@ -1,0 +1,15 @@
+---!function
+name: SetCondition
+namespace: Effect
+description: |-
+  Sets (Effect e)'s condition function
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+  - name: con_func
+    type: [ function ]
+    description: (To be added)
+tags: [ under-construction ]

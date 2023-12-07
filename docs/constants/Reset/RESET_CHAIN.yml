@@ -1,0 +1,9 @@
+---!constant
+name: RESET_CHAIN
+enum: Reset
+value: 0x80000000
+description: |-
+  Resets at the end of the resolving Chain
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_ADD_LINKMARKER
+enum: EffectCode
+value: 423
+description: |-
+  Add LinkMarkers to the affected card
+status:
+  index: stable
+tags: [ under-construction ]

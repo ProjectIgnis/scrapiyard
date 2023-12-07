@@ -1,0 +1,22 @@
+---!function
+name: HasFlagEffect
+namespace: Duel
+description: |-
+  Returns if (int tp) has a flag with id equal to (int id) register to it. If (int ct) is provided checks if it the flags was registered at least that many times.
+status:
+  index: stable
+parameters:
+  - name: tp
+    type: [ int ]
+    description: (To be added)
+  - name: id
+    type: [ int ]
+    description: (To be added)
+  - name: ct
+    type: [ int ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

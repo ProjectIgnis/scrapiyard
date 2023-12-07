@@ -1,0 +1,15 @@
+---!constant
+name: EFFECT_CANNOT_SUMMON
+enum: EffectCode
+value: 20
+description: |-
+  The affected player cannot Normal Summon. A field effect that requires EFFECT_FLAG_PLAYER_TARGET to be set and the players to be defined in SetTargetRange. SetTarget receives the following parameters:
+e: this effect itself
+c: the card that would be summoned
+sump: the player that would Summon
+sumtyp: the SummonType
+sumpos: the summon position (fixed as POS_FACEUP in the core)
+tp: the target player (the player that would get the monster)
+status:
+  index: stable
+tags: [ under-construction ]

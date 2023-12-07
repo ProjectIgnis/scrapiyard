@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_UPDATE_RANK
+enum: EffectCode
+value: 132
+description: |-
+  Increase/decrease affected card's rank by a value (written into Effect.SetValue())
+status:
+  index: stable
+tags: [ under-construction ]

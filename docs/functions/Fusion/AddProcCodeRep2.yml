@@ -1,0 +1,27 @@
+---!function
+name: AddProcCodeRep2
+namespace: Fusion
+description: |-
+  Fusion monster, name * minc to maxc. not used by any card
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ any ]
+    description: (To be added)
+  - name: code1
+    type: [ any ]
+    description: (To be added)
+  - name: minc
+    type: [ any ]
+    description: (To be added)
+  - name: maxc
+    type: [ any ]
+    description: (To be added)
+  - name: sub
+    type: [ any ]
+    description: (To be added)
+  - name: insf
+    type: [ any ]
+    description: (To be added)
+tags: [ under-construction ]

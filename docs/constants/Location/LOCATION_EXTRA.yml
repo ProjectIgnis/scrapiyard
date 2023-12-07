@@ -1,0 +1,9 @@
+---!constant
+name: LOCATION_EXTRA
+enum: Location
+value: 0x40
+description: |-
+  The Extra Deck
+status:
+  index: stable
+tags: [ under-construction ]

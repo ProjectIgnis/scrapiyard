@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_FLAG_CANNOT_DISABLE
+enum: EffectProperty
+value: 0x400
+description: |-
+  Effect cannot be negated
+status:
+  index: stable
+tags: [ under-construction ]

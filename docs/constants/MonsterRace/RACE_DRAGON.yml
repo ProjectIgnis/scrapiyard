@@ -1,0 +1,9 @@
+---!constant
+name: RACE_DRAGON
+enum: MonsterRace
+value: 0x2000
+description: |-
+  Dragon type monster
+status:
+  index: stable
+tags: [ under-construction ]

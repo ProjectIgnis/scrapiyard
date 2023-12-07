@@ -1,0 +1,9 @@
+---!constant
+name: WIN_REASON_GHOSTRICK_MISCHIEF
+enum: VictoryString
+value: 0x1b
+description: |-
+  The hexadecimal value for a duel win caused by "Ghostrick Angel of Mischief"
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_CHANGE_LEVEL_FINAL
+enum: EffectCode
+value: 314
+description: |-
+  Set affected card's level to a value, overriding other changes
+status:
+  index: stable
+tags: [ under-construction ]

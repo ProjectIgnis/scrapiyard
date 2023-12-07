@@ -1,0 +1,9 @@
+---!constant
+name: EVENT_PRE_DAMAGE_CALCULATE
+enum: Event
+value: 1134
+description: |-
+  Before the damage calculation
+status:
+  index: stable
+tags: [ under-construction ]

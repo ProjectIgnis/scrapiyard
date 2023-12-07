@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_SKIP_M1
+enum: EffectCode
+value: 182
+description: |-
+  Skip affected player's main phase 1 (used with SetTargetRange(tp value,1-tp value), 0 for not affected, 1 for affect)
+status:
+  index: stable
+tags: [ under-construction ]

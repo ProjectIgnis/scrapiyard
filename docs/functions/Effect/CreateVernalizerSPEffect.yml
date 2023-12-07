@@ -1,0 +1,30 @@
+---!function
+name: CreateVernalizerSPEffect
+namespace: Effect
+description: |-
+  no description yet
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ any ]
+    description: (To be added)
+  - name: id
+    type: [ any ]
+    description: (To be added)
+  - name: desc
+    type: [ any ]
+    description: (To be added)
+  - name: uniquecat
+    type: [ any ]
+    description: (To be added)
+  - name: uniquetg
+    type: [ any ]
+    description: (To be added)
+  - name: uniqueop
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ Effect ]
+    description: (To be added)
+tags: [ under-construction ]

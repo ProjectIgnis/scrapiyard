@@ -1,0 +1,9 @@
+---!constant
+name: TYPE_MAXIMUM
+enum: CardType
+value: 0x8000
+description: |-
+  A Maximum Monster
+status:
+  index: stable
+tags: [ under-construction ]

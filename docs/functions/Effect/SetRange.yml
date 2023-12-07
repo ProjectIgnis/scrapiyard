@@ -1,0 +1,15 @@
+---!function
+name: SetRange
+namespace: Effect
+description: |-
+  Sets an effect's (Effect e) effective range (int range) i.e. LOCATION_MZONE. The location is the effect handler's location.
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+  - name: range
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

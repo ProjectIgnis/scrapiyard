@@ -1,0 +1,15 @@
+---!function
+name: IsLinkMonster
+namespace: Card
+description: |-
+  Returns if (Card c) is a Link Monster. This function was added due to the introduction of Link Spells that makes checking only for IsType==TYPE_LINK not accurate depending on the effect used.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ card ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: CHAININFO_TRIGGERING_LOCATION
+enum: ChainInfo
+value: 0x10
+description: |-
+  The location of the card that triggered the current Chain Link
+status:
+  index: stable
+tags: [ under-construction ]

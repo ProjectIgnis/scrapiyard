@@ -1,0 +1,9 @@
+---!constant
+name: EVENT_TO_HAND
+enum: Event
+value: 1012
+description: |-
+  This event is raised when a card is sent to the hand (includes draw, search and return)
+status:
+  index: stable
+tags: [ under-construction ]

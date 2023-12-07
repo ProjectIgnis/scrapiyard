@@ -1,0 +1,23 @@
+---!function
+name: CheckDifferentProperty
+namespace: Group
+description: |-
+  Function to check if every card in a group has at least a different property from the others with a function that stores the properties in multiple return forms
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ Group ]
+    description: (To be added)
+  - name: f
+    type: [ function ]
+    description: (To be added)
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+  - type: [ void ]
+    description: (To be added)
+tags: [ under-construction ]

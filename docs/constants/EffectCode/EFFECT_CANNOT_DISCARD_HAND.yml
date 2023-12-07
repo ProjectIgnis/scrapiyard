@@ -1,0 +1,13 @@
+---!constant
+name: EFFECT_CANNOT_DISCARD_HAND
+enum: EffectCode
+value: 55
+description: |-
+  Affected player cannot send cards from their hand to the graveyard. SetTarget receives the following parameters:
+-e: this effect itself
+-c: the card that would be discarded
+-re: the effect that would discard the cards
+-r: the reason for the discard
+status:
+  index: stable
+tags: [ under-construction ]

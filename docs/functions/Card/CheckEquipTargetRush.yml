@@ -1,0 +1,18 @@
+---!function
+name: CheckEquipTargetRush
+namespace: Card
+description: |-
+  to be added. Available in proc_maximum.lua
+status:
+  index: stable
+parameters:
+  - name: equip
+    type: [ any ]
+    description: (To be added)
+  - name: monster
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

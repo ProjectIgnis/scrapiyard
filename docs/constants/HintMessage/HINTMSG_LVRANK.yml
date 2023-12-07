@@ -1,0 +1,9 @@
+---!constant
+name: HINTMSG_LVRANK
+enum: HintMessage
+value: 567
+description: |-
+  Shows the following HintMessage: "Declare a Level/Rank"
+status:
+  index: stable
+tags: [ under-construction ]

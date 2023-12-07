@@ -1,0 +1,9 @@
+---!constant
+name: CARD_STARDUST_DRAGON
+enum: CommonCard
+value: 44508094
+description: |-
+  Stardust Dragon's ID
+status:
+  index: stable
+tags: [ under-construction ]

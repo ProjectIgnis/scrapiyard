@@ -1,0 +1,9 @@
+---!constant
+name: RACE_MACHINE
+enum: MonsterRace
+value: 0x20
+description: |-
+  Machine type monster
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: CARD_MARINE_DOLPHIN
+enum: CommonCard
+value: 78734254
+description: |-
+  Neo Spacian Marine Dolphin's ID, used in core because of double name
+status:
+  index: stable
+tags: [ under-construction ]

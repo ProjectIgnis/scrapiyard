@@ -1,0 +1,9 @@
+---!constant
+name: PHINT_DESC_REMOVE
+enum: HintMessage
+value: 7
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

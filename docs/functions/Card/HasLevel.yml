@@ -1,0 +1,15 @@
+---!function
+name: HasLevel
+namespace: Card
+description: |-
+  Returns if a Card (Card c) has a level. for Links: false; for Xyzs: false, except if affected by  "EFFECT_RANK_LEVEL..." or similar effects; for Dark Synchros: true, because they have a negative level; for level 0 monsters: true, because 0 is a value.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

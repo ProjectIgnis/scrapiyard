@@ -1,0 +1,18 @@
+---!function
+name: DoubleSnareValidity
+namespace: Auxiliary
+description: |-
+  Registers that card c has an effect that can negate/destroy trap cards, while it is in the location defined in int range. Used by Double Snare to identify which cards it can destroy. Int property are additional properties other than the default EFFECT_FLAG_CANNOT_DISABLE|EFFECT_FLAG_SINGLE_RANGE.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ card ]
+    description: (To be added)
+  - name: range
+    type: [ int ]
+    description: (To be added)
+  - name: property
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

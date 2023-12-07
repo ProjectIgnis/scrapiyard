@@ -1,0 +1,9 @@
+---!constant
+name: RACE_INSECT
+enum: MonsterRace
+value: 0x800
+description: |-
+  Insect type monster
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: TYPE_UNION
+enum: CardType
+value: 0x400
+description: |-
+  Union monster
+status:
+  index: stable
+tags: [ under-construction ]

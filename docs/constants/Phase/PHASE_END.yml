@@ -1,0 +1,9 @@
+---!constant
+name: PHASE_END
+enum: Phase
+value: 0x200
+description: |-
+  The End Phase of a turn
+status:
+  index: stable
+tags: [ under-construction ]

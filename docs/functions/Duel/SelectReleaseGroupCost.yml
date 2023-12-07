@@ -1,0 +1,36 @@
+---!function
+name: SelectReleaseGroupCost
+namespace: Duel
+description: |-
+  Selects monsters to be tributed by int sel_player, applying the same filtering rules as Duel.CheckReleaseGroupCost.
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: f
+    type: [ function ]
+    description: (To be added)
+  - name: min
+    type: [ int ]
+    description: (To be added)
+  - name: max
+    type: [ int ]
+    description: (To be added)
+  - name: use_hand
+    type: [ bool ]
+    description: (To be added)
+  - name: specialchk
+    type: [ function ]
+    description: (To be added)
+  - name: ex
+    type: [ Card, Group, nil ]
+    description: (To be added)
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ Group ]
+    description: (To be added)
+tags: [ under-construction ]

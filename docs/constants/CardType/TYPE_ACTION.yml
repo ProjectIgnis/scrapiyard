@@ -1,0 +1,9 @@
+---!constant
+name: TYPE_ACTION
+enum: CardType
+value: 0x10000000
+description: |-
+  An Action card.
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,18 @@
+---!function
+name: TargetBoolFunction
+namespace: Auxiliary
+description: |-
+  Used in SetTarget filters (with parameters (e,c)) to check a function and its (...) parameters
+status:
+  index: stable
+parameters:
+  - name: f
+    type: [ function ]
+    description: (To be added)
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

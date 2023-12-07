@@ -1,0 +1,21 @@
+---!function
+name: GetLinkedGroupCount
+namespace: Duel
+description: |-
+  Returns the number of cards that would be returned by Duel.GetLinkedGroup
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: location1
+    type: [ int ]
+    description: (To be added)
+  - name: location2
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

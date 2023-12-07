@@ -1,0 +1,9 @@
+---!constant
+name: EVENT_FLIP_SUMMON_NEGATED
+enum: Event
+value: 1115
+description: |-
+  This event is raised when a Flip Summon is negated
+status:
+  index: stable
+tags: [ under-construction ]

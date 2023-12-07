@@ -1,0 +1,9 @@
+---!constant
+name: TOKEN_ROSE
+enum: CommonToken
+value: 71645243
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

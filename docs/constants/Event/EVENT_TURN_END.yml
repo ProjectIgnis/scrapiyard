@@ -1,0 +1,9 @@
+---!constant
+name: EVENT_TURN_END
+enum: Event
+value: 1210
+description: |-
+  This event is raised when the turn ends
+status:
+  index: stable
+tags: [ under-construction ]

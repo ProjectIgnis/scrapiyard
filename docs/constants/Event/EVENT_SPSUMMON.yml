@@ -1,0 +1,9 @@
+---!constant
+name: EVENT_SPSUMMON
+enum: Event
+value: 1105
+description: |-
+  This event is raised when a monster is being Special Summoned (this is an attempt to perform a Special Summon, aka "when a monster would be Special Summoned", for example, Solemn Strike's timing)
+status:
+  index: stable
+tags: [ under-construction ]

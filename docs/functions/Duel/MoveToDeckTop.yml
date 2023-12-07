@@ -1,0 +1,12 @@
+---!function
+name: MoveToDeckTop
+namespace: Duel
+description: |-
+  Places the passed cards to the top of the deck.
+status:
+  index: stable
+parameters:
+  - name: targets
+    type: [ Card, Group ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_HAND_LIMIT
+enum: EffectCode
+value: 270
+description: |-
+  Change the maximum number of cards the affected player can have in their hand during the End Phase. The new value should be provided via SetValue.
+status:
+  index: stable
+tags: [ under-construction ]

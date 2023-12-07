@@ -1,0 +1,9 @@
+---!constant
+name: EVENT_SPSUMMON_SUCCESS
+enum: Event
+value: 1102
+description: |-
+  This event is raised when a monster is successfully Special Summoned  (which is timing for cards like Torrential Tribute)
+status:
+  index: stable
+tags: [ under-construction ]

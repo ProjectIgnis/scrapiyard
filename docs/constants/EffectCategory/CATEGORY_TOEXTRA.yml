@@ -1,0 +1,9 @@
+---!constant
+name: CATEGORY_TOEXTRA
+enum: EffectCategory
+value: 0x80000000
+description: |-
+  Describes an effect that sends/return a card to the Extra Deck
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: CARD_KAZEJIN
+enum: CommonCard
+value: 62340868
+description: |-
+  Kazejin's ID
+status:
+  index: stable
+tags: [ under-construction ]

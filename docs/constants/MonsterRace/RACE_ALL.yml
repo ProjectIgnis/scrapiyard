@@ -1,0 +1,9 @@
+---!constant
+name: RACE_ALL
+enum: MonsterRace
+value: 0x3ffffff
+description: |-
+  A constant that includes all monster types from Warrior to Illusionist
+status:
+  index: stable
+tags: [ under-construction ]

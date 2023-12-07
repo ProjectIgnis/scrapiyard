@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_DISABLE_TRAPMONSTER
+enum: EffectCode
+value: 10
+description: |-
+  Negates Trap monsters
+status:
+  index: stable
+tags: [ under-construction ]

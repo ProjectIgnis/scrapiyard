@@ -1,0 +1,9 @@
+---!constant
+name: CHAININFO_CHAIN_ID
+enum: ChainInfo
+value: 0x800
+description: |-
+  Chain ID
+status:
+  index: stable
+tags: [ under-construction ]

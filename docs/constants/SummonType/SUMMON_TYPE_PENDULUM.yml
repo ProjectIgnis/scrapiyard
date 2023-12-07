@@ -1,0 +1,9 @@
+---!constant
+name: SUMMON_TYPE_PENDULUM
+enum: SummonType
+value: 0x4a000000
+description: |-
+  Pendulum Summon
+status:
+  index: stable
+tags: [ under-construction ]

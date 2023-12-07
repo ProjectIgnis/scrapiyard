@@ -1,0 +1,18 @@
+---!function
+name: SetCounterLimit
+namespace: Card
+description: |-
+  Sets the limit (int count) of how many counter of a type (int countertype) can be held by a card (Card c)
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: countertype
+    type: [ int ]
+    description: (To be added)
+  - name: count
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

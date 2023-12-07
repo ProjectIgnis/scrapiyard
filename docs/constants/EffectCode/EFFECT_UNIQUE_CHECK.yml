@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_UNIQUE_CHECK
+enum: EffectCode
+value: 297
+description: |-
+  There can only be one on the field (Card.SetUniqueOnField () only)
+status:
+  index: stable
+tags: [ under-construction ]

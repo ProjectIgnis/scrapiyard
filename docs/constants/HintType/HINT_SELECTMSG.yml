@@ -1,0 +1,9 @@
+---!constant
+name: HINT_SELECTMSG
+enum: HintType
+value: 3
+description: |-
+  The message that appears when the player selects a card
+status:
+  index: stable
+tags: [ under-construction ]

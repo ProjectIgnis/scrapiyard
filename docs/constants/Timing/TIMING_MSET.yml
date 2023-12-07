@@ -1,0 +1,9 @@
+---!constant
+name: TIMING_MSET
+enum: Timing
+value: 0x200
+description: |-
+  When a monster is Set
+status:
+  index: stable
+tags: [ under-construction ]

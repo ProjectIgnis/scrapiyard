@@ -1,0 +1,9 @@
+---!constant
+name: MATERIAL_LINK
+enum: MaterialType
+value: 0x8<<32
+description: |-
+  Value= 0x8<<32
+status:
+  index: stable
+tags: [ under-construction ]

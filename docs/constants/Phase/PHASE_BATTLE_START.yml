@@ -1,0 +1,9 @@
+---!constant
+name: PHASE_BATTLE_START
+enum: Phase
+value: 0x08
+description: |-
+  The Start Step, first step of the Battle Phase
+status:
+  index: stable
+tags: [ under-construction ]

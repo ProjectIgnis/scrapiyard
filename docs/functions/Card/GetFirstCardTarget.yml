@@ -1,0 +1,15 @@
+---!function
+name: GetFirstCardTarget
+namespace: Card
+description: |-
+  Gets the first among the target card of (Card c). A bit faster than Card.GetCardTarget(Card c):GetFirst()
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ Card ]
+    description: (To be added)
+tags: [ under-construction ]

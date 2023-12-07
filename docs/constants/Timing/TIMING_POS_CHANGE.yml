@@ -1,0 +1,9 @@
+---!constant
+name: TIMING_POS_CHANGE
+enum: Timing
+value: 0x800
+description: |-
+  When a position changes
+status:
+  index: stable
+tags: [ under-construction ]

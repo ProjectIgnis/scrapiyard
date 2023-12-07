@@ -1,0 +1,9 @@
+---!constant
+name: TOKEN_DUAL_AVATAR_SPIRIT
+enum: CommonToken
+value: 87669905
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

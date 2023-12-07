@@ -1,0 +1,9 @@
+---!constant
+name: EVENT_CHAIN_END
+enum: Event
+value: 1026
+description: |-
+  This event is raised when a Chain has fully resolved
+status:
+  index: stable
+tags: [ under-construction ]

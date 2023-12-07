@@ -1,0 +1,9 @@
+---!constant
+name: CARD_SUIJIN
+enum: CommonCard
+value: 98434877
+description: |-
+  Suijin's ID
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: ZONES_MMZ
+enum: Zone
+value: 0x1f
+description: |-
+  Constant to be used as mask to filter for main monster zones
+status:
+  index: stable
+tags: [ under-construction ]

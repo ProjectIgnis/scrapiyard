@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_NO_BATTLE_DAMAGE
+enum: EffectCode
+value: 200
+description: |-
+  No battle damage is dealt when the affected card battles
+status:
+  index: stable
+tags: [ under-construction ]

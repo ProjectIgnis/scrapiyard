@@ -1,0 +1,9 @@
+---!constant
+name: EVENT_BATTLE_START
+enum: Event
+value: 1132
+description: |-
+  The start of the damage step
+status:
+  index: stable
+tags: [ under-construction ]

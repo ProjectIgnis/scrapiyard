@@ -1,0 +1,9 @@
+---!constant
+name: DUEL_CANNOT_SUMMON_OATH_OLD
+enum: DuelMode
+value: 0x80000
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

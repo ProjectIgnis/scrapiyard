@@ -1,0 +1,21 @@
+---!function
+name: RandomSelect
+namespace: Group
+description: |-
+  Make a player (int player) randomly select (int amount) members of a group (Group g).
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ Group ]
+    description: (To be added)
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: count
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ Group ]
+    description: (To be added)
+tags: [ under-construction ]

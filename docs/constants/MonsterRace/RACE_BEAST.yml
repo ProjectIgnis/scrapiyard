@@ -1,0 +1,9 @@
+---!constant
+name: RACE_BEAST
+enum: MonsterRace
+value: 0x4000
+description: |-
+  Beast type monster
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,31 @@
+---!function
+name: MSet
+namespace: Duel
+description: |-
+  A player Sets a card (Card c) to the provided zone, using Normal Summon proc that the card has. if ignore_count is true, the Set would not count towards the standard limit of Normal Summon/Set. If an effect (Effect e) is provided, the Normal Set is counted as a Set by that effect. if min>0 then the Set proc must need that amount or more tributes. If zone is provided, the card will be settable only to the specific zones.
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: ignore_count
+    type: [ bool ]
+    description: (To be added)
+  - name: e
+    type: [ Effect, nil ]
+    description: (To be added)
+  - name: min
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: 0
+  - name: zone
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: 0x1f
+tags: [ under-construction ]

@@ -1,0 +1,12 @@
+---!function
+name: SetChainLimitTillChainEnd
+namespace: Duel
+description: |-
+  Sets a function for limiting effects that could chain from this point for the chain until the end of the chain. Function f accepts at most 3 parameters [f(e,tp,p)] in which e is the effect that would be chained, tp is the same tp from the effect function where this function is called, and p is the player who would activate the would-be chaining effect.
+status:
+  index: stable
+parameters:
+  - name: f
+    type: [ function ]
+    description: (To be added)
+tags: [ under-construction ]

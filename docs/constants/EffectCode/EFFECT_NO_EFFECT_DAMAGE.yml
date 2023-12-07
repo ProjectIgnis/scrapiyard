@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_NO_EFFECT_DAMAGE
+enum: EffectCode
+value: 335
+description: |-
+  The affected player does not take damage from card effects
+status:
+  index: stable
+tags: [ under-construction ]

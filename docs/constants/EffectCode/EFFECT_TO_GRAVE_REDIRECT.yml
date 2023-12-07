@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_TO_GRAVE_REDIRECT
+enum: EffectCode
+value: 63
+description: |-
+  If the affected card would go to the graveyard, sends it to another given location instead. The location must be set in SetValue
+status:
+  index: stable
+tags: [ under-construction ]

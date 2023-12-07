@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_SWAP_DEFENSE_FINAL
+enum: EffectCode
+value: 112
+description: |-
+  Set the final defense (for exchange of offensive and defensive)
+status:
+  index: stable
+tags: [ under-construction ]

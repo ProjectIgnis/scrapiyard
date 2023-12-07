@@ -1,0 +1,15 @@
+---!function
+name: GetMetatable
+namespace: Duel
+description: |-
+  Equivalent of calling _G["c" .. code], returns the global metatable associated with that card's code (the "s" returned by GetID)
+status:
+  index: stable
+parameters:
+  - name: code
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ table ]
+    description: (To be added)
+tags: [ under-construction ]

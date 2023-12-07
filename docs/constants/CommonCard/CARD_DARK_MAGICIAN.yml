@@ -1,0 +1,9 @@
+---!constant
+name: CARD_DARK_MAGICIAN
+enum: CommonCard
+value: 46986414
+description: |-
+  Dark Magician's ID, used for listed_names and specific support
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,21 @@
+---!function
+name: GetFieldCard
+namespace: Duel
+description: |-
+  Gets a card in certain location at a certain sequence
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: location
+    type: [ int ]
+    description: (To be added)
+  - name: seq
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ Card ]
+    description: (To be added)
+tags: [ under-construction ]

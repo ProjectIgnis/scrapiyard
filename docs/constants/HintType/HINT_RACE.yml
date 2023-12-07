@@ -1,0 +1,9 @@
+---!constant
+name: HINT_RACE
+enum: HintType
+value: 6
+description: |-
+  Called when selecting/declaring a monster type
+status:
+  index: stable
+tags: [ under-construction ]

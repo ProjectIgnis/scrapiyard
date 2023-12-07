@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_MUST_BE_XMATERIAL
+enum: EffectCode
+value: 317
+description: |-
+  Deprecated. Use EFFECT_MUST_BE_MATERIAL with REASON_XYZ in the SetValue
+status:
+  index: stable
+tags: [ under-construction ]

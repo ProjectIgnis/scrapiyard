@@ -1,0 +1,67 @@
+---!function
+name: SelectReleaseGroupEx
+namespace: Duel
+description: |-
+  Selects monsters to be tributed by int sel_player, applying the same filtering rules as Duel.CheckReleaseGroupEx. If cancelable is true and the selection is canceled nil will be returned.
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: f
+    type: [ function ]
+    description: (To be added)
+  - name: min
+    type: [ int ]
+    description: (To be added)
+  - name: max
+    type: [ int ]
+    description: (To be added)
+  - name: use_hand
+    type: [ bool ]
+    description: (To be added)
+    required: false
+    default: false
+  - name: cancelable
+    type: [ bool ]
+    description: (To be added)
+    required: false
+    default: false
+  - name: check_field
+    type: [ bool ]
+    description: (To be added)
+    required: false
+    default: false
+  - name: card_to_check
+    type: [ Card ]
+    description: (To be added)
+    required: false
+    default: nil
+  - name: to_player
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: player
+  - name: zone
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: 0xff
+  - name: use_oppo
+    type: [ bool ]
+    description: (To be added)
+    required: false
+    default: false]
+  - name: ex
+    type: [ Group, Card, nil ]
+    description: (To be added)
+    required: false
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ Group ]
+    description: (To be added)
+tags: [ under-construction ]

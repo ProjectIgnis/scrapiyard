@@ -1,0 +1,23 @@
+---!function
+name: SelectEffectYesNo
+namespace: Duel
+description: |-
+  Asks (int player) Yes or No, with the question being specified by (int desc) highlighting the passed card (Card c). The default string ask the player if they want to use the effect of "card x"
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: description
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: 3
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

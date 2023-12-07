@@ -1,0 +1,9 @@
+---!constant
+name: STATUS_SUMMON_DISABLED
+enum: CardStatus
+value: 0x20000
+description: |-
+  A monster which had its summon negated
+status:
+  index: stable
+tags: [ under-construction ]

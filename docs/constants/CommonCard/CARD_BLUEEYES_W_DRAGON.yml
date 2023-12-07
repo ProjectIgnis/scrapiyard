@@ -1,0 +1,9 @@
+---!constant
+name: CARD_BLUEEYES_W_DRAGON
+enum: CommonCard
+value: 89631139
+description: |-
+  Blue-Eyes White Dragon's ID, used for listed_names and specific support
+status:
+  index: stable
+tags: [ under-construction ]

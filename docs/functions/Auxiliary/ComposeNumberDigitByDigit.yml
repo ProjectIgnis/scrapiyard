@@ -1,0 +1,21 @@
+---!function
+name: ComposeNumberDigitByDigit
+namespace: Auxiliary
+description: |-
+  Makes (int tp) declare a number digit by digit, with a minimum of (int min) and maximum of (int max)
+status:
+  index: stable
+parameters:
+  - name: tp
+    type: [ int ]
+    description: (To be added)
+  - name: min
+    type: [ int ]
+    description: (To be added)
+  - name: max
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

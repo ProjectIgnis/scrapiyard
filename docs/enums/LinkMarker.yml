@@ -1,0 +1,6 @@
+---!enum
+name: LinkMarker
+description: |-
+  (To be added)
+bitmaskInt: true
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: EVENT_LEAVE_FIELD_P
+enum: Event
+value: 1019
+description: |-
+  This event is raised when a card would leave the field (but before it actually leaves, so it still contains info on the field). Example of usage: in "Predaplanet", it is used to check if the card has Predacounters immediately before it leaves the field.
+status:
+  index: stable
+tags: [ under-construction ]

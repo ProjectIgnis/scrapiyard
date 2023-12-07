@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_ADD_ATTRIBUTE
+enum: EffectCode
+value: 125
+description: |-
+  Treats a Card(s) as a additional element(s) (written into Effect.SetValue())
+status:
+  index: stable
+tags: [ under-construction ]

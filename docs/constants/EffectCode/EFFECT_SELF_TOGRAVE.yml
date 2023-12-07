@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_SELF_TOGRAVE
+enum: EffectCode
+value: 142
+description: |-
+  Affected card sends itself to the graveyard, requires enabling GLOBALFLAG_SELF_TOGRAVE
+status:
+  index: stable
+tags: [ under-construction ]

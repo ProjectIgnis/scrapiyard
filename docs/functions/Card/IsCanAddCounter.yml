@@ -1,0 +1,30 @@
+---!function
+name: IsCanAddCounter
+namespace: Card
+description: |-
+  Checks if a number (int count) of the specified counter (int countertype) can be added to a card (Card c). When the number of added counter would exceed the limit for that card, if "least_one" is set to true, then it will return true if at least one more counter can be added otherwise it will return false. If location is specified, it returns if it could receive counter when placed on that location.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: countertype
+    type: [ int ]
+    description: (To be added)
+  - name: count
+    type: [ int ]
+    description: (To be added)
+  - name: least_one
+    type: [ bool ]
+    description: (To be added)
+    required: false
+    default: false
+  - name: loc
+    type: [ int ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

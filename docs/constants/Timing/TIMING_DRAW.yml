@@ -1,0 +1,9 @@
+---!constant
+name: TIMING_DRAW
+enum: Timing
+value: 0x10000
+description: |-
+  When someplayer draws (not only in the Draw Phase)
+status:
+  index: stable
+tags: [ under-construction ]

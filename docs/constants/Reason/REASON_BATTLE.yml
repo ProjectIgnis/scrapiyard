@@ -1,0 +1,9 @@
+---!constant
+name: REASON_BATTLE
+enum: Reason
+value: 0x20
+description: |-
+  The card being destroyed by battle
+status:
+  index: stable
+tags: [ under-construction ]

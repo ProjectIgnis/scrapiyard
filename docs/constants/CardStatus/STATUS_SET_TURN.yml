@@ -1,0 +1,9 @@
+---!constant
+name: STATUS_SET_TURN
+enum: CardStatus
+value: 0x10
+description: |-
+  Spell/Traps set this turn
+status:
+  index: stable
+tags: [ under-construction ]

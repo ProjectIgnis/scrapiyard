@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_CANNOT_SELECT_BATTLE_TARGET
+enum: EffectCode
+value: 332
+description: |-
+  The affected cards cannot be chosen to be an attack target
+status:
+  index: stable
+tags: [ under-construction ]

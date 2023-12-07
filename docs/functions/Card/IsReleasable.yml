@@ -1,0 +1,19 @@
+---!function
+name: IsReleasable
+namespace: Card
+description: |-
+  Checks if a card (Card c) is able to be Tributed. If the reason is also provided, checks if it can be tributed for that reason, defaulting to REASON_COST.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: reason
+    type: [ int ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

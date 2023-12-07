@@ -1,0 +1,15 @@
+---!function
+name: FilterFaceupFunction
+namespace: Auxiliary
+description: |-
+  Function deprecated since version 40.0.0. Use "aux.FaceupFilter" instead
+status:
+  index: stable
+parameters:
+  - name: f
+    type: [ function ]
+    description: (To be added)
+returns:
+  - type: [ function ]
+    description: (To be added)
+tags: [ under-construction ]

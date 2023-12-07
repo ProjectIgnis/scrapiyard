@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_REMOVE_REDIRECT
+enum: EffectCode
+value: 64
+description: |-
+  If the affected card would be removed, sends it to another given location instead. The location must be set in SetValue.
+status:
+  index: stable
+tags: [ under-construction ]

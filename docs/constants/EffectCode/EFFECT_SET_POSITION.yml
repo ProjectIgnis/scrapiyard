@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_SET_POSITION
+enum: EffectCode
+value: 140
+description: |-
+  Set affected card's battle position to a given value
+status:
+  index: stable
+tags: [ under-construction ]

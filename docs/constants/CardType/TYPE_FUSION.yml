@@ -1,0 +1,9 @@
+---!constant
+name: TYPE_FUSION
+enum: CardType
+value: 0x40
+description: |-
+  A Fusion (monster)
+status:
+  index: stable
+tags: [ under-construction ]

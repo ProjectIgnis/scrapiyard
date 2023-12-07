@@ -1,0 +1,15 @@
+---!function
+name: GetCount
+namespace: Group
+description: |-
+  Returns the number of cards in a group (Group g)
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ Group ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

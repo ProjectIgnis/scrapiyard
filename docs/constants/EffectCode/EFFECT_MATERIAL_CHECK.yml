@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_MATERIAL_CHECK
+enum: EffectCode
+value: 251
+description: |-
+  Applies a check to the materials used. The SetValue in this effect takes as parameter e and c
+status:
+  index: stable
+tags: [ under-construction ]

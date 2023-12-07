@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_SET_ATTACK_FINAL
+enum: EffectCode
+value: 102
+description: |-
+  Set the attack of a monster, overriding other changes  (taken from the return in Effect.SetValue())
+status:
+  index: stable
+tags: [ under-construction ]

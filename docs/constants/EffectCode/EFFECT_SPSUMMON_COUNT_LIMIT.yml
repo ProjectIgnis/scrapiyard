@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_SPSUMMON_COUNT_LIMIT
+enum: EffectCode
+value: 330
+description: |-
+  Limit for the number of Special Summons
+status:
+  index: stable
+tags: [ under-construction ]

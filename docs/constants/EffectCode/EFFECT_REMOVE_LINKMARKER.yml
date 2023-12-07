@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_REMOVE_LINKMARKER
+enum: EffectCode
+value: 424
+description: |-
+  Remove LinkMarkers from the affected card
+status:
+  index: stable
+tags: [ under-construction ]

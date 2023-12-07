@@ -1,0 +1,9 @@
+---!constant
+name: STATUS_BATTLE_DESTROYED
+enum: CardStatus
+value: 0x4000
+description: |-
+  Already destroyed by battle (during battle)
+status:
+  index: stable
+tags: [ under-construction ]

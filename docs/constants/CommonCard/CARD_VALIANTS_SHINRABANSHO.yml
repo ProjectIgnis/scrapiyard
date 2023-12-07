@@ -1,0 +1,9 @@
+---!constant
+name: CARD_VALIANTS_SHINRABANSHO
+enum: CommonCard
+value: 49568943
+description: |-
+  Vaylantz World - Shinra Bansho's ID
+status:
+  index: stable
+tags: [ under-construction ]

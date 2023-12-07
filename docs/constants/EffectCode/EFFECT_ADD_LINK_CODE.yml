@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_ADD_LINK_CODE
+enum: EffectCode
+value: 354
+description: |-
+  Deprecated and removed effect. See core's "effect.h". Add a code (ID/name) for the affected monster to have if used for a Link Summon
+status:
+  index: stable
+tags: [ under-construction ]

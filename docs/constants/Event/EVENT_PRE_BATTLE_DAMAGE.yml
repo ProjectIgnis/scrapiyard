@@ -1,0 +1,9 @@
+---!constant
+name: EVENT_PRE_BATTLE_DAMAGE
+enum: Event
+value: 1136
+description: |-
+  Before battle damage applies
+status:
+  index: stable
+tags: [ under-construction ]

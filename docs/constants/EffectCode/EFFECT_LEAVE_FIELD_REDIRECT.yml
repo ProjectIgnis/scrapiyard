@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_LEAVE_FIELD_REDIRECT
+enum: EffectCode
+value: 60
+description: |-
+  If the affected card would leave the field, sends it to another given location instead. The location must be set in SetValue
+status:
+  index: stable
+tags: [ under-construction ]

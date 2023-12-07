@@ -1,0 +1,21 @@
+---!function
+name: GetOverlayCount
+namespace: Duel
+description: |-
+  Returns the number of cards that would be returned by Duel.GetOverlayGroup
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: s
+    type: [ int ]
+    description: (To be added)
+  - name: o
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

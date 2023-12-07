@@ -1,0 +1,31 @@
+---!function
+name: RegisterFlagEffect
+namespace: Duel
+description: |-
+  Registers a flag effect to a player (int player) with (int code) as the EffectCode
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: code
+    type: [ int ]
+    description: (To be added)
+  - name: reset_flag
+    type: [ int ]
+    description: (To be added)
+  - name: property
+    type: [ int ]
+    description: (To be added)
+  - name: reset_count
+    type: [ int ]
+    description: (To be added)
+  - name: label
+    type: [ int ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ Effect ]
+    description: (To be added)
+tags: [ under-construction ]

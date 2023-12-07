@@ -1,0 +1,15 @@
+---!function
+name: CancelCardTarget
+namespace: Card
+description: |-
+  Removes the second card (Card c2) from the list of the first card (Card c1)'s target
+status:
+  index: stable
+parameters:
+  - name: c1
+    type: [ Card ]
+    description: (To be added)
+  - name: c2
+    type: [ Card ]
+    description: (To be added)
+tags: [ under-construction ]

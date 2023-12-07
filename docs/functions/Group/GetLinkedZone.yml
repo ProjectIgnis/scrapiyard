@@ -1,0 +1,18 @@
+---!function
+name: GetLinkedZone
+namespace: Group
+description: |-
+  Returns all the zones that all the cards in g point to (on the field of player "cp").
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ Group ]
+    description: (To be added)
+  - name: cp
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

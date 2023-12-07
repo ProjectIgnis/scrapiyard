@@ -1,0 +1,9 @@
+---!constant
+name: HINTMSG_DISABLEZONE
+enum: HintMessage
+value: 570
+description: |-
+  Shows the following HintMessage: "Select the zone(s) to become unusable"
+status:
+  index: stable
+tags: [ under-construction ]

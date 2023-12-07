@@ -1,0 +1,31 @@
+---!function
+name: Recover
+namespace: Duel
+description: |-
+  Increases player's (int player) Life Points by an amount (int value) for a reason (int reason). The LP increase is considered to be done by (int rp). Setting (bool is_step) to true makes so the recovery is considered being done at the call of Duel.RDComplete().
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+  - name: value
+    type: [ int ]
+    description: (To be added)
+  - name: reason
+    type: [ int ]
+    description: (To be added)
+  - name: is_step
+    type: [ bool ]
+    description: (To be added)
+    required: false
+    default: false
+  - name: rp
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: reason_player
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

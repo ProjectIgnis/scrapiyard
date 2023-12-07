@@ -1,0 +1,33 @@
+---!function
+name: RegisterClientHint
+namespace: Auxiliary
+description: |-
+  Auxiliary function to simplify registering EFFECT_FLAG_CLIENT_HINT to players. (Card c) is card that creates the HintMessage,  (int property_code) are additional properties like EFFECT_FLAG_OATH (PLAYER_TARGET and CLIENT_HINT are the flags registered by default). (int reg. player) is the player that is registering the hint, to himself (int s) and/or the opponent (int o), with a description called from a string defined in (str). Additional resets, other than the default RESET_PHASE+PHASE_END, can be passed in (int reset_code) and its reset count (int ct).
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: property_code
+    type: [ int ]
+    description: (To be added)
+  - name: reg.player
+    type: [ int ]
+    description: (To be added)
+  - name: s
+    type: [ int ]
+    description: (To be added)
+  - name: o
+    type: [ int ]
+    description: (To be added)
+  - name: str
+    type: [ any ]
+    description: (To be added)
+  - name: reset_code
+    type: [ int ]
+    description: (To be added)
+  - name: ct
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

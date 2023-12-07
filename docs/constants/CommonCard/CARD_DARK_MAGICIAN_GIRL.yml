@@ -1,0 +1,9 @@
+---!constant
+name: CARD_DARK_MAGICIAN_GIRL
+enum: CommonCard
+value: 38033121
+description: |-
+  Dark Magician Girl's ID, used because it has a lot of specific support
+status:
+  index: stable
+tags: [ under-construction ]

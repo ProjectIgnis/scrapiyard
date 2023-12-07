@@ -1,0 +1,9 @@
+---!constant
+name: CARD_CELEB_ROSE_MAGICIAN
+enum: CommonCard
+value: 160013012
+description: |-
+  Constant for a commonly used Rush card
+status:
+  index: stable
+tags: [ under-construction ]

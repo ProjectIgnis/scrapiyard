@@ -1,0 +1,24 @@
+---!function
+name: IsCanBeRitualMaterial
+namespace: Card
+description: |-
+  Checks if a card (Card c) can be used as Tribute for Ritual Summon. If (Card sc) is provided, checks if it can be used as Tribute for that card's Ritual Summon. If (int player) is provided, checks if it can be used by that player.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: sc
+    type: [ Card ]
+    description: (To be added)
+    required: false
+  - name: player
+    type: [ int ]
+    description: (To be added)
+    required: false
+    default: PLAYER_NONE
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

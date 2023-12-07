@@ -1,0 +1,17 @@
+---!function
+name: GetBattleMonster
+namespace: Duel
+description: |-
+  Returns as first value the monster that is currently battling from the perspective of tp (nil if tp has no currently battling monsters), as second value returns the battling monster from the perspective of 1-tp.
+status:
+  index: stable
+parameters:
+  - name: tp
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ Card, nil ]
+    description: (To be added)
+  - type: [ Card, nil ]
+    description: (To be added)
+tags: [ under-construction ]

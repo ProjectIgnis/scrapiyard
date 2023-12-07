@@ -1,0 +1,21 @@
+---!function
+name: SetPlayerInfo
+namespace: Debug
+description: |-
+  Sets (int playerid) to have (int lp) LP, start with a (in startct) card hand, and draw (int drawcount) during the Draw Phase.
+status:
+  index: stable
+parameters:
+  - name: playerid
+    type: [ int ]
+    description: (To be added)
+  - name: lp
+    type: [ int ]
+    description: (To be added)
+  - name: startcount
+    type: [ int ]
+    description: (To be added)
+  - name: drawcount
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: CARD_RIKKA_KONKON
+enum: CommonCard
+value: 76869711
+description: |-
+  Rikka Konkon's ID
+status:
+  index: stable
+tags: [ under-construction ]

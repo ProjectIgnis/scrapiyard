@@ -1,0 +1,11 @@
+---!function
+name: CreateGroup
+namespace: Group
+description: |-
+  Create a new Group object
+status:
+  index: stable
+returns:
+  - type: [ Group ]
+    description: (To be added)
+tags: [ under-construction ]

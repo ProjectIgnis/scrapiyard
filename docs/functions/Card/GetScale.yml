@@ -1,0 +1,15 @@
+---!function
+name: GetScale
+namespace: Card
+description: |-
+  Returns the scale value that (Card c) has. If c is not TYPE_PENDULUM, returns 0. Runs on the assumption that both scales have the same value, returning the value for the left scale if the card is not on the Pendulum Zone. For cards with different values for the scales (no official card at the moment), returns the left scale if the card is in the left Pendulum Zone or the right scale, if it is in the right Pendulum Zone.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+returns:
+  - type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]

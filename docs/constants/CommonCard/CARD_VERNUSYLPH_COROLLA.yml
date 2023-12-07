@@ -1,0 +1,9 @@
+---!constant
+name: CARD_VERNUSYLPH_COROLLA
+enum: CommonCard
+value: 14108995
+description: |-
+  Vernusylph Corolla's ID
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: FUSPROC_NOLIMIT
+enum: FusionProcFlag
+value: 0x800
+description: |-
+  (To be added)
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: CARD_SALAMANGREAT_SANCTUARY
+enum: CommonCard
+value: 1295111
+description: |-
+  Salamangreat Sanctuary's ID, used for hardcoded effect and specific support
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,15 @@
+---!function
+name: SetCoinResult
+namespace: Duel
+description: |-
+  Changes the results of the latest executed coin tosses to the provided values.
+status:
+  index: stable
+parameters:
+  - name: res
+    type: [ int ]
+    description: (To be added)
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+tags: [ under-construction ]

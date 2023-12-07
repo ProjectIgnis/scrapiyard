@@ -1,0 +1,9 @@
+---!constant
+name: STATUS_EFFECT_REPLACED
+enum: CardStatus
+value: 0x80000
+description: |-
+  A card affected by ReplaceEffect
+status:
+  index: stable
+tags: [ under-construction ]

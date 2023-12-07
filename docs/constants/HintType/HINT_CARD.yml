@@ -1,0 +1,9 @@
+---!constant
+name: HINT_CARD
+enum: HintType
+value: 10
+description: |-
+  Called when you need to display the picture of the card (Trickstar Lycoris)
+status:
+  index: stable
+tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!constant
+name: REASON_DRAW
+enum: Reason
+value: 0x2000000
+description: |-
+  Event is a card being drawn
+status:
+  index: stable
+tags: [ under-construction ]

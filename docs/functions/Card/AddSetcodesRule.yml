@@ -1,0 +1,24 @@
+---!function
+name: AddSetcodesRule
+namespace: Card
+description: |-
+  to be added. Available in utility.lua
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: code
+    type: [ int ]
+    description: (To be added)
+  - name: copyable
+    type: [ bool ]
+    description: (To be added)
+  - name: ...
+    type: [ int ]
+    description: (To be added)
+returns:
+  - type: [ table ]
+    description: (To be added)
+tags: [ under-construction ]
