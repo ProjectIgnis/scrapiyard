@@ -49,3 +49,12 @@ if (yard._tag === 'Right') {
 - `npm i`
 - `npm run dump`
 - Check the `dump/` folder for the output (or error).
+
+***
+
+**Inspired, one way or another, by the following projects**
+- [Factorio runtime API documentaion](https://lua-api.factorio.com/latest/index-runtime.html)
+- [LÖVE wiki](https://love2d.org/wiki/Main_Page)
+- [Binding of Isaac modding API documentation](https://wofsauge.github.io/IsaacDocs/rep/)
+- [moonwave](https://github.com/evaera/moonwave)
+- [sumneko's lua lsp server annotations](https://github.com/LuaLS/lua-language-server/wiki/Annotations)
