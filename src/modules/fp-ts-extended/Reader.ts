@@ -1,7 +1,7 @@
 import * as Rd from 'fp-ts/Reader';
 import * as RNEA from 'fp-ts/ReadonlyNonEmptyArray';
 
-export * as Rd from 'fp-ts/Reader';
+export * from 'fp-ts/Reader';
 
 // Rd.sequenceArray loses RNEA typing, so it needs to be cast back
 export const sequenceRNEA = <R, A>(
