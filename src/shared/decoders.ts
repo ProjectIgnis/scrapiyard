@@ -124,3 +124,12 @@ export const paragraphMarkdown = pipe(
   Dc.refine(O.isSome, 'a markdown paragraph'),
   Dc.map(({ value }) => value)
 );
+
+export const maxChar = (max: number) =>
+  pipe(
+    Dc.string,
+    Dc.refine(
+      (str): str is string => str.length <= max,
+      `${max} or fewer characters`
+    )
+  );

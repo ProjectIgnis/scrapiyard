@@ -2,7 +2,7 @@ import * as O from 'fp-ts/Option';
 import * as Dc from 'io-ts/Decoder';
 import { pipe } from '../modules/fp-ts-extended/function';
 import * as md from '../modules/markdown';
-import { paragraphMarkdown } from '../shared/decoders';
+import { maxChar, paragraphMarkdown } from '../shared/decoders';
 
 export type DescInfo = {
   readonly description: md.Paragraph;
@@ -14,7 +14,7 @@ export const codec = pipe(
   Dc.struct({ description: paragraphMarkdown }),
   Dc.intersect(
     Dc.partial({
-      summary: paragraphMarkdown,
+      summary: pipe(maxChar(80), Dc.compose(paragraphMarkdown)),
       guide: Dc.string,
     })
   )
