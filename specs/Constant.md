@@ -83,6 +83,31 @@ Must have the `---!constant` tag at the top of the file.
 
   </details>
 
+- `suggestedLinks`: **SuggestedLink[]** (optional)
+
+  Suggestions for further reading. Also called "See Also" links.
+
+  <details>
+    <summary> SuggestedLink spec </summary>
+
+  ### SuggestedLink
+
+  - `name`: **string**
+    
+    A name for the link.
+
+  - `link`: **string**
+
+    The URL.
+
+  - `message`: **string** (optional)
+
+    An attached message, usually explaining why the link is suggested.
+
+    - must resolve to a markdown paragraph
+
+  </details>
+
 - `tags`: **string[]** (optional)
 
   A list of documentation tag names.
