@@ -28,7 +28,7 @@ const statusCodec = pipe(
   Dc.intersect(
     Dc.partial({
       since: Dc.string,
-      message: dc.paragraphMarkdown,
+      message: pipe(dc.maxChar(80), Dc.compose(dc.paragraphMarkdown)),
     })
   )
 );

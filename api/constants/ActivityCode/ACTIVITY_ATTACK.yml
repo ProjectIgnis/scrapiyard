@@ -1,0 +1,9 @@
+---!constant
+name: ACTIVITY_ATTACK
+enum: ActivityCode
+value: 5
+description: &desc |-
+  The action of declaring attacks.
+summary: *desc
+status:
+  index: stable

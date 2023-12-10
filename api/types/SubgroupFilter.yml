@@ -1,0 +1,22 @@
+---!type
+name: SubgroupFilter
+supertype: function
+description: |-
+  (To be added)
+parameters:
+  - name: sg
+    type: [ Group ]
+    description: (To be added)
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+  - name: tp
+    type: [ int ]
+    description: (To be added)
+  - name: mg
+    type: [ Group ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

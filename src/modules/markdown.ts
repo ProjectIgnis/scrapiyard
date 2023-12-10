@@ -3,7 +3,7 @@ import * as O from 'fp-ts/Option';
 import * as RA from 'fp-ts/ReadonlyArray';
 import type * as md from 'mdast';
 import * as RNEA from './fp-ts-extended/ReadonlyNonEmptyArray';
-import { memoizeStringInput, pipe } from './fp-ts-extended/function';
+import { flow, pipe } from './fp-ts-extended/function';
 
 export type * from 'mdast';
 
@@ -280,7 +280,7 @@ export const countValueChars = (c: md.RootContent): number =>
 // parsing and compilation
 // ----------------------------------------------------------------------------
 
-export const parse = memoizeStringInput((md) =>
+export const parse = (md: string) =>
   pipe(
     fromMarkdown(md, 'utf-8', {
       mdastExtensions: [gfmFromMarkdown()],
@@ -290,18 +290,15 @@ export const parse = memoizeStringInput((md) =>
       removePosition(ast, { force: true });
       return ast as Root;
     }
-  )
-);
+  );
 
-export const parseParagraph = memoizeStringInput((lit) =>
-  pipe(
-    parse(lit),
-    O.fromNullable,
-    O.map(({ children }) => children),
-    O.filter((chs) => chs.length === 1),
-    O.flatMap(A.head),
-    O.filter((child): child is md.Paragraph => child.type === 'paragraph')
-  )
+export const parseParagraph = flow(
+  parse,
+  O.fromNullable,
+  O.map(({ children }) => children),
+  O.filter((chs) => chs.length === 1),
+  O.flatMap(A.head),
+  O.filter((child): child is md.Paragraph => child.type === 'paragraph')
 );
 
 export const compile = (rt: Root) =>

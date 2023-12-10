@@ -13,14 +13,4 @@ fields:
   - name: location
     valueType: [ int ]
     description: (To be added)
-mappedTypes:
-  - keyType: int
-    valueType: [ Card, Group ]
-    description: (To be added)
 tags: [ under-construction ]
-suggestedLinks:
-  - name: github
-    link: https://github.com
-    message: Git gud
-  - name: AddCounter
-    link: api/functions/Card/AddCounter

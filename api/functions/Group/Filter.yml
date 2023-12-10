@@ -1,0 +1,24 @@
+---!function
+name: Filter
+namespace: Group
+description: |-
+  Creates a new `Group` with `Card`s from an original `Group` that pass a `CardFilter`.
+summary: Filters a `Group`.
+status:
+  index: stable
+parameters:
+  - name: g
+    type: [ Group ]
+    description: The `Group` to filter.
+  - name: filter
+    type: [ CardFilter ]
+    description: The function that must return `true` for a `Card` to be part of the new `Group`.
+  - name: exc
+    type: [ Group, Card, nil ]
+    description: The `Card`s to be excluded from the new `Group`.
+  - name: ...
+    type: [ any ]
+    description: Additional arguments that will be passed to `filter`.
+returns:
+  - type: [ Group ]
+    description: The new `Group`.

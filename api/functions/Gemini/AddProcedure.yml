@@ -1,0 +1,16 @@
+---!function
+name: AddProcedure
+namespace: Gemini
+description: &desc |-
+  Applies all the effects necessary for a Gemini monster to be used as one.
+summary: *desc
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The `Card` to be treated as a Gemini monster.
+aliases:
+  - name: aux.EnableGeminiAttribute
+    status:
+      index: deprecated

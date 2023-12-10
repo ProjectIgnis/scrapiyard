@@ -26,8 +26,8 @@ const commonInfoCodec = pipe(
   Dc.struct({
     doctype: Dc.literal('type'),
     name: dc.typename,
-    tags: dc.tagNameArray,
   }),
+  Dc.intersect(Dc.partial({ tags: dc.tagNameArray })),
   Dc.intersect(DescInfo.codec),
   Dc.intersect(TopicInfo.codec)
 );
