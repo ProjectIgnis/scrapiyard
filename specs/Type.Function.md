@@ -10,7 +10,6 @@ Must have the `---!type` tag at the top of the file.
   
   The function type's name.
   - must only contain alphabetic characters, or `_`
-  - must not be a lua keyword, except `nil` or `function`
 
 - `supertype`: **'function'**
 
