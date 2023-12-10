@@ -16,7 +16,7 @@ This can be [run standalone](#dumping-parsed-entries-as-json) by cloning the rep
 
 ## Format
 
-Documentation entries are in yaml format, found under [`/entries/`](/entries/),
+Documentation entries are in yaml format, found under [`/api/`](/api/),
 following the specifications detailed in [`/docs/specs/`](/docs/specs/) and enforced by the parser.
 
 The specs are meant to be highly specialized for the EDOPro scripting environment.
