@@ -2,8 +2,8 @@
 name: ACTIVITY_ATTACK
 enum: ActivityCode
 value: 5
-description: |-
-  Refers to the action of declaration attacks
+description: &desc |-
+  The action of declaring attacks.
+summary: *desc
 status:
   index: stable
-tags: [ under-construction ]
