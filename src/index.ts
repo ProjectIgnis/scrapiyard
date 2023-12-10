@@ -91,7 +91,7 @@ export type YardOptions = {
 } & SourceRecord.Options;
 
 export const DEFAULT_OPTIONS: YardOptions = {
-  directory: FS.joinPath([__dirname, '..', 'docs']),
+  directory: FS.joinPath([__dirname, '..', 'entries']),
   ...DEFAULT_SOURCE_OPTIONS,
 };
 
