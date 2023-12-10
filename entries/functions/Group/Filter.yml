@@ -2,23 +2,23 @@
 name: Filter
 namespace: Group
 description: |-
-  Create a new group with members from another group (Group g) filtered according to a function (function f). Excludes a card/group (Group/Card ex) if not nil. Function f accepts at least one parameter (f(c,...), with c as each member of the group), and the card will be included if f(c,...) returns true.
+  Creates a new `Group` with `Card`s from an original `Group` that pass a `CardFilter`.
+summary: Filters a `Group`.
 status:
   index: stable
 parameters:
   - name: g
     type: [ Group ]
-    description: (To be added)
-  - name: f
-    type: [ function ]
-    description: (To be added)
-  - name: ex
+    description: The `Group` to filter.
+  - name: filter
+    type: [ CardFilter ]
+    description: The function that must return `true` for a `Card` to be part of the new `Group`.
+  - name: exc
     type: [ Group, Card, nil ]
-    description: (To be added)
+    description: The `Card`s to be excluded from the new `Group`.
   - name: ...
     type: [ any ]
-    description: (To be added)
+    description: Additional arguments that will be passed to `filter`.
 returns:
   - type: [ Group ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: The new `Group`.
