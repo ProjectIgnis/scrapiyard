@@ -6,8 +6,7 @@ written the previous docs were.
 
 Initial entries were given an `'under-construction'` tag to denote they have not been checked yet,
 and some required fields were given `'(To be added)'`.
-Before the repository is bumped to v1.0.0,
-all entries must have been manually checked to follow the [spec](/docs/specs).
+Before the repository is bumped to v1.0.0, all entries must have been manually checked.
 This means `'under-construction'` and `'(To be added)'` should be nowhere to be found in the repo.
 
 Functions and constants should be prioritized since they were the ones generated from the spreadsheet.
@@ -36,10 +35,11 @@ The following are quick general step-by-step guides on updating initial function
 ---
 
 Sample commits:
- - [updating a constant and reusing its description as summary](https://github.com/that-hatter/scrapiyard/commit/0078be21042945936a92e542f84fe7e51cddfd3c)
- - [updating a function and adding a function type it uses](https://github.com/that-hatter/scrapiyard/commit/d3ba1e5c2a3cc89204ee6f23a98276b770843c95)
- - [updating an function and integrating its alias](https://github.com/that-hatter/scrapiyard/commit/836a0899a999971938b12c3834c9206ffeadc121)
-   
+
+- [updating a constant and reusing its description as summary](https://github.com/that-hatter/scrapiyard/commit/0078be21042945936a92e542f84fe7e51cddfd3c)
+- [updating a function, adding a function type it uses, and adding a guide](https://github.com/that-hatter/scrapiyard/commit/d3ba1e5c2a3cc89204ee6f23a98276b770843c95)
+- [updating a function and integrating its alias](https://github.com/that-hatter/scrapiyard/commit/836a0899a999971938b12c3834c9206ffeadc121)
+
 ---
 
 To add entries, the quickest way would be to copy-paste from an existing entry
