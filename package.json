@@ -1,6 +1,6 @@
 {
   "name": "@that-hatter/scrapiyard",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Documentation files for EDOPro's Card Scripting API, with a default typescript module for loading them.",
   "main": ".dist/index.js",
   "types": "dist/index.d.ts",
