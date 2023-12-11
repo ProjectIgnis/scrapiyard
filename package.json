@@ -1,21 +1,24 @@
 {
   "name": "@that-hatter/scrapiyard",
   "version": "0.2.2",
-  "description": "Raw documentation files for EDOPro's Card Scripting API, along with a default typescript module for loading them.",
-  "main": ".dist/",
+  "description": "Documentation files for EDOPro's Card Scripting API, with a default typescript module for loading them.",
+  "main": ".dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
       "require": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
     },
     "./markdown": {
       "require": "./dist/modules/markdown.js",
-      "types": "./dist/modules/markdown.d.ts"
+      "types": "./dist/modules/markdown.d.ts",
+      "default": "./dist/modules/markdown.js"
     },
     "./fp/*": {
       "require": "./dist/modules/fp-ts-extended/*.js",
-      "types": "./dist/modules/fp-ts-extended/*.d.ts"
+      "types": "./dist/modules/fp-ts-extended/*.d.ts",
+      "default": "./dist/modules/fp-ts-extended/*.js"
     }
   },
   "scripts": {
@@ -36,7 +39,7 @@
   "license": "AGPL-3.0-or-later",
   "files": [
     "dist/",
-    "docs/"
+    "api/"
   ],
   "devDependencies": {
     "@types/js-yaml": "^4.0.5",
