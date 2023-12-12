@@ -1,0 +1,8 @@
+---!constant
+name: CHAININFO_TRIGGERING_STATUS
+enum: ChainInfo
+value: 26
+description: |-
+  When used with Duel.GetChainInfo returns an integer with status(es) of the monster that triggered the requested Chain Link.
+status:
+  index: stable

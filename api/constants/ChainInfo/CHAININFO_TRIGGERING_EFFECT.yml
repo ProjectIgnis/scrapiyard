@@ -1,9 +1,8 @@
 ---!constant
 name: CHAININFO_TRIGGERING_EFFECT
 enum: ChainInfo
-value: 0x2
+value: 1
 description: |-
-  The effect that triggered the current Chain Link
+  When used with Duel.GetChainInfo returns the effect that trigger the requested chain link
 status:
   index: stable
-tags: [ under-construction ]

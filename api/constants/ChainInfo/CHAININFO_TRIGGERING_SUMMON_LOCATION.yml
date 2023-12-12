@@ -1,0 +1,8 @@
+---!constant
+name: CHAININFO_TRIGGERING_SUMMON_LOCATION
+enum: ChainInfo
+value: 27
+description: |-
+  When used with Duel.GetChainInfo returns an integer with the summon location of the monster that triggered the requested Chain Link
+status:
+  index: stable

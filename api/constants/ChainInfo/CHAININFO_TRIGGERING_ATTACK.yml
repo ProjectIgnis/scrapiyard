@@ -1,9 +1,8 @@
 ---!constant
 name: CHAININFO_TRIGGERING_ATTACK
 enum: ChainInfo
-value: 0x400000
+value: 24
 description: |-
-  The attack of the card that triggered the current Chain Link
+  When used with Duel.GetChainInfo returns an integer with the ATK of the monster that triggered the requested Chain Link
 status:
   index: stable
-tags: [ under-construction ]

@@ -1,9 +1,8 @@
 ---!constant
 name: CHAININFO_TRIGGERING_DEFENSE
 enum: ChainInfo
-value: 0x800000
+value: 25
 description: |-
-  The defense of the card that triggered the current Chain Link
+  When used with Duel.GetChainInfo returns an integer with the DEF of the monster that triggered the requested Chain Link
 status:
   index: stable
-tags: [ under-construction ]

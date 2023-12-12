@@ -1,7 +1,7 @@
 ---!constant
 name: CHAININFO_TRIGGERING_LOCATION_SYMBOLIC
 enum: ChainInfo
-value: 0x11
+value: 5
 description: |-
   (To be added)
 status:

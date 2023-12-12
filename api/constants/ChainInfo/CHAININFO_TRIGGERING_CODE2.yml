@@ -1,9 +1,8 @@
 ---!constant
 name: CHAININFO_TRIGGERING_CODE2
 enum: ChainInfo
-value: 0x10000
+value: 18
 description: |-
-  (To be added)
+  When used with Duel.GetChainInfo returns an integer with the second ID/passcode, if any, of the card that triggered requested Chain Link.
 status:
   index: stable
-tags: [ under-construction ]

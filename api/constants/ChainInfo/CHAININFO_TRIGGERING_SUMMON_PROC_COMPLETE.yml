@@ -1,0 +1,8 @@
+---!constant
+name: CHAININFO_TRIGGERING_SUMMON_PROC_COMPLETE
+enum: ChainInfo
+value: 29
+description: |-
+  When used with Duel.GetChainInfo returns a boolean checking if the the monster that triggered the requested Chain Link was properly summoned or not.
+status:
+  index: stable
