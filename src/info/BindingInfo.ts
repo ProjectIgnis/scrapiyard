@@ -94,9 +94,17 @@ export const finalize =
 const createAliases = <T extends BindingInfo>(main: T) =>
   pipe(
     main.aliases,
-    RA.map(
-      (a): T => ({ ...main, ...a, aliasOf: O.some(main.name), aliases: [] })
-    )
+    RA.map((a): T => {
+      const [ns, name] = a.name.split('.');
+      return {
+        ...main,
+        name: name ?? ns,
+        namespace: name ? O.fromNullable(ns) : O.none,
+        status: a.status,
+        aliasOf: O.some(main.name),
+        aliases: [],
+      };
+    })
   );
 
 export const appendAllAliases = <T extends BindingInfo>(
