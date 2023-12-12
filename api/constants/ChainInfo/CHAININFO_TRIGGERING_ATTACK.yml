@@ -3,6 +3,6 @@ name: CHAININFO_TRIGGERING_ATTACK
 enum: ChainInfo
 value: 24
 description: |-
-  When used with Duel.GetChainInfo returns an integer with the ATK of the monster that triggered the requested Chain Link
+  When used with Duel.GetChainInfo returns an integer with the ATK of the monster that triggered the requested Chain Link.
 status:
   index: stable

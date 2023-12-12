@@ -3,6 +3,6 @@ name: CHAININFO_TRIGGERING_PLAYER
 enum: ChainInfo
 value: 2
 description: |-
-   When used with Duel.GetChainInfo returns as an integer the player that triggered the requested chain link 
+  When used with Duel.GetChainInfo returns as an integer the player that triggered the requested chain link 
 status:
   index: stable

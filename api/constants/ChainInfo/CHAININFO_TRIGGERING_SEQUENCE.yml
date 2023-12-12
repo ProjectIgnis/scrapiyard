@@ -3,6 +3,6 @@ name: CHAININFO_TRIGGERING_SEQUENCE
 enum: ChainInfo
 value: 6
 description: |-
-  When used with Duel.GetChainInfo returns the sequence (zone within a location) of the card that triggered the requested Chain Link
+  When used with Duel.GetChainInfo returns the sequence (zone within a location) of the card that triggered the requested Chain Link.
 status:
   index: stable
