@@ -2,34 +2,34 @@
 name: AddCard
 namespace: Debug
 description: |-
-  Adds a card of (int code), owned by (int owner) and under (int player)'s control, to (int seq) of (int location) in (int pos) position. If (bool proc) is true, it will be treated as properly summoned for the purposes of revive limits.
+  Creates a new `Card` with the specified ID and places it in the location provided.
+summary: Generates and adds a card to the duel.
 status:
   index: stable
 parameters:
   - name: code
     type: [ int ]
-    description: (To be added)
+    description: The id of the card to be created.
   - name: owner
     type: [ int ]
-    description: (To be added)
+    description: The player that owns the card.
   - name: player
     type: [ int ]
-    description: (To be added)
+    description: The player that possesses the card.
   - name: location
     type: [ int ]
-    description: (To be added)
+    description: The location where the card will be placed.
   - name: seq
     type: [ int ]
-    description: (To be added)
+    description: The sequence, within the provided location, where the card will be placed.
   - name: pos
     type: [ int ]
-    description: (To be added)
-  - name: proc
+    description: The position of the card
+  - name: sum_proper
     type: [ bool ]
-    description: (To be added)
+    description: a boolean that will be used to flag the card as properly summoned or not.
     required: false
     default: false
 returns:
   - type: [ Card ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: The card that is created.
