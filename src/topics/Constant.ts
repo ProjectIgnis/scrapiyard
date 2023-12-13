@@ -97,9 +97,24 @@ const ord: Ord.Ord<Constant> = {
   },
 };
 
+const createAlias =
+  (ct: Constant) =>
+  (alias: BindingInfo.Alias): Constant => {
+    const [namespace, partialName] = alias.name.split('.');
+    return {
+      ...ct,
+      name: alias.name,
+      namespace: partialName ? O.fromNullable(namespace) : O.none,
+      partialName: partialName ?? alias.name,
+      status: alias.status,
+      aliasOf: O.some(ct.name),
+      aliases: [],
+    };
+  };
+
 export const finalizeArray = flow(
   RA.map(finalize),
   Rd.sequenceArray,
-  Rd.map(BindingInfo.appendAllAliases),
+  Rd.map(BindingInfo.appendAllAliases(createAlias)),
   Rd.map(RA.sort(ord))
 );

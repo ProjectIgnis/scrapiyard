@@ -68,9 +68,24 @@ export const arrayCodec = pipe(
   dc.uniqName
 );
 
+const createAlias =
+  (fn: Function_) =>
+  (alias: BindingInfo.Alias): Function_ => {
+    const [namespace, partialName] = alias.name.split('.');
+    return {
+      ...fn,
+      name: alias.name,
+      namespace: partialName ? O.fromNullable(namespace) : O.none,
+      partialName: partialName ?? alias.name,
+      status: alias.status,
+      aliasOf: O.some(fn.name),
+      aliases: [],
+    };
+  };
+
 export const finalizeArray = flow(
   RA.map(finalize),
   Rd.sequenceArray,
-  Rd.map(BindingInfo.appendAllAliases),
+  Rd.map(BindingInfo.appendAllAliases(createAlias)),
   Rd.map(RA.sort(nameStringOrd))
 );

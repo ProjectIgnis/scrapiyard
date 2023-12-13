@@ -1,3 +1,4 @@
+import * as O from 'fp-ts/Option';
 import * as Rd from 'fp-ts/Reader';
 import * as RA from 'fp-ts/ReadonlyArray';
 import * as Dc from 'io-ts/Decoder';
@@ -44,9 +45,19 @@ export const arrayCodec = pipe(
   dc.uniqName
 );
 
+const createAlias =
+  (ns: Namespace) =>
+  (alias: BindingInfo.Alias): Namespace => ({
+    ...ns,
+    name: alias.name,
+    status: alias.status,
+    aliasOf: O.some(ns.name),
+    aliases: [],
+  });
+
 export const finalizeArray = flow(
   RA.map(finalize),
   Rd.sequenceArray,
-  Rd.map(BindingInfo.appendAllAliases),
+  Rd.map(BindingInfo.appendAllAliases(createAlias)),
   Rd.map(RA.sort(nameStringOrd))
 );

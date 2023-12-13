@@ -91,22 +91,7 @@ export const finalize =
     source: O.fromNullable(sr[raw.name]),
   });
 
-const createAliases = <T extends BindingInfo>(main: T) =>
-  pipe(
-    main.aliases,
-    RA.map((a): T => {
-      const [ns, name] = a.name.split('.');
-      return {
-        ...main,
-        name: name ?? ns,
-        namespace: name ? O.fromNullable(ns) : O.none,
-        status: a.status,
-        aliasOf: O.some(main.name),
-        aliases: [],
-      };
-    })
-  );
-
-export const appendAllAliases = <T extends BindingInfo>(
-  xs: ReadonlyArray<T>
-): ReadonlyArray<T> => pipe(xs, RA.chain(createAliases), RA.concat)(xs);
+export const appendAllAliases =
+  <T extends BindingInfo>(aliasFn: (main: T) => (alias: Alias) => T) =>
+  (xs: ReadonlyArray<T>): ReadonlyArray<T> =>
+    [...xs, ...RA.chain((main: T) => RA.map(aliasFn(main))(main.aliases))(xs)];
