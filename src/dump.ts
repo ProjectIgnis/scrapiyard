@@ -15,11 +15,18 @@ const program = pipe(
   mkdir(joinPath(['.', 'dump'])),
   TE.chain(() => sy.loadRawAPI(sy.DEFAULT_OPTIONS.directory)),
   TE.tap(dumpJSON('api')),
-  TE.tapError((error) =>
-    error instanceof Array
+  TE.map((api) => {
+    // eslint-disable-next-line functional/no-expression-statements
+    console.log('Parsing successful.  Check the output in the dump/ folder.');
+    return api;
+  }),
+  TE.tapError((error) => {
+    // eslint-disable-next-line functional/no-expression-statements
+    console.log('Error encountered. Check the error log in the dump/ folder.');
+    return error instanceof Array
       ? dumpJSON('error')(error)
-      : writeFile(getDumpDir('error.txt'))(error)
-  )
+      : writeFile(getDumpDir('error.txt'))(error);
+  })
 );
 
 // eslint-disable-next-line functional/no-expression-statements
