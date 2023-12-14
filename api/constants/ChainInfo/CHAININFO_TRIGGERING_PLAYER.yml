@@ -1,9 +1,8 @@
 ---!constant
 name: CHAININFO_TRIGGERING_PLAYER
 enum: ChainInfo
-value: 0x4
+value: 2
 description: |-
-  The player that triggered the current Chain Link
+  When used with Duel.GetChainInfo returns as an integer the player that triggered the requested chain link 
 status:
   index: stable
-tags: [ under-construction ]

@@ -2,29 +2,28 @@
 name: PreSummon
 namespace: Debug
 description: |-
-  Treats (Card c) as if it was summoned by (int sum_type). If (int sum_location) is provided, treats it as summoned from that location. If (int sum_sequence) is provided, treats it as summoned in that sequence. I(bool summon_pzone) is required to be true if the card is to be considered to be summoned from the Pendulum Zone.
+  Treats a card as if it was summoned by the provived summon type. Also supports summon locations and sequences.
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
+    description: The card that will be presummoned.
   - name: sum_type
     type: [ int ]
-    description: (To be added)
+    description: The summon type that will be applied to the card.
   - name: sum_location
     type: [ int ]
-    description: (To be added)
+    description: If provided, the location the monster will be considered to be summoned from.
     required: false
     default: 0
   - name: summon_sequence
     type: [ int ]
-    description: (To be added)
+    description: If provided, the sequence on the field in which the monster will be considered to be summoned in.
     required: false
     default: 0
   - name: summon_pzone
     type: [ bool ]
-    description: (To be added)
+    description: Required to treat a card as summoned from the Pendulum Zone.
     required: false
     default: false
-tags: [ under-construction ]

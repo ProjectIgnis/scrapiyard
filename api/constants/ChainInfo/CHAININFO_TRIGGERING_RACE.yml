@@ -1,9 +1,8 @@
 ---!constant
 name: CHAININFO_TRIGGERING_RACE
 enum: ChainInfo
-value: 0x200000
+value: 23
 description: |-
-  The type (warrior, zombie, etc) of the card that triggered the current Chain Link
+  When used with Duel.GetChainInfo returns an integer with the monster card type(s) (race) of the card that triggered the requested Chain Link.
 status:
   index: stable
-tags: [ under-construction ]

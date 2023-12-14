@@ -1,9 +1,8 @@
 ---!constant
 name: CHAININFO_TRIGGERING_RANK
 enum: ChainInfo
-value: 0x80000
+value: 21
 description: |-
-  The rank of the card that triggered the current Chain Link
+  When used with Duel.GetChainInfo returns an integer with the rank of the card that triggered the requested Chain Link.
 status:
   index: stable
-tags: [ under-construction ]

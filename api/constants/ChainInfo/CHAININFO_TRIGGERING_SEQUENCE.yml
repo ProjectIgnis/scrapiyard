@@ -1,9 +1,8 @@
 ---!constant
 name: CHAININFO_TRIGGERING_SEQUENCE
 enum: ChainInfo
-value: 0x20
+value: 6
 description: |-
-  The sequence (zone within a location) that triggered the current Chain Link
+  When used with Duel.GetChainInfo returns the sequence (zone within a location) of the card that triggered the requested Chain Link.
 status:
   index: stable
-tags: [ under-construction ]

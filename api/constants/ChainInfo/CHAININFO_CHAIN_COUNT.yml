@@ -1,9 +1,0 @@
----!constant
-name: CHAININFO_CHAIN_COUNT
-enum: ChainInfo
-value: 0x1
-description: |-
-  Chain Link Number
-status:
-  index: stable
-tags: [ under-construction ]

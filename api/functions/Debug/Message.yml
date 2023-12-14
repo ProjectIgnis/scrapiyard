@@ -2,11 +2,11 @@
 name: Message
 namespace: Debug
 description: |-
-  Sends (any msg) as a script error to the logs
+  Sends a message as a script error to the logs.
+summary: Prints a message.
 status:
   index: stable
 parameters:
-  - name: msg
-    type: [ any ]
-    description: (To be added)
-tags: [ under-construction ]
+  - name: message
+    type: [ string, number, Card ]
+    description: A string, a value directly convertible to string or a card, that will be printed as a script error.
