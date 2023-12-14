@@ -16,6 +16,7 @@ that facilitates easier human contribution and tooling development.
 Currently, we're working on checking every doc,
 correcting and modernizing them as needed after they were imported from the old format.
 There are over 2000 entries to go through so any help would be appreciated.
+
 See [`v1-nification`](/v1-nification.md) to get started with contributing.
 
 ---
@@ -23,7 +24,7 @@ See [`v1-nification`](/v1-nification.md) to get started with contributing.
 ## Format
 
 Documentation entries are in yaml format, found under [`/api/`](/api/),
-following the specifications detailed in [`/docs/specs/`](/specs/).
+following the specifications detailed in [`/specs/`](/specs/).
 
 The specs are meant to be highly specialized for the EDOPro scripting environment.
 It does **NOT** aim to be able to represent the lua language as a whole or a general-purpose lua environment.
@@ -44,8 +45,9 @@ This emergent type system is very limited by design,
 as it must be reasonably easy to read and write in yaml format first and foremost,
 and it needs only to specialize in type concepts relevant to EDOPro scripting. Namely:
 
+- function types, with support for function overloading
+- table types, with support for mapped types
 - subtyping, but all function types must be a subtype of `function` and all table types must be a subtype of `table`
-- function overloading
 - union types
 
 It does **NOT** aim to support more advanced type concepts such as, but not limited to:
