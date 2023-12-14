@@ -45,7 +45,3 @@ Sample commits:
 To add entries, the quickest way would be to copy-paste from an existing entry
 then edit as necessary (much like card scripting).
 When unsure about a field, consult the specs.
-
-After editing/adding entries, run `npm run dump` to check if your local copies are correct before pushing.
-If an `api.json` file is generated in the `dump/` folder, it is safe to push.
-Otherwise, an error file should be created to give you details about what needs to be fixed.
