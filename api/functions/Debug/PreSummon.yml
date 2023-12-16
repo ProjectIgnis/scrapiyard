@@ -2,7 +2,7 @@
 name: PreSummon
 namespace: Debug
 description: |-
-  Treats a card as if it was summoned by the provived summon type. Also supports summon locations and sequences.
+  In puzzles, treats a card as if it was summoned by the provived summon type. Also supports summon locations and sequences.
 status:
   index: stable
 parameters:

@@ -1,21 +1,33 @@
 ---!function
 name: AddProcedure
 namespace: Link
-description: |-
-  Adds a Link Procedure where (function f) is the required material with a minimum (int min) and maximum (int max) amount where (function specialchk) is an additional check after obtaining all materials (e.g. Akashic Magician) and (int desc) is the description to its Link Summoning Procedure,
+description: &desc |-
+  Adds a Link Procedure to a card.
+summary: *desc
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
+    description: The monster that will receive the summoning procedure.
   - name: f
-    type: [ function, nil ]
-    description: (To be added)
+    type: [ CardFilter, nil ]
+    description: the function that must return `true` for a `Card` to be a valid material.
   - name: min
     type: [ int ]
-    description: (To be added)
+    description: The minimum number of materials that must be used.
   - name: max
     type: [ int ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: The maximum number of monsters that can be used.
+    required: false
+    default: c:GetLink()
+  - name: specialchk
+    type: [ function]
+    description: An additional check that must be fulfilled after obtaining the group with materials (e.g. Akashic Magician). The signature of this function must be (c,lc,SUMMON_TYPE_LINK|MATERIAL_LINK,tp) where `c` is the card to be used as material, `lc` is the card to be summoned and tp is the player doing the summon.
+    required: false
+    default: nil
+  - name: des
+    type: [ int]
+    description: An integer pointing to a string to be used as description when the player attempts the summon. Useful for monsters with multiple summoning procedures
+    required: false
+    default: The default string 1174: "Link Summon".

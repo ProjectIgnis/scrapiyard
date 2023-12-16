@@ -2,17 +2,16 @@
 name: PreEquip
 namespace: Debug
 description: |-
-  Equips (Card equip_card) to (Card target)
+  In puzzles, equips one card to another. (Card equip_card) to (Card target)
 status:
   index: stable
 parameters:
   - name: equip_card
     type: [ Card ]
-    description: (To be added)
+    description: The card that will be equipped to another.
   - name: target
     type: [ Card ]
-    description: (To be added)
+    description: The card that will receive the equip card.
 returns:
   - type: [ bool ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: returns false in any of the following scenarios: `equip_card` is not in `LOCATION_SZONE`, `target` is not in `LOCATION_MZONE` or `target` is in face-down position. returns true otherwise.

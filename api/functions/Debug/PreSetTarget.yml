@@ -2,14 +2,13 @@
 name: PreSetTarget
 namespace: Debug
 description: |-
-  Sets (Card c)'s target card to (Card target) (e.g. Call of the Haunted)
+  In puzzles, sets the target of a card to be a specified card. Useful when placing on the field cards that require a target to keep the effect relation (e.g., Call of the Haunted).
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
-  - name: target
+    description: The card that will be considered to be targetting another card.
+  - name: tc
     type: [ Card ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: The card that will be considered to be the target.

@@ -2,11 +2,10 @@
 name: SetAIName
 namespace: Debug
 description: |-
-  Sets the name of the AI to (string name)
+  In a puzzle, sets the name of the second player to a specified string.
 status:
   index: stable
 parameters:
   - name: name
     type: [ string ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: A string with the name that will be used for the other player (the opponent).
