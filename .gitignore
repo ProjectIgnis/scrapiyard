@@ -1,4 +1,3 @@
-node_modules/
-dist/
+# so you can clone factory inside this folder for quick validation
+scrapi-factory/
 dump/
-tsconfig.tsbuildinfo
