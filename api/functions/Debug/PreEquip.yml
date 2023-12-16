@@ -1,8 +1,9 @@
 ---!function
 name: PreEquip
 namespace: Debug
-description: |-
-  In puzzles, equips one card to another. (Card equip_card) to (Card target)
+description: &desc |-
+  In puzzles, equips one card to another.
+summary: *desc
 status:
   index: stable
 parameters:
@@ -14,4 +15,4 @@ parameters:
     description: The card that will receive the equip card.
 returns:
   - type: [ bool ]
-    description: returns false in any of the following scenarios: `equip_card` is not in `LOCATION_SZONE`, `target` is not in `LOCATION_MZONE` or `target` is in face-down position. returns true otherwise.
+    description: Returns false in any of the following scenarios: `equip_card` is not in `LOCATION_SZONE`, `target` is not in `LOCATION_MZONE` or `target` is in face-down position. Returns true otherwise.
