@@ -23,11 +23,16 @@ parameters:
     default: c:GetLink()
   - name: specialchk
     type: [ function]
-    description: An additional check that must be fulfilled after obtaining the group with materials (e.g. Akashic Magician). The signature of this function must be (c,lc,SUMMON_TYPE_LINK|MATERIAL_LINK,tp) where `c` is the card to be used as material, `lc` is the card to be summoned and tp is the player doing the summon.
+    description: |-
+        An additional check that must be fulfilled after obtaining the group with materials (e.g. Akashic Magician).
+        The signature of this function must be (c,lc,SUMMON_TYPE_LINK|MATERIAL_LINK,tp) where `c` is the card to be used as material,
+        `lc` is the card to be summoned and tp is the player doing the summon.
     required: false
     default: nil
   - name: des
     type: [ int]
-    description: An integer pointing to a string to be used as description when the player attempts the summon. Useful for monsters with multiple summoning procedures
+    description:  |-
+        An integer pointing to a string to be used as description when the player attempts the summon.
+        Useful for monsters with multiple summoning procedures
     required: false
     default: The default string 1174: "Link Summon".

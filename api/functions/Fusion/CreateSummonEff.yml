@@ -64,7 +64,9 @@ parameters:
     default: false
   - name: extratg
     type: [ function ]
-    description: additional target function that will be executed when activating the effect (e.g. Miracle Fusion). Useful when extra operation info must be set.
+    description:  |-
+        Additional target function that will be executed when activating the effect (e.g. Miracle Fusion).
+        Useful when extra operation info must be set.
   - name: mincount
     type: [ int ]
     description: the minimum number of materials that must be used.

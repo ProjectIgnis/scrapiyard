@@ -15,4 +15,7 @@ parameters:
     description: The card that will receive the equip card.
 returns:
   - type: [ bool ]
-    description: Returns false in any of the following scenarios: `equip_card` is not in `LOCATION_SZONE`, `target` is not in `LOCATION_MZONE` or `target` is in face-down position. Returns true otherwise.
+   description: |-
+      Returns false in any of the following scenarios: `equip_card` is not in `LOCATION_SZONE`,
+      `target` is not in `LOCATION_MZONE` or `target` is in face-down position.
+      Returns true otherwise.
