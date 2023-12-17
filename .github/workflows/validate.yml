@@ -17,7 +17,7 @@ jobs:
       - name: Checkout scrapi-factory
         uses: actions/checkout@v4
         with:
-          repository: ProjectIgnis/scrapiyard
+          repository: that-hatter/scrapi-factory
           path: scrapi-factory
       - name: Setup Node
         uses: actions/setup-node@v3
