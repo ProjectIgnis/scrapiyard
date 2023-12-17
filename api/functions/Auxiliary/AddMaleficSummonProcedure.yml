@@ -7,7 +7,7 @@ status:
   index: stable
 parameters:
   - name: c
-    type: [ Card ]
+    type: [ ... ]
     description: (To be added)
   - name: code
     type: [ int ]
