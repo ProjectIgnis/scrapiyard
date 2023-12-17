@@ -3,7 +3,7 @@ name: Validate api entries
 on:
   pull_request:
     branches: [master]
-    types: [review_requested, synchronize]
+    types: [opened, reopened, review_requested, synchronize]
 
 jobs:
   build:
