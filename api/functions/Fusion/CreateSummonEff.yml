@@ -2,7 +2,8 @@
 name: CreateSummonEff
 namespace: Fusion
 description: |-
-  Function that generates a Fusion Summon effect, called from the Fusion Summon Procedure defined in "proc_fusion.lua" and "proc_fusion_spell.lua". By default it's usable with Normal Spell/Trap Cards; usage by other card types requires changing the type and code of the effect afterwards.
+  Function that generates a Fusion Summon effect, called from the Fusion Summon Procedure defined in "proc_fusion.lua" and "proc_fusion_spell.lua".
+  By default it's usable with Normal Spell/Trap Cards; usage by other card types requires changing the type and code of the effect afterwards.
 summary: Creates an effect that does a Fusion Summon.
 status:
   index: stable
@@ -28,6 +29,8 @@ parameters:
   - name: stage2
     type: [ function ]
     description: A function called after the summon, to execute additional steps (e.g. Shaddol Ruq, Instant Fusion).
+    required: false
+    default: nil
   - name: exactcount
     type: [ int ]
     description: The exact number of materials that must be used (e.g. Ostinato)
@@ -52,9 +55,13 @@ parameters:
   - name: preselect
     type: [ function ]
     description: function that is executed after selecting the monster but before performing the Fusion Summon (e.g. Clock Lizard).
+    required: false
+    default: nil
   - name: nosummoncheck
     type: [ bool ]
     description: if set to true then the procedure will not check if the monster can be Special Summoned in its current state.
+    required: false
+    default: false
   - name: extratg
     type: [ function ]
     description: additional target function that will be executed when activating the effect (e.g. Miracle Fusion). Useful when extra operation info must be set.
