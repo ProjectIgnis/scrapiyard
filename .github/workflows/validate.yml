@@ -1,0 +1,32 @@
+name: Validate api entries
+
+on:
+  pull_request:
+    branches: [master]
+    types: [review_requested, synchronize]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          path: scrapiyard
+      - name: Checkout scrapi-factory
+        uses: actions/checkout@v4
+        with:
+          repository: ProjectIgnis/scrapiyard
+          path: scrapi-factory
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: ./scrapi-factory
+      - name: Run dump script
+        working-directory: scrapi-factory
+        run: |-
+          npm ci
+          npm run dump -- --printErr
