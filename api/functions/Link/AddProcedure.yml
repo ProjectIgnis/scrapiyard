@@ -33,6 +33,7 @@ parameters:
     type: [ int]
     description:  |-
         An integer pointing to a string to be used as description when the player attempts the summon.
-        Useful for monsters with multiple summoning procedures
+        Useful for monsters with multiple summoning procedures.
     required: false
-    default: The default string 1174: "Link Summon".
+    default: |-
+        The default string 1174: "Link Summon".

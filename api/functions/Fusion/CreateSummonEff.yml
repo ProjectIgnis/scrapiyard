@@ -51,7 +51,8 @@ parameters:
     type: [ string ]
     description: An integer pointing to a string for the effect's description.
     required: false
-    default: The default string 1170: "Fusion Summon".
+    default: |-
+        The default string 1170: "Fusion Summon".
   - name: preselect
     type: [ function ]
     description: function that is executed after selecting the monster but before performing the Fusion Summon (e.g. Clock Lizard).
