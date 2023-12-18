@@ -2,14 +2,16 @@
 name: SummonEffOP
 namespace: Fusion
 description: |-
-  no description yet
+  The operation executed by the Fusion Summon procedure.
 status:
   index: stable
 parameters:
   - name: ...
     type: [ any ]
-    description: (To be added)
+    description: |-
+        An unpacked table with the parameters as defined in api/functions/Fusion/CreateSummonEff .
+        If named parameters are used the table should not be unpacked.
 returns:
-  - type: [ effect ]
-    description: (To be added)
-tags: [ under-construction ]
+  - type: [ function ]
+    description: |-
+        A function that is executed when a Fusion Summon effect resolves.

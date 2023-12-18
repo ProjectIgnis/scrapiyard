@@ -2,14 +2,16 @@
 name: SummonEffTG
 namespace: Fusion
 description: |-
-  no description yet
+  The target function executed by the Fusion Summon Procedure, which includes activation legality check and actions that must be done during the activation (selecting targets if any, defining extra operation infos, etc).
 status:
   index: stable
 parameters:
   - name: ...
     type: [ any ]
-    description: (To be added)
+    description: |-
+        An unpacked table with the parameters as defined in api/functions/Fusion/CreateSummonEff .
+        If named parameters are used the table should not be unpacked.
 returns:
-  - type: [ effect ]
-    description: (To be added)
-tags: [ under-construction ]
+  - type: [ function ]
+    description: |-
+        A function that is executed when a Fusion Summon effect is activated.
