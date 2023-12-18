@@ -2,26 +2,28 @@
 name: AddProcCode3
 namespace: Fusion
 description: |-
-  Recipe for Fusion monsters that have code1+ code2 + code3 as materials. Not used by any cards.
+  Creates a Fusion Summon recipe for monsters that uses 3 specifically named cards as materials. Internally implemented using /api/functions/Fusion/AddProcMix, which should be prioritized. Not used by any cards.
+summary: Creates a Fusion Summon recipe for monsters that uses 3 specifically named materials.
 status:
   index: stable
 parameters:
   - name: c
-    type: [ any ]
-    description: (To be added)
+    type: [ Card ]
+    description: The monster receiving the recipe.
   - name: code1
-    type: [ any ]
-    description: (To be added)
+    type: [ int ]
+    description: The ID of the first material.
   - name: code2
-    type: [ any ]
-    description: (To be added)
+    type: [ int ]
+    description: The ID of the second material.
   - name: code3
-    type: [ any ]
-    description: (To be added)
+    type: [ int ]
+    description: The ID of the third material.
   - name: sub
-    type: [ any ]
-    description: (To be added)
+    type: [ bool ]
+    description: |-
+        A boolean denoting if Fusion Substitutes (e.g. King of the Swamp) are allowed in the materials.
   - name: insf
-    type: [ any ]
-    description: (To be added)
-tags: [ under-construction ]
+    type: [ bool ]
+    description: |-
+        A boolean denoting if 0 materials are allowed, which allows Fusion Effects such as Instant Fusion (fusion summon without materials) to summon this monster.
