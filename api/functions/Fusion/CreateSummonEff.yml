@@ -15,7 +15,7 @@ parameters:
     type: [ function ]
     description: |-
         A `CardFilter` for the monsters that can be Fusion Summoned with the effect.
-        It is applied, if provided as extra checks for the default filter.
+        It is applied, if provided, as extra checks for the default filter (using `and`).
     required: false
     default: |-
         function(c,...) return c:IsType(TYPE_FUSION) and c:IsCanBeSpecialSummoned(..) and c:CheckFusionMaterial(...) end
@@ -68,7 +68,8 @@ parameters:
     type: [ int ]
     description: A flag from `FusionProcFlag` to be used for the Fusion Summon.
     required: false
-    default: `chkf and chkf|tp or tp`
+    default: |-
+        chkf=chkf and chkf|tp or tp
   - name: desc
     type: [ string ]
     description: |-
