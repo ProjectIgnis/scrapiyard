@@ -13,19 +13,37 @@ parameters:
     description: The Card that uses the effect.
   - name: fusfilter
     type: [ function ]
-    description: A `CardFilter` for the monsters that can be Fusion Summoned with the effect.
+    description: |-
+        A `CardFilter` for the monsters that can be Fusion Summoned with the effect.
+        It is applied, if provided as extra checks for the default filter.
+    required: false
+    default: |-
+        function(c,...) return c:IsType(TYPE_FUSION) and c:IsCanBeSpecialSummoned(..) and c:CheckFusionMaterial(...) end
   - name: matfilter
     type: [ function ]
-    description:  A `CardFilter` that will be applied to the cards that can be used as materials, after they are obtained by GetFusionMaterial.
+    description: |-
+        A `CardFilter` that will be applied to the cards that can be used as materials, after they are obtained by GetFusionMaterial.
+    required: false
+    default: |-
+        Card.IsAbleToGrave
   - name: extrafil
     type: [ function ]
-    description: A function that returns a group of extra cards that can be used as materials, and as second optional return an additional filter function. 
+    description: |-
+        A function that returns a group of extra cards that can be used as materials, and as second optional return an additional filter function.
+    required: false
+    default: nil
   - name: extraop
     type: [ function ]
-    description: A function to perform a different operation on the materials (for example, `Fusion.BanishMaterial`, `Fusion.ShuffleMaterial` or a custom function).
+    description: |-
+        A function to perform a different operation on the materials (for example, `Fusion.BanishMaterial`, `Fusion.ShuffleMaterial` or a custom function).
+    required: false
+    default: nil
   - name: gc
     type: [ Card, Group]
-    description:  Card or Group of cards that must be used as fusion material (mandatory)(e.g. Soprano the Melodious Songtress).
+    description: |-
+        Card or a function, whose signature is (e,tp,eg,ep,ev,re,r,rp,chk), returning a group of cards that must be used as fusion material (mandatory)(e.g. Soprano the Melodious Songtress).
+    required: false
+    default: nil
   - name: stage2
     type: [ function ]
     description: A function called after the summon, to execute additional steps (e.g. Shaddol Ruq, Instant Fusion).
@@ -34,6 +52,8 @@ parameters:
   - name: exactcount
     type: [ int ]
     description: The exact number of materials that must be used (e.g. Ostinato)
+    required: false
+    default: Fusion.CheckExact
   - name: sum_type
     type: [ int ]
     description: The summon type that will be use for the summon.
@@ -47,33 +67,46 @@ parameters:
   - name: chkf
     type: [ int ]
     description: A flag from `FusionProcFlag` to be used for the Fusion Summon.
+    required: false
+    default: `chkf and chkf|tp or tp`
   - name: desc
     type: [ string ]
-    description: An integer pointing to a string for the effect's description.
+    description: |-
+        An integer pointing to a string for the effect's description.
     required: false
     default: |-
         The default string 1170: "Fusion Summon".
   - name: preselect
     type: [ function ]
-    description: function that is executed after selecting the monster but before performing the Fusion Summon (e.g. Clock Lizard).
+    description: |-
+        A function, that is executed after selecting the monster to summon but before performing the Fusion Summon (e.g. Clock Lizard).
+        The function's signature is (e,tc) with tc being the selected Fusion monster.
+        If this function is provided, the Fusion Summon procedure is not cancelable.
     required: false
     default: nil
   - name: nosummoncheck
     type: [ bool ]
-    description: if set to true then the procedure will not check if the monster can be Special Summoned in its current state.
+    description: |-
+        If set to true then the procedure will not check if the monster can be Special Summoned in its current state.
     required: false
     default: false
   - name: extratg
     type: [ function ]
     description:  |-
-        Additional target function that will be executed when activating the effect (e.g. Miracle Fusion).
+        Additional target function, which has (e,tp,eg,ep,ev,re,r,rp,chk) as signature, that will be executed when activating the effect (e.g. Miracle Fusion).
         Useful when extra operation info must be set.
+    required: false
+    default: false
   - name: mincount
     type: [ int ]
-    description: the minimum number of materials that must be used.
+    description: the minimum number of materials that must be used, used to update the internal variable Fusion.CheckMin.
+    required: false
+    default: nil
   - name: maxcount
     type: [ int ]
-    description: the maximum number of materials that can be used.
+    description: the maximum number of materials that can be used, used to update the internal variable Fusion.CheckMax.
+    required: false
+    default: nil
   - name: sumpos
     type: [ int ]
     description: the monster's summoning position.
