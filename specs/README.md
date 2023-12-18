@@ -6,19 +6,19 @@ It was decided to forego having a formal YAML schema to have more fine-grained c
 that can not be expressed by structural schema alone.
 
 Note that on top of the individual specs, the files still have to be properly-formatted yaml files. Mind the
-[umpteen of ways to write strings](http://stackoverflow.com/questions/3790454/in-yaml-how-do-i-break-a-string-over-multiple-lines/21699210#21699210).
+[umpteen ways to write strings](http://stackoverflow.com/questions/3790454/in-yaml-how-do-i-break-a-string-over-multiple-lines/21699210#21699210).
 It also means yaml features can be used within them. A very useful example is
 [anchoring](https://stackoverflow.com/questions/48940619/yaml-how-to-reuse-single-string-content) to reuse fields.
 
-- [Function](/docs/specs/Function.md)
-- [Constant](/docs/specs/Constant.md)
-- [Namespace](/docs/specs/Namespace.md)
-- [Enum](/docs/specs/Enum.md)
+- [Function](/specs/Function.md)
+- [Constant](/specs/Constant.md)
+- [Namespace](/specs/Namespace.md)
+- [Enum](/specs/Enum.md)
 - Type
-  - [FunctionType](/docs/specs/Type.Function.md)
-  - [TableType](/docs/specs/Type.Table.md)
-  - [OtherType](/docs/specs/Type.Other.md)
-- [Tag](/docs/specs/Enum.md)
+  - [Function Type](/specs/Type.Function.md)
+  - [Table Type](/specs/Type.Table.md)
+  - [Other Types](/specs/Type.Other.md)
+- [Tag](/specs/Tag.md)
 
 ## Markdown
 
@@ -52,6 +52,6 @@ This is a details block.
 
 ## Internal Linking
 
-When linking tp another API documentation entry, use the entry's filepath starting from `api/`.
-For example, to link to the `Card.AddCounter`entry, use `api/Card/AddCounter.yml`
+When linking to another API documentation entry, use the entry's filepath starting from `api/` and removing the `.yml`.
+For example, to link to the `Card.AddCounter` entry, use `api/Card/AddCounter`
 (though unfortunately, github doesn't resolve links in yaml files so there will be no visual feedback).

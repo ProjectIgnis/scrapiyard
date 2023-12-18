@@ -44,4 +44,9 @@ Sample commits:
 
 To add entries, the quickest way would be to copy-paste from an existing entry
 then edit as necessary (much like card scripting).
-When unsure about a field, consult the specs.
+When unsure about a field, consult the [specs](/specs/README.md).
+
+When you open a PR, a checker will run to validate the entries.
+Make sure to verify the result for possible errors.
+You can also [set up `scrapi-factory` locally](https://github.com/that-hatter/scrapi-factory#validating-locally)
+if you want to validate your changes without having to upload them every time.

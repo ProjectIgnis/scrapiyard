@@ -58,5 +58,5 @@ It does **NOT** aim to support more advanced type concepts such as, but not limi
 
 Furthermore, every type must be documented as a separate entry even if they are only used once.
 Anonymous types are not supported to avoid arbitrary deep nesting and circular references in the yaml files.
-The only exception are union types, which can be represented by a list of type names
-(the union itself does not need to be named).
+Union types are the only exception. They are represented by a list of type names
+(the union itself does not need to be named or have a separate doc entry).
