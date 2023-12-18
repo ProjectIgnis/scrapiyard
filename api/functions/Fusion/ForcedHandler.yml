@@ -2,14 +2,15 @@
 name: ForcedHandler
 namespace: Fusion
 description: |-
-  Used by the Fusion Summon procedure.
+  When used with the Fusion Summon procedure, makes the handler of the effect a mandatory material.
 status:
   index: stable
 parameters:
   - name: e
     type: [ effect ]
-    description: (To be added)
+    description: |-
+        The effect being used.
 returns:
-  - type: [ bool ]
-    description: (To be added)
-tags: [ under-construction ]
+  - type: [ Card ]
+    description: |-
+        The effect's handler.

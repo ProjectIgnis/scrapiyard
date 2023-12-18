@@ -7,12 +7,14 @@ status:
   index: stable
 parameters:
   - name: fun
-    type: [ any ]
-    description: (To be added)
+    type: [ function ]
+    description: |-
+        A function for which the materials and effect's handler must return true.
   - name: ...
-    type: [ any ]
-    description: (To be added)
+    type: [ function ]
+    description: |-
+        Extra functions that must also be true for the materials and the effect's handler.
 returns:
   - type: [ bool ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: |-
+        Returns true if all functions tested return true; returns false otherwise.

@@ -2,17 +2,19 @@
 name: IsMonsterFilter
 namespace: Fusion
 description: |-
-  Used by the Fusion Summon procedure.
+  When used with the Fusion Summon procedure, checks if the materials are monster and fulfill the passed function.
 status:
   index: stable
 parameters:
   - name: f
     type: [ function ]
-    description: (To be added)
+    description: |-
+        A `CardFilter`-type function that must return true for the materials.
   - name: ...
-    type: [ any ]
-    description: (To be added)
+    type: [ function ]
+    description: |-
+        Any number of extra functions (`CardFilter`) for which the materials must also return true.
 returns:
   - type: [ bool ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: |-
+        Returns true if the materials are Monsters and fulfill all the passed functions. Returns false otherwise.
