@@ -2,14 +2,15 @@
 name: ForcedHandler
 namespace: Fusion
 description: |-
-  Used by the Fusion Summon procedure.
+  A [FusionMandatoryMaterial](/api/types/FusionMandatoryMaterial) function that
+  makes the handler of the effect a mandatory material.
+summary: Makes the handler of the effect a mandatory material
 status:
   index: stable
 parameters:
   - name: e
-    type: [ effect ]
-    description: (To be added)
+    type: [ Effect ]
+    description: The Fusion Summon effect.
 returns:
-  - type: [ bool ]
-    description: (To be added)
-tags: [ under-construction ]
+  - type: [ Card ]
+    description: The effect's handler.

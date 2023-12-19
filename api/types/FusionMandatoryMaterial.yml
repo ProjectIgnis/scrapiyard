@@ -1,0 +1,38 @@
+---!type
+name: FusionMandatoryMaterial
+supertype: function
+description: |-
+  A function used to define a card or group of fusion materials
+  that must be used in a Fusion Summon effect.
+summary: Returns cards that must be used as fusion materials.
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: The Effect performing the Fusion Summon.
+  - name: tp
+    type: [ int ]
+    description: The player performing the Fusion Summon.
+  - name: eg
+    type: [ Group ]
+    description: The event group of the summoning effect.
+  - name: ep
+    type: [ int ]
+    description: The event player of the summoning effect.
+  - name: ev
+    type: [ Group ]
+    description: The event value of the summoning effect.
+  - name: re
+    type: [ Effect ]
+    description: The reason effect of the summoning effect.
+  - name: r
+    type: [ int ]
+    description: The reason of the summoning effect.
+  - name: rp
+    type: [ int ]
+    description: The reason player of the summoning effect.
+  - name: chk
+    type: [ int ]
+    description: "`0` when checking the activation, `1` when performing."
+returns:
+  - type: [ Card, Group ]
+    description: The mandatory materials.

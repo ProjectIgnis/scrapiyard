@@ -1,0 +1,42 @@
+---!type
+name: EffectTarget
+supertype: function
+description: |-
+  A function used to check activation legality or perform activation procedure, excluding costs.
+summary: Checks or performs effect activation procedure.
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: The Effect to activate.
+  - name: tp
+    type: [ int ]
+    description: The player activating the effect.
+  - name: eg
+    type: [ Group ]
+    description: The event group of the effect activation.
+  - name: ep
+    type: [ int ]
+    description: The event player of the effect activation.
+  - name: ev
+    type: [ Group ]
+    description: The event value of the effect activation.
+  - name: re
+    type: [ Effect ]
+    description: The reason effect of the effect activation.
+  - name: r
+    type: [ int ]
+    description: The reason of the effect activation.
+  - name: rp
+    type: [ int ]
+    description: The reason player of the effect activation.
+  - name: chk
+    type: [ int ]
+    description: "`0` when checking the activation, `1` when performing."
+returns:
+  - type: [ boolean ]
+    description: If `chk` is `0`, returns true if the effect can be activated.
+    guaranteed: false
+
+# TODO: add overloads for other signatures of target functions,
+# give better descriptions for the params
+tags: [ under-construction ]

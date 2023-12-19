@@ -1,0 +1,19 @@
+---!type
+name: FusionMaterialOperation
+supertype: function
+description: &desc |-
+  A function to perform on the materials being used in a Fusion Summon.
+summary: *desc
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: The effect performing the Fusion Summon.
+  - name: tc
+    type: [ Card ]
+    description: The Fusion monster being summoned.
+  - name: tp
+    type: [ int ]
+    description: The player performing the Fusion Summon.
+  - name: sg
+    type: [ Group ]
+    description: The group of materials.

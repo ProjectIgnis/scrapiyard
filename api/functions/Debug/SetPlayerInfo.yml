@@ -2,20 +2,21 @@
 name: SetPlayerInfo
 namespace: Debug
 description: |-
-  Sets (int playerid) to have (int lp) LP, start with a (in startct) card hand, and draw (int drawcount) during the Draw Phase.
+  In puzzles, sets a player's LP, initial number of cards in the hand,
+  and the number of cards to draw each Draw Phase.
+summary: Sets a player's LP, initial hand size, and draw amount
 status:
   index: stable
 parameters:
   - name: playerid
     type: [ int ]
-    description: (To be added)
+    description: The player whose information will be set.
   - name: lp
     type: [ int ]
-    description: (To be added)
+    description: The initial LP for the player.
   - name: startcount
     type: [ int ]
-    description: (To be added)
+    description: The number of cards in the starting hand.
   - name: drawcount
     type: [ int ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: The number of cards to draw each Draw Phase.

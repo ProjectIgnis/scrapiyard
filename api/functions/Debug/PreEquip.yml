@@ -2,17 +2,20 @@
 name: PreEquip
 namespace: Debug
 description: |-
-  Equips (Card equip_card) to (Card target)
+  In puzzles, equips one card to another.
+  Will fail if the equip card is not in a Spell/Trap Zone,
+  or if the equip target is not in a Monster Zone face-up.
+summary: Equips one card to another
 status:
   index: stable
 parameters:
   - name: equip_card
     type: [ Card ]
-    description: (To be added)
+    description: The card that will be equipped to another.
   - name: target
     type: [ Card ]
-    description: (To be added)
+    description: The card that will receive the equip card.
 returns:
   - type: [ bool ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: |-
+      Returns true if the card was successfully equipped.

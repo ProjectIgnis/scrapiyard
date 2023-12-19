@@ -1,0 +1,27 @@
+---!type
+name: FusionRecipeFilter
+supertype: function
+description: |-
+  A function used to filter Fusion materials in Fusion recipe effects
+  (i.e., in the script of the Fusion Monster).
+summary: Filters Fusion materials in recipes
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The material to check.
+  - name: fc
+    type: [ Card ]
+    description: The Fusion card to be summoned with the material.
+  - name: sumtype
+    type: [ int ]
+    description: The summon type. Always includes [SUMMON_TYPE_FUSION](/api/constants/SummonType/SUMMON_TYPE_FUSION).
+  - name: tp
+    type: [ int ]
+    description: The player performing the Fusion Summon.
+returns:
+  - type: [ bool ]
+    description: If the material passed the filter.
+suggestedLinks:
+  - name: FusionMaterialFilter
+    link: /api/types/FusionMaterialFilter
+    message: A filter used in summon effects (in the script of the summoning card)
