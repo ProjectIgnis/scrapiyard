@@ -26,10 +26,10 @@ overloads:
     description: The player performs the action.
     - name: check
     type: [ CardFilter ]
-    description: A `CardFilter`for secondary action to check what needs to be fulfilled.
+    description: A `CardFilter` for secondary action to check what needs to be fulfilled.
     - name: oper
     type: [ function ]
-    description: An operation function for secondary action with the signature `(c,...)` those signature behaves similarly to `CardFilter`.
+    description: An operation function for secondary action with the signature `(c,...)` those behaves similarly to `CardFilter`.
     - name: str
     type: [ int ]
     description: An integer representing a certain string to be used in the secondary option.

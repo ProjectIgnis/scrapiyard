@@ -63,12 +63,18 @@ overloads:
       - name: cancelcon
         type: [ SubgroupFilter, nil ]
         description: A `filter` that, when fulfilled, allows the player to cancel the selection.
+        required: false
       - name: breakcon
         type: [ SubgroupFilter, nil ]
         description: A `filter` that, when fulfilled, automatically ends the selection.
+        required: false
       - name: cancelable
         type: [ bool ]
         description: Allows the player to cancel the selection even if the conditions are not fulfilled.
+        required: false
     returns:
       - type: [ Group ]
         description: The selected `Group`.
+suggestedLinks:
+  - name: SubgroupFilter
+  link: https://projectignis.github.io/scrapi-book/api/types/SubgroupFilter.html#subgroupfilter
