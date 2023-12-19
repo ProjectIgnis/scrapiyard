@@ -2,19 +2,19 @@
 name: CheckWithHandler
 namespace: Fusion
 description: |-
-  Used by the Fusion Summon procedure.
+  Creates a [FusionMaterialFilter](api/types/FusionMaterialFilter) that checks if
+  the material is also the handler of the summoning effect, along with other provided filters.
 status:
   index: stable
 parameters:
   - name: fun
-    type: [ function ]
-    description: |-
-        A function for which the materials and effect's handler must return true.
+    type: [ FusionMaterialFilter ]
+    description: A function that must return true for the material.
   - name: ...
-    type: [ function ]
-    description: |-
-        Extra functions that must also be true for the materials and the effect's handler.
+    type: [ FusionMaterialFilter ]
+    description: More functions that must return true for the material.
 returns:
-  - type: [ bool ]
+  - type: [ FusionMaterialFilter ]
     description: |-
-        Returns true if all functions tested return true; returns false otherwise.
+      A function that returns true if the material being checked is also the handler,
+      and all provided filters return true.

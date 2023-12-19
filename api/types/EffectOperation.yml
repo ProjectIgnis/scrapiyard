@@ -1,0 +1,35 @@
+---!type
+name: EffectOperation
+supertype: function
+description: &desc |-
+  A function executed when resolving an effect.
+summary: *desc
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: The resolving effect.
+  - name: tp
+    type: [ int ]
+    description: The player that activated the effect.
+  - name: eg
+    type: [ Group ]
+    description: The event group of the effect activation.
+  - name: ep
+    type: [ int ]
+    description: The event player of the effect activation.
+  - name: ev
+    type: [ Group ]
+    description: The event value of the effect activation.
+  - name: re
+    type: [ Effect ]
+    description: The reason effect of the effect activation.
+  - name: r
+    type: [ int ]
+    description: The reason of the effect activation.
+  - name: rp
+    type: [ int ]
+    description: The reason player of the effect activation.
+
+# TODO: add overloads for other signatures of operation functions,
+# give better descriptions for the params
+tags: [ under-construction ]

@@ -2,19 +2,19 @@
 name: IsMonsterFilter
 namespace: Fusion
 description: |-
-  When used with the Fusion Summon procedure, checks if the materials are monster and fulfill the passed function.
+  Creates a [FusionMaterialFilter](api/types/FusionMaterialFilter) that checks if
+  the material is a monster, along with other provided filters.
 status:
   index: stable
 parameters:
-  - name: f
-    type: [ function ]
-    description: |-
-        A `CardFilter`-type function that must return true for the materials.
+  - name: fun
+    type: [ FusionMaterialFilter ]
+    description: A function that must return true for the material.
   - name: ...
-    type: [ function ]
-    description: |-
-        Any number of extra functions (`CardFilter`) for which the materials must also return true.
+    type: [ FusionMaterialFilter ]
+    description: More functions that must return true for the material.
 returns:
-  - type: [ bool ]
+  - type: [ FusionMaterialFilter ]
     description: |-
-        Returns true if the materials are Monsters and fulfill all the passed functions. Returns false otherwise.
+      A function that returns true if the material being checked is a monster,
+      and all provided filters return true.

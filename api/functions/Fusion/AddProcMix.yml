@@ -13,14 +13,15 @@ parameters:
   - name: sub
     type: [ bool ]
     description: |-
-        A boolean denoting if Fusion Substitutes (e.g. King of the Swamp) are allowed in the materials.
+      A boolean denoting if Fusion Substitutes
+      (e.g. [King of the Swamp](https://yugipedia.com/wiki/King_of_the_Swamp))
+      are allowed in the materials.
   - name: insf
     type: [ bool ]
     description: |-
-        A boolean denoting if 0 materials are allowed, which allows Fusion Effects such as Instant Fusion (fusion summon without materials) to summon this monster.
+      A boolean denoting if Fusion Summoning without materials
+      (e.g. [Instant Fusion](https://yugipedia.com/wiki/Instant_Fusion)) is allowed.
   - name: ...
-    type: [ int, function, table ]
+    type: [ int, FusionRecipeFilter, table ]
     description: |-
-        Posible inputs: a list of IDs of the fusion materials (e.g. Rare Fish);
-        a list of functions for each material (e.g. Elemental HERO Nova Master);
-        an ID for 1 material and a function for the other materials (e.g. UFOroid Fighter).
+      A list of card IDs of named materials, and/or filter functions they must pass.

@@ -1,0 +1,24 @@
+---!type
+name: FusionExtraMaterial
+supertype: function
+description: |-
+   A function used to define a group of additional fusion materials
+   that can be used in Fusion Summon effects.
+summary: Creates a group of additional fusion materials.
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: The Effect performing the Fusion Summon.
+  - name: tp
+    type: [ int ]
+    description: The player performing the Fusion Summon.
+  - name: mg
+    type: [ Group ]
+    description: The group of materials that the effect can use by default.
+returns:
+  - type: [ Group ]
+    description: The group of additional materials.
+  - type: [ FusionMaterialFilter ]
+    description: |-
+      An additional filter that the materials (including the additional materials) must fulfill.
+    guaranteed: false

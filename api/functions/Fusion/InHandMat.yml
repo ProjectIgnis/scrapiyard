@@ -2,21 +2,19 @@
 name: InHandMat
 namespace: Fusion
 description: |-
-  When used with the Fusion Summon procedure, checks if the materials are in the hand.
+  Creates a [FusionMaterialFilter](api/types/FusionMaterialFilter) that checks if
+  the material is in the hand, along with other provided filters.
 status:
   index: stable
 parameters:
-  - name: filter
-    type: [ Function, Card ]
-    description: |-
-        A function that must return true for materials in the hand.
-        Alternatively, a single card.
+  - name: fun
+    type: [ FusionMaterialFilter ]
+    description: A function that must return true for the material.
   - name: ...
-    type: [ function ]
-    description: |-
-        Extra functions that must also return true for the materials in the hand.
+    type: [ FusionMaterialFilter ]
+    description: More functions that must return true for the material.
 returns:
-  - type: [ bool ]
+  - type: [ FusionMaterialFilter ]
     description: |-
-        If a single card, c, is passed as the `filter` argument, returns `c:IsLocation(LOCATION_HAND) and c:IsAbleToGrave()`.
-        If a `CardFilter` is passed, returns true for the materials that are in the hand and fulfill the card filter tested.
+      A function that returns true if the material being checked is in the hand,
+      and all provided filters return true.

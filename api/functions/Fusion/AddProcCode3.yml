@@ -2,8 +2,8 @@
 name: AddProcCode3
 namespace: Fusion
 description: |-
-  Creates a Fusion Summon recipe for monsters that uses 3 specifically named cards as materials. Internally implemented using /api/functions/Fusion/AddProcMix, which should be prioritized. Not used by any cards.
-summary: Creates a Fusion Summon recipe for monsters that uses 3 specifically named materials.
+  Creates a Fusion Summon recipe for a monster that uses 3 specifically named cards as materials.
+summary: Creates a Fusion recipe with 3 named materials
 status:
   index: stable
 parameters:
@@ -22,8 +22,11 @@ parameters:
   - name: sub
     type: [ bool ]
     description: |-
-        A boolean denoting if Fusion Substitutes (e.g. King of the Swamp) are allowed in the materials.
+      A boolean denoting if Fusion Substitutes
+      (e.g. [King of the Swamp](https://yugipedia.com/wiki/King_of_the_Swamp))
+      are allowed in the materials.
   - name: insf
     type: [ bool ]
     description: |-
-        A boolean denoting if 0 materials are allowed, which allows Fusion Effects such as Instant Fusion (fusion summon without materials) to summon this monster.
+      A boolean denoting if Fusion Summoning without materials
+      (e.g. [Instant Fusion](https://yugipedia.com/wiki/Instant_Fusion)) is allowed.
