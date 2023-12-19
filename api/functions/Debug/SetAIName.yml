@@ -2,7 +2,8 @@
 name: SetAIName
 namespace: Debug
 description: |-
-  In a puzzle, sets the name of the second player to a specified string.
+  In puzzles, sets the name of the second player to a specified string.
+summary: Sets the name of the opponent
 status:
   index: stable
 parameters:

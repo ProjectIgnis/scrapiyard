@@ -2,7 +2,10 @@
 name: PreSetTarget
 namespace: Debug
 description: |-
-  In puzzles, sets the target of a card to be a specified card. Useful when placing on the field cards that require a target to keep the effect relation (e.g., Call of the Haunted).
+  In puzzles, sets the target of a card to be a specified card.
+  Useful when placing cards on the field that require a target to keep the
+  effect relation (e.g., [Call of the Haunted](https://yugipedia.com/wiki/Call_of_the_Haunted)).
+summary: Sets the target of a card to be a specified card
 status:
   index: stable
 parameters:

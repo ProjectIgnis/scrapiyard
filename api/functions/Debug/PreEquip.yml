@@ -1,9 +1,11 @@
 ---!function
 name: PreEquip
 namespace: Debug
-description: &desc |-
+description: |-
   In puzzles, equips one card to another.
-summary: *desc
+  Will fail if the equip card is not in a Spell/Trap Zone,
+  or if the equip target is not in a Monster Zone face-up.
+summary: Equips one card to another
 status:
   index: stable
 parameters:
@@ -16,6 +18,4 @@ parameters:
 returns:
   - type: [ bool ]
     description: |-
-      Returns false in any of the following scenarios: `equip_card` is not in `LOCATION_SZONE`,
-      `target` is not in `LOCATION_MZONE` or `target` is in face-down position.
-      Returns true otherwise.
+      Returns true if the card was successfully equipped.

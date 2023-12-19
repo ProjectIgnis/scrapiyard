@@ -2,13 +2,15 @@
 name: SetPlayerInfo
 namespace: Debug
 description: |-
-  In puzzles, defines the player's LP, initial number of cards in the hand and the number of cards to draw during the Draw Phase.
+  In puzzles, sets a player's LP, initial number of cards in the hand,
+  and the number of cards to draw each Draw Phase.
+summary: Sets a player's LP, initial hand size, and draw amount
 status:
   index: stable
 parameters:
   - name: playerid
     type: [ int ]
-    description: The player to whom the information will be set.
+    description: The player whose information will be set.
   - name: lp
     type: [ int ]
     description: The initial LP for the player.
@@ -17,4 +19,4 @@ parameters:
     description: The number of cards in the starting hand.
   - name: drawcount
     type: [ int ]
-    description: The number of cards to draw during the Draw Phase.
+    description: The number of cards to draw each Draw Phase.
