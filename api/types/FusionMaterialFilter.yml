@@ -23,5 +23,5 @@ returns:
     description: If the material passed the filter.
 suggestedLinks:
   - name: FusionRecipeFilter
-    link: api/types/FusionRecipeFilter
+    link: /api/types/FusionRecipeFilter
     message: A filter used in recipes (in the script of the Fusion Monster)

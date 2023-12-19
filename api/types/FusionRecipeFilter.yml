@@ -23,5 +23,5 @@ returns:
     description: If the material passed the filter.
 suggestedLinks:
   - name: FusionMaterialFilter
-    link: api/types/FusionMaterialFilter
+    link: /api/types/FusionMaterialFilter
     message: A filter used in summon effects (in the script of the summoning card)
