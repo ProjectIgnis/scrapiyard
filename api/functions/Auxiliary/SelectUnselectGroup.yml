@@ -1,48 +1,74 @@
 ---!function
-name: SelectUnselectGroup
+name: SelectUnselect`Group`
 namespace: Auxiliary
 description: |-
-  Recursion checking and selection. (Group g) is the group to check and choose from, with a minimum (int minc) that defaults to 1 if set to nil and maximum (int maxc) that defaults to 99 if set to nil. (function rescon) is the condition to check which is needed fulfill. (int chk) is set to 0 to check and 1 to select. if it is 0, the remaining parameters aren't required. (int seltp) is the selecting player. (int hintmsg) is the HINTMSG that will be displayed on selection. (function cancelcon) is the condition when fulfilled allows you to end selection. (function breakcon) when fulfilled ends the selection automatically.
+  Performs recursive checking and selection with a `Group`.
 status:
   index: stable
 parameters:
   - name: g
-    type: [ Group ]
-    description: (To be added)
+    type: [ `Group` ]
+    description: The `Group` to check.
   - name: e
     type: [ Effect ]
-    description: (To be added)
+    description: An `Effet` that the function will use as arguments for `rescon`, `cancelcon`, and `breakcon`.
   - name: tp
     type: [ int ]
-    description: (To be added)
+    description: A player that the function will use as arguments for `rescon`, `cancelcon`, and `breakcon`.
   - name: minc
     type: [ int ]
-    description: (To be added)
+    description: The minimum number of cards that must be checked.
   - name: maxc
     type: [ int ]
-    description: (To be added)
+    description: The maximum number of cards that must be checked.
   - name: rescon
-    type: [ function, nil ]
-    description: (To be added)
+    type: [ SubgroupFilter, nil ]
+    description: A `filter` to check what needs to be fulfilled.
   - name: chk
     type: [ int ]
-    description: (To be added)
-  - name: seltp
-    type: [ int ]
-    description: (To be added)
-  - name: hintmsg
-    type: [ int ]
-    description: (To be added)
-  - name: cancelcon
-    type: [ function, nil ]
-    description: (To be added)
-  - name: breakcon
-    type: [ function, nil ]
-    description: (To be added)
-  - name: cancelable
-    type: [ bool ]
-    description: (To be added)
+    description: An integer that defines the function's behavior. Pass in 0 to perform the check.
 returns:
-  - type: [ bool, Group ]
-    description: (To be added)
-tags: [ under-construction ]
+  - type: [ bool ]
+    description: If the selection can be performed.
+overloads:
+  - description: When performing the selection.
+    parameters:
+      - name: g
+        type: [ Group ]
+        description: The `Group` to choose from.
+      - name: e
+        type: [ Effect ]
+        description: An effect that the function will use as arguments for `rescon`, `cancelcon`, and `breakcon`.
+      - name: tp
+        type: [ int ]
+        description: A player that the function will use as arguments for `rescon`, `cancelcon`, and `breakcon`.
+      - name: minc
+        type: [ int ]
+        description: The minimum number of cards that must be selected.
+      - name: maxc
+        type: [ int ]
+        description: The maximum number of cards that must be selected.
+      - name: rescon
+        type: [ SubgroupFilter, nil ]
+        description: A `filter` to check what needs to be fulfilled.
+      - name: chk
+        type: [ int ]
+        description: An integer that defines the function's behavior. Pass in 1 to perform the selection.
+      - name: seltp
+        type: [ int ]
+        description: The player performing the selection.
+      - name: hintmsg
+        type: [ int ]
+        description: The `HINTMSG_` that will be displayed on selection.
+      - name: cancelcon
+        type: [ SubgroupFilter, nil ]
+        description: A `filter` that, when fulfilled, allows the player to cancel the selection.
+      - name: breakcon
+        type: [ SubgroupFilter, nil ]
+        description: A `filter` that, when fulfilled, automatically ends the selection.
+      - name: cancelable
+        type: [ bool ]
+        description: Allows the player to cancel the selection even if the conditions are not fulfilled.
+    returns:
+      - type: [ Group ]
+        description: The selected `Group`.

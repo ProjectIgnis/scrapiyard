@@ -8,13 +8,13 @@ status:
 parameters:
   - name: card_or_group
     type: [ Card, Group ]
-    description: The cards that will be affected by the operation.
+    description: The `Card`s that will be affected by the operation.
   - name: phase
     type: [ int ]
     description: Phase in which the operation will be performed.
   - name: flag
     type: [ int ]
-    description: A unique integer used as a flag to register on affected cards.
+    description: A unique integer used as a flag to register on affected `Card`s.
   - name: e
     type: [ Effect ]
     description: The effect performing the operation.
@@ -23,10 +23,10 @@ parameters:
     description: The player performing the operation.
   - name: oper
     type: [ function ]
-    description: A function with the signature (ag,e,tp,eg,ep,ev,re,r,rp), where `ag` is the group of affected cards.
+    description: A function with the signature `(ag,e,tp,eg,ep,ev,re,r,rp)`, where `ag` is the `Group` of affected `Card`s.
   - name: cond
     type: [ function ]
-    description: An additional condition function with the signature (ag,e,tp,eg,ep,ev,re,r,rp).
+    description: An additional condition function with the signature `(ag,e,tp,eg,ep,ev,re,r,rp)`.
     required: false
   - name: reset
     type: [ int ]
@@ -47,5 +47,5 @@ parameters:
     required: false
 returns:
   - type: [ effect ]
-    description: The effect that would perform the operation, or nil if no card/group or an empty group is passed.
+    description: The `Effect` that would perform the operation, or nil if no `Card`/`Group` or an empty `Group` is passed.
 
