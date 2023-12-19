@@ -2,30 +2,44 @@
 name: ToHandOrElse
 namespace: Auxiliary
 description: |-
-  Makes (int player) either add (card c|group tg) to hand or perform a secondary action. If the optional parameters are not provided, the default secondary action is to send the card or group to the GY. If  the provided (function check) is true (for all the cards in the group) , the secondary action, with string called from (str), will be the one defined in (function oper). The ellipsis (...), if used, allows extra parameters to be passed to (function check)
+  Makes a player either add `Card`(s) to the hand or send to the GY.
 status:
   index: stable
 parameters:
   - name: cg
     type: [ Card, Group ]
-    description: (To be added)
+    description: `Card`s will either be added to the hand or sent to the GY.
   - name: player
     type: [ int ]
-    description: (To be added)
-  - name: check
+    description: The player performs the action.
+returns:
+  - type: [ int ]
+  description: Total number of cards added to hand.
+overloads:
+  - description: Makes a player either add `Card`(s) to the hand or perform a secondary action.
+  parameters:
+    - name: cg
+    type: [ Card, Group ]
+    description: `Card`s will either be added to the hand or will have something done to them by the secondary action.
+    - name: player
+    type: [ int ]
+    description: The player performs the action.
+    - name: check
+    type: [ CardFilter ]
+    description: A `CardFilter` to check what needs to be fulfilled.
+    - name: oper
     type: [ function ]
-    description: (To be added)
-    required: false
-  - name: oper
-    type: [ function ]
-    description: (To be added)
-    required: false
-  - name: str
+    description: a operation function for secondary action with the signature `(c,...)` those signature behaves similarly to `CardFilter`.
+    - name: str
+    type: [ int ]
+    description: An integer representing a certain string to be used in the secondary option.
+    - name: ...
     type: [ any ]
-    description: (To be added)
+    description: Optional arguments will be passed to `CardFilter` and `oper`.
     required: false
-  - name: ...
-    type: [ any ]
-    description: (To be added)
-    required: false
-tags: [ under-construction ]
+  returns:
+  - type: [ any ]
+  description: The value that the `oper` function returns.
+suggestedLinks:
+  - name: CardFilter
+  link: https://projectignis.github.io/scrapi-book/api/types/CardFilter.html

@@ -2,7 +2,7 @@
 name: DelayedOperation
 namespace: Auxiliary
 description: |-
-  Performs an operation to a card or group each time a given phase is entered.
+  Performs an operation to a `Card`(s) each time a given phase is entered.
 status:
   index: stable
 parameters:
@@ -17,7 +17,7 @@ parameters:
     description: A unique integer used as a flag to register on affected `Card`s.
   - name: e
     type: [ Effect ]
-    description: The effect performing the operation.
+    description: The `Effect` performing the operation.
   - name: tp
     type: [ int ]
     description: The player performing the operation.
@@ -46,6 +46,6 @@ parameters:
     description: An integer representing a certain string to display on the LP bar of the player performing the operation.
     required: false
 returns:
-  - type: [ effect ]
+  - type: [ Effect ]
     description: The `Effect` that would perform the operation, or nil if no `Card`/`Group` or an empty `Group` is passed.
 

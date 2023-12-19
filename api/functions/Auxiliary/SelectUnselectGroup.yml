@@ -2,7 +2,7 @@
 name: SelectUnselect`Group`
 namespace: Auxiliary
 description: |-
-  Performs recursive checking and selection with a `Group`.
+  Performs recursive checking and selection on a `Group`.
 status:
   index: stable
 parameters:
@@ -11,10 +11,10 @@ parameters:
     description: The `Group` to check.
   - name: e
     type: [ Effect ]
-    description: An `Effet` that the function will use as arguments for `rescon`, `cancelcon`, and `breakcon`.
+    description: An `Effet` that the function will implicit use as arguments for `rescon`, `cancelcon`, and `breakcon`.
   - name: tp
     type: [ int ]
-    description: A player that the function will use as arguments for `rescon`, `cancelcon`, and `breakcon`.
+    description: A player that the function will implicit use as arguments for `rescon`, `cancelcon`, and `breakcon`.
   - name: minc
     type: [ int ]
     description: The minimum number of cards that must be checked.
@@ -26,7 +26,7 @@ parameters:
     description: A `filter` to check what needs to be fulfilled.
   - name: chk
     type: [ int ]
-    description: An integer that defines the function's behavior. Pass in 0 to perform the check.
+    description: An integer that defines the function's behavior. Must pass in 0 to perform the check.
 returns:
   - type: [ bool ]
     description: If the selection can be performed.
@@ -53,7 +53,7 @@ overloads:
         description: A `filter` to check what needs to be fulfilled.
       - name: chk
         type: [ int ]
-        description: An integer that defines the function's behavior. Pass in 1 to perform the selection.
+        description: An integer that defines the function's behavior. Must pass in 1 to perform the selection.
       - name: seltp
         type: [ int ]
         description: The player performing the selection.
