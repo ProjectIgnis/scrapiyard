@@ -2,11 +2,11 @@
 name: ShowHint
 namespace: Debug
 description: |-
-  Displays a message (string msg) on the screen.
+  In puzzles, displays a message on the screen.
+summary: Displays a message on the screen
 status:
   index: stable
 parameters:
-  - name: msg
+  - name: message
     type: [ string ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: A string that will be shown to the user as a hint message.

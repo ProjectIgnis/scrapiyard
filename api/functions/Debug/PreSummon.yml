@@ -2,7 +2,9 @@
 name: PreSummon
 namespace: Debug
 description: |-
-  Treats a card as if it was summoned by the provived summon type. Also supports summon locations and sequences.
+  In puzzles, treats a card as if it was summoned by the provided [SummonType](api/enums/SummonType).
+  The summon location and sequence can also be specified.
+summary: Sets the summon type, location, and/or sequence of a card.
 status:
   index: stable
 parameters:
@@ -11,19 +13,19 @@ parameters:
     description: The card that will be presummoned.
   - name: sum_type
     type: [ int ]
-    description: The summon type that will be applied to the card.
+    description: The [SummonType](api/enums/SummonType) that will be applied to the card.
   - name: sum_location
     type: [ int ]
-    description: If provided, the location the monster will be considered to be summoned from.
+    description: If provided, the [Location](api/enums/Location) the monster will be treated to be summoned from.
     required: false
     default: 0
-  - name: summon_sequence
+  - name: sum_sequence
     type: [ int ]
-    description: If provided, the sequence on the field in which the monster will be considered to be summoned in.
+    description: If provided, the sequence on the field in which the monster will be treated to be summoned in.
     required: false
     default: 0
-  - name: summon_pzone
+  - name: sum_pzone
     type: [ bool ]
-    description: Required to treat a card as summoned from the Pendulum Zone.
+    description: If true, treats the card as summoned from the Pendulum Zone.
     required: false
     default: false

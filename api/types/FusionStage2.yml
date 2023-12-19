@@ -1,0 +1,23 @@
+---!type
+name: FusionStage2
+supertype: function
+description: |-
+  An operation to perform in a Fusion Summon effect, after the monster has been summoned.
+summary: An operation to perform after a Fusion Summon
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: The Effect that performed the Fusion Summon.
+  - name: tc
+    type: [ Card ]
+    description: The monster that was Fusion Summoned.
+  - name: tp
+    type: [ int ]
+    description: The player that performed the Fusion Summon.
+  - name: sg
+    type: [ Group ]
+    description: The materials used for the Fusion Summon.
+  - name: chk
+    type: [ int ]
+    description: (To be added)
+tags: [ under-construction ]
