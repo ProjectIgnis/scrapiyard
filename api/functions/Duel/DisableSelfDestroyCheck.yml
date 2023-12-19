@@ -10,5 +10,5 @@ parameters:
     type: [ any ]
     description: (To be added)
     required: false
-    default: true
+    defaultValue: true
 tags: [ under-construction ]

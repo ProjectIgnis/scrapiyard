@@ -22,5 +22,5 @@ parameters:
     type: [ int ]
     description: (To be added)
     required: false
-    default: LOCATION_ONFIELD
+    defaultValue: LOCATION_ONFIELD
 tags: [ under-construction ]

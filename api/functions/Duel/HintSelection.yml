@@ -13,5 +13,5 @@ parameters:
     type: [ bool ]
     description: (To be added)
     required: false
-    default: false
+    defaultValue: false
 tags: [ under-construction ]

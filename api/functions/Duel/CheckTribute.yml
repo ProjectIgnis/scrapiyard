@@ -16,7 +16,7 @@ parameters:
     type: [ int ]
     description: (To be added)
     required: false
-    default: min
+    defaultValue: min
   - name: mg
     type: [ Group, nil ]
     description: (To be added)
@@ -25,7 +25,7 @@ parameters:
     type: [ int ]
     description: (To be added)
     required: false
-    default: c:GetControle
+    defaultValue: c:GetControle
 returns:
   - type: [ bool ]
     description: (To be added)

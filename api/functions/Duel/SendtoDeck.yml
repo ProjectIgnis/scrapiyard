@@ -12,7 +12,7 @@ parameters:
   - name: player
     type: [ int, nil ]
     description: (To be added)
-    default: PLAYER_NONE
+    defaultValue: PLAYER_NONE
   - name: seq
     type: [ int ]
     description: (To be added)

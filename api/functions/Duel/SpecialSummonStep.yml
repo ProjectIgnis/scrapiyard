@@ -31,7 +31,7 @@ parameters:
     type: [ int ]
     description: (To be added)
     required: false
-    default: 0xff
+    defaultValue: 0xff
 returns:
   - type: [ bool ]
     description: (To be added)

@@ -22,7 +22,7 @@ parameters:
     type: [ bool ]
     description: (To be added)
     required: false
-    default: false
+    defaultValue: false
 returns:
   - type: [ Group ]
     description: (To be added)

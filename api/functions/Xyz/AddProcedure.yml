@@ -27,7 +27,7 @@ parameters:
   - name: maxct
     type: [ int ]
     description: (To be added)
-    default: ct
+    defaultValue: ct
   - name: op
     type: [ function ]
     description: (To be added)

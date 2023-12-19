@@ -19,7 +19,7 @@ parameters:
     type: [ int ]
     description: (To be added)
     required: false
-    default: minc]
+    defaultValue: minc]
   - name: use_hand
     type: [ bool ]
     description: (To be added)

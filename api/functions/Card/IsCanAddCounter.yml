@@ -19,7 +19,7 @@ parameters:
     type: [ bool ]
     description: (To be added)
     required: false
-    default: false
+    defaultValue: false
   - name: loc
     type: [ int ]
     description: (To be added)

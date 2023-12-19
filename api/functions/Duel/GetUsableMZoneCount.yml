@@ -13,7 +13,7 @@ parameters:
     type: [ int ]
     description: (To be added)
     required: false
-    default: reason_player
+    defaultValue: reason_player
 returns:
   - type: [ int ]
     description: (To be added)

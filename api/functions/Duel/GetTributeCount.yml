@@ -13,12 +13,12 @@ parameters:
     type: [ Group ]
     description: (To be added)
     required: false
-    default: nil
+    defaultValue: nil
   - name: ex
     type: [ bool ]
     description: (To be added)
     required: false
-    default: false
+    defaultValue: false
 returns:
   - type: [ int ]
     description: (To be added)

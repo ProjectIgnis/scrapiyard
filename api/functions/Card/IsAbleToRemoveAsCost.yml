@@ -13,7 +13,7 @@ parameters:
     type: [ int ]
     description: (To be added)
     required: false
-    default: POS_FACEUP
+    defaultValue: POS_FACEUP
 returns:
   - type: [ bool ]
     description: (To be added)

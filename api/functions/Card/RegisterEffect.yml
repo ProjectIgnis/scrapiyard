@@ -16,7 +16,7 @@ parameters:
     type: [ bool ]
     description: (To be added)
     required: false
-    default: false
+    defaultValue: false
   - name: ...
     type: [ any ]
     description: (To be added)

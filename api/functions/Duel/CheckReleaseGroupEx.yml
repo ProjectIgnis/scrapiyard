@@ -19,37 +19,37 @@ parameters:
     type: [ bool ]
     description: (To be added)
     required: false
-    default: true
+    defaultValue: true
   - name: max
     type: [ int ]
     description: (To be added)
     required: false
-    default: min
+    defaultValue: min
   - name: check_field
     type: [ bool ]
     description: (To be added)
     required: false
-    default: false
+    defaultValue: false
   - name: card_to_check
     type: [ Card ]
     description: (To be added)
     required: false
-    default: nil
+    defaultValue: nil
   - name: to_player
     type: [ int ]
     description: (To be added)
     required: false
-    default: player
+    defaultValue: player
   - name: zone
     type: [ int ]
     description: (To be added)
     required: false
-    default: 0xff
+    defaultValue: 0xff
   - name: use_oppo
     type: [ bool ]
     description: (To be added)
     required: false
-    default: false]
+    defaultValue: false]
   - name: ex
     type: [ Group, Card, nil ]
     description: (To be added)
