@@ -19,12 +19,12 @@ parameters:
     type: [ bool ]
     description: (To be added)
     required: false
-    default: false
+    defaultValue: false
   - name: rp
     type: [ int ]
     description: (To be added)
     required: false
-    default: reason_player
+    defaultValue: reason_player
 returns:
   - type: [ int ]
     description: (To be added)

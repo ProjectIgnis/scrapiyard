@@ -16,12 +16,12 @@ parameters:
     type: [ bool ]
     description: (To be added)
     required: false
-    default: false
+    defaultValue: false
   - name: ignore_target
     type: [ bool ]
     description: (To be added)
     required: false
-    default: false
+    defaultValue: false
 returns:
   - type: [ bool ]
     description: (To be added)

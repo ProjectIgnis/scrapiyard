@@ -16,27 +16,27 @@ parameters:
     type: [ FusionMaterialFilter ]
     description: A filter that must return true for the candidate materials.
     required: false
-    default: Card.IsAbleToGrave
+    defaultValue: Card.IsAbleToGrave
   - name: extrafil
     type: [ FusionExtraMaterial ]
     description: A function that returns an additional group of materials.
     required: false
-    default: nil
+    defaultValue: nil
   - name: extraop
     type: [ FusionMaterialOperation ]
     description: A function to perform on the Fusion materials.
     required: false
-    default: nil
+    defaultValue: nil
   - name: gc
     type: [ Card, Group, FusionMandatoryMaterial ]
     description: Card(s) that must be used as materials.
     required: false
-    default: nil
+    defaultValue: nil
   - name: stage2
     type: [ FusionStage2 ]
     description: A function to perform after the summon.
     required: false
-    default: nil
+    defaultValue: nil
   - name: exactcount
     type: [ int ]
     description: |-
@@ -47,57 +47,57 @@ parameters:
     type: [ int ]
     description: The summon type that will be use for the summon.
     required: false
-    default: SUMMON_TYPE_FUSION|MATERIAL_FUSION
+    defaultValue: SUMMON_TYPE_FUSION|MATERIAL_FUSION
   - name: location
     type: [ int ]
     description: The location the monsters can be summoned from.
     required: false
-    default: LOCATION_EXTRA
+    defaultValue: LOCATION_EXTRA
   - name: chkf
     type: [ int ]
     description: A [FusionProcFlag](/api/enums/FusionProcFlag) to be used for the Fusion Summon.
     required: false
-    default: chkf and chkf|tp or tp
+    defaultValue: chkf and chkf|tp or tp
   - name: desc
     type: [ string ]
     description: An integer pointing to a string for the effect's description.
     required: false
-    default: 1170
+    defaultValue: 1170
   - name: preselect
     type: [ function ]
     description: |-
       A function to perform before Fusion Summoning a selected monster.
       If this function is provided, the Fusion Summon can not be cancelled.
     required: false
-    default: nil
+    defaultValue: nil
   - name: nosummoncheck
     type: [ bool ]
     description: |-
       If true, the monster does not need to be Special Summonable in its current state.
     required: false
-    default: false
+    defaultValue: false
   - name: extratg
     type: [ EffectTarget ]
     description: |-
       Additional target function that will be executed when activating the effect.
       Useful when extra operation info must be set.
     required: false
-    default: false
+    defaultValue: false
   - name: mincount
     type: [ int ]
     description: The minimum number of materials that must be used.
     required: false
-    default: nil
+    defaultValue: nil
   - name: maxcount
     type: [ int ]
     description: The maximum number of materials that can be used.
     required: false
-    default: nil
+    defaultValue: nil
   - name: sumpos
     type: [ int ]
     description: The monster's summoning position.
     required: false
-    default: POS_FACEUP
+    defaultValue: POS_FACEUP
 returns:
   - type: [ EffectTarget ]
     description: The resulting Fusion Summon target function.

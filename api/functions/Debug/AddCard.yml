@@ -29,7 +29,7 @@ parameters:
     type: [ bool ]
     description: a boolean that will be used to flag the card as properly summoned or not.
     required: false
-    default: false
+    defaultValue: false
 returns:
   - type: [ Card ]
     description: The card that is created.

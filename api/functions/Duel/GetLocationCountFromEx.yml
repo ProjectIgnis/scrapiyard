@@ -17,17 +17,17 @@ parameters:
     type: [ Group, Card ]
     description: (To be added)
     required: false
-    default: nil
+    defaultValue: nil
   - name: lc
     type: [ Card, int ]
     description: (To be added)
     required: false
-    default: nil
+    defaultValue: nil
   - name: zone
     type: [ int ]
     description: (To be added)
     required: false
-    default: 0xff
+    defaultValue: 0xff
 returns:
   - type: [ int ]
     description: (To be added)

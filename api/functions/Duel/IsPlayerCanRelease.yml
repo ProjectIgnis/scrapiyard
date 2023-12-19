@@ -17,7 +17,7 @@ parameters:
     type: [ int ]
     description: (To be added)
     required: false
-    default: REASON_COST
+    defaultValue: REASON_COST
 returns:
   - type: [ bool ]
     description: (To be added)

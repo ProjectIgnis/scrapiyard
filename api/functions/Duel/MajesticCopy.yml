@@ -20,5 +20,5 @@ parameters:
     type: [ int ]
     description: (To be added)
     required: false
-    default: 1
+    defaultValue: 1
 tags: [ under-construction ]

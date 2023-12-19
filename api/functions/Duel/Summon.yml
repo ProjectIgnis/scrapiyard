@@ -22,10 +22,10 @@ parameters:
     type: [ any ]
     description: (To be added)
     required: false
-    default: 0
+    defaultValue: 0
   - name: zone
     type: [ int ]
     description: (To be added)
     required: false
-    default: 0x1f
+    defaultValue: 0x1f
 tags: [ under-construction ]

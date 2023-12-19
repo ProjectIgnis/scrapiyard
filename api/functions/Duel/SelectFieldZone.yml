@@ -22,7 +22,7 @@ parameters:
     type: [ int ]
     description: (To be added)
     required: false
-    default: 0xe0e0e0e0
+    defaultValue: 0xe0e0e0e0
 returns:
   - type: [ int ]
     description: (To be added)

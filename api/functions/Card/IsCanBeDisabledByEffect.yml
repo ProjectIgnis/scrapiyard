@@ -13,7 +13,7 @@ parameters:
     type: [ bool ]
     description: (To be added)
     required: false
-    default: true
+    defaultValue: true
 returns:
   - type: [ bool ]
     description: (To be added)

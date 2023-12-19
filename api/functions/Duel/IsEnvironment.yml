@@ -13,12 +13,12 @@ parameters:
     type: [ int ]
     description: (To be added)
     required: false
-    default: PLAYER_ALL
+    defaultValue: PLAYER_ALL
   - name: location
     type: [ int ]
     description: (To be added)
     required: false
-    default: LOCATION_ONFIELD|LOCATION_FZONE
+    defaultValue: LOCATION_ONFIELD|LOCATION_FZONE
 returns:
   - type: [ bool ]
     description: (To be added)
