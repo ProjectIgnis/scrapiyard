@@ -2,7 +2,7 @@
 name: ForcedHandler
 namespace: Fusion
 description: |-
-  A [FusionMandatoryMaterial](api/types/FusionMandatoryMaterial) function that
+  A [FusionMandatoryMaterial](/api/types/FusionMandatoryMaterial) function that
   makes the handler of the effect a mandatory material.
 summary: Makes the handler of the effect a mandatory material
 status:

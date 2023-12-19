@@ -52,6 +52,6 @@ This is a details block.
 
 ## Internal Linking
 
-When linking to another API documentation entry, use the entry's filepath starting from `api/` and removing the `.yml`.
-For example, to link to the `Card.AddCounter` entry, use `api/Card/AddCounter`
+When linking to another API documentation entry, use the entry's filepath starting from `/api/` and removing the `.yml`.
+For example, to link to the `Card.AddCounter` entry, use `/api/Card/AddCounter`
 (though unfortunately, github doesn't resolve links in yaml files so there will be no visual feedback).

@@ -60,7 +60,7 @@ parameters:
     default: LOCATION_EXTRA
   - name: chkf
     type: [ int ]
-    description: A [FusionProcFlag](api/enums/FusionProcFlag) to be used for the Fusion Summon.
+    description: A [FusionProcFlag](/api/enums/FusionProcFlag) to be used for the Fusion Summon.
     required: false
     default: chkf and chkf|tp or tp
   - name: desc

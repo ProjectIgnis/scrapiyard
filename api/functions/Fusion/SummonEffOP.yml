@@ -2,7 +2,7 @@
 name: SummonEffOP
 namespace: Fusion
 description: |-
-  Creates an [EffectOperation](api/types/EffectOperation) to be executed by a Fusion Summon effect.
+  Creates an [EffectOperation](/api/types/EffectOperation) to be executed by a Fusion Summon effect.
 status:
   index: stable
 parameters:
@@ -55,7 +55,7 @@ parameters:
     default: LOCATION_EXTRA
   - name: chkf
     type: [ int ]
-    description: A [FusionProcFlag](api/enums/FusionProcFlag) to be used for the Fusion Summon.
+    description: A [FusionProcFlag](/api/enums/FusionProcFlag) to be used for the Fusion Summon.
     required: false
     default: chkf and chkf|tp or tp
   - name: desc

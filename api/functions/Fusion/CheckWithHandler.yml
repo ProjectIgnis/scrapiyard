@@ -2,7 +2,7 @@
 name: CheckWithHandler
 namespace: Fusion
 description: |-
-  Creates a [FusionMaterialFilter](api/types/FusionMaterialFilter) that checks if
+  Creates a [FusionMaterialFilter](/api/types/FusionMaterialFilter) that checks if
   the material is also the handler of the summoning effect, along with other provided filters.
 status:
   index: stable

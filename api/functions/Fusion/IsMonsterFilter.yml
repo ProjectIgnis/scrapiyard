@@ -2,7 +2,7 @@
 name: IsMonsterFilter
 namespace: Fusion
 description: |-
-  Creates a [FusionMaterialFilter](api/types/FusionMaterialFilter) that checks if
+  Creates a [FusionMaterialFilter](/api/types/FusionMaterialFilter) that checks if
   the material is a monster, along with other provided filters.
 status:
   index: stable

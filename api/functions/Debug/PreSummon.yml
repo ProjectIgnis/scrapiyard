@@ -2,7 +2,7 @@
 name: PreSummon
 namespace: Debug
 description: |-
-  In puzzles, treats a card as if it was summoned by the provided [SummonType](api/enums/SummonType).
+  In puzzles, treats a card as if it was summoned by the provided [SummonType](/api/enums/SummonType).
   The summon location and sequence can also be specified.
 summary: Sets the summon type, location, and/or sequence of a card.
 status:
@@ -13,10 +13,10 @@ parameters:
     description: The card that will be presummoned.
   - name: sum_type
     type: [ int ]
-    description: The [SummonType](api/enums/SummonType) that will be applied to the card.
+    description: The [SummonType](/api/enums/SummonType) that will be applied to the card.
   - name: sum_location
     type: [ int ]
-    description: If provided, the [Location](api/enums/Location) the monster will be treated to be summoned from.
+    description: If provided, the [Location](/api/enums/Location) the monster will be treated to be summoned from.
     required: false
     default: 0
   - name: sum_sequence
