@@ -16,5 +16,5 @@ parameters:
     type: [ int ]
     description: (To be added)
     required: false
-    default: s_time
+    defaultValue: s_time
 tags: [ under-construction ]

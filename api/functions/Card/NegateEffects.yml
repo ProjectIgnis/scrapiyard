@@ -20,10 +20,10 @@ parameters:
     type: [ bool ]
     description: (To be added)
     required: false
-    default: false
+    defaultValue: false
   - name: ct
     type: [ int ]
     description: (To be added)
     required: false
-    default: 1
+    defaultValue: 1
 tags: [ under-construction ]

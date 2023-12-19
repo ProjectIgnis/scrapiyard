@@ -16,7 +16,7 @@ parameters:
     type: [ int ]
     description: (To be added)
     required: false
-    default: 0|{
+    defaultValue: 0|{
   - name: hopt_index
     type: [ int ]
     description: (To be added)

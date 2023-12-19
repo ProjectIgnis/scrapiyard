@@ -16,22 +16,22 @@ parameters:
     type: [ int ]
     description: (To be added)
     required: false
-    default: au
+    defaultValue: au
   - name: du
     type: [ int ]
     description: (To be added)
     required: false
-    default: au
+    defaultValue: au
   - name: dd
     type: [ int ]
     description: (To be added)
     required: false
-    default: au
+    defaultValue: au
   - name: noflip
     type: [ bool ]
     description: (To be added)
     required: false
-    default: false
+    defaultValue: false
 returns:
   - type: [ int ]
     description: (To be added)

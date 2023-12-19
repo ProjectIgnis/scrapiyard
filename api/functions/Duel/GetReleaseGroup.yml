@@ -13,17 +13,17 @@ parameters:
     type: [ bool ]
     description: (To be added)
     required: false
-    default: false
+    defaultValue: false
   - name: use_oppo
     type: [ bool ]
     description: (To be added)
     required: false
-    default: false
+    defaultValue: false
   - name: reason
     type: [ int ]
     description: (To be added)
     required: false
-    default: REASON_COST
+    defaultValue: REASON_COST
 returns:
   - type: [ Group ]
     description: (To be added)

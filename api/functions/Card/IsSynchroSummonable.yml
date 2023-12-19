@@ -21,12 +21,12 @@ parameters:
     type: [ int ]
     description: (To be added)
     required: false
-    default: 0
+    defaultValue: 0
   - name: max
     type: [ int ]
     description: (To be added)
     required: false
-    default: 0
+    defaultValue: 0
 returns:
   - type: [ bool ]
     description: (To be added)

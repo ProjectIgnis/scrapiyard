@@ -16,7 +16,7 @@ parameters:
     type: [ int ]
     description: (To be added)
     required: false
-    default: PLAYER_NONE
+    defaultValue: PLAYER_NONE
 returns:
   - type: [ Effect, nil ]
     description: (To be added)

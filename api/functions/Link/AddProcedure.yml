@@ -20,7 +20,7 @@ parameters:
     type: [ int ]
     description: The maximum number of monsters that can be used.
     required: false
-    default: c:GetLink()
+    defaultValue: c:GetLink()
   - name: specialchk
     type: [ function]
     description: |-
@@ -28,12 +28,12 @@ parameters:
         The signature of this function must be (c,lc,SUMMON_TYPE_LINK|MATERIAL_LINK,tp) where `c` is the card to be used as material,
         `lc` is the card to be summoned and tp is the player doing the summon.
     required: false
-    default: nil
+    defaultValue: nil
   - name: des
     type: [ int]
     description:  |-
         An integer pointing to a string to be used as description when the player attempts the summon.
         Useful for monsters with multiple summoning procedures.
     required: false
-    default: |-
+    defaultValue: |-
         The default string 1174: "Link Summon".

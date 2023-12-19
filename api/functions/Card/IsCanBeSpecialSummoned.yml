@@ -28,17 +28,17 @@ parameters:
     type: [ int ]
     description: (To be added)
     required: false
-    default: POS_FACEUP
+    defaultValue: POS_FACEUP
   - name: target_player
     type: [ int ]
     description: (To be added)
     required: false
-    default: sumplayer
+    defaultValue: sumplayer
   - name: zone
     type: [ int ]
     description: (To be added)
     required: false
-    default: 0xff
+    defaultValue: 0xff
 returns:
   - type: [ bool ]
     description: (To be added)

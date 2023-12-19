@@ -19,17 +19,17 @@ parameters:
     type: [ int ]
     description: (To be added)
     required: false
-    default: POS_FACEUP
+    defaultValue: POS_FACEUP
   - name: player
     type: [ int ]
     description: (To be added)
     required: false
-    default: PLAYER_NONE
+    defaultValue: PLAYER_NONE
   - name: sequence
     type: [ int ]
     description: (To be added)
     required: false
-    default: 0
+    defaultValue: 0
   - name: rp
     type: [ int ]
     description: (To be added)

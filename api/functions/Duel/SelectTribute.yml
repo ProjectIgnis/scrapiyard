@@ -26,17 +26,17 @@ parameters:
     type: [ int ]
     description: (To be added)
     required: false
-    default: player
+    defaultValue: player
   - name: zone
     type: [ int ]
     description: (To be added)
     required: false
-    default: 0x1f
+    defaultValue: 0x1f
   - name: cancelable
     type: [ bool ]
     description: (To be added)
     required: false
-    default: false
+    defaultValue: false
 returns:
   - type: [ Group ]
     description: (To be added)

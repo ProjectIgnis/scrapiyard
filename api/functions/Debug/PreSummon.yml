@@ -18,14 +18,14 @@ parameters:
     type: [ int ]
     description: If provided, the [Location](/api/enums/Location) the monster will be treated to be summoned from.
     required: false
-    default: 0
+    defaultValue: 0
   - name: sum_sequence
     type: [ int ]
     description: If provided, the sequence on the field in which the monster will be treated to be summoned in.
     required: false
-    default: 0
+    defaultValue: 0
   - name: sum_pzone
     type: [ bool ]
     description: If true, treats the card as summoned from the Pendulum Zone.
     required: false
-    default: false
+    defaultValue: false

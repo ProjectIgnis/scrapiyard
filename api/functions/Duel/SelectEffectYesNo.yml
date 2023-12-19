@@ -16,7 +16,7 @@ parameters:
     type: [ int ]
     description: (To be added)
     required: false
-    default: 3
+    defaultValue: 3
 returns:
   - type: [ bool ]
     description: (To be added)

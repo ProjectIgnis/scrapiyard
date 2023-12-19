@@ -17,12 +17,12 @@ parameters:
     type: [ int ]
     description: (To be added)
     required: false
-    default: SUMMON_TYPE_FUSION
+    defaultValue: SUMMON_TYPE_FUSION
   - name: playerid
     type: [ int ]
     description: (To be added)
     required: false
-    default: reason
+    defaultValue: reason
 returns:
   - type: [ bool ]
     description: (To be added)

@@ -17,12 +17,12 @@ parameters:
     type: [ int ]
     description: (To be added)
     required: false
-    default: 12
+    defaultValue: 12
   - name: exception
     type: [ int ]
     description: (To be added)
     required: false
-    default: nil
+    defaultValue: nil
   - name: ...
     type: [ any ]
     description: (To be added)
