@@ -2,79 +2,77 @@
 name: SelectUnselectGroup
 namespace: Auxiliary
 description: |-
-  Performs recursive checking and selection on a `Group`.
+  Checks if a subgroup that fulfills a function exists in a group,
+  or lets a player select a subgroup that fulfills a function from a group.
+summary: Checks or lets a player select a subgroup from a group.
 status:
   index: stable
 parameters:
   - name: g
     type: [ Group ]
-    description: The `Group` to check.
+    description: The group to check.
   - name: e
     type: [ Effect ]
-    description: An `Effet` that the function will implicit use as arguments for `rescon`, `cancelcon`, and `breakcon`.
+    description: The effect that will be passed to `rescon`.
   - name: tp
     type: [ int ]
-    description: A player that the function will implicit use as arguments for `rescon`, `cancelcon`, and `breakcon`.
+    description: The player that will be passed to `rescon`.
   - name: minc
     type: [ int ]
-    description: The minimum number of cards that must be checked.
+    description: The minimum size of the subgroup that must exist in `g`.
   - name: maxc
     type: [ int ]
-    description: The maximum number of cards that must be checked.
-  - name: rescon
-    type: [ SubgroupFilter, nil ]
-    description: A `filter` to check what needs to be fulfilled.
+    description: The maximum number of the subgroup that must exist in `g`.
+  - &rescon
+    name: rescon
+    type: [ SubgroupCheck, nil ]
+    description: The function that must return true for a matching subgroup.
   - name: chk
     type: [ int ]
-    description: An integer that defines the function's behavior. Must pass in 0 to perform the check.
+    description: Must be `0` when checking.
 returns:
   - type: [ bool ]
-    description: If the selection can be performed.
+    description: Returns `true` if a subgroup matches `rescon`.
 overloads:
-  - description: When performing the selection.
+  - description: When performing the selection, (i.e., `chk` is `1`). Allows
     parameters:
       - name: g
         type: [ Group ]
-        description: The `Group` to choose from.
+        description: The group to choose from.
       - name: e
         type: [ Effect ]
-        description: An effect that the function will use as arguments for `rescon`, `cancelcon`, and `breakcon`.
+        description: The effect that will be passed to `rescon`, `cancelcon`, and `breakcon`.
       - name: tp
         type: [ int ]
-        description: A player that the function will use as arguments for `rescon`, `cancelcon`, and `breakcon`.
+        description: The player that will be passed to `rescon`, `cancelcon`, and `breakcon`.
       - name: minc
         type: [ int ]
-        description: The minimum number of cards that must be selected.
+        description: The minimum number of cards to be selected.
       - name: maxc
         type: [ int ]
-        description: The maximum number of cards that must be selected.
-      - name: rescon
-        type: [ SubgroupFilter, nil ]
-        description: A `filter` to check what needs to be fulfilled.
+        description: The maximum number of cards to be selected.
+      - *rescon
       - name: chk
         type: [ int ]
-        description: An integer that defines the function's behavior. Must pass in 1 to perform the selection.
+        description: Must be `1` to perform the selection.
       - name: seltp
         type: [ int ]
         description: The player performing the selection.
       - name: hintmsg
         type: [ int ]
-        description: The `HINTMSG_` that will be displayed on selection.
+        description: The [HintMessage](/api/enums/HintMessage) that will be displayed on selection.
       - name: cancelcon
-        type: [ SubgroupFilter, nil ]
-        description: A `filter` that, when fulfilled, allows the player to cancel the selection.
+        type: [ SubgroupCheck, nil ]
+        description: A function that allows the player to cancel the selection if it returns `true` for the current selection.
         required: false
       - name: breakcon
-        type: [ SubgroupFilter, nil ]
-        description: A `filter` that, when fulfilled, automatically ends the selection.
+        type: [ SubgroupCheck, nil ]
+        description: A function that forcibly stops the selection it returns `true` for the current selection.
         required: false
       - name: cancelable
         type: [ bool ]
-        description: Allows the player to cancel the selection even if the conditions are not fulfilled.
+        description: If `true`, allows the player to cancel the selection even if the conditions are not fulfilled.
         required: false
     returns:
       - type: [ Group ]
-        description: The selected `Group`
-suggestedLinks:
-  - name: SubgroupFilter
-    link: https://projectignis.github.io/scrapi-book/api/types/SubgroupFilter.html#subgroupfilter
+        description: The selected group.
