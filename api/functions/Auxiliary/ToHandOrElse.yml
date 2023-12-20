@@ -8,7 +8,7 @@ status:
 parameters:
   - name: cg
     type: [ Card, Group ]
-    description: `Card`s will either be added to the hand or sent to the GY.
+    description: `Card`s will be either added to the hand or sent to the GY.
   - name: player
     type: [ int ]
     description: The player performs the action.
