@@ -6,14 +6,15 @@ description: |-
 summary: Performs an operation on cards each time a given phase is entered
 status:
   index: unstable
-  message: `oper` and `cond`'s signatures may change later.
+  message: |-
+    `oper` and `cond`'s signatures may change later.
 parameters:
   - name: cs
     type: [ Card, Group ]
     description: The cards to perform the operation on.
   - name: phase
     type: [ int ]
-    description: The [Phase](api/Enums/Phase) in which the operation will be performed.
+    description: The [Phase](/api/Enums/Phase) in which the operation will be performed.
   - name: flag
     type: [ int ]
     description: A unique integer used as a flag to register on the affected cards.

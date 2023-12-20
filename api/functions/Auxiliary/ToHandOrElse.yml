@@ -1,45 +1,37 @@
 ---!function
 name: ToHandOrElse
 namespace: Auxiliary
-description: |-
-  Makes a player either add `Card`(s) to the hand or send to the GY.
+description: Makes a player either add cards to the hand or perform an alternative action.
 status:
   index: stable
 parameters:
-  - name: cg
+  - &cg
+    name: cg
     type: [ Card, Group ]
-    description: The `Card`s to be either added to the hand or sent to the GY.
-  - name: player
+    description: The cards to be either be added to the hand or perform the alternative action on.
+  - &player
+    name: player
     type: [ int ]
-    description: The player performs the action.
+    description: The player performing the action.
+  - name: check
+    type: [ CardFilter ]
+    description: A filter that the card must fulfill to allow the alternative action.
+  - name: oper
+    type: [ CardFilter ]
+    description: An operation to perform on a card, returning `true` if it succeeds.
+  - name: str
+    type: [ int ]
+    description: An integer representing a string to use as prompt option for the alternative action.
+  - name: ...
+    type: [ any ]
+    description: Optional arguments to be passed to `check` and `oper`.
+    required: false
 returns:
-  - type: [ int ]
-    description: Total number of cards added to hand.
+  - type: [ any ]
+    description: Returns `true` if the action was performed successfully.
 overloads:
-  - description: Makes a player either add `Card`(s) to the hand or perform a secondary action.
+  - description: Shortcut if the alternative action is sending to the GY.
     parameters:
-      - name: cg
-        type: [ Card, Group ]
-        description: The `Card`s to be either be added to the hand or will have something done to them by the secondary action.
-      - name: player
-        type: [ int ]
-        description: The player performs the action.
-      - name: check
-        type: [ CardFilter ]
-        description: A `CardFilter` for secondary action to check what needs to be fulfilled.
-      - name: oper
-        type: [ function ]
-        description: An operation function for secondary action with the signature `(c,...)` those behaves similarly to `CardFilter`.
-      - name: str
-        type: [ int ]
-        description: An integer representing a certain string to be used in the secondary option.
-      - name: ...
-        type: [ any ]
-        description: Optional arguments will be passed to `CardFilter` and `oper`.
-        required: false
-    returns:
-      - type: [ any ]
-        description: The value that the `oper` function returns.
-suggestedLinks:
-  - name: CardFilter
-    link: https://projectignis.github.io/scrapi-book/api/types/CardFilter.html
+      - <<: *cg
+        description: The cards to be either be added to the hand or sent to the GY.
+      - *player
