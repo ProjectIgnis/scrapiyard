@@ -31,6 +31,7 @@ parameters:
   - name: reset
     type: [ int ]
     description: Reset value to determine the point at which the operation will no longer be performed after that.
+    required: false
     defaultValue: PHASE_END+phase
   - name: reset_count
     type: [ int ]
