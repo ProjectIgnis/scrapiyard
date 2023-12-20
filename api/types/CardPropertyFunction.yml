@@ -1,0 +1,16 @@
+---!type
+name: CardPropertyFunction
+supertype: function
+description: &desc |-
+  A function that returns a card's "property" - any information about the card.
+summary:  A function that returns a card's property
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The subject card.
+  - name: ...
+    type: [ any ]
+    description: Additional arguments, usually passed by the function using the CardPropertyFunction.
+returns:
+  - type: [ any ]
+    description: The card's property.

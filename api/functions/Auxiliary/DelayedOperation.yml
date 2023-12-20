@@ -2,44 +2,53 @@
 name: DelayedOperation
 namespace: Auxiliary
 description: |-
-  Performs an operation to a card(s) each time a given phase is entered. Returns the effect that would perform the operation, or nil if no card/group or an empty group is passed. Parameters: - Card|Group card_or_group: the cards that will be affected, - int phase: the phase when `oper` will be applied to the banished cards, - int flag: a unique integer to be registered as a flag on the affected cards, - Effect e: the effect performing the banishment, - int tp: the player performing the banishment, and will later perform `oper`, - function oper: a function with the signature (ag,e,tp,eg,ep,ev,re,r,rp)  where `ag` is the group of affected cards, - function|nil cond: an additional condition function with the signature (ag,e,tp,eg,ep,ev,re,r,rp). `ag` is already checked if it's not empty., - int|nil reset: the reset value. If not passed, the reset will be `RESET_PHASE+phase`, - int|nil reset_count: how many times the reset value must happen. If not passed, the count will be 1., - int|nil hint: a string to show on the affected cards, - int|nil effect_desc: a string to be used as the description of the delayed effect (useful when the same effect registers multiple different delayed effects)
+  Creates an effect that performs an operation on cards each time a given phase is entered.
+summary: Performs an operation on cards each time a given phase is entered
 status:
-  index: stable
+  index: unstable
+  message: |-
+    `oper` and `cond`'s signatures may change later.
 parameters:
-  - name: card_or_group
-    type: [ any ]
-    description: (To be added)
+  - name: cs
+    type: [ Card, Group ]
+    description: The cards to perform the operation on.
   - name: phase
-    type: [ any ]
-    description: (To be added)
+    type: [ int ]
+    description: The [Phase](/api/Enums/Phase) in which the operation will be performed.
   - name: flag
-    type: [ any ]
-    description: (To be added)
+    type: [ int ]
+    description: A unique integer used as a flag to register on the affected cards.
   - name: e
-    type: [ any ]
-    description: (To be added)
+    type: [ Effect ]
+    description: The effect performing the operation.
   - name: tp
-    type: [ any ]
-    description: (To be added)
+    type: [ int ]
+    description: The player performing the operation.
   - name: oper
-    type: [ any ]
-    description: (To be added)
+    type: [ DelayedEffectOperation ]
+    description: The operation to perform on the cards.
   - name: cond
-    type: [ any ]
-    description: (To be added)
+    type: [ DelayedEffectCondition ]
+    description: Additional checks to perform on the cards before performing the operation.
+    required: false
   - name: reset
-    type: [ any ]
-    description: (To be added)
+    type: [ int ]
+    description: Reset value to determine the point at which the operation will no longer be performed after.
+    required: false
+    defaultValue: PHASE_END|phase
   - name: reset_count
-    type: [ any ]
-    description: (To be added)
+    type: [ int ]
+    description: How many times the reset value must happen.
+    required: false
+    defaultValue: 1
   - name: hint
-    type: [ any ]
-    description: (To be added)
+    type: [ int ]
+    description: An integer representing a string to show on affected cards.
+    required: false
   - name: effect_desc
-    type: [ any ]
-    description: (To be added)
+    type: [ int ]
+    description: An integer representing a string to display on the LP bar of the player performing the operation.
+    required: false
 returns:
-  - type: [ effect ]
-    description: (To be added)
-tags: [ under-construction ]
+  - type: [ Effect, nil ]
+    description: The effect that would perform the operation, or `nil` if an empty group is passed.

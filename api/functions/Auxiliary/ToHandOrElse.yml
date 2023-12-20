@@ -1,31 +1,37 @@
 ---!function
 name: ToHandOrElse
 namespace: Auxiliary
-description: |-
-  Makes (int player) either add (card c|group tg) to hand or perform a secondary action. If the optional parameters are not provided, the default secondary action is to send the card or group to the GY. If  the provided (function check) is true (for all the cards in the group) , the secondary action, with string called from (str), will be the one defined in (function oper). The ellipsis (...), if used, allows extra parameters to be passed to (function check)
+description: Makes a player either add cards to the hand or perform an alternative action.
 status:
   index: stable
 parameters:
-  - name: cg
+  - &cg
+    name: cg
     type: [ Card, Group ]
-    description: (To be added)
-  - name: player
+    description: The cards to be either be added to the hand or perform the alternative action on.
+  - &player
+    name: player
     type: [ int ]
-    description: (To be added)
+    description: The player performing the action.
   - name: check
-    type: [ function ]
-    description: (To be added)
-    required: false
+    type: [ CardFilter ]
+    description: A filter that the card must fulfill to allow the alternative action.
   - name: oper
-    type: [ function ]
-    description: (To be added)
-    required: false
+    type: [ CardFilter ]
+    description: An operation to perform on a card, returning `true` if it succeeds.
   - name: str
-    type: [ any ]
-    description: (To be added)
-    required: false
+    type: [ int ]
+    description: An integer representing a string to use as prompt option for the alternative action.
   - name: ...
     type: [ any ]
-    description: (To be added)
+    description: Optional arguments to be passed to `check` and `oper`.
     required: false
-tags: [ under-construction ]
+returns:
+  - type: [ any ]
+    description: Returns `true` if the action was performed successfully.
+overloads:
+  - description: Shortcut if the alternative action is sending to the GY.
+    parameters:
+      - <<: *cg
+        description: The cards to be either be added to the hand or sent to the GY.
+      - *player

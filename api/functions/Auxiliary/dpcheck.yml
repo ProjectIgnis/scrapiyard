@@ -2,14 +2,43 @@
 name: dpcheck
 namespace: Auxiliary
 description: |-
-  Checks for cards with different properties (the property defined in function f, for example, Card.GetLevel, GetAttribute, GetRace, GetCode, etc). Usually used with aux.SelectUnselectGroup.
+  Creates a [SubgroupCheck](/api/types/SubgroupCheck) that returns true for subgroups
+  with cards that have unique/different properties.
+summary: Creates a subgroup check function that checks card property uniqueness.
 status:
   index: stable
 parameters:
-  - name: f
-    type: [ function ]
-    description: (To be added)
+  - name: propfn
+    type: [ CardPropertyFunction ]
+    description: The function that returns the desired property.
 returns:
-  - type: [ bool ]
-    description: (To be added)
-tags: [ under-construction ]
+  - type: [ SubgroupCheck ]
+    description: A function that returns `true` if cards in a subgroup return different values for `propfn`.
+guide: |-
+  ## Usage
+
+  `dpcheck` is usually used with [`aux.SelectUnselectGroup`](/api/functions/Auxiliary/SelectUnselectGroup).
+
+  Suppose you want to check and select 3 cards in your hand with different attributes.
+  A simple example would be:
+
+  ```lua
+  function s.target(e,tp,eg,ep,ev,re,r,rp,chk)
+  	local g=Duel.GetMatchingGroup(nil,tp,LOCATION_HAND,0,nil)
+  	if chk==0 then return aux.SelectUnselectGroup(g,e,tp,3,3,aux.dpcheck(Card.GetAttribute),0) end
+  end
+  ```
+
+  This will return `true` when there are 3 cards with different Attributes in your hand.
+
+  And to use it for selection:
+  ```lua
+  function s.operation(e,tp,eg,ep,ev,re,r,rp)
+  	local g=Duel.GetMatchingGroup(nil,tp,LOCATION_HAND,0,nil)
+  	local sg=aux.SelectUnselectGroup(g,e,tp,3,3,aux.dpcheck(Card.GetAttribute),1,tp,HINTMSG_SELECT)
+
+  	if #sg>0 then
+  		--  you can do something with them here
+  	end
+  end
+  ```

@@ -1,0 +1,24 @@
+---!type
+name: SubgroupCheck
+supertype: function
+description: &desc |-
+  A function used to check subgroups of a group.
+summary: *desc
+parameters:
+  - name: sg
+    type: [ Group ]
+    description: The subgroup being checked.
+  - name: e
+    type: [ Effect ]
+    description: The effect performing the check.
+  - name: tp
+    type: [ int ]
+    description: The player performing the check.
+  - name: mg
+    type: [ Group ]
+    description: The full group that `sg` belongs to.
+returns:
+  - type: [ bool ]
+    description: If the subgroup fulfills the check.
+  - type: [ bool ]
+    description: If true, asserts that no larger subgroup in `mg` will ever fulfill the check.
