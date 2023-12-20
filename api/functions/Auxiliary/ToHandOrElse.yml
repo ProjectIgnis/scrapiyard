@@ -20,7 +20,7 @@ overloads:
     parameters:
       - name: cg
         type: [ Card, Group ]
-        description: `Card`s will either be added to the hand or will have something done to them by the secondary action.
+        description: The `Card`s to be either be added to the hand or will have something done to them by the secondary action.
       - name: player
         type: [ int ]
         description: The player performs the action.
