@@ -2,37 +2,39 @@
 name: DelayedOperation
 namespace: Auxiliary
 description: |-
-  Performs an operation to a `Card`(s) each time a given phase is entered.
+  Creates an effect that performs an operation on cards each time a given phase is entered.
+summary: Performs an operation on cards each time a given phase is entered
 status:
-  index: stable
+  index: unstable
+  message: `oper` and `cond`'s signatures may change later.
 parameters:
-  - name: card_or_group
+  - name: cs
     type: [ Card, Group ]
-    description: The `Card`s that will be affected by the operation.
+    description: The cards to perform the operation on.
   - name: phase
     type: [ int ]
-    description: Phase in which the operation will be performed.
+    description: The [Phase](api/Enums/Phase) in which the operation will be performed.
   - name: flag
     type: [ int ]
-    description: A unique integer used as a flag to register on affected `Card`s.
+    description: A unique integer used as a flag to register on the affected cards.
   - name: e
     type: [ Effect ]
-    description: The `Effect` performing the operation.
+    description: The effect performing the operation.
   - name: tp
     type: [ int ]
     description: The player performing the operation.
   - name: oper
-    type: [ function ]
-    description: A function with the signature `(ag,e,tp,eg,ep,ev,re,r,rp)`, where `ag` is the `Group` of affected `Card`s.
+    type: [ DelayedEffectOperation ]
+    description: The operation to perform on the cards.
   - name: cond
-    type: [ function ]
-    description: An additional condition function with the signature `(ag,e,tp,eg,ep,ev,re,r,rp)`.
+    type: [ DelayedEffectCondition ]
+    description: Additional checks to perform on the cards before performing the operation.
     required: false
   - name: reset
     type: [ int ]
-    description: Reset value to determine the point at which the operation will no longer be performed after that.
+    description: Reset value to determine the point at which the operation will no longer be performed after.
     required: false
-    defaultValue: PHASE_END+phase
+    defaultValue: PHASE_END|phase
   - name: reset_count
     type: [ int ]
     description: How many times the reset value must happen.
@@ -40,13 +42,12 @@ parameters:
     defaultValue: 1
   - name: hint
     type: [ int ]
-    description: An integer representing a certain string to show on affected cards.
+    description: An integer representing a string to show on affected cards.
     required: false
   - name: effect_desc
     type: [ int ]
-    description: An integer representing a certain string to display on the LP bar of the player performing the operation.
+    description: An integer representing a string to display on the LP bar of the player performing the operation.
     required: false
 returns:
-  - type: [ Effect ]
-    description: The `Effect` that would perform the operation, or nil if no `Card`/`Group` or an empty `Group` is passed.
-
+  - type: [ Effect, nil ]
+    description: The effect that would perform the operation, or `nil` if an empty group is passed.

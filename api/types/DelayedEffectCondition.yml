@@ -1,0 +1,47 @@
+---!type
+name: DelayedEffectCondition
+supertype: function
+description: &desc |-
+  A condition to check affected cards in a given phase.
+summary: *desc
+parameters:
+  - name: ag
+    type: [ Group ]
+    description: The group of affected cards.
+  - name: e
+    type: [ Effect ]
+    description: The "delayed effect" that needs to check the cards.
+  - name: tp
+    type: [ int ]
+    description: Unused, always `0`.
+  - name: eg
+    type: [ nil ]
+    description: Unused.
+  - name: ep
+    type: [ int ]
+    description: The current player.
+  - name: ev
+    type: [ Group ]
+    description: Unused, always `0`.
+  - name: re
+    type: [ nil ]
+    description: Unused.
+  - name: r
+    type: [ int ]
+    description: Unused, always `0`.
+  - name: rp
+    type: [ int ]
+    description: Unused, always `2`.
+guide: |-
+  ::: warning
+  Since the delayed effect is an `EFFECT_TYPE_FIELD+EFFECT_TYPE_CONTINUOUS` effect,
+  `tp`, `eg`, `ev`, `re`, `r`, `rp` are practically useless.
+  They're either always `nil`/`0` or redundant information.
+
+  This function type's signature may be adjusted later.
+  :::
+suggestedLinks:
+  - name: DelayedEffectOperation
+    link: /api/types/DelayedEffectOperation
+    message: Corresponding operation function.
+tags: [ under-construction ]
