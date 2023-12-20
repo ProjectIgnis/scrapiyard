@@ -7,26 +7,26 @@ status:
   index: stable
 parameters:
   - name: g
-  type: [ Group ]
-  description: The `Group` to check.
+    type: [ Group ]
+    description: The `Group` to check.
   - name: e
-  type: [ Effect ]
-  description: An `Effet` that the function will implicit use as arguments for `rescon`, `cancelcon`, and `breakcon`.
+    type: [ Effect ]
+    description: An `Effet` that the function will implicit use as arguments for `rescon`, `cancelcon`, and `breakcon`.
   - name: tp
-  type: [ int ]
-  description: A player that the function will implicit use as arguments for `rescon`, `cancelcon`, and `breakcon`.
+    type: [ int ]
+    description: A player that the function will implicit use as arguments for `rescon`, `cancelcon`, and `breakcon`.
   - name: minc
-  type: [ int ]
-  description: The minimum number of cards that must be checked.
+    type: [ int ]
+    description: The minimum number of cards that must be checked.
   - name: maxc
-  type: [ int ]
-  description: The maximum number of cards that must be checked.
+    type: [ int ]
+    description: The maximum number of cards that must be checked.
   - name: rescon
-  type: [ SubgroupFilter, nil ]
-  description: A `filter` to check what needs to be fulfilled.
+    type: [ SubgroupFilter, nil ]
+    description: A `filter` to check what needs to be fulfilled.
   - name: chk
-  type: [ int ]
-  description: An integer that defines the function's behavior. Must pass in 0 to perform the check.
+    type: [ int ]
+    description: An integer that defines the function's behavior. Must pass in 0 to perform the check.
 returns:
   - type: [ bool ]
     description: If the selection can be performed.
@@ -74,7 +74,7 @@ overloads:
         required: false
     returns:
       - type: [ Group ]
-        description: The selected group
+        description: The selected `Group`
 suggestedLinks:
   - name: SubgroupFilter
     link: https://projectignis.github.io/scrapi-book/api/types/SubgroupFilter.html#subgroupfilter
