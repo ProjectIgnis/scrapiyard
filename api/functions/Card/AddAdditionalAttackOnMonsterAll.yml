@@ -1,8 +1,7 @@
 ---!function
 name: AddAdditionalAttackOnMonsterAll
 namespace: Card
-description:-
-  Adds to a card an effect that allows it to attack all monsters the opponent controls.
+description: Adds to a card an effect that allows it to attack all monsters the opponent controls.
 summary: Creates an effect to allow a card to attack all monsters the opponent controls
 status:
   index: stable
