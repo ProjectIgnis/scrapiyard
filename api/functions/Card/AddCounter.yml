@@ -3,7 +3,7 @@ name: AddCounter
 namespace: Card
 description: |-
   Adds any number of counters of the specified type to a card. If the card has a limit on the number of counters it can have and the amount to be added would exceed said limit, no counters are added.
-description: Adds an specific counter to a card.
+summary: Adds an specific counter to a card.
 status:
   index: stable
 parameters:
