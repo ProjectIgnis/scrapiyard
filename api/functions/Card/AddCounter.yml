@@ -2,25 +2,27 @@
 name: AddCounter
 namespace: Card
 description: |-
-  Adds a number (int count) of the specified counter (int countertype) to a card (Card c). If singly is set to a number, then it will be added by that number each time. When the number of added counter would exceed the limit for that card, it is not added.
+  Adds any number of counters of the specified type to a card. If the card has a limit on the number of counters it can have and the amount to be added would exceed said limit, no counters are added.
+description: Adds an specific counter to a card.
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
+    description: The card that will receive the counter
   - name: countertype
     type: [ int ]
-    description: (To be added)
+    description: The value (or corresponding constant) for the count
   - name: count
     type: [ int ]
-    description: (To be added)
-  - name: singly
-    type: [ int ]
-    description: (To be added)
+    description: The number of counters to be placed.
+  - name: check_limits
+    type: [ bool ]
+    description: |-
+        If set to true, checks if the amount of counters that would be placed violates the value remaining in any EFFECT_COUNTER_LIMIT the card has for that type of counter.
+        If limit would be violated, places only counters up to the maximum.
     required: false
     defaultValue: false
 returns:
   - type: [ bool ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: Returns `true` if counters are placed. 
