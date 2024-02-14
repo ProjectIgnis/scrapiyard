@@ -3,7 +3,7 @@ name: AddCenterToSideEffectHandler
 namespace: Card
 description: |-
   Provides the effects of a Maximum monster center piece to the [L] and [R] pieces. It is mostly used to share the effects that prevent destruction.
-summary: Shares the effects of a Maximum monster's center piece to the Left and Right pieces.
+summary: Shares the effects of a Maximum monster's center piece to the Left/Right pieces
 status:
   index: stable
 parameters:

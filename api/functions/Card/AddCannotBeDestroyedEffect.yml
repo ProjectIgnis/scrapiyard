@@ -1,9 +1,9 @@
 ---!function
 name: AddCannotBeDestroyedEffect
 namespace: Card
-description: &desc |-
+description: |-
   Adds to a card an effect that prevents it from being destroyed by effects of the opponent's cards with the provided type.
-summary: *desc
+summary: Creates an effect that prevents a card from being destroyed by effects.
 status:
   index: stable
 parameters:

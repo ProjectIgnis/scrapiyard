@@ -1,9 +1,9 @@
 ---!function
 name: AddCannotBeDestroyedBattle
 namespace: Card
-description: &desc |-
+description: |-
   Adds to a card an effect that prevents it from being destroyed by battle.
-summary: *desc
+summary: Creates an effect that prevents a card from being destroyed by battle
 status:
   index: stable
 parameters:
