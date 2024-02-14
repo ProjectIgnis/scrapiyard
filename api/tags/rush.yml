@@ -1,4 +1,4 @@
 ---!tag
 name: rush
 description: |-
-  Related to Rush Duels.
+  Function or constant related to the implementation of the rules and cards from Rush Duel. Implementations can be found in proc_maximum.lua
