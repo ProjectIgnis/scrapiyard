@@ -1,27 +1,38 @@
 ---!function
 name: AddCannotBeDestroyedEffect
 namespace: Card
-description: |-
-  Rush related function
+description: &desc |-
+  Adds to a card an effect that prevents it from being destroyed by effects of the opponent's cards with the provided type.
+summary: *desc
 status:
   index: stable
 parameters:
   - name: c
-    type: [ any ]
-    description: (To be added)
+    type: [ Card ]
+    description: The card that will receive the effect.
+  - name: ctype
+    type: [ int ]
+    description: |-
+        The major card type that the affected card cannot be destroyed by.
   - name: reset
-    type: [ any ]
-    description: (To be added)
-  - name: value
-    type: [ any ]
-    description: (To be added)
+    type: [ int ]
+    description: Reset values to be used with the effect.
+    required: false
+    defaultValue: 0
   - name: rc
-    type: [ any ]
-    description: (To be added)
+    type: [ Card ]
+    description: The card that creates the effect (reason card).
+    required: false
+    defaultValue: c
   - name: condition
-    type: [ any ]
-    description: (To be added)
+    type: [ function ]
+    description: A condition that must be fulfilled for the effect to be applied.
+    required: false
+    defaultValue: aux.TRUE
   - name: properties
-    type: [ any ]
-    description: (To be added)
-tags: [ under-construction ]
+    type: [ int ]
+    description: |-
+        EFFECT_FLAG_ constants to be added to the effect via SetProperty, in addition to EFFECT_FLAG_CLIENT_HINT, added by default.
+    required: false
+    defaultValue: 0
+tags: [ rush ]
