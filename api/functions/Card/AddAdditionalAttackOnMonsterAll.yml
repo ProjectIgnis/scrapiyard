@@ -23,7 +23,7 @@ parameters:
     description: The card that creates the effect (reason card).
     required: false
     defaultValue: c
-   - name: value
+  - name: value
     type: [ int ]
     description: The number of attacks allowed on each monster.
     required: false

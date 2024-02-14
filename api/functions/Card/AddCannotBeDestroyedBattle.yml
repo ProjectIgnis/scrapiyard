@@ -15,7 +15,7 @@ parameters:
     description: Reset values to be used with the effect.
     required: false
     defaultValue: 0
-   - name: value
+  - name: value
     type: [ function, int ]
     description: A function to be used via SetValue, to define when the monster is not destroyed.
     required: false

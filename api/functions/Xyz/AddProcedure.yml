@@ -27,7 +27,7 @@ parameters:
         If the card allows a variable number of materials, ct is used as the minimum.
   - name: alterf
     type: [ CardFilter, nil ]
-    description: Alternative material(s), if allowed by the card (e.g. Number C39: Utopia Ray).
+    description: Alternative material(s), if allowed by the card (e.g. Number C39 Utopia Ray).
     required: false
     defaultValue: nil
   - name: desc
@@ -45,7 +45,7 @@ parameters:
   - name: op
     type: [ function ]
     description: |-
-        A function to be used when an extra operation must be executed in addition to using Xyz Materials (e.g. Digital Bug Corebage,  Number 99: Utopic Dragon)
+        A function to be used when an extra operation must be executed in addition to using Xyz Materials (e.g. Digital Bug Corebage,  Number 99 Utopic Dragon)
     required: false
     defaultValue: nil
   - name: mustbemat
@@ -58,6 +58,6 @@ parameters:
   - name: exchk
     type: [ function ]
     description: |-
-        Additional checks that are performed in the material group (e.g. Number F0: Utopic Future)
+        Additional checks that are performed in the material group (e.g. Number F0 Utopic Future)
     required: false
     defaultValue: nil
