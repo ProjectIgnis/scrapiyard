@@ -2,15 +2,22 @@
 name: Type
 namespace: Card
 description: |-
-  Changes (Card c)'s original type(s) if (int type) is inputted, else returns the current card's original type(s).
+  Returns the card's original type.
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
-  - name: type
-    type: [ int ]
-    description: (To be added)
-    required: false
-tags: [ under-construction ]
+    description: The card to get the type of.
+returns:
+  - type: [int]
+    description: The card's original type.
+overloads:
+  - description: Changes a card's type.
+    parameters:
+    - name: c
+      type: [ Card ]
+      description: The card to change the type of.
+    - name: ctype
+      type: [ int ]
+      description: The new type.

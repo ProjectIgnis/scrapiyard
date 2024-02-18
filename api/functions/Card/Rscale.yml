@@ -2,15 +2,22 @@
 name: Rscale
 namespace: Card
 description: |-
-  Changes (Card c)'s original left scale if (int scale) is inputted, else returns the current card's original left scale.
+  Returns the card's original right scale.
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
-  - name: scale
-    type: [ int ]
-    description: (To be added)
-    required: false
-tags: [ under-construction ]
+    description: The card to get the right scale of.
+returns:
+  - type: [int]
+    description: The card's original right scale.
+overloads:
+  - description: Changes a card's right scale.
+    parameters:
+    - name: c
+      type: [ Card ]
+      description: The card to change the right scale of.
+    - name: rscale
+      type: [ int ]
+      description: The new value for the right scale.
