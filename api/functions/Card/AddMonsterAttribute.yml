@@ -1,44 +1,39 @@
 ---!function
 name: AddMonsterAttribute
 namespace: Card
-description: |-
-  Transforms the provided Card into a monster.
-  The attributes, races, level, ATK and DEF, if provided, reset on
-  `RESET_EVENT|RESET_TURN_SET|RESET_TOGRAVE|RESET_REMOVE|RESET_TEMP_REMOVE|RESET_TOHAND|RESET_TODECK|RESET_OVERLAY`.
-  The card type resets on the same value and on `RESET_CHAIN`.
-summary: Transforms a Card into a monster.
+description: Transforms the provided card into a monster. The card's properties reset to their original values when it is flipped face-down, becomes attached as Xyz material, or sent to the hand, Deck, GY, or banishment.
+summary: Transforms the provided card into a monster.
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: The Card that will be turned into a monster.
+    description: The card that will be turned into a monster.
   - name: extra_type
     type: [ int ]
-    description: **CardType**(s) to add to the Card, in addition to `TYPE_MONSTER`.
+    description: Composite [CardType](/api/enums/CardType) value to add to the card's current type, in addition to [`TYPE_MONSTER`](/api/constants/CardType/TYPE_MONSTER).
   - name: attribute
     type: [ int ]
-    description: **Attribute**(s) to add to the monster, added via `EFFECT_ADD_ATTRIBUTE`.
+    description: Composite [MonsterAttribute](/api/enums/MonsterAttribute) value to add to the card's attribute value in the database.
     required: false
     default: 0
   - name: race
     type: [ int ]
-    description: **Race**(s) to add the monster, added via `EFFECT_ADD_RACE`.
+    description: Composite [MonsterRace](/api/enums/MonsterRace) to add to the card's race value in the database.
     required: false
     default: 0
   - name: level
     type: [ int ]
-    description: A new level to set via `EFFECT_CHANGE_LEVEL`.
+    description: A value to set as the monster's level instead of the card's level value in the database.
     required: false
     default: 0
   - name: atk
     type: [ int ]
-    description: A new original ATK to set via `EFFECT_SET_BASE_ATTACK`.
+    description: A value to set as the monster's original ATK instead of the card's ATK value in the database.
     required: false
     default: 0
   - name: def
     type: [ int ]
-    description: A new original DEF to set via `EFFECT_SET_BASE_DEFENSE`.
+    description: A value to set as the monster's original DEF instead of the card's DEF value in the database.
     required: false
     default: 0
-tags: [ under-construction ]
