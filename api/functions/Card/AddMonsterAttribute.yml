@@ -2,34 +2,42 @@
 name: AddMonsterAttribute
 namespace: Card
 description: |-
-  Transforms a card (Card c) to a monster. The CardType will become TYPE_MONSTER + extra_type. Uses the values if provided, otherwise uses the card's own values in Database. Be aware that the values added using this (except for CardType) will be reset when the card is flipped face-down.
+  Transforms the provide card into a monster. The card's new type become TYPE_MONSTER + extra_type.
+  The type of the card is reseted with RESET_CHAIN|RESET_EVENT|resets, with the resets variable equal to
+  RESET_TURN_SET|RESET_TOGRAVE|RESET_REMOVE|RESET_TEMP_REMOVE|RESET_TOHAND|RESET_TODECK|RESET_OVERLAY.
+  Attributes, races, levels, ATK and DEF values are set to the passed values, if provided. In this case, those properties reset with RESET_EVENT|resets.
+summary: Transforms a card into a monster.
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
+    description: The card that will be turned into a monster.
   - name: extra_type
     type: [ int ]
     description: (To be added)
   - name: attribute
     type: [ int ]
-    description: (To be added)
+    description: A new attribute to the monster, added via EFFECT_ADD_ATTRIBUTE.
     required: false
+    default: 0
   - name: race
     type: [ int ]
-    description: (To be added)
+    description: A new monster type to the monster, added via EFFECT_ADD_RACE.
     required: false
+    default: 0
   - name: level
-    type: [ int ]
-    description: (To be added)
+    type: int
+    description: A new level to the monster, added via EFFECT_CHANGE_LEVEL.
     required: false
+    default: 0
   - name: atk
     type: [ int ]
-    description: (To be added)
+    description: The ATK of the monster, added via EFFECT_SET_BASE_ATTACK.
     required: false
+    default: 0
   - name: def
     type: [ int ]
-    description: (To be added)
+    description: The DEF of the monster, added via EFFECT_SET_BASE_DEFENSE.
     required: false
-tags: [ under-construction ]
+    default: 0
