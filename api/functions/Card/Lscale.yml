@@ -2,15 +2,22 @@
 name: Lscale
 namespace: Card
 description: |-
-  Changes (Card c)'s original right scale if (int scale) is inputted, else returns the current card's original right scale.
+  Returns the card's original left scale.
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
-  - name: scale
-    type: [ int ]
-    description: (To be added)
-    required: false
-tags: [ under-construction ]
+    description: The card to get the left scale of.
+returns:
+  - type: [int]
+    description: The card's original left scale.
+overloads:
+  - description: Changes a card's left scale.
+    parameters:
+    - name: c
+      type: [ Card ]
+      description: The card to change the left scale of.
+    - name: lscale
+      type: [ int ]
+      description: The new value for the left scale.

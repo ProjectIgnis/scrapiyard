@@ -2,15 +2,22 @@
 name: Attack
 namespace: Card
 description: |-
-  Changes (Card c)'s original ATK if (int val) is inputted, else returns the current card's original ATK.
+  Returns the card's original ATK.
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
-  - name: val
-    type: [ int ]
-    description: (To be added)
-    required: false
-tags: [ under-construction ]
+    description: The card to get the ATK of.
+returns:
+  - type: [int]
+    description: The card's original ATK.
+overloads:
+  - description: Changes a card's ATK.
+    parameters:
+    - name: c
+      type: [ Card ]
+      description: The card to change the ATK of.
+    - name: atk
+      type: [ int ]
+      description: The new value for the ATK.
