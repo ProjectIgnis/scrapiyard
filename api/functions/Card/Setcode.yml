@@ -10,7 +10,7 @@ parameters:
     type: [ Card ]
     description: The card to get the archetype of.
 returns:
-  - type: [...]
+  - type: [ int ]
     description: A list of values with the card's original archetypes.
 overloads:
   - description: Changes a card's archetype(s). First erases its current archetypes then adds, individually, the passed values.

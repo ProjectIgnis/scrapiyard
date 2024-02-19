@@ -27,7 +27,7 @@ parameters:
     required: false
     default: 0
   - name: level
-    type: int
+    type: [ int ]
     description: A new level to the monster, added via EFFECT_CHANGE_LEVEL.
     required: false
     default: 0
