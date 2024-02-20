@@ -1,27 +1,32 @@
 ---!function
 name: GetAttribute
 namespace: Card
-description: |-
-  Returns the current Attribute of "c" (if it is to be used as material for "scard" with SummonType "sumtype" by player "playerid").
+description: &desc|-
+  Returns the current attribute of a card
+summary: *desc
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
-  - name: Card
-    type: [ any ]
-    description: (To be added)
+    description: The card to get the ATK of.
+  - name: scard
+    type: [ Card, nil ]
+    description: If provided, a card that would use c as material. 
     required: false
+    defaultValue: nil
   - name: sumtype
     type: [ int ]
-    description: (To be added)
+    description: If provided, the the type of the summon that c would be used for.
     required: false
+    defaultValue: 0
   - name: playerid
     type: [ int ]
-    description: (To be added)
+    description: |-
+        If provided, the player that would use c as material for the summon.
+        If sumtype is SUMMON_TYPE_FUSION, then this parameter is forced to be the reason player (the player using the current effect).
     required: false
+    defaultValue: PLAYER_NONE, reason_player
 returns:
   - type: [ int ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: The card's current attribute. If scard was also provided, returns the attribute c would have if it was used as material for scard.

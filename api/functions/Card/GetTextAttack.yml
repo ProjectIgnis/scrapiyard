@@ -2,14 +2,15 @@
 name: GetTextAttack
 namespace: Card
 description: |-
-  Returns the original printed ATK of "c".
+  Gets the printed ATK of a card. This might differ from the original ATK of the card due to effects that change original ATK.
+  For that, see [GetBaseAttack](api/functions/GetBaseAttack).
+summary: Gets the printed ATK of a card.
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
+    description: The card to get the printed ATK.
 returns:
   - type: [ int ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: The card's printed ATK. For monsters with ? ATK, returns -2.
