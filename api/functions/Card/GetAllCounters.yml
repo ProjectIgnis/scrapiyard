@@ -1,15 +1,15 @@
 ---!function
 name: GetAllCounters
 namespace: Card
-description: |-
-  Returns a table containing all the counters Card c currently has. The table contains pairs with the key being the counter type and the value being the amount of said counter type on the card.
+description: &desc |-
+  Gets all counters a card currently has.
+summary: *desc
 status:
   index: stable
 parameters:
   - name: c
     type: [ card ]
-    description: (To be added)
+    description: The card to get the counters from.
 returns:
   - type: [ table ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: A table with key-value pairs, where the key is the counter type and the value the corresponding amount.

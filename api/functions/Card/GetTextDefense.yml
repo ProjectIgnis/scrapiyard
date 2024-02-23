@@ -2,14 +2,15 @@
 name: GetTextDefense
 namespace: Card
 description: |-
-  Returns the original printed DEF of "c".
+  Gets the printed DEF of a card. This might differ from the original DEF of the card due to effects that change original DEF.
+  For that, see [GetBaseDefense](api/functions/GetBaseDefense).
+summary: Gets the printed DEF of a card.
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
+    description: The card to get the printed DEF.
 returns:
   - type: [ int ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: The card's printed DEF. For monsters with ? DEF, returns -2.

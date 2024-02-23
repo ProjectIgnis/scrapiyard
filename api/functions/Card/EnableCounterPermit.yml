@@ -2,18 +2,20 @@
 name: EnableCounterPermit
 namespace: Card
 description: |-
-  Makes the card (Card c) able to hold a type of counter (int countertype). If a location is provided (int location), the card will be able to hold counter only when in the specified location.
+  Enables the card to hold a counter that requires permissions.
+  Refer to the [counter guide](https://projectignis.github.io/scrapi-book/guides/general/counter.html) for details on counter permissions
+summary: Allows a card to hold a counter that need permissions.
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
+    description: The card that will be granted permissions to hold counters.
   - name: countertype
     type: [ int ]
-    description: (To be added)
+    description: The type of the counter.
   - name: location
     type: [ int ]
-    description: (To be added)
+    description: If provided, the only location in which the card will be able to hold the counters.
     required: false
-tags: [ under-construction ]
+    defaultValue: LOCATION_MZONE for monster cards, 0 otherwise.
