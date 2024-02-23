@@ -1,7 +1,7 @@
 ---!function
 name: GetBaseAttack
 namespace: Card
-description: &desc |-
+description: |-
   Gets the original ATK of a card. This might differ from the printed ATK of the card due to effects that change original ATK.
   For that, see [GetTextAttack](api/functions/GetTextAttack)
 summary: Gets the original ATK of a card.

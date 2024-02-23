@@ -1,8 +1,8 @@
 ---!function
 name: GetAttribute
 namespace: Card
-description: &desc|-
-  Returns the current attribute of a card
+description: &desc |-
+  Returns the current attribute of a card.
 summary: *desc
 status:
   index: stable

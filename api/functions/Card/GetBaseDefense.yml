@@ -1,7 +1,7 @@
 ---!function
 name: GetBaseDefense
 namespace: Card
-description: &desc |-
+description: |-
   Gets the original DEF of a card. This might differ from the printed ATK of the card due to effects that change original DEF.
   For that, see [GetTextDefense](api/functions/GetTextDefense)
 summary: Gets the original DEF of a card. 
