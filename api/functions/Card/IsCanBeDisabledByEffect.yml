@@ -7,7 +7,7 @@ status:
   index: stable
 parameters:
   - name: e
-    type: [ effect ]
+    type: [ Effect ]
     description: (To be added)
   - name: is_monster_effect
     type: [ bool ]

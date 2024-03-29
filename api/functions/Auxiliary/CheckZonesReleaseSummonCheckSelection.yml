@@ -7,10 +7,10 @@ status:
   index: stable
 parameters:
   - name: must
-    type: [ group ]
+    type: [ Group ]
     description: (To be added)
   - name: oneof
-    type: [ group ]
+    type: [ Group ]
     description: (To be added)
   - name: checkfunc
     type: [ function ]

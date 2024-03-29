@@ -19,7 +19,7 @@ parameters:
     type: [ int ]
     description: (To be added)
   - name: alterf
-    type: [ f, nil ]
+    type: [ function, nil ]
     description: (To be added)
   - name: desc
     type: [ int ]

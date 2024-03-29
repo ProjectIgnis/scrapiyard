@@ -2,12 +2,12 @@
 name: GetAllCounters
 namespace: Card
 description: |-
-  Returns a table containing all the counters Card c currently has. The table contains pairs with the key being the counter type and the value being the amount of said counter type on the card.
+  Returns a table containing all the counters Card c currently has. The table contains pairs with the key being the counter type and the value being the amount of said counter type on the Card.
 status:
   index: stable
 parameters:
   - name: c
-    type: [ card ]
+    type: [ Card ]
     description: (To be added)
 returns:
   - type: [ table ]
