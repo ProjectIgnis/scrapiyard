@@ -13,7 +13,7 @@ parameters:
     type: [ Effect ]
     description: (To be added)
   - name: f
-    type: [ funcion ]
+    type: [ function ]
     description: (To be added)
 returns:
   - type: [ bool ]
