@@ -10,7 +10,7 @@ parameters:
     type: [ Card ]
     description: (To be added)
   - name: current_code
-    type: [ code ]
+    type: [ int ]
     description: (To be added)
 returns:
   - type: [ table ]
