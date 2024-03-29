@@ -1,8 +1,7 @@
 ---!type
 name: any
 description: |-
-  The 'any' type in code documentation refers to a variable or parameter
-  that can hold any data type.
+  The 'any' type refers to a variable or parameter that can hold any data type.
   Mathematically, it can be represented as the union of all possible
   data types within the language's type system.
 tags: [ under-construction ]
