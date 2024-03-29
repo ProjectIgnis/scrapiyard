@@ -10,10 +10,10 @@ parameters:
     type: [ int ]
     description: (To be added)
   - name: mustg
-    type: [ group ]
+    type: [ Group ]
     description: (To be added)
   - name: sc
-    type: [ group ]
+    type: [ Group ]
     description: (To be added)
   - name: summon_type
     type: [ int ]
@@ -21,6 +21,6 @@ parameters:
 returns:
   - type: [ table ]
     description: (To be added)
-  - type: [ group ]
+  - type: [ Group ]
     description: (To be added)
 tags: [ under-construction ]

@@ -7,6 +7,6 @@ status:
   index: stable
 parameters:
   - name: emt
-    type: [ group ]
+    type: [ Group ]
     description: (To be added)
 tags: [ under-construction ]

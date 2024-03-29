@@ -10,7 +10,7 @@ parameters:
     type: [ Card ]
     description: (To be added)
   - name: e
-    type: [ effect ]
+    type: [ Effect ]
     description: (To be added)
   - name: f
     type: [ funcion ]
