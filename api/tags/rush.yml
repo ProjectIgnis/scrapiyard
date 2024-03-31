@@ -1,4 +1,5 @@
 ---!tag
 name: rush
 description: |-
-  Function or constant related to the implementation of the rules and cards from Rush Duel. Implementations can be found in proc_maximum.lua
+  Functions and constants related to the implementation of [Rush Duel](https://yugipedia.com/wiki/Yu-Gi-Oh!_Rush_Duel) cards and rules.
+  Implementations can be found in [proc_maximum.lua](https://github.com/ProjectIgnis/CardScripts/blob/master/proc_maximum.lua)
