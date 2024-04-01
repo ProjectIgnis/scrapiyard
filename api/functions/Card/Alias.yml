@@ -2,15 +2,22 @@
 name: Alias
 namespace: Card
 description: |-
-  Changes (Card c)'s alias if (int code) is inputted, else returns the current card's alias.
+  Returns the card's alias.
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
-  - name: code
-    type: [ int ]
-    description: (To be added)
-    required: false
-tags: [ under-construction ]
+    description: The card to get the alias of.
+returns:
+  - type: [int]
+    description: The card's alias.
+overloads:
+  - description: Changes a card's alias.
+    parameters:
+    - name: c
+      type: [ Card ]
+      description: The card to change the alias of.
+    - name: id
+      type: [ int ]
+      description: The new alias.

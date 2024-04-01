@@ -2,14 +2,15 @@
 name: CancelCardTarget
 namespace: Card
 description: |-
-  Removes the second card (Card c2) from the list of the first card (Card c1)'s target
+  Removes the second card from the list of the first card's targets.
+summary: Removes a card from the targets of another card.
 status:
   index: stable
 parameters:
   - name: c1
     type: [ Card ]
-    description: (To be added)
+    description: The card that will have one of its targets removed.
   - name: c2
     type: [ Card ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: The card to be removed from the targets.
+

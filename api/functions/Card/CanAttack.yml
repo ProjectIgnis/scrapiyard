@@ -2,14 +2,18 @@
 name: CanAttack
 namespace: Card
 description: |-
-  to be added. Available in libcard.cpp
+  Checks if a card can attack. If any of the following is true for Card c, then the card cannot attack:
+  c is not in POS_FACEUP_ATTACK or c is in POS_FACEUP_DEFENSE, but does not have EFFECT_DEFENSE_ATTACK.
+  c is affected by EFFECT_FORBIDDEN (e.g. Prohibition).
+  c is affected by either EFFECT_CANNOT_ATTACK or EFFECT_ATTACK_DISABLED, but does not have EFFECT_UNSTOPPABLE_ATTACK.
+  the turn player is affected by EFFECT_SKIP_BP.
+summary: Checks if a card can declare an attack.
 status:
   index: stable
 parameters:
   - name: c
-    type: [ any ]
-    description: (To be added)
+    type: [ Card ]
+    description: The card to be tested.
 returns:
   - type: [ bool ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: whether or not the card can attack.
