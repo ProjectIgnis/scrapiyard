@@ -7,13 +7,13 @@ status:
   index: stable
 parameters:
   - name: eg
-    type: [ group ]
+    type: [ Group ]
     description: (To be added)
   - name: filter
     type: [ function ]
     description: (To be added)
   - name: c
-    type: [ card ]
+    type: [ Card ]
     description: (To be added)
   - name: tp
     type: [ int ]

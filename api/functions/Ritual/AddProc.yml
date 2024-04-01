@@ -7,7 +7,7 @@ status:
   index: stable
 parameters:
   - name: c
-    type: [ card ]
+    type: [ Card ]
     description: (To be added)
   - name: _type
     type: [ int ]
@@ -37,13 +37,13 @@ parameters:
     type: [ int ]
     description: (To be added)
   - name: forcedselection
-    type: [ group ]
+    type: [ Group ]
     description: (To be added)
   - name: customoperation
     type: [ function ]
     description: (To be added)
   - name: specificmatfilter
-    type: [ group ]
+    type: [ Group ]
     description: (To be added)
 returns:
   - type: [ effect ]

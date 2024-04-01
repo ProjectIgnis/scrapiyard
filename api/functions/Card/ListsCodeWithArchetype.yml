@@ -2,12 +2,12 @@
 name: ListsCodeWithArchetype
 namespace: Card
 description: |-
-  Returns if the (Card c) specifically lists the name of a card that is part of an archetype in "...", iterating over Card c's listed_names and checking if those cards belong to any of the archetypes passed.
+  Returns if the (Card c) specifically lists the name of a Card that is part of an archetype in "...", iterating over Card c's listed_names and checking if those cards belong to any of the archetypes passed.
 status:
   index: stable
 parameters:
   - name: c
-    type: [ card ]
+    type: [ Card ]
     description: (To be added)
   - name: ...
     type: [ int ]

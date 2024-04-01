@@ -10,13 +10,13 @@ parameters:
     type: [ int ]
     description: (To be added)
   - name: sg
-    type: [ group ]
+    type: [ Group ]
     description: (To be added)
   - name: exg
-    type: [ group ]
+    type: [ Group ]
     description: (To be added)
   - name: mustg
-    type: [ group ]
+    type: [ Group ]
     description: (To be added)
   - name: count
     type: [ int ]
