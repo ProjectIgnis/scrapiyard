@@ -2,26 +2,31 @@
 name: AddDoubleTribute
 namespace: Card
 description: |-
-  Rush related function
+  Adds an Effect to a Card that allows it to be used as a double tribute in Rush Duels.
+summary: Allows a Card to be used as a double tribute in Rush Duels.
 status:
   index: stable
 parameters:
   - name: c
-    type: [ any ]
-    description: (To be added)
+    type: [ Card ]
+    description: The Card that will receive the Effect.
   - name: id
-    type: [ any ]
-    description: (To be added)
+    type: [ int ]
+    description: |-
+      A Card ID, from which the strings 0 and 1 are called when the tribute summon would happen, to identify which double tribute Effect is being used.
   - name: otfilter
-    type: [ any ]
-    description: (To be added)
+    type: [ CardFilter ]
+    # TODO: better description
+    description: Filters which monsters on the field can be tributed for this alternative summoning method.
   - name: eftg
-    type: [ any ]
-    description: (To be added)
-  - name: reset
-    type: [ any ]
-    description: (To be added)
+    # TODO: settle how to refer to overloads
+    type: [ EffectTarget ]
+    description: Filters which monsters can use the affected Card as double tribute.
+  - name: resets
+    type: [ int ]
+    description: Reset values to be used with the Effect.
+    defaultValue: 0
   - name: ...
-    type: [ any ]
-    description: (To be added)
-tags: [ under-construction ]
+    type: [ int ]
+    description: Any number of FLAG_DOUBLE_TRIB constants, that will be registered to the Card as a flag Effect, with the same reset values from `resets`.
+tags: [ rush ]
