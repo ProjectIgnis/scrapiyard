@@ -2,15 +2,15 @@
 name: AddCenterToSideEffectHandler
 namespace: Card
 description: |-
-  Provides the effects of a Maximum monster center piece to the [L] and [R] pieces. It is mostly used to share the effects that prevent destruction.
-summary: Shares the effects of a Maximum monster's center piece to the Left/Right pieces
+  Grants an Effect to a center Maximum Monster's [L] and [R] pieces. Primarily used to share protection effects.
+summary: Grants an Effect to a Maximum Monster's [L] and [R] pieces.
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: The main (center) Maximum monster card
+    description: The main (center) Maximum Monster Card.
   - name: eff
     type: [ Effect ]
-    description: The effect that is shared with the Left and Right monsters.
+    description: The Effect to be granted to the Left and Right monsters.
 tags: [ rush ]

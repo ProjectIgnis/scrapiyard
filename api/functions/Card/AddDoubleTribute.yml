@@ -2,29 +2,31 @@
 name: AddDoubleTribute
 namespace: Card
 description: |-
-  Adds to a card an effect that allows it to be used as double tribute
-summary: Implements a double tribute effect following Rush rulings.
+  Adds an Effect to a Card that allows it to be used as a double tribute in Rush Duels.
+summary: Allows a Card to be used as a double tribute in Rush Duels.
 status:
   index: stable
 parameters:
   - name: c
-    type: [ any ]
-    description: The card that will receive the effect.
+    type: [ Card ]
+    description: The Card that will receive the Effect.
   - name: id
     type: [ int ]
     description: |-
-        A card ID, from which the strings 0 and 1 are called when the tribute summon would happen, to identify which double tribute effect is being used.
+      A Card ID, from which the strings 0 and 1 are called when the tribute summon would happen, to identify which double tribute Effect is being used.
   - name: otfilter
-    type: [ function ]
-    description: A filter with the monsters on the field that can be tributed for this alternative summoning method.
+    type: [ CardFilter ]
+    # TODO: better description
+    description: Filters which monsters on the field can be tributed for this alternative summoning method.
   - name: eftg
-    type: [ function ]
-    description: A filter with what can use the affected card as double tribute.
+    # TODO: settle how to refer to overloads
+    type: [ EffectTarget ]
+    description: Filters which monsters can use the affected Card as double tribute.
   - name: resets
     type: [ int ]
-    description: Reset values to be used with the effect.
+    description: Reset values to be used with the Effect.
     defaultValue: 0
   - name: ...
     type: [ int ]
-    description: Any number of FLAG_DOUBLE_TRIB constants, that will be registered to the card as a flag effect, with the same reset values from `resets`.
+    description: Any number of FLAG_DOUBLE_TRIB constants, that will be registered to the Card as a flag Effect, with the same reset values from `resets`.
 tags: [ rush ]

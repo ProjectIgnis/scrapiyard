@@ -2,39 +2,39 @@
 name: AddProcedure
 namespace: Xyz
 description: |-
-  Creates and registers to a card an effect that allows it to be Xyz Summoned.
-summary: Adds an Xyz Summon procedure to a card
+  Registers an Effect to a Card an  that allows it to be Xyz Summoned.
+summary: Adds an Xyz Summon procedure to a Card
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: The card that will receive the procedure.
+    description: The Card that will receive the procedure.
   - name: f
     type: [ CardFilter, nil ]
     description: |-
-        A filter function for the cards that can be used as Xyz materials.
-        If no property other than level is required, `nil` is also valid.
+      A filter function for the Cards that can be used as Xyz materials.
+      Set to `nil` if no property other than level is required, `nil` is also valid.
   - name: lv
     type: [ int, nil ]
     description: |-
-        The level the materials must have.
-        If no specific level is required, `nil` is also valid.
+      The level the materials must have.
+      If no specific level is required, `nil` is also valid.
   - name: ct
     type: [ int ]
     description: |-
-        The number of required materials.
-        If the card allows a variable number of materials, ct is used as the minimum.
+      The number of required materials.
+      If the Card allows a variable number of materials, ct is used as the minimum.
   - name: alterf
     type: [ CardFilter, nil ]
-    description: Alternative material(s), if allowed by the card (e.g. Number C39 Utopia Ray).
+    description: Alternative material(s), if allowed by the Card (e.g. Number C39 Utopia Ray).
     required: false
     defaultValue: nil
   - name: desc
     type: [ string ]
     description: |-
-        An integer pointing to a string for the description shown when attempting to Xyz Summon using the alternative materials.
-        Mandatory when `alterf` is used.
+      An integer pointing to a string for the description shown when attempting to Xyz Summon using the alternative materials.
+      Mandatory when `alterf` is used.
     required: false
     defaultValue: 0
   - name: maxct
@@ -45,19 +45,19 @@ parameters:
   - name: op
     type: [ function ]
     description: |-
-        A function to be used when an extra operation must be executed in addition to using Xyz Materials (e.g. Digital Bug Corebage,  Number 99 Utopic Dragon)
+      A function to be used when an extra operation must be executed in addition to using Xyz Materials (e.g. Digital Bug Corebage,  Number 99 Utopic Dragon)
     required: false
     defaultValue: nil
   - name: mustbemat
     type: [ bool ]
     description: |-
-        A parameter that restricts the materials to specifically listed materials.
-        This disables the effects of cards such as Orichalcum Chain (minus 1 material) or Triangle Evolution (triple material).
+      A parameter that restricts the materials to specifically listed materials.
+      This disables the Effects of Cards such as Orichalcum Chain (minus 1 material) or Triangle Evolution (triple material).
     required: false
     defaultValue: false
   - name: exchk
     type: [ function ]
     description: |-
-        Additional checks that are performed in the material group (e.g. Number F0 Utopic Future)
+      Additional checks that are performed in the material group (e.g. Number F0 Utopic Future)
     required: false
     defaultValue: nil
