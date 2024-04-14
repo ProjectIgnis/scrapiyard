@@ -1,0 +1,29 @@
+---!type
+name: ConditionFunctionSummonProcedure
+supertype: function
+description: &desc |-
+  (To be added)
+summary: *desc
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: minc
+    type: [ int ]
+    description: (To be added)
+  - name: zone
+    type: [ int ]
+    description: (To be added)
+  - name: relzone
+    type: [ int ]
+    description: (To be added)
+  - name: exeff
+    type: [ Effect ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: bool
+tags: [ under-construction ]

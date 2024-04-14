@@ -12,4 +12,26 @@ parameters:
   - name: con_func
     type: [ function ]
     description: (To be added)
+overloads:
+  - parameters:
+    - name: e
+      type: [ Effect ]
+      description: (To be added)
+    - name: con_func
+      type: [ ConditionFunctionSummonProcedure ]
+      description: (To be added)
+  - parameters:
+    - name: e
+      type: [ Effect ]
+      description: (To be added)
+    - name: con_func
+      type: [ ConditionFunctionActivated ]
+      description: (To be added)
+  - parameters:
+    - name: e
+      type: [ Effect ]
+      description: (To be added)
+    - name: con_func
+      type: [ ConditionFunctionNonActivated ]
+      description: (To be added)
 tags: [ under-construction ]

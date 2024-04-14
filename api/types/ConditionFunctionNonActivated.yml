@@ -1,0 +1,14 @@
+---!type
+name: ConditionFunctionNonActivated
+supertype: function
+description: &desc |-
+  (To be added)
+summary: *desc
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]
