@@ -10,6 +10,29 @@ parameters:
     type: [ Effect ]
     description: (To be added)
   - name: type
-    type: [ int ]
+    type: [ EffectType ]
     description: (To be added)
+    guide:
+      - case: [ EFFECT_TYPE_SINGLE ]
+        transform:
+          - name: SetCondition
+            overload: 1
+          - name: SetTarget
+            overload: 1
+          - name: SetOperation
+            overload: 1
+      - case: [ EFFECT_TYPE_SINGLE, EFFECT_TYPE_TRIGGER_O ]
+        transform:
+          - name: SetCondition
+            overload: 2
+      - case: [ EFFECT_TYPE_FIELD ]
+        transform:
+          - name: SetCondition
+            overload: 3
+          - name: SetTarget
+            overload: 3
+      - case: [ EFFECT_TYPE_FIELD, EFFECT_TYPE_CONTINUOUS ]
+        transform:
+          - name: SetCondition
+            overload: 4
 tags: [ under-construction ]
