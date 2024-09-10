@@ -3,7 +3,6 @@ name: RACE_WYRM
 enum: MonsterRace
 value: 0x800000
 description: |-
-  The Wyrm monster type
-status:
-  index: stable
-tags: [ under-construction ]
+  The [Wyrm](https://yugipedia.com/wiki/Wyrm) Monster Type
+summary: Wyrm
+status: { index: stable }

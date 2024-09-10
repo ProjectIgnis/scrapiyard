@@ -3,7 +3,6 @@ name: RACE_REPTILE
 enum: MonsterRace
 value: 0x80000
 description: |-
-  Reptile type monster
-status:
-  index: stable
-tags: [ under-construction ]
+  The [Reptile](https://yugipedia.com/wiki/Reptile) Monster Type
+summary: Reptile
+status: { index: stable }

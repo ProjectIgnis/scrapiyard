@@ -3,7 +3,6 @@ name: RACE_HIGHDRAGON
 enum: MonsterRace
 value: 0x10000000
 description: |-
-  Rush duel monster type (race)
-status:
-  index: stable
-tags: [ under-construction ]
+  The [High Dragon](https://yugipedia.com/wiki/High_Dragon) Monster Type in Rush Duels
+summary: High Dragon
+status: { index: stable }

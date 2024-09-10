@@ -3,7 +3,6 @@ name: RACE_MAGICALKNIGHT
 enum: MonsterRace
 value: 0x8000000
 description: |-
-  Rush duel monster type (race)
-status:
-  index: stable
-tags: [ under-construction ]
+  The [Magical Knight](https://yugipedia.com/wiki/Magical_Knight) Monster Type
+summary: Magical Knight
+status: { index: stable }

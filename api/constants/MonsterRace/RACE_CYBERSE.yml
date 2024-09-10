@@ -3,7 +3,6 @@ name: RACE_CYBERSE
 enum: MonsterRace
 value: 0x1000000
 description: |-
-  The Cyberse monster type
-status:
-  index: stable
-tags: [ under-construction ]
+  The [Cyberse](https://yugipedia.com/wiki/Cyberse) Monster Type
+summary: Cyberse
+status: { index: stable }

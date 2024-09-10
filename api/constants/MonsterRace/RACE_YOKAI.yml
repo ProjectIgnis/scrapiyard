@@ -3,7 +3,6 @@ name: RACE_YOKAI
 enum: MonsterRace
 value: 0x4000000000000000
 description: |-
-  Yokai type monster, only usable if token 419 is called.
-status:
-  index: stable
-tags: [ under-construction ]
+  The [Yokai](https://yugipedia.com/wiki/Yokai) Monster Type for manga cards
+summary: Yokai
+status: { index: stable }
