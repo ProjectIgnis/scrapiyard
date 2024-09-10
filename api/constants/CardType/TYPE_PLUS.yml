@@ -3,7 +3,7 @@ name: TYPE_PLUS
 enum: CardType
 value: 0x20000000
 description: |-
-  Plus Type, only usable if 419 is called
-status:
-  index: stable
-tags: [ under-construction ]
+  The [Plus](https://yugipedia.com/wiki/Plus_monster) Type for anime cards
+summary: Plus
+status: { index: stable }
+tags: [ unofficial ]

@@ -3,7 +3,6 @@ name: TYPE_NORMAL
 enum: CardType
 value: 0x10
 description: |-
-  A Normal monster
-status:
-  index: stable
-tags: [ under-construction ]
+  The [Normal](https://yugipedia.com/wiki/Normal_Monster) Card Type for Monsters
+summary: Monster
+status: { index: stable }

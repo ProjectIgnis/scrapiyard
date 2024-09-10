@@ -3,7 +3,6 @@ name: TYPE_SYNCHRO
 enum: CardType
 value: 0x2000
 description: |-
-  A Synchro
-status:
-  index: stable
-tags: [ under-construction ]
+  The [Synchro](https://yugipedia.com/wiki/Synchro_Monster) Card Type for Monsters
+summary: Synchro
+status: { index: stable }

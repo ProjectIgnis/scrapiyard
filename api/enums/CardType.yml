@@ -1,6 +1,6 @@
 ---!enum
 name: CardType
-description: |-
-  (To be added)
+description: &desc |-
+  Card Types
+summary: *desc
 bitmaskInt: true
-tags: [ under-construction ]
