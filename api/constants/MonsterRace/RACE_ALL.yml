@@ -6,3 +6,4 @@ description: |-
   Composite constant that includes all OCG/TCG Monster Types (Warrior to Illusion)
 summary: All OCG/TCG Monster Types
 status: { index: stable }
+tags: [ composite-bits ]

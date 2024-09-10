@@ -3,6 +3,7 @@ name: RACE_OMEGAPSYCHIC
 enum: MonsterRace
 value: 0x20000000
 description: |-
-  The [Omega Psychic](https://yugipedia.com/wiki/Omega_Psychic) Monster Type
+  The [Omega Psychic](https://yugipedia.com/wiki/Omega_Psychic) Monster Type in Rush Duel
 summary: Omega Psychic
 status: { index: stable }
+tags: [ rush ]
