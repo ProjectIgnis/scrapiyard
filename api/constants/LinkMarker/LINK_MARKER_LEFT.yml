@@ -3,7 +3,5 @@ name: LINK_MARKER_LEFT
 enum: LinkMarker
 value: 0x8
 description: |-
-  Has this link arrow: ⬅
-status:
-  index: stable
-tags: [ under-construction ]
+  Left Link Arrow (⬅)
+status: { index: stable }
