@@ -4,5 +4,5 @@ enum: Archetype
 value: 0x135
 description: |-
   The ["@Ignister"](https://yugipedia.com/wiki/@Ignister) archetype.
-summary: @Ignister
+summary: '@Ignister'
 status: { index: stable }
