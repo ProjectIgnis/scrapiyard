@@ -7,6 +7,4 @@ description: |-
 summary: ARG☆S
 status:
   index: unstable
-  message: |-
-    This archetype is currently unreleased in the TCG.
-    The constant's name may later change to follow its official English name once confirmed.
+  message: Constant's name may change to follow its official English name once confirmed.
