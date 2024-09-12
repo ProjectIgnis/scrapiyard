@@ -4,4 +4,5 @@ enum: LinkMarker
 value: 0x20
 description: |-
   Right Link Arrow (➡)
+summary: ➡
 status: { index: stable }

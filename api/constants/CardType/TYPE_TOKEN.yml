@@ -3,6 +3,6 @@ name: TYPE_TOKEN
 enum: CardType
 value: 0x4000
 description: |-
-  The [Synchro](https://yugipedia.com/wiki/Synchro_Monster) Card Type for Monsters
-summary: Synchro
+  The [Token](https://yugipedia.com/wiki/Monster_Token) Card Type for Monsters
+summary: Token
 status: { index: stable }

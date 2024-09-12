@@ -3,6 +3,6 @@ name: TYPE_XYZ
 enum: CardType
 value: 0x800000
 description: |-
-  The [Token](https://yugipedia.com/wiki/Monster_Token) Card Type for Monsters
-summary: Token
+  The [Xyz](https://yugipedia.com/wiki/Xyz_Monster) Card Type for Monsters
+summary: Xyz
 status: { index: stable }
