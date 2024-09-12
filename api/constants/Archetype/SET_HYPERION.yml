@@ -1,0 +1,8 @@
+---!constant
+name: SET_HYPERION
+enum: Archetype
+value: 0x171
+description: |-
+  The ["Hyperion"](https://yugipedia.com/wiki/Hyperion) archetype.
+summary: Hyperion
+status: { index: stable }

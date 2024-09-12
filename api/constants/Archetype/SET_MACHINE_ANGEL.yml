@@ -1,0 +1,8 @@
+---!constant
+name: SET_MACHINE_ANGEL
+enum: Archetype
+value: 0x124
+description: |-
+  The ["Machine Angel"](https://yugipedia.com/wiki/Machine_Angel) archetype.
+summary: Machine Angel
+status: { index: stable }

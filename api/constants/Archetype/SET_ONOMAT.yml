@@ -1,0 +1,8 @@
+---!constant
+name: SET_ONOMAT
+enum: Archetype
+value: 0x139
+description: |-
+  The ["Onomat"](https://yugipedia.com/wiki/Onomat) archetype.
+summary: Onomat
+status: { index: stable }

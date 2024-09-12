@@ -1,0 +1,8 @@
+---!constant
+name: SET_WIND_UP
+enum: Archetype
+value: 0x58
+description: |-
+  The ["Wind-Up"](https://yugipedia.com/wiki/Wind-Up) archetype.
+summary: Wind-Up
+status: { index: stable }

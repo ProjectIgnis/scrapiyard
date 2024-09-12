@@ -1,0 +1,8 @@
+---!constant
+name: SET_JURRAC
+enum: Archetype
+value: 0x22
+description: |-
+  The ["Jurrac"](https://yugipedia.com/wiki/Jurrac) archetype.
+summary: Jurrac
+status: { index: stable }

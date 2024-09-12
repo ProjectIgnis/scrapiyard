@@ -1,0 +1,9 @@
+---!constant
+name: SET_PENDULUM_DRAGON
+enum: Archetype
+value: 0x10f2
+description: |-
+  The ["Pendulum Dragon"](https://yugipedia.com/wiki/Pendulum_Dragon) archetype.
+  Sub-archetype of [`SET_PENDULUM`](/api/constants/Archetype/SET_PENDULUM).
+summary: Pendulum Dragon
+status: { index: stable }

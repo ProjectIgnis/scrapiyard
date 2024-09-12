@@ -1,0 +1,8 @@
+---!constant
+name: SET_BATTERYMAN
+enum: Archetype
+value: 0x28
+description: |-
+  The ["Batteryman"](https://yugipedia.com/wiki/Batteryman) archetype.
+summary: Batteryman
+status: { index: stable }

@@ -1,0 +1,8 @@
+---!constant
+name: SET_KNIGHTMARE
+enum: Archetype
+value: 0x112
+description: |-
+  The ["Knightmare"](https://yugipedia.com/wiki/Knightmare) archetype.
+summary: Knightmare
+status: { index: stable }

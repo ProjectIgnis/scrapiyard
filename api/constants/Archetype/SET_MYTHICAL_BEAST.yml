@@ -1,0 +1,8 @@
+---!constant
+name: SET_MYTHICAL_BEAST
+enum: Archetype
+value: 0x10d
+description: |-
+  The ["Mythical Beast"](https://yugipedia.com/wiki/Mythical_Beast) archetype.
+summary: Mythical Beast
+status: { index: stable }

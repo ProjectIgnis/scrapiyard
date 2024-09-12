@@ -1,0 +1,8 @@
+---!constant
+name: SET_ALLY_OF_JUSTICE
+enum: Archetype
+value: 0x1
+description: |-
+  The ["Ally of Justice"](https://yugipedia.com/wiki/Ally_of_Justice) archetype.
+summary: Ally of Justice
+status: { index: stable }

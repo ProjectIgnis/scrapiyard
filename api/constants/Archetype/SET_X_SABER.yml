@@ -1,0 +1,9 @@
+---!constant
+name: SET_X_SABER
+enum: Archetype
+value: 0x100d
+description: |-
+  The ["X-Saber"](https://yugipedia.com/wiki/X-Saber) archetype.
+  Sub-archetype of [`SET_SABER`](/api/constants/Archetype/SET_SABER).
+summary: X-Saber
+status: { index: stable }

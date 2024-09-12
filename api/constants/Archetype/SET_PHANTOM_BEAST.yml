@@ -1,0 +1,8 @@
+---!constant
+name: SET_PHANTOM_BEAST
+enum: Archetype
+value: 0x1b
+description: |-
+  The ["Phantom Beast"](https://yugipedia.com/wiki/Phantom_Beast) archetype.
+summary: Phantom Beast
+status: { index: stable }

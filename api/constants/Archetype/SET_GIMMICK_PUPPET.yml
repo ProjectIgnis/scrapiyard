@@ -1,0 +1,9 @@
+---!constant
+name: SET_GIMMICK_PUPPET
+enum: Archetype
+value: 0x1083
+description: |-
+  The ["Gimmick Puppet"](https://yugipedia.com/wiki/Gimmick_Puppet) archetype.
+  Sub-archetype of [`SET_PUPPET`](/api/constants/Archetype/SET_PUPPET).
+summary: Gimmick Puppet
+status: { index: stable }

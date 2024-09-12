@@ -1,0 +1,8 @@
+---!constant
+name: SET_MATERIACTOR
+enum: Archetype
+value: 0x162
+description: |-
+  The ["Materiactor"](https://yugipedia.com/wiki/Materiactor) archetype.
+summary: Materiactor
+status: { index: stable }

@@ -1,0 +1,8 @@
+---!constant
+name: SET_WINDWITCH
+enum: Archetype
+value: 0xf0
+description: |-
+  The ["Windwitch"](https://yugipedia.com/wiki/Windwitch) archetype.
+summary: Windwitch
+status: { index: stable }

@@ -1,0 +1,8 @@
+---!constant
+name: SET_IMPCANTATION
+enum: Archetype
+value: 0x117
+description: |-
+  The ["Impcantation"](https://yugipedia.com/wiki/Impcantation) archetype.
+summary: Impcantation
+status: { index: stable }

@@ -1,0 +1,8 @@
+---!constant
+name: SET_SKYBLASTER
+enum: Archetype
+value: 0x49
+description: |-
+  The ["Skyblaster"](https://yugipedia.com/wiki/Skyblaster) archetype.
+summary: Skyblaster
+status: { index: stable }

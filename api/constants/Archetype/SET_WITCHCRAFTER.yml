@@ -1,0 +1,8 @@
+---!constant
+name: SET_WITCHCRAFTER
+enum: Archetype
+value: 0x128
+description: |-
+  The ["Witchcrafter"](https://yugipedia.com/wiki/Witchcrafter) archetype.
+summary: Witchcrafter
+status: { index: stable }

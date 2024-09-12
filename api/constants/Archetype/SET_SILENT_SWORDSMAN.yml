@@ -1,0 +1,8 @@
+---!constant
+name: SET_SILENT_SWORDSMAN
+enum: Archetype
+value: 0xe7
+description: |-
+  The ["Silent Swordsman"](https://yugipedia.com/wiki/Silent_Swordsman_(archetype)) archetype.
+summary: Silent Swordsman
+status: { index: stable }

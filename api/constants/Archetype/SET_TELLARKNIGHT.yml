@@ -1,0 +1,8 @@
+---!constant
+name: SET_TELLARKNIGHT
+enum: Archetype
+value: 0x9c
+description: |-
+  The ["tellarknight"](https://yugipedia.com/wiki/Tellarknight) archetype.
+summary: tellarknight
+status: { index: stable }

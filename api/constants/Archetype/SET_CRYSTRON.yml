@@ -1,0 +1,8 @@
+---!constant
+name: SET_CRYSTRON
+enum: Archetype
+value: 0xea
+description: |-
+  The ["Crystron"](https://yugipedia.com/wiki/Crystron) archetype.
+summary: Crystron
+status: { index: stable }

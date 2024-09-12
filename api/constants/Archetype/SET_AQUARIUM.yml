@@ -1,0 +1,8 @@
+---!constant
+name: SET_AQUARIUM
+enum: Archetype
+value: 0x20cd
+description: |-
+  The ["Aquarium"](https://yugipedia.com/wiki/Aquarium) archetype.
+summary: Aquarium
+status: { index: stable }

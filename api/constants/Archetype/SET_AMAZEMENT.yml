@@ -1,0 +1,8 @@
+---!constant
+name: SET_AMAZEMENT
+enum: Archetype
+value: 0x15e
+description: |-
+  The ["Amazement"](https://yugipedia.com/wiki/Amazement) archetype.
+summary: Amazement
+status: { index: stable }

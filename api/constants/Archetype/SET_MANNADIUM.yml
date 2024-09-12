@@ -1,0 +1,8 @@
+---!constant
+name: SET_MANNADIUM
+enum: Archetype
+value: 0x191
+description: |-
+  The ["Mannadium"](https://yugipedia.com/wiki/Mannadium) archetype.
+summary: Mannadium
+status: { index: stable }

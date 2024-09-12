@@ -1,0 +1,9 @@
+---!constant
+name: SET_GATE_GUARDIAN
+enum: Archetype
+value: 0x1052
+description: |-
+  The ["Gate Guardian"](https://yugipedia.com/wiki/Gate_Guardian_(archetype)) archetype.
+  Sub-archetype of [`SET_GUARDIAN`](/api/constants/Archetype/SET_GUARDIAN).
+summary: Gate Guardian
+status: { index: stable }

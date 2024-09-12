@@ -1,0 +1,8 @@
+---!constant
+name: SET_SCARECLAW
+enum: Archetype
+value: 0x17c
+description: |-
+  The ["Scareclaw"](https://yugipedia.com/wiki/Scareclaw) archetype.
+summary: Scareclaw
+status: { index: stable }

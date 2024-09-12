@@ -1,0 +1,8 @@
+---!constant
+name: SET_MADOLCHE
+enum: Archetype
+value: 0x71
+description: |-
+  The ["Madolche"](https://yugipedia.com/wiki/Madolche) archetype.
+summary: Madolche
+status: { index: stable }

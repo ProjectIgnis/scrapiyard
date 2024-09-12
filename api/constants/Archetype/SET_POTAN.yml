@@ -1,0 +1,8 @@
+---!constant
+name: SET_POTAN
+enum: Archetype
+value: 0x148
+description: |-
+  The ["Potan"](https://yugipedia.com/wiki/Potan) archetype.
+summary: Potan
+status: { index: stable }

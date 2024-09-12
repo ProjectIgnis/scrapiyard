@@ -1,0 +1,8 @@
+---!constant
+name: SET_NECROVALLEY
+enum: Archetype
+value: 0x91
+description: |-
+  The ["Necrovalley"](https://yugipedia.com/wiki/Necrovalley_(archetype)) archetype.
+summary: Necrovalley
+status: { index: stable }

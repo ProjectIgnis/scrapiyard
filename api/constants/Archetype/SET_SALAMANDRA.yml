@@ -1,0 +1,8 @@
+---!constant
+name: SET_SALAMANDRA
+enum: Archetype
+value: 0x1a4
+description: |-
+  The ["Salamandra"](https://yugipedia.com/wiki/Salamandra_(archetype)) archetype.
+summary: Salamandra
+status: { index: stable }

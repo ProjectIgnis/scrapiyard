@@ -1,0 +1,8 @@
+---!constant
+name: SET_KRAWLER
+enum: Archetype
+value: 0x104
+description: |-
+  The ["Krawler"](https://yugipedia.com/wiki/Krawler) archetype.
+summary: Krawler
+status: { index: stable }

@@ -1,0 +1,9 @@
+---!constant
+name: SET_EVIL_HERO
+enum: Archetype
+value: 0x6008
+description: |-
+  The ["Evil HERO"](https://yugipedia.com/wiki/Evil_HERO) archetype.
+  Sub-archetype of [`SET_HERO`](/api/constants/Archetype/SET_HERO).
+summary: Evil HERO
+status: { index: stable }

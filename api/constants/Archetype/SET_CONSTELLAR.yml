@@ -1,0 +1,8 @@
+---!constant
+name: SET_CONSTELLAR
+enum: Archetype
+value: 0x53
+description: |-
+  The ["Constellar"](https://yugipedia.com/wiki/Constellar) archetype.
+summary: Constellar
+status: { index: stable }

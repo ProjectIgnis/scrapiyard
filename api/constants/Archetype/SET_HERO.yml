@@ -1,0 +1,8 @@
+---!constant
+name: SET_HERO
+enum: Archetype
+value: 0x8
+description: |-
+  The ["HERO"](https://yugipedia.com/wiki/HERO) archetype.
+summary: HERO
+status: { index: stable }

@@ -1,0 +1,9 @@
+---!constant
+name: SET_SUPERHEAVY_SAMURAI_SOUL
+enum: Archetype
+value: 0x109a
+description: |-
+  The ["Superheavy Samurai Soul"](https://yugipedia.com/wiki/Superheavy_Samurai_Soul) archetype.
+  Sub-archetype of [`SET_SUPERHEAVY_SAMURAI`](/api/constants/Archetype/SET_SUPERHEAVY_SAMURAI).
+summary: Superheavy Samurai Soul
+status: { index: stable }

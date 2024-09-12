@@ -1,0 +1,9 @@
+---!constant
+name: SET_NORDIC_ALFAR
+enum: Archetype
+value: 0xa042
+description: |-
+  The ["Nordic Alfar"](https://yugipedia.com/wiki/Nordic_Alfar) archetype.
+  Sub-archetype of [`SET_NORDIC`](/api/constants/Archetype/SET_NORDIC).
+summary: Nordic Alfar
+status: { index: stable }

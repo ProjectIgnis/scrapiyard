@@ -1,0 +1,8 @@
+---!constant
+name: SET_FLAMVELL
+enum: Archetype
+value: 0x2c
+description: |-
+  The ["Flamvell"](https://yugipedia.com/wiki/Flamvell) archetype.
+summary: Flamvell
+status: { index: stable }

@@ -1,0 +1,8 @@
+---!constant
+name: SET_DRACOSLAYER
+enum: Archetype
+value: 0xc7
+description: |-
+  The ["Dracoslayer"](https://yugipedia.com/wiki/Dracoslayer) archetype.
+summary: Dracoslayer
+status: { index: stable }

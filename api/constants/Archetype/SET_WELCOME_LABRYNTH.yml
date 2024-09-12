@@ -1,0 +1,9 @@
+---!constant
+name: SET_WELCOME_LABRYNTH
+enum: Archetype
+value: 0x117f
+description: |-
+  The ["Welcome Labrynth"](https://yugipedia.com/wiki/Welcome_Labrynth_(archetype)) archetype.
+  Sub-archetype of [`SET_LABRYNTH`](/api/constants/Archetype/SET_LABRYNTH).
+summary: Welcome Labrynth
+status: { index: stable }

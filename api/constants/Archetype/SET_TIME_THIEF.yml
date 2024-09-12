@@ -1,0 +1,8 @@
+---!constant
+name: SET_TIME_THIEF
+enum: Archetype
+value: 0x126
+description: |-
+  The ["Time Thief"](https://yugipedia.com/wiki/Time_Thief) archetype.
+summary: Time Thief
+status: { index: stable }

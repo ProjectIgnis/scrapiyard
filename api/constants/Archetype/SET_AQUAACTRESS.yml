@@ -1,0 +1,8 @@
+---!constant
+name: SET_AQUAACTRESS
+enum: Archetype
+value: 0x10cd
+description: |-
+  The ["Aquaactress"](https://yugipedia.com/wiki/Aquaactress) archetype.
+summary: Aquaactress
+status: { index: stable }

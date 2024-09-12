@@ -1,0 +1,9 @@
+---!constant
+name: SET_CIPHER_DRAGON
+enum: Archetype
+value: 0x10e5
+description: |-
+  The ["Cipher Dragon"](https://yugipedia.com/wiki/Cipher_Dragon) archetype.
+  Sub-archetype of [`SET_CIPHER`](/api/constants/Archetype/SET_CIPHER).
+summary: Cipher Dragon
+status: { index: stable }

@@ -1,0 +1,8 @@
+---!constant
+name: SET_MALEFIC
+enum: Archetype
+value: 0x23
+description: |-
+  The ["Malefic"](https://yugipedia.com/wiki/Malefic) archetype.
+summary: Malefic
+status: { index: stable }

@@ -1,0 +1,8 @@
+---!constant
+name: SET_HOLE
+enum: Archetype
+value: 0x89
+description: |-
+  The ["Hole"](https://yugipedia.com/wiki/Hole) archetype.
+summary: Hole
+status: { index: stable }

@@ -1,0 +1,8 @@
+---!constant
+name: SET_TEARLAMENTS
+enum: Archetype
+value: 0x182
+description: |-
+  The ["Tearlaments"](https://yugipedia.com/wiki/Tearlaments) archetype.
+summary: Tearlaments
+status: { index: stable }

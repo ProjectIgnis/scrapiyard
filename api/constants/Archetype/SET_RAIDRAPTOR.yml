@@ -1,0 +1,8 @@
+---!constant
+name: SET_RAIDRAPTOR
+enum: Archetype
+value: 0xba
+description: |-
+  The ["Raidraptor"](https://yugipedia.com/wiki/Raidraptor) archetype.
+summary: Raidraptor
+status: { index: stable }

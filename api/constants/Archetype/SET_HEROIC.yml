@@ -1,0 +1,8 @@
+---!constant
+name: SET_HEROIC
+enum: Archetype
+value: 0x6f
+description: |-
+  The ["Heroic"](https://yugipedia.com/wiki/Heroic) archetype.
+summary: Heroic
+status: { index: stable }

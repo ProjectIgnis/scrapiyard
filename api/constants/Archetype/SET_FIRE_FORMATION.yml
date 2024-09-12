@@ -1,0 +1,8 @@
+---!constant
+name: SET_FIRE_FORMATION
+enum: Archetype
+value: 0x7c
+description: |-
+  The ["Fire Formation"](https://yugipedia.com/wiki/Fire_Formation) archetype.
+summary: Fire Formation
+status: { index: stable }

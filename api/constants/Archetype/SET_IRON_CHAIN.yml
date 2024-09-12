@@ -1,0 +1,8 @@
+---!constant
+name: SET_IRON_CHAIN
+enum: Archetype
+value: 0x25
+description: |-
+  The ["Iron Chain"](https://yugipedia.com/wiki/Iron_Chain) archetype.
+summary: Iron Chain
+status: { index: stable }

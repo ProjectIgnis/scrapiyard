@@ -1,0 +1,8 @@
+---!constant
+name: SET_EMPOWERED_WARRIOR
+enum: Archetype
+value: 0xca
+description: |-
+  The ["Empowered Warrior"](https://yugipedia.com/wiki/Empowered_Warrior) archetype.
+summary: Empowered Warrior
+status: { index: stable }

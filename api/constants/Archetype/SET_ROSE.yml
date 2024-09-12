@@ -1,0 +1,8 @@
+---!constant
+name: SET_ROSE
+enum: Archetype
+value: 0x123
+description: |-
+  The ["Rose"](https://yugipedia.com/wiki/Rose) archetype.
+summary: Rose
+status: { index: stable }

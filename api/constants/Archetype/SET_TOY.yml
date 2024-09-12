@@ -1,0 +1,8 @@
+---!constant
+name: SET_TOY
+enum: Archetype
+value: 0x1a0
+description: |-
+  The ["Toy"](https://yugipedia.com/wiki/Toy) archetype.
+summary: Toy
+status: { index: stable }

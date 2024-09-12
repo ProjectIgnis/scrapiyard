@@ -1,0 +1,8 @@
+---!constant
+name: SET_VYLON
+enum: Archetype
+value: 0x30
+description: |-
+  The ["Vylon"](https://yugipedia.com/wiki/Vylon) archetype.
+summary: Vylon
+status: { index: stable }

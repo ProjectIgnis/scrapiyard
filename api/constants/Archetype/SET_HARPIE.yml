@@ -1,0 +1,8 @@
+---!constant
+name: SET_HARPIE
+enum: Archetype
+value: 0x64
+description: |-
+  The ["Harpie"](https://yugipedia.com/wiki/Harpie) archetype.
+summary: Harpie
+status: { index: stable }

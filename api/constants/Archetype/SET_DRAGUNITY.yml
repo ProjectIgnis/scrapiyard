@@ -1,0 +1,8 @@
+---!constant
+name: SET_DRAGUNITY
+enum: Archetype
+value: 0x29
+description: |-
+  The ["Dragunity"](https://yugipedia.com/wiki/Dragunity) archetype.
+summary: Dragunity
+status: { index: stable }

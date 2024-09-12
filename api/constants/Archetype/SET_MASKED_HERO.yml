@@ -1,0 +1,9 @@
+---!constant
+name: SET_MASKED_HERO
+enum: Archetype
+value: 0xa008
+description: |-
+  The ["Masked HERO"](https://yugipedia.com/wiki/Masked_HERO) archetype.
+  Sub-archetype of [`SET_HERO`](/api/constants/Archetype/SET_HERO).
+summary: Masked HERO
+status: { index: stable }

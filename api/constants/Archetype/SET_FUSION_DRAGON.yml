@@ -1,0 +1,9 @@
+---!constant
+name: SET_FUSION_DRAGON
+enum: Archetype
+value: 0x1046
+description: |-
+  The ["Fusion Dragon"](https://yugipedia.com/wiki/Fusion_Dragon) archetype.
+  Sub-archetype of [`SET_FUSION`](/api/constants/Archetype/SET_FUSION).
+summary: Fusion Dragon
+status: { index: stable }

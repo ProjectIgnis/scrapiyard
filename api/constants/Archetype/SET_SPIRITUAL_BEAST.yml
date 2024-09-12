@@ -1,0 +1,9 @@
+---!constant
+name: SET_SPIRITUAL_BEAST
+enum: Archetype
+value: 0x20b5
+description: |-
+  The ["Spiritual Beast"](https://yugipedia.com/wiki/Spiritual_Beast) archetype.
+  Sub-archetype of [`SET_RITUAL_BEAST`](/api/constants/Archetype/SET_RITUAL_BEAST).
+summary: Spiritual Beast
+status: { index: stable }

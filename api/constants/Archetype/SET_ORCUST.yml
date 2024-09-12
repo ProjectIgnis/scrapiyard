@@ -1,0 +1,8 @@
+---!constant
+name: SET_ORCUST
+enum: Archetype
+value: 0x11b
+description: |-
+  The ["Orcust"](https://yugipedia.com/wiki/Orcust) archetype.
+summary: Orcust
+status: { index: stable }

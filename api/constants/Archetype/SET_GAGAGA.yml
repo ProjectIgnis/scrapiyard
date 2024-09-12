@@ -1,0 +1,8 @@
+---!constant
+name: SET_GAGAGA
+enum: Archetype
+value: 0x54
+description: |-
+  The ["Gagaga"](https://yugipedia.com/wiki/Gagaga) archetype.
+summary: Gagaga
+status: { index: stable }

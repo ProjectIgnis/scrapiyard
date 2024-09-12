@@ -1,0 +1,8 @@
+---!constant
+name: SET_CHANGE
+enum: Archetype
+value: 0xa5
+description: |-
+  The ["Change"](https://yugipedia.com/wiki/Change) archetype.
+summary: Change
+status: { index: stable }

@@ -1,0 +1,9 @@
+---!constant
+name: SET_NORDIC_ASCENDANT
+enum: Archetype
+value: 0x3042
+description: |-
+  The ["Nordic Ascendant"](https://yugipedia.com/wiki/Nordic_Ascendant) archetype.
+  Sub-archetype of [`SET_NORDIC`](/api/constants/Archetype/SET_NORDIC).
+summary: Nordic Ascendant
+status: { index: stable }

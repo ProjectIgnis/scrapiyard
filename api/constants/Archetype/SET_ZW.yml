@@ -1,0 +1,9 @@
+---!constant
+name: SET_ZW
+enum: Archetype
+value: 0x107e
+description: |-
+  The ["ZW -"](https://yugipedia.com/wiki/ZW_-) archetype.
+  Sub-archetype of [`SET_ZEXAL`](/api/constants/Archetype/SET_ZEXAL).
+summary: ZW -
+status: { index: stable }

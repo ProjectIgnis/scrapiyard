@@ -1,0 +1,8 @@
+---!constant
+name: SET_LABRYNTH
+enum: Archetype
+value: 0x17f
+description: |-
+  The ["Labrynth"](https://yugipedia.com/wiki/Labrynth) archetype.
+summary: Labrynth
+status: { index: stable }
