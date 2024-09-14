@@ -2,14 +2,15 @@
 name: IsNonEffectMonster
 namespace: Card
 description: |-
-  Returns if (Card c) is a Monster and does not have TYPE_EFFECT
-status:
-  index: stable
+  Returns `true` if the given card is currently
+  a [Non-Effect monster](https://yugipedia.com/wiki/Non-Effect_Monster).
+summary: Checks if a card is a Non-Effect monster
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
+    description: The card to check.
 returns:
   - type: [ bool ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: If `c` is currently a Non-Effect monster.
+status: { index: stable }
+tags: [ card-check, card-type-related ]
