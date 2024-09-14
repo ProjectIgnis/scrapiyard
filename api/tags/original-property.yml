@@ -1,0 +1,4 @@
+---!tag
+name: original-property
+description: &desc Deals with cards' original properties
+summary: *desc
