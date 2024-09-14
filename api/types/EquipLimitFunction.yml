@@ -1,0 +1,21 @@
+---!type
+name: EquipLimitFunction
+supertype: function
+description: |-
+  A function used to restrict which monsters an equipped card can remain equipped to.
+summary: Restricts which monsters an equipped card can remain equipped to
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The monster to check.
+  - name: e
+    type: [ Effect ]
+    description: |-
+      The equip procedure effect, usually registered by
+      [`Auxiliary.AddEquipProcedure`](/api/functions/Auxiliary/AddEquipProcedure).
+  - name: p
+    type: [ int ]
+    description: The player performing the equip procedure.
+returns:
+  - type: [ bool ]
+    description: If the monster passed the filter.

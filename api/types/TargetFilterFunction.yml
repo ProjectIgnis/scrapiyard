@@ -1,0 +1,18 @@
+---!type
+name: TargetFilterFunction
+supertype: function
+description: |-
+  A function used to filter cards affected by an effect.
+  Usually passed to [`Effect.SetTarget`](/api/functions/Effect/SetTarget)
+  for non-activated effects that affect certain cards.
+summary: Filters cards affected by an effect
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: The effect checking the card.
+  - name: c
+    type: [ Card ]
+    description: The card to check.
+returns:
+  - type: [ bool ]
+    description: If the card passed the filter.
