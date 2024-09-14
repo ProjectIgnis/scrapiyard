@@ -1,16 +1,16 @@
 ---!function
-name: addContinuousLizardCheck
+name: createContinuousLizardCheck
 namespace: Auxiliary
 description: |-
-  Creates and registers an [Effect](/api/types/Effect) to a card
-  that affects other cards such that they will be excluded by
+  Creates an [Effect](/api/types/Effect) that, when registered to a card,
+  affects other cards such that they will be excluded by
   ["Clock Lizard"](https://yugipedia.com/wiki/Clock_Lizard)
   when checking what cards it can return to the Extra Deck.
-summary: Adds an effect to a card that affects other cards for "Clock Lizard"'s handling
+summary: Creates a card effect that affects other cards for "Clock Lizard"'s handling
 parameters:
   - name: c
     type: [ Card ]
-    description: The card to register the effect to.
+    description: The card creating the effect.
   - name: location
     type: [ int ]
     description: Composite [Location](/api/enums/Location) values where `c` should be for the effect to apply.
@@ -26,10 +26,10 @@ parameters:
     defaultValue: 0
 returns:
   - type: [ effect ]
-    description: The effect that was registered.
+    description: The effect that was created.
 status: { index: stable }
 tags: [ special-handling ]
 suggestedLinks:
-  - name: Auxiliary.createContinuousLizardCheck
-    link: /api/functions/Auxiliary/createContinuousLizardCheck
-    message: A version of this function that does not register the created effect
+  - name: Auxiliary.addContinuousLizardCheck
+    link: /api/functions/Auxiliary/addContinuousLizardCheck
+    message: A version of this function that also registers the created effect
