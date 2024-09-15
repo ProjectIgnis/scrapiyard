@@ -1,0 +1,4 @@
+---!tag
+name: sequence-and-zone
+description: &desc Related to card sequences and zones
+summary: *desc

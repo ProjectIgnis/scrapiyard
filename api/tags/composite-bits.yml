@@ -1,5 +1,4 @@
 ---!tag
 name: composite-bits
-description: |-
-  The bitwise OR (`|`) sum of multiple constants in an enum
+description: The bitwise OR (`|`) sum of multiple constants in an enum.
 summary: Constant containing multiple bits.
