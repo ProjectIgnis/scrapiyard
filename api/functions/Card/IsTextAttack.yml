@@ -17,4 +17,4 @@ returns:
   - type: [ bool ]
     description: If `c`'s printed ATK is equal to `atk`.
 status: { index: stable }
-tags: [ card-check, card-atk, original-property ]
+tags: [ card-check, atk-related, original-property ]

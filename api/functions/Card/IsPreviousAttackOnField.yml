@@ -15,4 +15,4 @@ parameters:
 returns:
   - type: [ bool ]
     description: If the previous ATK of `c` is equal to `atk`.
-tags: [ card-check, card-atk, previous-property ]
+tags: [ card-check, atk-related, previous-property ]
