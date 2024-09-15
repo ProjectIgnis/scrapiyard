@@ -1,0 +1,20 @@
+---!function
+name: IsBaseDefense
+namespace: Card
+description: |-
+  Returns `true` if a card's original DEF is equal to a given value.
+  Original DEF might differ from the printed DEF of the card due to effects that change original DEF.
+  Use [`Card.IsTextDefense`](/api/functions/Card/IsTextDefense) if you need to check for the printed DEF instead.
+summary: Checks a card's original DEF
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check the original DEF of.
+  - name: def
+    type: [ int ]
+    description: The DEF value to check.
+returns:
+  - type: [ bool ]
+    description: If the original DEF of `c` is equal to `def`.
+status: { index: stable }
+tags: [ card-check, def-related, original-property ]

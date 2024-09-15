@@ -1,0 +1,18 @@
+---!function
+name: IsPreviousDefenseOnField
+namespace: Card
+description: |-
+  Returns `true` if a card's previous DEF on the field is equal to a given value.
+summary: Checks a card's previous DEF
+status: { index: stable }
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check the previous DEF of.
+  - name: def
+    type: [ int ]
+    description: The DEF value to check.
+returns:
+  - type: [ bool ]
+    description: If the previous DEF of `c` is equal to `def`.
+tags: [ card-check, def-related, previous-property ]
