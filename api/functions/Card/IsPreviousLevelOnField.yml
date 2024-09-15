@@ -1,0 +1,18 @@
+---!function
+name: IsPreviousLevelOnField
+namespace: Card
+description: |-
+  Returns `true` if a card's previous level on the field is equal to a given value.
+summary: Checks a card's previous level
+status: { index: stable }
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check the previous level of.
+  - name: lv
+    type: [ int ]
+    description: The level value to check.
+returns:
+  - type: [ bool ]
+    description: If the previous level of `c` is equal to `lv`.
+tags: [ card-check, level-related, previous-property ]
