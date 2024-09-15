@@ -1,0 +1,18 @@
+---!function
+name: IsPreviousCodeOnField
+namespace: Card
+description: |-
+  Returns `true` if a card's previous passcode on the field is equal to a given value.
+summary: Checks a card's previous passcode
+status: { index: stable }
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check the previous passcode of.
+  - name: code
+    type: [ int ]
+    description: The passcode to check.
+returns:
+  - type: [ bool ]
+    description: If the previous passcode of `c` is equal to `passcode`.
+tags: [ card-check, passcode-related, previous-property ]
