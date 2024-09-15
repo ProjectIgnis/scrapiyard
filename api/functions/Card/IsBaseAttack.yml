@@ -15,6 +15,6 @@ parameters:
     description: The ATK value to check.
 returns:
   - type: [ bool ]
-    description: If `c`'s original ATK is equal to `atk`.
+    description: If the original ATK of `c` is equal to `atk`.
 status: { index: stable }
 tags: [ card-check, atk-related, original-property ]
