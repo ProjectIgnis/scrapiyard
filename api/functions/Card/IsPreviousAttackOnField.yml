@@ -1,0 +1,18 @@
+---!function
+name: IsPreviousAttackOnField
+namespace: Card
+description: |-
+  Returns `true` if a card's previous ATK on the field is equal to a given value.
+summary: Checks a card's previous ATK
+status: { index: stable }
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check the previous ATK of.
+  - name: atk
+    type: [ int ]
+    description: The ATK value to check.
+returns:
+  - type: [ bool ]
+    description: If the previous ATK of `c` is equal to `atk`.
+tags: [ card-check, card-atk, previous-property ]
