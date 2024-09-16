@@ -2,14 +2,17 @@
 name: GetFieldID
 namespace: Card
 description: |-
-  Returns the field ID of "c" when it was placed on the field.
-status:
-  index: stable
+  Returns a card's current location ID, a value assigned to a card whenever it changes locations.
+summary: Gets a card's current location ID
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
+    description: The card to get the current location ID of.
 returns:
   - type: [ int ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: The current location ID of `c`.
+status: { index: stable }
+suggestedLinks:
+  - name: Card.GetRealFieldID
+    link: /api/functions/Card/GetRealFieldID
+    message: A function for getting a card's unique duel ID
