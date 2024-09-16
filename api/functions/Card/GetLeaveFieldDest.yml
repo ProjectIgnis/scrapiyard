@@ -2,14 +2,14 @@
 name: GetLeaveFieldDest
 namespace: Card
 description: |-
-  Returns the location that "c" would be sent to when it leaves the field, while taking into account effects that redirect that location (e.g. "but banish it if it leaves the field").
-status:
-  index: stable
+  Returns the location a card would be sent to when it leaves the field,
+  taking into account effects that would redirect it (e.g. "but banish it if it leaves the field").
+summary: Gets a card's destination when it leaves the field
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
+    description: The card to check the destination of.
 returns:
   - type: [ int ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: The [Location](/api/enums/Location) value the card would be sent to.
+status: { index: stable }
