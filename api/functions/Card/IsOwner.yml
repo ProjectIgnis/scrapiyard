@@ -1,0 +1,18 @@
+---!function
+name: IsOwner
+namespace: Card
+description: |-
+  Returns `true` if a card is [owned](https://yugipedia.com/wiki/Owner) by a specified player.
+summary: Checks a card's owner
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check the owner of.
+  - name: player
+    type: [ int ]
+    description: The player to check.
+returns:
+  - type: [ int ]
+    description: If `player` is the owner of `c`
+status: { index: stable }
+tags: [ card-check ]

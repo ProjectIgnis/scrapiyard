@@ -2,14 +2,13 @@
 name: GetOwner
 namespace: Card
 description: |-
-  Returns the owner of "c".
-status:
-  index: stable
+  Returns the [owner](https://yugipedia.com/wiki/Owner) of a card.
+summary: Gets the owner of a card
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
+    description: The card to get the owner of.
 returns:
   - type: [ int ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: The player that owns the card.
+status: { index: stable }
