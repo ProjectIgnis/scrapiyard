@@ -39,3 +39,4 @@ returns:
   - type: [ effect ]
     description: The resulting [Effect](/api/enums/Effect).
 status: { index: stable }
+tags: [ equip-related ]

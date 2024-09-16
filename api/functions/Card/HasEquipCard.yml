@@ -1,0 +1,15 @@
+---!function
+name: HasEquipCard
+namespace: Card
+description: |-
+  Returns `true` if a card currently has any number of cards equipped to it.
+summary: Checks if a card has any number of equipped cards
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check.
+returns:
+  - type: [ bool ]
+    description: If there is at least one card equipped to `c`.
+status: { index: stable }
+tags: [ card-check, equip-related ]
