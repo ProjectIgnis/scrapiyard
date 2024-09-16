@@ -2,17 +2,23 @@
 name: IsLevelAbove
 namespace: Card
 description: |-
-  Checks if a card (Card c) has level equal or above the specified number (int level), will return false if the card has no level.
-status:
-  index: stable
+  Returns `true` if the level of a card is greater than **or equal to** a specified level.
+summary: Checks if the level of a card is greater than or equal to a given level
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
-  - name: level
+    description: The card to check the level of.
+  - name: min
     type: [ int ]
-    description: (To be added)
+    description: |-
+      The minimum level. The level of `c` must be greater than or equal to this level.
 returns:
   - type: [ bool ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: If the level of `c` is greater than or equal to `min`.
+status: { index: stable }
+tags: [ card-check, level-related ]
+suggestedLinks:
+  - name: Card.IsLevelBelow
+    link: /api/Card/IsLevelBelow
+  - name: Card.IsLevelBetween
+    link: /api/Card/IsLevelBetween
