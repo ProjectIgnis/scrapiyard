@@ -1,0 +1,18 @@
+---!function
+name: IsReasonEffect
+namespace: Card
+description: |-
+  Returns `true` if a given effect caused the [Event](/api/enums/Event) that happened to a card.
+summary: Checks if an effect caused the event that happened to card
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check the reason of.
+  - name: effect
+    type: [ int ]
+    description: The effect being checked to determine if it caused the event.
+returns:
+  - type: [ bool ]
+    description: If `effect` caused the event that happened to `c`.
+status: { index: stable }
+tags: [ card-check, reason-related ]

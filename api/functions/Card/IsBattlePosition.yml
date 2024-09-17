@@ -1,0 +1,18 @@
+---!function
+name: IsBattlePosition
+namespace: Card
+description: |-
+  Returns `true` if a card is in a specified battle position at the start of the Damage Step.
+summary: Checks a card's battle position at the start of the Damage Step
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check the owner of.
+  - name: pos
+    type: [ int ]
+    description: Composite [Position](/api/enums/Position) value to check.
+returns:
+  - type: [ int ]
+    description: If `c` is in `pos` battle position.
+status: { index: stable }
+tags: [ card-check, battle-position ]

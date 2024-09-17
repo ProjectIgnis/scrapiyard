@@ -1,0 +1,18 @@
+---!function
+name: IsOriginalRank
+namespace: Card
+description: |-
+  Returns `true` if a card's original rank is equal to a given value.
+summary: Checks a card's original rank
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check the original rank of.
+  - name: rank
+    type: [ int ]
+    description: The rank value to check.
+returns:
+  - type: [ bool ]
+    description: If the original rank of `c` is equal to `rank`.
+status: { index: stable }
+tags: [ card-check, rank-related, original-property ]

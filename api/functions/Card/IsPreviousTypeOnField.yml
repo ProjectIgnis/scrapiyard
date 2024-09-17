@@ -1,0 +1,20 @@
+---!function
+name: IsPreviousTypeOnField
+namespace: Card
+description: |-
+  Returns `true` if a card's previous card type on the field includes a given value(s).
+summary: Checks a card's previous card type
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check the previous card type of.
+  - name: type
+    type: [ int ]
+    description: |-
+      Composite [CardType](/api/enums/CardType) values to check.
+      The card only needs to have at least one of the given types, not all.
+returns:
+  - type: [ bool ]
+    description: If the previous card type of `c` includes `type`.
+status: { index: stable }
+tags: [ card-check, card-type-related, previous-property ]

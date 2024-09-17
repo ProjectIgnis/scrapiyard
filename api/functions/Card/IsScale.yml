@@ -1,0 +1,18 @@
+---!function
+name: IsScale
+namespace: Card
+description: |-
+  Returns `true` if a card's Pendulum Scale is equal to a given value.
+summary: Checks a card's Pendulum Scale
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check the Pendulum Scale of.
+  - name: sc
+    type: [ int ]
+    description: The scale value to check.
+returns:
+  - type: [ bool ]
+    description: If the Pendulum Scale of `c` is equal to `sc`.
+status: { index: stable }
+tags: [ card-check, scale-related ]

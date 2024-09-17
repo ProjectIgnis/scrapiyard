@@ -1,0 +1,26 @@
+---!function
+name: IsLevelBetween
+namespace: Card
+description: |-
+  Returns `true` if the level of a card is between two specified levels, **inclusive**.
+summary: Checks if the level of a card is between two levels
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check the level of.
+  - name: fst
+    type: [ int ]
+    description: The first level.
+  - name: snd
+    type: [ int ]
+    description: The second level.
+returns:
+  - type: [ bool ]
+    description: If the level of `c` is between `fst` and `snd`.
+status: { index: stable }
+tags: [ card-check, level-related ]
+suggestedLinks:
+  - name: Card.IsLevelAbove
+    link: /api/Card/IsLevelAbove
+  - name: Card.IsLevelBelow
+    link: /api/Card/IsLevelBelow

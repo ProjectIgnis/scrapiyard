@@ -2,14 +2,15 @@
 name: IsFieldSpell
 namespace: Card
 description: |-
-  Returns if (Card c) is a Field Spell card.
-status:
-  index: stable
+  Returns `true` if the given card is currently
+  a [Field Spell](https://yugipedia.com/wiki/Field_Spell_Card).
+summary: Checks if a card is a Field Spell
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
+    description: The card to check.
 returns:
   - type: [ bool ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: If `c` is currently a Field Spell.
+status: { index: stable }
+tags: [ card-check, card-type-related ]

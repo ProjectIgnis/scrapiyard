@@ -1,0 +1,4 @@
+---!tag
+name: xyz-related
+description: &desc Related to Xyz Monsters and Xyz Summoning
+summary: *desc

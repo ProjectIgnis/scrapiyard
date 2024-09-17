@@ -1,0 +1,17 @@
+---!function
+name: IsTrapMonster
+namespace: Card
+description: |-
+  Returns `true` if the given card is a [Trap Monster](https://yugipedia.com/wiki/Trap_Monster).
+  This function does not actually check for the [`TYPE_TRAPMONSTER`](/api/constants/CardType/TYPE_TRAPMONSTER)
+  card type, and instead checks if it's a Trap Card with an original Level, Race, or Attribute.
+summary: Checks if a card is a Trap Monster
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check.
+returns:
+  - type: [ bool ]
+    description: If `c` is a Trap Monster.
+status: { index: stable }
+tags: [ card-check, card-type-related ]

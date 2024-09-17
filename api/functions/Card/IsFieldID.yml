@@ -1,0 +1,23 @@
+---!function
+name: IsFieldID
+namespace: Card
+description: |-
+  Returns `true` if a given value is equal to a card's current location ID,
+  a value assigned to a card whenever it changes locations.
+summary: Checks a card's current location ID
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check the current location ID of.
+  - name: fid
+    type: [ int ]
+    description: The value to check.
+returns:
+  - type: [ bool ]
+    description: If the current location ID of `c` is equal to `fid`.
+status: { index: stable }
+tags: [ card-check ]
+suggestedLinks:
+  - name: Card.IsRealFieldID
+    link: /api/functions/Card/IsRealFieldID
+    message: A function for checking a card's unique duel ID

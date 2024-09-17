@@ -1,0 +1,17 @@
+---!function
+name: addLizardCheck
+namespace: Auxiliary
+description: |-
+  Creates and registers an [Effect](/api/types/Effect) to a card
+  such that it will be excluded by ["Clock Lizard"](https://yugipedia.com/wiki/Clock_Lizard)
+  when checking what cards it can return to the Extra Deck.
+summary: Adds an effect to a card affecting itself for "Clock Lizard"'s handling
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to register the effect to.
+returns:
+  - type: [ effect ]
+    description: The effect that was registered.
+status: { index: stable }
+tags: [ registers-effect, special-handling ]

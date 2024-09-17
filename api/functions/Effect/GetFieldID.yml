@@ -2,14 +2,12 @@
 name: GetFieldID
 namespace: Effect
 description: |-
-  Gets a unique ID representing a certain instance of an effect.
-status:
-  index: stable
+  Returns an effect's current unique instance ID. Each activation of an activated effect is a separate instance.
 parameters:
   - name: e
     type: [ Effect ]
-    description: (To be added)
+    description: The card to get the current instance ID of.
 returns:
   - type: [ int ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: The current instance ID of `e`.
+status: { index: stable }

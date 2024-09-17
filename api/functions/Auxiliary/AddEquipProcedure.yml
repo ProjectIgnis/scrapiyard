@@ -1,0 +1,42 @@
+---!function
+name: AddEquipProcedure
+namespace: Auxiliary
+description: |-
+  Creates and registers an effect to an Equip Spell Card that allows it to be equipped.
+summary: Adds procedure for equipping Spells.
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The Equip Spell to add the procedure to.
+  - name: tp
+    type: [ int ]
+    description: |-
+      The player allowed to equip `c`.
+      Can be [`PLAYER_ALL`](api/constants/Player/PLAYER_ALL) to allow both.
+  - name: filter
+    type: [ TargetFilterFunction ]
+    description: Filter for monsters that can be initially equipped with `c`.
+  - name: eqlimit
+    type: [ EquipLimitFunction ]
+    description: Function to restrict which monsters `c` can remain equipped to.
+  - name: cost
+    type: [ EffectCost ]
+    description: Cost of the equipping effect.
+  - name: tg
+    type: [ EffectTarget ]
+    description: Activation procedure of the equipping effect.
+  - name: op
+    type: [ EffectOperation ]
+    description: Resolution of the equipping effect.
+  - name: con
+    type: [ EffectCondition ]
+    description: Condition of the equipping effect.
+  - name: prop
+    type: [ int ]
+    description: |-
+      [EffectProperty](/api/enums/EffectProperty) of the equipping effect.
+returns:
+  - type: [ effect ]
+    description: The resulting [Effect](/api/enums/Effect).
+status: { index: stable }
+tags: [ registers-effect, equip-related ]
