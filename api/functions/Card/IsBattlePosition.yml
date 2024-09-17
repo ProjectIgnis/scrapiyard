@@ -10,7 +10,7 @@ parameters:
     description: The card to check the owner of.
   - name: pos
     type: [ int ]
-    description: Composite [Position](/api/types/CardPosition) value to check.
+    description: Composite [CardPosition](/api/enums/CardPosition) value to check.
 returns:
   - type: [ int ]
     description: If `c` is in `pos` battle position.
