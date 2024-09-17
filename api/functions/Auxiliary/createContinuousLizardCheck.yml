@@ -28,8 +28,7 @@ returns:
   - type: [ effect ]
     description: The effect that was created.
 status: { index: stable }
-tags: [ special-handling ]
+tags: [ creates-effect, special-handling ]
 suggestedLinks:
   - name: Auxiliary.addContinuousLizardCheck
     link: /api/functions/Auxiliary/addContinuousLizardCheck
-    message: A version of this function that also registers the created effect

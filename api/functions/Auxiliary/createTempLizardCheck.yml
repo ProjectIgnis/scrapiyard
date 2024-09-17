@@ -39,8 +39,7 @@ returns:
   - type: [ effect ]
     description: The effect that was created.
 status: { index: stable }
-tags: [ special-handling ]
+tags: [ creates-effect, special-handling ]
 suggestedLinks:
   - name: Auxiliary.addTempLizardCheck
     link: /api/functions/Auxiliary/addTempLizardCheck
-    message: A version of this function that also registers the created effect

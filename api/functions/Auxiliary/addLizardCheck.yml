@@ -14,4 +14,4 @@ returns:
   - type: [ effect ]
     description: The effect that was registered.
 status: { index: stable }
-tags: [ special-handling ]
+tags: [ registers-effect, special-handling ]
