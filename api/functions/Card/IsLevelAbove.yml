@@ -19,6 +19,6 @@ status: { index: stable }
 tags: [ card-check, level-related ]
 suggestedLinks:
   - name: Card.IsLevelBelow
-    link: /api/Card/IsLevelBelow
+    link: /api/functions/Card/IsLevelBelow
   - name: Card.IsLevelBetween
-    link: /api/Card/IsLevelBetween
+    link: /api/functions/Card/IsLevelBetween
