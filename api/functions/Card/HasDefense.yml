@@ -1,15 +1,14 @@
 ---!function
 name: HasDefense
 namespace: Card
-description: |-
-  Rush related function. Returns false if any of the following is true for (Card c):  -its type includes TYPE_LINK, -its type is TYPE_MAXIMUM and it is in Maximum mode. Returns true otherwise.
-status:
-  index: stable
+description: Returns `true` if a card currently has a defense (DEF) value.
+summary: Checks if a card currently has a DEF value.
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
+    description: The card to check the DEF of.
 returns:
   - type: [ bool ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: If `c` currently has a DEF value.
+status: { index: stable }
+tags: [ card-check, def-related ]
