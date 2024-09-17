@@ -12,7 +12,7 @@ parameters:
     type: [ int ]
     description: |-
       The player allowed to equip `c`.
-      Can be [`PLAYER_ALL`](api/constants/Player/PLAYER_ALL) to allow both.
+      Can be [`PLAYER_ALL`](/api/constants/Player/PLAYER_ALL) to allow both.
   - name: filter
     type: [ TargetFilterFunction ]
     description: Filter for monsters that can be initially equipped with `c`.
@@ -34,7 +34,7 @@ parameters:
   - name: prop
     type: [ int ]
     description: |-
-      [EffectProperty](/api/types/EffectProperty) of the equipping effect.
+      [EffectProperty](/api/enums/EffectProperty) of the equipping effect.
 returns:
   - type: [ effect ]
     description: The resulting [Effect](/api/types/Effect).
