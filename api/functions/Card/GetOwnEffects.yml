@@ -1,0 +1,19 @@
+---!function
+name: GetOwnEffects
+namespace: Card
+description: |-
+  Returns all the effects registered to a card.
+  This includes effects being [granted](/api/constants/EffectType/EFFECT_TYPE_GRANT) to it.
+  For effects being applied to a card, such as Equip Effects and Field Effects,
+  use [Card.GetCardEffect](/api/functions/Card/GetCardEffect).
+summary: Gets all the effects registered or being granted to a card
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to get the effects of.
+returns:
+  - name: ...
+    type: [ Effect ]
+    description: The effects registered or being granted to `c`.
+    guaranteed: false
+status: { index: stable }
