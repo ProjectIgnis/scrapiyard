@@ -1,10 +1,7 @@
 ---!function
 name: IsHasEffect
 namespace: Card
-description: |-
-  Returns all the effects of a given code being applied to a card, such as by Equip and Field Effects.
-  This also includes the card's own [Single](/api/constants/EffectType/EFFECT_TYPE_SINGLE) effects.
-  For effects registered or being granted to a card, use [Card.GetOwnEffect](/api/functions/Card/GetOwnEffect).
+description: Returns all the effects of a given code being applied to a card, such as by Equip and Field Effects. This also includes the card's own [Single](/api/constants/EffectType/EFFECT_TYPE_SINGLE) effects. For effects registered or being granted to a card, use [Card.GetOwnEffects](/api/functions/Card/GetOwnEffects).
 summary: Gets all the effects of a given code being applied to a card
 parameters:
   - name: c
