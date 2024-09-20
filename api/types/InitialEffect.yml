@@ -1,0 +1,10 @@
+---!type
+name: InitialEffect
+supertype: function
+description: A function that registers a card's initial effects. Defined as `initial_effect` in the [card script metatable](/api/types/Script), and invoked by the script engine when loading the card.
+summary: Registers a card's initial effects.
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to register initial effects to.
+tags: [ registers-effect ]
