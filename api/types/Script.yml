@@ -40,10 +40,10 @@ fields:
     description: A filter function for a Ritual Monster's Ritual Summon materials.
   # Fusion Summons
   - name: material_location
-    valueType: int
+    valueType: [ int ]
     description: A [Location](/api/enums/Location) specified as where a Fusion material should be.
   - name: material_race
-    valueType: int
+    valueType: [ int ]
     description: A [MonsterRace](/api/enums/MonsterRace) mentioned as a Fusion material.
   - name: material_setcode
     valueType: [ int, IntArray, nil ]
