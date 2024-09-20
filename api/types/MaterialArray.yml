@@ -4,6 +4,6 @@ supertype: table
 description: An [array-like table](https://www.lua.org/pil/11.1.html) containing passcodes of Summoning materials mentioned in the card text. For Fusion Summons, may also contain filter functions for the materials.
 summary: An array containing ints
 mappedTypes:
-  keyType: int
-  valueType: [ int, FusionMaterialFilter ]
-  description: The Summoning materials.
+  - keyType: int
+    valueType: [ int, FusionMaterialFilter ]
+    description: The Summoning materials.
