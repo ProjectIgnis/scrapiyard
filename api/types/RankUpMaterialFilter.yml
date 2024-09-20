@@ -1,0 +1,16 @@
+---!type
+name: RankUpMaterialFilter
+supertype: function
+description: A function used to filter what can be used by a [Rank-Up-Magic](https://yugipedia.com/wiki/Rank-Up-Magic) to Special Summon an Xyz Monster.
+summary: Filters materials to be used for a Special Summon by Rank-Up-Magic
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The material to check.
+  - name: e
+    type: [ int ]
+    description: The effect performing the Special Summon.
+returns:
+  - type: [ bool ]
+    description: If the material passed the filter.
+tags: [ special-handling, xyz-related ]
