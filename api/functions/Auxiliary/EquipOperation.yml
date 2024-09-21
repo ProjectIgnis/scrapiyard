@@ -8,8 +8,10 @@ status:
   index: stable
 parameters:
   - name: op
-    type: [ EffectOperation, nil ]
-    description: Optional function to perform additional operations after equipping.
+    type: [ EffectOperation ]
+    description: A function to perform additional operations after equipping.
+    required: false
+    defaultValue: nil
 returns:
   - type: [ EffectOperation ]
     description: The function that is used by the equip effect.

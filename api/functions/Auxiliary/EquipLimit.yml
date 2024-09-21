@@ -8,8 +8,10 @@ status:
   index: stable
 parameters:
   - name: f
-    type: [ function, nil ]
+    type: [ function ]
     description: Optional function to restrict which monsters can remain equipped with the equip card.
+    required: false
+    defaultValue: nil
 returns:
   - type: [ function ]
     description: The function that is used by the equip limit effect.

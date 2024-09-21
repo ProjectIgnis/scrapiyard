@@ -10,14 +10,17 @@ parameters:
   - name: tg
     type: [ EffectTarget ]
     description: Optional function to do something after a monster is targeted for equipping.
+    required: false
     defaultValue: nil
   - name: p
     type: [ int ]
     description: Optional number to indicates which player is performing the selection, where 0 is the controller, 1 is the opponent.
+    required: false
     defaultValue: PLAYER_ALL
   - name: f
     type: [ CardFilter ]
     description: Optional filter to specify which monsters can be targeted.
+    required: false
     defaultValue: nil
 returns:
   - type: [ EffectTarget ]
