@@ -1,15 +1,16 @@
 ---!function
 name: EquipLimit
 namespace: Auxiliary
-description: |-
-  no description yet
+description: |
+  Creates a function for [Effect.SetValue](/api/functions/Effect/SetValue) of an equip limit effect, restricting which monsters an equip card can remain equipped to.
+summary: Creates a function for Effect.SetValue of an equip limit effect.
 status:
   index: stable
 parameters:
   - name: f
-    type: [ any ]
-    description: (To be added)
+    type: [ function, nil ]
+    description: Optional function to restrict which monsters can remain equipped with the equip card.
 returns:
   - type: [ function ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: The function that is used by the equip limit effect.
+tags: [ equip-limit, equip-related ]
