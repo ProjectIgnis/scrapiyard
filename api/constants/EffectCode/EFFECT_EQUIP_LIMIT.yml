@@ -1,9 +1,9 @@
 ---!constant
 name: EFFECT_EQUIP_LIMIT
-enum: EffectCode
 value: 76
-description: |-
-  Equipment object restrictions
+description: |
+  This effect code restricts which monsters an equip card can remain equipped to. If the equip card is equipped to a monster that not meets the restriction, the equip card will be destroyed.
+summary: Restricts which monsters an equip card can remain equipped to.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ equip-limit, equip-related ]
