@@ -9,7 +9,7 @@ status:
 parameters:
   - name: f
     type: [ function ]
-    description: Optional function to restrict which monsters can remain equipped with the equip card.
+    description: A function to restrict which monsters can remain equipped with the equip card.
     required: false
     defaultValue: nil
 returns:
