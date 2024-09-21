@@ -4,6 +4,7 @@ on:
   pull_request:
     branches: [master]
     types: [opened, reopened, review_requested, synchronize]
+  workflow_dispatch:
 
 jobs:
   build:
@@ -14,19 +15,14 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           path: scrapiyard
-      - name: Checkout scrapi-factory
-        uses: actions/checkout@v4
-        with:
-          repository: that-hatter/scrapi-factory
-          path: scrapi-factory
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: '20.x'
           cache: npm
-          cache-dependency-path: ./scrapi-factory
+          cache-dependency-path: ./scrapiyard
       - name: Run dump script
-        working-directory: scrapi-factory
+        working-directory: scrapiyard
         run: |-
-          npm ci
-          npm run dump -- --printErr
+          npm i @that-hatter/scrapi-factory
+          npx dump -- --printErr
