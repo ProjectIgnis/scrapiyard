@@ -8,14 +8,17 @@ status:
   index: stable
 parameters:
   - name: tg
-    type: [ EffectTarget, nil ]
+    type: [ EffectTarget ]
     description: Optional function to do something after a monster is targeted for equipping.
+    defaultValue: nil
   - name: p
-    type: [ int, nil ]
-    description: Optional number to indicates which player is performing the selection, where 0 is the controller, 1 is the opponent, and nil or PLAYER_ALL allows selection from both players.
+    type: [ int ]
+    description: Optional number to indicates which player is performing the selection, where 0 is the controller, 1 is the opponent.
+    defaultValue: PLAYER_ALL
   - name: f
-    type: [ CardFilter, nil ]
+    type: [ CardFilter ]
     description: Optional filter to specify which monsters can be targeted.
+    defaultValue: nil
 returns:
   - type: [ EffectTarget ]
     description: The function that is used by the equip effect.
