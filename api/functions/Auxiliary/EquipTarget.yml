@@ -1,21 +1,22 @@
 ---!function
 name: EquipTarget
 namespace: Auxiliary
-description: |-
-  no description yet
+description: |
+  Creates an [EffectTarget](/api/types/EffectTarget) function for an equip effect, allowing the player to select a monster that can be equipped with the equip card.
+summary: Creates an EffectTarget function for an equip effect.
 status:
   index: stable
 parameters:
   - name: tg
-    type: [ any ]
-    description: (To be added)
+    type: [ EffectTarget, nil ]
+    description: Optional function to do something after a monster is targeted for equipping.
   - name: p
-    type: [ any ]
-    description: (To be added)
+    type: [ int, nil ]
+    description: Optional number to indicates which player is performing the selection, where 0 is the controller, 1 is the opponent, and nil or PLAYER_ALL allows selection from both players.
   - name: f
-    type: [ any ]
-    description: (To be added)
+    type: [ CardFilter, nil ]
+    description: Optional filter to specify which monsters can be targeted.
 returns:
-  - type: [ function ]
-    description: (To be added)
-tags: [ under-construction ]
+  - type: [ EffectTarget ]
+    description: The function that is used by the equip effect.
+tags: [ equip-related ]
