@@ -2,23 +2,23 @@
 name: AddSetcodesRule
 namespace: Card
 description: |-
-  to be added. Available in utility.lua
+  Adds any number of archetypes (setcodes) to a card by registering EFFECT_ADD_SETCODE with those archetypes as values.
+summary: Add extra archetype(s) to a card.
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
+    description: The card that will receive the archetype(s).
   - name: code
     type: [ int ]
-    description: (To be added)
+    description: The card's ID, a value used as the effect's label. If the label is set and equal to the card's OriginalCodeRule, then in the effect's condition checks if the card's current code is itsOriginalCodeRule.
   - name: copyable
-    type: [ bool ]
-    description: (To be added)
+    type: [ any ]
+    description: If provided as a non-nil value, the effect is copyable. Otherwise, uses the EFFECT_FLAG_UNCOPYABLE in the effect's SetProperty.
   - name: ...
     type: [ int ]
-    description: (To be added)
+    description: Any number of archetypes that the card will receive. Can be provided as integers, hexadecimal, or archetype constants.
 returns:
   - type: [ table ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: A table containing all the EFFECT_ADD_SETCODE effects registered.
