@@ -1,15 +1,15 @@
 ---!function
 name: GetCardLevelFromCode
 namespace: Duel
-description: |-
-  Gets a card's level/rank/link rating from its card id (the value returned is the same as the one returned with Card.Level on a card object corresponding to a card with such id)
+description: Retrieves the level of the card for the given card passcode/ID.
+summary: Get the level of a card using its code.
 status:
   index: stable
 parameters:
-  - name: code
+  - name: id
     type: [ int ]
-    description: (To be added)
+    description: The unique id representing the card.
 returns:
   - type: [ int ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: The level of the card.
+tags: [ passcode-related ]
