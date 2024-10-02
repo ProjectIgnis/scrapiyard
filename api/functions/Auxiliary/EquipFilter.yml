@@ -1,27 +1,37 @@
 ---!function
 name: EquipFilter
 namespace: Auxiliary
-description: |-
-  no description yet
+description: &desc A function to filter monsters for an equip effect.
+summary: *desc
 status:
   index: stable
 parameters:
-  - name: c
-    type: [ any ]
-    description: (To be added)
-  - name: p
-    type: [ any ]
-    description: (To be added)
-  - name: f
-    type: [ any ]
-    description: (To be added)
-  - name: e
-    type: [ any ]
-    description: (To be added)
-  - name: tp
-    type: [ any ]
-    description: (To be added)
+  - &c
+    name: c
+    type: [ Card ]
+    description: The monster to check.
+  - &p
+    name: p
+    type: [ int ]
+    description: The player who controls the monster.
 returns:
-  - type: [ bool ]
-    description: (To be added)
-tags: [ under-construction ]
+  - &ret
+    type: [ bool ]
+    description: If the monster passed the filter.
+overloads:
+  - description: A function to filter monsters for an equip effect with additional checks.
+    parameters:
+      - *c
+      - *p
+      - name: f
+        type: [ CardFilter ]
+        description: A CardFilter function to fulfill additional checks for the monster.
+      - name: e
+        type: [ Effect ]
+        description: The effect to be passed to the CardFilter function.
+      - name: tp
+        type: [ int ]
+        description: The player to be passed to the CardFilter function.
+    returns:
+      - *ret
+tags: [ equip-related ]

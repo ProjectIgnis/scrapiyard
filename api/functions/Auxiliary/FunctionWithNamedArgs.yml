@@ -1,18 +1,41 @@
 ---!function
 name: FunctionWithNamedArgs
 namespace: Auxiliary
-description: |-
-  no description yet
+description: Creates a new function that can handle both named arguments (as a table) and regular arguments.
+summary: Wraps a function to support optional named arguments.
 status:
   index: stable
 parameters:
   - name: f
     type: [ function ]
-    description: (To be added)
+    required: true
+    description: The original function to be wrapped.
   - name: ...
-    type: [ any ]
-    description: (To be added)
+    type: [ string, table ]
+    required: false
+    description: Names of the parameters expected by the function, or a table of parameter specifications.
 returns:
   - type: [ function ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: A new function that can handle both named and regular arguments.
+guide: |
+  Example usage:
+  ```lua
+  SearchCardFromDeck = aux.FunctionWithNamedArgs(function(tp,filter,count)
+      Duel.Hint(HINT_SELECTMSG,tp,HINTMSG_ATOHAND)
+      local g=Duel.SelectMatchingCard(tp,filter,tp,LOCATION_DECK,0,count,count,nil)
+      if #g>0 then
+          Duel.SendtoHand(g,nil,REASON_EFFECT)
+          Duel.ConfirmCards(1-tp,g)
+      end
+  end,"tp","filter","count")
+
+  function s.thfilter(c)
+      return c:IsLevel(4) and c:IsRace(RACE_WARRIOR) and c:IsAttribute(ATTRIBUTE_DARK)
+  end
+
+  function s.operation(e,tp,eg,ep,ev,re,r,rp)
+      SearchCardFromDeck({tp=tp,filter=s.thfilter,count=1})
+      -- Or
+      SearchCardFromDeck(tp,s.thfilter,1)
+  end
+  ```
