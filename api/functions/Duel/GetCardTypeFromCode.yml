@@ -1,15 +1,15 @@
 ---!function
 name: GetCardTypeFromCode
 namespace: Duel
-description: |-
-  Gets a card's type from its card id (the value returned is the same as the one returned with Card.Type on a card object corresponding to a card with such id)
+description: Retrieves the card type for the given card passcode/ID.
+summary: Get the type of a card using its code.
 status:
   index: stable
 parameters:
-  - name: code
+  - name: id
     type: [ int ]
-    description: (To be added)
+    description: The unique id representing the card.
 returns:
   - type: [ int ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: The type of the card.
+tags: [ passcode-related ]
