@@ -1,16 +1,15 @@
 ---!function
 name: GetActivateEffect
 namespace: Card
-description: &desc |-
-  Gets a card's EFFECT_TYPE_ACTIVATE effects.
-summary: *desc
+description: Gets a card's activation effects (i.e., effects with [`EFFECT_TYPE_ACTIVATE`](/api/constants/EffectType/EFFECT_TYPE_ACTIVATE) in their effect type).
+summary: Gets a card's activation effects.
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: The card to be checked.
+    description: The card to get the activation effects of.
 returns:
   - name: ...
     type: [ Effect ]
-    description: All the effects registered to the card that have EFFECT_TYPE_ACTIVATE in their types. 
+    description: All the effects registered to the card that have `EFFECT_TYPE_ACTIVATE` in their types.

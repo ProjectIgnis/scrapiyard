@@ -1,8 +1,7 @@
 ---!function
 name: CheckEquipTarget
 namespace: Card
-description: &desc |-
-  Checks if a card can be equipped to another.
+description: &desc Checks if a card can be equipped to another.
 summary: *desc
 status:
   index: stable
@@ -15,4 +14,4 @@ parameters:
     description: The card that will receive the equip.
 returns:
   - type: [ bool ]
-    description: whether or not the first card is an appropriate equip target to the second card.
+    description: If `c1` can be equipped to `c2`.

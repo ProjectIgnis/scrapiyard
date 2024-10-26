@@ -1,9 +1,7 @@
 ---!function
 name: EnableCounterPermit
 namespace: Card
-description: |-
-  Enables the card to hold a counter that requires permissions.
-  Refer to the [counter guide](https://projectignis.github.io/scrapi-book/guides/general/counter.html) for details on counter permissions
+description: Enables the card to hold a counter that requires permissions. Refer to the [counter guide](https://projectignis.github.io/scrapi-book/guides/general/counter.html) for details on counter permissions.
 summary: Allows a card to hold a counter that need permissions.
 status:
   index: stable
@@ -16,6 +14,7 @@ parameters:
     description: The type of the counter.
   - name: location
     type: [ int ]
-    description: If provided, the only location in which the card will be able to hold the counters.
+    description: Composite [Location](/api/enums/Location) in which the card will be able to hold the counters.
     required: false
-    defaultValue: LOCATION_MZONE for monster cards, 0 otherwise.
+    defaultValue: |-
+      [`LOCATION_MZONE`](/api/constants/Location/LOCATION_MZONE) for monster cards, `0` otherwise.

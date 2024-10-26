@@ -1,9 +1,8 @@
 ---!function
 name: AssumeProperty
 namespace: Card
-description: |-
-  Temporarily assumes a property for a card. The card will be considered as having this property as long as the function in the in the scope surrounding this function's call is still processing.
-summary: Temporarily assumes a property for a card
+description: Temporarily assumes a property for a card. The card will be considered as having this property as long as the function in the scope surrounding this function's call is still processing.
+summary: Temporarily assumes a property for a card.
 status:
   index: stable
 parameters:
@@ -12,7 +11,7 @@ parameters:
     description: The card that will have the temporary property.
   - name: assume_type
     type: [ int ]
-    description: The property to be assumed. Limited to AssumeCode values.
+    description: The [AssumeCode](/api/enums/AssumeCode) property to be assumed.
   - name: assume_value
     type: [ int ]
-    description: The value to be assumed for the property.
+    description: The value to be assumed for the `assume_type`.

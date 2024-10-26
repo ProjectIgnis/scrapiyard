@@ -1,20 +1,19 @@
 ---!function
 name: CanSummonOrSet
 namespace: Card
-description: &desc |-
-  Returns if a card can be Normal Summoned or Set.
+description: &desc Checks if a card can be Normal Summoned or Set.
 summary: *desc
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: The card to be checked.
+    description: The card to check.
   - name: ignore_count
     type: [ bool ]
-    description: If set to true, ignores the standard rule that limits Normal Summons/Set to 1 per turn.
+    description: If set to `true`, ignores the standard rule that limits Normal Summon/Sets to 1 per turn.
   - name: e
-    type: [ Effect,nil]
+    type: [ Effect, nil]
     description: If provided, checks if the card can be summoned by this effect.
     required: false
     defaultValue: nil
@@ -25,4 +24,4 @@ parameters:
     defaultValue: 0
 returns:
   - type: [ bool ]
-    description: true if the card can be either Normal Summoned or Set.
+    description: If the card can be either Normal Summoned or Set.

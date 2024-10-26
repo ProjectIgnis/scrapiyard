@@ -2,8 +2,6 @@
 name: RESET_COPY
 enum: Reset
 value: 0x8000
-description: |-
-  Resets to copy the effect achieved
+description: Resets effects registered by copying
 status:
   index: stable
-tags: [ under-construction ]
