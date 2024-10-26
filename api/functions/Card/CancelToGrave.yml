@@ -1,8 +1,8 @@
 ---!function
 name: CancelToGrave
 namespace: Card
-description: |-
-  Changes the behavior of the default rule in which certain types of cards are sent to the GY when they resolve (e.g. Normal Spells, Quick-Play Spells, Ritual Spells, Normal and Counter Traps) and others stay on the field (Continuous Spells, Continuous Traps)
+description: Changes the behavior of the default rule in which certain types of cards are sent to the GY when they resolve (e.g. Normal Spells, Quick-Play Spells, Ritual Spells, Normal Traps, and Counter Traps) and others stay on the field (e.g. Field Spells, Pendulum Spells, Continuous Spells, and Continuous Traps).
+summary: Changes the behavior of the rule that sends certain card types to the GY.
 status:
   index: stable
 parameters:
@@ -11,6 +11,6 @@ parameters:
     description: The card that will have its behavior modified.
   - name: cancel
     type: [ bool ]
-    description: If set to true, disables the default rule. If set to true, enforces it even for types that would otherwise stay on the field.
+    description: If set to `true`, disables the default rule. If set to `false`, enforces it even for types that would otherwise stay on the field.
     required: false
     defaultValue: true
