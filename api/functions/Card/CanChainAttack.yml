@@ -1,31 +1,25 @@
 ---!function
 name: CanChainAttack
 namespace: Card
-description: |-
-  Checks if a Card, c, can make an attack(s) in a row. A card cannot declare an attack if any of the following is true:
-  c has STATUS_BATTLE_DESTROYED.
-  c is affected by an effect that would prevent attack declaration such as EFFECT_CANNOT_ATTACK_ANNOUNCE without EFFECT_UNSTOPPABLE_ATTACK.
-  c's controler is not the turn player.
-  the controler of c is affect by EFFECT_ATTACK_COST and cannot pay the cost(s).
-  The number of attacks already declared by c is equal or greater than the attackcount parameter.
-  EFFECT_EXTRA_ATTACK
-  the parameter attackcount is exactly 2 and c is affected by EFFECT_EXTRA_ATTACK.
+description: &desc Checks if a card can make a number of attacks in a row.
+summary: *desc
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: The card to be checked.
+    description: The card to check.
   - name: attackcount
     type: [ int ]
-    description: If set, checks if at least this many attacks can be declared.
+    description: The minimum amount of attacks `c` should be able to declare.
     required: false
     defaultValue: 2
   - name: on_monsters_only
     type: [ bool ]
-    description: If set to true, checks only the possibility of follow-up attacks on monsters.
+    description: If `true`, checks only the possibility of follow-up attacks on monsters.
     required: false
     defaultValue: false
 returns:
   - type: [ bool ]
-    description: whether or not the card can make the follow-up attack(s).
+    description: If `c` can declare a minimum of `attackcount` attacks in a row.
+tags: [ card-check, battle-related ]
