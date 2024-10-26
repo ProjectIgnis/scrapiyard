@@ -1,7 +1,7 @@
 ---!function
 name: AddMonsterAttribute
 namespace: Card
-description: Transforms the provided card into a monster. The card's properties reset to their original values when it is flipped face-down, becomes attached as Xyz material, or sent to the hand, Deck, GY, or banishment.
+description: Transforms the provided card into a monster. Must be completed by calling [`Card.AddMonsterAttributeComplete`](/api/functions/Card/AddMonsterAttributeComplete) after the card has been moved to the Monster Zone. The card's properties reset to their original values when it is flipped face-down, becomes attached as Xyz material, or sent to the hand, Deck, GY, or banishment.
 summary: Transforms the provided card into a monster.
 status:
   index: stable

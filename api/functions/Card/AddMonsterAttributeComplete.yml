@@ -1,11 +1,8 @@
 ---!function
 name: AddMonsterAttributeComplete
 namespace: Card
-description: |-
-  Used in conjunction with Card.AddMonsterAttribute, completes the transformation of the provided card into a monster.
-  Should be called after the card has been moved to the Monster Zone (i.e. after Duel.SpecialSummonStep).
-  If the card does not have EFFECT_PRE_MONSTER (added automatically by Card.AddMonsterAttribute), does nothing.
-summary: Completes the transformation of card into a monster.
+description: Used in conjunction with [`Card.AddMonsterAttribute`](/api/functions/Card/AddMonsterAttribute) after the card has been moved to the Monster Zone to complete the transformation of the provided card into a monster.
+summary: Completes the transformation of a card into a monster.
 status:
   index: stable
 parameters:
