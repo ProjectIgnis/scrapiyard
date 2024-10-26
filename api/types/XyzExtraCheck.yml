@@ -1,0 +1,20 @@
+---!type
+name: XyzExtraCheck
+supertype: function
+description: |-
+  An additional check to perform on groups of materials to be used for an Xyz Summon (e.g. [Number F0: Utopic Future](https://yugipedia.com/wiki/11413)).
+summary: Additional check to perform on groups of Xyz materials
+parameters:
+  - name: g
+    type: [ Group ]
+    description: The group of materials to be checked.
+  - name: tp
+    type: [ int ]
+    description: The player performing the Xyz Summon.
+  - name: xyz
+    type: [ Card ]
+    description: The Xyz Monster to summon.
+returns:
+  - type: [ bool ]
+    description: If `g` fulfills the check.
+tags: [ xyz-related ]
