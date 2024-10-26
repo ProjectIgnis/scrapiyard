@@ -1,0 +1,149 @@
+---!type
+name: Script
+supertype: table
+description: The card script metatable, where values shared by all copies of a card are defined.
+summary: The card script metatable
+fields:
+  - name: initial_effect
+    valueType: [ InitialEffect ]
+    description: The function that registers a card's initial effects when loading the card. This function is required for a card script to be properly loaded.
+  # listed
+  - name: listed_names
+    valueType: [ IntArray, nil ]
+    description: An array of passcodes/IDs of the cards mentioned in the card text.
+  - name: listed_series
+    valueType: [ IntArray, nil ]
+    description: An array of [Archetype](/api/enums/Archetype) values of the archetypes mentioned in the card text.
+  - name: listed_card_types
+    valueType: [ IntArray, nil ]
+    description: An array of [CardType](/api/enums/CardType) values of the card types mentioned in the card text.
+  # Counters
+  - name: counter_list
+    valueType: [ IntArray, nil ]
+    description: An array of [Counter](https://projectignis.github.io/scrapi-book/guides/general/counter.html) values mentioned in the card text.
+  - name: counter_place_list
+    valueType: [ IntArray, nil ]
+    description: An array of Counter values that the card can place.
+  # General materials
+  - name: named_material
+    valueType: [ IntArray, nil ]
+    description: An array of passcodes of the Summoning materials specifically mentioned in the card text.
+  - name: material
+    valueType: [ MaterialFilter, nil ]
+    description: An array of passcodes or filters of the Summoning materials mentioned in the card text.
+  # Ritual Summons
+  - name: fit_monster
+    valueType: [ IntArray, nil ]
+    description: An array of passcodes/IDs of the cards mentioned by a Ritual Spell as monsters it is used to Ritual Summon.
+  - name: mat_filter
+    valueType: [ RitualMaterialFilter, nil ]
+    description: A filter function for a Ritual Monster's Ritual Summon materials.
+  # Fusion Summons
+  - name: material_location
+    valueType: [ int ]
+    description: A [Location](/api/enums/Location) specified as where a Fusion material should be.
+  - name: material_race
+    valueType: [ int ]
+    description: A [MonsterRace](/api/enums/MonsterRace) mentioned as a Fusion material.
+  - name: material_setcode
+    valueType: [ int, IntArray, nil ]
+    description: An Archetype mentioned as a Fusion material, or an array of Archetype values if there are more than one.
+  - name: material_trap
+    valueType: [ int ]
+    description: The passcode/ID of a Trap Card mentioned as a Fusion material.
+  - name: min_material_count
+    valueType: [ int, nil ]
+    description: The minimum number of materials a Fusion Monster uses for its Fusion Summon.
+  - name: max_material_count
+    valueType: [ int, nil ]
+    description: The maximum number of materials a Fusion Monster uses for its Fusion Summon.
+  - name: material_count
+    valueType: [ int, nil ]
+    description: The number of materials a Fusion Monster uses for its Fusion Summon if `min_material_count` and `max_material_count` are equal.
+  # Synchro Summons
+  - name: synchro_tuner_required
+    valueType: [ int, nil ]
+    description: The number of Tuner Synchro monsters required for the card's Synchro Summon.
+  - name: synchro_nt_required
+    valueType: [ int, nil ]
+    description: The number of Non-Tuner Synchro monsters required for the card's Synchro Summon.
+  - name: synchro_type
+    valueType: [ bool, nil ]
+    description: Is `true` if the card includes an effect that Special Summons itself as a Tuner.
+  - name: self_tuner
+    valueType: [ bool, nil ]
+    description: Is `true` if the card includes an effect that Special Summons itself as a Tuner.
+  # Xyz Summons
+  - name: minxyzct
+    valueType: [ int, nil ]
+    description: The minimum number of materials a Xyz Monster uses for its Xyz Summon.
+  - name: maxxyzct
+    valueType: [ int, nil ]
+    description: The maximum number of materials a Xyz Monster uses for its Xyz Summon.
+  - name: xyz_number
+    valueType: [ int, nil ]
+    description: The number of a ["Number"](https://yugipedia.com/wiki/Number) Xyz monster.
+  - name: rum_limit
+    valueType: [ RankUpMaterialFilter, nil ]
+    description: Filters what can be used by a [Rank-Up-Magic](https://yugipedia.com/wiki/Rank-Up-Magic) effect to Special Summon an Xyz Monster.
+  - name: rum_xyzsummon
+    valueType: [ RankUpSummonRegister, nil ]
+    description: A function that registers a Special Summon procedure using a Rank-Up-Magic effect.
+  # Pendulum Summons
+  - name: pendulum_level
+    valueType: [ int, nil ]
+    description: The level a monster is treated as for a Pendulum Summon.
+  # Rush
+  - name: MaximumATK
+    valueType: [ int, nil ]
+    description: A [Maximum Monster](https://yugipedia.com/wiki/Maximum_Monster)'s Maximum ATK.
+  # other hardcoding
+  - name: illegal
+    valueType: [ bool, nil ]
+    description: Is `true` if the card is [illegal](https://yugipedia.com/wiki/Illegal).
+  - name: toss_coin
+    valueType: [ bool, nil ]
+    description: Is `true` if the card includes an effect that performs a coin toss.
+  - name: roll_dice
+    valueType: [ bool, nil ]
+    description: Is `true` if the card includes an effect that performs a die roll.
+  - name: old_union
+    valueType: [ bool, nil ]
+    description: Is `true` if the card is a [Union monster](https://yugipedia.com/wiki/Union_monster) that follows the old Union monster rulings.
+  - name: LVnum
+    valueType: [ int, nil ]
+    description: The LV number of an ["LV" monster](https://yugipedia.com/wiki/LV).
+  - name: LVset
+    valueType: [ int, nil ]
+    description: The LV set of an LV monster.
+  - name: arcanareg
+    valueType: [ ArcanaEffectRegister, nil ]
+    description: A function that registers an [Arcana Force](https://yugipedia.com/wiki/Arcana_Force) card's coin-based effects.
+  - name: assault_mode
+    valueType: [ int, nil ]
+    description: The passcode of the Synchro Monster used to Special Summon an ["/Assault Mode"](https://yugipedia.com/wiki//Assault_Mode) monster.
+  - name: miracle_synchro_fusion
+    valueType: [ bool, nil ]
+    description: Is `true` if the card can be Special Summoned by [Miracle Synchro Fusion](https://yugipedia.com/wiki/Miracle_Synchro_Fusion).
+  - name: dark_calling
+    valueType: [ bool, nil ]
+    description: Is `true` if the card must be Special Summoned by [Dark Fusion](https://yugipedia.com/wiki/Dark_Fusion), and consequently can be Fusion Summoned by [Dark Calling](https://yugipedia.com/wiki/Dark_Fusion).
+  - name: enhanced_metalmorph_stats
+    valueType: [ IntArray, nil ]
+    description: The level and race of the monster needed to be tributed by [Enhanced Metalmorph](https://yugipedia.com/wiki/Enhanced_Metalmorph) to Special Summon the card.
+tags: [ under-construction ]
+
+# Undocumented:
+#   s.af - anime stuff
+#   s.tableAction - skill stuff
+#   s.listed_materials - not sure how it differs from s.material/s.named_material
+#   s.toonVersion - seems to be used by only one script without being set anywhere
+
+# Needs deep-dive on Ritual Proc:
+#    s.ritual_custom_check
+#    s.ritual_custom_condition
+#    s.ritual_custom_operation
+
+# Needs deep-dive on Synchro Proc:
+#    s.synchro_type
+#    s.synchro_parameters

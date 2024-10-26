@@ -3,7 +3,6 @@ name: TYPE_UNION
 enum: CardType
 value: 0x400
 description: |-
-  Union monster
-status:
-  index: stable
-tags: [ under-construction ]
+  The [Union](https://yugipedia.com/wiki/Union_monster) Card Type for Monsters
+summary: Union
+status: { index: stable }

@@ -1,0 +1,8 @@
+---!constant
+name: SET_EVIL_EYE
+enum: Archetype
+value: 0x129
+description: |-
+  The ["Evil Eye"](https://yugipedia.com/wiki/Evil_Eye) archetype.
+summary: Evil Eye
+status: { index: stable }

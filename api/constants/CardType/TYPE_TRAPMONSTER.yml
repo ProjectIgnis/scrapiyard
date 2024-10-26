@@ -3,7 +3,6 @@ name: TYPE_TRAPMONSTER
 enum: CardType
 value: 0x100
 description: |-
-  A Trap monster, e.g. Embodiment of Apophis. NOTE: This is not used in adding to the default CardTypes.
-status:
-  index: stable
-tags: [ under-construction ]
+  The [Trap Monster](https://yugipedia.com/wiki/Trap_Monster) Card Type
+summary: Trap Monster
+status: { index: stable }

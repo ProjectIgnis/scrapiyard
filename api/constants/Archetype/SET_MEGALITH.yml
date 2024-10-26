@@ -1,0 +1,8 @@
+---!constant
+name: SET_MEGALITH
+enum: Archetype
+value: 0x138
+description: |-
+  The ["Megalith"](https://yugipedia.com/wiki/Megalith) archetype.
+summary: Megalith
+status: { index: stable }

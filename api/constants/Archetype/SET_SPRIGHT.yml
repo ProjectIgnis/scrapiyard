@@ -1,0 +1,8 @@
+---!constant
+name: SET_SPRIGHT
+enum: Archetype
+value: 0x181
+description: |-
+  The ["Spright"](https://yugipedia.com/wiki/Spright) archetype.
+summary: Spright
+status: { index: stable }

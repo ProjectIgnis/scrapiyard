@@ -3,7 +3,6 @@ name: TYPE_QUICKPLAY
 enum: CardType
 value: 0x10000
 description: |-
-  A Quick Play card
-status:
-  index: stable
-tags: [ under-construction ]
+  The [Quick-Play](https://yugipedia.com/wiki/Quick-Play_Spell_Card) Type for Spells
+summary: Quick-Play
+status: { index: stable }

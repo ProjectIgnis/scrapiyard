@@ -1,0 +1,8 @@
+---!constant
+name: SET_DOLL_MONSTER
+enum: Archetype
+value: 0x15c
+description: |-
+  The ["Doll Monster"](https://yugipedia.com/wiki/Doll_Monster) archetype.
+summary: Doll Monster
+status: { index: stable }

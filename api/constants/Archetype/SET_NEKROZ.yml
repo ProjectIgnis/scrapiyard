@@ -1,0 +1,8 @@
+---!constant
+name: SET_NEKROZ
+enum: Archetype
+value: 0xb4
+description: |-
+  The ["Nekroz"](https://yugipedia.com/wiki/Nekroz) archetype.
+summary: Nekroz
+status: { index: stable }

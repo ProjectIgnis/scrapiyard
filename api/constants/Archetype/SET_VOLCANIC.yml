@@ -1,0 +1,8 @@
+---!constant
+name: SET_VOLCANIC
+enum: Archetype
+value: 0x32
+description: |-
+  The ["Volcanic"](https://yugipedia.com/wiki/Volcanic) archetype.
+summary: Volcanic
+status: { index: stable }

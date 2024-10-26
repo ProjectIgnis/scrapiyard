@@ -1,0 +1,9 @@
+---!constant
+name: SET_STEELSWARM
+enum: Archetype
+value: 0x100a
+description: |-
+  The ["Steelswarm"](https://yugipedia.com/wiki/Steelswarm) archetype.
+  Sub-archetype of [`SET_LSWARM`](/api/constants/Archetype/SET_LSWARM).
+summary: Steelswarm
+status: { index: stable }

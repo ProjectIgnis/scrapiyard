@@ -1,0 +1,9 @@
+---!constant
+name: SET_RITUAL_BEAST_ULTI
+enum: Archetype
+value: 0x40b5
+description: |-
+  The ["Ritual Beast Ulti-"](https://yugipedia.com/wiki/Ritual_Beast_Ulti) archetype.
+  Sub-archetype of [`SET_RITUAL_BEAST`](/api/constants/Archetype/SET_RITUAL_BEAST).
+summary: Ritual Beast Ulti-
+status: { index: stable }

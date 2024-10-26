@@ -1,0 +1,18 @@
+---!function
+name: IsOriginalLevel
+namespace: Card
+description: |-
+  Returns `true` if a card's original level is equal to a given value.
+summary: Checks a card's original level
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check the original level of.
+  - name: lv
+    type: [ int ]
+    description: The level value to check.
+returns:
+  - type: [ bool ]
+    description: If the original level of `c` is equal to `lv`.
+status: { index: stable }
+tags: [ card-check, level-related, original-property ]

@@ -1,0 +1,19 @@
+---!function
+name: IsLeaveFieldDest
+namespace: Card
+description: |-
+  Returns `true` if a card would be sent to a given location when it leaves the field,
+  taking into account effects that would redirect it (e.g. "but banish it if it leaves the field").
+summary: Checks if a card would be sent to a given location when it leaves the field
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check the destination of.
+  - name: loc
+    type: [ int ]
+    description: The [Location](/api/enums/Location) value to check.
+returns:
+  - type: [ int ]
+    description: If `c` would be sent to `loc` when it leaves the field.
+status: { index: stable }
+tags: [ card-check ]

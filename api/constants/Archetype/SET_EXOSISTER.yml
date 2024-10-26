@@ -1,0 +1,8 @@
+---!constant
+name: SET_EXOSISTER
+enum: Archetype
+value: 0x174
+description: |-
+  The ["Exosister"](https://yugipedia.com/wiki/Exosister) archetype.
+summary: Exosister
+status: { index: stable }

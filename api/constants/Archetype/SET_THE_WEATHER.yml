@@ -1,0 +1,8 @@
+---!constant
+name: SET_THE_WEATHER
+enum: Archetype
+value: 0x109
+description: |-
+  The ["The Weather"](https://yugipedia.com/wiki/The_Weather) archetype.
+summary: The Weather
+status: { index: stable }

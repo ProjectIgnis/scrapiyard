@@ -1,0 +1,9 @@
+---!constant
+name: SET_UNCHAINED_SOUL
+enum: Archetype
+value: 0x1130
+description: |-
+  The ["Unchained Soul"](https://yugipedia.com/wiki/Unchained_Soul) archetype.
+  Sub-archetype of [`SET_UNCHAINED`](/api/constants/Archetype/SET_UNCHAINED).
+summary: Unchained Soul
+status: { index: stable }

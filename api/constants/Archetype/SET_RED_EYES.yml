@@ -1,0 +1,8 @@
+---!constant
+name: SET_RED_EYES
+enum: Archetype
+value: 0x3b
+description: |-
+  The ["Red-Eyes"](https://yugipedia.com/wiki/Red-Eyes) archetype.
+summary: Red-Eyes
+status: { index: stable }

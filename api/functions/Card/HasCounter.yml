@@ -1,0 +1,22 @@
+---!function
+name: HasCounter
+namespace: Card
+description: |-
+  Returns `true` if a card currently holds any amount of a specified counter.
+summary: Checks if a card has a specified counter
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check the counters of.
+  - name: ct
+    type: [ int ]
+    description: The type of counter to check for.
+returns:
+  - type: [ bool ]
+    description: If `c` currently holds any amount of `ct` counters.
+status: { index: stable }
+tags: [ card-check ]
+suggestedLinks:
+  - name: Card.HasCounters
+    link: /api/functions/Card/HasCounters
+    message: For checking if a card holds any counter

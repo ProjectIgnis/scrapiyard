@@ -1,16 +1,24 @@
 ---!function
 name: LinkMarker
 namespace: Card
-description: |-
-  Changes (Card c)'s original LinkMarkers if (int linkmarker) is inputted, else returns the current card's original LinkMarkers.
+description: &desc Returns the card's original link marker(s).
+summary: *desc
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
-  - name: linkmarker
-    type: [ int ]
-    description: (To be added)
-    required: false
-tags: [ under-construction ]
+    description: The card to get the link marker(s) of.
+returns:
+  - type: [ int ]
+    description: Composite [LinkMarker](/api/enums/LinkMarker) value of the card's original link marker(s).
+overloads:
+  - description: Changes a card's link markers.
+    parameters:
+    - name: c
+      type: [ Card ]
+      description: The card to change the link markers of.
+    - name: att
+      type: [ int ]
+      description: Composite [LinkMarker](/api/enums/LinkMarker) value to set as the card's new link marker(s).
+tags: [ link-related ]

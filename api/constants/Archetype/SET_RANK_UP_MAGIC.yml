@@ -1,0 +1,8 @@
+---!constant
+name: SET_RANK_UP_MAGIC
+enum: Archetype
+value: 0x95
+description: |-
+  The ["Rank-Up-Magic"](https://yugipedia.com/wiki/Rank-Up-Magic) archetype.
+summary: Rank-Up-Magic
+status: { index: stable }

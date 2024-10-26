@@ -3,7 +3,6 @@ name: TYPE_SPSUMMON
 enum: CardType
 value: 0x2000000
 description: |-
-  An Special Summon-only monster. Used for Nomi/Semi-Nomi Main Deck monsters
-status:
-  index: stable
-tags: [ under-construction ]
+  The [Special Summon](https://yugipedia.com/wiki/Special_Summon_Monster) Card Type for Monsters
+summary: Special Summon
+status: { index: stable }

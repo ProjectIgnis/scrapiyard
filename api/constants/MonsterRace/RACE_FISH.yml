@@ -3,7 +3,6 @@ name: RACE_FISH
 enum: MonsterRace
 value: 0x20000
 description: |-
-  Fish type monster
-status:
-  index: stable
-tags: [ under-construction ]
+  The [Fish](https://yugipedia.com/wiki/Fish) Monster Type
+summary: Fish
+status: { index: stable }

@@ -1,0 +1,8 @@
+---!constant
+name: SET_COUNTER
+enum: Archetype
+value: 0x200
+description: |-
+  The ["Counter"](https://yugipedia.com/wiki/Counter_(archetype)) archetype.
+summary: Counter
+status: { index: stable }

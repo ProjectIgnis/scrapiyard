@@ -1,0 +1,8 @@
+---!constant
+name: SET_APPLIANCER
+enum: Archetype
+value: 0x14a
+description: |-
+  The ["Appliancer"](https://yugipedia.com/wiki/Appliancer) archetype.
+summary: Appliancer
+status: { index: stable }

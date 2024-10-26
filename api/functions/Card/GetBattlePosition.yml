@@ -2,14 +2,14 @@
 name: GetBattlePosition
 namespace: Card
 description: |-
-  Returns the position of "c" at the start of the Damage Step (see "Marshmallon").
-status:
-  index: stable
+  Returns the battle position of a monster at the start of the Damage Step.
+summary: Gets the battle position of a monster at the start of the Damage Step
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
+    description: The monster to get the battle position of.
 returns:
   - type: [ int ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: The battle position of `c`.
+status: { index: stable }
+tags: [ battle-position ]

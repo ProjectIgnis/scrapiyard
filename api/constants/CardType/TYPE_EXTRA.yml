@@ -3,7 +3,7 @@ name: TYPE_EXTRA
 enum: CardType
 value: 0x4802040
 description: |-
-  Extra Deck cards: TYPE_FUSION+TYPE_SYNCHRO+TYPE_XYZ+TYPE_LINK. The sum of (0x40+0x2000+0x4000000+0x800000)
-status:
-  index: stable
-tags: [ under-construction ]
+  Composite constant for Card Types that start in the Extra Deck (Fusion, Synchro, Xyz, and Link)
+summary: Extra Deck Monster
+status: { index: stable }
+tags: [ composite-bits ]

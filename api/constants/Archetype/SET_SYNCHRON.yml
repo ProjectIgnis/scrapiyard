@@ -1,0 +1,9 @@
+---!constant
+name: SET_SYNCHRON
+enum: Archetype
+value: 0x1017
+description: |-
+  The ["Synchron"](https://yugipedia.com/wiki/Synchron) archetype.
+  Sub-archetype of [`SET_SYNCHRO`](/api/constants/Archetype/SET_SYNCHRO).
+summary: Synchron
+status: { index: stable }

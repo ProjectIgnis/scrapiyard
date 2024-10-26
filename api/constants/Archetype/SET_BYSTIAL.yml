@@ -1,0 +1,8 @@
+---!constant
+name: SET_BYSTIAL
+enum: Archetype
+value: 0x189
+description: |-
+  The ["Bystial"](https://yugipedia.com/wiki/Bystial) archetype.
+summary: Bystial
+status: { index: stable }

@@ -1,0 +1,8 @@
+---!constant
+name: SET_VENDREAD
+enum: Archetype
+value: 0x106
+description: |-
+  The ["Vendread"](https://yugipedia.com/wiki/Vendread) archetype.
+summary: Vendread
+status: { index: stable }

@@ -1,0 +1,8 @@
+---!constant
+name: SET_DIABELLESTARR
+enum: Archetype
+value: 0x203
+description: |-
+  The ["Diabellstar"](https://yugipedia.com/wiki/Diabellstar) archetype.
+summary: Diabellstar
+status: { index: stable }

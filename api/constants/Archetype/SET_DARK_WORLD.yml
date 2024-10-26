@@ -1,0 +1,8 @@
+---!constant
+name: SET_DARK_WORLD
+enum: Archetype
+value: 0x6
+description: |-
+  The ["Dark World"](https://yugipedia.com/wiki/Dark_World) archetype.
+summary: Dark World
+status: { index: stable }

@@ -1,0 +1,8 @@
+---!constant
+name: SET_OJAMA
+enum: Archetype
+value: 0xf
+description: |-
+  The ["Ojama"](https://yugipedia.com/wiki/Ojama) archetype.
+summary: Ojama
+status: { index: stable }

@@ -1,0 +1,8 @@
+---!constant
+name: SET_PURRELY
+enum: Archetype
+value: 0x18d
+description: |-
+  The ["Purrely"](https://yugipedia.com/wiki/Purrely) archetype.
+summary: Purrely
+status: { index: stable }

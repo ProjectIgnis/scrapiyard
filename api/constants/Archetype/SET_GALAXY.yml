@@ -1,0 +1,8 @@
+---!constant
+name: SET_GALAXY
+enum: Archetype
+value: 0x7b
+description: |-
+  The ["Galaxy"](https://yugipedia.com/wiki/Galaxy) archetype.
+summary: Galaxy
+status: { index: stable }

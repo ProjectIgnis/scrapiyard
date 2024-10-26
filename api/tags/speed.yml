@@ -1,4 +1,5 @@
 ---!tag
 name: speed
-description: |-
+description: &desc |-
   Related to Speed Duels.
+summary: *desc

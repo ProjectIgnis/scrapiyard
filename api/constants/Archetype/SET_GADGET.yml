@@ -1,0 +1,8 @@
+---!constant
+name: SET_GADGET
+enum: Archetype
+value: 0x51
+description: |-
+  The ["Gadget"](https://yugipedia.com/wiki/Gadget) archetype.
+summary: Gadget
+status: { index: stable }

@@ -2,17 +2,17 @@
 name: IsLevel
 namespace: Card
 description: |-
-  Checks if "c" has a Level equal to any of the levels passed as ...
-status:
-  index: stable
+  Returns `true` if the level of a card is equal to any of the specified levels
+summary: Checks the level of a card
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
+    description: The card to check the level of.
   - name: ...
     type: [ int ]
-    description: (To be added)
+    description: The levels to check. There must be at least one.
 returns:
   - type: [ bool ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: If the level of `c` is equal to any of `...`.
+status: { index: stable }
+tags: [ card-check, level-related ]

@@ -1,0 +1,8 @@
+---!constant
+name: SET_GANDORA
+enum: Archetype
+value: 0xf5
+description: |-
+  The ["Gandora"](https://yugipedia.com/wiki/Gandora_(archetype)) archetype.
+summary: Gandora
+status: { index: stable }

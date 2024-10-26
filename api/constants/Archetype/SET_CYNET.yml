@@ -1,0 +1,8 @@
+---!constant
+name: SET_CYNET
+enum: Archetype
+value: 0x118
+description: |-
+  The ["Cynet"](https://yugipedia.com/wiki/Cynet) archetype.
+summary: Cynet
+status: { index: stable }

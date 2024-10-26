@@ -3,7 +3,6 @@ name: RACE_ZOMBIE
 enum: MonsterRace
 value: 0x10
 description: |-
-  Zombie type monster
-status:
-  index: stable
-tags: [ under-construction ]
+  The [Zombie](https://yugipedia.com/wiki/Zombie) Monster Type
+summary: Zombie
+status: { index: stable }

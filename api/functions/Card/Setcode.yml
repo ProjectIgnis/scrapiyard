@@ -1,16 +1,32 @@
 ---!function
 name: Setcode
 namespace: Card
-description: |-
-  Changes (Card c)'s original archetype(s)/setcode(s) if (int setcode) is inputted, else returns the current card's original archetype(s)/setcode(s).
+description: &desc Returns the card's original archetype(s).
+summary: *desc
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
-  - name: setcode
+    description: The card to get the original archetype(s) of.
+returns:
+  - name: ...
     type: [ int ]
-    description: (To be added)
-    required: false
-tags: [ under-construction ]
+    description: The setcode values of the card's original archetypes.
+overloads:
+  - description: Replaces a card's archetype(s) with a table of setcode values.
+    parameters:
+    - name: c
+      type: [ Card ]
+      description: The card to change the archetype(s) of.
+    - name: setcodes
+      type: [ IntArray ]
+      description: A table of setcode values to set as the card's new archetype(s).
+  - description: Replaces a card's archetype(s) with any number of setcode values.
+    parameters:
+    - name: c
+      type: [ Card ]
+      description: The card to change the archetype(s) of.
+    - name: ...
+      type: [ int ]
+      description: Setcode values to set as the card's new archetype(s).

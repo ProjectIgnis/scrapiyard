@@ -1,0 +1,20 @@
+---!function
+name: IsPreviousRaceOnField
+namespace: Card
+description: |-
+  Returns `true` if a card's previous race on the field includes a given value(s).
+summary: Checks a card's previous race
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check the previous race of.
+  - name: race
+    type: [ int ]
+    description: |-
+      Composite [MonsterRace](/api/enums/MonsterRace) values to check.
+      The card only needs to have at least one of the given races, not all.
+returns:
+  - type: [ bool ]
+    description: If the previous race of `c` includes `race`.
+status: { index: stable }
+tags: [ card-check, race-related, previous-property ]

@@ -1,0 +1,8 @@
+---!constant
+name: SET_ELDER_ENTITY
+enum: Archetype
+value: 0x20b7
+description: |-
+  The ["Elder Entity"](https://yugipedia.com/wiki/Elder_Entity) archetype.
+summary: Elder Entity
+status: { index: stable }

@@ -3,7 +3,6 @@ name: LINK_MARKER_TOP_RIGHT
 enum: LinkMarker
 value: 0x100
 description: |-
-  Has this link arrow: ↗
-status:
-  index: stable
-tags: [ under-construction ]
+  Top-Right Link Arrow (↗)
+summary: ↗
+status: { index: stable }

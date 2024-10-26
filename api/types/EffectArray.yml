@@ -1,0 +1,9 @@
+---!type
+name: EffectArray
+supertype: table
+description: An [array-like table](https://www.lua.org/pil/11.1.html) containing [Effect](/api/types/Effect) values.
+summary: An array containing effects
+mappedTypes:
+  - keyType: int
+    valueType: [ Effect ]
+    description: The array's items.

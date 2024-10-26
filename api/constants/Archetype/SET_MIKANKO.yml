@@ -1,0 +1,8 @@
+---!constant
+name: SET_MIKANKO
+enum: Archetype
+value: 0x18e
+description: |-
+  The ["Mikanko"](https://yugipedia.com/wiki/Mikanko) archetype.
+summary: Mikanko
+status: { index: stable }

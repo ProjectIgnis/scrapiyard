@@ -1,0 +1,8 @@
+---!constant
+name: SET_MAGICAL_MUSKET
+enum: Archetype
+value: 0x108
+description: |-
+  The ["Magical Musket"](https://yugipedia.com/wiki/Magical_Musket) archetype.
+summary: Magical Musket
+status: { index: stable }

@@ -1,0 +1,9 @@
+---!constant
+name: SET_SUPER_QUANTUM
+enum: Archetype
+value: 0x10dc
+description: |-
+  The ["Super Quantum"](https://yugipedia.com/wiki/Super_Quantum) archetype.
+  Sub-archetype of [`SET_SUPER_QUANT`](/api/constants/Archetype/SET_SUPER_QUANT).
+summary: Super Quantum
+status: { index: stable }

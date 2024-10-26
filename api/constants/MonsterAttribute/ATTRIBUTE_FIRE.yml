@@ -3,7 +3,6 @@ name: ATTRIBUTE_FIRE
 enum: MonsterAttribute
 value: 0x4
 description: |-
-  The FIRE attribute for monsters
-status:
-  index: stable
-tags: [ under-construction ]
+  The [FIRE](https://yugipedia.com/wiki/FIRE) attribute for monsters
+summary: FIRE
+status: { index: stable }

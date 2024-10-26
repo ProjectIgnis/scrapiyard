@@ -1,18 +1,18 @@
 ---!function
 name: GetCounter
 namespace: Card
-description: |-
-  Returns the number of counters of a specific type (int countertype) on a card (Card c).
+description: &desc Gets the number of counters of a certain type a card has.
+summary: *desc
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
+    description: The card to get the counters of.
   - name: countertype
     type: [ int ]
-    description: (To be added)
+    description: The type of the counter.
 returns:
   - type: [ int ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: The number of counters of the given type the card currently holds.
+tags: [ counter-related ]

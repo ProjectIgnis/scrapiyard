@@ -1,0 +1,8 @@
+---!constant
+name: SET_PENDULUM
+enum: Archetype
+value: 0xf2
+description: |-
+  The ["Pendulum"](https://yugipedia.com/wiki/Pendulum_(archetype)) archetype.
+summary: Pendulum
+status: { index: stable }

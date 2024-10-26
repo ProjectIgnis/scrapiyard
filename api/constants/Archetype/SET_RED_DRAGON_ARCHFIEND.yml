@@ -1,0 +1,9 @@
+---!constant
+name: SET_RED_DRAGON_ARCHFIEND
+enum: Archetype
+value: 0x1045
+description: |-
+  The ["Red Dragon Archfiend"](https://yugipedia.com/wiki/Red_Dragon_Archfiend_(archetype)) archetype.
+  Sub-archetype of [`SET_ARCHFIEND`](/api/constants/Archetype/SET_ARCHFIEND).
+summary: Red Dragon Archfiend
+status: { index: stable }

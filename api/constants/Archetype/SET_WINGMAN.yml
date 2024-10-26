@@ -1,0 +1,8 @@
+---!constant
+name: SET_WINGMAN
+enum: Archetype
+value: 0x185
+description: |-
+  The ["Wingman"](https://yugipedia.com/wiki/Wingman) archetype.
+summary: Wingman
+status: { index: stable }

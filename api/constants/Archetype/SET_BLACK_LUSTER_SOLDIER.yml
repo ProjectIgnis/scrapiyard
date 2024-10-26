@@ -1,0 +1,9 @@
+---!constant
+name: SET_BLACK_LUSTER_SOLDIER
+enum: Archetype
+value: 0x10cf
+description: |-
+  The ["Black Luster Soldier"](https://yugipedia.com/wiki/Black_Luster_Soldier_(archetype)) archetype.
+  Sub-archetype of [`SET_CHAOS`](/api/constants/Archetype/SET_CHAOS).
+summary: Black Luster Soldier
+status: { index: stable }

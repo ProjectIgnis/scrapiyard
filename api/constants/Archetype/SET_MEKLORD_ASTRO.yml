@@ -1,0 +1,9 @@
+---!constant
+name: SET_MEKLORD_ASTRO
+enum: Archetype
+value: 0x9013
+description: |-
+  The ["Meklord Astro"](https://yugipedia.com/wiki/Meklord_Astro) archetype.
+  Sub-archetype of [`SET_MEKLORD`](/api/constants/Archetype/SET_MEKLORD).
+summary: Meklord Astro
+status: { index: stable }

@@ -1,0 +1,18 @@
+---!function
+name: IsDestination
+namespace: Card
+description: |-
+  Returns `true` if a card would be sent to a given location (e.g. when it would be destroyed).
+summary: Checks if a card would be sent to a given location
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check the destination of.
+  - name: loc
+    type: [ int ]
+    description: The [Location](/api/enums/Location) value to check.
+returns:
+  - type: [ int ]
+    description: If `c` would be sent to `loc`.
+status: { index: stable }
+tags: [ card-check ]

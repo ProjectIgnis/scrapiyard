@@ -1,0 +1,8 @@
+---!constant
+name: SET_NINJITSU_ART
+enum: Archetype
+value: 0x61
+description: |-
+  The ["Ninjitsu Art"](https://yugipedia.com/wiki/Ninjitsu_Art) archetype.
+summary: Ninjitsu Art
+status: { index: stable }

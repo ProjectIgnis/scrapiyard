@@ -1,0 +1,15 @@
+---!function
+name: IsTrapCard
+namespace: Card
+description: |-
+  Returns `true` if the given card is originally a [Trap Card](https://yugipedia.com/wiki/Trap_Card).
+summary: Checks if a card is originally a Trap Card
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check.
+returns:
+  - type: [ bool ]
+    description: If `c` is originally a Trap Card.
+status: { index: stable }
+tags: [ card-check, card-type-related, original-property ]

@@ -3,7 +3,6 @@ name: TYPE_COUNTER
 enum: CardType
 value: 0x100000
 description: |-
-  A counter card, used for Counter Trap cards
-status:
-  index: stable
-tags: [ under-construction ]
+  The [Counter](https://yugipedia.com/wiki/Counter_Trap_Card) Card Type for Traps
+summary: Counter
+status: { index: stable }

@@ -1,23 +1,25 @@
 ---!function
 name: CanChainAttack
 namespace: Card
-description: |-
-  Checks if a card (Card c) can make a follow-up attack. Specifying the integer ac checks whether it can attack that number of times. Setting monsteronly to true checks only the possibility of follow-up attack to monster
+description: &desc Checks if a card can make a number of attacks in a row.
+summary: *desc
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
-  - name: ac
+    description: The card to check.
+  - name: attackcount
     type: [ int ]
-    description: (To be added)
+    description: The minimum amount of attacks `c` should be able to declare.
     required: false
-  - name: monsteronly
+    defaultValue: 2
+  - name: on_monsters_only
     type: [ bool ]
-    description: (To be added)
+    description: If `true`, checks only the possibility of follow-up attacks on monsters.
     required: false
+    defaultValue: false
 returns:
   - type: [ bool ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: If `c` can declare a minimum of `attackcount` attacks in a row.
+tags: [ card-check, battle-related ]

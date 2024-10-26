@@ -1,0 +1,8 @@
+---!constant
+name: SET_SHARK
+enum: Archetype
+value: 0x1ae
+description: |-
+  The ["Shark"](https://yugipedia.com/wiki/Shark_(archetype)) archetype.
+summary: Shark
+status: { index: stable }

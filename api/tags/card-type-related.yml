@@ -1,0 +1,4 @@
+---!tag
+name: card-type-related
+description: &desc Related to card types
+summary: *desc

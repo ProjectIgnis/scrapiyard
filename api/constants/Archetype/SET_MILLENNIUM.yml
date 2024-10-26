@@ -1,0 +1,8 @@
+---!constant
+name: SET_MILLENNIUM
+enum: Archetype
+value: 0x1a6
+description: |-
+  The ["Millennium"](https://yugipedia.com/wiki/Millennium) archetype.
+summary: Millennium
+status: { index: stable }

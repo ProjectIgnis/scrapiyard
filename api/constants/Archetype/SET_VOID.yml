@@ -1,0 +1,8 @@
+---!constant
+name: SET_VOID
+enum: Archetype
+value: 0xc5
+description: |-
+  The ["Void"](https://yugipedia.com/wiki/Void) archetype.
+summary: Void
+status: { index: stable }

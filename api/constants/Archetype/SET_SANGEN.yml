@@ -1,0 +1,8 @@
+---!constant
+name: SET_SANGEN
+enum: Archetype
+value: 0x1a2
+description: |-
+  The ["Sangen"](https://yugipedia.com/wiki/Sangen) archetype.
+summary: Sangen
+status: { index: stable }

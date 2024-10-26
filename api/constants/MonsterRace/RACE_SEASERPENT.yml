@@ -3,7 +3,6 @@ name: RACE_SEASERPENT
 enum: MonsterRace
 value: 0x40000
 description: |-
-  Sea Serpent type monster
-status:
-  index: stable
-tags: [ under-construction ]
+  The [Sea Serpent](https://yugipedia.com/wiki/Sea_Serpent) Monster Type
+summary: Sea Serpent
+status: { index: stable }

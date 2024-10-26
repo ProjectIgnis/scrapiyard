@@ -1,0 +1,16 @@
+---!type
+name: RitualMaterialFilter
+supertype: function
+description: A function used to filter Ritual materials in Ritual Summons
+summary: Filters Ritual materials in Ritual Summons
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The material to check.
+  - name: tp
+    type: [ int ]
+    description: The player performing the Ritual Summon.
+returns:
+  - type: [ bool ]
+    description: If the material passed the filter.
+tags: [ ritual-related ]

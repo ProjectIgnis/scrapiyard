@@ -1,0 +1,9 @@
+---!constant
+name: SET_ASSAULT_MODE
+enum: Archetype
+value: 0x104f
+description: |-
+  The ["/Assault Mode"](https://yugipedia.com/wiki//Assault_Mode) archetype.
+  Sub-archetype of [`SET_DARK_LUCIUS`](/api/constants/Archetype/SET_DARK_LUCIUS).
+summary: /Assault Mode
+status: { index: stable }

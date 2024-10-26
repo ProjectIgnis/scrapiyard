@@ -1,0 +1,9 @@
+---!constant
+name: SET_NUMBER_C
+enum: Archetype
+value: 0x1048
+description: |-
+  The ["Number C"](https://yugipedia.com/wiki/Number_C) archetype.
+  Sub-archetype of [`SET_NUMBER`](/api/constants/Archetype/SET_NUMBER).
+summary: Number C
+status: { index: stable }

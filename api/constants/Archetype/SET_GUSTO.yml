@@ -1,0 +1,8 @@
+---!constant
+name: SET_GUSTO
+enum: Archetype
+value: 0x10
+description: |-
+  The ["Gusto"](https://yugipedia.com/wiki/Gusto) archetype.
+summary: Gusto
+status: { index: stable }

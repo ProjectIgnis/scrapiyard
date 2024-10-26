@@ -1,15 +1,15 @@
 ---!function
 name: GetCardAliasFromCode
 namespace: Duel
-description: |-
-  Gets a card's alias from its card id (the value returned is the same as the one returned with Card.Alias on a card object corresponding to a card with such id)
+description: Retrieves the alias of a given card passcode/ID from the card database.
+summary: Gets the alias of a card using its passcode.
 status:
   index: stable
 parameters:
-  - name: code
+  - name: id
     type: [ int ]
-    description: (To be added)
+    description: The passcode/ID of the card to get the alias of.
 returns:
   - type: [ int ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: The alias of the card registered in the database.
+tags: [ passcode-related ]

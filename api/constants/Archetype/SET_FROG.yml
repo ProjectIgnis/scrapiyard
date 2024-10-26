@@ -1,0 +1,8 @@
+---!constant
+name: SET_FROG
+enum: Archetype
+value: 0x12
+description: |-
+  The ["Frog"](https://yugipedia.com/wiki/Frog) archetype.
+summary: Frog
+status: { index: stable }

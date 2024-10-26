@@ -1,0 +1,8 @@
+---!constant
+name: SET_FRIGHTFUR
+enum: Archetype
+value: 0xad
+description: |-
+  The ["Frightfur"](https://yugipedia.com/wiki/Frightfur) archetype.
+summary: Frightfur
+status: { index: stable }

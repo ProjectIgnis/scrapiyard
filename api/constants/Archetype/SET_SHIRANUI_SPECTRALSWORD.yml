@@ -1,0 +1,9 @@
+---!constant
+name: SET_SHIRANUI_SPECTRALSWORD
+enum: Archetype
+value: 0x10d9
+description: |-
+  The ["Shiranui Spectralsword"](https://yugipedia.com/wiki/Shiranui_Spectralsword_(archetype)) archetype.
+  Sub-archetype of [`SET_SHIRANUI`](/api/constants/Archetype/SET_SHIRANUI).
+summary: Shiranui Spectralsword
+status: { index: stable }

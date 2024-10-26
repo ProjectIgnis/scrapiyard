@@ -1,0 +1,8 @@
+---!constant
+name: SET_QLI
+enum: Archetype
+value: 0xaa
+description: |-
+  The ["Qli"](https://yugipedia.com/wiki/Qli) archetype.
+summary: Qli
+status: { index: stable }

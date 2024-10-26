@@ -1,0 +1,9 @@
+---!constant
+name: SET_XYZ_DRAGON
+enum: Archetype
+value: 0x2073
+description: |-
+  The ["Xyz Dragon"](https://yugipedia.com/wiki/Xyz_Dragon) archetype.
+  Sub-archetype of [`SET_XYZ`](/api/constants/Archetype/SET_XYZ).
+summary: Xyz Dragon
+status: { index: stable }

@@ -1,0 +1,8 @@
+---!constant
+name: SET_BLACKWING
+enum: Archetype
+value: 0x33
+description: |-
+  The ["Blackwing"](https://yugipedia.com/wiki/Blackwing) archetype.
+summary: Blackwing
+status: { index: stable }

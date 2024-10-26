@@ -1,0 +1,8 @@
+---!constant
+name: SET_TRIAMID
+enum: Archetype
+value: 0xe2
+description: |-
+  The ["Triamid"](https://yugipedia.com/wiki/Triamid) archetype.
+summary: Triamid
+status: { index: stable }

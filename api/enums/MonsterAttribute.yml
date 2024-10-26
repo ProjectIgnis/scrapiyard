@@ -1,6 +1,6 @@
 ---!enum
 name: MonsterAttribute
 description: |-
-  (To be added)
+  Monster [Attributes](https://yugipedia.com/wiki/Attribute)
+summary: Monster Attributes
 bitmaskInt: true
-tags: [ under-construction ]

@@ -1,0 +1,8 @@
+---!constant
+name: SET_LABYRINTH_WALL
+enum: Archetype
+value: 0x194
+description: |-
+  The ["Labyrinth Wall"](https://yugipedia.com/wiki/Labyrinth_Wall_(archetype)) archetype.
+summary: Labyrinth Wall
+status: { index: stable }

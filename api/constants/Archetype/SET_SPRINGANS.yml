@@ -1,0 +1,8 @@
+---!constant
+name: SET_SPRINGANS
+enum: Archetype
+value: 0x158
+description: |-
+  The ["Springans"](https://yugipedia.com/wiki/Springans) archetype.
+summary: Springans
+status: { index: stable }

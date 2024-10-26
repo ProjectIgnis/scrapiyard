@@ -1,0 +1,8 @@
+---!constant
+name: SET_NOUVELLES
+enum: Archetype
+value: 0x197
+description: |-
+  The ["Nouvelles"](https://yugipedia.com/wiki/Nouvelles) archetype.
+summary: Nouvelles
+status: { index: stable }

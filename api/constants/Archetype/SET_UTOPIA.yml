@@ -1,0 +1,9 @@
+---!constant
+name: SET_UTOPIA
+enum: Archetype
+value: 0x107f
+description: |-
+  The ["Utopia"](https://yugipedia.com/wiki/Utopia_(archetype)) archetype.
+  Sub-archetype of [`SET_UTOPIC`](/api/constants/Archetype/SET_UTOPIC).
+summary: Utopia
+status: { index: stable }

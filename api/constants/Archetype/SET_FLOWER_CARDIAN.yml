@@ -1,0 +1,8 @@
+---!constant
+name: SET_FLOWER_CARDIAN
+enum: Archetype
+value: 0xe6
+description: |-
+  The ["Flower Cardian"](https://yugipedia.com/wiki/Flower_Cardian) archetype.
+summary: Flower Cardian
+status: { index: stable }

@@ -1,0 +1,9 @@
+---!constant
+name: SET_APOQLIPHORT
+enum: Archetype
+value: 0x10aa
+description: |-
+  The ["Apoqliphort"](https://yugipedia.com/wiki/Apoqliphort) archetype.
+  Sub-archetype of [`SET_QLI`](/api/constants/Archetype/SET_QLI).
+summary: Apoqliphort
+status: { index: stable }

@@ -1,0 +1,8 @@
+---!constant
+name: SET_BLUE_TEARS
+enum: Archetype
+value: 0x1a9
+description: |-
+  The ["Blue Tears"](https://yugipedia.com/wiki/Blue_Tears) archetype.
+summary: Blue Tears
+status: { index: stable }

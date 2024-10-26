@@ -3,7 +3,6 @@ name: RACE_MACHINE
 enum: MonsterRace
 value: 0x20
 description: |-
-  Machine type monster
-status:
-  index: stable
-tags: [ under-construction ]
+  The [Machine](https://yugipedia.com/wiki/Machine) Monster Type
+summary: Machine
+status: { index: stable }

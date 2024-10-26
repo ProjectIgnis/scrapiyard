@@ -1,0 +1,34 @@
+---!function
+name: createContinuousLizardCheck
+namespace: Auxiliary
+description: |-
+  Creates an [Effect](/api/types/Effect) that, when registered to a card,
+  affects other cards such that they will be excluded by
+  ["Clock Lizard"](https://yugipedia.com/wiki/Clock_Lizard)
+  when checking what cards it can return to the Extra Deck.
+summary: Creates a card effect that affects other cards for "Clock Lizard"'s handling
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card creating the effect.
+  - name: location
+    type: [ int ]
+    description: Composite [Location](/api/enums/Location) values where `c` should be for the effect to apply.
+  - name: tRange
+    type: [ int ]
+    description: Composite Location values for `tp`'s side of the board.
+    required: false
+    defaultValue: 0xff
+  - name: tRange2
+    type: [ int ]
+    description: Composite Location values for `tp`'s opponent's side of the board.
+    required: false
+    defaultValue: 0
+returns:
+  - type: [ effect ]
+    description: The effect that was created.
+status: { index: stable }
+tags: [ creates-effect, special-handling ]
+suggestedLinks:
+  - name: Auxiliary.addContinuousLizardCheck
+    link: /api/functions/Auxiliary/addContinuousLizardCheck

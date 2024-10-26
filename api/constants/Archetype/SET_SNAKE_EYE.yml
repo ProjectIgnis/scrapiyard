@@ -1,0 +1,8 @@
+---!constant
+name: SET_SNAKE_EYE
+enum: Archetype
+value: 0x205
+description: |-
+  The ["Snake-Eye"](https://yugipedia.com/wiki/Snake-Eye) archetype.
+summary: Snake-Eye
+status: { index: stable }

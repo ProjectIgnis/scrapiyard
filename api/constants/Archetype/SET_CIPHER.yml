@@ -1,0 +1,8 @@
+---!constant
+name: SET_CIPHER
+enum: Archetype
+value: 0xe5
+description: |-
+  The ["Cipher"](https://yugipedia.com/wiki/Cipher) archetype.
+summary: Cipher
+status: { index: stable }

@@ -2,29 +2,38 @@
 name: IsType
 namespace: Card
 description: |-
-  Checks if the CardType of "c" is "type" (if it is to be used as material for "scard" with SummonType "sumtype" by player "playerid").
-status:
-  index: stable
+  Returns `true` if a card currently has *any* of the given type(s).
+summary: Checks a card's type
 parameters:
-  - name: c
+  - &c
+    name: c
     type: [ Card ]
-    description: (To be added)
-  - name: type
+    description: The card to check.
+  - &type
+    name: type
     type: [ int ]
-    description: (To be added)
-  - name: scard
-    type: [ Card, nil ]
-    description: (To be added)
-    required: false
-  - name: sumtype
-    type: [ int ]
-    description: (To be added)
-    required: false
-  - name: playerid
-    type: [ int ]
-    description: (To be added)
-    required: false
+    description: |-
+      Composite [CardType](/api/enums/CardType) values to check.
+      `c` only needs to match any of the types, not all.
 returns:
   - type: [ bool ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: If `c` is currently a has any of `type`.
+overloads:
+  - description: Returns `true` if a card can be used as a Summon material as *any* of the given type(s).
+    parameters:
+      - *c
+      - *type
+      - name: scard
+        type: [ Card ]
+        description: The monster to check if it can be Summoned using `c`.
+      - name: sumtype
+        type: [ int ]
+        description: The [type of the summon](/api/enums/SummonType) to check.
+      - name: playerid
+        type: [ int ]
+        description: The player that would perform the summon.
+    returns:
+      - type: [ bool ]
+        description: If `c` can be used as a material of the given `type`.
+status: { index: stable }
+tags: [ card-check, card-type-related ]

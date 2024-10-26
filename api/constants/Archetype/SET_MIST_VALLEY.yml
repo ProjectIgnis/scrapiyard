@@ -1,0 +1,8 @@
+---!constant
+name: SET_MIST_VALLEY
+enum: Archetype
+value: 0x37
+description: |-
+  The ["Mist Valley"](https://yugipedia.com/wiki/Mist_Valley) archetype.
+summary: Mist Valley
+status: { index: stable }

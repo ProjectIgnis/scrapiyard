@@ -1,0 +1,8 @@
+---!constant
+name: SET_ARTIFACT
+enum: Archetype
+value: 0x97
+description: |-
+  The ["Artifact"](https://yugipedia.com/wiki/Artifact) archetype.
+summary: Artifact
+status: { index: stable }

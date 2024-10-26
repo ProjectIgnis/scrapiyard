@@ -1,0 +1,8 @@
+---!constant
+name: SET_SMILE
+enum: Archetype
+value: 0x125
+description: |-
+  The ["Smile"](https://yugipedia.com/wiki/Smile) archetype.
+summary: Smile
+status: { index: stable }

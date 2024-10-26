@@ -1,0 +1,8 @@
+---!constant
+name: SET_IGKNIGHT
+enum: Archetype
+value: 0xc8
+description: |-
+  The ["Igknight"](https://yugipedia.com/wiki/Igknight) archetype.
+summary: Igknight
+status: { index: stable }

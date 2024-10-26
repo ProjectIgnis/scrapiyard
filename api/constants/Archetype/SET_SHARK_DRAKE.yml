@@ -1,0 +1,9 @@
+---!constant
+name: SET_SHARK_DRAKE
+enum: Archetype
+value: 0x11ae
+description: |-
+  The ["Shark Drake"](https://yugipedia.com/wiki/Shark_Drake) archetype.
+  Sub-archetype of [`SET_SHARK`](/api/constants/Archetype/SET_SHARK).
+summary: Shark Drake
+status: { index: stable }

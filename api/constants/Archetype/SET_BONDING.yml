@@ -1,0 +1,8 @@
+---!constant
+name: SET_BONDING
+enum: Archetype
+value: 0x100
+description: |-
+  The ["Bonding -"](https://yugipedia.com/wiki/Bonding) archetype.
+summary: Bonding -
+status: { index: stable }

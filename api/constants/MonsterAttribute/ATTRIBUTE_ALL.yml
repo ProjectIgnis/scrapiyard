@@ -3,7 +3,6 @@ name: ATTRIBUTE_ALL
 enum: MonsterAttribute
 value: 0x7f
 description: |-
-  The sum of all official MonsterAttributes (including divine)
-status:
-  index: stable
-tags: [ under-construction ]
+  Composite constant that includes all OCG/TCG Monster Attributes
+status: { index: stable }
+tags: [ composite-bits ]

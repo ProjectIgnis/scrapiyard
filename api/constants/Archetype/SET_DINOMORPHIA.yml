@@ -1,0 +1,8 @@
+---!constant
+name: SET_DINOMORPHIA
+enum: Archetype
+value: 0x175
+description: |-
+  The ["Dinomorphia"](https://yugipedia.com/wiki/Dinomorphia) archetype.
+summary: Dinomorphia
+status: { index: stable }
