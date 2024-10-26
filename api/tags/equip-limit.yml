@@ -1,7 +1,6 @@
 ---!tag
 name: equip-limit
-description: |
-  Entries related to restricting which monsters an equip card can remain equipped to.
+description: Entries related to restricting which monsters an equip card can remain equipped to.
 summary: Restricting which monsters an equip card can remain equipped to.
 suggestedLinks:
   - name: equip-related
