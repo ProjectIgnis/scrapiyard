@@ -15,3 +15,4 @@ parameters:
 returns:
   - type: [ int ]
     description: The [MonsterRace](/api/enums/MonsterRace) declared by the player.
+tags: [ race-related ]

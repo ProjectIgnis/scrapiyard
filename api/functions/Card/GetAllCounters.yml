@@ -12,3 +12,4 @@ parameters:
 returns:
   - type: [ table ]
     description: A table where the keys are the counter types and the values are the corresponding amount.
+tags: [ counter-related ]

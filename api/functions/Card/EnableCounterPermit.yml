@@ -18,3 +18,4 @@ parameters:
     required: false
     defaultValue: |-
       [`LOCATION_MZONE`](/api/constants/Location/LOCATION_MZONE) for monster cards, `0` otherwise.
+tags: [ counter-related ]

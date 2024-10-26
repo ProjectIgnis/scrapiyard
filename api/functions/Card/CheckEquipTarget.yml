@@ -15,3 +15,4 @@ parameters:
 returns:
   - type: [ bool ]
     description: If `c1` can be equipped to `c2`.
+tags: [ equip-related ]

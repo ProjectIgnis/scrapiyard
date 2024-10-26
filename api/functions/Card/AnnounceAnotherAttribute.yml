@@ -15,3 +15,4 @@ parameters:
 returns:
   - type: [ int ]
     description: The [Atrribute](/api/enums/Attribute) declared by the player.
+tags: [ attribute-related ]
