@@ -1,12 +1,18 @@
----!type
-name: EffectCondition
-supertype: function
-description: A function used to check an activated effect's condition, usually passed to [`Effect.SetCondition`](/api/functions/Effect/SetCondition). Conditions refer to those explicitly stated in the card text, (e.g. "If you control a monster:"), not for activation legality (e.g. checking if you have a Field Spell in your Deck to activate Terraforming), which is checked by the [EffectTarget](/api/types/EffectTarget) instead.
-summary: Checks an activated effect's condition.
+---!function
+name: selfbanishcost
+namespace: Auxiliary
+description: An [EffectCost](/api/types/EffectCost) function that checks if an effect's handler can banish itself as activation cost.
+summary: Cost function for effects that banish their handler as activation cost.
+status:
+  index: stable
+aliases:
+  - name: Auxiliary.bfgcost
+    status:
+      index: deprecated
 parameters:
   - name: e
     type: [ Effect ]
-    description: The effect being checked.
+    description: The effect being activated.
   - name: tp
     type: [ int ]
     description: The player activating the effect.
@@ -28,9 +34,10 @@ parameters:
   - name: rp
     type: [ int ]
     description: The player that caused the event that prompted the effect activation.
+  - name: chk
+    type: [ int ]
+    description: Must be `0` when checking if the cost can be paid, and `1` when performing the cost.
 returns:
   - type: [ boolean ]
-    description: If the effect can be activated.
-
-# TODO: add overloads for other signatures of condition functions
-tags: [ under-construction ]
+    description: If `chk` is `0`, returns `true` if the cost can be paid.
+    guaranteed: false
