@@ -1,16 +1,15 @@
 ---!function
 name: GetTextDefense
 namespace: Card
-description: |-
-  Gets the printed DEF of a card. This might differ from the original DEF of the card due to effects that change original DEF.
-  For that, see [GetBaseDefense](api/functions/GetBaseDefense).
+description: Gets the printed DEF of a card. This might differ from the original DEF of the card due to effects that change original DEF. Use [`Card.GetBaseDefense`](/api/functions/Card/GetBaseDefense) if you need the original DEF instead.
 summary: Gets the printed DEF of a card.
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: The card to get the printed DEF.
+    description: The card to get the printed DEF of.
 returns:
   - type: [ int ]
-    description: The card's printed DEF. For monsters with ? DEF, returns -2.
+    description: The card's printed DEF. For monsters with ? DEF, returns `-2`.
+tags: [ def-related, original-property ]

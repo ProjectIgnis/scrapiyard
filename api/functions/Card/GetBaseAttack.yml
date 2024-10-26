@@ -1,16 +1,15 @@
 ---!function
 name: GetBaseAttack
 namespace: Card
-description: |-
-  Gets the original ATK of a card. This might differ from the printed ATK of the card due to effects that change original ATK.
-  For that, see [GetTextAttack](api/functions/GetTextAttack)
+description: Gets the original ATK of a card. This might differ from the printed ATK of the card due to effects that change original ATK. Use [`Card.GetTextAttack`](/api/functions/Card/GetTextAttack) if you need the printed ATK instead.
 summary: Gets the original ATK of a card.
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: The card to get the original ATK.
+    description: The card to get the original ATK of.
 returns:
   - type: [ int ]
-    description: The card's original ATK. For monsters with ? ATK, returns 0.
+    description: The card's original ATK. For monsters with ? ATK, returns `0`.
+tags: [ atk-related, original-property ]

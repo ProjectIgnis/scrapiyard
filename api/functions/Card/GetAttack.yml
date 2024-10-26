@@ -1,8 +1,7 @@
 ---!function
 name: GetAttack
 namespace: Card
-description: &desc |-
-  Gets the current ATK of a card.
+description: &desc Gets the current ATK of a card.
 summary: *desc
 status:
   index: stable
@@ -12,4 +11,5 @@ parameters:
     description: The card to get the ATK of.
 returns:
   - type: [ int ]
-    description: The card's ATK. For monsters with ? ATK, returns 0.
+    description: The card's ATK. For monsters with ? ATK, returns `0`.
+tags: [ atk-related ]

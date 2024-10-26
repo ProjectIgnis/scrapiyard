@@ -1,16 +1,15 @@
 ---!function
 name: GetBaseDefense
 namespace: Card
-description: |-
-  Gets the original DEF of a card. This might differ from the printed ATK of the card due to effects that change original DEF.
-  For that, see [GetTextDefense](api/functions/GetTextDefense)
-summary: Gets the original DEF of a card. 
+description: Gets the original DEF of a card. This might differ from the printed DEF of the card due to effects that change original DEF. Use [`Card.GetTextDefense`](/api/functions/Card/GetTextDefense) if you need the printed DEF instead.
+summary: Gets the original DEF of a card.
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: The card to get the original DEF.
+    description: The card to get the original DEF of.
 returns:
   - type: [ int ]
-    description: The card's original DEF. For monsters with ? DEF, returns 0.
+    description: The card's original DEF. For monsters with ? DEF, returns `0`.
+tags: [ def-related, original-property ]

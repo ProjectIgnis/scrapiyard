@@ -1,8 +1,7 @@
 ---!function
 name: GetDefense
 namespace: Card
-description: &desc |-
-  Gets the current DEF of a card.
+description: &desc Gets the current DEF of a card.
 summary: *desc
 status:
   index: stable
@@ -12,4 +11,5 @@ parameters:
     description: The card to get the DEF of.
 returns:
   - type: [ int ]
-    description: The card's DEF. For monsters with ? DEF, returns 0.
+    description: The card's DEF. For monsters with ? DEF, returns `0`.
+tags: [ def-related ]

@@ -1,16 +1,15 @@
 ---!function
 name: GetTextAttack
 namespace: Card
-description: |-
-  Gets the printed ATK of a card. This might differ from the original ATK of the card due to effects that change original ATK.
-  For that, see [GetBaseAttack](api/functions/GetBaseAttack).
+description: Gets the printed ATK of a card. This might differ from the original ATK of the card due to effects that change original ATK. Use [`Card.GetBaseAttack`](/api/functions/Card/GetBaseAttack) if you need the original ATK instead.
 summary: Gets the printed ATK of a card.
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: The card to get the printed ATK.
+    description: The card to get the printed ATK of.
 returns:
   - type: [ int ]
-    description: The card's printed ATK. For monsters with ? ATK, returns -2.
+    description: The card's printed ATK. For monsters with ? ATK, returns `-2`.
+tags: [ atk-related, original-property ]
