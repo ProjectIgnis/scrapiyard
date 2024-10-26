@@ -1,18 +1,18 @@
 ---!function
 name: AnnounceAnotherAttribute
 namespace: Card
-description: |-
-  Makes (int player) announce an attribute different from the one(s) (Card c) currently has
+description: &desc Makes a player declare an attribute other than the ones a card currently has.
+summary: *desc
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
+    description: The card whose attribute(s) will be excluded from the possible values to be declared.
   - name: player
     type: [ int ]
-    description: (To be added)
+    description: The player that will declare the attribute.
 returns:
   - type: [ int ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: The [Atrribute](/api/enums/Attribute) declared by the player.
+tags: [ attribute-related ]

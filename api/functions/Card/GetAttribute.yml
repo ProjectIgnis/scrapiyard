@@ -1,27 +1,36 @@
 ---!function
 name: GetAttribute
 namespace: Card
-description: |-
-  Returns the current Attribute of "c" (if it is to be used as material for "scard" with SummonType "sumtype" by player "playerid").
+description: &desc Gets the current attribute(s) of a card.
+summary: *desc
 status:
   index: stable
 parameters:
-  - name: c
+  - &c
+    name: c
     type: [ Card ]
-    description: (To be added)
-  - name: Card
-    type: [ any ]
-    description: (To be added)
-    required: false
-  - name: sumtype
-    type: [ int ]
-    description: (To be added)
-    required: false
-  - name: playerid
-    type: [ int ]
-    description: (To be added)
-    required: false
+    description: The card to get the attribute(s) of.
 returns:
   - type: [ int ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: Composite [MonsterAttribute](/api/enums/MonsterAttribute) value representing the card's current attribute(s).
+overloads:
+  - description: Gets the attribute(s) of a card if it would be used as a material for a summon.
+    parameters:
+      - *c
+      - name: scard
+        type: [ Card ]
+        description: The card that would use `c` as material for its summon.
+      - name: sumtype
+        type: [ int ]
+        description: The [SummonType](/api/enums/SummonType) of the summon that `c` would be used for.
+        required: false
+        defaultValue: 0
+      - name: playerid
+        type: [ int ]
+        description: The player that would use `c` as material to summon `scard`. If `sumtype` is [`SUMMON_TYPE_FUSION`](/api/constants/SummonType/SUMMON_TYPE_FUSION), this parameter is forced to be the player using the current effect.
+        required: false
+        defaultValue: PLAYER_NONE
+    returns:
+      - type: [ int ]
+        description: Composite [MonsterAttribute](/api/enums/MonsterAttribute) value representing the card's attribute(s) if it would be used as material to summon `scard`.
+tags: [ attribute-related ]

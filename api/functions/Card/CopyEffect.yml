@@ -1,25 +1,25 @@
 ---!function
 name: CopyEffect
 namespace: Card
-description: |-
-  Temporarily adds to a card (Card c) the effect of card with the specified card code (int code) that resets according to the ascribed reset flag (int reset_flag)
+description: Temporarily adds to a card the effects of the card with the specified id, that reset according to the provided reset flags.
+summary: Copy the effects of a card to another.
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
+    description: The card that will receive the copy of the effects.
   - name: code
     type: [ int ]
-    description: (To be added)
+    description: The passcode/ID of the card to copy effects from.
   - name: reset_flag
     type: [ int ]
-    description: (To be added)
+    description: Composite [Reset](/api/enums/Reset) value used to reset the copied effects. If [`RESET_PHASE`](/api/enums/Reset/RESET_PHASE) is included in the value, [`RESET_SELF_TURN`](/api/enums/Reset/RESET_SELF_TURN) and [`RESET_OPPO_TURN`](/api/enums/Reset/RESET_OPPO_TURN) are also added automatically.
   - name: reset_count
     type: [ int ]
-    description: (To be added)
+    description: The reset count applied with the reset values (e.g. to be used with phase-related resets).
     required: false
+    defaultValue: 1
 returns:
   - type: [ int ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: A unique id representing the instance of the copied effects, usable with [`RESET_COPY`](/api/enums/Reset/RESET_COPY) to reset all the effects gained by this function. May also be `-1`, indicating failure to copy the effects.

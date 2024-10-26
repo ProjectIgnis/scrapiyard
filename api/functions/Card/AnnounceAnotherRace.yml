@@ -1,18 +1,18 @@
 ---!function
 name: AnnounceAnotherRace
 namespace: Card
-description: |-
-  Makes (int player) announce a monster type (Race) different from the one(s) (Card c) currently has
+description: &desc Makes a player declare a race other than the ones a card currently has.
+summary: *desc
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
+    description: The card whose race(s) will be excluded from the possible values to be declared.
   - name: player
     type: [ int ]
-    description: (To be added)
+    description: The player that will declare the race.
 returns:
   - type: [ int ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: The [MonsterRace](/api/enums/MonsterRace) declared by the player.
+tags: [ race-related ]
