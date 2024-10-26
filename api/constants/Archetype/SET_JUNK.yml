@@ -1,0 +1,8 @@
+---!constant
+name: SET_JUNK
+enum: Archetype
+value: 0x43
+description: |-
+  The ["Junk"](https://yugipedia.com/wiki/Junk) archetype.
+summary: Junk
+status: { index: stable }

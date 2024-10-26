@@ -1,0 +1,8 @@
+---!constant
+name: SET_KASHTIRA
+enum: Archetype
+value: 0x18a
+description: |-
+  The ["Kashtira"](https://yugipedia.com/wiki/Kashtira) archetype.
+summary: Kashtira
+status: { index: stable }

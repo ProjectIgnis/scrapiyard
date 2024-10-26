@@ -3,7 +3,6 @@ name: TYPE_GEMINI
 enum: CardType
 value: 0x800
 description: |-
-  A Gemini monster
-status:
-  index: stable
-tags: [ under-construction ]
+  The [Gemini](https://yugipedia.com/wiki/Gemini_monster) Card Type for Monsters
+summary: Gemini
+status: { index: stable }

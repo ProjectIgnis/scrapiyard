@@ -1,0 +1,9 @@
+---!tag
+name: creates-effect
+description: |-
+  Functions that create an [Effect](/api/types/Effect), but not register it.
+  Used as shorthand for common effects instead of having to build them manually.
+summary: Functions that create, but not register, an effect
+suggestedLinks:
+  - name: registers-effect
+    link: /api/tags/registers-effect

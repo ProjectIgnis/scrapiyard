@@ -1,0 +1,8 @@
+---!constant
+name: SET_STARRY_KNIGHT
+enum: Archetype
+value: 0x15b
+description: |-
+  The ["Starry Knight"](https://yugipedia.com/wiki/Starry_Knight) archetype.
+summary: Starry Knight
+status: { index: stable }

@@ -1,0 +1,8 @@
+---!constant
+name: SET_FOSSIL
+enum: Archetype
+value: 0x14c
+description: |-
+  The ["Fossil"](https://yugipedia.com/wiki/Fossil) archetype.
+summary: Fossil
+status: { index: stable }

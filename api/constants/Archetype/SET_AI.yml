@@ -1,0 +1,8 @@
+---!constant
+name: SET_AI
+enum: Archetype
+value: 0x136
+description: |-
+  The ["A.I."](https://yugipedia.com/wiki/A.I.) archetype.
+summary: A.I.
+status: { index: stable }

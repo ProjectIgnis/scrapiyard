@@ -1,0 +1,8 @@
+---!constant
+name: SET_RITUAL_BEAST
+enum: Archetype
+value: 0xb5
+description: |-
+  The ["Ritual Beast"](https://yugipedia.com/wiki/Ritual_Beast) archetype.
+summary: Ritual Beast
+status: { index: stable }

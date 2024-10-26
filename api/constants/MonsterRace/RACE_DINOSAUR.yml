@@ -3,7 +3,6 @@ name: RACE_DINOSAUR
 enum: MonsterRace
 value: 0x10000
 description: |-
-  Dinosaur type monster
-status:
-  index: stable
-tags: [ under-construction ]
+  The [Dinosaur](https://yugipedia.com/wiki/Dinosaur) Monster Type
+summary: Dinosaur
+status: { index: stable }

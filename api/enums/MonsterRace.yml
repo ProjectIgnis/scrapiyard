@@ -1,6 +1,6 @@
 ---!enum
 name: MonsterRace
 description: |-
-  (To be added)
+  [Monster Type](https://yugipedia.com/wiki/Type), referred to as "Race" in the ygopro codebase
+summary: Monster Type/Race
 bitmaskInt: true
-tags: [ under-construction ]

@@ -1,0 +1,9 @@
+---!tag
+name: registers-effect
+description: |-
+  Functions that create and register an [Effect](/api/types/Effect) to a card.
+  Used as shorthand for common effects instead of having to build and register them manually.
+summary: Functions that register an effect to a card
+suggestedLinks:
+  - name: creates-effect
+    link: /api/tags/creates-effect

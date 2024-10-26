@@ -1,0 +1,9 @@
+---!constant
+name: SET_ROSE_DRAGON
+enum: Archetype
+value: 0x1123
+description: |-
+  The ["Rose Dragon"](https://yugipedia.com/wiki/Rose_Dragon) archetype.
+  Sub-archetype of [`SET_ROSE`](/api/constants/Archetype/SET_ROSE).
+summary: Rose Dragon
+status: { index: stable }

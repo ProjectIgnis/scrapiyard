@@ -3,7 +3,6 @@ name: TYPE_SPELL
 enum: CardType
 value: 0x2
 description: |-
-  A Spell card
-status:
-  index: stable
-tags: [ under-construction ]
+  The [Spell](https://yugipedia.com/wiki/Spell_Card) Card Type
+summary: Spell
+status: { index: stable }

@@ -1,0 +1,19 @@
+---!function
+name: IsPreviousSequence
+namespace: Card
+# TODO: link to an explanation of Sequence
+description: |-
+  Returns `true` if a card was previously in a given sequence.
+summary: Checks a card's previous sequence
+status: { index: stable }
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check the previous sequence of.
+  - name: seq
+    type: [ int ]
+    description: The sequence to check.
+returns:
+  - type: [ bool ]
+    description: If the previous sequence of `c` is equal to `seq`.
+tags: [ card-check, sequence-and-zone, previous-property ]

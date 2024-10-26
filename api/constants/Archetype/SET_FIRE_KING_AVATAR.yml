@@ -1,0 +1,9 @@
+---!constant
+name: SET_FIRE_KING_AVATAR
+enum: Archetype
+value: 0x1081
+description: |-
+  The ["Fire King Avatar"](https://yugipedia.com/wiki/Fire_King_Avatar) archetype.
+  Sub-archetype of [`SET_FIRE_KING`](/api/constants/Archetype/SET_FIRE_KING).
+summary: Fire King Avatar
+status: { index: stable }

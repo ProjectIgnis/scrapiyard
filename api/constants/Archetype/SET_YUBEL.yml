@@ -1,0 +1,8 @@
+---!constant
+name: SET_YUBEL
+enum: Archetype
+value: 0x19d
+description: |-
+  The ["Yubel"](https://yugipedia.com/wiki/Yubel_(archetype)) archetype.
+summary: Yubel
+status: { index: stable }

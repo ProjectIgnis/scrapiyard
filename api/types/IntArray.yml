@@ -1,0 +1,9 @@
+---!type
+name: IntArray
+supertype: table
+description: An [array-like table](https://www.lua.org/pil/11.1.html) containing int values.
+summary: An array containing ints
+mappedTypes:
+  - keyType: int
+    valueType: [ int ]
+    description: The array's items.

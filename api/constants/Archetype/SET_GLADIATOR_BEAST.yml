@@ -1,0 +1,8 @@
+---!constant
+name: SET_GLADIATOR_BEAST
+enum: Archetype
+value: 0x19
+description: |-
+  The ["Gladiator Beast"](https://yugipedia.com/wiki/Gladiator_Beast) archetype.
+summary: Gladiator Beast
+status: { index: stable }

@@ -1,0 +1,8 @@
+---!constant
+name: SET_DUSTON
+enum: Archetype
+value: 0x80
+description: |-
+  The ["Duston"](https://yugipedia.com/wiki/Duston) archetype.
+summary: Duston
+status: { index: stable }

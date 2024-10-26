@@ -1,0 +1,8 @@
+---!constant
+name: SET_ELDLIXIR
+enum: Archetype
+value: 0x143
+description: |-
+  The ["Eldlixir"](https://yugipedia.com/wiki/Eldlixir) archetype.
+summary: Eldlixir
+status: { index: stable }

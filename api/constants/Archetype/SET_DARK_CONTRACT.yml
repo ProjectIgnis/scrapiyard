@@ -1,0 +1,8 @@
+---!constant
+name: SET_DARK_CONTRACT
+enum: Archetype
+value: 0xae
+description: |-
+  The ["Dark Contract"](https://yugipedia.com/wiki/Dark_Contract) archetype.
+summary: Dark Contract
+status: { index: stable }

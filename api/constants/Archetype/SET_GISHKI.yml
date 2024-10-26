@@ -1,0 +1,8 @@
+---!constant
+name: SET_GISHKI
+enum: Archetype
+value: 0x3a
+description: |-
+  The ["Gishki"](https://yugipedia.com/wiki/Gishki) archetype.
+summary: Gishki
+status: { index: stable }

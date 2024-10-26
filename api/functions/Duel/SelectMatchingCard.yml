@@ -31,7 +31,7 @@ parameters:
     type: [ any ]
     description: (To be added)
     required: false
-    defaultValue: false]
+    defaultValue: false
   - name: ex
     type: [ Group, Card, nil ]
     description: (To be added)

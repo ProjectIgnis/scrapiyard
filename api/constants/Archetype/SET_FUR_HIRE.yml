@@ -1,0 +1,8 @@
+---!constant
+name: SET_FUR_HIRE
+enum: Archetype
+value: 0x114
+description: |-
+  The ["Fur Hire"](https://yugipedia.com/wiki/Fur_Hire) archetype.
+summary: Fur Hire
+status: { index: stable }

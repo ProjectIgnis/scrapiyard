@@ -1,0 +1,13 @@
+---!type
+name: RankUpSummonRegister
+supertype: function
+description: A function that registers a Special Summon procedure using a [Rank-Up-Magic](https://yugipedia.com/wiki/Rank-Up-Magic) effect.
+summary: Registers an Rank-Up-Magic Special Summon procedure
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to register the procedure to.
+returns:
+  - type: [ Effect ]
+    description: The registered effect.
+tags: [ registers-effect, special-handling, xyz-related ]

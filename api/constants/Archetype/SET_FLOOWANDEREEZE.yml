@@ -1,0 +1,8 @@
+---!constant
+name: SET_FLOOWANDEREEZE
+enum: Archetype
+value: 0x16f
+description: |-
+  The ["Floowandereeze"](https://yugipedia.com/wiki/Floowandereeze) archetype.
+summary: Floowandereeze
+status: { index: stable }

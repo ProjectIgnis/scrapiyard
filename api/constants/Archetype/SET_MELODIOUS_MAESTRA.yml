@@ -1,0 +1,9 @@
+---!constant
+name: SET_MELODIOUS_MAESTRA
+enum: Archetype
+value: 0x109b
+description: |-
+  The ["Melodious Maestra"](https://yugipedia.com/wiki/Melodious_Maestra) archetype.
+  Sub-archetype of [`SET_MELODIOUS`](/api/constants/Archetype/SET_MELODIOUS).
+summary: Melodious Maestra
+status: { index: stable }

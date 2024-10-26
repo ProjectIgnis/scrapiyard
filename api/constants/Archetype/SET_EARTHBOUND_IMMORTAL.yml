@@ -1,0 +1,9 @@
+---!constant
+name: SET_EARTHBOUND_IMMORTAL
+enum: Archetype
+value: 0x1021
+description: |-
+  The ["Earthbound Immortal"](https://yugipedia.com/wiki/Earthbound_Immortal) archetype.
+  Sub-archetype of [`SET_EARTHBOUND`](/api/constants/Archetype/SET_EARTHBOUND).
+summary: Earthbound Immortal
+status: { index: stable }

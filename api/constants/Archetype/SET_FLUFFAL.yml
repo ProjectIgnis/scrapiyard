@@ -1,0 +1,8 @@
+---!constant
+name: SET_FLUFFAL
+enum: Archetype
+value: 0xa9
+description: |-
+  The ["Fluffal"](https://yugipedia.com/wiki/Fluffal) archetype.
+summary: Fluffal
+status: { index: stable }

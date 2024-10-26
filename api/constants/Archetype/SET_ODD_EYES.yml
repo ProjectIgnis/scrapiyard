@@ -1,0 +1,8 @@
+---!constant
+name: SET_ODD_EYES
+enum: Archetype
+value: 0x99
+description: |-
+  The ["Odd-Eyes"](https://yugipedia.com/wiki/Odd-Eyes) archetype.
+summary: Odd-Eyes
+status: { index: stable }

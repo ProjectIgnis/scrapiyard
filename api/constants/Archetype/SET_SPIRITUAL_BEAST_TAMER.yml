@@ -1,0 +1,10 @@
+---!constant
+name: SET_SPIRITUAL_BEAST_TAMER
+enum: Archetype
+value: 0x30b5
+description: |-
+  The "Spiritual Beast Tamer" series.
+  Technically not an archetype but is registered as such on some cards.
+  Sub-archetype of [`SET_RITUAL_BEAST`](/api/constants/Archetype/SET_RITUAL_BEAST).
+summary: Spiritual Beast Tamer
+status: { index: stable }

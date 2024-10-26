@@ -7,7 +7,7 @@ status:
   index: stable
 parameters:
   - name: c
-    type: [ card ]
+    type: [ Card ]
     description: (To be added)
   - name: amount
     type: [ int ]
@@ -17,7 +17,7 @@ parameters:
     description: (To be added)
     required: false
   - name: rc
-    type: [ card ]
+    type: [ Card ]
     description: (To be added)
     required: false
 returns:

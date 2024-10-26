@@ -1,0 +1,8 @@
+---!constant
+name: SET_RAIKA
+enum: Archetype
+value: 0x1a3
+description: |-
+  The ["Ragnaraika"](https://yugipedia.com/wiki/Ragnaraika) archetype.
+summary: Ragnaraika
+status: { index: stable }

@@ -3,7 +3,6 @@ name: LINK_MARKER_BOTTOM
 enum: LinkMarker
 value: 0x2
 description: |-
-  Has this link arrow: ⬇
-status:
-  index: stable
-tags: [ under-construction ]
+  Bottom Link Arrow (⬇)
+summary: ⬇
+status: { index: stable }

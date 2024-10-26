@@ -13,7 +13,7 @@ parameters:
     type: [ Effect ]
     description: (To be added)
   - name: tp
-    type: [ player ]
+    type: [ int ]
     description: (To be added)
   - name: mg
     type: [ Group ]

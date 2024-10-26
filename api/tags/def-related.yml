@@ -1,0 +1,4 @@
+---!tag
+name: def-related
+description: &desc Related to card DEF values
+summary: *desc

@@ -2,14 +2,15 @@
 name: IsLinkSpell
 namespace: Card
 description: |-
-  Returns if (Card c) is a Link Spell.
-status:
-  index: stable
+  Returns `true` if the given card is currently
+  a [Link Spell](https://yugipedia.com/wiki/Link_Spell_Card).
+summary: Checks if a card is a Link Spell
 parameters:
   - name: c
-    type: [ card ]
-    description: (To be added)
+    type: [ Card ]
+    description: The card to check.
 returns:
   - type: [ bool ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: If `c` is currently a Link Spell.
+status: { index: stable }
+tags: [ card-check, card-type-related ]

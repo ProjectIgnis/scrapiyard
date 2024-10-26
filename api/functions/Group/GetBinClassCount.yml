@@ -7,7 +7,7 @@ status:
   index: stable
 parameters:
   - name: g
-    type: [ group ]
+    type: [ Group ]
     description: (To be added)
   - name: f
     type: [ function ]

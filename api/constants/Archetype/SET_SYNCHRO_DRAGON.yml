@@ -1,0 +1,9 @@
+---!constant
+name: SET_SYNCHRO_DRAGON
+enum: Archetype
+value: 0x2017
+description: |-
+  The ["Synchro Dragon"](https://yugipedia.com/wiki/Synchro_Dragon) archetype.
+  Sub-archetype of [`SET_SYNCHRO`](/api/constants/Archetype/SET_SYNCHRO).
+summary: Synchro Dragon
+status: { index: stable }

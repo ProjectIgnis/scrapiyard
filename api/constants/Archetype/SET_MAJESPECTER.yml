@@ -1,0 +1,8 @@
+---!constant
+name: SET_MAJESPECTER
+enum: Archetype
+value: 0xd0
+description: |-
+  The ["Majespecter"](https://yugipedia.com/wiki/Majespecter) archetype.
+summary: Majespecter
+status: { index: stable }

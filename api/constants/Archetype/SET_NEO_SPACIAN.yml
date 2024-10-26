@@ -1,0 +1,8 @@
+---!constant
+name: SET_NEO_SPACIAN
+enum: Archetype
+value: 0x1f
+description: |-
+  The ["Neo-Spacian"](https://yugipedia.com/wiki/Neo-Spacian) archetype.
+summary: Neo-Spacian
+status: { index: stable }

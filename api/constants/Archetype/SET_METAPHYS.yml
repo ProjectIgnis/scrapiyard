@@ -1,0 +1,8 @@
+---!constant
+name: SET_METAPHYS
+enum: Archetype
+value: 0x105
+description: |-
+  The ["Metaphys"](https://yugipedia.com/wiki/Metaphys) archetype.
+summary: Metaphys
+status: { index: stable }

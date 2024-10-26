@@ -1,4 +1,5 @@
 ---!tag
 name: unofficial
-description: |-
+description: &desc |-
   Related to cards from the anime, manga, and video games.
+summary: *desc

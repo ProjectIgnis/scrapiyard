@@ -1,0 +1,8 @@
+---!constant
+name: SET_SPYRAL
+enum: Archetype
+value: 0xee
+description: |-
+  The ["SPYRAL"](https://yugipedia.com/wiki/SPYRAL) archetype.
+summary: SPYRAL
+status: { index: stable }

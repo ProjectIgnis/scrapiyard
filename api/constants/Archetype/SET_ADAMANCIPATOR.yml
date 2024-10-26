@@ -1,0 +1,8 @@
+---!constant
+name: SET_ADAMANCIPATOR
+enum: Archetype
+value: 0x140
+description: |-
+  The ["Adamancipator"](https://yugipedia.com/wiki/Adamancipator) archetype.
+summary: Adamancipator
+status: { index: stable }

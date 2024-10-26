@@ -3,7 +3,6 @@ name: RACE_FIEND
 enum: MonsterRace
 value: 0x8
 description: |-
-  Fiend type monster
-status:
-  index: stable
-tags: [ under-construction ]
+  The [Fiend](https://yugipedia.com/wiki/Fiend) Monster Type
+summary: Fiend
+status: { index: stable }

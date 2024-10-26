@@ -1,0 +1,9 @@
+---!constant
+name: SET_ADVANCED_CRYSTAL_BEAST
+enum: Archetype
+value: 0x5034
+description: |-
+  The ["Advanced Crystal Beast"](https://yugipedia.com/wiki/Advanced_Crystal_Beast) archetype.
+  Sub-archetype of [`SET_CRYSTAL`](/api/constants/Archetype/SET_CRYSTAL).
+summary: Advanced Crystal Beast
+status: { index: stable }

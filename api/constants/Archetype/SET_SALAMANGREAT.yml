@@ -1,0 +1,8 @@
+---!constant
+name: SET_SALAMANGREAT
+enum: Archetype
+value: 0x119
+description: |-
+  The ["Salamangreat"](https://yugipedia.com/wiki/Salamangreat) archetype.
+summary: Salamangreat
+status: { index: stable }

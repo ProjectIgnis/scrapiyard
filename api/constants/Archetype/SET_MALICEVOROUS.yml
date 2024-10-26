@@ -1,0 +1,8 @@
+---!constant
+name: SET_MALICEVOROUS
+enum: Archetype
+value: 0x8b
+description: |-
+  The ["Malicevorous"](https://yugipedia.com/wiki/Malicevorous) archetype.
+summary: Malicevorous
+status: { index: stable }

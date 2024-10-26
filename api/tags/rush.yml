@@ -1,4 +1,5 @@
 ---!tag
 name: rush
-description: |-
+description: &desc |-
   Related to Rush Duels.
+summary: *desc

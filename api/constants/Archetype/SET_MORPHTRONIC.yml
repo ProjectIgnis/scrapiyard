@@ -1,0 +1,8 @@
+---!constant
+name: SET_MORPHTRONIC
+enum: Archetype
+value: 0x26
+description: |-
+  The ["Morphtronic"](https://yugipedia.com/wiki/Morphtronic) archetype.
+summary: Morphtronic
+status: { index: stable }

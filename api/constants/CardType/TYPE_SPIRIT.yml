@@ -3,7 +3,6 @@ name: TYPE_SPIRIT
 enum: CardType
 value: 0x200
 description: |-
-  Spirit monster
-status:
-  index: stable
-tags: [ under-construction ]
+  The [Spirit](https://yugipedia.com/wiki/Spirit_monster) Card Type for Monsters
+summary: Spirit
+status: { index: stable }

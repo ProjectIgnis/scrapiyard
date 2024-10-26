@@ -3,7 +3,6 @@ name: RACE_WARRIOR
 enum: MonsterRace
 value: 0x1
 description: |-
-  Warrior type monster
-status:
-  index: stable
-tags: [ under-construction ]
+  The [Warrior](https://yugipedia.com/wiki/Warrior) Monster Type
+summary: Warrior
+status: { index: stable }

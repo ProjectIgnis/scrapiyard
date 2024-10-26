@@ -1,0 +1,8 @@
+---!constant
+name: SET_ENDYMION
+enum: Archetype
+value: 0x12a
+description: |-
+  The ["Endymion"](https://yugipedia.com/wiki/Endymion) archetype.
+summary: Endymion
+status: { index: stable }

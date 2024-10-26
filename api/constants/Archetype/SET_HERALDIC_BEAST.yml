@@ -1,0 +1,8 @@
+---!constant
+name: SET_HERALDIC_BEAST
+enum: Archetype
+value: 0x76
+description: |-
+  The ["Heraldic Beast"](https://yugipedia.com/wiki/Heraldic_Beast) archetype.
+summary: Heraldic Beast
+status: { index: stable }

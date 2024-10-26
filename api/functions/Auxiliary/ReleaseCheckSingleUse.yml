@@ -7,13 +7,13 @@ status:
   index: stable
 parameters:
   - name: sg
-    type: [ group ]
+    type: [ Group ]
     description: (To be added)
   - name: player
     type: [ int ]
     description: (To be added)
   - name: exg
-    type: [ group ]
+    type: [ Group ]
     description: (To be added)
 returns:
   - type: [ bool ]

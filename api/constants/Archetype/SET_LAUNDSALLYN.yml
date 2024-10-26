@@ -1,0 +1,8 @@
+---!constant
+name: SET_LAUNDSALLYN
+enum: Archetype
+value: 0xa8
+description: |-
+  The ["Laundsallyn"](https://yugipedia.com/wiki/Laundsallyn) archetype.
+summary: Laundsallyn
+status: { index: stable }

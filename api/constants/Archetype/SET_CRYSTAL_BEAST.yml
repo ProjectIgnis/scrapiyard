@@ -1,0 +1,9 @@
+---!constant
+name: SET_CRYSTAL_BEAST
+enum: Archetype
+value: 0x1034
+description: |-
+  The ["Crystal Beast"](https://yugipedia.com/wiki/Crystal_Beast) archetype.
+  Sub-archetype of [`SET_CRYSTAL`](/api/constants/Archetype/SET_CRYSTAL).
+summary: Crystal Beast
+status: { index: stable }

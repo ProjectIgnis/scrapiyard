@@ -1,0 +1,8 @@
+---!constant
+name: SET_SPIRITUAL_EARTH_ART
+enum: Archetype
+value: 0x314d
+description: |-
+  The ["Spiritual Earth Art"](https://yugipedia.com/wiki/Spiritual_Earth_Art) archetype.
+summary: Spiritual Earth Art
+status: { index: stable }

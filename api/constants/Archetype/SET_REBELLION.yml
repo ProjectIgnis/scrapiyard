@@ -1,0 +1,8 @@
+---!constant
+name: SET_REBELLION
+enum: Archetype
+value: 0x13b
+description: |-
+  The ["Rebellion"](https://yugipedia.com/wiki/Rebellion_(archetype)) archetype.
+summary: Rebellion
+status: { index: stable }

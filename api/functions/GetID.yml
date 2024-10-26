@@ -1,12 +1,12 @@
 ---!function
 name: GetID
-description: |-
-  Returns two values, a card object and its ID, used before the initial effect.
-status:
-  index: stable
+description: Returns the corresponding script metatable and passcode of the current lua file. This is meant to be called at the start of every card script.
+summary: Gets the script metatable and card passcode of the current file.
 returns:
-  - type: [ table ]
-    description: (To be added)
-  - type: [ int ]
-    description: (To be added)
-tags: [ under-construction ]
+  - name: s
+    type: [ Script ]
+    description: The script metatable.
+  - name: id
+    type: [ int ]
+    description: The card passcode.
+status: { index: stable }

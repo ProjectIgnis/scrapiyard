@@ -1,0 +1,19 @@
+---!function
+name: AddMustFirstBePendulumSummoned
+namespace: Card
+description: |-
+  Creates and registers an [Effect](/api/types/Effect) to a monster card
+  that applies a "Must first be Pendulum Summoned" Summoning condition to it
+summary: Adds a "Must first be Pendulum Summoned" Summoning condition to a monster
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The monster to register the effect to.
+returns:
+  - type: [ Effect ]
+    description: The registered effect.
+status: { index: stable }
+tags: [ registers-effect, pendulum-related ]
+suggestedLinks:
+  - name: AddMustBePendulumSummoned
+    link: /api/functions/Card/AddMustBePendulumSummoned

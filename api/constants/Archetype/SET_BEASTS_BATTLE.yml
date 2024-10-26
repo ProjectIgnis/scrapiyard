@@ -1,0 +1,8 @@
+---!constant
+name: SET_BEASTS_BATTLE
+enum: Archetype
+value: 0x4d
+description: |-
+  The ["Beast's Battle"](https://yugipedia.com/wiki/Beast%27s_Battle) archetype.
+summary: Beast's Battle
+status: { index: stable }

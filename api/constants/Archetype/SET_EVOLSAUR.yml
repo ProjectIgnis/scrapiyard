@@ -1,0 +1,8 @@
+---!constant
+name: SET_EVOLSAUR
+enum: Archetype
+value: 0x604e
+description: |-
+  The ["Evolsaur"](https://yugipedia.com/wiki/Evolsaur) archetype.
+summary: Evolsaur
+status: { index: stable }

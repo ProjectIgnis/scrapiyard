@@ -1,25 +1,26 @@
 ---!function
 name: IsHasEffect
 namespace: Card
-description: |-
-  Checks if a (Card c) has an effect with code (int code). Returns all the effects found with that code, or nil if the effect is not found. (int player), if provided, is used to check the effect's count limit
-status:
-  index: stable
+description: Returns all the effects of a given code being applied to a card, such as by Equip and Field Effects. This also includes the card's own [Single](/api/constants/EffectType/EFFECT_TYPE_SINGLE) effects. For effects registered or being granted to a card, use [Card.GetOwnEffects](/api/functions/Card/GetOwnEffects).
+summary: Gets all the effects of a given code being applied to a card
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
+    description: Card
   - name: code
     type: [ int ]
-    description: (To be added)
+    description: The [EffectCode](/api/enums/EffectCode) of the effects to get.
   - name: player
     type: [ int ]
-    description: (To be added)
     required: false
     defaultValue: PLAYER_NONE
+    description: If provided, the function will only return effects with a remaining count limit for that player.
 returns:
-  - type: [ Effect, nil ]
-    description: (To be added)
-  - type: [ any ]
-    description: (To be added)
-tags: [ under-construction ]
+  - name: ...
+    type: [ Effect ]
+    description: The effects being applied to `c`.
+    guaranteed: false
+status: { index: stable }
+suggestedLinks:
+  - name: Card.GetOwnEffects
+    link: /api/functions/Card/GetOwnEffects

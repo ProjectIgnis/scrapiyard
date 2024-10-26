@@ -1,0 +1,8 @@
+---!constant
+name: SET_NIMBLE
+enum: Archetype
+value: 0x78
+description: |-
+  The ["Nimble"](https://yugipedia.com/wiki/Nimble) archetype.
+summary: Nimble
+status: { index: stable }

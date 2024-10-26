@@ -1,0 +1,8 @@
+---!constant
+name: SET_CLOUDIAN
+enum: Archetype
+value: 0x18
+description: |-
+  The ["Cloudian"](https://yugipedia.com/wiki/Cloudian) archetype.
+summary: Cloudian
+status: { index: stable }

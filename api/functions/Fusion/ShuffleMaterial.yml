@@ -16,6 +16,6 @@ parameters:
     type: [ any ]
     description: (To be added)
   - name: sg
-    type: [ group ]
+    type: [ Group ]
     description: (To be added)
 tags: [ under-construction ]

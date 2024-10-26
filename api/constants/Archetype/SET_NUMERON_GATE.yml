@@ -1,0 +1,9 @@
+---!constant
+name: SET_NUMERON_GATE
+enum: Archetype
+value: 0x114b
+description: |-
+  The ["Numeron Gate"](https://yugipedia.com/wiki/Numeron_Gate) archetype.
+  Sub-archetype of [`SET_NUMERON`](/api/constants/Archetype/SET_NUMERON).
+summary: Numeron Gate
+status: { index: stable }

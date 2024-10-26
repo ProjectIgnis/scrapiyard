@@ -1,0 +1,8 @@
+---!constant
+name: SET_BORREL
+enum: Archetype
+value: 0x10f
+description: |-
+  The ["Borrel"](https://yugipedia.com/wiki/Borrel) archetype.
+summary: Borrel
+status: { index: stable }

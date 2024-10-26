@@ -1,0 +1,8 @@
+---!constant
+name: SET_ROLAND
+enum: Archetype
+value: 0x149
+description: |-
+  The ["Roland"](https://yugipedia.com/wiki/Roland_(archetype)) archetype.
+summary: Roland
+status: { index: stable }

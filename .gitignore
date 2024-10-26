@@ -1,3 +1,7 @@
-# so you can clone factory inside this folder for quick validation
-scrapi-factory/
+.idea
+
+# so factory can be cloned and ran locally for quick validation
+package.json
+package-lock.json
+node_modules/
 dump/

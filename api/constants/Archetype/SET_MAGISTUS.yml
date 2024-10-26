@@ -1,0 +1,8 @@
+---!constant
+name: SET_MAGISTUS
+enum: Archetype
+value: 0x152
+description: |-
+  The ["Magistus"](https://yugipedia.com/wiki/Magistus) archetype.
+summary: Magistus
+status: { index: stable }

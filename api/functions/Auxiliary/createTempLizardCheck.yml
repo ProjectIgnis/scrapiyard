@@ -2,14 +2,44 @@
 name: createTempLizardCheck
 namespace: Auxiliary
 description: |-
-  no description yet
-status:
-  index: stable
+  Creates an [Effect](/api/types/Effect) that, when registered to the duel, affects cards
+  such that they will be excluded by ["Clock Lizard"](https://yugipedia.com/wiki/Clock_Lizard)
+  when checking what cards it can return to the Extra Deck.
+summary: Creates a duel effect that affects cards for "Clock Lizard"'s handling
 parameters:
-  - name: ...
-    type: [ any ]
-    description: (To be added)
+  - name: c
+    type: [ Card ]
+    description: The card registering the effect (its owner).
+  - name: filter
+    type: [ TargetFilterFunction ]
+    description: Filters which cards are affected and will be excluded by "Clock Lizard".
+    required: false
+    defaultValue: aux.TRUE
+  - name: reset
+    type: [ int ]
+    description: Composite [Reset](/api/enums/Reset) values to specify when the effect stops applying.
+    required: false
+    defaultValue: RESET_PHASE|PHASE_END
+  - name: tRange
+    type: [ int ]
+    description: Composite [Location](/api/enums/Location) values for `tp`'s side of the board.
+    required: false
+    defaultValue: 0xff
+  - name: tRange2
+    type: [ int ]
+    description: Composite Location values for `tp`'s opponent's side of the board.
+    required: false
+    defaultValue: 0
+  - name: resetcount
+    type: [ int ]
+    description: The number of times `reset` must happen for the effect to stop applying.
+    required: false
+    defaultValue: 1
 returns:
-  - type: [ function ]
-    description: (To be added)
-tags: [ under-construction ]
+  - type: [ effect ]
+    description: The effect that was created.
+status: { index: stable }
+tags: [ creates-effect, special-handling ]
+suggestedLinks:
+  - name: Auxiliary.addTempLizardCheck
+    link: /api/functions/Auxiliary/addTempLizardCheck

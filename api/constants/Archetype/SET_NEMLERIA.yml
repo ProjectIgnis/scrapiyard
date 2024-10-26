@@ -1,0 +1,8 @@
+---!constant
+name: SET_NEMLERIA
+enum: Archetype
+value: 0x192
+description: |-
+  The ["Nemleria"](https://yugipedia.com/wiki/Nemleria) archetype.
+summary: Nemleria
+status: { index: stable }

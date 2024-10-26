@@ -1,0 +1,15 @@
+---!function
+name: HasRank
+namespace: Card
+description: |-
+  Returns `true` if the given card has a rank.
+summary: Checks if a card has a rank
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check.
+returns:
+  - type: [ bool ]
+    description: If `c` has a rank.
+status: { index: stable }
+tags: [ card-check, rank-related ]

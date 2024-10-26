@@ -1,0 +1,8 @@
+---!constant
+name: SET_ANCIENT_WARRIORS
+enum: Archetype
+value: 0x137
+description: |-
+  The ["Ancient Warriors"](https://yugipedia.com/wiki/Ancient_Warriors) archetype.
+summary: Ancient Warriors
+status: { index: stable }

@@ -1,0 +1,8 @@
+---!constant
+name: SET_THERION
+enum: Archetype
+value: 0x17b
+description: |-
+  The ["Therion"](https://yugipedia.com/wiki/Therion) archetype.
+summary: Therion
+status: { index: stable }

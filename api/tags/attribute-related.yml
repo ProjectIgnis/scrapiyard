@@ -1,0 +1,4 @@
+---!tag
+name: attribute-related
+description: &desc Related to monster attributes
+summary: *desc

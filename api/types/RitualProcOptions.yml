@@ -8,9 +8,9 @@ fields:
     valueType: [ Card ]
     description: (To be added)
   - name: filter
-    valueType: [ FilterFunction ]
+    valueType: [ RitualMaterialFilter ]
     description: (To be added)
   - name: location
     valueType: [ int ]
     description: (To be added)
-tags: [ under-construction ]
+tags: [ ritual-related, under-construction ]

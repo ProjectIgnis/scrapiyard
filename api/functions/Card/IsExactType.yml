@@ -13,7 +13,7 @@ parameters:
     type: [ int ]
     description: (To be added)
   - name: sumc
-    type: [ card ]
+    type: [ Card ]
     description: (To be added)
     required: false
   - name: sumtype

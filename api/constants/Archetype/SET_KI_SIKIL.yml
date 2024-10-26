@@ -1,0 +1,8 @@
+---!constant
+name: SET_KI_SIKIL
+enum: Archetype
+value: 0x153
+description: |-
+  The ["Ki-sikil"](https://yugipedia.com/wiki/Ki-sikil) archetype.
+summary: Ki-sikil
+status: { index: stable }

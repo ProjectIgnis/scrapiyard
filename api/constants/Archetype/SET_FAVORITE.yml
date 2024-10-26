@@ -1,0 +1,8 @@
+---!constant
+name: SET_FAVORITE
+enum: Archetype
+value: 0x195
+description: |-
+  The ["Favorite"](https://yugipedia.com/wiki/Favorite) archetype.
+summary: Favorite
+status: { index: stable }

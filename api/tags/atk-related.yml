@@ -1,0 +1,4 @@
+---!tag
+name: atk-related
+description: &desc Related to card ATK values
+summary: *desc

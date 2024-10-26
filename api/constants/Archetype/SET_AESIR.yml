@@ -1,0 +1,8 @@
+---!constant
+name: SET_AESIR
+enum: Archetype
+value: 0x4b
+description: |-
+  The ["Aesir"](https://yugipedia.com/wiki/Aesir) archetype.
+summary: Aesir
+status: { index: stable }

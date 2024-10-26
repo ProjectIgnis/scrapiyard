@@ -1,0 +1,9 @@
+---!constant
+name: SET_CYBER_ANGEL
+enum: Archetype
+value: 0x2093
+description: |-
+  The ["Cyber Angel"](https://yugipedia.com/wiki/Cyber_Angel) archetype.
+  Sub-archetype of [`SET_CYBER`](/api/constants/Archetype/SET_CYBER).
+summary: Cyber Angel
+status: { index: stable }

@@ -1,0 +1,8 @@
+---!constant
+name: SET_FIRE_FIST
+enum: Archetype
+value: 0x79
+description: |-
+  The ["Fire Fist"](https://yugipedia.com/wiki/Fire_Fist) archetype.
+summary: Fire Fist
+status: { index: stable }

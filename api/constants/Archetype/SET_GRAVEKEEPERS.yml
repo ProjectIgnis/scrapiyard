@@ -1,0 +1,8 @@
+---!constant
+name: SET_GRAVEKEEPERS
+enum: Archetype
+value: 0x2e
+description: |-
+  The ["Gravekeeper's"](https://yugipedia.com/wiki/Gravekeeper%27s) archetype.
+summary: Gravekeeper's
+status: { index: stable }

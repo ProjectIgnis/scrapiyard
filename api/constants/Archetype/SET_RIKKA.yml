@@ -1,0 +1,8 @@
+---!constant
+name: SET_RIKKA
+enum: Archetype
+value: 0x141
+description: |-
+  The ["Rikka"](https://yugipedia.com/wiki/Rikka) archetype.
+summary: Rikka
+status: { index: stable }

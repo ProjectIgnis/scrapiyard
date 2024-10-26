@@ -1,0 +1,13 @@
+---!type
+name: ArcanaEffectRegister
+supertype: function
+description: A function that registers an [Arcana Force](https://yugipedia.com/wiki/Arcana_Force) card's coin-based effects.
+summary: Registers an Arcana Force card's coin-based effects
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to register the effects to.
+  - name: coin
+    type: [ int ]
+    description: The [Coin](/api/enums/Coin) result of the Arcana card's coin toss effect.
+tags: [ registers-effect, special-handling ]

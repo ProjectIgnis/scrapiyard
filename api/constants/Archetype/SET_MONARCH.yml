@@ -1,0 +1,8 @@
+---!constant
+name: SET_MONARCH
+enum: Archetype
+value: 0xbe
+description: |-
+  The ["Monarch"](https://yugipedia.com/wiki/Monarch) archetype.
+summary: Monarch
+status: { index: stable }

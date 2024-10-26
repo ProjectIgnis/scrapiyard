@@ -1,0 +1,8 @@
+---!constant
+name: SET_SEA_STEALTH
+enum: Archetype
+value: 0x17a
+description: |-
+  The ["Sea Stealth"](https://yugipedia.com/wiki/Sea_Stealth) archetype.
+summary: Sea Stealth
+status: { index: stable }

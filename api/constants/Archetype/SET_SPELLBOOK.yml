@@ -1,0 +1,9 @@
+---!constant
+name: SET_SPELLBOOK
+enum: Archetype
+value: 0x106e
+description: |-
+  The ["Spellbook"](https://yugipedia.com/wiki/Spellbook) archetype.
+  Sub-archetype of [`SET_PROPHECY`](/api/constants/Archetype/SET_PROPHECY).
+summary: Spellbook
+status: { index: stable }

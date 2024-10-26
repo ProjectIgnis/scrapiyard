@@ -1,0 +1,8 @@
+---!constant
+name: SET_ABYSS
+enum: Archetype
+value: 0x75
+description: |-
+  The ["Abyss-"](https://yugipedia.com/wiki/Abyss-) archetype.
+summary: Abyss-
+status: { index: stable }

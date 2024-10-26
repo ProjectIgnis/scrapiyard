@@ -1,0 +1,8 @@
+---!constant
+name: SET_EVOLTILE
+enum: Archetype
+value: 0x304e
+description: |-
+  The ["Evoltile"](https://yugipedia.com/wiki/Evoltile) archetype.
+summary: Evoltile
+status: { index: stable }

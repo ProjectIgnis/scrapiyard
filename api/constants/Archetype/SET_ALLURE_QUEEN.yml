@@ -1,0 +1,8 @@
+---!constant
+name: SET_ALLURE_QUEEN
+enum: Archetype
+value: 0x14
+description: |-
+  The ["Allure Queen"](https://yugipedia.com/wiki/Allure_Queen) archetype.
+summary: Allure Queen
+status: { index: stable }

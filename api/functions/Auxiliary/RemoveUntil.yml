@@ -19,7 +19,7 @@ parameters:
     type: [ int ]
     description: (To be added)
   - name: e
-    type: [ effect ]
+    type: [ Effect ]
     description: (To be added)
   - name: player
     type: [ int ]
@@ -31,6 +31,6 @@ parameters:
     type: [ function, nil ]
     description: (To be added)
 returns:
-  - type: [ effect ]
+  - type: [ Effect ]
     description: (To be added)
 tags: [ under-construction ]

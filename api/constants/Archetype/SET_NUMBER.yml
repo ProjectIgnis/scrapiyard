@@ -1,0 +1,8 @@
+---!constant
+name: SET_NUMBER
+enum: Archetype
+value: 0x48
+description: |-
+  The ["Number"](https://yugipedia.com/wiki/Number) archetype.
+summary: Number
+status: { index: stable }

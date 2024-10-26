@@ -1,0 +1,20 @@
+---!function
+name: IsTextAttack
+namespace: Card
+description: |-
+  Returns `true` if a card's printed ATK is equal to a given value.
+  Printed ATK might differ from the original ATK of the card due to effects that change original ATK.
+  Use [`Card.IsBaseAttack`](/api/functions/Card/IsBaseAttack) if you need to check for the original ATK instead.
+summary: Checks a card's original ATK
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check the printed ATK of.
+  - name: atk
+    type: [ int ]
+    description: The ATK value to check.
+returns:
+  - type: [ bool ]
+    description: If the printed ATK of `c` is equal to `atk`.
+status: { index: stable }
+tags: [ card-check, atk-related, original-property ]

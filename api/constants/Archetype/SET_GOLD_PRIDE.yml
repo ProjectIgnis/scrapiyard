@@ -1,0 +1,8 @@
+---!constant
+name: SET_GOLD_PRIDE
+enum: Archetype
+value: 0x193
+description: |-
+  The ["Gold Pride"](https://yugipedia.com/wiki/Gold_Pride) archetype.
+summary: Gold Pride
+status: { index: stable }

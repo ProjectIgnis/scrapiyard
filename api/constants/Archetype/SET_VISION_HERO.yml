@@ -1,0 +1,9 @@
+---!constant
+name: SET_VISION_HERO
+enum: Archetype
+value: 0x5008
+description: |-
+  The ["Vision HERO"](https://yugipedia.com/wiki/Vision_HERO) archetype.
+  Sub-archetype of [`SET_HERO`](/api/constants/Archetype/SET_HERO).
+summary: Vision HERO
+status: { index: stable }

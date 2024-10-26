@@ -1,0 +1,8 @@
+---!constant
+name: SET_LIBROMANCER
+enum: Archetype
+value: 0x17d
+description: |-
+  The ["Libromancer"](https://yugipedia.com/wiki/Libromancer) archetype.
+summary: Libromancer
+status: { index: stable }

@@ -1,0 +1,8 @@
+---!constant
+name: SET_BRANDED
+enum: Archetype
+value: 0x160
+description: |-
+  The ["Branded"](https://yugipedia.com/wiki/Branded) archetype.
+summary: Branded
+status: { index: stable }

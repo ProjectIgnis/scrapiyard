@@ -1,0 +1,16 @@
+---!function
+name: AddMustBeSpecialSummonedByDarkFusion
+namespace: Card
+description: |-
+  Creates and registers an [Effect](/api/types/Effect) to a monster card
+  that applies a "Must be Special Summoned by Dark Fusion" Summoning condition to it
+summary: Adds a "Must be Special Summoned by Dark Fusion" Summoning condition to a card
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The monster to register the effect to.
+returns:
+  - type: [ Effect ]
+    description: The registered effect.
+status: { index: stable }
+tags: [ registers-effect ]

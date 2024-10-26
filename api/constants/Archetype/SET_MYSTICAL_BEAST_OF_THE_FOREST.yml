@@ -1,0 +1,8 @@
+---!constant
+name: SET_MYSTICAL_BEAST_OF_THE_FOREST
+enum: Archetype
+value: 0x1169
+description: |-
+  The ["Mystical Beast of the Forest"](https://yugipedia.com/wiki/Mystical_Beast_of_the_Forest) archetype.
+summary: Mystical Beast of the Forest
+status: { index: stable }

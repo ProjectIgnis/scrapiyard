@@ -10,7 +10,7 @@ parameters:
     type: [ int ]
     description: (To be added)
   - name: ex
-    type: [ card, group ]
+    type: [ Card, Group ]
     description: (To be added)
     required: false
   - name: use_player

@@ -1,0 +1,9 @@
+---!constant
+name: SET_DDD
+enum: Archetype
+value: 0x10af
+description: |-
+  The ["D/D/D"](https://yugipedia.com/wiki/D/D/D) archetype.
+  Sub-archetype of [`SET_DD`](/api/constants/Archetype/SET_DD).
+summary: D/D/D
+status: { index: stable }

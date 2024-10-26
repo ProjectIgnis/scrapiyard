@@ -1,21 +1,24 @@
 ---!function
 name: GetCardEffect
 namespace: Card
-description: |-
-  Returns all the effects with that code (int effect_code) registered to card (Card c). With no effect_code (effect_code=0) it will return all the effects registered. [effect_code refers to "EFFECT_" constants, eg: EFFECT_NECRO_VALLEY]. If no effect is found, returns nil.
-status:
-  index: stable
+description: Returns all the effects being applied to a card, such as by Equip and Field Effects. This also includes the card's own [Single](/api/constants/EffectType/EFFECT_TYPE_SINGLE) effects. For effects registered or being granted to a card, use [Card.GetOwnEffects](/api/functions/Card/GetOwnEffects).
+summary: Gets all the effects being applied to a card
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
-  - name: effect_code
+    description: The card to get the effects of.
+  - name: code
     type: [ int ]
-    description: (To be added)
     required: false
+    description: |-
+      An [EffectCode](/api/enums/EffectCode) constant.
+      If provided, the function will only return effects with that EffectCode.
 returns:
-  - type: [ Effect, nil ]
-    description: (To be added)
-  - type: [ any ]
-    description: (To be added)
-tags: [ under-construction ]
+  - name: ...
+    type: [ Effect ]
+    description: The effects being applied to `c`.
+    guaranteed: false
+status: { index: stable }
+suggestedLinks:
+  - name: Card.IsHasEffect
+    link: /api/functions/Card/IsHasEffect

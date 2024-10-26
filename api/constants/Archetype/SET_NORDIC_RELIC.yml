@@ -1,0 +1,9 @@
+---!constant
+name: SET_NORDIC_RELIC
+enum: Archetype
+value: 0x5042
+description: |-
+  The ["Nordic Relic"](https://yugipedia.com/wiki/Nordic_Relic) archetype.
+  Sub-archetype of [`SET_NORDIC`](/api/constants/Archetype/SET_NORDIC).
+summary: Nordic Relic
+status: { index: stable }

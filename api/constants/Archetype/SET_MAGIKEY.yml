@@ -1,0 +1,8 @@
+---!constant
+name: SET_MAGIKEY
+enum: Archetype
+value: 0x167
+description: |-
+  The ["Magikey"](https://yugipedia.com/wiki/Magikey) archetype.
+summary: Magikey
+status: { index: stable }

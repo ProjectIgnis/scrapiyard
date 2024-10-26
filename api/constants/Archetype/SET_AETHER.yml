@@ -1,0 +1,8 @@
+---!constant
+name: SET_AETHER
+enum: Archetype
+value: 0xcb
+description: |-
+  The ["Aether"](https://yugipedia.com/wiki/Aether) archetype.
+summary: Aether
+status: { index: stable }

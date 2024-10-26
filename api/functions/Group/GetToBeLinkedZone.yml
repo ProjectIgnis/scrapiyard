@@ -7,10 +7,10 @@ status:
   index: stable
 parameters:
   - name: tc
-    type: [ card ]
+    type: [ Card ]
     description: (To be added)
   - name: c
-    type: [ card ]
+    type: [ Card ]
     description: (To be added)
   - name: tp
     type: [ int ]

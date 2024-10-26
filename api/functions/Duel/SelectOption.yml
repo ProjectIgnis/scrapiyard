@@ -13,7 +13,7 @@ parameters:
     type: [ bool ]
     description: (To be added)
     required: false
-    defaultValue: true]
+    defaultValue: true
   - name: desc1
     type: [ int ]
     description: (To be added)

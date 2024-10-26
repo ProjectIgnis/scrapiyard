@@ -1,0 +1,8 @@
+---!constant
+name: SET_SEVENTH
+enum: Archetype
+value: 0x177
+description: |-
+  The ["Seventh"](https://yugipedia.com/wiki/Seventh) archetype.
+summary: Seventh
+status: { index: stable }

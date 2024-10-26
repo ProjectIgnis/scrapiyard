@@ -1,0 +1,8 @@
+---!constant
+name: SET_SINFUL_SPOILS
+enum: Archetype
+value: 0x204
+description: |-
+  The ["Sinful Spoils"](https://yugipedia.com/wiki/Sinful_Spoils) archetype.
+summary: Sinful Spoils
+status: { index: stable }

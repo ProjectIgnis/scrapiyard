@@ -7,7 +7,7 @@ status:
   index: stable
 parameters:
   - name: c
-    type: [ card ]
+    type: [ Card ]
     description: (To be added)
   - name: zone
     type: [ int ]

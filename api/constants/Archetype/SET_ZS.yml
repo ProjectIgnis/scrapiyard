@@ -1,0 +1,9 @@
+---!constant
+name: SET_ZS
+enum: Archetype
+value: 0x207e
+description: |-
+  The ["ZS -"](https://yugipedia.com/wiki/ZS_-) archetype.
+  Sub-archetype of [`SET_ZEXAL`](/api/constants/Archetype/SET_ZEXAL).
+summary: ZS -
+status: { index: stable }

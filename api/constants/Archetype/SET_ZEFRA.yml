@@ -1,0 +1,8 @@
+---!constant
+name: SET_ZEFRA
+enum: Archetype
+value: 0xc4
+description: |-
+  The ["Zefra"](https://yugipedia.com/wiki/Zefra) archetype.
+summary: Zefra
+status: { index: stable }

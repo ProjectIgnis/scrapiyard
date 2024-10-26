@@ -1,0 +1,8 @@
+---!constant
+name: SET_BLUE_EYES
+enum: Archetype
+value: 0xdd
+description: |-
+  The ["Blue-Eyes"](https://yugipedia.com/wiki/Blue-Eyes) archetype.
+summary: Blue-Eyes
+status: { index: stable }

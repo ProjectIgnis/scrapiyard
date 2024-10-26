@@ -1,0 +1,9 @@
+---!constant
+name: SET_FAMILIAR_POSSESSED
+enum: Archetype
+value: 0x10c0
+description: |-
+  The ["Familiar-Possessed"](https://yugipedia.com/wiki/Familiar-Possessed) archetype.
+  Sub-archetype of [`SET_POSSESSED`](/api/constants/Archetype/SET_POSSESSED).
+summary: Familiar-Possessed
+status: { index: stable }
