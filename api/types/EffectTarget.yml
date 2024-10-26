@@ -1,40 +1,43 @@
 ---!type
 name: EffectTarget
 supertype: function
-description: |-
-  A function used to check activation legality or perform activation procedure, excluding costs.
-summary: Checks or performs effect activation procedure.
+description: A function used to check an effect's activation legality or perform its activation procedure, excluding costs. Usually passed to [`Effect.SetTarget`](/api/functions/Effect/SetTarget) of activated effects.
+summary: Checks or performs effect activation procedure excluding cost.
 parameters:
   - name: e
     type: [ Effect ]
-    description: The Effect to activate.
+    description: The effect being activated.
   - name: tp
     type: [ int ]
     description: The player activating the effect.
   - name: eg
     type: [ Group ]
-    description: The event group of the effect activation.
+    description: A group of cards associated to the event that prompted the effect activation. The specifics of this group vary depending on the [event code](/api/enums/Event).
   - name: ep
     type: [ int ]
-    description: The event player of the effect activation.
+    description: The player associated to the event that prompted the effect activation.
   - name: ev
     type: [ Group ]
-    description: The event value of the effect activation.
+    description: A value associated to the event that prompted the effect activation. The specifics of this value vary depending on the event code.
   - name: re
     type: [ Effect ]
-    description: The reason effect of the effect activation.
+    description: The effect that caused the event that prompted the effect activation.
   - name: r
     type: [ int ]
-    description: The reason of the effect activation.
+    description: Composite [Reason](/api/enums/Reason) value of the event that prompted the effect activation.
   - name: rp
     type: [ int ]
-    description: The reason player of the effect activation.
+    description: The player that caused the event that prompted the effect activation.
   - name: chk
     type: [ int ]
-    description: "`0` when checking the activation, `1` when performing."
+    description: Must be `0` when checking activation legality, and `1` when performing the activation procedure.
+  - name: chkc
+    type: [ Card ]
+    description: The card being checked for target redirection, such as by the effect of [Cairngorgon, Antiluminescent Knight](https://yugipedia.com/wiki/11083).
+    required: false
 returns:
   - type: [ boolean ]
-    description: If `chk` is `0`, returns true if the effect can be activated.
+    description: If `chk` is `0`, returns `true` if the effect can be legally activated.
     guaranteed: false
 
 # TODO: add overloads for other signatures of target functions,

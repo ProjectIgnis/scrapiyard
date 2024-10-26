@@ -1,15 +1,15 @@
 ---!function
 name: GetCardLscaleFromCode
 namespace: Duel
-description: |-
-  Gets a card's left pendulum scale from its card id (the value returned is the same as the one returned with Card.Lscale on a card object corresponding to a card with such id)
+description: Retrieves the left pendulum scale of a given card passcode/ID from the card database.
+summary: Gets the left pendulum scale of a card using its passcode.
 status:
   index: stable
 parameters:
-  - name: code
+  - name: id
     type: [ int ]
-    description: (To be added)
+    description: The passcode/ID of the card to get the left pendulum scale of.
 returns:
   - type: [ int ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: The left pendulum scale of the card registered in the database.
+tags: [ passcode-related ]
