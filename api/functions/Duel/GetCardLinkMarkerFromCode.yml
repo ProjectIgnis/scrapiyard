@@ -1,15 +1,15 @@
 ---!function
 name: GetCardLinkMarkerFromCode
 namespace: Duel
-description: Retrieves the link marker for the given card passcode/ID.
-summary: Get the link marker configuration of a card using its code.
+description: Retrieves the link marker(s) of a given card passcode/ID from the card database.
+summary: Gets the link marker(s) of a card using its passcode.
 status:
   index: stable
 parameters:
   - name: id
     type: [ int ]
-    description: The unique id representing the card.
+    description: The passcode/ID of the card to get the link marker(s) of.
 returns:
   - type: [ int ]
-    description: The link marker of the card.
+    description: Composite [LinkMarker](/api/enums/LinkMarker) value of the card registered in the database.
 tags: [ passcode-related ]

@@ -1,15 +1,15 @@
 ---!function
 name: GetCardAttributeFromCode
 namespace: Duel
-description: Retrieves the card attribute for the given card passcode/ID.
-summary: Get the attribute of a card using its code.
+description: Retrieves the attribute(s) of a given card passcode/ID from the card database.
+summary: Gets the attribute(s) of a card using its passcode.
 status:
   index: stable
 parameters:
   - name: id
     type: [ int ]
-    description: The unique id representing the card.
+    description: The passcode/ID of the card to get the attribute(s) of.
 returns:
   - type: [ int ]
-    description: The attribute of the card.
+    description: Composite [MonsterAttribute](/api/enums/MonsterAttribute) value of the card registered in the database.
 tags: [ passcode-related ]

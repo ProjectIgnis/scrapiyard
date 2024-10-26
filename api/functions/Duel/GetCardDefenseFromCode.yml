@@ -1,15 +1,15 @@
 ---!function
 name: GetCardDefenseFromCode
 namespace: Duel
-description: Retrieves the defense points for the given card passcode/ID.
-summary: Get the defense points of a card using its code.
+description: Retrieves the DEF of a given card passcode/ID from the card database.
+summary: Gets the DEF of a card using its passcode.
 status:
   index: stable
 parameters:
   - name: id
     type: [ int ]
-    description: The unique id representing the card.
+    description: The passcode/ID of the card to get the DEF of.
 returns:
   - type: [ int ]
-    description: The defense points of the card.
+    description: The DEF of the card registered in the database.
 tags: [ passcode-related ]
