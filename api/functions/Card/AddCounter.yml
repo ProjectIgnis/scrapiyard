@@ -1,29 +1,26 @@
 ---!function
 name: AddCounter
 namespace: Card
-description: |-
-  Adds any number of counters of the specified type to a Card.
-summary: Adds a specific counter to a Card.
+description: Places any number of counters of the specified type to a card.
+summary: Places counters to a card.
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: The Card that will receive the counter
+    description: The card to place counters on.
   - name: countertype
     type: [ int ]
-    description: The value (or corresponding constant) for the type of the counter that will be placed.
+    description: The value for the type of counter to be placed.
   - name: count
     type: [ int ]
     description: The number of counters to be placed.
   - name: checklimits
     type: [ bool ]
-    description: |-
-      If set to `true`, only places counters up to the maximum value
-      set by an `EFFECT_COUNTER_LIMIT` Effect on the card for that counter.
-      If `false`, does not place any counter if the limit would be exceeded.
+    description: If set to `true`, only places counters up to the maximum value set by an `EFFECT_COUNTER_LIMIT` effect on the card for that counter. If `false`, does not place any counter if the limit would be exceeded.
     required: false
     defaultValue: false
 returns:
   - type: [ bool ]
     description: Returns `true` if counters were successfully placed.
+tags: [ counter-related ]
