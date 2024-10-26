@@ -4,6 +4,6 @@ enum: HintMessage
 value: 504
 description: |-
   Shows the following HintMessage: "Select the card(s) to send to the GY"
+summary: '"Select the card(s) to send to the GY"'
 status:
   index: stable
-tags: [ under-construction ]
