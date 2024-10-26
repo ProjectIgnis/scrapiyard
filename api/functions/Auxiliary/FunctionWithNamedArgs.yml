@@ -2,7 +2,7 @@
 name: FunctionWithNamedArgs
 namespace: Auxiliary
 description: Creates a new function that can handle both named arguments (as a table) and regular arguments.
-summary: Wraps a function to support optional named arguments.
+summary: Wraps a function to optionally support named arguments as a table.
 status:
   index: stable
 parameters:
@@ -17,7 +17,7 @@ parameters:
 returns:
   - type: [ function ]
     description: A new function that can handle both named and regular arguments.
-guide: |
+guide: |-
   Example usage:
   ```lua
   SearchCardFromDeck = aux.FunctionWithNamedArgs(function(tp,filter,count)
