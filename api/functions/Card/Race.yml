@@ -1,23 +1,24 @@
 ---!function
 name: Race
 namespace: Card
-description: |-
-  Returns the card's original race (monster type).
+description: &desc Returns the card's original race(s).
+summary: *desc
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: The card to get the race of.
+    description: The card to get the race(s) of.
 returns:
-  - type: [int]
-    description: The card's original race.
+  - type: [ int ]
+    description: Composite [MonsterRace](/api/enums/MonsterRace) value of the card's original race(s).
 overloads:
   - description: Changes a card's race.
     parameters:
     - name: c
       type: [ Card ]
       description: The card to change the race of.
-    - name: rac
+    - name: att
       type: [ int ]
-      description: The new race.
+      description: Composite [MonsterRace](/api/enums/MonsterRace) value to set as the card's new race(s).
+tags: [ race-related ]

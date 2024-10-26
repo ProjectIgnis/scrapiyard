@@ -1,8 +1,8 @@
 ---!function
 name: LinkMarker
 namespace: Card
-description: |-
-  Returns the card's original link marker(s).
+description: &desc Returns the card's original link marker(s).
+summary: *desc
 status:
   index: stable
 parameters:
@@ -10,14 +10,15 @@ parameters:
     type: [ Card ]
     description: The card to get the link marker(s) of.
 returns:
-  - type: [int]
-    description: The card's original link marker(s).
+  - type: [ int ]
+    description: Composite [LinkMarker](/api/enums/LinkMarker) value of the card's original link marker(s).
 overloads:
-  - description: Changes a card's link marker(s).
+  - description: Changes a card's link markers.
     parameters:
     - name: c
       type: [ Card ]
-      description: The card to change the link marker(s).
-    - name: lmarker
+      description: The card to change the link markers of.
+    - name: att
       type: [ int ]
-      description: The new value for the link marker(s).
+      description: Composite [LinkMarker](/api/enums/LinkMarker) value to set as the card's new link marker(s).
+tags: [ link-related ]

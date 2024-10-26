@@ -1,17 +1,17 @@
 ---!function
 name: Attribute
 namespace: Card
-description: |-
-  Returns the card's original attribute.
+description: &desc Returns the card's original attribute(s).
+summary: *desc
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: The card to get the attribute of.
+    description: The card to get the attribute(s) of.
 returns:
-  - type: [int]
-    description: The card's original attribute.
+  - type: [ int ]
+    description: Composite [MonsterAttribute](/api/enums/MonsterAttribute) value of the card's original attribute(s).
 overloads:
   - description: Changes a card's attribute.
     parameters:
@@ -20,4 +20,5 @@ overloads:
       description: The card to change the attribute of.
     - name: att
       type: [ int ]
-      description: The new attribute.
+      description: Composite [MonsterAttribute](/api/enums/MonsterAttribute) value to set as the card's new attribute(s).
+tags: [ attribute-related ]

@@ -1,23 +1,23 @@
 ---!function
 name: Code
 namespace: Card
-description: |-
-  Returns the card's current code.
+description: &desc Returns a card's current passcode/ID.
+summary: *desc
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: The card to get the code of.
+    description: The card to get the passcode of.
 returns:
-  - type: [int]
-    description: The card's current code/ID.
+  - type: [ int ]
+    description: The card's current passcode.
 overloads:
-  - description: Changes a card's code.
+  - description: Changes a card's passcode/ID.
     parameters:
     - name: c
       type: [ Card ]
-      description: The card to change the code of.
+      description: The card to change the passcode of.
     - name: code
       type: [ int ]
       description: The new code.

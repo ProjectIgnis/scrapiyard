@@ -1,7 +1,8 @@
 ---!function
 name: Setcode
 namespace: Card
-description: Returns the card's original archetype(s).
+description: &desc Returns the card's original archetype(s).
+summary: *desc
 status:
   index: stable
 parameters:

@@ -1,23 +1,24 @@
 ---!function
 name: Lscale
 namespace: Card
-description: |-
-  Returns the card's original left scale.
+description: &desc Returns a card's left Pendulum Scale.
+summary: *desc
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: The card to get the left scale of.
+    description: The card to get the left Pendulum Scale of.
 returns:
-  - type: [int]
-    description: The card's original left scale.
+  - type: [ int ]
+    description: The card's left Pendulum Scale.
 overloads:
-  - description: Changes a card's left scale.
+  - description: Changes a card's left Pendulum Scale.
     parameters:
     - name: c
       type: [ Card ]
-      description: The card to change the left scale of.
-    - name: lscale
+      description: The card to change the left Pendulum Scale of.
+    - name: id
       type: [ int ]
-      description: The new value for the left scale.
+      description: The new left Pendulum Scale value.
+tags: [ scale-related ]

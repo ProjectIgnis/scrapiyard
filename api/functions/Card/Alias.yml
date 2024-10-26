@@ -1,8 +1,8 @@
 ---!function
 name: Alias
 namespace: Card
-description: |-
-  Returns the card's alias.
+description: &desc Returns a card's alias.
+summary: *desc
 status:
   index: stable
 parameters:
@@ -10,7 +10,7 @@ parameters:
     type: [ Card ]
     description: The card to get the alias of.
 returns:
-  - type: [int]
+  - type: [ int ]
     description: The card's alias.
 overloads:
   - description: Changes a card's alias.

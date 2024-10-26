@@ -1,23 +1,24 @@
 ---!function
 name: Rscale
 namespace: Card
-description: |-
-  Returns the card's original right scale.
+description: &desc Returns a card's right Pendulum Scale.
+summary: *desc
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: The card to get the right scale of.
+    description: The card to get the right Pendulum Scale of.
 returns:
-  - type: [int]
-    description: The card's original right scale.
+  - type: [ int ]
+    description: The card's right Pendulum Scale.
 overloads:
-  - description: Changes a card's right scale.
+  - description: Changes a card's right Pendulum Scale.
     parameters:
     - name: c
       type: [ Card ]
-      description: The card to change the right scale of.
-    - name: rscale
+      description: The card to change the right Pendulum Scale of.
+    - name: id
       type: [ int ]
-      description: The new value for the right scale.
+      description: The new right Pendulum Scale value.
+tags: [ scale-related ]
