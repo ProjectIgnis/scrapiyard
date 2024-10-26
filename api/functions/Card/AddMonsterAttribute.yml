@@ -1,35 +1,39 @@
 ---!function
 name: AddMonsterAttribute
 namespace: Card
-description: |-
-  Transforms a card (Card c) to a monster. The CardType will become TYPE_MONSTER + extra_type. Uses the values if provided, otherwise uses the card's own values in Database. Be aware that the values added using this (except for CardType) will be reset when the card is flipped face-down.
+description: Transforms the provided card into a monster. Must be completed by calling [`Card.AddMonsterAttributeComplete`](/api/functions/Card/AddMonsterAttributeComplete) after the card has been moved to the Monster Zone. The card's properties reset to their original values when it is flipped face-down, becomes attached as Xyz material, or sent to the hand, Deck, GY, or banishment.
+summary: Transforms the provided card into a monster.
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
+    description: The card that will be turned into a monster.
   - name: extra_type
     type: [ int ]
-    description: (To be added)
+    description: Composite [CardType](/api/enums/CardType) value to add to the card's current type, in addition to [`TYPE_MONSTER`](/api/constants/CardType/TYPE_MONSTER).
   - name: attribute
     type: [ int ]
-    description: (To be added)
+    description: Composite [MonsterAttribute](/api/enums/MonsterAttribute) value to add to the card's attribute value in the database.
     required: false
+    default: 0
   - name: race
     type: [ int ]
-    description: (To be added)
+    description: Composite [MonsterRace](/api/enums/MonsterRace) to add to the card's race value in the database.
     required: false
+    default: 0
   - name: level
     type: [ int ]
-    description: (To be added)
+    description: A value to set as the monster's level instead of the card's level value in the database.
     required: false
+    default: 0
   - name: atk
     type: [ int ]
-    description: (To be added)
+    description: A value to set as the monster's original ATK instead of the card's ATK value in the database.
     required: false
+    default: 0
   - name: def
     type: [ int ]
-    description: (To be added)
+    description: A value to set as the monster's original DEF instead of the card's DEF value in the database.
     required: false
-tags: [ under-construction ]
+    default: 0

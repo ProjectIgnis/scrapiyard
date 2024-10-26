@@ -1,16 +1,24 @@
 ---!function
 name: Level
 namespace: Card
-description: |-
-  Changes (Card c)'s original level/rank/link rating if (int level) is inputted, else returns the current card's original level/rank/link rating
+description: &desc Returns a card's original level, rank, or link-rating.
+summary: *desc
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
-  - name: level
-    type: [ int ]
-    description: (To be added)
-    required: false
-tags: [ under-construction ]
+    description: The card to get the original level, rank, or link-rating of.
+returns:
+  - type: [ int ]
+    description: The card's original level, rank, or link-rating.
+overloads:
+  - description: Changes a card's level, rank, or link-rating.
+    parameters:
+    - name: c
+      type: [ Card ]
+      description: The card to change the level, rank, or link-rating of.
+    - name: id
+      type: [ int ]
+      description: The new level, rank, or link-rating value.
+tags: [ level-related, rank-related, link-related ]

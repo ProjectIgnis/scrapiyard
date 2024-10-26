@@ -1,15 +1,14 @@
 ---!function
 name: CancelCardTarget
 namespace: Card
-description: |-
-  Removes the second card (Card c2) from the list of the first card (Card c1)'s target
+description: &desc Makes a card stop targeting another card.
+summary: *desc
 status:
   index: stable
 parameters:
-  - name: c1
+  - name: c
     type: [ Card ]
-    description: (To be added)
-  - name: c2
+    description: The card that will stop targeting `tc`.
+  - name: tc
     type: [ Card ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: The card that will stop being a target.

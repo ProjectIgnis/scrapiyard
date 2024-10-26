@@ -1,15 +1,15 @@
 ---!function
 name: CanAttack
 namespace: Card
-description: |-
-  to be added. Available in libcard.cpp
+description: &desc Checks if a card can declare an attack.
+summary: *desc
 status:
   index: stable
 parameters:
   - name: c
-    type: [ any ]
-    description: (To be added)
+    type: [ Card ]
+    description: The card to check.
 returns:
   - type: [ bool ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: If `c` can declare an attack.
+tags: [ card-check, battle-related ]
