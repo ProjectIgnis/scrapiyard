@@ -1,9 +1,7 @@
 ---!constant
 name: CARDS_SANGA_KAZEJIN_SUIJIN
 enum: CommonCard
-value: 0
-description: |-
-  A table with the IDs of Sanga of the Thunder, Suijin, Kazejin. The IDs are: {25955164,62340868,98434877}
+value: '{25955164,62340868,98434877}'
+description: An array containing the passcodes of [Sanga of the Thunder](https://yugipedia.com/wiki/4377), [Kazejin](https://yugipedia.com/wiki/4378), and [Suijin](https://yugipedia.com/wiki/4379).
 status:
   index: stable
-tags: [ under-construction ]
