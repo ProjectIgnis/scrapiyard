@@ -1,0 +1,8 @@
+---!constant
+name: SET_AQUA_JET
+enum: Archetype
+value: 0x1bb
+description: |-
+  The ["Aqua Jet"](https://yugipedia.com/wiki/Aqua_Jet_(archetype)) archetype.
+summary: Aqua Jet
+status: { index: stable }

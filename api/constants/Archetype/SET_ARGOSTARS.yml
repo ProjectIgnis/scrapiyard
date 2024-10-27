@@ -1,7 +1,7 @@
 ---!constant
-name: SET_ARGOS
+name: SET_ARGOSTARS
 enum: Archetype
-value: 0x1111
+value: 0x1ba
 description: |-
   The ["ARG☆S"](https://yugipedia.com/wiki/ARG%E2%98%86S) archetype.
 summary: ARG☆S

@@ -1,8 +1,11 @@
 ---!constant
 name: SET_DIABELLESTARR
 enum: Archetype
-value: 0x203
+value: 0x1203
 description: |-
   The ["Diabellstar"](https://yugipedia.com/wiki/Diabellstar) archetype.
+  Sub-archetype of [`SET_DIABELL`](/api/constants/Archetype/SET_DIABELL).
 summary: Diabellstar
-status: { index: stable }
+status:
+  index: unstable
+  message: Constant's name may change to follow its official English name.

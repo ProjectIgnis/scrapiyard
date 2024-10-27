@@ -1,0 +1,11 @@
+---!constant
+name: SET_DIABELL
+enum: Archetype
+value: 0x203
+description: |-
+  The ["Diabell"](https://yugipedia.com/wiki/Diabell) archetype.
+  Sub-archetype of [`SET_DIABELL`](/api/constants/Archetype/SET_DIABELL).
+summary: Diabell
+status:
+  index: unstable
+  message: Constant's name may change to follow its official English name once confirmed.
