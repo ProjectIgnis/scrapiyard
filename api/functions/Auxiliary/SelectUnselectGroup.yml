@@ -1,10 +1,8 @@
 ---!function
 name: SelectUnselectGroup
 namespace: Auxiliary
-description: |-
-  Checks if a subgroup that fulfills a function exists in a group,
-  or lets a player select a subgroup that fulfills a function from a group.
-summary: Checks or lets a player select a subgroup from a group.
+description: &desc Checks if a group contains a subgroup that fulfills a function.
+summary: *desc
 status:
   index: stable
 parameters:
@@ -26,7 +24,7 @@ parameters:
   - &rescon
     name: rescon
     type: [ SubgroupCheck, nil ]
-    description: The function that must return true for a matching subgroup.
+    description: The function that must return `true` for a matching subgroup.
   - name: chk
     type: [ int ]
     description: Must be `0` when checking.
@@ -34,11 +32,11 @@ returns:
   - type: [ bool ]
     description: Returns `true` if a subgroup matches `rescon`.
 overloads:
-  - description: When performing the selection, (i.e., `chk` is `1`). Allows
+  - description: Makes a player select a subgroup from a group.
     parameters:
       - name: g
         type: [ Group ]
-        description: The group to choose from.
+        description: The group to select from.
       - name: e
         type: [ Effect ]
         description: The effect that will be passed to `rescon`, `cancelcon`, and `breakcon`.
@@ -63,11 +61,11 @@ overloads:
         description: The [HintMessage](/api/enums/HintMessage) that will be displayed on selection.
       - name: cancelcon
         type: [ SubgroupCheck, nil ]
-        description: A function that allows the player to cancel the selection if it returns `true` for the current selection.
+        description: A function that allows the player to cancel the selection if it returns `true` for the currently selected cards.
         required: false
       - name: breakcon
         type: [ SubgroupCheck, nil ]
-        description: A function that forcibly stops the selection it returns `true` for the current selection.
+        description: A function that forcibly stops the selection it returns `true` for the currently selected cards.
         required: false
       - name: cancelable
         type: [ bool ]
@@ -75,4 +73,4 @@ overloads:
         required: false
     returns:
       - type: [ Group ]
-        description: The selected group.
+        description: The selected subgroup.
