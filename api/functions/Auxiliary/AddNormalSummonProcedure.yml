@@ -1,8 +1,7 @@
 ---!function
 name: AddNormalSummonProcedure
 namespace: Auxiliary
-description: |-
-  no description yet
+description: (To be added)
 status:
   index: stable
 parameters:
@@ -25,7 +24,7 @@ parameters:
     type: [ int ]
     description: (To be added)
   - name: desc
-    type: [ string ]
+    type: [ int ]
     description: (To be added)
   - name: f
     type: [ function ]

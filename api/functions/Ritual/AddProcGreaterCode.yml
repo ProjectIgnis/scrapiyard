@@ -1,8 +1,7 @@
 ---!function
 name: AddProcGreaterCode
 namespace: Ritual
-description: |-
-  Adds a Ritual Summoning activation requiring Tributes for a Ritual monster with any of the card names of code (int ...), and with levels equal to or greater than the Ritual Monster's level
+description: Adds a Ritual Summoning activation requiring Tributes for a Ritual monster with any of the card names of code (int ...), and with levels equal to or greater than the Ritual Monster's level
 status:
   index: stable
 parameters:
@@ -13,7 +12,7 @@ parameters:
     type: [ int ]
     description: (To be added)
   - name: desc
-    type: [ string ]
+    type: [ int ]
     description: (To be added)
   - name: ...
     type: [ any ]

@@ -1,8 +1,7 @@
 ---!function
 name: CreateProc
 namespace: Ritual
-description: |-
-  Creates an effect that performs a Ritual Summon. c is the card generating the effect, int _type is either RITPROC_EQUAL or RITPROC_GREATER, function filter defines the monsters can be summoned, int lv is the level of the monster(s) that must be tributed (but can be a function like GetLevel/GetOriginalLevel, a fixed level, or nil, in which case it defaults to to GetLevel), string desc is the description that will be used for that effect, function extrafil must return an extra Group that can also be used as tributed, function extraop is a custom operation to perform on the tributes (shuffle into the deck, banish,etc), function matfilter is ... . Supports named arguments for all parameters (See Revendread Evolution)
+description: Creates an effect that performs a Ritual Summon. c is the card generating the effect, int _type is either RITPROC_EQUAL or RITPROC_GREATER, function filter defines the monsters can be summoned, int lv is the level of the monster(s) that must be tributed (but can be a function like GetLevel/GetOriginalLevel, a fixed level, or nil, in which case it defaults to to GetLevel), string desc is the description that will be used for that effect, function extrafil must return an extra Group that can also be used as tributed, function extraop is a custom operation to perform on the tributes (shuffle into the deck, banish,etc), function matfilter is ... . Supports named arguments for all parameters (See Revendread Evolution)
 status:
   index: stable
 parameters:
@@ -19,7 +18,7 @@ parameters:
     type: [ int ]
     description: (To be added)
   - name: desc
-    type: [ string ]
+    type: [ int ]
     description: (To be added)
   - name: extrafil
     type: [ function ]
@@ -48,4 +47,4 @@ parameters:
 returns:
   - type: [ Effect ]
     description: (To be added)
-tags: [ under-construction ]
+tags: [ ritual-related, under-construction ]

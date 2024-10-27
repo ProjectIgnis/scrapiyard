@@ -1,20 +1,17 @@
 ---!function
 name: SummonEffTG
 namespace: Fusion
-description: |-
-  Creates an [EffectTarget](/api/types/EffectTarget) function for a Fusion Summon effect.
+description: Creates an [EffectTarget](/api/types/EffectTarget) function for a Fusion Summon effect.
 status:
   index: stable
 parameters:
   - name: fusfilter
     type: [ FusionMonsterFilter ]
-    description: |-
-      A filter that must return true for the monster to be Fusion Summoned,
-      along with the default Fusion mechanic checks.
+    description: A filter that must return `true` for the monster to be Fusion Summoned, along with the default Fusion mechanic checks.
     required: false
   - name: matfilter
     type: [ FusionMaterialFilter ]
-    description: A filter that must return true for the candidate materials.
+    description: A filter that must return `true` for the candidate materials.
     required: false
     defaultValue: Card.IsAbleToGrave
   - name: extrafil
@@ -39,9 +36,7 @@ parameters:
     defaultValue: nil
   - name: exactcount
     type: [ int ]
-    description: |-
-      The exact number of materials that must be used
-      (e.g. [Ostinato](https://yugipedia.com/wiki/Ostinato))
+    description: The exact number of materials that must be used (e.g. [Ostinato](https://yugipedia.com/wiki/Ostinato))
     required: false
   - name: sum_type
     type: [ int ]
@@ -59,28 +54,23 @@ parameters:
     required: false
     defaultValue: chkf and chkf|tp or tp
   - name: desc
-    type: [ string ]
+    type: [ int ]
     description: An integer pointing to a string for the effect's description.
     required: false
     defaultValue: 1170
   - name: preselect
     type: [ function ]
-    description: |-
-      A function to perform before Fusion Summoning a selected monster.
-      If this function is provided, the Fusion Summon can not be cancelled.
+    description: A function to perform before Fusion Summoning a selected monster. If this function is provided, the Fusion Summon can not be cancelled.
     required: false
     defaultValue: nil
   - name: nosummoncheck
     type: [ bool ]
-    description: |-
-      If true, the monster does not need to be Special Summonable in its current state.
+    description: If true, the monster does not need to be Special Summonable in its current state.
     required: false
     defaultValue: false
   - name: extratg
     type: [ EffectTarget ]
-    description: |-
-      Additional target function that will be executed when activating the effect.
-      Useful when extra operation info must be set.
+    description: Additional target function that will be executed when activating the effect. Useful when extra operation info must be set.
     required: false
     defaultValue: false
   - name: mincount
@@ -101,3 +91,4 @@ parameters:
 returns:
   - type: [ EffectTarget ]
     description: The resulting Fusion Summon target function.
+tags: [ fusion-related ]

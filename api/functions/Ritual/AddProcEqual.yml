@@ -1,8 +1,7 @@
 ---!function
 name: AddProcEqual
 namespace: Ritual
-description: |-
-  Adds a Ritual Summoning activation, requiring Tributes that meet (function filter), and with levels exactly equal to the Ritual Monster's level or if (int lv) is provided, with level equal to that value. (int desc) is the description when activating the Ritual Spell.
+description: Adds a Ritual Summoning activation, requiring Tributes that meet (function filter), and with levels exactly equal to the Ritual Monster's level or if (int lv) is provided, with level equal to that value. (int desc) is the description when activating the Ritual Spell.
 status:
   index: stable
 parameters:
@@ -16,7 +15,7 @@ parameters:
     type: [ int ]
     description: (To be added)
   - name: desc
-    type: [ string ]
+    type: [ int ]
     description: (To be added)
     required: false
   - name: extrafil
@@ -51,4 +50,4 @@ parameters:
     type: [ function ]
     description: (To be added)
     required: false
-tags: [ under-construction ]
+tags: [ ritual-related, under-construction ]
