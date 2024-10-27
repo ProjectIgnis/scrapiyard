@@ -38,6 +38,6 @@ parameters:
     type: [ int ]
     description: Must be `0` when checking if the cost can be paid, and `1` when performing the cost.
 returns:
-  - type: [ boolean ]
+  - type: [ bool ]
     description: If `chk` is `0`, returns `true` if the cost can be paid.
     guaranteed: false

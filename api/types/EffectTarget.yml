@@ -36,7 +36,7 @@ parameters:
     description: The card being checked for target redirection, such as by the effect of [Cairngorgon, Antiluminescent Knight](https://yugipedia.com/wiki/11083).
     required: false
 returns:
-  - type: [ boolean ]
+  - type: [ bool ]
     description: If `chk` is `0`, returns `true` if the effect can be legally activated.
     guaranteed: false
 

@@ -29,7 +29,7 @@ parameters:
     type: [ int ]
     description: The player that caused the event that prompted the effect activation.
 returns:
-  - type: [ boolean ]
+  - type: [ bool ]
     description: If the effect can be activated.
 
 # TODO: add overloads for other signatures of condition functions
