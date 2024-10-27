@@ -1,6 +1,6 @@
 ---!function
 name: bdcon
-namespace: Auxiliary
+namespace: aux
 description: >-
   Default condition of EVENT_BATTLE_DESTROYING. "When this card destroys a monster by battle" and checks if itself is still the same state after battle.
 status:

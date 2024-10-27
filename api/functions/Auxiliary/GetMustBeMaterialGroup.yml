@@ -1,6 +1,6 @@
 ---!function
 name: GetMustBeMaterialGroup
-namespace: Auxiliary
+namespace: aux
 description: >-
   Gets the group that must be used as material (Contacting "C"). (int tp) is the affected player, (nil|Group eg) is all detected materials, (int sump) is the Summoning player, (nil|Card sc) is the card to be Summoned, (nil|Group) g is all the valid usable materials, (int r) is the reason e.g. REASON_SYNCHRO, REASON_XYZ
 status:

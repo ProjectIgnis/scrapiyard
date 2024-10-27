@@ -1,6 +1,6 @@
 ---!function
 name: MainAndExtraZoneCheckBool
-namespace: Auxiliary
+namespace: aux
 description: >-
   (To be added)
 status:

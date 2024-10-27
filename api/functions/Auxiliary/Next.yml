@@ -1,6 +1,6 @@
 ---!function
 name: Next
-namespace: Auxiliary
+namespace: aux
 description: >-
   Iterates over the cards in (Group g) for use with for loops
 status:

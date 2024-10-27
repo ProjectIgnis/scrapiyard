@@ -1,6 +1,6 @@
 ---!function
 name: ChangeBattleDamage
-namespace: Auxiliary
+namespace: aux
 description: >-
   Changes the battle damage that (int player) would have taken to (int value)
 status:

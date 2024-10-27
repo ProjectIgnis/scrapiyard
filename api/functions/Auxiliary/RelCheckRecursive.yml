@@ -1,6 +1,6 @@
 ---!function
 name: RelCheckRecursive
-namespace: Auxiliary
+namespace: aux
 description: >-
   (To be added)
 status:

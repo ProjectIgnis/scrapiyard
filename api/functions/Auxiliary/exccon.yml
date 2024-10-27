@@ -1,6 +1,6 @@
 ---!function
 name: exccon
-namespace: Auxiliary
+namespace: aux
 description: >-
   SetCondition for "except the turn this card was sent to the Graveyard".
 status:

@@ -1,6 +1,6 @@
 ---!function
 name: addTempLizardCheck
-namespace: Auxiliary
+namespace: aux
 description: >-
   Creates and registers an [Effect](/api/types/Effect) to the duel that affects cards
   such that they will be excluded by ["Clock Lizard"](https://yugipedia.com/wiki/Clock_Lizard)
@@ -44,5 +44,5 @@ returns:
 status: { index: stable }
 tags: [ registers-effect, special-handling ]
 suggestedLinks:
-  - name: Auxiliary.createTempLizardCheck
+  - name: aux.createTempLizardCheck
     link: /api/functions/Auxiliary/createTempLizardCheck

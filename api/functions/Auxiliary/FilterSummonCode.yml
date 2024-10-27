@@ -1,6 +1,6 @@
 ---!function
 name: FilterSummonCode
-namespace: Auxiliary
+namespace: aux
 description: >-
   Used for MaterialTypes boolean filters (works for IsRace, IsAttribute, IsType)
 status:

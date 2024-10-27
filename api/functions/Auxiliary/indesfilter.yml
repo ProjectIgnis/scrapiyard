@@ -1,6 +1,6 @@
 ---!function
 name: indesfilter
-namespace: Auxiliary
+namespace: aux
 description: >-
   Called by proc_maximum.lua
 status:

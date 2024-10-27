@@ -1,6 +1,6 @@
 ---!function
 name: AddValuesReset
-namespace: Auxiliary
+namespace: aux
 description: >-
   Executes, at EVENT_TURN_END, the reset function(s) passed as argument (function resetfunc)
 status:

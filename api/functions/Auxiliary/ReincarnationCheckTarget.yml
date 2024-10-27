@@ -1,6 +1,6 @@
 ---!function
 name: ReincarnationCheckTarget
-namespace: Auxiliary
+namespace: aux
 description: >-
   Auxiliary function for "Salamangreat" Reincarnation procedure. Returns if (card c) is either a Fusion, Ritual or a Link.
 status:

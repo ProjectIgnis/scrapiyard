@@ -1,6 +1,6 @@
 ---!function
 name: nvfilter
-namespace: Auxiliary
+namespace: aux
 description: >-
   Filter check "not affected by Necrovalley"
 status:

@@ -1,6 +1,6 @@
 ---!function
 name: ZWEquipLimit
-namespace: Auxiliary
+namespace: aux
 description: >-
   to be added
 status:

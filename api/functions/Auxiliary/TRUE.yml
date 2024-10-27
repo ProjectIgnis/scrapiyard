@@ -1,6 +1,6 @@
 ---!function
 name: 'TRUE'
-namespace: Auxiliary
+namespace: aux
 description: >-
   Function that returns true. Can be used to return a whole group of cards in a certain location
 status:

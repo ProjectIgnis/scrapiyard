@@ -1,6 +1,6 @@
 ---!function
 name: imval2
-namespace: Auxiliary
+namespace: aux
 description: >-
   similar to aux.imval1, but also check if the monster is from opponent.
 status:

@@ -1,6 +1,6 @@
 ---!function
 name: addLizardCheck
-namespace: Auxiliary
+namespace: aux
 description: >-
   Creates and registers an [Effect](/api/types/Effect) to a card
   such that it will be excluded by ["Clock Lizard"](https://yugipedia.com/wiki/Clock_Lizard)

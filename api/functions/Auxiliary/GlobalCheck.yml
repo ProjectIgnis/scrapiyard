@@ -1,6 +1,6 @@
 ---!function
 name: GlobalCheck
-namespace: Auxiliary
+namespace: aux
 description: >-
   Enables a global check to be used with function "func"
 status:

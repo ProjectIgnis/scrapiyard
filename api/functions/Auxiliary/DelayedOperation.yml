@@ -1,6 +1,6 @@
 ---!function
 name: DelayedOperation
-namespace: Auxiliary
+namespace: aux
 description: >-
   Creates an effect that performs an operation on cards each time a given phase is entered.
 summary: Performs an operation on cards each time a given phase is entered

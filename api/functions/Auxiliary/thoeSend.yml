@@ -1,6 +1,6 @@
 ---!function
 name: thoeSend
-namespace: Auxiliary
+namespace: aux
 description: >-
   Sends (card c) to the grave. Function added to be used with aux.ToHandOrElse
 status:

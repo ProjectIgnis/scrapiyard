@@ -1,6 +1,6 @@
 ---!function
 name: selfreleasecost
-namespace: Auxiliary
+namespace: aux
 description: An [EffectCost](/api/types/EffectCost) function that checks if an effect's handler can tribute itself as activation cost.
 summary: Cost function for effects that tribute their handler as activation cost.
 status:

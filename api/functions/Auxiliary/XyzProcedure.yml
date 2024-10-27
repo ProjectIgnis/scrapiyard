@@ -1,6 +1,6 @@
 ---!function
 name: XyzProcedure
-namespace: Auxiliary
+namespace: aux
 description: >-
   to be added
 status:

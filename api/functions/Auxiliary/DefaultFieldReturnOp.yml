@@ -1,6 +1,6 @@
 ---!function
 name: DefaultFieldReturnOp
-namespace: Auxiliary
+namespace: aux
 description: >-
   An operation function to be used with `aux.RemoveUntil`. Returns the banished cards to the monster zone. Makes the player select cards to return if there are less available zones than returnable cards.
 status:

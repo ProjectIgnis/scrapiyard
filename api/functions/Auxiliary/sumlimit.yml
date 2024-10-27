@@ -1,6 +1,6 @@
 ---!function
 name: sumlimit
-namespace: Auxiliary
+namespace: aux
 description: >-
   helper function called by the various auxiliary function used as special summon conditions
 status:

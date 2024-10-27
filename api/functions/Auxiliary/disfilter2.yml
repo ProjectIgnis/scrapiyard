@@ -1,6 +1,6 @@
 ---!function
 name: disfilter2
-namespace: Auxiliary
+namespace: aux
 description: >-
   Function deprecated since version 40.0.0. Use "Card.IsNegatableSpellTrap" instead
 status:

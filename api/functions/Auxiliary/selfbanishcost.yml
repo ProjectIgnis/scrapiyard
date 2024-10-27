@@ -1,12 +1,12 @@
 ---!function
 name: selfbanishcost
-namespace: Auxiliary
+namespace: aux
 description: An [EffectCost](/api/types/EffectCost) function that checks if an effect's handler can banish itself as activation cost.
 summary: Cost function for effects that banish their handler as activation cost.
 status:
   index: stable
 aliases:
-  - name: Auxiliary.bfgcost
+  - name: aux.bfgcost
     status:
       index: deprecated
 parameters:

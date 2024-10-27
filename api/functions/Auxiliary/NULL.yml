@@ -1,6 +1,6 @@
 ---!function
 name: 'NULL'
-namespace: Auxiliary
+namespace: aux
 description: >-
   Function that returns nil
 status:

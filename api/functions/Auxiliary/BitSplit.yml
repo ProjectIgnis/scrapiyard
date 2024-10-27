@@ -1,6 +1,6 @@
 ---!function
 name: BitSplit
-namespace: Auxiliary
+namespace: aux
 description: >-
   Auxiliary function to help printing hints for attribute-related cards such as Cynet Codec
 status:

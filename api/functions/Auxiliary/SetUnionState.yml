@@ -1,6 +1,6 @@
 ---!function
 name: SetUnionState
-namespace: Auxiliary
+namespace: aux
 description: >-
   See proc_union.lua.
 status:

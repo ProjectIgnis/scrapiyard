@@ -1,6 +1,6 @@
 ---!function
 name: ToHandOrElse
-namespace: Auxiliary
+namespace: aux
 description: Makes a player either add cards to the hand or perform an alternative action.
 status:
   index: stable

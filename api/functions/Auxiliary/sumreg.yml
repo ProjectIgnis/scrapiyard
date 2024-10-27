@@ -1,6 +1,6 @@
 ---!function
 name: sumreg
-namespace: Auxiliary
+namespace: aux
 description: >-
   Used as SetOperation which registers a FlagEffect to cards in the event group with the same OriginalCode as itself
 status:

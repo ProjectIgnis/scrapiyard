@@ -1,6 +1,6 @@
 ---!function
 name: NeosReturnCondition2
-namespace: Auxiliary
+namespace: aux
 description: >-
   (To be added)
 status:

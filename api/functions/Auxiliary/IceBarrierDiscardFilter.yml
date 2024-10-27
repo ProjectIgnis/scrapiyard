@@ -1,6 +1,6 @@
 ---!function
 name: IceBarrierDiscardFilter
-namespace: Auxiliary
+namespace: aux
 description: >-
   (To be added)
 status:

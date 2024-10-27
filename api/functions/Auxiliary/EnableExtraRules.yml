@@ -1,6 +1,6 @@
 ---!function
 name: EnableExtraRules
-namespace: Auxiliary
+namespace: aux
 description: >-
   Functions to automate consistent start-of-duel activations for DuelModes like Speed Duel, Sealed Duel, etc
 status:

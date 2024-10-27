@@ -1,6 +1,6 @@
 ---!function
 name: SelectUnselectLoop
-namespace: Auxiliary
+namespace: aux
 description: >-
   Auxiliary function used by the SelectUnselectGroup function only
 status:

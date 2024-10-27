@@ -1,6 +1,6 @@
 ---!function
 name: ChkfMMZ
-namespace: Auxiliary
+namespace: aux
 description: >-
   "Check for Main Monster Zones". Used in rescon by default. 2nd parenthesis is not required as rescon/cancelcon in aux.SelectUnselectGroup. (Group sg) is the selected group when using aux.SelectUnselectGroup. Evaluates if a int sumcount number of Main Monsters zones are available and/or will be made available to summon the requiring card.
 status:

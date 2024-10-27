@@ -1,6 +1,6 @@
 ---!function
 name: xyzlimit
-namespace: Auxiliary
+namespace: aux
 description: >-
   SPSUMMON condition "Must be Xyz Summoned"
 status:

@@ -1,6 +1,6 @@
 ---!function
 name: WelcomeLabrynthTrapDestroyOperation
-namespace: Auxiliary
+namespace: aux
 description: >-
   (To be added)
 status:

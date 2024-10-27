@@ -1,12 +1,12 @@
 ---!namespace
-# it might better to document `aux` as the "main" name since it's
-# what's actually used in scripts, which could confuse beginners
-name: Auxiliary
-description: >-
-  (To be added)
+# `aux` is documented as the main name since it's what's used in most scripts,
+# but this file's name as well as the corresponding function folder will be
+# kept as `Auxiliary` because `aux` is a reserved name on Windows
+name: aux
+description: &desc Various helper functions.
+summary: *desc
 status:
   index: stable
 aliases:
-  - name: aux
+  - name: Auxiliary
     status: { index: stable }
-tags: [ under-construction ]

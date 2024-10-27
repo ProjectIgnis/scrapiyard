@@ -1,6 +1,6 @@
 ---!function
 name: AddPreDrawSkillProcedure
-namespace: Auxiliary
+namespace: aux
 description: >-
   Function for the skills that "trigger" at the start of the turn/Before the Draw Phase, - c: the card (card), - coverNum: the Number of the cover (int), - drawless: if the player draw 1 less card at the start of the duel (bool), - flip con: condition to activate the skill (function), - flipOp: operation related to the skill activation (function)
 status:

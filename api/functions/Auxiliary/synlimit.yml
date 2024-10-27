@@ -1,6 +1,6 @@
 ---!function
 name: synlimit
-namespace: Auxiliary
+namespace: aux
 description: >-
   SPSUMMON condition "Must be Synchro Summoned"
 status:

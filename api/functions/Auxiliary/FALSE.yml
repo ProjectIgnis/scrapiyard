@@ -1,6 +1,6 @@
 ---!function
 name: 'FALSE'
-namespace: Auxiliary
+namespace: aux
 description: >-
   Function that returns false
 status:

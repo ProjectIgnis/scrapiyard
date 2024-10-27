@@ -1,6 +1,6 @@
 ---!function
 name: seqmovop
-namespace: Auxiliary
+namespace: aux
 description: >-
   Operation for effects that make the monster change its current sequence/column.
 status:

@@ -1,6 +1,6 @@
 ---!function
 name: cannotmatfilter
-namespace: Auxiliary
+namespace: aux
 description: >-
   Returns the value(s) passed formatted to be used for EFFECT_CANNOT_BE_MATERIAL.
 status:

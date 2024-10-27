@@ -1,6 +1,6 @@
 ---!function
 name: MakeSpecialCheck
-namespace: Auxiliary
+namespace: aux
 description: >-
   (To be added)
 status:

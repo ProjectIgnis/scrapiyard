@@ -1,6 +1,6 @@
 ---!function
 name: dogcon
-namespace: Auxiliary
+namespace: aux
 description: >-
   SetCondition for "is destroyed by your opponent".
 status:

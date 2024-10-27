@@ -1,6 +1,6 @@
 ---!function
 name: CreateWitchcrafterReplace
-namespace: Auxiliary
+namespace: aux
 description: >-
   Registers to (Card c) a Field effect (that applies from LOCATION_SZONE) that flags it as replacement for the discard cost of "Witchcrafter" monsters.  (int id) is (Card c)'s ID, to register the effect as HOPT. See "Witchcrafter Scroll" and "Witchcrafter Bystreet".
 status:

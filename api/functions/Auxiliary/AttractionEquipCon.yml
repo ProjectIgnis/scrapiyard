@@ -1,6 +1,6 @@
 ---!function
 name: AttractionEquipCon
-namespace: Auxiliary
+namespace: aux
 description: >-
   Returns a function which checks if the card is equipped and if the equipped monster is controlled by the player (self=true) or by the opponent (self=false)
 status:

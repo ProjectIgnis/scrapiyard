@@ -1,6 +1,6 @@
 ---!function
 name: ReleaseNonSumCheck
-namespace: Auxiliary
+namespace: aux
 description: >-
   Auxiliary function called by "Duel.CheckReleaseGroupSummon" and Duel.SelectReleaseGroupSummon".
 status:

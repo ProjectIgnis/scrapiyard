@@ -1,6 +1,6 @@
 ---!function
 name: NOT
-namespace: Auxiliary
+namespace: aux
 description: >-
   This is equivalent to not f(...), if used as filter checking, (...) is automatically applied
 status:

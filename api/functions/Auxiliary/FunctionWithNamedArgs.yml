@@ -1,6 +1,6 @@
 ---!function
 name: FunctionWithNamedArgs
-namespace: Auxiliary
+namespace: aux
 description: Creates a new function that can handle both named arguments (as a table) and regular arguments.
 summary: Wraps a function to optionally support named arguments as a table.
 status:

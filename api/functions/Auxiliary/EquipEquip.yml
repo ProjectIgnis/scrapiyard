@@ -1,6 +1,6 @@
 ---!function
 name: EquipEquip
-namespace: Auxiliary
+namespace: aux
 description: >-
   Used to equip the Equip Card to the targeted monster. This would be used if you cannot use the Equip Procedure for your Equip Card activation.
 status:

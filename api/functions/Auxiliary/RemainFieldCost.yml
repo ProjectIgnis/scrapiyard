@@ -1,6 +1,6 @@
 ---!function
 name: RemainFieldCost
-namespace: Auxiliary
+namespace: aux
 description: >-
   Costs that is used in cards that stay on the field if they finish resolving. (e.g. Kunai with Chain, Different Dimension Burial)
 status:

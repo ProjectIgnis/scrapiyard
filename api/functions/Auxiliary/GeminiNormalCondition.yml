@@ -1,6 +1,6 @@
 ---!function
 name: GeminiNormalCondition
-namespace: Auxiliary
+namespace: aux
 description: >-
   Function deprecated since version 40.0.0. Use Gemini.NormalStatusCondition instead
 status:

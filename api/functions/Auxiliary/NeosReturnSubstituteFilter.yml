@@ -1,6 +1,6 @@
 ---!function
 name: NeosReturnSubstituteFilter
-namespace: Auxiliary
+namespace: aux
 description: >-
   Auxiliary filter used by NeosReturnOperation. Returns if Card c can be removed as cost and is Neos Fusion
 status:

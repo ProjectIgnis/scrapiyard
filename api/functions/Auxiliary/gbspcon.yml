@@ -1,6 +1,6 @@
 ---!function
 name: gbspcon
-namespace: Auxiliary
+namespace: aux
 description: >-
   Default SetCondition for "Summoned by a "Gladiator Beast" monster"
 status:

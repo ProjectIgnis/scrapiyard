@@ -1,6 +1,6 @@
 ---!function
 name: lnklimit
-namespace: Auxiliary
+namespace: aux
 description: >-
   SPSUMMON condition "Must be Link Summoned"
 status:

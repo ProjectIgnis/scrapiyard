@@ -1,6 +1,6 @@
 ---!function
 name: ritlimit
-namespace: Auxiliary
+namespace: aux
 description: >-
   SPSUMMON condition "Must be Ritual Summoned"
 status:

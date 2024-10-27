@@ -1,6 +1,6 @@
 ---!function
 name: AddPersistentProcedure
-namespace: Auxiliary
+namespace: aux
 description: >-
   Adds the Persistent Trap Procedure where is the player, setting 0 will limit to monsters you control, setting to 1 will be your opponent and PLAYER_ALL/nil will be for either player. (function f) is the filters on which monsters you can target. (bool anypos) is a check if the target needs to be face-up. Setting this to true will allow it to be targeted even if it isn't face-up.
 status:

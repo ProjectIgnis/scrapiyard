@@ -1,6 +1,6 @@
 ---!function
 name: AddNormalSummonProcedure
-namespace: Auxiliary
+namespace: aux
 description: (To be added)
 status:
   index: stable

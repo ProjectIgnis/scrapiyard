@@ -1,6 +1,6 @@
 ---!function
 name: TatsunecroFilter
-namespace: Auxiliary
+namespace: aux
 description: >-
   Returns is Card c has "3096468" as flag effect. Used in the Synchro summon procedure
 status:

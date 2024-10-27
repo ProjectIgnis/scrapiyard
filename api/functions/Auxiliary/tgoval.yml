@@ -1,6 +1,6 @@
 ---!function
 name: tgoval
-namespace: Auxiliary
+namespace: aux
 description: >-
   filter for EFFECT_CANNOT_BE_EFFECT_TARGET, "cannot be targeted by your opponent's card effects"
 status:

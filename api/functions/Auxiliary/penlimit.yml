@@ -1,6 +1,6 @@
 ---!function
 name: penlimit
-namespace: Auxiliary
+namespace: aux
 description: >-
   SPSUMMON condition "Must be Pendulum Summoned"
 status:

@@ -1,6 +1,6 @@
 ---!function
 name: DeckMill
-namespace: Auxiliary
+namespace: aux
 description: >-
   proc_maximum (Rush function)
 status:

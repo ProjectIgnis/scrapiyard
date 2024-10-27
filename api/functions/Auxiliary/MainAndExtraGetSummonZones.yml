@@ -1,6 +1,6 @@
 ---!function
 name: MainAndExtraGetSummonZones
-namespace: Auxiliary
+namespace: aux
 description: >-
   (To be added)
 status:

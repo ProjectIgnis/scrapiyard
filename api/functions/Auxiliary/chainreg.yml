@@ -1,6 +1,6 @@
 ---!function
 name: chainreg
-namespace: Auxiliary
+namespace: aux
 description: >-
   Flag effect used for Spell Counter (that are put when the Spell card resolves)
 status:

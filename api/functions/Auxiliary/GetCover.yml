@@ -1,6 +1,6 @@
 ---!function
 name: GetCover
-namespace: Auxiliary
+namespace: aux
 description: >-
   Used by the Skill procedure.
 status:

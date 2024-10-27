@@ -1,6 +1,6 @@
 ---!function
 name: damcon1
-namespace: Auxiliary
+namespace: aux
 description: >-
   Default condition for "If you would take effect damage"
 status:

@@ -1,6 +1,6 @@
 ---!function
 name: drawlessop
-namespace: Auxiliary
+namespace: aux
 description: >-
   Auxiliary function for skills that have "You draw 1 less card at the beginning of the duel".
 status:

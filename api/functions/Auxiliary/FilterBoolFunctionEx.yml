@@ -1,6 +1,6 @@
 ---!function
 name: FilterBoolFunctionEx
-namespace: Auxiliary
+namespace: aux
 description: >-
   Used filter for the Fusion, Xyz, Synchro and Link Procedures where (function f) can be Card.IsRace, Card.IsAttribute and Card.IsType and (int value) corresponds to the required Race, Attribute and Type.
 status:

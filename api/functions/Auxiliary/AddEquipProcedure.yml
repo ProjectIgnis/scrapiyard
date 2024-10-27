@@ -1,6 +1,6 @@
 ---!function
 name: AddEquipProcedure
-namespace: Auxiliary
+namespace: aux
 description: >-
   Creates and registers an effect to an Equip Spell Card that allows it to be equipped.
 summary: Adds procedure for equipping Spells.

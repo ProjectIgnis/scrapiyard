@@ -1,6 +1,6 @@
 ---!function
 name: dpcheck
-namespace: Auxiliary
+namespace: aux
 description: >-
   Creates a [SubgroupCheck](/api/types/SubgroupCheck) that returns true for subgroups
   with cards that have unique/different properties.

@@ -1,6 +1,6 @@
 ---!function
 name: SelectUnselectGroup
-namespace: Auxiliary
+namespace: aux
 description: &desc Checks if a group contains a subgroup that fulfills a function.
 summary: *desc
 status:

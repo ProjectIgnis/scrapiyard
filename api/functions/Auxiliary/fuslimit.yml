@@ -1,6 +1,6 @@
 ---!function
 name: fuslimit
-namespace: Auxiliary
+namespace: aux
 description: >-
   SPSUMMON condition "Must be Fusion Summoned"
 status:

@@ -1,6 +1,6 @@
 ---!function
 name: AddNormalSetProcedure
-namespace: Auxiliary
+namespace: aux
 description: >-
   Adds a procedure to a monster that can be Normal Summoned/Set. (Card c) is the card receiving the effect. If both (bool ns) and (bool opt) are set to true, the effect is created with code EFFECT_SET_PROC, otherwise EFFECT_LIMIT_SET_PROC is used. (int min) and (int max) are the number of tributes to use. (int sum_type) is the type of the summon and defaults to SUMMON_TYPE_TRIBUTE. (string desc) is the description used when the player attempts the summon (usable via aux.Stringid). (function f) is a function that must be fulfilled by the tributes and (function sumop) is a special function that must be executed with the tributes
 status:

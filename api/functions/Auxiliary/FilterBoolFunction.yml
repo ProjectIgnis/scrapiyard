@@ -1,6 +1,6 @@
 ---!function
 name: FilterBoolFunction
-namespace: Auxiliary
+namespace: aux
 description: >-
   Used in filters (with parameter (Card c)) to check a function and its (...) parameters
 status:

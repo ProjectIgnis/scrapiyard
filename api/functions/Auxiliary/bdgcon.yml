@@ -1,6 +1,6 @@
 ---!function
 name: bdgcon
-namespace: Auxiliary
+namespace: aux
 description: >-
   Condition of EVENT_BATTLE_DESTROYING. "When this card destroys a monster by battle and sends it to the Graveyard" and checks if itself is still the same state after battle.
 status:

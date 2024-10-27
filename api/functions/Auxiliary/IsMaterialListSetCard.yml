@@ -1,6 +1,6 @@
 ---!function
 name: IsMaterialListSetCard
-namespace: Auxiliary
+namespace: aux
 description: >-
   Function deprecated since version 40.0.0. Use "Card.ListsArchetypeAsMaterial" instead.
 status:

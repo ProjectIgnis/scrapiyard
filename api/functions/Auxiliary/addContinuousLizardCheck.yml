@@ -1,6 +1,6 @@
 ---!function
 name: addContinuousLizardCheck
-namespace: Auxiliary
+namespace: aux
 description: >-
   Creates and registers an [Effect](/api/types/Effect) to a card
   that affects other cards such that they will be excluded by
@@ -30,5 +30,5 @@ returns:
 status: { index: stable }
 tags: [ registers-effect, special-handling ]
 suggestedLinks:
-  - name: Auxiliary.createContinuousLizardCheck
+  - name: aux.createContinuousLizardCheck
     link: /api/functions/Auxiliary/createContinuousLizardCheck

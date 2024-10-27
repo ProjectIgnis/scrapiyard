@@ -1,6 +1,6 @@
 ---!function
 name: CheckSkillNegation
-namespace: Auxiliary
+namespace: aux
 description: >-
   Function to check whether the Skill would be negated by Anti Skill
 status:

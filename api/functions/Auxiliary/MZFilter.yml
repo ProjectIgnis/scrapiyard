@@ -1,6 +1,6 @@
 ---!function
 name: MZFilter
-namespace: Auxiliary
+namespace: aux
 description: >-
   Filter to check monsters if it's on a Main Monster Zone
 status:

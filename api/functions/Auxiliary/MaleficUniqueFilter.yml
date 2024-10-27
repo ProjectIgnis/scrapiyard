@@ -1,6 +1,6 @@
 ---!function
 name: MaleficUniqueFilter
-namespace: Auxiliary
+namespace: aux
 description: >-
   Used as filter for the uniqueness on field with the "Malefic" monsters
 status:
