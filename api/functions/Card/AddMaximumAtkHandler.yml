@@ -1,14 +1,12 @@
 ---!function
 name: AddMaximumAtkHandler
 namespace: Card
-description: |-
-  Adds an Effect to a Card that changes its original ATK to be its Maximum ATK when in Maximum Mode.
-  The Maximum ATK is obtained from the Card's metatable.
+description: Adds an Effect to a Card that changes its original ATK to its Maximum ATK when in Maximum Mode. The Maximum ATK is obtained from the card's metatable.
 summary: Implements the Maximum ATK of a Maximum monster.
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: The Card that will receive the Effect.
-tags: [ rush ]
+    description: The card that will receive the effect.
+tags: [ rush, registers-effect ]

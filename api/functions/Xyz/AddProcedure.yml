@@ -49,4 +49,4 @@ parameters:
     description: An additional check to perform on material groups.
     required: false
     defaultValue: nil
-tags: [ xyz-related ]
+tags: [ xyz-related, registers-effect ]
