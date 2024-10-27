@@ -2,7 +2,7 @@
 name: SSet
 namespace: Duel
 description: >-
-  A player Sets a cards(s) (Card|Group target) to the Spell/Trap Card Zone on target_player's field, if confirm is true, the card(s) set are revealed - for confirmation - to the opponent.
+  A player Sets a cards(s) (Card|Group target) to the Spell/Trap Card Zone on target_player's field, if confirm is true, the card(s) set are revealed - for confirmation - to the opponent. Returns the number of cards successfully Set.
 status:
   index: stable
 parameters:
@@ -21,4 +21,7 @@ parameters:
     description: (To be added)
     required: false
     defaultValue: true
+returns:
+  - type: [ int ]
+    description: (To be added)
 tags: [ under-construction ]
