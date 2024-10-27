@@ -1,7 +1,4 @@
 ---!type
 name: any
-description: |-
-  The 'any' type refers to a variable or parameter that can hold any data type.
-  Mathematically, it can be represented as the union of all possible
-  data types within the language's type system.
-tags: [ under-construction ]
+description: A type that can hold any value. Can be considered the union of all other types.
+summary: A type that can hold any value.

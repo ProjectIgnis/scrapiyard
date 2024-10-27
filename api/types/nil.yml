@@ -1,7 +1,4 @@
 ---!type
 name: nil
-description: |-
-  The 'nil' type represents the absence of a value.
-  It is used to indicate that a variable or table element does not hold any
-  meaningful data.
-tags: [ under-construction ]
+description: The type of lua's [`nil`](https://www.lua.org/pil/2.1.html), used to represent the absence of value.
+summary: The absence of value.
