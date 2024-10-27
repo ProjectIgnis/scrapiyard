@@ -36,9 +36,12 @@ The following are quick general step-by-step guides on updating initial function
 
 Sample commits:
 
-- [updating a constant and reusing its description as summary](https://github.com/that-hatter/scrapiyard/commit/0078be21042945936a92e542f84fe7e51cddfd3c)
-- [updating a function, adding a function type it uses, and adding a guide](https://github.com/that-hatter/scrapiyard/commit/d3ba1e5c2a3cc89204ee6f23a98276b770843c95)
-- [updating a function and integrating its alias](https://github.com/that-hatter/scrapiyard/commit/836a0899a999971938b12c3834c9206ffeadc121)
+- https://github.com/ProjectIgnis/scrapiyard/pull/29
+- https://github.com/ProjectIgnis/scrapiyard/pull/30.
+
+Tentative style guideline:
+
+- https://gist.github.com/that-hatter/f7ff7678612d27ad3d24e61425b5f5b8
 
 ---
 
