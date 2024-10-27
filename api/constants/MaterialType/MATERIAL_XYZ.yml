@@ -1,9 +1,8 @@
 ---!constant
 name: MATERIAL_XYZ
 enum: MaterialType
-value: 0x4<<32
-description: |-
-  Value= 0x4<<32
+value: 0x400000000
+description: (To be added)
 status:
   index: stable
 tags: [ under-construction ]

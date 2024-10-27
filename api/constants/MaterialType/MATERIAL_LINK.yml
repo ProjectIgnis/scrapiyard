@@ -1,9 +1,8 @@
 ---!constant
 name: MATERIAL_LINK
 enum: MaterialType
-value: 0x8<<32
-description: |-
-  Value= 0x8<<32
+value: 0x800000000
+description: (To be added)
 status:
   index: stable
 tags: [ under-construction ]

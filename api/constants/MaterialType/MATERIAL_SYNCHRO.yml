@@ -1,9 +1,8 @@
 ---!constant
 name: MATERIAL_SYNCHRO
 enum: MaterialType
-value: 0x2<<32
-description: |-
-  Value= 0x2<<32
+value: 0x200000000
+description: (To be added)
 status:
   index: stable
 tags: [ under-construction ]
