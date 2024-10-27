@@ -14,5 +14,5 @@ parameters:
     description: The player that will declare the attribute.
 returns:
   - type: [ int ]
-    description: The [Atrribute](/api/enums/Attribute) declared by the player.
+    description: The [MonsterAttribute](/api/enums/MonsterAttribute) value declared by the player.
 tags: [ attribute-related ]

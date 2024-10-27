@@ -14,7 +14,7 @@ parameters:
     description: The passcode/ID of the card to copy effects from.
   - name: reset_flag
     type: [ int ]
-    description: Composite [Reset](/api/enums/Reset) value used to reset the copied effects. If [`RESET_PHASE`](/api/enums/Reset/RESET_PHASE) is included in the value, [`RESET_SELF_TURN`](/api/enums/Reset/RESET_SELF_TURN) and [`RESET_OPPO_TURN`](/api/enums/Reset/RESET_OPPO_TURN) are also added automatically.
+    description: Composite [Reset](/api/enums/Reset) value used to reset the copied effects. If [`RESET_PHASE`](/api/constants/Reset/RESET_PHASE) is included in the value, [`RESET_SELF_TURN`](/api/constants/Reset/RESET_SELF_TURN) and [`RESET_OPPO_TURN`](/api/constants/Reset/RESET_OPPO_TURN) are also added automatically.
   - name: reset_count
     type: [ int ]
     description: The reset count applied with the reset values (e.g. to be used with phase-related resets).
@@ -22,4 +22,4 @@ parameters:
     defaultValue: 1
 returns:
   - type: [ int ]
-    description: A unique id representing the instance of the copied effects, usable with [`RESET_COPY`](/api/enums/Reset/RESET_COPY) to reset all the effects gained by this function. May also be `-1`, indicating failure to copy the effects.
+    description: A unique id representing the instance of the copied effects, usable with [`RESET_COPY`](/api/constants/Reset/RESET_COPY) to reset all the effects gained by this function. May also be `-1`, indicating failure to copy the effects.
