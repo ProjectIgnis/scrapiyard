@@ -25,7 +25,7 @@ parameters:
     required: false
     defaultValue: 0
 returns:
-  - type: [ effect ]
+  - type: [ Effect ]
     description: The effect that was registered.
 status: { index: stable }
 tags: [ registers-effect, special-handling ]

@@ -25,6 +25,6 @@ parameters:
     type: [ any ]
     description: (To be added)
 returns:
-  - type: [ effect ]
+  - type: [ Effect ]
     description: (To be added)
 tags: [ under-construction ]

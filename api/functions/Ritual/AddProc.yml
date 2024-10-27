@@ -46,6 +46,6 @@ parameters:
     type: [ Group ]
     description: (To be added)
 returns:
-  - type: [ effect ]
+  - type: [ Effect ]
     description: (To be added)
 tags: [ under-construction ]

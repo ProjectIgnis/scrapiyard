@@ -11,7 +11,7 @@ parameters:
     type: [ Card ]
     description: The card to register the effect to.
 returns:
-  - type: [ effect ]
+  - type: [ Effect ]
     description: The effect that was registered.
 status: { index: stable }
 tags: [ registers-effect, special-handling ]

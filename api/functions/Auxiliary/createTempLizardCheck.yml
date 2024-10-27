@@ -36,7 +36,7 @@ parameters:
     required: false
     defaultValue: 1
 returns:
-  - type: [ effect ]
+  - type: [ Effect ]
     description: The effect that was created.
 status: { index: stable }
 tags: [ creates-effect, special-handling ]

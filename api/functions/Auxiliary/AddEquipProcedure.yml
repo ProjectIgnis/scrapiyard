@@ -36,7 +36,7 @@ parameters:
     description: |-
       [EffectProperty](/api/enums/EffectProperty) of the equipping effect.
 returns:
-  - type: [ effect ]
+  - type: [ Effect ]
     description: The resulting [Effect](/api/types/Effect).
 status: { index: stable }
 tags: [ registers-effect, equip-related ]
