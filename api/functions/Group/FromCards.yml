@@ -1,19 +1,17 @@
 ---!function
 name: FromCards
 namespace: Group
-description: |-
-  Create a new Group object and populate it with cards (Card c, ...)
+description: &desc Creates a new Group object containing the given cards.
+summary: *desc
 status:
   index: stable
+aliases:
+  - name: Group.CreateGroup
+    status: { index: stable }
 parameters:
-  - name: c
-    type: [ Card ]
-    description: (To be added)
   - name: ...
-    type: [ any ]
-    description: (To be added)
-    required: false
+    type: [ Card ]
+    description: The cards to include in the created Group.
 returns:
   - type: [ Group ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: The created Group.

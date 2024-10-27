@@ -3,5 +3,6 @@ name: CARDS_SANGA_KAZEJIN_SUIJIN
 enum: CommonCard
 value: '{25955164,62340868,98434877}'
 description: An array containing the passcodes of [Sanga of the Thunder](https://yugipedia.com/wiki/4377), [Kazejin](https://yugipedia.com/wiki/4378), and [Suijin](https://yugipedia.com/wiki/4379).
+summary: '"Sanga of the Thunder", "Kazejin", and "Suijin"'
 status:
   index: stable
