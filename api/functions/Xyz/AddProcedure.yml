@@ -1,40 +1,52 @@
 ---!function
 name: AddProcedure
 namespace: Xyz
-description: |-
-  Adds an Xyz Procedure where (function f) is the required Xyz Material, and (int lv) is the required level, but it can also be nil if there is no required Level. (int ct) is the required number of materials. (function alterf) is the alternate material, e.g. Number C39: Utopia Ray. (int desc) is the description shown when attempting to Xyz Summon using (function alterf). (int maxct) is the maximum number of materials, which defaults to (int ct). (function op) is used by some monsters do something else in addition to using an Xyz Material (e.g. Digital Bug Corebage (detach 2 materials) or Number 99: Utopic Dragon (discard 1 "Rank-Up-Magic")). (bool mustbemat) is used if you can only use the listed materials during the Xyz Summon, this disallows Anime effects such as Orichalcum Chain (minus 1 material) or Triangle Evolution (triple material). (function exchk) is an additional check at the end of selecting materials (e.g. Number F0: Utopic Future (checks if the materials have the same Rank)
+description: Registers an effect to a card that allows it to be Xyz Summoned.
+summary: Adds an Xyz Summon procedure to a card.
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
+    description: The card that will receive the procedure.
   - name: f
-    type: [ function, nil ]
-    description: (To be added)
+    type: [ CardFilter, nil ]
+    description: A filter for the cards that can be used as Xyz materials, in addition to the default matching level requirement.
   - name: lv
     type: [ int, nil ]
-    description: (To be added)
+    description: The level the materials must have. Set to `nil` if no specific level is required.
   - name: ct
     type: [ int ]
-    description: (To be added)
+    description: The number of required materials. If the card allows a variable number of materials, this parameter is used as the minimum.
   - name: alterf
-    type: [ function, nil ]
-    description: (To be added)
+    type: [ CardFilter ]
+    description: |-
+      A filter for alternative material(s), if allowed by the card (e.g. [Number C39: Utopia Ray](https://yugipedia.com/wiki/9914)).
+    required: false
+    defaultValue: nil
   - name: desc
     type: [ int ]
-    description: (To be added)
+    description: The hint description shown when attempting to Xyz Summon using the alternative materials. Mandatory if `alterf` is not `nil`.
+    required: false
+    defaultValue: 0
   - name: maxct
     type: [ int ]
-    description: (To be added)
+    description: The maximum number of materials.
+    required: false
     defaultValue: ct
   - name: op
-    type: [ function ]
-    description: (To be added)
+    type: [ XyzExtraOperation ]
+    description: An additional function to execute when Xyz Summoning.
+    required: false
+    defaultValue: nil
   - name: mustbemat
     type: [ bool ]
-    description: (To be added)
+    description: If `true`, restricts the materials to specifically listed materials. This disables the effects of cards such as [Orichalcum Chain](https://yugipedia.com/wiki/Orichalcum%20Chain) (minus 1 material) and [Triangle Evolution](https://yugipedia.com/wiki/Triangle_Evolution) (triple material).
+    required: false
+    defaultValue: false
   - name: exchk
-    type: [ function ]
-    description: (To be added)
-tags: [ under-construction ]
+    type: [ XyzExtraCheck ]
+    description: An additional check to perform on material groups.
+    required: false
+    defaultValue: nil
+tags: [ xyz-related, registers-effect ]

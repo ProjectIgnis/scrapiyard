@@ -1,5 +1,4 @@
 ---!tag
 name: rush
-description: &desc |-
-  Related to Rush Duels.
-summary: *desc
+description: Functions and constants related to the implementation of [Rush Duel](https://yugipedia.com/wiki/Yu-Gi-Oh!_Rush_Duel) cards and rules.
+summary: Related to Rush Duels.
