@@ -1,32 +1,29 @@
 ---!function
 name: AddDoubleTribute
 namespace: Card
-description: |-
-  Adds an Effect to a Card that allows it to be used as a double tribute in Rush Duels.
-summary: Allows a Card to be used as a double tribute in Rush Duels.
+description: Adds an effect to a card that allows using cards as double (or triple) tributes in Rush Duels.
+summary: Allows using cards as double (or triple) tributes in Rush Duels.
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: The Card that will receive the Effect.
+    description: The card that will receive the effect.
   - name: id
     type: [ int ]
-    description: |-
-      A Card ID, from which the strings 0 and 1 are called when the tribute summon would happen, to identify which double tribute Effect is being used.
+    description: A card passcode/ID, from which the strings `0` and `1` are read when the tribute summon would happen, to identify which double (or triple) tribute effect is being used.
   - name: otfilter
     type: [ CardFilter ]
-    # TODO: better description
-    description: Filters which monsters on the field can be tributed for this alternative summoning method.
+    description: Filters which monsters on the field can be tributed.
   - name: eftg
-    # TODO: settle how to refer to overloads
-    type: [ EffectTarget ]
-    description: Filters which monsters can use the affected Card as double tribute.
+    type: [ TargetFilterFunction ]
+    description: Filters which monsters can use the affected cards as double (or triple) tributes for their summon.
   - name: resets
     type: [ int ]
-    description: Reset values to be used with the Effect.
+    description: Composite [Reset](/api/enums/Reset) values to specify when the effect stops applying.
     defaultValue: 0
   - name: ...
     type: [ int ]
-    description: Any number of FLAG_DOUBLE_TRIB constants, that will be registered to the Card as a flag Effect, with the same reset values from `resets`.
+    # TODO: clarify what the flag effects actually achieve
+    description: Any number of [DoubleTributeFlag](/api/enums/DoubleTributeFlag) constants, that will be registered to the card as a flag effects, with the same reset values as `resets`.
 tags: [ rush ]
