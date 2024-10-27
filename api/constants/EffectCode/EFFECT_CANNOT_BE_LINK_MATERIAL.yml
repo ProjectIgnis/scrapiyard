@@ -2,7 +2,7 @@
 name: EFFECT_CANNOT_BE_LINK_MATERIAL
 enum: EffectCode
 value: 239
-description: |-
+description: >-
   Cannot be used as Link Material. SetValue takes the following parameters:
 e: this effect
 c: the card(s) for which this card cannot be used as material

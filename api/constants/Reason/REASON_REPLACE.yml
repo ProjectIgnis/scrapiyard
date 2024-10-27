@@ -2,7 +2,7 @@
 name: REASON_REPLACE
 enum: Reason
 value: 0x1000000
-description: |-
+description: >-
   Event is happening because of an effect that states "If X would be destroyed, do this instead."
 status:
   index: stable

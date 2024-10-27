@@ -2,7 +2,7 @@
 name: REGISTER_FLAG_ALLURE_LVUP
 enum: RegisterFlag
 value: 8
-description: |-
+description: >-
   Allure Queen's effect to Special Summon the next level, for Allure Palace (Card.RegisterEffect)
 status:
   index: stable

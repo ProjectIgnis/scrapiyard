@@ -2,7 +2,7 @@
 name: SUMMON_TYPE_LINK
 enum: SummonType
 value: 0x4c000000
-description: |-
+description: >-
   Link Summon
 status:
   index: stable

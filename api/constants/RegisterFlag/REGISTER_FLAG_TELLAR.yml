@@ -2,7 +2,7 @@
 name: REGISTER_FLAG_TELLAR
 enum: RegisterFlag
 value: 16
-description: |-
+description: >-
   An effect registered with this flag will be available to be applied by Tellarknight Constellar Caduceus
 status:
   index: stable

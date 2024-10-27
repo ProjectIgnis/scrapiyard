@@ -2,7 +2,7 @@
 name: CHAININFO_CHAIN_ID
 enum: ChainInfo
 value: 13
-description: |-
+description: >-
   When used with Duel.GetChainInfo returns an integer with Chain ID of the requested Chain Link.
 status:
   index: stable

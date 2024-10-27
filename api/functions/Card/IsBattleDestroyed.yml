@@ -1,7 +1,7 @@
 ---!function
 name: IsBattleDestroyed
 namespace: Card
-description: |-
+description: >-
   Returns if (Card c) has been confirmed to be destroyed by battle
 status:
   index: stable

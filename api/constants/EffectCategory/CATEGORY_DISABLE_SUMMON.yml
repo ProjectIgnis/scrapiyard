@@ -2,7 +2,7 @@
 name: CATEGORY_DISABLE_SUMMON
 enum: EffectCategory
 value: 0x8000
-description: |-
+description: >-
   Describes an effect that negates the summon of a monster
 status:
   index: stable

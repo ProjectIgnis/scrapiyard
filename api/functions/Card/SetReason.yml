@@ -1,7 +1,7 @@
 ---!function
 name: SetReason
 namespace: Card
-description: |-
+description: >-
   Sets the reason of "c" as "reason". If "keep" is set to true "c" will maintain the previous reason that it had.
 status:
   index: stable

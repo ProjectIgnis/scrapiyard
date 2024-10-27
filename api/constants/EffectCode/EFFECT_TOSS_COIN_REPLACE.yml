@@ -2,7 +2,7 @@
 name: EFFECT_TOSS_COIN_REPLACE
 enum: EffectCode
 value: 220
-description: |-
+description: >-
   If an effect requires a coin toss, replace it with a given result instead
 status:
   index: stable

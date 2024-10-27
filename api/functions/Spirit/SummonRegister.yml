@@ -1,7 +1,7 @@
 ---!function
 name: SummonRegister
 namespace: Spirit
-description: |-
+description: >-
   Auxiliary function registration. Not used directly by card, only called by aux.EnableSpiritReturn
 status:
   index: stable

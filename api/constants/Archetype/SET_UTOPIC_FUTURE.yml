@@ -2,7 +2,7 @@
 name: SET_UTOPIC_FUTURE
 enum: Archetype
 value: 0x207f
-description: |-
+description: >-
   The ["Utopic Future"](https://yugipedia.com/wiki/Utopic_Future) archetype.
   Sub-archetype of [`SET_UTOPIC`](/api/constants/Archetype/SET_UTOPIC).
 summary: Utopic Future

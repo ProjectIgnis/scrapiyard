@@ -2,7 +2,7 @@
 name: SET_TINDANGLE
 enum: Archetype
 value: 0x10b
-description: |-
+description: >-
   The ["Tindangle"](https://yugipedia.com/wiki/Tindangle) archetype.
 summary: Tindangle
 status: { index: stable }

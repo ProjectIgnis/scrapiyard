@@ -2,7 +2,7 @@
 name: TYPE_TRAPMONSTER
 enum: CardType
 value: 0x100
-description: |-
+description: >-
   The [Trap Monster](https://yugipedia.com/wiki/Trap_Monster) Card Type
 summary: Trap Monster
 status: { index: stable }

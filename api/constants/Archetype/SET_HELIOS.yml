@@ -2,7 +2,7 @@
 name: SET_HELIOS
 enum: Archetype
 value: 0x6c
-description: |-
+description: >-
   The ["Helios"](https://yugipedia.com/wiki/Helios) archetype.
 summary: Helios
 status: { index: stable }

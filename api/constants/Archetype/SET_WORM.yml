@@ -2,7 +2,7 @@
 name: SET_WORM
 enum: Archetype
 value: 0x3e
-description: |-
+description: >-
   The ["Worm"](https://yugipedia.com/wiki/Worm) archetype.
 summary: Worm
 status: { index: stable }

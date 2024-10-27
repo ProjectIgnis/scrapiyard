@@ -2,7 +2,7 @@
 name: RESET_CODE
 enum: Reset
 value: 0x4000
-description: |-
+description: >-
   Resets the single effect of the specified Code (excluding EFFECT_FLAG_SINGLE_RANGE)
 status:
   index: stable

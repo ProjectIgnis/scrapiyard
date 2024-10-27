@@ -2,7 +2,7 @@
 name: SET_PREDICTION_PRINCESS
 enum: Archetype
 value: 0xcc
-description: |-
+description: >-
   The ["Prediction Princess"](https://yugipedia.com/wiki/Prediction_Princess) archetype.
 summary: Prediction Princess
 status: { index: stable }

@@ -1,7 +1,7 @@
 ---!function
 name: IsRelateToBattle
 namespace: Card
-description: |-
+description: >-
   Checks whether a card (Card c) is related to battle (either as attacker or as an attack target)
 status:
   index: stable

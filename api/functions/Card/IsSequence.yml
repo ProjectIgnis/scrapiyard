@@ -1,7 +1,7 @@
 ---!function
 name: IsSequence
 namespace: Card
-description: |-
+description: >-
   Returns if a Card (Card c) is located at any of the sequences passed as arguments
 status:
   index: stable

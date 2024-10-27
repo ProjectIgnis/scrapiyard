@@ -1,7 +1,7 @@
 ---!function
 name: NegateActivation
 namespace: Duel
-description: |-
+description: >-
   Negates the activation of an effect in a chain corresponding to that specific chain link.
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: CheckReleaseGroupEx
 namespace: Duel
-description: |-
+description: >-
   Same as Duel.CheckReleaseGroup, except that the hand is included by default.
 status:
   index: stable

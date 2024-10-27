@@ -1,7 +1,7 @@
 ---!function
 name: IsAbleToChangeControler
 namespace: Card
-description: |-
+description: >-
   Checks if a card (Card c) is capable of having it's control changed. Checks only whether the card is affected by EFFECT_CANNOT_CHANGE_CONTROL.
 status:
   index: stable

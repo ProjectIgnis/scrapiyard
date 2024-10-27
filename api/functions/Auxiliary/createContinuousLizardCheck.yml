@@ -1,7 +1,7 @@
 ---!function
 name: createContinuousLizardCheck
 namespace: Auxiliary
-description: |-
+description: >-
   Creates an [Effect](/api/types/Effect) that, when registered to a card,
   affects other cards such that they will be excluded by
   ["Clock Lizard"](https://yugipedia.com/wiki/Clock_Lizard)

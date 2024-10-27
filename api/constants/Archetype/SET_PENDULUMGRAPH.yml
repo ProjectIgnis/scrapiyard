@@ -2,7 +2,7 @@
 name: SET_PENDULUMGRAPH
 enum: Archetype
 value: 0x20f2
-description: |-
+description: >-
   The ["Pendulumgraph"](https://yugipedia.com/wiki/Pendulumgraph) archetype.
   Sub-archetype of [`SET_PENDULUM`](/api/constants/Archetype/SET_PENDULUM).
 summary: Pendulumgraph

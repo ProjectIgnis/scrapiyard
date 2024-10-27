@@ -2,7 +2,7 @@
 name: HINTMSG_SUMMON
 enum: HintMessage
 value: 508
-description: |-
+description: >-
   Shows the following HintMessage: "Select the card(s) to Normal Summon"
 status:
   index: stable

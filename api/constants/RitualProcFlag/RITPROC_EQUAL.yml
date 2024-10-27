@@ -2,7 +2,7 @@
 name: RITPROC_EQUAL
 enum: RitualProcFlag
 value: 0x1
-description: |-
+description: >-
   Flag used for the type of Ritual Summon procedure
 status:
   index: stable

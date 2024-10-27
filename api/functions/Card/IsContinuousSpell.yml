@@ -1,7 +1,7 @@
 ---!function
 name: IsContinuousSpell
 namespace: Card
-description: |-
+description: >-
   Returns `true` if the given card is currently
   a [Continuous Spell](https://yugipedia.com/wiki/Continuous_Spell_Card).
 summary: Checks if a card is a Continuous Spell

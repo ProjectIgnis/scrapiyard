@@ -1,7 +1,7 @@
 ---!function
 name: GetRitualLevel
 namespace: Card
-description: |-
+description: >-
   Returns the Level of "c" if it would be Tributed for the Ritual Summon of "rc".
 status:
   index: stable

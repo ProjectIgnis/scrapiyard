@@ -2,7 +2,7 @@
 name: SET_GENERAIDER
 enum: Archetype
 value: 0x134
-description: |-
+description: >-
   The ["Generaider"](https://yugipedia.com/wiki/Generaider) archetype.
 summary: Generaider
 status: { index: stable }

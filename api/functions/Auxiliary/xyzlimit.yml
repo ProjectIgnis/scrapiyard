@@ -1,7 +1,7 @@
 ---!function
 name: xyzlimit
 namespace: Auxiliary
-description: |-
+description: >-
   SPSUMMON condition "Must be Xyz Summoned"
 status:
   index: stable

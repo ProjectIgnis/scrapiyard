@@ -2,7 +2,7 @@
 name: SET_SPEEDROID
 enum: Archetype
 value: 0x2016
-description: |-
+description: >-
   The ["Speedroid"](https://yugipedia.com/wiki/Speedroid) archetype.
   Sub-archetype of [`SET_ROID`](/api/constants/Archetype/SET_ROID).
 summary: Speedroid

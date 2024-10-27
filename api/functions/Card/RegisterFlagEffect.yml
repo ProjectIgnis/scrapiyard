@@ -1,7 +1,7 @@
 ---!function
 name: RegisterFlagEffect
 namespace: Card
-description: |-
+description: >-
   Registers a flag effect to a card (Card c) with (int code) that resets with (int reset_flag), as the EffectCode. (int reset_flag).
 status:
   index: stable

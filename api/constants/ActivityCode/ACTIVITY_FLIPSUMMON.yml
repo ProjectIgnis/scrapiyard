@@ -2,7 +2,7 @@
 name: ACTIVITY_FLIPSUMMON
 enum: ActivityCode
 value: 4
-description: |-
+description: >-
   Refers to the action of performing Flip Summons
 status:
   index: stable

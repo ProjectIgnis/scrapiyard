@@ -2,7 +2,7 @@
 name: EFFECT_IMMUNE_EFFECT
 enum: EffectCode
 value: 1
-description: |-
+description: >-
   Affected card is unaffected by card effects. The SetValue of this effect takes the following parameters:
 e: this effect itself
 re: the effect that would affect the card.

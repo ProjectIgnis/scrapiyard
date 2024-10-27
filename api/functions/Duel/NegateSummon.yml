@@ -1,7 +1,7 @@
 ---!function
 name: NegateSummon
 namespace: Duel
-description: |-
+description: >-
   Negates the summon of a card or a group of cards
 status:
   index: stable

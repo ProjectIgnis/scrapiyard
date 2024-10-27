@@ -2,7 +2,7 @@
 name: EFFECT_FLAG2_MAJESTIC_MUST_COPY
 enum: EffectProperty
 value: 0x80000000
-description: |-
+description: >-
   If flag is used, effect will be copied in MajesticCopy wherein normally only trigger effects will be copied.
 status:
   index: stable

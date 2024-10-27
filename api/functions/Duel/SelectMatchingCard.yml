@@ -1,7 +1,7 @@
 ---!function
 name: SelectMatchingCard
 namespace: Duel
-description: |-
+description: >-
   Makes (int sel_player) select between a minimum and maximum (int min, int max) number of cards in locations (int s) (on (int player)'s side of the field) and (int o) (on their opponent's) for which (function f) returns true, except (Card ex). If cancelable is true and the selection is canceled nil will be returned. If both cancelable and a minimum of 0 are passed, the result is unspecified.
 status:
   index: stable

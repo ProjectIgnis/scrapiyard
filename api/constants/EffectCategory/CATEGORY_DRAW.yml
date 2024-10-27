@@ -2,7 +2,7 @@
 name: CATEGORY_DRAW
 enum: EffectCategory
 value: 0x10000
-description: |-
+description: >-
   Describes that a card draws
 status:
   index: stable

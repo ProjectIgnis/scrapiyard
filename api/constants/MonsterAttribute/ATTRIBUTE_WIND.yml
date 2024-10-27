@@ -2,7 +2,7 @@
 name: ATTRIBUTE_WIND
 enum: MonsterAttribute
 value: 0x8
-description: |-
+description: >-
   The [WIND](https://yugipedia.com/wiki/WIND) attribute for monsters
 summary: WIND
 status: { index: stable }

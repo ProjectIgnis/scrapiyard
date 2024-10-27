@@ -2,7 +2,7 @@
 name: TYPE_SPSUMMON
 enum: CardType
 value: 0x2000000
-description: |-
+description: >-
   The [Special Summon](https://yugipedia.com/wiki/Special_Summon_Monster) Card Type for Monsters
 summary: Special Summon
 status: { index: stable }

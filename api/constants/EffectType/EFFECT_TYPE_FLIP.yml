@@ -2,7 +2,7 @@
 name: EFFECT_TYPE_FLIP
 enum: EffectType
 value: 0x20
-description: |-
+description: >-
   Trigger effect that adds EFFECT_TYPE_TRIGGER_F to SetType and EVENT_FLIP to SetCode by default
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: TIMING_FLIPSUMMON
 enum: Timing
 value: 0x100
-description: |-
+description: >-
   When a monster is Flip Summoned
 status:
   index: stable

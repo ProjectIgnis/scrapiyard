@@ -2,7 +2,7 @@
 name: EFFECT_REVERSE_UPDATE
 enum: EffectCode
 value: 108
-description: |-
+description: >-
   Any change to ATK and DEF is reversed (For the effects of 'Reverse Trap')
 status:
   index: stable

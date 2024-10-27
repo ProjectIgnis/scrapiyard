@@ -2,7 +2,7 @@
 name: SET_NUMBER_SPELL_TRAP
 enum: Archetype
 value: 0x16c
-description: |-
+description: >-
   The ["Number"](https://yugipedia.com/wiki/Number) archetype.
 summary: Number
 status: { index: stable }

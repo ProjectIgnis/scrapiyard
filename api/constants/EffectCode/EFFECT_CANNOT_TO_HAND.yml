@@ -2,7 +2,7 @@
 name: EFFECT_CANNOT_TO_HAND
 enum: EffectCode
 value: 65
-description: |-
+description: >-
   Affected card cannot be send to the hand. If it is used as a field effect, cards that return true for the SetTarget cannot be sent to the hand. SetTarget receives the following parameters:
 e: this effect itself
 c: the card that would be sent to the hand

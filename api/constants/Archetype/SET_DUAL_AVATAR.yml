@@ -2,7 +2,7 @@
 name: SET_DUAL_AVATAR
 enum: Archetype
 value: 0x14e
-description: |-
+description: >-
   The ["Dual Avatar"](https://yugipedia.com/wiki/Dual_Avatar) archetype.
 summary: Dual Avatar
 status: { index: stable }

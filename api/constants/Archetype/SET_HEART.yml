@@ -2,7 +2,7 @@
 name: SET_HEART
 enum: Archetype
 value: 0x207
-description: |-
+description: >-
   The ["Heart"](https://yugipedia.com/wiki/Heart) archetype.
 summary: Heart
 status: { index: stable }

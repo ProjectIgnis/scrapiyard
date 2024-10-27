@@ -1,7 +1,7 @@
 ---!function
 name: GetLabel
 namespace: Effect
-description: |-
+description: >-
   Gets an effect's (Effect e) internal labels. If no labels are present, it will return 0.
 status:
   index: stable

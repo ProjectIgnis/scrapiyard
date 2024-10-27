@@ -1,7 +1,7 @@
 ---!function
 name: ClearEffectRelation
 namespace: Card
-description: |-
+description: >-
   Clears any relation between a card (Card c) and all effects and chains
 status:
   index: stable

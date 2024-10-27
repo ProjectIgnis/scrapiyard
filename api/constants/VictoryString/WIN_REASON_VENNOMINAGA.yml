@@ -2,7 +2,7 @@
 name: WIN_REASON_VENNOMINAGA
 enum: VictoryString
 value: 0x12
-description: |-
+description: >-
   The hexadecimal value for a duel win caused by "Vennominaga, Deity of the Poisonous Snakes"
 status:
   index: stable

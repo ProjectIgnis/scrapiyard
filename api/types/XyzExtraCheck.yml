@@ -1,7 +1,7 @@
 ---!type
 name: XyzExtraCheck
 supertype: function
-description: |-
+description: >-
   An additional check to perform on groups of materials to be used for an Xyz Summon (e.g. [Number F0: Utopic Future](https://yugipedia.com/wiki/11413)).
 summary: Additional check to perform on groups of Xyz materials
 parameters:

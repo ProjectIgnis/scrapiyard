@@ -2,7 +2,7 @@
 name: SET_RECIPE
 enum: Archetype
 value: 0x198
-description: |-
+description: >-
   The ["Recipe"](https://yugipedia.com/wiki/Recipe) archetype.
 summary: Recipe
 status: { index: stable }

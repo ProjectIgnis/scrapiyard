@@ -1,7 +1,7 @@
 ---!function
 name: IsSpellEffect
 namespace: Effect
-description: |-
+description: >-
   Returns if (Effect e) is a Spell effect
 status:
   index: stable

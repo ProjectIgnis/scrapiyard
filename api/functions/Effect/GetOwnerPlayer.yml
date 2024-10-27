@@ -1,7 +1,7 @@
 ---!function
 name: GetOwnerPlayer
 namespace: Effect
-description: |-
+description: >-
   Returns the controller of the owner of the effect (Effect e). If the effect is registered to a player, it returns the player it's registered to instead. If the owner was changed by Effect.SetOwnerPlayer, then it will return the value set by that function.
 status:
   index: stable

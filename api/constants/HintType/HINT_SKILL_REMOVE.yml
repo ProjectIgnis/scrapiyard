@@ -2,7 +2,7 @@
 name: HINT_SKILL_REMOVE
 enum: HintType
 value: 203
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

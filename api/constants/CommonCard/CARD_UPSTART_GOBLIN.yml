@@ -2,7 +2,7 @@
 name: CARD_UPSTART_GOBLIN
 enum: CommonCard
 value: 70368879
-description: |-
+description: >-
   Constant for a commonly used Rush card
 status:
   index: stable

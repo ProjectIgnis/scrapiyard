@@ -1,7 +1,7 @@
 ---!function
 name: SetAIName
 namespace: Debug
-description: |-
+description: >-
   In puzzles, sets the name of the second player to a specified string.
 summary: Sets the name of the opponent
 status:

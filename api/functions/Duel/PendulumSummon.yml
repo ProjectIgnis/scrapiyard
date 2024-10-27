@@ -1,7 +1,7 @@
 ---!function
 name: PendulumSummon
 namespace: Duel
-description: |-
+description: >-
   Makes the player perform a Pendulum Summon. (equivalent to calling Duel.ProcedureSummon(player,SUMMON_TYPE_PENDULUM)
 status:
   index: stable

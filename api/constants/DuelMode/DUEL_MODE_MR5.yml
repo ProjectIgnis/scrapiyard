@@ -2,7 +2,7 @@
 name: DUEL_MODE_MR5
 enum: DuelMode
 value: 5
-description: |-
+description: >-
   A composite flag for DuelModes. (DUEL_PZONE+DUEL_EMZONE+DUEL_FSX_MMZONE+DUEL_TRAP_MONSTERS_NOT_USE_ZONE+DUEL_TRIGGER_ONLY_IN_LOCATION)
 status:
   index: stable

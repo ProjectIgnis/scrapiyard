@@ -1,7 +1,7 @@
 ---!function
 name: Equal
 namespace: Group
-description: |-
+description: >-
   Checks if the first group (Group g1) has the same members with the second group (Group g2)
 status:
   index: stable

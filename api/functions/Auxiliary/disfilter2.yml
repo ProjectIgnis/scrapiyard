@@ -1,7 +1,7 @@
 ---!function
 name: disfilter2
 namespace: Auxiliary
-description: |-
+description: >-
   Function deprecated since version 40.0.0. Use "Card.IsNegatableSpellTrap" instead
 status:
   index: stable

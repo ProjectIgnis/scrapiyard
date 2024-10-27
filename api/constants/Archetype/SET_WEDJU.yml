@@ -2,7 +2,7 @@
 name: SET_WEDJU
 enum: Archetype
 value: 0x1af
-description: |-
+description: >-
   The ["Wedju"](https://yugipedia.com/wiki/Wedju) archetype.
 summary: Wedju
 status: { index: stable }

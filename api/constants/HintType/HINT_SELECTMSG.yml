@@ -2,7 +2,7 @@
 name: HINT_SELECTMSG
 enum: HintType
 value: 3
-description: |-
+description: >-
   The message that appears when the player selects a card
 status:
   index: stable

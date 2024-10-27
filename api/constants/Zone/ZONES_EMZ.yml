@@ -2,7 +2,7 @@
 name: ZONES_EMZ
 enum: Zone
 value: 0x60
-description: |-
+description: >-
   Constant to be used as mask to filter for extra monster zones
 status:
   index: stable

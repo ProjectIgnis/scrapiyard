@@ -2,7 +2,7 @@
 name: EFFECT_SYNCHRO_MATERIAL_CUSTOM
 enum: EffectCode
 value: 237
-description: |-
+description: >-
   Coexistence of material constraints
 status:
   index: stable

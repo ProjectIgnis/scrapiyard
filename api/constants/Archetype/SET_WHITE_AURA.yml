@@ -2,7 +2,7 @@
 name: SET_WHITE_AURA
 enum: Archetype
 value: 0x119f
-description: |-
+description: >-
   The ["White Aura"](https://yugipedia.com/wiki/White_Aura) archetype.
 summary: White Aura
 status: { index: stable }

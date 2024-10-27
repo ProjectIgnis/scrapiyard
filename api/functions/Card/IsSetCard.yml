@@ -1,7 +1,7 @@
 ---!function
 name: IsSetCard
 namespace: Card
-description: |-
+description: >-
   Checks if "c" is part of the archetype "setname" (if it is to be used as material for "scard" with SummonType "sumtype" by player "playerid"). "setname" can be a single int value or a table with multiple archetypes.
 status:
   index: stable

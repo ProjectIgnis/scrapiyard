@@ -1,7 +1,7 @@
 ---!function
 name: GoatConfirm
 namespace: Duel
-description: |-
+description: >-
   Used for goat versions of cards, handle the "fail to find" scenario. It confirms tp's LOCATION_DECK or LOCATION_HAND (passed in loc), the hand is revealed to the opposing player, the deck is revealed to tp.
 status:
   index: stable

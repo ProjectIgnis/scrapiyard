@@ -1,7 +1,7 @@
 ---!function
 name: GetFieldGroupCountRush
 namespace: Duel
-description: |-
+description: >-
   Same as Duel.GetFieldGroupCount but exclude the left and right pieces of a summoned maximum monster
 status:
   index: stable

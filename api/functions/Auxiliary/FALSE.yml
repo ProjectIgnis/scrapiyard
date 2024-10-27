@@ -1,7 +1,7 @@
 ---!function
 name: 'FALSE'
 namespace: Auxiliary
-description: |-
+description: >-
   Function that returns false
 status:
   index: stable

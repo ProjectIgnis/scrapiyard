@@ -2,7 +2,7 @@
 name: SET_ZUBABA
 enum: Archetype
 value: 0x8f
-description: |-
+description: >-
   The ["Zubaba"](https://yugipedia.com/wiki/Zubaba) archetype.
 summary: Zubaba
 status: { index: stable }

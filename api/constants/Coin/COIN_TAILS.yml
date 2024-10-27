@@ -2,7 +2,7 @@
 name: COIN_TAILS
 enum: Coin
 value: 1
-description: |-
+description: >-
   Value for coin results
 status:
   index: stable

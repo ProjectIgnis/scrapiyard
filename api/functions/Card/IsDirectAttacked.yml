@@ -1,7 +1,7 @@
 ---!function
 name: IsDirectAttacked
 namespace: Card
-description: |-
+description: >-
   Checks if a Card (Card c) has successfully attacked directly
 status:
   index: stable

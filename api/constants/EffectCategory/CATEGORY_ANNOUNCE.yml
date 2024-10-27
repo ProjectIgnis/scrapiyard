@@ -2,7 +2,7 @@
 name: CATEGORY_ANNOUNCE
 enum: EffectCategory
 value: 0x20000000
-description: |-
+description: >-
   Describes an effect that requires declaring a card name
 status:
   index: stable

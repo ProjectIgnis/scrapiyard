@@ -2,7 +2,7 @@
 name: SET_DOODLEBOOK
 enum: Archetype
 value: 0x2186
-description: |-
+description: >-
   The ["Doodlebook"](https://yugipedia.com/wiki/Doodlebook) archetype.
 summary: Doodlebook
 status: { index: stable }

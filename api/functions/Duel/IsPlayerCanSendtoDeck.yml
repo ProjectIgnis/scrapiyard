@@ -1,7 +1,7 @@
 ---!function
 name: IsPlayerCanSendtoDeck
 namespace: Duel
-description: |-
+description: >-
   If c is not passed, only checks if the player is not affected by EFFECT_CANNOT_TO_DECK, otherwise checks if the player can return the passed card to the deck.
 status:
   index: stable

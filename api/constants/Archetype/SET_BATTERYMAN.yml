@@ -2,7 +2,7 @@
 name: SET_BATTERYMAN
 enum: Archetype
 value: 0x28
-description: |-
+description: >-
   The ["Batteryman"](https://yugipedia.com/wiki/Batteryman) archetype.
 summary: Batteryman
 status: { index: stable }

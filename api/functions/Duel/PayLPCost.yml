@@ -1,7 +1,7 @@
 ---!function
 name: PayLPCost
 namespace: Duel
-description: |-
+description: >-
   Makes a player (int player) pay an amount (int cost) of LP
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_WINGED_KURIBOH
 enum: Archetype
 value: 0x10a4
-description: |-
+description: >-
   The ["Winged Kuriboh"](https://yugipedia.com/wiki/Winged_Kuriboh_(archetype)) archetype.
   Sub-archetype of [`SET_KURIBOH`](/api/constants/Archetype/SET_KURIBOH).
 summary: Winged Kuriboh

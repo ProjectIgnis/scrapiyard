@@ -2,7 +2,7 @@
 name: EFFECT_REMOVE_SETCODE
 enum: EffectCode
 value: 349
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

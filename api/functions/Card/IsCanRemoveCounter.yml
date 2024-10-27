@@ -1,7 +1,7 @@
 ---!function
 name: IsCanRemoveCounter
 namespace: Card
-description: |-
+description: >-
   Checks if a number (int count) of the specified counter (int countertype) can be removed from a card (Card c), with reason described by (int reason)
 status:
   index: stable

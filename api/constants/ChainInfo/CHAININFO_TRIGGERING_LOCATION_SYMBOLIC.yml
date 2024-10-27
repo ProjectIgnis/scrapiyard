@@ -2,7 +2,7 @@
 name: CHAININFO_TRIGGERING_LOCATION_SYMBOLIC
 enum: ChainInfo
 value: 5
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

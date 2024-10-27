@@ -1,7 +1,7 @@
 ---!function
 name: SendtoDeck
 namespace: Duel
-description: |-
+description: >-
   Sends a card or group (Card|Group targets) to the Deck with (int reason) as reason, if (int player) is supplied, the destination would be that player's Deck. If (int rp) is provided, sets the reason player to be that player. Available sequence values (SEQ_DECKTOP, SEQ_DECKBOTTOM and SEQ_DECKSHUFFLE). If SEQ_DECKSHUFFLE or other values are used for the sequence, the card is put on the top, and the Deck will be shuffled after the function resolution, except if Duel.DisableShuffleCheck() is set to true beforehand. Returns the number of cards successfully sent to the Deck.
 status:
   index: stable

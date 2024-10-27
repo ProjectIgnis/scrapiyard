@@ -2,7 +2,7 @@
 name: EFFECT_ADD_RACE
 enum: EffectCode
 value: 120
-description: |-
+description: >-
   Treats a Card(s) as a additional race(s) (written into Effect.SetValue())
 status:
   index: stable

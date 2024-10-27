@@ -1,7 +1,7 @@
 ---!function
 name: CheckSameProperty
 namespace: Group
-description: |-
+description: >-
   Returns if the members of (Group  g) share a same property, provided in (Function f)
 status:
   index: stable

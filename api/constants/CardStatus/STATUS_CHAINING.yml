@@ -2,7 +2,7 @@
 name: STATUS_CHAINING
 enum: CardStatus
 value: 0x10000
-description: |-
+description: >-
   A card with this status has one of its effects on the current Chain
 status:
   index: stable

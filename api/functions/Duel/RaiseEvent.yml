@@ -1,7 +1,7 @@
 ---!function
 name: RaiseEvent
 namespace: Duel
-description: |-
+description: >-
   Raises a specific event that will raise effects of type EFFECT_TYPE_FIELD, by relying re,r,rp,ep,ev as the arguments of that event with eg being the cards that were the reason of that event.
 status:
   index: stable

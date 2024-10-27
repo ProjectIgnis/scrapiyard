@@ -1,7 +1,7 @@
 ---!function
 name: SSet
 namespace: Duel
-description: |-
+description: >-
   A player Sets a cards(s) (Card|Group target) to the Spell/Trap Card Zone on target_player's field, if confirm is true, the card(s) set are revealed - for confirmation - to the opponent.
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: CARD_DARK_FUSION
 enum: CommonCard
 value: 94820406
-description: |-
+description: >-
   Dark Fusion's ID, used due to the number of scripts that call it.
 status:
   index: stable

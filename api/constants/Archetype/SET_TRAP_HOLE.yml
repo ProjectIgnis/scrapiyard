@@ -2,7 +2,7 @@
 name: SET_TRAP_HOLE
 enum: Archetype
 value: 0x4c
-description: |-
+description: >-
   The ["Trap Hole"](https://yugipedia.com/wiki/Trap_Hole_(archetype)) archetype.
 summary: Trap Hole
 status: { index: stable }

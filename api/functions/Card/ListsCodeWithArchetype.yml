@@ -1,7 +1,7 @@
 ---!function
 name: ListsCodeWithArchetype
 namespace: Card
-description: |-
+description: >-
   Returns if the (Card c) specifically lists the name of a Card that is part of an archetype in "...", iterating over Card c's listed_names and checking if those cards belong to any of the archetypes passed.
 status:
   index: stable

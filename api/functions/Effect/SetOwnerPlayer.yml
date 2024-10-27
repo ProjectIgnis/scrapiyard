@@ -1,7 +1,7 @@
 ---!function
 name: SetOwnerPlayer
 namespace: Effect
-description: |-
+description: >-
   Sets (int player) as the (Effect e)'s owner player.
 status:
   index: stable

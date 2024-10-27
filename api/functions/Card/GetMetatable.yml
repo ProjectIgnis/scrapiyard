@@ -1,7 +1,7 @@
 ---!function
 name: GetMetatable
 namespace: Card
-description: |-
+description: >-
   Similar to Duel.GetMetatable, but if current_code is true it behaves as if it were Duel.GetMetatable(c:GetCode()), otherwise it returns the __index field of the card's object (this difference only matters when a card's id is not its original one, like when copying names via effect or having an alias)
 status:
   index: stable

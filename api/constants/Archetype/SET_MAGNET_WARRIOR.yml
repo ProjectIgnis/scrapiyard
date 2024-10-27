@@ -2,7 +2,7 @@
 name: SET_MAGNET_WARRIOR
 enum: Archetype
 value: 0x2066
-description: |-
+description: >-
   The ["Magnet Warrior"](https://yugipedia.com/wiki/Magnet_Warrior) archetype.
   Sub-archetype of [`SET_WARRIOR`](/api/constants/Archetype/SET_WARRIOR).
 summary: Magnet Warrior

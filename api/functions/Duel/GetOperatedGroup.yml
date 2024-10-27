@@ -1,7 +1,7 @@
 ---!function
 name: GetOperatedGroup
 namespace: Duel
-description: |-
+description: >-
   Gets the last group of operated cards (from last call of some functions, ex. calling this after Duel.Draw would return a group of the drawn cards)
 status:
   index: stable

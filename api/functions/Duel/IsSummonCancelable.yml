@@ -1,7 +1,7 @@
 ---!function
 name: IsSummonCancelable
 namespace: Duel
-description: |-
+description: >-
   Returns if the current summon procedure is cancelable, as in it's a summon done outside a chain in an open game state and it's not being performed during a chain or as a part of a separate effect.
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: GetPosition
 namespace: Card
-description: |-
+description: >-
   Returns the current position of "c".
 status:
   index: stable

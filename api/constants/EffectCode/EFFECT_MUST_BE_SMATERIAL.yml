@@ -2,7 +2,7 @@
 name: EFFECT_MUST_BE_SMATERIAL
 enum: EffectCode
 value: 312
-description: |-
+description: >-
   Deprecated. Use EFFECT_MUST_BE_MATERIAL with REASON_SYNCHRO in the SetValue
 status:
   index: stable

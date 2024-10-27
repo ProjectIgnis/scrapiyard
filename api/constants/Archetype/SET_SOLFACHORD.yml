@@ -2,7 +2,7 @@
 name: SET_SOLFACHORD
 enum: Archetype
 value: 0x164
-description: |-
+description: >-
   The ["Solfachord"](https://yugipedia.com/wiki/Solfachord) archetype.
 summary: Solfachord
 status: { index: stable }

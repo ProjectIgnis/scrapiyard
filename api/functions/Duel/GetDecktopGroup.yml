@@ -1,7 +1,7 @@
 ---!function
 name: GetDecktopGroup
 namespace: Duel
-description: |-
+description: >-
   Gets a group of a player's (int player) top n (int count) cards of their Deck
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_DARK_MAGICIAN_GIRL
 enum: Archetype
 value: 0x30a2
-description: |-
+description: >-
   The ["Dark Magician Girl"](https://yugipedia.com/wiki/Dark_Magician_Girl_(archetype)) archetype.
 summary: Dark Magician Girl
 status: { index: stable }

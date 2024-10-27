@@ -1,7 +1,7 @@
 ---!function
 name: Clone
 namespace: Group
-description: |-
+description: >-
   Create a copy of a group (Group g) with the same members
 status:
   index: stable

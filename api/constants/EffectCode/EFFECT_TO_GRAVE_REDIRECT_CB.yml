@@ -2,7 +2,7 @@
 name: EFFECT_TO_GRAVE_REDIRECT_CB
 enum: EffectCode
 value: 313
-description: |-
+description: >-
   If the affected card would be sent to the graveyard, executes another operation instead (Crystal Beast monsters)
 status:
   index: stable

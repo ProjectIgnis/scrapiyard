@@ -1,7 +1,7 @@
 ---!function
 name: cannotmatfilter
 namespace: Auxiliary
-description: |-
+description: >-
   Returns the value(s) passed formatted to be used for EFFECT_CANNOT_BE_MATERIAL.
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: EFFECT_INDESTRUCTABLE_BATTLE
 enum: EffectCode
 value: 42
-description: |-
+description: >-
   Affected card cannot be destroyed by battle
 status:
   index: stable

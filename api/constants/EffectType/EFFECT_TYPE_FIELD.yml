@@ -2,7 +2,7 @@
 name: EFFECT_TYPE_FIELD
 enum: EffectType
 value: 0x2
-description: |-
+description: >-
   An effect that applies to the whole field.When used with trigger effects, this makes the effect look for the event when it happens to anything
 status:
   index: stable

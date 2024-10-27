@@ -2,7 +2,7 @@
 name: SET_LIGHTSWORN
 enum: Archetype
 value: 0x38
-description: |-
+description: >-
   The ["Lightsworn"](https://yugipedia.com/wiki/Lightsworn) archetype.
 summary: Lightsworn
 status: { index: stable }

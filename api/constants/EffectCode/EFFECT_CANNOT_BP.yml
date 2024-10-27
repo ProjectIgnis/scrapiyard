@@ -2,7 +2,7 @@
 name: EFFECT_CANNOT_BP
 enum: EffectCode
 value: 185
-description: |-
+description: >-
   The affected player cannot enter the Battle Phase
 status:
   index: stable

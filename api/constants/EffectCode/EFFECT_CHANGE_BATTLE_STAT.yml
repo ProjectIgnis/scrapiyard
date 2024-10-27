@@ -2,7 +2,7 @@
 name: EFFECT_CHANGE_BATTLE_STAT
 enum: EffectCode
 value: 198
-description: |-
+description: >-
   Changes the values used to calculate damage, during damage calculation only. Doesn't actually change the values, only what is calculated
 status:
   index: stable

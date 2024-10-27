@@ -2,7 +2,7 @@
 name: EVENT_FREE_CHAIN
 enum: Event
 value: 1002
-description: |-
+description: >-
   An event that describes a timing at any valid response window or open game state
 status:
   index: stable

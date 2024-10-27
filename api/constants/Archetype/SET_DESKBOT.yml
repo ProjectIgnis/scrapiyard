@@ -2,7 +2,7 @@
 name: SET_DESKBOT
 enum: Archetype
 value: 0xab
-description: |-
+description: >-
   The ["Deskbot"](https://yugipedia.com/wiki/Deskbot) archetype.
 summary: Deskbot
 status: { index: stable }

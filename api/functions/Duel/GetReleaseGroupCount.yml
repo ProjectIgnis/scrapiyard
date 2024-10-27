@@ -1,7 +1,7 @@
 ---!function
 name: GetReleaseGroupCount
 namespace: Duel
-description: |-
+description: >-
   Returns the number of cards that would be returned by Duel.GetReleaseGroup
 status:
   index: stable

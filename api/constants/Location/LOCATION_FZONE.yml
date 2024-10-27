@@ -2,7 +2,7 @@
 name: LOCATION_FZONE
 enum: Location
 value: 0x100
-description: |-
+description: >-
   The Field Spell zone
 status:
   index: stable

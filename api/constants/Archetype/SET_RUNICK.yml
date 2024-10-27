@@ -2,7 +2,7 @@
 name: SET_RUNICK
 enum: Archetype
 value: 0x180
-description: |-
+description: >-
   The ["Runick"](https://yugipedia.com/wiki/Runick) archetype.
 summary: Runick
 status: { index: stable }

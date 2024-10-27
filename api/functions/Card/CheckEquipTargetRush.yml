@@ -1,7 +1,7 @@
 ---!function
 name: CheckEquipTargetRush
 namespace: Card
-description: |-
+description: >-
   to be added. Available in proc_maximum.lua
 status:
   index: stable

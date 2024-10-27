@@ -2,7 +2,7 @@
 name: STATUS_BATTLE_RESULT
 enum: CardStatus
 value: 0x40
-description: |-
+description: >-
   Destroyed by battle at the end of damage calculation
 status:
   index: stable

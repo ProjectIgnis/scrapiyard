@@ -1,7 +1,7 @@
 ---!function
 name: FromLuaRef
 namespace: Effect
-description: |-
+description: >-
   Returns a Effect object from a given lua reference. The function errors out if the reference is invalid or does not refer to a Effect object.
 status:
   index: stable

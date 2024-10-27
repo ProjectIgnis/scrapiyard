@@ -1,7 +1,7 @@
 ---!function
 name: GetReasonCard
 namespace: Card
-description: |-
+description: >-
   Returns the card which is the reason that an event happened to "c".
 status:
   index: stable

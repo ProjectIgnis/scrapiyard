@@ -2,7 +2,7 @@
 name: SET_RYZEAL
 enum: Archetype
 value: 0x1b6
-description: |-
+description: >-
   The ["Ryzeal"](https://yugipedia.com/wiki/Ryzeal) archetype.
 summary: Ryzeal
 status: { index: stable }

@@ -1,7 +1,7 @@
 ---!function
 name: ResetEffect
 namespace: Card
-description: |-
+description: >-
   Resets all effects of a Card (Card c) (e.g. "c:ResetEffect(RESET_DISABLE,RESET_EVENT)")
 status:
   index: stable

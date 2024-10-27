@@ -1,7 +1,7 @@
 ---!function
 name: bdocon
 namespace: Auxiliary
-description: |-
+description: >-
   Condition of EVENT_BATTLE_DESTROYING. "When this card destroys an opponent's monster by battle" and checks if itself is still the same state after battle.
 status:
   index: stable

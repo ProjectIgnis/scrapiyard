@@ -1,7 +1,7 @@
 ---!function
 name: GetRace
 namespace: Card
-description: |-
+description: >-
   Returns the current Monster Type of "c" (if it is to be used as material for "scard" with SummonType "sumtype" by player "playerid").
 status:
   index: stable

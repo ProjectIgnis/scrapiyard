@@ -2,7 +2,7 @@
 name: EFFECT_SUMMON_COST
 enum: EffectCode
 value: 91
-description: |-
+description: >-
   The affected player must pay a cost to Normal Summon.
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: EFFECT_TYPE_EQUIP
 enum: EffectType
 value: 0x4
-description: |-
+description: >-
   An effect that applies when the card is an Equip card.
 status:
   index: stable

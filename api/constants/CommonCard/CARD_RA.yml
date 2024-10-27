@@ -2,7 +2,7 @@
 name: CARD_RA
 enum: CommonCard
 value: 10000010
-description: |-
+description: >-
   Winged Dragon of Ra's ID
 status:
   index: stable

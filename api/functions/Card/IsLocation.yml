@@ -1,7 +1,7 @@
 ---!function
 name: IsLocation
 namespace: Card
-description: |-
+description: >-
   Checks if a card (Card c) is located on the specified location (int location)
 status:
   index: stable

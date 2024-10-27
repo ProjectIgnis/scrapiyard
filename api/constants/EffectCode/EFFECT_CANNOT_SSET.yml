@@ -2,7 +2,7 @@
 name: EFFECT_CANNOT_SSET
 enum: EffectCode
 value: 24
-description: |-
+description: >-
   The affected player (set via SetTargetRange, with EFFECT_FLAG_PLAYER_TARGET as property) cannot set Spell/Trap cards. If a target function is used, the following parameters are passed to it:
 -e: this effect itself
 -c: the card(s) that cannot be set

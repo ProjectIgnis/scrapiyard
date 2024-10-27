@@ -2,7 +2,7 @@
 name: CARD_JINZO
 enum: CommonCard
 value: 77585513
-description: |-
+description: >-
   Jinzo's ID, used for listed_names and specific support
 status:
   index: stable

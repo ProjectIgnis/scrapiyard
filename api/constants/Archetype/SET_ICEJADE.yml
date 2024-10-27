@@ -2,7 +2,7 @@
 name: SET_ICEJADE
 enum: Archetype
 value: 0x16e
-description: |-
+description: >-
   The ["Icejade"](https://yugipedia.com/wiki/Icejade) archetype.
 summary: Icejade
 status: { index: stable }

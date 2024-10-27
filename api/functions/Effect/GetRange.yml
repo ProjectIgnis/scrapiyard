@@ -1,7 +1,7 @@
 ---!function
 name: GetRange
 namespace: Effect
-description: |-
+description: >-
   Gets an effect's range (the value defined in SetRange)
 status:
   index: stable

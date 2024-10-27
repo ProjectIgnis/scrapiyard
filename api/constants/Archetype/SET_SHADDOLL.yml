@@ -2,7 +2,7 @@
 name: SET_SHADDOLL
 enum: Archetype
 value: 0x9d
-description: |-
+description: >-
   The ["Shaddoll"](https://yugipedia.com/wiki/Shaddoll) archetype.
 summary: Shaddoll
 status: { index: stable }

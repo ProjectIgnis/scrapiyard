@@ -1,7 +1,7 @@
 ---!function
 name: IsOriginalType
 namespace: Card
-description: |-
+description: >-
   Checks if (Card c) is of original CardType (int val)
 status:
   index: stable

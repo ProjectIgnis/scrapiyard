@@ -2,7 +2,7 @@
 name: CARD_LIGHT_BARRIER
 enum: CommonCard
 value: 73206827
-description: |-
+description: >-
   Light Barrier's ID
 status:
   index: stable

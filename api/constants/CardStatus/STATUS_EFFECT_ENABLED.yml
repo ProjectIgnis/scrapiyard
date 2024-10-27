@@ -2,7 +2,7 @@
 name: STATUS_EFFECT_ENABLED
 enum: CardStatus
 value: 0x400
-description: |-
+description: >-
   Usable card on field (has activated, already Summoned, effects applied)
 status:
   index: stable

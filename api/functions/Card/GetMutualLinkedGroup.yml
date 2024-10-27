@@ -1,7 +1,7 @@
 ---!function
 name: GetMutualLinkedGroup
 namespace: Card
-description: |-
+description: >-
   Returns a group with all the cards that are co-linked with "c". (Returns an empty group if there are none.)
 status:
   index: stable

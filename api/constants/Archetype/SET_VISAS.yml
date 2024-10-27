@@ -2,7 +2,7 @@
 name: SET_VISAS
 enum: Archetype
 value: 0x199
-description: |-
+description: >-
   The ["Visas"](https://yugipedia.com/wiki/Visas) archetype.
 summary: Visas
 status: { index: stable }

@@ -1,7 +1,7 @@
 ---!function
 name: disfilter3
 namespace: Auxiliary
-description: |-
+description: >-
   Function deprecated since version 40.0.0. Use "Card.IsNegatable" instead
 status:
   index: stable

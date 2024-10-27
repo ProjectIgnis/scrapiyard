@@ -2,7 +2,7 @@
 name: EFFECT_FLAG_IMMEDIATELY_APPLY
 enum: EffectProperty
 value: 0x80000000
-description: |-
+description: >-
   The effect of the card immediately when launched (Toon Kingdom)
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: Win
 namespace: Duel
-description: |-
+description: >-
   Player (int player) wins the Duel for a reason (REASON_x). If the player is affected by EFFECT_CANNOT_LOSE_EFFECT the duel keeps going on.
 status:
   index: stable

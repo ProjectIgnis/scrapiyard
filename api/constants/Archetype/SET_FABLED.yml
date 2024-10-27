@@ -2,7 +2,7 @@
 name: SET_FABLED
 enum: Archetype
 value: 0x35
-description: |-
+description: >-
   The ["Fabled"](https://yugipedia.com/wiki/Fabled) archetype.
 summary: Fabled
 status: { index: stable }

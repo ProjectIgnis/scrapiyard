@@ -2,7 +2,7 @@
 name: SET_CELTIC_GUARD
 enum: Archetype
 value: 0xe4
-description: |-
+description: >-
   The ["Celtic Guard"](https://yugipedia.com/wiki/Celtic_Guard) archetype.
 summary: Celtic Guard
 status: { index: stable }

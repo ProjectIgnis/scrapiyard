@@ -1,7 +1,7 @@
 ---!function
 name: IsPosition
 namespace: Card
-description: |-
+description: >-
   Checks if a card (Card c) is in the specified position (int pos)
 status:
   index: stable

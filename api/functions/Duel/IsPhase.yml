@@ -1,7 +1,7 @@
 ---!function
 name: IsPhase
 namespace: Duel
-description: |-
+description: >-
   Returns if the current phase is the equal to (int phase)
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: CheckUniqueOnField
 namespace: Card
-description: |-
+description: >-
   Checks if (Card c) going to a player's (int player) field would violate the "Can only control 1" clause. If (int check_location) is provided, checks for the uniqueness in that location only. (Card icard) is the ignored card.
 status:
   index: stable

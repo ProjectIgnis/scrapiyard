@@ -1,7 +1,7 @@
 ---!function
 name: CompleteProcedure
 namespace: Card
-description: |-
+description: >-
   Makes a card (Card c) be considered that it's Summon procedure is complete
 status:
   index: stable

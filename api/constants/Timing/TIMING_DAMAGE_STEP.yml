@@ -2,7 +2,7 @@
 name: TIMING_DAMAGE_STEP
 enum: Timing
 value: 0x2000
-description: |-
+description: >-
   During the Damage Step
 status:
   index: stable

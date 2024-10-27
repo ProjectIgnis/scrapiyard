@@ -2,7 +2,7 @@
 name: SET_JINZO
 enum: Archetype
 value: 0xbc
-description: |-
+description: >-
   The ["Jinzo"](https://yugipedia.com/wiki/Jinzo_(archetype)) archetype.
 summary: Jinzo
 status: { index: stable }

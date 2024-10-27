@@ -2,7 +2,7 @@
 name: SET_ABYSS_ACTOR
 enum: Archetype
 value: 0x10ec
-description: |-
+description: >-
   The ["Abyss Actor"](https://yugipedia.com/wiki/Abyss_Actor) archetype.
 summary: Abyss Actor
 status: { index: stable }

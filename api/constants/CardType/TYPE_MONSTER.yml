@@ -2,7 +2,7 @@
 name: TYPE_MONSTER
 enum: CardType
 value: 0x1
-description: |-
+description: >-
   The [Monster](https://yugipedia.com/wiki/Monster_Card) Card Type
 summary: Monster
 status: { index: stable }

@@ -1,7 +1,7 @@
 ---!function
 name: ShuffleExtra
 namespace: Duel
-description: |-
+description: >-
   Shuffles the Extra Deck of (int player). Must be used after confirming cards in the Extra Deck.
 status:
   index: stable

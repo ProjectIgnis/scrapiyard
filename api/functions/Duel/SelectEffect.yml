@@ -1,7 +1,7 @@
 ---!function
 name: SelectEffect
 namespace: Duel
-description: |-
+description: >-
   Makes player (int player) select 1 option among possible effects. The ellipsis (...) allows tables in the form {bool condition, int stringid}. The function then makes the player select an effect, displaying the strings whose conditions are true, returning the index of the chosen element or nil.
 status:
   index: stable

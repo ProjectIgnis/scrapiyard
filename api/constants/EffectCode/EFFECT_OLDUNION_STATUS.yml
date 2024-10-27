@@ -2,7 +2,7 @@
 name: EFFECT_OLDUNION_STATUS
 enum: EffectCode
 value: 348
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

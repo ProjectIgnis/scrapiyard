@@ -2,7 +2,7 @@
 name: SET_ARTORIGUS
 enum: Archetype
 value: 0xa7
-description: |-
+description: >-
   The ["Artorigus"](https://yugipedia.com/wiki/Artorigus) archetype.
 summary: Artorigus
 status: { index: stable }

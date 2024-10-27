@@ -2,7 +2,7 @@
 name: RACE_PYRO
 enum: MonsterRace
 value: 0x80
-description: |-
+description: >-
   The [Pyro](https://yugipedia.com/wiki/Pyro) Monster Type
 summary: Pyro
 status: { index: stable }

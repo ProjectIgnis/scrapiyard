@@ -1,7 +1,7 @@
 ---!function
 name: DeckMill
 namespace: Auxiliary
-description: |-
+description: >-
   proc_maximum (Rush function)
 status:
   index: stable

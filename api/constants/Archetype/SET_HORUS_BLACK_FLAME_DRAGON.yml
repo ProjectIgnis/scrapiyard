@@ -2,7 +2,7 @@
 name: SET_HORUS_BLACK_FLAME_DRAGON
 enum: Archetype
 value: 0x1003
-description: |-
+description: >-
   The ["Horus the Black Flame Dragon"](https://yugipedia.com/wiki/Horus_the_Black_Flame_Dragon) archetype.
   Sub-archetype of [`SET_HORUS`](/api/constants/Archetype/SET_HORUS).
 summary: Horus the Black Flame Dragon

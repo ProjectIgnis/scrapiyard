@@ -2,7 +2,7 @@
 name: SET_CODE_TALKER
 enum: Archetype
 value: 0x101
-description: |-
+description: >-
   The ["Code Talker"](https://yugipedia.com/wiki/Code_Talker_(archetype)) archetype.
 summary: Code Talker
 status: { index: stable }

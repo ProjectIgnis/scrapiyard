@@ -2,7 +2,7 @@
 name: EVENT_CHAIN_DISABLED
 enum: Event
 value: 1025
-description: |-
+description: >-
   This event is raised when the effect of a Chain Link is negated
 status:
   index: stable

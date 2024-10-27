@@ -2,7 +2,7 @@
 name: LOCATION_PUBLIC
 enum: Location
 value: 0x3c
-description: |-
+description: >-
   Used for scripting purposes. The sum of locations (LOCATION_ONFIELD+LOCATION_REMOVED+LOCATION_GRAVE) where cards are, usually, public knowledge.
 status:
   index: stable

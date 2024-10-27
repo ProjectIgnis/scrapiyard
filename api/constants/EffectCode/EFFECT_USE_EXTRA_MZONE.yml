@@ -2,7 +2,7 @@
 name: EFFECT_USE_EXTRA_MZONE
 enum: EffectCode
 value: 261
-description: |-
+description: >-
   Card uses an additional Monster zone
 status:
   index: stable

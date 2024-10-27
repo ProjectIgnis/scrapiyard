@@ -1,7 +1,7 @@
 ---!function
 name: createTempLizardCheck
 namespace: Auxiliary
-description: |-
+description: >-
   Creates an [Effect](/api/types/Effect) that, when registered to the duel, affects cards
   such that they will be excluded by ["Clock Lizard"](https://yugipedia.com/wiki/Clock_Lizard)
   when checking what cards it can return to the Extra Deck.

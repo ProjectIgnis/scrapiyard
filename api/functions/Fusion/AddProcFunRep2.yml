@@ -1,7 +1,7 @@
 ---!function
 name: AddProcFunRep2
 namespace: Fusion
-description: |-
+description: >-
   Fusion monster, condition * minc to maxc
 status:
   index: stable

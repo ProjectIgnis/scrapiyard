@@ -2,7 +2,7 @@
 name: EVENT_CUSTOM
 enum: Event
 value: 0x10000000
-description: |-
+description: >-
   For custom events (Eg. Activate an effect of a card indicating `EVENT_CUSTOM+code`)
 status:
   index: stable

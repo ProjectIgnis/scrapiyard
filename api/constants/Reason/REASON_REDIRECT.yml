@@ -2,7 +2,7 @@
 name: REASON_REDIRECT
 enum: Reason
 value: 0x4000000
-description: |-
+description: >-
   Sent to a location other than intended, eg "Banish this card if it leaves the field."
 status:
   index: stable

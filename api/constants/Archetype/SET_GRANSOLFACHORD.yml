@@ -2,7 +2,7 @@
 name: SET_GRANSOLFACHORD
 enum: Archetype
 value: 0x1164
-description: |-
+description: >-
   The ["GranSolfachord"](https://yugipedia.com/wiki/GranSolfachord) archetype.
   Sub-archetype of [`SET_SOLFACHORD`](/api/constants/Archetype/SET_SOLFACHORD).
 summary: GranSolfachord

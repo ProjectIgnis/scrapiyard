@@ -1,7 +1,7 @@
 ---!function
 name: IsPlayerCanRelease
 namespace: Duel
-description: |-
+description: >-
   If c is not passed, only checks if the player is not affected by EFFECT_CANNOT_RELEASE, otherwise checks if the player can Tribute the passed card, with the passed reason.
 status:
   index: stable

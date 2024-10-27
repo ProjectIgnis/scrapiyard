@@ -1,7 +1,7 @@
 ---!function
 name: GetOwnerTargetCount
 namespace: Card
-description: |-
+description: >-
   Gets the number of cards (including equips) that a card (Card c) is a target of
 status:
   index: stable

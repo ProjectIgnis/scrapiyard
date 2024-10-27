@@ -1,7 +1,7 @@
 ---!function
 name: IsGeminiStatus
 namespace: Card
-description: |-
+description: >-
   Checks if a Card (Card c) is a Gemini monster with its effect enabled.
 status:
   index: stable

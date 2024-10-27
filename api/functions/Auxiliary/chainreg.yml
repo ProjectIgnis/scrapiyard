@@ -1,7 +1,7 @@
 ---!function
 name: chainreg
 namespace: Auxiliary
-description: |-
+description: >-
   Flag effect used for Spell Counter (that are put when the Spell card resolves)
 status:
   index: stable

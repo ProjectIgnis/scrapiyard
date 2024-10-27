@@ -2,7 +2,7 @@
 name: CARD_DREAM_MIRROR_JOY
 enum: CommonCard
 value: 74665651
-description: |-
+description: >-
   Dream Mirror of Joy's ID, used because of the number of scripts that call it
 status:
   index: stable

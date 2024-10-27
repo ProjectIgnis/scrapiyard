@@ -2,7 +2,7 @@
 name: TYPE_SKILL
 enum: CardType
 value: 0x8000000
-description: |-
+description: >-
   The [Skill](https://yugipedia.com/wiki/Skill) Card Type for anime cards or Speed Duels.
 summary: Skill
 status: { index: stable }

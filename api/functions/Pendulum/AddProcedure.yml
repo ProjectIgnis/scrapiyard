@@ -1,7 +1,7 @@
 ---!function
 name: AddProcedure
 namespace: Pendulum
-description: |-
+description: >-
   Applies to (Card c) all the effects necessary for a Pendulum card to be used as one. Setting (bool reg) to false will not register the activation effect, which is used in cards that cannot be activated since you don't have them in your hand (e.g. Xyz/Pendulums). (int desc) is an optional parameter adding a description that will be called when you try to activate in in the Pendulum Zone.
 status:
   index: stable

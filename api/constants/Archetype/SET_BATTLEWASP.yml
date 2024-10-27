@@ -2,7 +2,7 @@
 name: SET_BATTLEWASP
 enum: Archetype
 value: 0x12f
-description: |-
+description: >-
   The ["Battlewasp"](https://yugipedia.com/wiki/Battlewasp) archetype.
 summary: Battlewasp
 status: { index: stable }

@@ -2,7 +2,7 @@
 name: CARD_ADVANCED_DARK
 enum: CommonCard
 value: 12644061
-description: |-
+description: >-
   Advanced Dark's ID
 status:
   index: stable

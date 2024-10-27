@@ -2,7 +2,7 @@
 name: SET_VANQUISH_SOUL
 enum: Archetype
 value: 0x196
-description: |-
+description: >-
   The ["Vanquish Soul"](https://yugipedia.com/wiki/Vanquish_Soul) archetype.
 summary: Vanquish Soul
 status: { index: stable }

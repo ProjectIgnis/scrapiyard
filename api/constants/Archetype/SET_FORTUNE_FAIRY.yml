@@ -2,7 +2,7 @@
 name: SET_FORTUNE_FAIRY
 enum: Archetype
 value: 0x12e
-description: |-
+description: >-
   The ["Fortune Fairy"](https://yugipedia.com/wiki/Fortune_Fairy) archetype.
 summary: Fortune Fairy
 status: { index: stable }

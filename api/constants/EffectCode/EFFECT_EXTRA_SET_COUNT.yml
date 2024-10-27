@@ -2,7 +2,7 @@
 name: EFFECT_EXTRA_SET_COUNT
 enum: EffectCode
 value: 35
-description: |-
+description: >-
   Increase the number of monsters the player can set (usually 1 Normal Summon/Set per turn)
 status:
   index: stable

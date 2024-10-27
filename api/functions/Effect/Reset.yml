@@ -1,7 +1,7 @@
 ---!function
 name: Reset
 namespace: Effect
-description: |-
+description: >-
   Reset an effect (Effect e) and makes it collectible by the garbage collector. Even if the effect seems to be usable it **SHOULD NOT** be used in other places after calling this function.
 status:
   index: stable

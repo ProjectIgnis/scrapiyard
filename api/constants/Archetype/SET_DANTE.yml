@@ -2,7 +2,7 @@
 name: SET_DANTE
 enum: Archetype
 value: 0xd5
-description: |-
+description: >-
   The ["Dante"](https://yugipedia.com/wiki/Dante) archetype.
 summary: Dante
 status: { index: stable }

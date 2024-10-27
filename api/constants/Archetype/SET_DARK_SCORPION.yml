@@ -2,7 +2,7 @@
 name: SET_DARK_SCORPION
 enum: Archetype
 value: 0x1a
-description: |-
+description: >-
   The ["Dark Scorpion"](https://yugipedia.com/wiki/Dark_Scorpion) archetype.
 summary: Dark Scorpion
 status: { index: stable }

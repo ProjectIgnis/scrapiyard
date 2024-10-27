@@ -1,7 +1,7 @@
 ---!function
 name: FaceupFilter
 namespace: Auxiliary
-description: |-
+description: >-
   Filter to check face-up cards that match (function f) where (...) are extra parameters to f. Can be used as the function parameter in SelectMatchingCard/Target and IsExistingMatchingCard/Target.
 status:
   index: stable

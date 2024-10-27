@@ -2,7 +2,7 @@
 name: EFFECT_FUSION_MAT_RESTRICTION
 enum: EffectCode
 value: 73941492+TYPE_FUSION
-description: |-
+description: >-
   73941492+TYPE_FUSION. Used by the Fusion Summon procedure as an implementation of Harmonizing Magician's effect
 status:
   index: stable

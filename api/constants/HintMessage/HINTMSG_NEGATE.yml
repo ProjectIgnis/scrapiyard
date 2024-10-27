@@ -2,7 +2,7 @@
 name: HINTMSG_NEGATE
 enum: HintMessage
 value: 575
-description: |-
+description: >-
   Shows the following HintMessage: "Select the card(s) to negate its effects"
 status:
   index: stable

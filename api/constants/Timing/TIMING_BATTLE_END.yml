@@ -2,7 +2,7 @@
 name: TIMING_BATTLE_END
 enum: Timing
 value: 0x10
-description: |-
+description: >-
   When the Battle Phase is about to end, while moving to the Main Phase 2/End Phase
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: InHandMat
 namespace: Fusion
-description: |-
+description: >-
   Creates a [FusionMaterialFilter](/api/types/FusionMaterialFilter) that checks if
   the material is in the hand, along with other provided filters.
 status:
@@ -15,6 +15,6 @@ parameters:
     description: More functions that must return true for the material.
 returns:
   - type: [ FusionMaterialFilter ]
-    description: |-
+    description: >-
       A function that returns true if the material being checked is in the hand,
       and all provided filters return true.

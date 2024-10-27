@@ -1,7 +1,7 @@
 ---!function
 name: NegateRelatedChain
 namespace: Duel
-description: |-
+description: >-
   Negates all effects activation in a chain related to a card. This effect negation is reset based on the reset flag passed. (e.g. with RESET_TURN_SET the activations would not be disabled if the card were to be set facedown in that chain.)
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: CheckFusionSubstitute
 namespace: Card
-description: |-
+description: >-
   Checks if a card (Card c) can be treated as a substitute for one of the listed fusion materials used by Card fc).
 status:
   index: stable

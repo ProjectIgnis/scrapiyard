@@ -1,7 +1,7 @@
 ---!function
 name: IsHasCardTarget
 namespace: Card
-description: |-
+description: >-
   Checks whether the second card (Card c2) is a target of the first card (Card c1)
 status:
   index: stable

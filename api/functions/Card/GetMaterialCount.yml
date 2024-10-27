@@ -1,7 +1,7 @@
 ---!function
 name: GetMaterialCount
 namespace: Card
-description: |-
+description: >-
   Gets the number of materials used as cost for a Card (Card c)
 status:
   index: stable

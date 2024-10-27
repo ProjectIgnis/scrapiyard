@@ -2,7 +2,7 @@
 name: GLOBALFLAG_SELF_TOGRAVE
 enum: GlobalFlag
 value: 0x100
-description: |-
+description: >-
   Allows checking the Graveyard in the middle of a resolving chain. Flag required to use EFFECT_SELF_TOGRAVE
 status:
   index: stable

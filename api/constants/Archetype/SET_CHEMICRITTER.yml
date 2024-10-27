@@ -2,7 +2,7 @@
 name: SET_CHEMICRITTER
 enum: Archetype
 value: 0xeb
-description: |-
+description: >-
   The ["Chemicritter"](https://yugipedia.com/wiki/Chemicritter) archetype.
 summary: Chemicritter
 status: { index: stable }

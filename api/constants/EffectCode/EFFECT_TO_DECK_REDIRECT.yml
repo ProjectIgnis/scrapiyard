@@ -2,7 +2,7 @@
 name: EFFECT_TO_DECK_REDIRECT
 enum: EffectCode
 value: 62
-description: |-
+description: >-
   If the affected card would go to the deck, sends it to another given location instead.  The location must be set in SetValue
 status:
   index: stable

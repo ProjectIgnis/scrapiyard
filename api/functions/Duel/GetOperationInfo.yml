@@ -1,7 +1,7 @@
 ---!function
 name: GetOperationInfo
 namespace: Duel
-description: |-
+description: >-
   Returns the corresponding values that were set by a previous call to Duel.SetOperationInfo for the corresponding category. If the first return value is true that means that operation info was set and then there will be 4 extra return values corresponding to the parameters of SetOperationInfo, otherwise only a single false value is returned.
 status:
   index: stable

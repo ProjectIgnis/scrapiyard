@@ -2,7 +2,7 @@
 name: SET_TOPOLOGIC
 enum: Archetype
 value: 0x170
-description: |-
+description: >-
   The ["Topologic"](https://yugipedia.com/wiki/Topologic) archetype.
 summary: Topologic
 status: { index: stable }

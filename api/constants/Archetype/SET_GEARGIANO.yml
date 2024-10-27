@@ -2,7 +2,7 @@
 name: SET_GEARGIANO
 enum: Archetype
 value: 0x1072
-description: |-
+description: >-
   The ["Geargiano"](https://yugipedia.com/wiki/Geargiano_(archetype)) archetype.
   Sub-archetype of [`SET_GEARGIA`](/api/constants/Archetype/SET_GEARGIA).
 summary: Geargiano

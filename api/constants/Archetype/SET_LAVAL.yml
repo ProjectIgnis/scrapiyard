@@ -2,7 +2,7 @@
 name: SET_LAVAL
 enum: Archetype
 value: 0x39
-description: |-
+description: >-
   The ["Laval"](https://yugipedia.com/wiki/Laval) archetype.
 summary: Laval
 status: { index: stable }

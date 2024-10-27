@@ -1,7 +1,7 @@
 ---!function
 name: PersistentTargetFilter
 namespace: Auxiliary
-description: |-
+description: >-
   Default filter for checking if it's targeted by the Persistent Trap.
 status:
   index: stable

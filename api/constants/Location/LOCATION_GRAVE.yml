@@ -2,7 +2,7 @@
 name: LOCATION_GRAVE
 enum: Location
 value: 0x10
-description: |-
+description: >-
   The graveyard/GY
 status:
   index: stable

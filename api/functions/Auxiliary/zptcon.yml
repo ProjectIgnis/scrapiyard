@@ -1,7 +1,7 @@
 ---!function
 name: zptcon
 namespace: Auxiliary
-description: |-
+description: >-
   Used as condition for effects that check "if a [filter] monster is Special Summoned to a zone this card points to". Includes non-trivial handling of self-destructing Burning Abyss monsters. tp is passed to check control.
 status:
   index: stable

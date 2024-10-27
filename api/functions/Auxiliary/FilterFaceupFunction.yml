@@ -1,7 +1,7 @@
 ---!function
 name: FilterFaceupFunction
 namespace: Auxiliary
-description: |-
+description: >-
   Function deprecated since version 40.0.0. Use "aux.FaceupFilter" instead
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_PHANTASM_SPIRAL
 enum: Archetype
 value: 0xfa
-description: |-
+description: >-
   The ["Phantasm Spiral"](https://yugipedia.com/wiki/Phantasm_Spiral) archetype.
 summary: Phantasm Spiral
 status: { index: stable }

@@ -2,7 +2,7 @@
 name: REASON_XYZ
 enum: Reason
 value: 0x200000
-description: |-
+description: >-
   Used for Xyz Summon
 status:
   index: stable

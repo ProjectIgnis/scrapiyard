@@ -1,7 +1,7 @@
 ---!function
 name: AskEveryone
 namespace: Auxiliary
-description: |-
+description: >-
   Function deprecated since version 40.0.0. Use "Duel.AskEveryone" instead
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_BUTTERSPY
 enum: Archetype
 value: 0x6a
-description: |-
+description: >-
   The ["Butterspy"](https://yugipedia.com/wiki/Butterspy) archetype.
 summary: Butterspy
 status: { index: stable }

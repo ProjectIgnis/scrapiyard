@@ -2,7 +2,7 @@
 name: TYPE_PENDULUM
 enum: CardType
 value: 0x1000000
-description: |-
+description: >-
   The [Pendulum](https://yugipedia.com/wiki/Pendulum_Monster) Card Type for Monsters
 summary: Pendulum
 status: { index: stable }

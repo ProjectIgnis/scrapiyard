@@ -2,7 +2,7 @@
 name: REGISTER_FLAG_DETACH_XMAT
 enum: RegisterFlag
 value: 1
-description: |-
+description: >-
   Effect that activates with cost of detaching own Xyz material, for Tachyon Unit (Card.RegisterEffect)
 status:
   index: stable

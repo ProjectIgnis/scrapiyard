@@ -1,7 +1,7 @@
 ---!function
 name: GetChainEvent
 namespace: Duel
-description: |-
+description: >-
   Returns the elements associated with the event that caused the current chain link to form, in order: The group containing the cards that were associated with that event, The player associated with that event, The value associated with that event, The reason Effect associated with that event, The reason associated with that event, The reason player associated with that event.
 status:
   index: stable

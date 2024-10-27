@@ -2,7 +2,7 @@
 name: SET_INMATO
 enum: Archetype
 value: 0x5b
-description: |-
+description: >-
   The ["Inmato"](https://yugipedia.com/wiki/Inmato_(archetype)) archetype.
 summary: Inmato
 status: { index: stable }

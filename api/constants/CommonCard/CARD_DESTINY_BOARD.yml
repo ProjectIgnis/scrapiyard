@@ -2,7 +2,7 @@
 name: CARD_DESTINY_BOARD
 enum: CommonCard
 value: 94212438
-description: |-
+description: >-
   Destiny Board's ID, frequently called by some scripts.
 status:
   index: stable

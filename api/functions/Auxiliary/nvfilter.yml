@@ -1,7 +1,7 @@
 ---!function
 name: nvfilter
 namespace: Auxiliary
-description: |-
+description: >-
   Filter check "not affected by Necrovalley"
 status:
   index: stable

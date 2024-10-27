@@ -1,7 +1,7 @@
 ---!function
 name: IsSummonType
 namespace: Card
-description: |-
+description: >-
   Checks if "c" is Summoned by one of the SummonTypes in the "..." list.
 status:
   index: stable

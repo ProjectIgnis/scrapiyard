@@ -2,7 +2,7 @@
 name: TYPE_SPELL
 enum: CardType
 value: 0x2
-description: |-
+description: >-
   The [Spell](https://yugipedia.com/wiki/Spell_Card) Card Type
 summary: Spell
 status: { index: stable }

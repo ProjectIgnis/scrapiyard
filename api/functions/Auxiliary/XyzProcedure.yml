@@ -1,7 +1,7 @@
 ---!function
 name: XyzProcedure
 namespace: Auxiliary
-description: |-
+description: >-
   to be added
 status:
   index: stable

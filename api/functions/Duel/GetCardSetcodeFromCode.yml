@@ -1,7 +1,7 @@
 ---!function
 name: GetCardSetcodeFromCode
 namespace: Duel
-description: |-
+description: >-
   Gets a card's setcodes from its card id (the value returned is the same as the one returned with Card.Setcode on a card object corresponding to a card with such id)
 status:
   index: stable

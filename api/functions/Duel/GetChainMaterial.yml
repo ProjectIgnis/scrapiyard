@@ -1,7 +1,7 @@
 ---!function
 name: GetChainMaterial
 namespace: Duel
-description: |-
+description: >-
   Gets the EFFECT_CHAIN_MATERIAL field effect that is applied to a player (int player). Returns only the first effect found
 status:
   index: stable

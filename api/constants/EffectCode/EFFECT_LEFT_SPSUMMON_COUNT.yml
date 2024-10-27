@@ -2,7 +2,7 @@
 name: EFFECT_LEFT_SPSUMMON_COUNT
 enum: EffectCode
 value: 331
-description: |-
+description: >-
   The remaining number of Summoning (e.g Summon Breaker)
 status:
   index: stable

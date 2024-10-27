@@ -2,7 +2,7 @@
 name: CARD_CAN_D
 enum: CommonCard
 value: 160005002
-description: |-
+description: >-
   Constant for a commonly used Rush card
 status:
   index: stable

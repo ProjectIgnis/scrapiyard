@@ -1,7 +1,7 @@
 ---!function
 name: IsGeminiState
 namespace: Card
-description: |-
+description: >-
   Use Card.IsGeminiState instead
 status:
   index: stable

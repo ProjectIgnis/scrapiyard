@@ -2,7 +2,7 @@
 name: CHAININFO_TRIGGERING_SETCODES
 enum: ChainInfo
 value: 30
-description: |-
+description: >-
   When used with Duel.GetChainInfo returns a table with the setcodes (archetypes) of the card that triggered the requested Chain Link.
 status:
   index: stable

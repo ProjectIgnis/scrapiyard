@@ -1,7 +1,7 @@
 ---!function
 name: AddCard
 namespace: Debug
-description: |-
+description: >-
   Creates a new `Card` with the specified ID and places it in the location provided.
 summary: Generates and adds a card to the duel.
 status:

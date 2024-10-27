@@ -1,7 +1,7 @@
 ---!function
 name: IsPlayerCanSpecialSummonMonster
 namespace: Duel
-description: |-
+description: >-
   Checks if the player can special summon a monster as "sumtype", with the specified stats, in "pos" on "target_player"'s field. The stats are read as "code"'s default stats, if the stat parameters are not passed are passed as nil, they are not overwritten from the base stats, otherwise the new passed value will be used as stat for the card. "setcode" can be both an int with multiple setcodes encoded in a single value (by bit shifting them, but with a max of 4 setcodes) or as a table, with each entry representing a separate setcode.
 status:
   index: stable

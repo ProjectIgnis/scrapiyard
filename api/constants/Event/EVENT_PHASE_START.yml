@@ -2,7 +2,7 @@
 name: EVENT_PHASE_START
 enum: Event
 value: 0x2000
-description: |-
+description: >-
   This event is raised at the start of a certain phase (the required Phase value must be added to it)
 status:
   index: stable

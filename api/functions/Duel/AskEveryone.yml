@@ -1,7 +1,7 @@
 ---!function
 name: AskEveryone
 namespace: Duel
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

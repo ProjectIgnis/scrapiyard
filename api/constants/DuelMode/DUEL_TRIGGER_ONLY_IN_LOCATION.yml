@@ -2,7 +2,7 @@
 name: DUEL_TRIGGER_ONLY_IN_LOCATION
 enum: DuelMode
 value: 0x20000
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

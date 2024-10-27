@@ -2,7 +2,7 @@
 name: LOCATION_REMOVED
 enum: Location
 value: 0x20
-description: |-
+description: >-
   The area where banished card go
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: CHAININFO_TRIGGERING_LOCATION
 enum: ChainInfo
 value: 4
-description: |-
+description: >-
   When used with Duel.GetChainInfo returns an integer with the location, in the moment the effect was triggered, of the card in requested Chain Link.
 status:
   index: stable

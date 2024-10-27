@@ -1,7 +1,7 @@
 ---!function
 name: SetStatus
 namespace: Card
-description: |-
+description: >-
   Sets the status (STATUS_x) of a Card (Card c) and possibly enables it
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: IsSummonLocation
 namespace: Card
-description: |-
+description: >-
   Checks if (Card c) was summoned from the location passed as (int loca)
 status:
   index: stable

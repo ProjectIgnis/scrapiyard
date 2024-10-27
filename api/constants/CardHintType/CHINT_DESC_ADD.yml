@@ -2,7 +2,7 @@
 name: CHINT_DESC_ADD
 enum: CardHintType
 value: 6
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

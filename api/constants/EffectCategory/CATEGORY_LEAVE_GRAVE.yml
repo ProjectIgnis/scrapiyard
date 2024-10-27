@@ -2,7 +2,7 @@
 name: CATEGORY_LEAVE_GRAVE
 enum: EffectCategory
 value: 0x4000000
-description: |-
+description: >-
   Describes an effect that causes a card to leave the Graveyard
 status:
   index: stable

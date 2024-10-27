@@ -2,7 +2,7 @@
 name: CARD_EXCHANGE_SPIRIT
 enum: CommonCard
 value: 17484499
-description: |-
+description: >-
   Exchange of the Spirit's ID
 status:
   index: stable

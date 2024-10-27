@@ -2,7 +2,7 @@
 name: HINTMSG_COIN
 enum: HintMessage
 value: 552
-description: |-
+description: >-
   Shows the following HintMessage: "Select heads or tails"
 status:
   index: stable

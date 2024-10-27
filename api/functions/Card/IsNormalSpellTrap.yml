@@ -1,7 +1,7 @@
 ---!function
 name: IsNormalSpellTrap
 namespace: Card
-description: |-
+description: >-
   Returns `true` if the given card is currently a
   [Normal Spell](https://yugipedia.com/wiki/Normal_Spell_Card)
   **or** [Normal Trap](https://yugipedia.com/wiki/Normal_Trap_Card).

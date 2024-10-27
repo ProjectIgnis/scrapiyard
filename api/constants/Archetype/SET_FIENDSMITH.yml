@@ -2,7 +2,7 @@
 name: SET_FIENDSMITH
 enum: Archetype
 value: 0x1a8
-description: |-
+description: >-
   The ["Fiendsmith"](https://yugipedia.com/wiki/Fiendsmith) archetype.
 summary: Fiendsmith
 status: { index: stable }

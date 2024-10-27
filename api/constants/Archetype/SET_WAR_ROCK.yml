@@ -2,7 +2,7 @@
 name: SET_WAR_ROCK
 enum: Archetype
 value: 0x161
-description: |-
+description: >-
   The ["War Rock"](https://yugipedia.com/wiki/War_Rock) archetype.
 summary: War Rock
 status: { index: stable }

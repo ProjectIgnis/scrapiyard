@@ -1,7 +1,7 @@
 ---!function
 name: GetTurnCounter
 namespace: Card
-description: |-
+description: >-
   Gets the turn counter of a Card (Card c)
 status:
   index: stable

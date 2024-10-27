@@ -2,7 +2,7 @@
 name: EFFECT_CANNOT_MSET
 enum: EffectCode
 value: 23
-description: |-
+description: >-
   Affected player cannot Set monsters. This effect's SetTarget takes the following parameters:
 -e: this effect itself
 -c: the cards affected by it

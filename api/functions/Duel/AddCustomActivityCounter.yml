@@ -1,7 +1,7 @@
 ---!function
 name: AddCustomActivityCounter
 namespace: Duel
-description: |-
+description: >-
   Registers an activity with type (int activity_type), with id (int counter_id), that matches (function f)
 status:
   index: stable

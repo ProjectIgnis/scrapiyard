@@ -1,7 +1,7 @@
 ---!function
 name: GetMinGroup
 namespace: Group
-description: |-
+description: >-
   Create a new group with members from another group (Group g) which has the minimum result from f(c,...). Function f accepts at least one parameter (f(c,...), with c as each member of the group), and the return value should be integer, if the group g have no element, that function will return nil.
 status:
   index: stable

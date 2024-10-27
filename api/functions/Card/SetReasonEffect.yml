@@ -1,7 +1,7 @@
 ---!function
 name: SetReasonEffect
 namespace: Card
-description: |-
+description: >-
   Sets "re" as the effect that was the reason of an event that happened to "c".
 status:
   index: stable

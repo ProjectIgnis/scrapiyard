@@ -1,7 +1,7 @@
 ---!function
 name: OnFieldMat
 namespace: Fusion
-description: |-
+description: >-
   Used by the Fusion Summon procedure.
 status:
   index: stable

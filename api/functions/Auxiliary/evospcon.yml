@@ -1,7 +1,7 @@
 ---!function
 name: evospcon
 namespace: Auxiliary
-description: |-
+description: >-
   Default SetCondition for "Summoned by a "Evolsaur" monster"
 status:
   index: stable

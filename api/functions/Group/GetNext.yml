@@ -1,7 +1,7 @@
 ---!function
 name: GetNext
 namespace: Group
-description: |-
+description: >-
   Gets then next member of Group g (moves the internal enumerator by a step). Returns nil when the whole group was iterated.
 status:
   index: stable

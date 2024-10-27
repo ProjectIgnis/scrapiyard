@@ -1,7 +1,7 @@
 ---!function
 name: GetActivityCount
 namespace: Duel
-description: |-
+description: >-
   Gets the number of times (int player) has performed activities of (int activity_type). (See ACTIVITY_XXX constants,)
 status:
   index: stable

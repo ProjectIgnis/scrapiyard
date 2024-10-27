@@ -2,7 +2,7 @@
 name: HINTMSG_CARDTYPE
 enum: HintMessage
 value: 554
-description: |-
+description: >-
   Shows the following HintMessage: "Declare 1 CardType"
 status:
   index: stable

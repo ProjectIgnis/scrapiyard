@@ -2,7 +2,7 @@
 name: SET_LEGENDARY_DRAGON
 enum: Archetype
 value: 0xa1
-description: |-
+description: >-
   The ["Legendary Dragon"](https://yugipedia.com/wiki/Legendary_Dragon) archetype.
 summary: Legendary Dragon
 status: { index: stable }

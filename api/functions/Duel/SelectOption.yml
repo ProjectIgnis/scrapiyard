@@ -1,7 +1,7 @@
 ---!function
 name: SelectOption
 namespace: Duel
-description: |-
+description: >-
   Allows (int player) to choose between any number of options, starting with (int desc1). Returns the index of the chosen option, e.g. desc1 returns 0, the second option returns 1, etc. If confirm_dialog is false, the announce will be performed, but the no selection hint will be shown to the opponent
 status:
   index: stable

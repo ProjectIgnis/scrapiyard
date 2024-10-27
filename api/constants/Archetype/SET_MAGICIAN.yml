@@ -2,7 +2,7 @@
 name: SET_MAGICIAN
 enum: Archetype
 value: 0x98
-description: |-
+description: >-
   The ["Magician"](https://yugipedia.com/wiki/Magician) archetype.
 summary: Magician
 status: { index: stable }

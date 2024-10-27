@@ -2,7 +2,7 @@
 name: RACE_INSECT
 enum: MonsterRace
 value: 0x800
-description: |-
+description: >-
   The [Insect](https://yugipedia.com/wiki/Insect) Monster Type
 summary: Insect
 status: { index: stable }

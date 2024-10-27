@@ -1,7 +1,7 @@
 ---!function
 name: IsDiscardable
 namespace: Card
-description: |-
+description: >-
   Checks if a card (Card c) can be discarded for (int reason).
 status:
   index: stable

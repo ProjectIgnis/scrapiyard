@@ -2,7 +2,7 @@
 name: TOKEN_DUAL_AVATAR_SPIRIT
 enum: CommonToken
 value: 87669905
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

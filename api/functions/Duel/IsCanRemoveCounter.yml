@@ -1,7 +1,7 @@
 ---!function
 name: IsCanRemoveCounter
 namespace: Duel
-description: |-
+description: >-
   Checks if a player (int player) can remove counter(s) (int countertype) (int count) from the field with a reason (int reason). The variables int s and int o are the player's and the opponent's field, respectively, 0 to exclude and nonzero to include.
 status:
   index: stable

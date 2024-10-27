@@ -1,7 +1,7 @@
 ---!function
 name: IsExistingTarget
 namespace: Duel
-description: |-
+description: >-
   This function's behaviour is equivalent of calling Duel.IsExistingMatchingCard with the same arguments and filtering cards with Card.IsCanBeEffectTarget with the current reason effect as parameter (internal to the core, but most of the time corresponds to the effect itself)
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_PUNK
 enum: Archetype
 value: 0x173
-description: |-
+description: >-
   The ["P.U.N.K."](https://yugipedia.com/wiki/P.U.N.K.) archetype.
 summary: P.U.N.K.
 status: { index: stable }

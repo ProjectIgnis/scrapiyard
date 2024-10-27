@@ -1,7 +1,7 @@
 ---!function
 name: AddContactProc
 namespace: Fusion
-description: |-
+description: >-
   Adds a Contact Fusion Procedure to a Fusion monster which is a Summoning Procedure without having to use "Polymerization". (function group) is a function with (int tp) parameter which returns a Group of usable materials. (function op) is the operation that will be applied to the selected materials. (function sumcon) adds a limitation on a Fusion monster which applies to EFFECT_SPSUMMON_CONDITION. (function condition) is an additional condition to check. (int sumtype) is the SummonType of the Contact Fusion, which defaults to 0. (int desc) is the description of the Summoning Procedure when selecting it.
 status:
   index: stable

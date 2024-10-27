@@ -1,7 +1,7 @@
 ---!function
 name: 'NULL'
 namespace: Auxiliary
-description: |-
+description: >-
   Function that returns nil
 status:
   index: stable

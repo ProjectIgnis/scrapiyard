@@ -2,7 +2,7 @@
 name: SET_SHIRANUI
 enum: Archetype
 value: 0xd9
-description: |-
+description: >-
   The ["Shiranui"](https://yugipedia.com/wiki/Shiranui) archetype.
 summary: Shiranui
 status: { index: stable }

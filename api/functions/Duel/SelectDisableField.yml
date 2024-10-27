@@ -1,7 +1,7 @@
 ---!function
 name: SelectDisableField
 namespace: Duel
-description: |-
+description: >-
   Asks (int player) to select zones to be disabled, a number of zones up to (int count),
   in locations (location_player) for the player and (location_oppo) for their opponent, that are bitmasked by (int filter).
   In another word, zones that are not filter.

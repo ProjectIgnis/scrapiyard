@@ -1,7 +1,7 @@
 ---!function
 name: CallCoin
 namespace: Duel
-description: |-
+description: >-
   Tosses a coin and returns true if the player guessed right, false if he didn't
 status:
   index: stable

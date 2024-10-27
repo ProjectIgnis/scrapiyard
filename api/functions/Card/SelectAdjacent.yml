@@ -1,7 +1,7 @@
 ---!function
 name: SelectAdjacent
 namespace: Card
-description: |-
+description: >-
   Makes (int player) select a zone adjacent (horizontally) to (card c)
 status:
   index: stable

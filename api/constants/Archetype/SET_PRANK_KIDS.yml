@@ -2,7 +2,7 @@
 name: SET_PRANK_KIDS
 enum: Archetype
 value: 0x120
-description: |-
+description: >-
   The ["Prank-Kids"](https://yugipedia.com/wiki/Prank-Kids) archetype.
 summary: Prank-Kids
 status: { index: stable }

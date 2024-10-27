@@ -2,7 +2,7 @@
 name: EFFECT_CHAIN_MATERIAL
 enum: EffectCode
 value: 231
-description: |-
+description: >-
   When Fusion Summoning, the affected player can banish materials from the hand, field, deck or graveyard instead (Chain Material)
 status:
   index: stable

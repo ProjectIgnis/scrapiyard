@@ -1,7 +1,7 @@
 ---!function
 name: CheckDifferentProperty
 namespace: Group
-description: |-
+description: >-
   Function to check if every card in a group has at least a different property from the others with a function that stores the properties in multiple return forms
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_PALLADIUM
 enum: Archetype
 value: 0x13a
-description: |-
+description: >-
   The ["Palladium"](https://yugipedia.com/wiki/Palladium) archetype.
 summary: Palladium
 status: { index: stable }

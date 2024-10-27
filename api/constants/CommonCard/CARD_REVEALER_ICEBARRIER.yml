@@ -2,7 +2,7 @@
 name: CARD_REVEALER_ICEBARRIER
 enum: CommonCard
 value: 18319762
-description: |-
+description: >-
   Revealer of the Ice Barrier's ID
 status:
   index: stable

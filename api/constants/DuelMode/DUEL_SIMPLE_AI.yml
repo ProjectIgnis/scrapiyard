@@ -2,7 +2,7 @@
 name: DUEL_SIMPLE_AI
 enum: DuelMode
 value: 0x40
-description: |-
+description: >-
   A flag for DuelModes. The AI/Opponent will activate effects whenever prompted
 status:
   index: stable

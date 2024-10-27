@@ -1,7 +1,7 @@
 ---!function
 name: IsPlayerCanSummon
 namespace: Duel
-description: |-
+description: >-
   If only the player is passed, checks if the player is not affected by EFFECT_CANNOT_SUMMON, otherwise checks if the player can Normal Summon the passed card as the passed SummonType.
 status:
   index: stable

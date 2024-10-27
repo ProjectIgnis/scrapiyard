@@ -1,7 +1,7 @@
 ---!function
 name: IsScale
 namespace: Card
-description: |-
+description: >-
   Returns `true` if a card's Pendulum Scale is equal to a given value.
 summary: Checks a card's Pendulum Scale
 parameters:

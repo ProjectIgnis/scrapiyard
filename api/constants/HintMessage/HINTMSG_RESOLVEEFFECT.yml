@@ -2,7 +2,7 @@
 name: HINTMSG_RESOLVEEFFECT
 enum: HintMessage
 value: 556
-description: |-
+description: >-
   Shows the following HintMessage: "Select effect to apply/resolve"
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: SetReasonCard
 namespace: Card
-description: |-
+description: >-
   Sets "rc" as the card that was the reason of an event that happened to "c".
 status:
   index: stable

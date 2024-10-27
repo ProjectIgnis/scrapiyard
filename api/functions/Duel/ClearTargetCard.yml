@@ -1,7 +1,7 @@
 ---!function
 name: ClearTargetCard
 namespace: Duel
-description: |-
+description: >-
   Removes all the targeted cards corresponding to the current resolving/building chain.
 status:
   index: stable

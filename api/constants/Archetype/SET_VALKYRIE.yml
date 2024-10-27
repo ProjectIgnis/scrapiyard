@@ -2,7 +2,7 @@
 name: SET_VALKYRIE
 enum: Archetype
 value: 0x122
-description: |-
+description: >-
   The ["Valkyrie"](https://yugipedia.com/wiki/Valkyrie) archetype.
 summary: Valkyrie
 status: { index: stable }

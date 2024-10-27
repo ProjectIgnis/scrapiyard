@@ -1,7 +1,7 @@
 ---!function
 name: IsTrapEffect
 namespace: Effect
-description: |-
+description: >-
   Returns if (Effect e) is a Trap effect
 status:
   index: stable

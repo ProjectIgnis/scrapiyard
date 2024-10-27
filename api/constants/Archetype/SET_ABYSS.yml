@@ -2,7 +2,7 @@
 name: SET_ABYSS
 enum: Archetype
 value: 0x75
-description: |-
+description: >-
   The ["Abyss-"](https://yugipedia.com/wiki/Abyss-) archetype.
 summary: Abyss-
 status: { index: stable }

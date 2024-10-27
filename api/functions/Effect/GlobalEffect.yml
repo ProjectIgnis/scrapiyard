@@ -1,7 +1,7 @@
 ---!function
 name: GlobalEffect
 namespace: Effect
-description: |-
+description: >-
   Creates a new effect object, not owned by any specific card.
 status:
   index: stable

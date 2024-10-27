@@ -1,7 +1,7 @@
 ---!function
 name: IsPlayerCanRemove
 namespace: Duel
-description: |-
+description: >-
   If c is not passed, only checks if the player is not affected by EFFECT_CANNOT_REMOVE, otherwise checks if the player can banish the passed card.
 status:
   index: stable

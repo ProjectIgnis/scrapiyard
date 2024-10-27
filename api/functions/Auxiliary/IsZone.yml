@@ -1,7 +1,7 @@
 ---!function
 name: IsZone
 namespace: Auxiliary
-description: |-
+description: >-
   Returns if (card c) is in the (int zone), (int tp) is the reference player.
 status:
   index: stable

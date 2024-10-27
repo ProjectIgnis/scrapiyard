@@ -2,7 +2,7 @@
 name: SET_DESPIA
 enum: Archetype
 value: 0x166
-description: |-
+description: >-
   The ["Despia"](https://yugipedia.com/wiki/Despia) archetype.
 summary: Despia
 status: { index: stable }

@@ -1,7 +1,7 @@
 ---!function
 name: ActivateFieldSpell
 namespace: Duel
-description: |-
+description: >-
   Activates a field spell Card "c". Already handles interactions with Field Spells that are already face up, rules for only 1 Field Spell at time, checks for costs and activated effects of the field spell and als the interaction with Ancient Pixie Dragon.
 status:
   index: stable

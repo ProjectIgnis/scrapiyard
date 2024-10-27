@@ -2,7 +2,7 @@
 name: STATUS_FLIP_SUMMON_TURN
 enum: CardStatus
 value: 0x20000000
-description: |-
+description: >-
   A card with this status was Flip Summoned in the current turn
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: EFFECT_LIMIT_SUMMON_PROC
 enum: EffectCode
 value: 33
-description: |-
+description: >-
   Specifies a special method through which the affected card must be Normal Summoned
 status:
   index: stable

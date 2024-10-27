@@ -2,7 +2,7 @@
 name: GLOBALFLAG_SPSUMMON_COUNT
 enum: GlobalFlag
 value: 0x40
-description: |-
+description: >-
   A flag related with a limit a player can attempt Special Summons. Used with El Shaddoll Winda
 status:
   index: stable

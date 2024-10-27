@@ -2,7 +2,7 @@
 name: SET_VOICELESS_VOICE
 enum: Archetype
 value: 0x19e
-description: |-
+description: >-
   The ["Voiceless Voice"](https://yugipedia.com/wiki/Voiceless_Voice) archetype.
 summary: Voiceless Voice
 status: { index: stable }

@@ -2,7 +2,7 @@
 name: EVENT_CONTROL_CHANGED
 enum: Event
 value: 1120
-description: |-
+description: >-
   When control of a card changes
 status:
   index: stable

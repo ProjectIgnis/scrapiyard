@@ -2,7 +2,7 @@
 name: EFFECT_CANNOT_LOSE_DECK
 enum: EffectCode
 value: 400
-description: |-
+description: >-
   The affected player is prevented from losing the duel via deckout
 status:
   index: stable

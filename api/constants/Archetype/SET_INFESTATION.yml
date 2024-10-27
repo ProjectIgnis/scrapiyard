@@ -2,7 +2,7 @@
 name: SET_INFESTATION
 enum: Archetype
 value: 0x65
-description: |-
+description: >-
   The ["Infestation"](https://yugipedia.com/wiki/Infestation) archetype.
 summary: Infestation
 status: { index: stable }

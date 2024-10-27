@@ -2,7 +2,7 @@
 name: HINTMSG_NUMBER
 enum: HintMessage
 value: 565
-description: |-
+description: >-
   Shows the following HintMessage: "Declare a number"
 status:
   index: stable

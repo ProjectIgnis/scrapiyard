@@ -2,7 +2,7 @@
 name: SET_VAALMONICA
 enum: Archetype
 value: 0x19c
-description: |-
+description: >-
   The ["Vaalmonica"](https://yugipedia.com/wiki/Vaalmonica) archetype.
 summary: Vaalmonica
 status: { index: stable }

@@ -2,7 +2,7 @@
 name: SET_ARMED_DRAGON
 enum: Archetype
 value: 0x111
-description: |-
+description: >-
   The ["Armed Dragon"](https://yugipedia.com/wiki/Armed_Dragon) archetype.
 summary: Armed Dragon
 status: { index: stable }

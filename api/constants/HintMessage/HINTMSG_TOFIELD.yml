@@ -2,7 +2,7 @@
 name: HINTMSG_TOFIELD
 enum: HintMessage
 value: 527
-description: |-
+description: >-
   Shows the following HintMessage: "Select the card(s) to place on the field"
 status:
   index: stable

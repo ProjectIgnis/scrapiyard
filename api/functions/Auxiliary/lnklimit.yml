@@ -1,7 +1,7 @@
 ---!function
 name: lnklimit
 namespace: Auxiliary
-description: |-
+description: >-
   SPSUMMON condition "Must be Link Summoned"
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_ATTRACTION
 enum: Archetype
 value: 0x15f
-description: |-
+description: >-
   The ["Attraction"](https://yugipedia.com/wiki/Attraction) archetype.
 summary: Attraction
 status: { index: stable }

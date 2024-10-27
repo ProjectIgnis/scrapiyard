@@ -1,7 +1,7 @@
 ---!function
 name: Stringid
 namespace: Auxiliary
-description: |-
+description: >-
   Returns the description code using the database entry's code (int code) and from the nth position (int position) which can be 0-15 corresponding to the str in the database which are from str1 to str16
 status:
   index: stable

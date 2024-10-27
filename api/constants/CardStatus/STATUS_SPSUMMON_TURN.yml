@@ -2,7 +2,7 @@
 name: STATUS_SPSUMMON_TURN
 enum: CardStatus
 value: 0x40000000
-description: |-
+description: >-
   A card with this status was Special Summoned in the current turn
 status:
   index: stable

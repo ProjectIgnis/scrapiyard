@@ -2,7 +2,7 @@
 name: TIMING_SUMMON
 enum: Timing
 value: 0x40
-description: |-
+description: >-
   When a monster is Summoned
 status:
   index: stable

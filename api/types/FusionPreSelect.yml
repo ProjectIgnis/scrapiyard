@@ -1,7 +1,7 @@
 ---!type
 name: FusionPreSelect
 supertype: function
-description: |-
+description: >-
   A function executed after selecting the monster to summon
   but before performing the Fusion Summon (e.g. [Clock Lizard](https://yugipedia.com/Clock_Lizard)).
 summary: A function to perform before Fusion Summoning a selected monster.

@@ -1,7 +1,7 @@
 ---!function
 name: CalculateDamage
 namespace: Duel
-description: |-
+description: >-
   Conduct damage calculation between (Card c1) as attacker and (Card c2) or opponent player (nil)
 status:
   index: stable

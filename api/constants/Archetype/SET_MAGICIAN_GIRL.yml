@@ -2,7 +2,7 @@
 name: SET_MAGICIAN_GIRL
 enum: Archetype
 value: 0x20a2
-description: |-
+description: >-
   The ["Magician Girl"](https://yugipedia.com/wiki/Magician_Girl) archetype.
 summary: Magician Girl
 status: { index: stable }

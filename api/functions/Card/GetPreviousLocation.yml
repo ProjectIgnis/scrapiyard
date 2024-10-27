@@ -1,7 +1,7 @@
 ---!function
 name: GetPreviousLocation
 namespace: Card
-description: |-
+description: >-
   Returns the previous location of "c".
 status:
   index: stable

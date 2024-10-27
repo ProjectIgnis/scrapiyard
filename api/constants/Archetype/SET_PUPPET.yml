@@ -2,7 +2,7 @@
 name: SET_PUPPET
 enum: Archetype
 value: 0x83
-description: |-
+description: >-
   The ["Puppet"](https://yugipedia.com/wiki/Puppet) archetype.
 summary: Puppet
 status: { index: stable }

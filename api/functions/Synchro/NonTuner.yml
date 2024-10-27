@@ -1,7 +1,7 @@
 ---!function
 name: NonTuner
 namespace: Synchro
-description: |-
+description: >-
   A filter used in a Synchro procedure when a material is supposed to be non-Tuner. It also has to satisfy condition of (function f) if provided with (a, b, c) parameters.
 status:
   index: stable

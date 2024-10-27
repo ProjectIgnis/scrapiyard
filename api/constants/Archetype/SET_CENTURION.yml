@@ -2,7 +2,7 @@
 name: SET_CENTURION
 enum: Archetype
 value: 0x19b
-description: |-
+description: >-
   The ["Centur-Ion"](https://yugipedia.com/wiki/Centur-Ion) archetype.
 summary: Centur-Ion
 status: { index: stable }

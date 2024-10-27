@@ -1,7 +1,7 @@
 ---!function
 name: ClearOperationInfo
 namespace: Duel
-description: |-
+description: >-
   Clears all the informations that were set by Duel.SetOperationInfo for the passed chain.
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: RESET_TURN_SET
 enum: Reset
 value: 0x20000
-description: |-
+description: >-
   Resets when the card is turned face-down ("Set")
 status:
   index: stable

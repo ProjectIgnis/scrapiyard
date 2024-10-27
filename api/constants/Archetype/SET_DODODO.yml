@@ -2,7 +2,7 @@
 name: SET_DODODO
 enum: Archetype
 value: 0x82
-description: |-
+description: >-
   The ["Dododo"](https://yugipedia.com/wiki/Dododo) archetype.
 summary: Dododo
 status: { index: stable }

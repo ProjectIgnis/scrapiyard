@@ -2,7 +2,7 @@
 name: SET_VENOM
 enum: Archetype
 value: 0x50
-description: |-
+description: >-
   The ["Venom"](https://yugipedia.com/wiki/Venom) archetype.
 summary: Venom
 status: { index: stable }

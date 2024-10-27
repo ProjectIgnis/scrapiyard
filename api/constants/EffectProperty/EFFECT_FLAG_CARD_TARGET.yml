@@ -2,7 +2,7 @@
 name: EFFECT_FLAG_CARD_TARGET
 enum: EffectProperty
 value: 0x10
-description: |-
+description: >-
   The effect includes targeting a card
 status:
   index: stable

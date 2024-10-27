@@ -2,7 +2,7 @@
 name: STATUS_TO_DISABLE
 enum: CardStatus
 value: 0x4
-description: |-
+description: >-
   Effect would be negated
 status:
   index: stable

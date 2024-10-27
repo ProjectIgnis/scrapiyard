@@ -2,7 +2,7 @@
 name: OPCODE_ADD
 enum: Opcode
 value: 0x40000000
-description: |-
+description: >-
   Operation of addition, to be used in an AnnounceCard filter.
 status:
   index: stable

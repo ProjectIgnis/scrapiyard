@@ -2,7 +2,7 @@
 name: SET_POSSESSED
 enum: Archetype
 value: 0xc0
-description: |-
+description: >-
   The ["Possessed"](https://yugipedia.com/wiki/Possessed) archetype.
 summary: Possessed
 status: { index: stable }

@@ -2,7 +2,7 @@
 name: REGISTER_FLAG_CARDIAN
 enum: RegisterFlag
 value: 2
-description: |-
+description: >-
   Cardian's effects to Special Summon a Cardian, for anime Cardians (Card.RegisterEffect)
 status:
   index: stable

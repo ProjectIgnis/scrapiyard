@@ -1,7 +1,7 @@
 ---!function
 name: AddSideMaximumHandler
 namespace: Card
-description: |-
+description: >-
   Rush related function
 status:
   index: stable

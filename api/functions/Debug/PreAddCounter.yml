@@ -1,7 +1,7 @@
 ---!function
 name: PreAddCounter
 namespace: Debug
-description: |-
+description: >-
   Adds a certain number of a specified counter to a card.
 summary: Places a counter on a card.
 status:

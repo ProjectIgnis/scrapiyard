@@ -2,7 +2,7 @@
 name: SET_STARVING_VENOM
 enum: Archetype
 value: 0x1050
-description: |-
+description: >-
   The ["Starving Venom"](https://yugipedia.com/wiki/Starving_Venom) archetype.
   Sub-archetype of [`SET_VENOM`](/api/constants/Archetype/SET_VENOM).
 summary: Starving Venom

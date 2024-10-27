@@ -2,7 +2,7 @@
 name: EFFECT_BECOME_LINKED_ZONE
 enum: EffectCode
 value: 266
-description: |-
+description: >-
   Makes a zone linked
 status:
   index: stable

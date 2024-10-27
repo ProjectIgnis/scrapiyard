@@ -1,7 +1,7 @@
 ---!function
 name: seqmovcon
 namespace: Auxiliary
-description: |-
+description: >-
   Condition for effects that make the monster change its current sequence/column.
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_MEMENTO
 enum: Archetype
 value: 0x19a
-description: |-
+description: >-
   The ["Memento"](https://yugipedia.com/wiki/Memento) archetype.
 summary: Memento
 status: { index: stable }

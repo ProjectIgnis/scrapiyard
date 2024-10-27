@@ -2,7 +2,7 @@
 name: SET_GLADIATOR_BEAST
 enum: Archetype
 value: 0x1019
-description: |-
+description: >-
   The ["Gladiator Beast"](https://yugipedia.com/wiki/Gladiator_Beast) archetype.
   Sub-archetype of [`SET_GLADIATOR`](/api/constants/Archetype/SET_GLADIATOR).
 summary: Gladiator Beast

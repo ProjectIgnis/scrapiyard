@@ -1,7 +1,7 @@
 ---!function
 name: GetFusionMaterial
 namespace: Duel
-description: |-
+description: >-
   Returns a group of cards that are usable as fusion materials by the players, those cards consist of cards in the player's monster zone and also in the player's hand, GY and spell/trap zone that are affected by an EFFECT_EXTRA_FUSION_MATERIAL effect.
 status:
   index: stable

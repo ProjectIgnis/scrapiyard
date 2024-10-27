@@ -2,7 +2,7 @@
 name: EFFECT_CANNOT_DISCARD_DECK
 enum: EffectCode
 value: 56
-description: |-
+description: >-
   Affected player cannot send cards from their deck to the graveyard. SetTarget is not used in this effect
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_LV
 enum: Archetype
 value: 0x41
-description: |-
+description: >-
   The ["LV"](https://yugipedia.com/wiki/LV) archetype.
 summary: LV
 status: { index: stable }

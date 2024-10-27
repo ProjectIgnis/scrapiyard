@@ -1,7 +1,7 @@
 ---!function
 name: MoveSequence
 namespace: Duel
-description: |-
+description: >-
   Moves a card (Card c) to a different sequence (int seq). If (int location) is not provided, only the current location is considered
 status:
   index: stable

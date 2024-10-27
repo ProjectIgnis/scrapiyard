@@ -1,7 +1,7 @@
 ---!function
 name: IsXyzLevel
 namespace: Card
-description: |-
+description: >-
   Checks if "c" would be Level "lv" if it was to be used as Xyz Material for "xyzc".
 status:
   index: stable

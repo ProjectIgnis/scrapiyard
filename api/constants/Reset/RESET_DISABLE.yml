@@ -2,7 +2,7 @@
 name: RESET_DISABLE
 enum: Reset
 value: 0x10000
-description: |-
+description: >-
   Resets when the card's effects are negated
 status:
   index: stable

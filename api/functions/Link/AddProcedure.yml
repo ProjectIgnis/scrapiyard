@@ -23,7 +23,7 @@ parameters:
     defaultValue: c:GetLink()
   - name: specialchk
     type: [ function]
-    description: |-
+    description: >-
         An additional check that must be fulfilled after obtaining the group with materials (e.g. Akashic Magician).
         The signature of this function must be (c,lc,SUMMON_TYPE_LINK|MATERIAL_LINK,tp) where `c` is the card to be used as material,
         `lc` is the card to be summoned and tp is the player doing the summon.

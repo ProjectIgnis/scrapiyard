@@ -2,7 +2,7 @@
 name: COUNTER_KAIJU
 enum: CommonCounter
 value: 0x37
-description: |-
+description: >-
   The hexadecimal value of Kaiju Counters
 status:
   index: stable

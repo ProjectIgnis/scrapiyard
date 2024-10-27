@@ -1,7 +1,7 @@
 ---!function
 name: ChangeBattleDamage
 namespace: Auxiliary
-description: |-
+description: >-
   Changes the battle damage that (int player) would have taken to (int value)
 status:
   index: stable

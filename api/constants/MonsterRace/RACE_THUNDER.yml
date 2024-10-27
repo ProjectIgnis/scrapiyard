@@ -2,7 +2,7 @@
 name: RACE_THUNDER
 enum: MonsterRace
 value: 0x1000
-description: |-
+description: >-
   The [Thunder](https://yugipedia.com/wiki/Thunder) Monster Type
 summary: Thunder
 status: { index: stable }

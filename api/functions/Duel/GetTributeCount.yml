@@ -1,7 +1,7 @@
 ---!function
 name: GetTributeCount
 namespace: Duel
-description: |-
+description: >-
   Returns the number of cards that are usable for a tribute summon by c's controller. By default it only check the controller's field and opponent's cards with an extra release effects applied to them. If ex is true then all the cards on the opposing side of the field are considered regardless. If mg is passed, the cards are picked only among that group. **deprecated and should not be used**
 status:
   index: stable

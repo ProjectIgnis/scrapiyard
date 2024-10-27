@@ -1,7 +1,7 @@
 ---!function
 name: IsDeleted
 namespace: Group
-description: |-
+description: >-
   Returns if the Group object got internally deleted and remained as dangling reference inside the lua state.
 status:
   index: stable

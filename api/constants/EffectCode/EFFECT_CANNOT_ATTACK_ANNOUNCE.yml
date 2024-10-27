@@ -2,7 +2,7 @@
 name: EFFECT_CANNOT_ATTACK_ANNOUNCE
 enum: EffectCode
 value: 86
-description: |-
+description: >-
   Affected card cannot declare attacks (but can finish conducting an attack responded to with this effect, Threatening Roar)
 status:
   index: stable

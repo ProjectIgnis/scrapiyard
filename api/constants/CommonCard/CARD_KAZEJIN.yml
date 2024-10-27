@@ -2,7 +2,7 @@
 name: CARD_KAZEJIN
 enum: CommonCard
 value: 62340868
-description: |-
+description: >-
   Kazejin's ID
 status:
   index: stable

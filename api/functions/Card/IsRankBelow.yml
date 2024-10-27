@@ -1,7 +1,7 @@
 ---!function
 name: IsRankBelow
 namespace: Card
-description: |-
+description: >-
   Checks if a card (Card c) has rank equal or below the specified number (int rank), will return false if the card has no rank
 status:
   index: stable

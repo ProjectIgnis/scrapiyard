@@ -1,7 +1,7 @@
 ---!function
 name: IsBaseAttack
 namespace: Card
-description: |-
+description: >-
   Returns `true` if a card's original ATK is equal to a given value.
   Original ATK might differ from the printed ATK of the card due to effects that change original ATK.
   Use [`Card.IsTextAttack`](/api/functions/Card/IsTextAttack) if you need to check for the printed ATK instead.

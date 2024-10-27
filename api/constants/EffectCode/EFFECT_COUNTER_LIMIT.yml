@@ -2,7 +2,7 @@
 name: EFFECT_COUNTER_LIMIT
 enum: EffectCode
 value: 0x20000
-description: |-
+description: >-
   Allowed to place the number of counters
 status:
   index: stable

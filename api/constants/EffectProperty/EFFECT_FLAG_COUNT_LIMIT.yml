@@ -2,7 +2,7 @@
 name: EFFECT_FLAG_COUNT_LIMIT
 enum: EffectProperty
 value: 0x4
-description: |-
+description: >-
   The number of times an effects can be triggered
 status:
   index: stable

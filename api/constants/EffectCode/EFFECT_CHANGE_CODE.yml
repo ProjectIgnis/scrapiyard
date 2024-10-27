@@ -2,7 +2,7 @@
 name: EFFECT_CHANGE_CODE
 enum: EffectCode
 value: 114
-description: |-
+description: >-
   Treats a a card as a different card by overwriting its current code(s). The new code is taken from this effect's SetValue. When used as single effect and an operation function is provided, this effect is applied if such operation returns true. In this case, the operation function receives the following parameters: sumcard, sumtype, playerid.
 status:
   index: stable

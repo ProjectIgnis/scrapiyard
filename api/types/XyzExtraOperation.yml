@@ -1,7 +1,7 @@
 ---!type
 name: XyzExtraOperation
 supertype: function
-description: |-
+description: >-
   An additional function to be executed when performing an Xyz Summon, *before* using the Xyz Materials (e.g. [Digital Bug Corebage](https://yugipedia.com/wiki/12327), [Number 99: Utopic Dragon](https://yugipedia.com/wiki/11305))
 summary: Additional function to execute when Xyz Summoning.
 parameters:

@@ -1,7 +1,7 @@
 ---!function
 name: IsBattlePosition
 namespace: Card
-description: |-
+description: >-
   Returns `true` if a card is in a specified battle position at the start of the Damage Step.
 summary: Checks a card's battle position at the start of the Damage Step
 parameters:

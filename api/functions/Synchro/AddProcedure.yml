@@ -1,7 +1,7 @@
 ---!function
 name: AddProcedure
 namespace: Synchro
-description: |-
+description: >-
   Adds a Synchro Procedure to (Card c) where (function f1) is the required Tuner, with a minimum (int min1) and maximum (int max1). (function f2) is the second material (which usually is a non-Tuner, with a minimum (int min2) and maximum (int max2). (function sub1) is a Tuner substitute (e.g. Nirvana High Paladin) while (function sub2) is a substitute to the second material(s). (function req1) are required Tuners to be used in that Summon, with a fixed number (int reqct1) on how many are needed to be used. (function req2) follows the same pattern but for the secondary material (e.g. Crystal Wing Synchro Dragon (Anime)). (function reqm) is the required material needed to be used in that Summon regardless if it's a Tuner or the second material (e.g. function overwrite by Blackwing - Gofu the Vague Shadow (Anime)).
 status:
   index: stable

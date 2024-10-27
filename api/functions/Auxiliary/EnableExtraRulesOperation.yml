@@ -1,7 +1,7 @@
 ---!function
 name: EnableExtraRulesOperation
 namespace: Auxiliary
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

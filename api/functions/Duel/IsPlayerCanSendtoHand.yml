@@ -1,7 +1,7 @@
 ---!function
 name: IsPlayerCanSendtoHand
 namespace: Duel
-description: |-
+description: >-
   If c is not passed, only checks if the player is not affected by EFFECT_CANNOT_TO_HAND, otherwise checks if the player can send the passed card to the Hand.
 status:
   index: stable

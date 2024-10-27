@@ -1,7 +1,7 @@
 ---!function
 name: ReleaseRitualMaterial
 namespace: Duel
-description: |-
+description: >-
   Tributes monsters from (Group g) for a Ritual Summon
 status:
   index: stable

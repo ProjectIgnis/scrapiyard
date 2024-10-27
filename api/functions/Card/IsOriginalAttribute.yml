@@ -1,7 +1,7 @@
 ---!function
 name: IsOriginalAttribute
 namespace: Card
-description: |-
+description: >-
   Checks if (Card c) is of original attribute (int val)
 status:
   index: stable

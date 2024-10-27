@@ -1,7 +1,7 @@
 ---!function
 name: IsHasProperty
 namespace: Effect
-description: |-
+description: >-
   Returns true if the effect (Effect e) has any property listed in (int prop1) or (int prop2), otherwise returns false
 status:
   index: stable

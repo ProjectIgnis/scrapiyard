@@ -2,7 +2,7 @@
 name: EFFECT_DESTROY_SUBSTITUTE
 enum: EffectCode
 value: 45
-description: |-
+description: >-
   Required alternative to destruction (this card is destroyed with other cards instead). SetValue receives the following parameters:
 e: this effect itself
 re: reason effect (confirm in the core, might default to current.reason_effect)

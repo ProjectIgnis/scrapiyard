@@ -2,7 +2,7 @@
 name: SET_SIMORGH
 enum: Archetype
 value: 0x12d
-description: |-
+description: >-
   The ["Simorgh"](https://yugipedia.com/wiki/Simorgh) archetype.
 summary: Simorgh
 status: { index: stable }

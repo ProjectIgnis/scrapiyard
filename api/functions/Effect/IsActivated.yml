@@ -1,7 +1,7 @@
 ---!function
 name: IsActivated
 namespace: Effect
-description: |-
+description: >-
   Returns if an effect (Effect e) is an activated effect. Effectively, this checks if the effect has any of the following types: EFFECT_TYPE_ACTIVATE, EFFECT_TYPE_FLIP, EFFECT_TYPE_IGNITION, EFFECT_TYPE_TRIGGER_O, EFFECT_TYPE_QUICK_O, EFFECT_TYPE_TRIGGER_F or EFFECT_TYPE_QUICK_F
 status:
   index: stable

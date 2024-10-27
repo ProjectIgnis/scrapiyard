@@ -2,7 +2,7 @@
 name: EFFECT_ADD_CODE
 enum: EffectCode
 value: 113
-description: |-
+description: >-
   Treats a Card(s) as another Card by adding one additional Code (ID) to it. The additional code is obtained from the effect's SetValue. When used as single effect and an operation function is provided, this effect is applied if such operation returns true. In this case, the operation function receives the following parameters: sumcard, sumtype, playerid.
 status:
   index: stable

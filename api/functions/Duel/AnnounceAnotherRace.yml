@@ -1,7 +1,7 @@
 ---!function
 name: AnnounceAnotherRace
 namespace: Duel
-description: |-
+description: >-
   Makes (int player) announce a monster type (Race) different from the one(s) already among the members of (Group g)
 status:
   index: stable

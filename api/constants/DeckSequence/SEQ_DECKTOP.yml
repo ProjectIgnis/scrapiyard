@@ -2,7 +2,7 @@
 name: SEQ_DECKTOP
 enum: DeckSequence
 value: 0
-description: |-
+description: >-
   Sequence to be used with Duel.SendtoDeck. Sends the card to the top of the Deck
 status:
   index: stable

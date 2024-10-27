@@ -2,7 +2,7 @@
 name: TYPE_EXTRA
 enum: CardType
 value: 0x4802040
-description: |-
+description: >-
   Composite constant for Card Types that start in the Extra Deck (Fusion, Synchro, Xyz, and Link)
 summary: Extra Deck Monster
 status: { index: stable }

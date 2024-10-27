@@ -2,7 +2,7 @@
 name: SET_SUNAVALON
 enum: Archetype
 value: 0x1157
-description: |-
+description: >-
   The ["Sunavalon"](https://yugipedia.com/wiki/Sunavalon) archetype.
 summary: Sunavalon
 status: { index: stable }

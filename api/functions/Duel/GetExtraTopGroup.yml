@@ -1,7 +1,7 @@
 ---!function
 name: GetExtraTopGroup
 namespace: Duel
-description: |-
+description: >-
   Gets a group of a player's (int player) top n (int count) facedown cards of their Extra Deck
 status:
   index: stable

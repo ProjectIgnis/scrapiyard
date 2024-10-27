@@ -2,7 +2,7 @@
 name: POS_ATTACK
 enum: CardPosition
 value: 0x3
-description: |-
+description: >-
   Attack position, face-up + face-down
 status:
   index: stable

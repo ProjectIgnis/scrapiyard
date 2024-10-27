@@ -2,7 +2,7 @@
 name: SET_LEGENDARY_KNIGHT
 enum: Archetype
 value: 0xa0
-description: |-
+description: >-
   The ["Legendary Knight"](https://yugipedia.com/wiki/Legendary_Knight) archetype.
 summary: Legendary Knight
 status: { index: stable }

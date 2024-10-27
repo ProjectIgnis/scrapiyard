@@ -2,7 +2,7 @@
 name: SET_SWORDSOUL
 enum: Archetype
 value: 0x16d
-description: |-
+description: >-
   The ["Swordsoul"](https://yugipedia.com/wiki/Swordsoul) archetype.
 summary: Swordsoul
 status: { index: stable }

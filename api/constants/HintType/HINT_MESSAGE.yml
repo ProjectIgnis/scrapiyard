@@ -2,7 +2,7 @@
 name: HINT_MESSAGE
 enum: HintType
 value: 2
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

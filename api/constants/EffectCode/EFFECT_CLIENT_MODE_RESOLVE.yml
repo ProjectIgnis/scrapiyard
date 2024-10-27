@@ -2,7 +2,7 @@
 name: EFFECT_CLIENT_MODE_RESOLVE
 enum: EffectCode
 value: 1
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

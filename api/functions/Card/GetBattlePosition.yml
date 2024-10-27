@@ -1,7 +1,7 @@
 ---!function
 name: GetBattlePosition
 namespace: Card
-description: |-
+description: >-
   Returns the battle position of a monster at the start of the Damage Step.
 summary: Gets the battle position of a monster at the start of the Damage Step
 parameters:

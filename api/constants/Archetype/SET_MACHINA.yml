@@ -2,7 +2,7 @@
 name: SET_MACHINA
 enum: Archetype
 value: 0x36
-description: |-
+description: >-
   The ["Machina"](https://yugipedia.com/wiki/Machina) archetype.
 summary: Machina
 status: { index: stable }

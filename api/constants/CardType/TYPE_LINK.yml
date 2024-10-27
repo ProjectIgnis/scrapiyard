@@ -2,7 +2,7 @@
 name: TYPE_LINK
 enum: CardType
 value: 0x4000000
-description: |-
+description: >-
   The [Link](https://yugipedia.com/wiki/Link_Monster) Card Type for Monsters
 summary: Link
 status: { index: stable }

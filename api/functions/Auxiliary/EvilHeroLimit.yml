@@ -1,7 +1,7 @@
 ---!function
 name: EvilHeroLimit
 namespace: Auxiliary
-description: |-
+description: >-
   Default SetValue for the effect of "Evil HERO" monsters that use EFFECT_SPSUMMON_CONDITION. Must be used due to the existence of "Supreme King Castle"
 status:
   index: stable

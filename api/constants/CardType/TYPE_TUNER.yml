@@ -2,7 +2,7 @@
 name: TYPE_TUNER
 enum: CardType
 value: 0x1000
-description: |-
+description: >-
   The [Tuner](https://yugipedia.com/wiki/Tuner_monster) Card Type for Monsters
 summary: Tuner
 status: { index: stable }

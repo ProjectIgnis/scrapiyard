@@ -1,7 +1,7 @@
 ---!function
 name: GetCode
 namespace: Effect
-description: |-
+description: >-
   Gets (Effect e)'s code
 status:
   index: stable

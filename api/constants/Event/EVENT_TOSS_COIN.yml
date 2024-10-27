@@ -2,7 +2,7 @@
 name: EVENT_TOSS_COIN
 enum: Event
 value: 1151
-description: |-
+description: >-
   This event is raised when coins are flipped
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: SetChainLimit
 namespace: Duel
-description: |-
+description: >-
   Sets a function for limiting effects that could chain from this point in the chain, removed when an effect is chained to the current chain. Function f accepts at most 3 parameters [f(e,tp,p)] in which e is the effect that would be chained, tp is the same tp from the effect function where this function is called, and p is the player who would activate the would-be chaining effect.
 status:
   index: stable

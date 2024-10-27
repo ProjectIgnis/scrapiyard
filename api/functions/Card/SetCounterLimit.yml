@@ -1,7 +1,7 @@
 ---!function
 name: SetCounterLimit
 namespace: Card
-description: |-
+description: >-
   Sets the limit (int count) of how many counter of a type (int countertype) can be held by a card (Card c)
 status:
   index: stable

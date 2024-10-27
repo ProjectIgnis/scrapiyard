@@ -1,7 +1,7 @@
 ---!function
 name: GetPreviousSetCard
 namespace: Card
-description: |-
+description: >-
   Returns the archetype(s) that "c" was part of previously.
 status:
   index: stable

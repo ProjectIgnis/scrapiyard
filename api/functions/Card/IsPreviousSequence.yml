@@ -2,7 +2,7 @@
 name: IsPreviousSequence
 namespace: Card
 # TODO: link to an explanation of Sequence
-description: |-
+description: >-
   Returns `true` if a card was previously in a given sequence.
 summary: Checks a card's previous sequence
 status: { index: stable }

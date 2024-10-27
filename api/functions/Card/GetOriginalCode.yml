@@ -1,7 +1,7 @@
 ---!function
 name: GetOriginalCode
 namespace: Card
-description: |-
+description: >-
   Returns the original printed code (ID/name) of the card "c".
 status:
   index: stable

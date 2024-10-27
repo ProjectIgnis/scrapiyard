@@ -2,7 +2,7 @@
 name: EFFECT_CANNOT_CHANGE_POSITION
 enum: EffectCode
 value: 14
-description: |-
+description: >-
   Affected card cannot change its battle position. Usually used as a single effect but if a field version is used, SetTarget receives e and c as parameters.
 status:
   index: stable

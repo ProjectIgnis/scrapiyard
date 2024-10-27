@@ -1,7 +1,7 @@
 ---!function
 name: IsCode
 namespace: Card
-description: |-
+description: >-
   Checks if "c" has at least 1 code/ID among the "..." list.
 status:
   index: stable

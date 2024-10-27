@@ -1,7 +1,7 @@
 ---!function
 name: IsAttributeExcept
 namespace: Card
-description: |-
+description: >-
   Checks if (Card c) has any attribute other than (int att). If the optional parameters are passed, does the checks by calling the equivalent behavior with such parameters with Card.GetAttribute
 status:
   index: stable

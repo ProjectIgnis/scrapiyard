@@ -1,7 +1,7 @@
 ---!function
 name: RemoveCounter
 namespace: Card
-description: |-
+description: >-
   Removes a number (int count) of the specified counter (int countertype) from a card (Card c), with reason described by (int reason)
 status:
   index: stable

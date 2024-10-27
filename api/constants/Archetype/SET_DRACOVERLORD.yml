@@ -2,7 +2,7 @@
 name: SET_DRACOVERLORD
 enum: Archetype
 value: 0xda
-description: |-
+description: >-
   The ["Dracoverlord"](https://yugipedia.com/wiki/Dracoverlord) archetype.
 summary: Dracoverlord
 status: { index: stable }

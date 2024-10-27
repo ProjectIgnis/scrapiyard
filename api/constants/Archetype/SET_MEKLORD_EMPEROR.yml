@@ -2,7 +2,7 @@
 name: SET_MEKLORD_EMPEROR
 enum: Archetype
 value: 0x3013
-description: |-
+description: >-
   The ["Meklord Emperor"](https://yugipedia.com/wiki/Meklord_Emperor) archetype.
   Sub-archetype of [`SET_MEKLORD`](/api/constants/Archetype/SET_MEKLORD).
 summary: Meklord Emperor

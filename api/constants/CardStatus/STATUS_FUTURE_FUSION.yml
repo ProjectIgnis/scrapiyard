@@ -2,7 +2,7 @@
 name: STATUS_FUTURE_FUSION
 enum: CardStatus
 value: 0x100000
-description: |-
+description: >-
   To be changed: Future Fusion Materials wouldn't trigger after Fusion Monster is Summoned
 status:
   index: stable

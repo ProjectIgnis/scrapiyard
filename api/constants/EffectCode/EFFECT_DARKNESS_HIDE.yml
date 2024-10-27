@@ -2,7 +2,7 @@
 name: EFFECT_DARKNESS_HIDE
 enum: EffectCode
 value: 428
-description: |-
+description: >-
   The affect players cannot see/confirm their face-down cards
 status:
   index: stable

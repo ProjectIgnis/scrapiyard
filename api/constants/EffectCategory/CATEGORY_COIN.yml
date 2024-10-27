@@ -2,7 +2,7 @@
 name: CATEGORY_COIN
 enum: EffectCategory
 value: 0x1000000
-description: |-
+description: >-
   Describes that a card uses a coin
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_PROPHECY
 enum: Archetype
 value: 0x6e
-description: |-
+description: >-
   The ["Prophecy"](https://yugipedia.com/wiki/Prophecy) archetype.
 summary: Prophecy
 status: { index: stable }

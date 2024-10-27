@@ -2,7 +2,7 @@
 name: SET_SPROUT
 enum: Archetype
 value: 0xa6
-description: |-
+description: >-
   The ["sprout"](https://yugipedia.com/wiki/Sprout) archetype.
 summary: sprout
 status: { index: stable }

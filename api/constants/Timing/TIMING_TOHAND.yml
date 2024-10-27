@@ -2,7 +2,7 @@
 name: TIMING_TOHAND
 enum: Timing
 value: 0x200000
-description: |-
+description: >-
   When you add a hand (retrieve, recycle, etc.)
 status:
   index: stable

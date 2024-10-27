@@ -2,7 +2,7 @@
 name: SET_ARCANA_FORCE
 enum: Archetype
 value: 0x5
-description: |-
+description: >-
   The ["Arcana Force"](https://yugipedia.com/wiki/Arcana_Force) archetype.
 summary: Arcana Force
 status: { index: stable }

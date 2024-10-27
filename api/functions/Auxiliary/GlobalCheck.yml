@@ -1,7 +1,7 @@
 ---!function
 name: GlobalCheck
 namespace: Auxiliary
-description: |-
+description: >-
   Enables a global check to be used with function "func"
 status:
   index: stable

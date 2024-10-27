@@ -2,7 +2,7 @@
 name: SET_EARTHBOUND
 enum: Archetype
 value: 0x21
-description: |-
+description: >-
   The ["Earthbound"](https://yugipedia.com/wiki/Earthbound) archetype.
 summary: Earthbound
 status: { index: stable }

@@ -1,7 +1,7 @@
 ---!function
 name: AdjustInstantly
 namespace: Duel
-description: |-
+description: >-
   Adjusts the game state checking self destroy effects, continuous negation effects being applied, etc. If a card is passed, it also adjust immediately the properties of that card and cards related to it.
 status:
   index: stable

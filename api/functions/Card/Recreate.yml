@@ -1,7 +1,7 @@
 ---!function
 name: Recreate
 namespace: Card
-description: |-
+description: >-
   Changes (Card c) into a card with (int code) as its original card number from the database. If any of the parameters are included, that stat is also changed. If (bool replace_effect) is set to true, its effect also changes to the effects of (int code).
 status:
   index: stable

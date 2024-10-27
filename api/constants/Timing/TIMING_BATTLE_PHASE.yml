@@ -2,7 +2,7 @@
 name: TIMING_BATTLE_PHASE
 enum: Timing
 value: 0x1000000
-description: |-
+description: >-
   During the Battle Phase
 status:
   index: stable

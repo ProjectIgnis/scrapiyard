@@ -2,7 +2,7 @@
 name: CHAININFO_TYPE
 enum: ChainInfo
 value: 14
-description: |-
+description: >-
   When used with Duel.GetChainInfo returns an intger with the major card type (Monster/Spell/Trap) of the handler of the request Chain Link's effect. For Trap monsters, returns TYPE_MONSTER.
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: TIMING_BATTLED
 enum: Timing
 value: 0x8000000
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_GEM
 enum: Archetype
 value: 0x47
-description: |-
+description: >-
   The ["Gem-"](https://yugipedia.com/wiki/Gem-) archetype.
 summary: Gem-
 status: { index: stable }

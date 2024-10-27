@@ -1,7 +1,7 @@
 ---!function
 name: RemoveUntil
 namespace: Auxiliary
-description: |-
+description: >-
   Banishes card(s) and performs an operation to them in a given phase (usually return them to their current location). Returns the effect that would perform the operation if a card is successfully banished, otherwise returns nil. Parameters: - Card|Group card_or_group: the cards to banish, - int|nil pos: the cards' position when banished. `nil` will use their current position, -int reason: the reason for banishing, int phase: the phase when `oper` will be applied to the banished cards, - int flag: a unique integer to be registered as a flag on the affected cards, - Effect e: the effect performing the banishment, - int tp: the player performing the banishment, and will later perform `oper`, - function oper: a function with the signature (rg,e,tp,eg,ep,ev,re,r,rp) where `rg` is the group of cards that can be returned, - function|nil cond: an additional condition function with the signature (rg,e,tp,eg,ep,ev,re,r,rp). `rg` is already checked if it's not empty, - int|nil reset: the reset value. If not passed, the reset will be `RESET_PHASE+phase`. - int|nil reset_count: how many times the reset value must happen. If not passed, the count will be 1. - int|nil hint: a string to show on the affected cards, - int|nil effect_desc: a string to be used as the description of the delayed effect (useful when the same effect registers multiple different delayed effects)
 status:
   index: stable

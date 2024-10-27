@@ -2,7 +2,7 @@
 name: SET_SKYSCRAPER
 enum: Archetype
 value: 0xf6
-description: |-
+description: >-
   The ["Skyscraper"](https://yugipedia.com/wiki/Skyscraper_(archetype)) archetype.
 summary: Skyscraper
 status: { index: stable }

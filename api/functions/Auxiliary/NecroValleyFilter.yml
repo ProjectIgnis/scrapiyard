@@ -1,7 +1,7 @@
 ---!function
 name: NecroValleyFilter
 namespace: Auxiliary
-description: |-
+description: >-
   Filter check "not affected by Necrovalley" in addition to its own filter, if used as function filter, (Card target, ...) is defined by default
 status:
   index: stable

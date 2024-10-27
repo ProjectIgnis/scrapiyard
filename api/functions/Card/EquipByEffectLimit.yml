@@ -1,7 +1,7 @@
 ---!function
 name: EquipByEffectLimit
 namespace: Card
-description: |-
+description: >-
   Equips (Card tc) to (Card c). Adding a (int code) will register that code as flag effect to the equipped card  (bool mustbefaceup) defines if the card to be equipped is required to be face-up.
 status:
   index: stable

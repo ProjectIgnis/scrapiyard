@@ -1,7 +1,7 @@
 ---!function
 name: Overlay
 namespace: Duel
-description: |-
+description: >-
   Attachs (Card|Group of_card) to (Card c). By default, if any card in the 2nd parameter has materials attached to it as well, they'll also be attached to (Card c) automatically. If send_to_grave is true, they will instead be sent to the graveyard with REASON_RULE, if you want to do something else with those cards, you have to move them before calling this function.
 status:
   index: stable

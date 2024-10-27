@@ -1,7 +1,7 @@
 ---!function
 name: IsReincarnationSummoned
 namespace: Card
-description: |-
+description: >-
   Interacts with the functions for "Salamangreat" Reincarnation procedure. Returns if card c has CARD_SALAMANGREAT_SANCTUARY as FlagEffect
 status:
   index: stable

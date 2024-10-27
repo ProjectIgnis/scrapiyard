@@ -2,7 +2,7 @@
 name: EFFECT_SET_BASE_DEFENSE
 enum: EffectCode
 value: 107
-description: |-
+description: >-
   Set the original defense of a monster
 status:
   index: stable

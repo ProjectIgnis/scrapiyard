@@ -2,7 +2,7 @@
 name: SET_HERALDRY
 enum: Archetype
 value: 0x92
-description: |-
+description: >-
   The ["Heraldry"](https://yugipedia.com/wiki/Heraldry) archetype.
 summary: Heraldry
 status: { index: stable }

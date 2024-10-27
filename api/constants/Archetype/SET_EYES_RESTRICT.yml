@@ -2,7 +2,7 @@
 name: SET_EYES_RESTRICT
 enum: Archetype
 value: 0x1110
-description: |-
+description: >-
   The ["Eyes Restrict"](https://yugipedia.com/wiki/Eyes_Restrict) archetype.
   Sub-archetype of [`SET_RELINQUISHED`](/api/constants/Archetype/SET_RELINQUISHED).
 summary: Eyes Restrict

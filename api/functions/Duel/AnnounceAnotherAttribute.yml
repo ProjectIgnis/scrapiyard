@@ -1,7 +1,7 @@
 ---!function
 name: AnnounceAnotherAttribute
 namespace: Duel
-description: |-
+description: >-
   Makes (int player) announce an attribute different from the one(s) already among the members of (group g)
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: STATUS_LEAVE_CONFIRMED
 enum: CardStatus
 value: 0x2000
-description: |-
+description: >-
   After the chain resolves, an activated card with this status would immediately go to Graveyard
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: IsAbleToRemove
 namespace: Card
-description: |-
+description: >-
   Checks if a card (Card c) can be banished. The optional parameters are the player that would banish the card (int player), the position the card must go (int pos) and the reason for the banishing (int reason).
 status:
   index: stable

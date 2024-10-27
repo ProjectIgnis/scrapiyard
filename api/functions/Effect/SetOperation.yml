@@ -1,7 +1,7 @@
 ---!function
 name: SetOperation
 namespace: Effect
-description: |-
+description: >-
   Sets (Effect e)'s operation function.
 status:
   index: stable

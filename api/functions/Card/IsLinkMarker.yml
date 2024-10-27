@@ -1,7 +1,7 @@
 ---!function
 name: IsLinkMarker
 namespace: Card
-description: |-
+description: >-
   Checks if (Card c) has the LinkMarkers represented by (int markers)
 status:
   index: stable

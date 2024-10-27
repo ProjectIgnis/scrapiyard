@@ -2,7 +2,7 @@
 name: RACE_AQUA
 enum: MonsterRace
 value: 0x40
-description: |-
+description: >-
   The [Aqua](https://yugipedia.com/wiki/Aqua) Monster Type
 summary: Aqua
 status: { index: stable }

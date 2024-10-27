@@ -1,7 +1,7 @@
 ---!function
 name: SetDiceResult
 namespace: Duel
-description: |-
+description: >-
   Changes the result of the latest executed dice rolls to the provided values.
 status:
   index: stable

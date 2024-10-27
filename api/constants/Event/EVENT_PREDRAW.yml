@@ -2,7 +2,7 @@
 name: EVENT_PREDRAW
 enum: Event
 value: 1113
-description: |-
+description: >-
   At the start of the Draw Phase
 status:
   index: stable

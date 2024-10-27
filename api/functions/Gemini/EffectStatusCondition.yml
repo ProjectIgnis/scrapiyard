@@ -1,7 +1,7 @@
 ---!function
 name: EffectStatusCondition
 namespace: Gemini
-description: |-
+description: >-
   Checks if an effect's handler (corresponding card) is a Gemini monster applying its effect.
 status:
   index: stable

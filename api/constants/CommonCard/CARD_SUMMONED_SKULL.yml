@@ -2,7 +2,7 @@
 name: CARD_SUMMONED_SKULL
 enum: CommonCard
 value: 70781052
-description: |-
+description: >-
   Summon Skull's ID, used because it has a lot of specific support
 status:
   index: stable

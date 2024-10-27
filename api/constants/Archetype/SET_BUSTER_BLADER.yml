@@ -2,7 +2,7 @@
 name: SET_BUSTER_BLADER
 enum: Archetype
 value: 0xd7
-description: |-
+description: >-
   The ["Buster Blader"](https://yugipedia.com/wiki/Buster_Blader_(archetype)) archetype.
 summary: Buster Blader
 status: { index: stable }

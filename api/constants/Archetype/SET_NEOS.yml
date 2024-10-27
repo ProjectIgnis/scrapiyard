@@ -2,7 +2,7 @@
 name: SET_NEOS
 enum: Archetype
 value: 0x9
-description: |-
+description: >-
   The ["Neos"](https://yugipedia.com/wiki/Neos) archetype.
 summary: Neos
 status: { index: stable }

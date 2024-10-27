@@ -2,7 +2,7 @@
 name: OPCODE_ALLOW_ALIASES
 enum: Opcode
 value: 0x40000014
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

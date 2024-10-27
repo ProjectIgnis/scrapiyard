@@ -2,7 +2,7 @@
 name: HINT_EVENT
 enum: HintType
 value: 1
-description: |-
+description: >-
   used by the core
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: IsOriginalRace
 namespace: Card
-description: |-
+description: >-
   Checks if (Card c) is of original monster type (int val)
 status:
   index: stable

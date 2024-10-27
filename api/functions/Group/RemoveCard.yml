@@ -1,7 +1,7 @@
 ---!function
 name: RemoveCard
 namespace: Group
-description: |-
+description: >-
   Removes from (Group g) a card or group (Card|Group other). Returns the group itself. Equivalent to Group.Sub
 status:
   index: stable

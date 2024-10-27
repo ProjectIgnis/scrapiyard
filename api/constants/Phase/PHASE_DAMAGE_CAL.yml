@@ -2,7 +2,7 @@
 name: PHASE_DAMAGE_CAL
 enum: Phase
 value: 0x40
-description: |-
+description: >-
   The Damage Calculation
 status:
   index: stable

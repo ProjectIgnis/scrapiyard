@@ -1,7 +1,7 @@
 ---!function
 name: HasLevel
 namespace: Card
-description: |-
+description: >-
   Returns `true` if the given card has a level.
   0 and negative levels will count.
 summary: Checks if a card has a level

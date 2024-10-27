@@ -2,7 +2,7 @@
 name: SET_EVOLUTION_PILL
 enum: Archetype
 value: 0x10e
-description: |-
+description: >-
   The ["Evolution Pill"](https://yugipedia.com/wiki/Evolution_Pill) archetype.
 summary: Evolution Pill
 status: { index: stable }

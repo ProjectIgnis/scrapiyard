@@ -1,7 +1,7 @@
 ---!function
 name: ShuffleHand
 namespace: Duel
-description: |-
+description: >-
   Shuffles the hand of (int player). Handled automatically after Duel.ConfirmCards().
 status:
   index: stable

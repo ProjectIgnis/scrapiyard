@@ -1,7 +1,7 @@
 ---!function
 name: SetHint
 namespace: Card
-description: |-
+description: >-
   Sets a card (Card c) hint displaying, type is CHINT_* and value is the appropriate value depending on the type
 status:
   index: stable

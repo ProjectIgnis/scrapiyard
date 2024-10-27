@@ -2,7 +2,7 @@
 name: TYPE_EQUIP
 enum: CardType
 value: 0x40000
-description: |-
+description: >-
   The [Equip](https://yugipedia.com/wiki/Equip_Card) Card Type
 summary: Equip
 status: { index: stable }

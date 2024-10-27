@@ -1,7 +1,7 @@
 ---!function
 name: GetOriginalRace
 namespace: Card
-description: |-
+description: >-
   Returns the original Monster Type of "c".
 status:
   index: stable

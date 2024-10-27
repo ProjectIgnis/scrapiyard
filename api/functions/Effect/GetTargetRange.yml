@@ -1,7 +1,7 @@
 ---!function
 name: GetTargetRange
 namespace: Effect
-description: |-
+description: >-
   Returns the pair of values set in (Effect e)'s SetTargetRange.
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: AddProcCodeRep
 namespace: Fusion
-description: |-
+description: >-
   Recipe for Fusion monsters that have n "code1" cards as material. Not directly called by any card.
 status:
   index: stable

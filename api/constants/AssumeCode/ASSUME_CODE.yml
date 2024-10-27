@@ -2,7 +2,7 @@
 name: ASSUME_CODE
 enum: AssumeCode
 value: 1
-description: |-
+description: >-
   Temporarily assumes that the affected card has a given code (ID/name)
 status:
   index: stable

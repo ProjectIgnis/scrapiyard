@@ -2,7 +2,7 @@
 name: HINTMSG_ATTRIBUTE
 enum: HintMessage
 value: 562
-description: |-
+description: >-
   Shows the following HintMessage: "Declare an Attribute"
 status:
   index: stable

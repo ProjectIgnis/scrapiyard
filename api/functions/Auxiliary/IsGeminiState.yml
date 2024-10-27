@@ -1,7 +1,7 @@
 ---!function
 name: IsGeminiState
 namespace: Auxiliary
-description: |-
+description: >-
   Function deprecated since version 40.0.0. Use "Card.ListsCodeAsMaterial" instead
 status:
   index: stable

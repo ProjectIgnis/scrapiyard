@@ -2,7 +2,7 @@
 name: SET_ENDYMION
 enum: Archetype
 value: 0x12a
-description: |-
+description: >-
   The ["Endymion"](https://yugipedia.com/wiki/Endymion) archetype.
 summary: Endymion
 status: { index: stable }

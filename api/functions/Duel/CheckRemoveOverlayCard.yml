@@ -1,7 +1,7 @@
 ---!function
 name: CheckRemoveOverlayCard
 namespace: Duel
-description: |-
+description: >-
   Returns if (int player) can remove a total of (int count) cards attached, for reason (int reason) from your field (int s == 1) and/or opponent's (int o == 1). If group (ocard) is provided, only checks if cards can be detached from monsters that match said group.
 status:
   index: stable

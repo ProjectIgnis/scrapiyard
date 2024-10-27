@@ -2,7 +2,7 @@
 name: CARD_TAMABOT
 enum: CommonCard
 value: 160312023
-description: |-
+description: >-
   Constant for a commonly used Rush card
 status:
   index: stable

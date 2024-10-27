@@ -2,7 +2,7 @@
 name: SET_MELODIOUS
 enum: Archetype
 value: 0x9b
-description: |-
+description: >-
   The ["Melodious"](https://yugipedia.com/wiki/Melodious) archetype.
 summary: Melodious
 status: { index: stable }

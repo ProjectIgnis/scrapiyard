@@ -2,7 +2,7 @@
 name: SET_PENGUIN
 enum: Archetype
 value: 0x5a
-description: |-
+description: >-
   The ["Penguin"](https://yugipedia.com/wiki/Penguin) archetype.
 summary: Penguin
 status: { index: stable }

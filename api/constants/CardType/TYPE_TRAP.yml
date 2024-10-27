@@ -2,7 +2,7 @@
 name: TYPE_TRAP
 enum: CardType
 value: 0x4
-description: |-
+description: >-
   The [Trap](https://yugipedia.com/wiki/Trap_Card) Card Type
 summary: Trap
 status: { index: stable }

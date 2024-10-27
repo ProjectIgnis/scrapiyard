@@ -2,7 +2,7 @@
 name: TIMINGS_CHECK_MONSTER
 enum: Timing
 value: 0x1c0
-description: |-
+description: >-
   When a monster is placed on the field
 status:
   index: stable

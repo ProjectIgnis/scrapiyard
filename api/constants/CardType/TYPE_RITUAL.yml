@@ -2,7 +2,7 @@
 name: TYPE_RITUAL
 enum: CardType
 value: 0x80
-description: |-
+description: >-
   The [Ritual](https://yugipedia.com/wiki/Ritual_Monster) Card Type for Monsters
 summary: Ritual
 status: { index: stable }

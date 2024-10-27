@@ -1,7 +1,7 @@
 ---!function
 name: qlifilter
 namespace: Auxiliary
-description: |-
+description: >-
   Default filter used with "Qli" monsters for: "Unaffected by activated monster effects whose original Rank/Level is lower than this card's Level"
 status:
   index: stable

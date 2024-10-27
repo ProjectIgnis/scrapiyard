@@ -1,7 +1,7 @@
 ---!function
 name: SetTurnCounter
 namespace: Card
-description: |-
+description: >-
   Sets the turn counter of a Card (Card c) to a value (int count)
 status:
   index: stable

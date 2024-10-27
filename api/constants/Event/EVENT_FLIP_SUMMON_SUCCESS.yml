@@ -2,7 +2,7 @@
 name: EVENT_FLIP_SUMMON_SUCCESS
 enum: Event
 value: 1101
-description: |-
+description: >-
   This event is raised when a monster is successfully Flip Summoned (which is timing for cards like Trap Hole)
 status:
   index: stable

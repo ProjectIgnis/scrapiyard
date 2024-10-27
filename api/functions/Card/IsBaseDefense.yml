@@ -1,7 +1,7 @@
 ---!function
 name: IsBaseDefense
 namespace: Card
-description: |-
+description: >-
   Returns `true` if a card's original DEF is equal to a given value.
   Original DEF might differ from the printed DEF of the card due to effects that change original DEF.
   Use [`Card.IsTextDefense`](/api/functions/Card/IsTextDefense) if you need to check for the printed DEF instead.

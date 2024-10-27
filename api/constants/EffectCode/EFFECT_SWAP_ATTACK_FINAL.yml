@@ -2,7 +2,7 @@
 name: EFFECT_SWAP_ATTACK_FINAL
 enum: EffectCode
 value: 111
-description: |-
+description: >-
   Set the final attack (used to exchange offensive and defensive)
 status:
   index: stable

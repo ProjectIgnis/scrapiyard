@@ -2,7 +2,7 @@
 name: EFFECT_BP_TWICE
 enum: EffectCode
 value: 296
-description: |-
+description: >-
   The affected player can conduct two Battle Phases (e.g. Weather Report)
 status:
   index: stable

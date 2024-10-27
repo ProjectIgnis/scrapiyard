@@ -2,7 +2,7 @@
 name: EFFECT_SET_ATTACK
 enum: EffectCode
 value: 101
-description: |-
+description: >-
   Sets the current ATK of a monster to a value evaluated in Effect.SetValue()
 status:
   index: stable

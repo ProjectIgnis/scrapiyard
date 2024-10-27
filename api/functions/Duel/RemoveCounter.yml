@@ -1,7 +1,7 @@
 ---!function
 name: RemoveCounter
 namespace: Duel
-description: |-
+description: >-
   Makes a player (int player) remove counter(s) (int countertype) (int count) from the field with a reason (int reason). The variables int s and int o are the player's and the opponent's field, respectively, 0 to exclude and 1 (or higher) to include.
 status:
   index: stable

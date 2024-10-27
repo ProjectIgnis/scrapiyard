@@ -2,7 +2,7 @@
 name: CARD_TASTE_INSPECTOR
 enum: CommonCard
 value: 160007008
-description: |-
+description: >-
   Constant for a commonly used Rush card
 status:
   index: stable

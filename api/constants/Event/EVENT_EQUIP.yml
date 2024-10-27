@@ -2,7 +2,7 @@
 name: EVENT_EQUIP
 enum: Event
 value: 1121
-description: |-
+description: >-
   This event is raised when a card is equipped
 status:
   index: stable

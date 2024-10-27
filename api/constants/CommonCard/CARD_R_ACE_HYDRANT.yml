@@ -2,7 +2,7 @@
 name: CARD_R_ACE_HYDRANT
 enum: CommonCard
 value: 37617348
-description: |-
+description: >-
   Rescue-ACE Hydrant's ID
 status:
   index: stable

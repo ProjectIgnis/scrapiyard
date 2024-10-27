@@ -2,7 +2,7 @@
 name: REASON_LOST_TARGET
 enum: Reason
 value: 0x200
-description: |-
+description: >-
   Equip Target stops being face-up, either by leaving the field or being flipped face-down
 status:
   index: stable

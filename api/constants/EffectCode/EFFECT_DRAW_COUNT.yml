@@ -2,7 +2,7 @@
 name: EFFECT_DRAW_COUNT
 enum: EffectCode
 value: 271
-description: |-
+description: >-
   Change the number of cards the affected player draws for their Draw Phase
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: SetCondition
 namespace: Effect
-description: |-
+description: >-
   Sets (Effect e)'s condition function
 status:
   index: stable

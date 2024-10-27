@@ -1,7 +1,7 @@
 ---!function
 name: IsMonsterEffect
 namespace: Effect
-description: |-
+description: >-
   Returns if (Effect e) is a monster effect
 status:
   index: stable

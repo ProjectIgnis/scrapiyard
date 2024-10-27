@@ -2,7 +2,7 @@
 name: EFFECT_ADD_LINK_SETCODE
 enum: EffectCode
 value: 355
-description: |-
+description: >-
   Deprecated and removed effect. See core's "effect.h". Add a setcode (archetype) for the affected monster to have if used for a Link Summon
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_AESIR
 enum: Archetype
 value: 0x4b
-description: |-
+description: >-
   The ["Aesir"](https://yugipedia.com/wiki/Aesir) archetype.
 summary: Aesir
 status: { index: stable }

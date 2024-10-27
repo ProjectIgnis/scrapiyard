@@ -2,7 +2,7 @@
 name: SET_GOUKI
 enum: Archetype
 value: 0xfc
-description: |-
+description: >-
   The ["Gouki"](https://yugipedia.com/wiki/Gouki) archetype.
 summary: Gouki
 status: { index: stable }

@@ -1,7 +1,7 @@
 ---!function
 name: XyzSummon
 namespace: Duel
-description: |-
+description: >-
   A player (int player) Xyz Summons a card (Card c) using "must_use" as part of its materials, choosing among "mg", with "min" and "max" materials to be used for the Summon
 status:
   index: stable

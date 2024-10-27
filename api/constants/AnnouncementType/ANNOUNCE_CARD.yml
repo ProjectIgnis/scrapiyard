@@ -2,7 +2,7 @@
 name: ANNOUNCE_CARD
 enum: AnnouncementType
 value: 0x7
-description: |-
+description: >-
   Card declaration
 status:
   index: stable

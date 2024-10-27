@@ -1,7 +1,7 @@
 ---!function
 name: CheckEvent
 namespace: Duel
-description: |-
+description: >-
   Returns if, at the activation timing, the (int event) passed is available. If (bool get_info) is set to true, all the even info are returned as extra return values
 status:
   index: stable

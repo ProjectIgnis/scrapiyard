@@ -1,7 +1,7 @@
 ---!function
 name: GetFieldID
 namespace: Card
-description: |-
+description: >-
   Returns a card's current location ID, a value assigned to a card whenever it changes locations.
 summary: Gets a card's current location ID
 parameters:

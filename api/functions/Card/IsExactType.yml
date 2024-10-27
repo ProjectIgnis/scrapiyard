@@ -1,7 +1,7 @@
 ---!function
 name: IsExactType
 namespace: Card
-description: |-
+description: >-
   Checks if (Card c)'s type (returned by Card.GetType) is exactly (int typ)
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: CheckReleaseGroupCost
 namespace: Duel
-description: |-
+description: >-
   Checks if the player can tribute cards on the field, excluding "ex" to activate the effect of a monster while also checking for applied effects of cards like "Lair of Darkness" (behaviour now also implemented in the normal CheckReleaseGroup). If function f is passed, the cards returned by Duel.GetReleaseGroup are filtered based on that function. The function spcheck is a callback function that gets passed the current checked group (sg) as first parameter, the checking player (tp) as second parameter, a group containing opponent's cards affected by EFFECT_EXTRA_RELEASE_NONSUM or EFFECT_EXTRA_RELEASE (exg) and the extra parameters passed to the function (...). The spcheck function has to return 1 or 2 boolean values indicating if the passed group (sg) satisfy the requirements as first return value and as optional second parameter to indicate if no matter how many new cards are added to (sg), the condition will never return true.
 status:
   index: stable

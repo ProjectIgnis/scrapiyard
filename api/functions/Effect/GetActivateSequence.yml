@@ -1,7 +1,7 @@
 ---!function
 name: GetActivateSequence
 namespace: Effect
-description: |-
+description: >-
   Gets (Effect e)'s sequence when it was activated.
 status:
   index: stable

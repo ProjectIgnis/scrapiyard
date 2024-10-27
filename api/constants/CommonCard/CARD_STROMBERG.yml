@@ -2,7 +2,7 @@
 name: CARD_STROMBERG
 enum: CommonCard
 value: 72283691
-description: |-
+description: >-
   Golden Castle of Stromberg's ID, used for listed_names and specific support
 status:
   index: stable

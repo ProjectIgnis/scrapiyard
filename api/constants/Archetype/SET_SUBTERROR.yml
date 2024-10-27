@@ -2,7 +2,7 @@
 name: SET_SUBTERROR
 enum: Archetype
 value: 0xed
-description: |-
+description: >-
   The ["Subterror"](https://yugipedia.com/wiki/Subterror) archetype.
 summary: Subterror
 status: { index: stable }

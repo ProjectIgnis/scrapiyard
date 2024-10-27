@@ -2,7 +2,7 @@
 name: TOKEN_OJAMA
 enum: CommonToken
 value: 29843092
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

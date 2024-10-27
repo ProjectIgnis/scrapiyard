@@ -2,7 +2,7 @@
 name: SET_VEDA
 enum: Archetype
 value: 0x202
-description: |-
+description: >-
   The ["Veda"](https://yugipedia.com/wiki/Veda) archetype.
 summary: Veda
 status: { index: stable }

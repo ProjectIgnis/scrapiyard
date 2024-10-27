@@ -2,7 +2,7 @@
 name: EFFECT_FLAG_SINGLE_RANGE
 enum: EffectProperty
 value: 0x20000
-description: |-
+description: >-
   The effect that has this flag is only valid for the card itself
 status:
   index: stable

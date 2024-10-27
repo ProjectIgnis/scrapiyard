@@ -2,7 +2,7 @@
 name: EFFECT_TRIPLE_TRIBUTE
 enum: EffectCode
 value: 156
-description: |-
+description: >-
   Treats a card as 2 and 3 tributes for a tribute summon
 status:
   index: stable

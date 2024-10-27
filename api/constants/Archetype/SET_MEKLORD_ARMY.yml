@@ -2,7 +2,7 @@
 name: SET_MEKLORD_ARMY
 enum: Archetype
 value: 0x6013
-description: |-
+description: >-
   The ["Meklord Army"](https://yugipedia.com/wiki/Meklord_Army) archetype.
   Sub-archetype of [`SET_MEKLORD`](/api/constants/Archetype/SET_MEKLORD).
 summary: Meklord Army

@@ -1,7 +1,7 @@
 ---!function
 name: Match
 namespace: Group
-description: |-
+description: >-
   It has the same behaviour as Group.Filter but the changes are done to the Group g and no new group is created.
 status:
   index: stable

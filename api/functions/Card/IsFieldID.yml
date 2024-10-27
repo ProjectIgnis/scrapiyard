@@ -1,7 +1,7 @@
 ---!function
 name: IsFieldID
 namespace: Card
-description: |-
+description: >-
   Returns `true` if a given value is equal to a card's current location ID,
   a value assigned to a card whenever it changes locations.
 summary: Checks a card's current location ID

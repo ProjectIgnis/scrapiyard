@@ -2,7 +2,7 @@
 name: SET_XX_SABER
 enum: Archetype
 value: 0x300d
-description: |-
+description: >-
   The ["XX-Saber"](https://yugipedia.com/wiki/XX-Saber) series.
   Technically not an archetype but is registered as such on some cards.
   Sub-archetype of [`SET_SABER`](/api/constants/Archetype/SET_SABER).

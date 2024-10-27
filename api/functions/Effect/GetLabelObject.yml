@@ -1,7 +1,7 @@
 ---!function
 name: GetLabelObject
 namespace: Effect
-description: |-
+description: >-
   Gets an effect's (Effect e) internal label object
 status:
   index: stable

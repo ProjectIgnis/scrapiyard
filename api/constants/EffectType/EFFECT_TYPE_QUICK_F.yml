@@ -2,7 +2,7 @@
 name: EFFECT_TYPE_QUICK_F
 enum: EffectType
 value: 0x400
-description: |-
+description: >-
   Mandatory Quick Effect (such as Light and Darkness Dragon)
 status:
   index: stable

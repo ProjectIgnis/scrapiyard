@@ -2,7 +2,7 @@
 name: SET_LIVE_TWIN
 enum: Archetype
 value: 0x156
-description: |-
+description: >-
   The ["Live☆Twin"](https://yugipedia.com/wiki/Live%E2%98%86Twin) archetype.
 summary: Live☆Twin
 status: { index: stable }

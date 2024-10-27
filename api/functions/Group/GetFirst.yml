@@ -1,7 +1,7 @@
 ---!function
 name: GetFirst
 namespace: Group
-description: |-
+description: >-
   Gets the first member of Group g (also resets the internal enumerator). Returns nil if the group is empty.
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_MORGANITE
 enum: Archetype
 value: 0x1b3
-description: |-
+description: >-
   The ["Morganite"](https://yugipedia.com/wiki/Morganite) archetype.
 summary: Morganite
 status: { index: stable }

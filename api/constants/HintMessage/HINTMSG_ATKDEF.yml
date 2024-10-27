@@ -2,7 +2,7 @@
 name: HINTMSG_ATKDEF
 enum: HintMessage
 value: 576
-description: |-
+description: >-
   Shows the following HintMessage: "Select the card(s) to change its ATK/DEF"
 status:
   index: stable

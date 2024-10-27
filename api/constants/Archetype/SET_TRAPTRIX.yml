@@ -2,7 +2,7 @@
 name: SET_TRAPTRIX
 enum: Archetype
 value: 0x108a
-description: |-
+description: >-
   The ["Traptrix"](https://yugipedia.com/wiki/Traptrix) archetype.
 summary: Traptrix
 status: { index: stable }

@@ -2,7 +2,7 @@
 name: SET_INZEKTOR
 enum: Archetype
 value: 0x56
-description: |-
+description: >-
   The ["Inzektor"](https://yugipedia.com/wiki/Inzektor) archetype.
 summary: Inzektor
 status: { index: stable }

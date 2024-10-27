@@ -2,7 +2,7 @@
 name: SET_DARK_LUCIUS
 enum: Archetype
 value: 0x4f
-description: |-
+description: >-
   The ["Dark Lucius"](https://yugipedia.com/wiki/Dark_Lucius) series of "LV" monsters.
   Technically not an archetype but is registered as such on some cards for the LV set handling.
 summary: Dark Lucius

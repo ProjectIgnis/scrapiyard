@@ -1,7 +1,7 @@
 ---!function
 name: ReplaceEffect
 namespace: Card
-description: |-
+description: >-
   Temporarily replace all effects of a card (Card c) with the effect of card with the specified card code (int code) that resets according to the ascribed reset flag (int reset_flag)
 status:
   index: stable

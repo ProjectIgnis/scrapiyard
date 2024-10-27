@@ -2,7 +2,7 @@
 name: SET_KARAKURI
 enum: Archetype
 value: 0x11
-description: |-
+description: >-
   The ["Karakuri"](https://yugipedia.com/wiki/Karakuri) archetype.
 summary: Karakuri
 status: { index: stable }

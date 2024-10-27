@@ -2,7 +2,7 @@
 name: SET_EVOLZAR
 enum: Archetype
 value: 0x504e
-description: |-
+description: >-
   The ["Evolzar"](https://yugipedia.com/wiki/Evolzar) archetype.
 summary: Evolzar
 status: { index: stable }

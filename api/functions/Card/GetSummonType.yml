@@ -1,7 +1,7 @@
 ---!function
 name: GetSummonType
 namespace: Card
-description: |-
+description: >-
   Gets the type in which (Card c) was Summoned
 status:
   index: stable

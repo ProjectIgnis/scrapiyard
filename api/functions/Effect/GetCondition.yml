@@ -1,7 +1,7 @@
 ---!function
 name: GetCondition
 namespace: Effect
-description: |-
+description: >-
   Gets an effect's (Effect e) condition function, returns nil if no function was set
 status:
   index: stable

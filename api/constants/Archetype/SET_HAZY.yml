@@ -2,7 +2,7 @@
 name: SET_HAZY
 enum: Archetype
 value: 0x7d
-description: |-
+description: >-
   The ["Hazy"](https://yugipedia.com/wiki/Hazy) archetype.
 summary: Hazy
 status: { index: stable }

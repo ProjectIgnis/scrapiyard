@@ -2,7 +2,7 @@
 name: EFFECT_CANNOT_FLIP_SUMMON
 enum: EffectCode
 value: 21
-description: |-
+description: >-
   The affected player cannot Flip Summon.
 status:
   index: stable

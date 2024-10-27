@@ -1,7 +1,7 @@
 ---!function
 name: GetLinkedZone
 namespace: Card
-description: |-
+description: >-
   Returns all the zones that "c" points to (on the field of player "cp").
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_GUNKAN
 enum: Archetype
 value: 0x168
-description: |-
+description: >-
   The ["Gunkan"](https://yugipedia.com/wiki/Gunkan) archetype.
 summary: Gunkan
 status: { index: stable }

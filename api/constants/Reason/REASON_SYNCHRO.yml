@@ -2,7 +2,7 @@
 name: REASON_SYNCHRO
 enum: Reason
 value: 0x80000
-description: |-
+description: >-
   Used for Synchro Summon
 status:
   index: stable

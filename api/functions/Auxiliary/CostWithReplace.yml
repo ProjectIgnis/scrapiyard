@@ -1,7 +1,7 @@
 ---!function
 name: CostWithReplace
 namespace: Auxiliary
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

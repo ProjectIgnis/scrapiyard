@@ -1,7 +1,7 @@
 ---!function
 name: IsReasonPlayer
 namespace: Card
-description: |-
+description: >-
   Returns `true` if a given player caused the [Event](/api/enums/Event) that happened to a card.
 summary: Checks if a player caused the event that happened to card
 parameters:

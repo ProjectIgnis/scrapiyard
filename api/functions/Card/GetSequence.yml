@@ -1,7 +1,7 @@
 ---!function
 name: GetSequence
 namespace: Card
-description: |-
+description: >-
   Gets the sequence/order of the location of (Card c)
 status:
   index: stable

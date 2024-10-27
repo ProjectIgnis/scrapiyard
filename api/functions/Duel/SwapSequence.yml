@@ -1,7 +1,7 @@
 ---!function
 name: SwapSequence
 namespace: Duel
-description: |-
+description: >-
   Exchanges the positions of two cards in the same location on the same side of the field.
 status:
   index: stable

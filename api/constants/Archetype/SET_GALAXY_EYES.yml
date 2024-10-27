@@ -2,7 +2,7 @@
 name: SET_GALAXY_EYES
 enum: Archetype
 value: 0x107b
-description: |-
+description: >-
   The ["Galaxy-Eyes"](https://yugipedia.com/wiki/Galaxy-Eyes) archetype.
   Sub-archetype of [`SET_GALAXY`](/api/constants/Archetype/SET_GALAXY).
 summary: Galaxy-Eyes

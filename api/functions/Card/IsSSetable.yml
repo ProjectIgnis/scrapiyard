@@ -1,7 +1,7 @@
 ---!function
 name: IsSSetable
 namespace: Card
-description: |-
+description: >-
   Checks whether a card (Card c) can be Set in S/T zone. Setting ignore_field to true makes it not check for free space in the S/T Zone.
 status:
   index: stable

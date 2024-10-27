@@ -1,7 +1,7 @@
 ---!function
 name: Damage
 namespace: Duel
-description: |-
+description: >-
   Damages/Decreases player's (int player) Life Points by an amount (int value) for a reason (int reason). The damage is considered to be dealt by (int rp). Setting (bool is_step) to true will make so the damage is considered dealt at the call of Duel.RDComplete().
 status:
   index: stable

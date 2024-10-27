@@ -2,7 +2,7 @@
 name: HINTMSG_TOZONE
 enum: HintMessage
 value: 571
-description: |-
+description: >-
   Shows the following HintMessage: "Select the zone to move the card to"
 status:
   index: stable

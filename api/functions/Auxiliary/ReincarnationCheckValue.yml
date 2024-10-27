@@ -1,7 +1,7 @@
 ---!function
 name: ReincarnationCheckValue
 namespace: Auxiliary
-description: |-
+description: >-
   Auxiliary function for "Salamangreat" Reincarnation procedure. Registers CARD_SALAMANGREAT_SANCTUARY as flag  to (card c) if it is either a Link, Fusion or Ritual and has among its materials a card with the same ID as (card c).
 status:
   index: stable

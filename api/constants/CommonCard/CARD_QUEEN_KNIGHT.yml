@@ -2,7 +2,7 @@
 name: CARD_QUEEN_KNIGHT
 enum: CommonCard
 value: 25652259
-description: |-
+description: >-
   Queen's Knight's ID
 status:
   index: stable

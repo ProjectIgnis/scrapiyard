@@ -1,7 +1,7 @@
 ---!function
 name: IsRelateToEffect
 namespace: Card
-description: |-
+description: >-
   Checks whether a card (Card c) is related to an effect (Effect e)
 status:
   index: stable

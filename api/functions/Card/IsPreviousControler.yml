@@ -1,7 +1,7 @@
 ---!function
 name: IsPreviousControler
 namespace: Card
-description: |-
+description: >-
   Checks if (Card c) is previous controlled by player (int tp)
 status:
   index: stable

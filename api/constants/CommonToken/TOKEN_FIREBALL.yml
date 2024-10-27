@@ -2,7 +2,7 @@
 name: TOKEN_FIREBALL
 enum: CommonToken
 value: 23116809
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

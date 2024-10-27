@@ -1,7 +1,7 @@
 ---!function
 name: IsAbleToHand
 namespace: Card
-description: |-
+description: >-
   Checks if the card c can be returned to the hand
 status:
   index: stable

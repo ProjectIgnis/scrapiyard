@@ -2,7 +2,7 @@
 name: SET_METALMORPH
 enum: Archetype
 value: 0x1b2
-description: |-
+description: >-
   The ["Metalmorph"](https://yugipedia.com/wiki/Metalmorph_(archetype)) archetype.
 summary: Metalmorph
 status: { index: stable }

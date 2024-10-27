@@ -1,7 +1,7 @@
 ---!function
 name: CheckWithSumGreater
 namespace: Group
-description: |-
+description: >-
   Checks if there is a combination of cards, with a minimum and maximum, that has the sum of f(c,...) result greater than or equal to (int sum) in a group (Group g). Function f accepts at least one parameter (f(c,...), with c as each member of the group), and the return value should be integer. The second returned value indicates whether the check failed because of overtributing (in which case it will be true), or because of undertributing.
 status:
   index: stable

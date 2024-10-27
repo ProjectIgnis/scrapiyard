@@ -2,7 +2,7 @@
 name: EVENT_BATTLE_DAMAGE
 enum: Event
 value: 1143
-description: |-
+description: >-
   This event is raised when battle damage is taken
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: EVENT_DAMAGE_STEP_END
 enum: Event
 value: 1141
-description: |-
+description: >-
   At the end of the Damage Step
 status:
   index: stable

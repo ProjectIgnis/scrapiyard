@@ -2,7 +2,7 @@
 name: ACTIVITY_CHAIN
 enum: ActivityCode
 value: 7
-description: |-
+description: >-
   An activity only available with custom counter
 status:
   index: stable

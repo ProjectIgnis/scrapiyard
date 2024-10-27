@@ -2,7 +2,7 @@
 name: TIMING_SPSUMMON
 enum: Timing
 value: 0x80
-description: |-
+description: >-
   When a monster is Special Summoned
 status:
   index: stable

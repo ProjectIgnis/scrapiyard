@@ -1,7 +1,7 @@
 ---!function
 name: GetRealFieldID
 namespace: Card
-description: |-
+description: >-
   Returns a card's unique duel ID, a value assigned to a card
   at the start of the duel and never changes.
 summary: Gets a card's current location ID

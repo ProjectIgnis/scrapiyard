@@ -2,7 +2,7 @@
 name: SET_WORLD_CHALICE
 enum: Archetype
 value: 0xfd
-description: |-
+description: >-
   The ["World Chalice"](https://yugipedia.com/wiki/World_Chalice) archetype.
 summary: World Chalice
 status: { index: stable }

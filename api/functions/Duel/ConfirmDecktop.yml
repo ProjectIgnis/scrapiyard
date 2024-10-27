@@ -1,7 +1,7 @@
 ---!function
 name: ConfirmDecktop
 namespace: Duel
-description: |-
+description: >-
   Reveals a number (int count) of cards from the top of a player's (int player) Deck to both players
 status:
   index: stable

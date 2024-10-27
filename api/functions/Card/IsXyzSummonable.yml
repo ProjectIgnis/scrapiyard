@@ -1,7 +1,7 @@
 ---!function
 name: IsXyzSummonable
 namespace: Card
-description: |-
+description: >-
   Checks if "c" can be Xyz Summoned using "must_use" as part of its materials, choosing among "mg", with "min" and "max" materials to be used for the Xyz Summon
 status:
   index: stable

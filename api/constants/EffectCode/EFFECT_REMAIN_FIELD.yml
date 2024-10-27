@@ -2,7 +2,7 @@
 name: EFFECT_REMAIN_FIELD
 enum: EffectCode
 value: 17
-description: |-
+description: >-
   Affected card remains on the field (e.g. Swords of Revealing Light)
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: EFFECT_SET_CONTROL
 enum: EffectCode
 value: 4
-description: |-
+description: >-
   The affected card's control is set to a given player. The player should be defined in SetValue (SetValue receives e and c)
 status:
   index: stable

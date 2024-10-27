@@ -1,7 +1,7 @@
 ---!function
 name: IsImmuneToEffect
 namespace: Card
-description: |-
+description: >-
   Checks if a card (Card c) is not affected by an effect (Effect e)
 status:
   index: stable

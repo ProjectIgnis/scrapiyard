@@ -1,7 +1,7 @@
 ---!function
 name: GetBitwiseOr
 namespace: Group
-description: |-
+description: >-
   Gets the "bitwise or" (|) of f(c,...) result from all members of a group (Group g). Function f accepts at least one parameter (f(c,...), with c as each member of the group), and the return value should be integer.
 status:
   index: stable

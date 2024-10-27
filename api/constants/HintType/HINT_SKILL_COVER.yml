@@ -2,7 +2,7 @@
 name: HINT_SKILL_COVER
 enum: HintType
 value: 201
-description: |-
+description: >-
   Sets the cover and id for a skill card. Cover is  value & 0xffffffff, code is (value>>32) & 0xffffffff. If  it iscalled first, the skill is created face-down.
 status:
   index: stable

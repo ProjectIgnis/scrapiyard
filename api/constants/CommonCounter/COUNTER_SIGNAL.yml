@@ -2,7 +2,7 @@
 name: COUNTER_SIGNAL
 enum: CommonCounter
 value: 0x1148
-description: |-
+description: >-
   The hexadecimal value of Signal Counters
 status:
   index: stable

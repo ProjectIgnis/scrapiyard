@@ -1,7 +1,7 @@
 ---!function
 name: DeleteGroup
 namespace: Group
-description: |-
+description: >-
   Makes a group that was kept alive be collectable (Group g)
 status:
   index: stable

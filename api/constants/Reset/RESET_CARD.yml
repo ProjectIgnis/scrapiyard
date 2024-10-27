@@ -2,7 +2,7 @@
 name: RESET_CARD
 enum: Reset
 value: 0x2000
-description: |-
+description: >-
   Resets Owner to specify the effect of the card
 status:
   index: stable

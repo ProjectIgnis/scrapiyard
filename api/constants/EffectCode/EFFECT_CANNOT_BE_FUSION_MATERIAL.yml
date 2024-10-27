@@ -2,7 +2,7 @@
 name: EFFECT_CANNOT_BE_FUSION_MATERIAL
 enum: EffectCode
 value: 235
-description: |-
+description: >-
   Affected card cannot be used as Fusion material
 status:
   index: stable

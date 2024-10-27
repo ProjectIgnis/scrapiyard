@@ -1,7 +1,7 @@
 ---!function
 name: IsHasType
 namespace: Effect
-description: |-
+description: >-
   Returns true if the effect (Effect e) has any type listed in (int type), otherwise returns false
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_CYBERDARK
 enum: Archetype
 value: 0x4093
-description: |-
+description: >-
   The ["Cyberdark"](https://yugipedia.com/wiki/Cyberdark) archetype.
   Sub-archetype of [`SET_CYBER`](/api/constants/Archetype/SET_CYBER).
 summary: Cyberdark

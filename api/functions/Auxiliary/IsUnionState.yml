@@ -1,7 +1,7 @@
 ---!function
 name: IsUnionState
 namespace: Auxiliary
-description: |-
+description: >-
   Used as a default condition to check if the handler of the effect is a Union monster equipped to another monster.
 status:
   index: stable

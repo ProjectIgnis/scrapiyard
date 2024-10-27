@@ -2,7 +2,7 @@
 name: TOKEN_MECHA_PHANTOM_BEAST
 enum: CommonToken
 value: 31533705
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

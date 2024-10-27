@@ -1,6 +1,6 @@
 ---!enum
 name: Location
-description: |-
+description: >-
   (To be added)
 bitmaskInt: true
 tags: [ under-construction ]

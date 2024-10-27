@@ -1,7 +1,7 @@
 ---!function
 name: ShowHint
 namespace: Debug
-description: |-
+description: >-
   In puzzles, displays a message on the screen.
 summary: Displays a message on the screen
 status:

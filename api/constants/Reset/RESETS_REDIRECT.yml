@@ -2,7 +2,7 @@
 name: RESETS_REDIRECT
 enum: Reset
 value: 0x047e0000
-description: |-
+description: >-
   Complex reset. The sum of RESETS_STANDARD+RESET_OVERLAY-RESET_TOFIELD-RESET_LEAVE, most often used for EFFECT_LEAVE_FIELD_REDIRECT resets
 status:
   index: stable

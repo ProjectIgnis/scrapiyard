@@ -1,7 +1,7 @@
 ---!type
 name: RitualProcOptions
 supertype: table
-description: |-
+description: >-
   (To be added)
 fields:
   - name: handler

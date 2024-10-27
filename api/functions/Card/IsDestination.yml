@@ -1,7 +1,7 @@
 ---!function
 name: IsDestination
 namespace: Card
-description: |-
+description: >-
   Returns `true` if a card would be sent to a given location (e.g. when it would be destroyed).
 summary: Checks if a card would be sent to a given location
 parameters:

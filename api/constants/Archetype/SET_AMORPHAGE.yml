@@ -2,7 +2,7 @@
 name: SET_AMORPHAGE
 enum: Archetype
 value: 0xe0
-description: |-
+description: >-
   The ["Amorphage"](https://yugipedia.com/wiki/Amorphage) archetype.
 summary: Amorphage
 status: { index: stable }

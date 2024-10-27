@@ -1,7 +1,7 @@
 ---!function
 name: ReturnToField
 namespace: Duel
-description: |-
+description: >-
   Return a card (Card c) to the field (only valid for cards that leaves the field with REASON_TEMPORARY, pos denotes the return position (if not specified, uses the card's previous position on field)
 status:
   index: stable

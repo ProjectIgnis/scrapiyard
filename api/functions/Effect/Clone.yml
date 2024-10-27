@@ -1,7 +1,7 @@
 ---!function
 name: Clone
 namespace: Effect
-description: |-
+description: >-
   Clone an effect object (Effect e), duplicating all except register status and assigned labels.
 status:
   index: stable

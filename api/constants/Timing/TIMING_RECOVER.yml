@@ -2,7 +2,7 @@
 name: TIMING_RECOVER
 enum: Timing
 value: 0x40000
-description: |-
+description: >-
   When a player gains LP
 status:
   index: stable

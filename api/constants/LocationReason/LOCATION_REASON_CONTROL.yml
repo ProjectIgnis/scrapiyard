@@ -2,7 +2,7 @@
 name: LOCATION_REASON_CONTROL
 enum: LocationReason
 value: 0x2
-description: |-
+description: >-
   Used by Card.IsControlerCanBeChanged()
 status:
   index: stable

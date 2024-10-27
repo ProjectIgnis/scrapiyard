@@ -2,7 +2,7 @@
 name: SET_BATTLEGUARD
 enum: Archetype
 value: 0x2178
-description: |-
+description: >-
   The ["Battleguard"](https://yugipedia.com/wiki/Battleguard) archetype.
 summary: Battleguard
 status: { index: stable }

@@ -1,7 +1,7 @@
 ---!function
 name: SetFlagEffectLabel
 namespace: Card
-description: |-
+description: >-
   Assigns an integer (int label) number to the flag effect attached to a card (Card c) with (int code) as the EffectCode. Returns true if a flag effect with such code existed and the label was set.
 status:
   index: stable

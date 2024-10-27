@@ -2,7 +2,7 @@
 name: EFFECT_TYPE_ACTIVATE
 enum: EffectType
 value: 0x10
-description: |-
+description: >-
   Spell/Trap Activation
 status:
   index: stable

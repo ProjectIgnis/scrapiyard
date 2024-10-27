@@ -2,7 +2,7 @@
 name: RESET_TOGRAVE
 enum: Reset
 value: 0x40000
-description: |-
+description: >-
   Resets when the card goes to the graveyard
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: DUEL_DRAW_UNTIL_5
 enum: DuelMode
 value: 0x800000
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

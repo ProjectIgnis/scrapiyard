@@ -2,7 +2,7 @@
 name: EVENT_SPSUMMON_NEGATED
 enum: Event
 value: 1116
-description: |-
+description: >-
   This event is raised when a Special Summon is negated
 status:
   index: stable

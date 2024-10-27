@@ -1,7 +1,7 @@
 ---!function
 name: SetLabelObject
 namespace: Effect
-description: |-
+description: >-
   Sets an effect's (Effect e) internal label object to label object. This operation replaces a previously stored label object.
 status:
   index: stable

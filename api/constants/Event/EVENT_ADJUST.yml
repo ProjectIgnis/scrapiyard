@@ -2,7 +2,7 @@
 name: EVENT_ADJUST
 enum: Event
 value: 1040
-description: |-
+description: >-
   This event is raised when the game state changes (effectively working as some sort of EVENT_ANYCHANGE)
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: LoadCardScriptAlias
 namespace: Duel
-description: |-
+description: >-
   Loads the target's card metatable in the duel, and makes so that the current loaded one gets replaced by it. This will basically make the script that called this function behave like script loading for alternate artworks (to deal with problems of loading aliased cards)
 status:
   index: stable

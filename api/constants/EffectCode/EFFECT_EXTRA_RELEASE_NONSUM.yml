@@ -2,7 +2,7 @@
 name: EFFECT_EXTRA_RELEASE_NONSUM
 enum: EffectCode
 value: 158
-description: |-
+description: >-
   The affected card can be tributed (by a cost ?) even if it is controlled by the opponent.
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: GetOriginalLeftScale
 namespace: Card
-description: |-
+description: >-
   Returns the original left Pendulum Scale of "c". (Returns 0 if it has no Pendulum Scale.)
 status:
   index: stable

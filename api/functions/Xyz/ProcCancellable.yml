@@ -1,7 +1,7 @@
 ---!function
 name: ProcCancellable
 namespace: Xyz
-description: |-
+description: >-
   Used with the Xyz Summon procedure and a fw Xyz monsters. Defined as false.
 status:
   index: stable

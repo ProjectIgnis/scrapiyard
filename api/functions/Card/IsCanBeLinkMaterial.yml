@@ -1,7 +1,7 @@
 ---!function
 name: IsCanBeLinkMaterial
 namespace: Card
-description: |-
+description: >-
   Checks if (Card c) can be used as material for a (Card linkc). "player" is only an additional parameter, is used to send it to the functions as an additional parameter, such as target (function in SetTarget) or operation (function in SetOperation).
 status:
   index: stable

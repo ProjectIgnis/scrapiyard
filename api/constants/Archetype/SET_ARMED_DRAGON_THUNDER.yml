@@ -2,7 +2,7 @@
 name: SET_ARMED_DRAGON_THUNDER
 enum: Archetype
 value: 0x1111
-description: |-
+description: >-
   The "Armed Dragon Thunder" series of "LV" monsters.
   Technically not an archetype and not currently registered to any card, since "Armed Dragon" is used instead.
   Sub-archetype of [`SET_ARMED_DRAGON`](/api/constants/Archetype/SET_ARMED_DRAGON).

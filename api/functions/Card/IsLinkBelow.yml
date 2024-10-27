@@ -1,7 +1,7 @@
 ---!function
 name: IsLinkBelow
 namespace: Card
-description: |-
+description: >-
   Checks if (Card c) has a Link Rating (link_rating) equal or lower than the given number
 status:
   index: stable

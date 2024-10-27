@@ -1,7 +1,7 @@
 ---!function
 name: GetPreviousControler
 namespace: Card
-description: |-
+description: >-
   Returns the previous controller of "c".
 status:
   index: stable

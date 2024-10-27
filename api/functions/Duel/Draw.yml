@@ -1,7 +1,7 @@
 ---!function
 name: Draw
 namespace: Duel
-description: |-
+description: >-
   Player (int player) draws a specific amount (int count) of Cards for a reason (REASON_x)
 status:
   index: stable

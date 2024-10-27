@@ -2,7 +2,7 @@
 name: CARD_NEOS
 enum: CommonCard
 value: 89943723
-description: |-
+description: >-
   Elemental HERO Neos' ID, used for listed_names and specific support
 status:
   index: stable

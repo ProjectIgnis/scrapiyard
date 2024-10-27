@@ -1,7 +1,7 @@
 ---!function
 name: Merge
 namespace: Group
-description: |-
+description: >-
   Add a card or group (Card|Group other) to a group (Group g). Returns the group itself. Equivalent to Group.AddCard
 status:
   index: stable

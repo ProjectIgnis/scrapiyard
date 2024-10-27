@@ -1,7 +1,7 @@
 ---!function
 name: IsOriginalCode
 namespace: Card
-description: |-
+description: >-
   Checks if (Card c) has original card name of (int cd)
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: GetType
 namespace: Card
-description: |-
+description: >-
   Gets the current type of a Card (Card c) where (Card scard) if provided checks the monster that (Card c) would be used as material, (int sumtype) is for checking the SummonType and (int playerid) is the player checking the type.
 status:
   index: stable

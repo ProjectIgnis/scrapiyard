@@ -2,7 +2,7 @@
 name: SET_THE_AGENT
 enum: Archetype
 value: 0x44
-description: |-
+description: >-
   The ["The Agent"](https://yugipedia.com/wiki/The_Agent) archetype.
 summary: The Agent
 status: { index: stable }

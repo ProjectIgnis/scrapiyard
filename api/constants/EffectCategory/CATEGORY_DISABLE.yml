@@ -2,7 +2,7 @@
 name: CATEGORY_DISABLE
 enum: EffectCategory
 value: 0x4000
-description: |-
+description: >-
   Describes an effect that negates a card effect (not an effect's activation)
 status:
   index: stable

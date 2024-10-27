@@ -2,7 +2,7 @@
 name: SUMMON_TYPE_RITUAL
 enum: SummonType
 value: 0x45000000
-description: |-
+description: >-
   Ritual Summon
 status:
   index: stable

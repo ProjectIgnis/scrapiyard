@@ -1,7 +1,7 @@
 ---!function
 name: damcon1
 namespace: Auxiliary
-description: |-
+description: >-
   Default condition for "If you would take effect damage"
 status:
   index: stable

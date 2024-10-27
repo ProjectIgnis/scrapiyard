@@ -1,7 +1,7 @@
 ---!function
 name: GetFieldCard
 namespace: Duel
-description: |-
+description: >-
   Gets a card in certain location at a certain sequence
 status:
   index: stable

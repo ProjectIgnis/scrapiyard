@@ -2,7 +2,7 @@
 name: SET_BUJIN
 enum: Archetype
 value: 0x88
-description: |-
+description: >-
   The ["Bujin"](https://yugipedia.com/wiki/Bujin) archetype.
 summary: Bujin
 status: { index: stable }

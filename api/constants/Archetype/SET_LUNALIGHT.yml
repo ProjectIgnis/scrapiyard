@@ -2,7 +2,7 @@
 name: SET_LUNALIGHT
 enum: Archetype
 value: 0xdf
-description: |-
+description: >-
   The ["Lunalight"](https://yugipedia.com/wiki/Lunalight) archetype.
 summary: Lunalight
 status: { index: stable }

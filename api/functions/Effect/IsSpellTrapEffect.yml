@@ -1,7 +1,7 @@
 ---!function
 name: IsSpellTrapEffect
 namespace: Effect
-description: |-
+description: >-
   Returns if (Effect e) is an effect from a Spell or Trap card
 status:
   index: stable

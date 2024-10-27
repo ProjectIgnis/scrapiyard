@@ -2,7 +2,7 @@
 name: SET_AROMA
 enum: Archetype
 value: 0xc9
-description: |-
+description: >-
   The ["Aroma"](https://yugipedia.com/wiki/Aroma) archetype.
 summary: Aroma
 status: { index: stable }

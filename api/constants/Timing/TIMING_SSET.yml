@@ -2,7 +2,7 @@
 name: TIMING_SSET
 enum: Timing
 value: 0x400
-description: |-
+description: >-
   When a Spell/Trap is Set
 status:
   index: stable

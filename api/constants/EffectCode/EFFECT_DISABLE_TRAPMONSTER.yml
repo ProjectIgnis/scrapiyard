@@ -2,7 +2,7 @@
 name: EFFECT_DISABLE_TRAPMONSTER
 enum: EffectCode
 value: 10
-description: |-
+description: >-
   Negates Trap monsters
 status:
   index: stable

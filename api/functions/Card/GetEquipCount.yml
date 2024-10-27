@@ -1,7 +1,7 @@
 ---!function
 name: GetEquipCount
 namespace: Card
-description: |-
+description: >-
   Gets the number of cards equipped to a Card (Card c)
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: EFFECT_MAX_MZONE
 enum: EffectCode
 value: 263
-description: |-
+description: >-
   The maximum number of monsters
 status:
   index: stable

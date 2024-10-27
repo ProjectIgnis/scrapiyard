@@ -1,7 +1,7 @@
 ---!function
 name: AddMajesticProcedure
 namespace: Synchro
-description: |-
+description: >-
   Adds a Synchro Procedure to (Card c) used by Majestic Star Dragon where (function f1, f2 and f3) are the required material and (bool cbt1, cbt2 and cbt3) are a check if the respective material can be used as the Tuner in the Summon since rulings for Majestic Star/Red Dragon state that either or both Majestic Dragon (f1) and/or Stardust Dragon/Red Dragon Archfiend (f2) can be used as the Tuner, but the non-Tuner, for the case of using Phantom King Hydride (f3) cannot be treated as the Tuner for the Summon. You require a minimum of 1 among these 3 to be the Tuner. (function ...) is the list of required materials during the Summon.
 status:
   index: stable

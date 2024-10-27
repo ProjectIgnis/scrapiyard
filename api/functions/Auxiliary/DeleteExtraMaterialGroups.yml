@@ -1,7 +1,7 @@
 ---!function
 name: DeleteExtraMaterialGroups
 namespace: Auxiliary
-description: |-
+description: >-
   Auxiliary function used by the Link Summon procedure
 status:
   index: stable

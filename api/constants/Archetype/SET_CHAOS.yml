@@ -2,7 +2,7 @@
 name: SET_CHAOS
 enum: Archetype
 value: 0xcf
-description: |-
+description: >-
   The ["Chaos"](https://yugipedia.com/wiki/Chaos) archetype.
 summary: Chaos
 status: { index: stable }

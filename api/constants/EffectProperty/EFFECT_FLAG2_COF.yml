@@ -2,7 +2,7 @@
 name: EFFECT_FLAG2_COF
 enum: EffectProperty
 value: 0x0002
-description: |-
+description: >-
   Normal Spell that activates during the Standby Phase (Curse of Fiend)
 status:
   index: stable

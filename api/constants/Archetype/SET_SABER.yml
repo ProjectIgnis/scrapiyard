@@ -2,7 +2,7 @@
 name: SET_SABER
 enum: Archetype
 value: 0xd
-description: |-
+description: >-
   The ["Saber"](https://yugipedia.com/wiki/Saber) archetype.
 summary: Saber
 status: { index: stable }

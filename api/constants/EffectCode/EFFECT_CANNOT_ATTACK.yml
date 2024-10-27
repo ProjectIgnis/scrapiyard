@@ -2,7 +2,7 @@
 name: EFFECT_CANNOT_ATTACK
 enum: EffectCode
 value: 85
-description: |-
+description: >-
   Affected card cannot attack
 status:
   index: stable

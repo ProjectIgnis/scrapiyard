@@ -2,7 +2,7 @@
 name: COUNTER_FEATHER
 enum: CommonCounter
 value: 0x10
-description: |-
+description: >-
   The hexadecimal value of Black Feather Counters
 status:
   index: stable

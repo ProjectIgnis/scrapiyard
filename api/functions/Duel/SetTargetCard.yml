@@ -1,7 +1,7 @@
 ---!function
 name: SetTargetCard
 namespace: Duel
-description: |-
+description: >-
   Sets the cards targeted by the current effect and creates a relation to them.
 status:
   index: stable

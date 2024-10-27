@@ -2,7 +2,7 @@
 name: SET_UTOPIC
 enum: Archetype
 value: 0x7f
-description: |-
+description: >-
   The ["Utopic"](https://yugipedia.com/wiki/Utopic) archetype.
 summary: Utopic
 status: { index: stable }

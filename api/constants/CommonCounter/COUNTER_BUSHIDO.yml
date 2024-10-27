@@ -2,7 +2,7 @@
 name: COUNTER_BUSHIDO
 enum: CommonCounter
 value: 0x3
-description: |-
+description: >-
   The hexadecimal value of Bushido Counters
 status:
   index: stable

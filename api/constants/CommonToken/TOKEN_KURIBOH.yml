@@ -2,7 +2,7 @@
 name: TOKEN_KURIBOH
 enum: CommonToken
 value: 40703223
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

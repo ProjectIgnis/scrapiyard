@@ -2,7 +2,7 @@
 name: TYPES_TOKEN
 enum: CardType
 value: 0x4011
-description: |-
+description: >-
   Composite constant of Monster, Normal, and Token Card Types
 summary: Monster, Normal, Token
 status: { index: stable }

@@ -2,7 +2,7 @@
 name: SET_NUMERON
 enum: Archetype
 value: 0x14b
-description: |-
+description: >-
   The ["Numeron"](https://yugipedia.com/wiki/Numeron) archetype.
 summary: Numeron
 status: { index: stable }

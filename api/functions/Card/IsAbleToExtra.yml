@@ -1,7 +1,7 @@
 ---!function
 name: IsAbleToExtra
 namespace: Card
-description: |-
+description: >-
   Checks if the card c can be returned to the Extra Deck
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: SelectWithSumGreater
 namespace: Group
-description: |-
+description: >-
   Makes a player (int player) select members of a group (Group g) which results in a combination of cards, with a minimum and maximum, that has the sum of f(c,...) result greater than or equal to (int sum). Function f accepts at least one parameter (f(c,...), with c as each member of the group), and the return value should be integer.
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: IsOriginalLevel
 namespace: Card
-description: |-
+description: >-
   Returns `true` if a card's original level is equal to a given value.
 summary: Checks a card's original level
 parameters:

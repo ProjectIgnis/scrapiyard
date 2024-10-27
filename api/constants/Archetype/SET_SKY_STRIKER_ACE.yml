@@ -2,7 +2,7 @@
 name: SET_SKY_STRIKER_ACE
 enum: Archetype
 value: 0x1115
-description: |-
+description: >-
   The ["Sky Striker Ace"](https://yugipedia.com/wiki/Sky_Striker_Ace) archetype.
   Sub-archetype of [`SET_SKY_STRIKER`](/api/constants/Archetype/SET_SKY_STRIKER).
 summary: Sky Striker Ace

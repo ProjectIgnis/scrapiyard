@@ -2,7 +2,7 @@
 name: SET_VAMPIRE
 enum: Archetype
 value: 0x8e
-description: |-
+description: >-
   The ["Vampire"](https://yugipedia.com/wiki/Vampire) archetype.
 summary: Vampire
 status: { index: stable }

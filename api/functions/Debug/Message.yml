@@ -1,7 +1,7 @@
 ---!function
 name: Message
 namespace: Debug
-description: |-
+description: >-
   Sends a message as a script error to the logs.
 summary: Prints a message.
 status:

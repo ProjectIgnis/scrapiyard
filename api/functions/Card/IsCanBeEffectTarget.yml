@@ -1,7 +1,7 @@
 ---!function
 name: IsCanBeEffectTarget
 namespace: Card
-description: |-
+description: >-
   Checks if a card (Card c) is targetable by an effect (Effect e)
 status:
   index: stable

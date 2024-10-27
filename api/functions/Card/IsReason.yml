@@ -1,7 +1,7 @@
 ---!function
 name: IsReason
 namespace: Card
-description: |-
+description: >-
   Checks if the reason for an event that happened to "c" is "reason" (REASON_x).
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_KURIBOH
 enum: Archetype
 value: 0xa4
-description: |-
+description: >-
   The ["Kuriboh"](https://yugipedia.com/wiki/Kuriboh_(archetype)) archetype.
 summary: Kuriboh
 status: { index: stable }

@@ -2,7 +2,7 @@
 name: TYPE_MINUS
 enum: CardType
 value: 0x40000000
-description: |-
+description: >-
   The [Minus](https://yugipedia.com/wiki/Minus_monster) Type for anime cards
 summary: Minus
 status: { index: stable }

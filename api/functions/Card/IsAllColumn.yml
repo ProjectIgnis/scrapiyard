@@ -1,7 +1,7 @@
 ---!function
 name: IsAllColumn
 namespace: Card
-description: |-
+description: >-
   Checks if all the zones of the column that "c" is on are occupied.
 status:
   index: stable

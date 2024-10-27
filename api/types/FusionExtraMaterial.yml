@@ -1,7 +1,7 @@
 ---!type
 name: FusionExtraMaterial
 supertype: function
-description: |-
+description: >-
    A function used to define a group of additional fusion materials
    that can be used in Fusion Summon effects.
 summary: Creates a group of additional fusion materials.
@@ -19,6 +19,6 @@ returns:
   - type: [ Group ]
     description: The group of additional materials.
   - type: [ FusionMaterialFilter ]
-    description: |-
+    description: >-
       An additional filter that the materials (including the additional materials) must fulfill.
     guaranteed: false

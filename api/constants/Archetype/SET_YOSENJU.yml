@@ -2,7 +2,7 @@
 name: SET_YOSENJU
 enum: Archetype
 value: 0xb3
-description: |-
+description: >-
   The ["Yosenju"](https://yugipedia.com/wiki/Yosenju) archetype.
 summary: Yosenju
 status: { index: stable }

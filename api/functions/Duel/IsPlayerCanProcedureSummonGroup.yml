@@ -1,7 +1,7 @@
 ---!function
 name: IsPlayerCanProcedureSummonGroup
 namespace: Duel
-description: |-
+description: >-
   Checks if the player is affected by a EFFECT_SPSUMMON_PROC_G effect whose SummonType value is sumtype.
 status:
   index: stable

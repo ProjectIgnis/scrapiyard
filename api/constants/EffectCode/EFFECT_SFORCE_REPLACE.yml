@@ -2,7 +2,7 @@
 name: EFFECT_SFORCE_REPLACE
 enum: EffectCode
 value: 55049722
-description: |-
+description: >-
   Uses "S-Force Chase"'s code, but it is also an effect of "S-Force Retroactive"
 status:
   index: stable

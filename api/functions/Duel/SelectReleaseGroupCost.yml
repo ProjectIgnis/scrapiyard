@@ -1,7 +1,7 @@
 ---!function
 name: SelectReleaseGroupCost
 namespace: Duel
-description: |-
+description: >-
   Selects monsters to be tributed by int sel_player, applying the same filtering rules as Duel.CheckReleaseGroupCost.
 status:
   index: stable

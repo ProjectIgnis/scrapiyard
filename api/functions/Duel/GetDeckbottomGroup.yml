@@ -1,7 +1,7 @@
 ---!function
 name: GetDeckbottomGroup
 namespace: Duel
-description: |-
+description: >-
   Returns a group with the (int count) cards on the bottom of (int player)'s Deck
 status:
   index: stable

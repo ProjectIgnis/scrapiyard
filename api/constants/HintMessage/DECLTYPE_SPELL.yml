@@ -2,7 +2,7 @@
 name: DECLTYPE_SPELL
 enum: HintMessage
 value: 71
-description: |-
+description: >-
   Constant to be used with CardType declaration
 status:
   index: stable

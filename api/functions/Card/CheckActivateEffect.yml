@@ -1,7 +1,7 @@
 ---!function
 name: CheckActivateEffect
 namespace: Card
-description: |-
+description: >-
   Checks a card (Card c)'s EFFECT_TYPE_ACTIVATE effect while checking for whether it can be activated. Setting the neglect_con parameter to true will ignore the condition. Setting the neglect_cost parameter to true will ignore the cost verification. If the copy_info parameter is false OR if the effect's code is EVENT_FREE_CHAIN, then the function returns the effect that is being checked, if it can be activated or false, if it cannot be activated. If copy_info is true, additionally returns the activated effect's supposed info, which usually are eg,ep,ev,r,re,rp (event group, event player, event value, reason effect, reason, reason player)
 status:
   index: stable

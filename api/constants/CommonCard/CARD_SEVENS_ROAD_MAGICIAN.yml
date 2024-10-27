@@ -2,7 +2,7 @@
 name: CARD_SEVENS_ROAD_MAGICIAN
 enum: CommonCard
 value: 160301001
-description: |-
+description: >-
   Constant for a commonly used Rush card
 status:
   index: stable

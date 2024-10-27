@@ -2,7 +2,7 @@
 name: SET_CODEBREAKER
 enum: Archetype
 value: 0x13c
-description: |-
+description: >-
   The ["Codebreaker"](https://yugipedia.com/wiki/Codebreaker) archetype.
 summary: Codebreaker
 status: { index: stable }

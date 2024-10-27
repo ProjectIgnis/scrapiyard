@@ -2,7 +2,7 @@
 name: SET_CRUSADIA
 enum: Archetype
 value: 0x116
-description: |-
+description: >-
   The ["Crusadia"](https://yugipedia.com/wiki/Crusadia) archetype.
 summary: Crusadia
 status: { index: stable }

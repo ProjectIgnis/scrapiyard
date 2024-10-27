@@ -1,7 +1,7 @@
 ---!function
 name: NegateEffects
 namespace: Card
-description: |-
+description: >-
   Function to shorten effects that negate other cards' effects (via an activated effect). (Card tc) is the card to be negated, (Card rc) is the reason card (the one registering the effect), (int resets) are the  flags used to reset the effect (RESET_EVENT|RESETS_STANDARD are inherently included). If (bool negates_cards) is true, trap monsters are also negated and (int ct) is the counter for when phase-specific resets are required. This function also calls Duel.NegateRelatedChain.
 status:
   index: stable

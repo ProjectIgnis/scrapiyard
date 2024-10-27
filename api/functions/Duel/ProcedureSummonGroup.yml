@@ -1,7 +1,7 @@
 ---!function
 name: ProcedureSummonGroup
 namespace: Duel
-description: |-
+description: >-
   Makes the player perform a summon using a field effect EFFECT_SPSUMMON_PROC_G
 status:
   index: stable

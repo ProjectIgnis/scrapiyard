@@ -1,7 +1,7 @@
 ---!function
 name: ShuffleSetCard
 namespace: Duel
-description: |-
+description: >-
   Shuffles the set cards in (Group g). (Shifting Shadows). All the cards must be from the same location. The only supported locations are the Main Monster Zone and the Spell & Trap Zone.
 status:
   index: stable

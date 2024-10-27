@@ -1,7 +1,7 @@
 ---!function
 name: Release
 namespace: Duel
-description: |-
+description: >-
   Tribute a card(s) (Card|Group targets) with listed reason (int reason). If (int rp) is provided, sets the reason player to be that player. Returns the number of cards successfully Tributed.
 status:
   index: stable

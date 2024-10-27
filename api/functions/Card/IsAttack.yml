@@ -1,7 +1,7 @@
 ---!function
 name: IsAttack
 namespace: Card
-description: |-
+description: >-
   Returns if a card (Card c) has an ATK equal to any of the values passed
 status:
   index: stable

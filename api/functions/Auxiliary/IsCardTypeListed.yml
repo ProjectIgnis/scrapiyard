@@ -1,7 +1,7 @@
 ---!function
 name: IsCardTypeListed
 namespace: Auxiliary
-description: |-
+description: >-
   Function deprecated since version 40.0.0. Use "Card.ListsCardType" instead
 status:
   index: stable

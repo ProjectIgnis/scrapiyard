@@ -2,7 +2,7 @@
 name: HINTMSG_OPPO
 enum: HintMessage
 value: 530
-description: |-
+description: >-
   Shows the following HintMessage: "Select an opponent's card"
 status:
   index: stable

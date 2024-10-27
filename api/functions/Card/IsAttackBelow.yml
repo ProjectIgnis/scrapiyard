@@ -1,7 +1,7 @@
 ---!function
 name: IsAttackBelow
 namespace: Card
-description: |-
+description: >-
   Checks if a card (Card c) has ATK equal or below the specified number (int attack), will return false if the card has ? ATK and is not face-up on the field.
 status:
   index: stable

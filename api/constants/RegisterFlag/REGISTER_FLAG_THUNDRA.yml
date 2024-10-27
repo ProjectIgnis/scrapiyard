@@ -2,7 +2,7 @@
 name: REGISTER_FLAG_THUNDRA
 enum: RegisterFlag
 value: 4
-description: |-
+description: >-
   Thunders Dragon monster's effects that activates by discarding themselves, for Thunder Dragon Thunderstormech (Card.RegisterEffect)
 status:
   index: stable

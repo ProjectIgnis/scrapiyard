@@ -2,7 +2,7 @@
 name: SET_MALISS
 enum: Archetype
 value: 0x1b9
-description: |-
+description: >-
   The ["Maliss"](https://yugipedia.com/wiki/Maliss) archetype.
 summary: Maliss
 status: { index: stable }

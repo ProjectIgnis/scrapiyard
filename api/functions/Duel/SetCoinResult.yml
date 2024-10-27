@@ -1,7 +1,7 @@
 ---!function
 name: SetCoinResult
 namespace: Duel
-description: |-
+description: >-
   Changes the results of the latest executed coin tosses to the provided values.
 status:
   index: stable

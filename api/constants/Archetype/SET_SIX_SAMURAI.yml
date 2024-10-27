@@ -2,7 +2,7 @@
 name: SET_SIX_SAMURAI
 enum: Archetype
 value: 0x3d
-description: |-
+description: >-
   The ["Six Samurai"](https://yugipedia.com/wiki/Six_Samurai) archetype.
 summary: Six Samurai
 status: { index: stable }

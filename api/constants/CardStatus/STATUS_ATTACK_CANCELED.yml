@@ -2,7 +2,7 @@
 name: STATUS_ATTACK_CANCELED
 enum: CardStatus
 value: 0x200000
-description: |-
+description: >-
   Attack was negated
 status:
   index: stable

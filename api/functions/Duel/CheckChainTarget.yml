@@ -1,7 +1,7 @@
 ---!function
 name: CheckChainTarget
 namespace: Duel
-description: |-
+description: >-
   Checks if a card (Card c) can be a target for a chain's (int chainc) effect (via calling target(chkc) function of the effect)
 status:
   index: stable

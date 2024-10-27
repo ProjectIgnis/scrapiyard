@@ -2,7 +2,7 @@
 name: SET_XYZ
 enum: Archetype
 value: 0x73
-description: |-
+description: >-
   The ["Xyz"](https://yugipedia.com/wiki/Xyz_(archetype)) archetype.
 summary: Xyz
 status: { index: stable }

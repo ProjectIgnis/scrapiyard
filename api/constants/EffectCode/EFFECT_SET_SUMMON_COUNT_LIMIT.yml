@@ -2,7 +2,7 @@
 name: EFFECT_SET_SUMMON_COUNT_LIMIT
 enum: EffectCode
 value: 28
-description: |-
+description: >-
   Limit the number of monsters placed per turn
 status:
   index: stable

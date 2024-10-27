@@ -2,7 +2,7 @@
 name: SET_PSY_FRAMEGEAR
 enum: Archetype
 value: 0x10c1
-description: |-
+description: >-
   The ["PSY-Framegear"](https://yugipedia.com/wiki/PSY-Framegear) archetype.
   Sub-archetype of [`SET_PSY_FRAME`](/api/constants/Archetype/SET_PSY_FRAME).
 summary: PSY-Framegear

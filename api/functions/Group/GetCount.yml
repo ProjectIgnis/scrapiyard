@@ -1,7 +1,7 @@
 ---!function
 name: GetCount
 namespace: Group
-description: |-
+description: >-
   Returns the number of cards in a group (Group g)
 status:
   index: stable

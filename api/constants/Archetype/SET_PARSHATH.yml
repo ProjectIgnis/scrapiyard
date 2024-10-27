@@ -2,7 +2,7 @@
 name: SET_PARSHATH
 enum: Archetype
 value: 0x10a
-description: |-
+description: >-
   The ["Parshath"](https://yugipedia.com/wiki/Parshath) archetype.
 summary: Parshath
 status: { index: stable }

@@ -2,7 +2,7 @@
 name: SET_ICE_BARRIER
 enum: Archetype
 value: 0x2f
-description: |-
+description: >-
   The ["Ice Barrier"](https://yugipedia.com/wiki/Ice_Barrier) archetype.
 summary: Ice Barrier
 status: { index: stable }

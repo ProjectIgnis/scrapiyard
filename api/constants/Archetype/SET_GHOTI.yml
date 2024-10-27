@@ -2,7 +2,7 @@
 name: SET_GHOTI
 enum: Archetype
 value: 0x18b
-description: |-
+description: >-
   The ["Ghoti"](https://yugipedia.com/wiki/Ghoti) archetype.
 summary: Ghoti
 status: { index: stable }

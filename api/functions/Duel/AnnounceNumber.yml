@@ -1,7 +1,7 @@
 ---!function
 name: AnnounceNumber
 namespace: Duel
-description: |-
+description: >-
   Asks (int player) to announce a number found amongst (int number)s. Returns the chosen number and its index amongst the options
 status:
   index: stable

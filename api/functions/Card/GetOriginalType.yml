@@ -1,7 +1,7 @@
 ---!function
 name: GetOriginalType
 namespace: Card
-description: |-
+description: >-
   Returns the original CardType (Monster/Spell/Trap) of "c".
 status:
   index: stable

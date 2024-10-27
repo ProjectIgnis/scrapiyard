@@ -1,7 +1,7 @@
 ---!function
 name: GetOwnerTarget
 namespace: Card
-description: |-
+description: >-
   Gets a group of cards (including equips) that a card (Card c) is a target of
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_MARINCESS
 enum: Archetype
 value: 0x12b
-description: |-
+description: >-
   The ["Marincess"](https://yugipedia.com/wiki/Marincess) archetype.
 summary: Marincess
 status: { index: stable }

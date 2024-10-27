@@ -1,7 +1,7 @@
 ---!function
 name: IsCanBeMaterial
 namespace: Card
-description: |-
+description: >-
   Checks if a effect_spsummon_condition is being applied to (Card c) and is false. It is the generic version of Card.IsCanbeXmaterial
 status:
   index: stable

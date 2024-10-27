@@ -1,7 +1,7 @@
 ---!function
 name: CheckReleaseGroupSummon
 namespace: Duel
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

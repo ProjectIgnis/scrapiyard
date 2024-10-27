@@ -1,7 +1,7 @@
 ---!function
 name: GetFirstCardTarget
 namespace: Card
-description: |-
+description: >-
   Gets the first among the target card of (Card c). A bit faster than Card.GetCardTarget(Card c):GetFirst()
 status:
   index: stable

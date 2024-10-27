@@ -2,7 +2,7 @@
 name: EFFECT_UPDATE_LSCALE
 enum: EffectCode
 value: 134
-description: |-
+description: >-
   Increase/decrease affected card's left pendulum scale (blue scale) by a value (written into Effect.SetValue())
 status:
   index: stable

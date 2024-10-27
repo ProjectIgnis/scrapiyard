@@ -1,7 +1,7 @@
 ---!function
 name: IsControler
 namespace: Card
-description: |-
+description: >-
   Checks if a card (Card c) has player (int p) as it's controller
 status:
   index: stable

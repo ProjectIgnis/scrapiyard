@@ -1,7 +1,7 @@
 ---!function
 name: IsDuelType
 namespace: Duel
-description: |-
+description: >-
   Check if the current duel flags match the passed ones. (Check the "DUEL_XXX" constants for the available flags)
 status:
   index: stable

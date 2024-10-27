@@ -1,7 +1,7 @@
 ---!function
 name: CheckTiming
 namespace: Duel
-description: |-
+description: >-
   Returns true if the current activation hint timing is one of the passed timings.
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_ANCIENT_GEAR
 enum: Archetype
 value: 0x7
-description: |-
+description: >-
   The ["Ancient Gear"](https://yugipedia.com/wiki/Ancient_Gear) archetype.
 summary: Ancient Gear
 status: { index: stable }

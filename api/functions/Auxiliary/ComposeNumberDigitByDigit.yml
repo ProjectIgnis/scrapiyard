@@ -1,7 +1,7 @@
 ---!function
 name: ComposeNumberDigitByDigit
 namespace: Auxiliary
-description: |-
+description: >-
   Makes (int tp) declare a number digit by digit, with a minimum of (int min) and maximum of (int max)
 status:
   index: stable

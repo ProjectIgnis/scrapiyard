@@ -2,7 +2,7 @@
 name: SET_SUPERHEAVY_SAMURAI
 enum: Archetype
 value: 0x9a
-description: |-
+description: >-
   The ["Superheavy Samurai"](https://yugipedia.com/wiki/Superheavy_Samurai) archetype.
 summary: Superheavy Samurai
 status: { index: stable }

@@ -2,7 +2,7 @@
 name: REASON_FLIP
 enum: Reason
 value: 0x2000
-description: |-
+description: >-
   Being flipped
 status:
   index: stable

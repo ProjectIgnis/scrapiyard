@@ -1,7 +1,7 @@
 ---!function
 name: GetSummonLocation
 namespace: Card
-description: |-
+description: >-
   Returns the location that "c" was summoned from.
 status:
   index: stable

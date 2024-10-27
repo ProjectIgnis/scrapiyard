@@ -1,7 +1,7 @@
 ---!function
 name: SkipPhase
 namespace: Duel
-description: |-
+description: >-
   Makes the specified player (int player) skips the encountered phase (int phase), the effect is reset when reset_flag is met reset_count times. (int value) sets the skip effect's value (don't know what it's used for though...)
 status:
   index: stable

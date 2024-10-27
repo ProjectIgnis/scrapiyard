@@ -2,7 +2,7 @@
 name: FUSPROC_CANCELABLE
 enum: FusionProcFlag
 value: 0x1000
-description: |-
+description: >-
   Flag used in the fusion procedure. Allows the selection of fusion materials to be canceled
 status:
   index: stable

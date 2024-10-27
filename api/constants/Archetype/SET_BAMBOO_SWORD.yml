@@ -2,7 +2,7 @@
 name: SET_BAMBOO_SWORD
 enum: Archetype
 value: 0x60
-description: |-
+description: >-
   The ["Bamboo Sword"](https://yugipedia.com/wiki/Bamboo_Sword) archetype.
 summary: Bamboo Sword
 status: { index: stable }

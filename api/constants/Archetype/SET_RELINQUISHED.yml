@@ -2,7 +2,7 @@
 name: SET_RELINQUISHED
 enum: Archetype
 value: 0x110
-description: |-
+description: >-
   The ["Relinquished"](https://yugipedia.com/wiki/Relinquished_(archetype)) archetype.
 summary: Relinquished
 status: { index: stable }

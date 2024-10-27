@@ -1,7 +1,7 @@
 ---!function
 name: IsDefenseBelow
 namespace: Card
-description: |-
+description: >-
   Checks if a card (Card c) has DEF equal or below the specified number (int defense), will return false if the card has ? DEF and is not face-up on the field.
 status:
   index: stable

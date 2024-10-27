@@ -2,7 +2,7 @@
 name: SET_SUNSEED
 enum: Archetype
 value: 0x4157
-description: |-
+description: >-
   The ["Sunseed"](https://yugipedia.com/wiki/Sunseed) archetype.
 summary: Sunseed
 status: { index: stable }

@@ -1,7 +1,7 @@
 ---!function
 name: SetUnionState
 namespace: Auxiliary
-description: |-
+description: >-
   See proc_union.lua.
 status:
   index: stable

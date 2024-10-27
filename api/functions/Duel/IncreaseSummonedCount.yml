@@ -1,7 +1,7 @@
 ---!function
 name: IncreaseSummonedCount
 namespace: Duel
-description: |-
+description: >-
   Increases the number of normal summons/sets performed by the turn player. If a card is passed and that card has an EFFECT_EXTRA_SUMMON_COUNT applied to it, that effect is used instead of increasing the count of the turn player.
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_SUBTERROR_BEHEMOTH
 enum: Archetype
 value: 0x10ed
-description: |-
+description: >-
   The ["Subterror Behemoth"](https://yugipedia.com/wiki/Subterror_Behemoth) archetype.
   Sub-archetype of [`SET_SUBTERROR`](/api/constants/Archetype/SET_SUBTERROR).
 summary: Subterror Behemoth

@@ -2,7 +2,7 @@
 name: SET_PRIMITE
 enum: Archetype
 value: 0x1b0
-description: |-
+description: >-
   The ["Primite"](https://yugipedia.com/wiki/Primite) archetype.
 summary: Primite
 status: { index: stable }

@@ -1,7 +1,7 @@
 ---!function
 name: RemoveCards
 namespace: Duel
-description: |-
+description: >-
   Removes the passed cards from the duel.
 status:
   index: stable

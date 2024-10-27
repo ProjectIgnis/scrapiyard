@@ -2,7 +2,7 @@
 name: SET_WATT
 enum: Archetype
 value: 0xe
-description: |-
+description: >-
   The ["Watt"](https://yugipedia.com/wiki/Watt) archetype.
 summary: Watt
 status: { index: stable }

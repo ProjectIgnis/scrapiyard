@@ -2,7 +2,7 @@
 name: SET_PALEOZOIC
 enum: Archetype
 value: 0xd4
-description: |-
+description: >-
   The ["Paleozoic"](https://yugipedia.com/wiki/Paleozoic) archetype.
 summary: Paleozoic
 status: { index: stable }

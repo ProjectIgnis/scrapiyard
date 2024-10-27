@@ -2,7 +2,7 @@
 name: CARD_VERNUSYLPH_COROLLA
 enum: CommonCard
 value: 14108995
-description: |-
+description: >-
   Vernusylph Corolla's ID
 status:
   index: stable

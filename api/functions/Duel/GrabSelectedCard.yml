@@ -1,7 +1,7 @@
 ---!function
 name: GrabSelectedCard
 namespace: Duel
-description: |-
+description: >-
   Returns the group of cards that was set by a previous Duel.SetSelectedCard call. The group of selected cards is cleared in the core.
 status:
   index: stable

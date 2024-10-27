@@ -2,7 +2,7 @@
 name: POS_FACEDOWN
 enum: CardPosition
 value: 0xa
-description: |-
+description: >-
   Face-down position, attack + defense if on field
 status:
   index: stable

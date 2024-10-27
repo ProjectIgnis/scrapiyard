@@ -2,7 +2,7 @@
 name: SET_SYNCHRO
 enum: Archetype
 value: 0x17
-description: |-
+description: >-
   The ["Synchro"](https://yugipedia.com/wiki/Synchro_(archetype)) archetype.
 summary: Synchro
 status: { index: stable }

@@ -2,7 +2,7 @@
 name: CATEGORY_DECKDES
 enum: EffectCategory
 value: 0x40
-description: |-
+description: >-
   Describes that an effect removes a card(s) from the Deck (to move them to the Graveyard or to banish them)
 status:
   index: stable

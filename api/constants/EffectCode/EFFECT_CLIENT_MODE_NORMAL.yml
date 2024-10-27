@@ -2,7 +2,7 @@
 name: EFFECT_CLIENT_MODE_NORMAL
 enum: EffectCode
 value: 0
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

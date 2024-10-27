@@ -2,7 +2,7 @@
 name: POS_FACEDOWN_ATTACK
 enum: CardPosition
 value: 0x2
-description: |-
+description: >-
   Face-down attack position. Used with "Darkness Approaches" (Pre-Errata)
 status:
   index: stable

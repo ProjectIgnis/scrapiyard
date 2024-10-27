@@ -2,7 +2,7 @@
 name: EFFECT_CANNOT_DRAW
 enum: EffectCode
 value: 25
-description: |-
+description: >-
   The affected player cannot draw cards
 status:
   index: stable

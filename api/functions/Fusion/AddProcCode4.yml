@@ -1,7 +1,7 @@
 ---!function
 name: AddProcCode4
 namespace: Fusion
-description: |-
+description: >-
   Creates a Fusion Summon recipe for a monster that uses 4 specifically named cards as materials.
 summary: Creates a Fusion recipe with 4 named materials
 status:
@@ -24,12 +24,12 @@ parameters:
     description: The ID of the fourth material.
   - name: sub
     type: [ bool ]
-    description: |-
+    description: >-
       A boolean denoting if Fusion Substitutes
       (e.g. [King of the Swamp](https://yugipedia.com/wiki/King_of_the_Swamp))
       are allowed in the materials.
   - name: insf
     type: [ bool ]
-    description: |-
+    description: >-
       A boolean denoting if Fusion Summoning without materials
       (e.g. [Instant Fusion](https://yugipedia.com/wiki/Instant_Fusion)) is allowed.

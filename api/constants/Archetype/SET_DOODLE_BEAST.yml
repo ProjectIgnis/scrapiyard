@@ -2,7 +2,7 @@
 name: SET_DOODLE_BEAST
 enum: Archetype
 value: 0x1186
-description: |-
+description: >-
   The ["Doodle Beast"](https://yugipedia.com/wiki/Doodle_Beast) archetype.
 summary: Doodle Beast
 status: { index: stable }

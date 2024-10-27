@@ -2,7 +2,7 @@
 name: RESET_REMOVE
 enum: Reset
 value: 0x80000
-description: |-
+description: >-
   Resets when the card is banished
 status:
   index: stable

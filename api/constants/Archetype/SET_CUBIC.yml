@@ -2,7 +2,7 @@
 name: SET_CUBIC
 enum: Archetype
 value: 0xe3
-description: |-
+description: >-
   The ["Cubic"](https://yugipedia.com/wiki/Cubic) archetype.
 summary: Cubic
 status: { index: stable }

@@ -2,7 +2,7 @@
 name: CARD_DREAMING_NEMLERIA
 enum: CommonCard
 value: 70155677
-description: |-
+description: >-
   Dreaming Nemleria's ID
 status:
   index: stable

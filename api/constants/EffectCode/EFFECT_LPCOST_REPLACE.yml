@@ -2,7 +2,7 @@
 name: EFFECT_LPCOST_REPLACE
 enum: EffectCode
 value: 171
-description: |-
+description: >-
   If the affected player would pay LP for a cost, perform a given operation instead
 status:
   index: stable

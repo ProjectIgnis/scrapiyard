@@ -2,7 +2,7 @@
 name: RESETS_STANDARD_EXC_GRAVE
 enum: Reset
 value: 0x17a0000
-description: |-
+description: >-
   Complex reset. The sum of  RESETS_STANDARD-RESET_TOGRAVE-RESET_LEAVE, mainly used for cards that negate effect of card they destroy by battle.
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_NOBLE_KNIGHT
 enum: Archetype
 value: 0x107a
-description: |-
+description: >-
   The ["Noble Knight"](https://yugipedia.com/wiki/Noble_Knight) archetype.
 summary: Noble Knight
 status: { index: stable }

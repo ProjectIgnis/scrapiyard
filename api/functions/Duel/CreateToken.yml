@@ -1,7 +1,7 @@
 ---!function
 name: CreateToken
 namespace: Duel
-description: |-
+description: >-
   Creates a new instance of a card owned by player (int player) with card code (int code).
 status:
   index: stable

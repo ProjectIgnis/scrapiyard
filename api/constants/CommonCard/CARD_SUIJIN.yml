@@ -2,7 +2,7 @@
 name: CARD_SUIJIN
 enum: CommonCard
 value: 98434877
-description: |-
+description: >-
   Suijin's ID
 status:
   index: stable

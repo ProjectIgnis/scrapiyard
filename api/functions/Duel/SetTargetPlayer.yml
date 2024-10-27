@@ -1,7 +1,7 @@
 ---!function
 name: SetTargetPlayer
 namespace: Duel
-description: |-
+description: >-
   Used to set the "target player" for the currently resolving chain, its uses vary depending on the type of effect, but it's mostly used to indicate which player will be affected by such effect (see "Mystical Refpanel")
 status:
   index: stable

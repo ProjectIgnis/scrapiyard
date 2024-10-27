@@ -1,7 +1,7 @@
 ---!function
 name: IsNegatableSpellTrap
 namespace: Card
-description: |-
+description: >-
   Checks if (Card c) can be negated (for Spell/Trap)
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: GetTurnCount
 namespace: Duel
-description: |-
+description: >-
   Gets the turn count, if tp is passed, it returns the turn count for that specific player (so if the current turn count is 5, a player's turn count would be 2 or 3)
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: IsDefensePos
 namespace: Card
-description: |-
+description: >-
   Checks if a card (Card c) is in Defense position
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_SCHOOLWORK_SUCCESS
 enum: Archetype
 value: 0x1b7
-description: |-
+description: >-
   The "Schoolwork Success" archetype.
 summary: Schoolwork Success
 status: { index: stable }

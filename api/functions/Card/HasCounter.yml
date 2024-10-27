@@ -1,7 +1,7 @@
 ---!function
 name: HasCounter
 namespace: Card
-description: |-
+description: >-
   Returns `true` if a card currently holds any amount of a specified counter.
 summary: Checks if a card has a specified counter
 parameters:

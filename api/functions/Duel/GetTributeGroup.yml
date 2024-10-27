@@ -1,7 +1,7 @@
 ---!function
 name: GetTributeGroup
 namespace: Duel
-description: |-
+description: >-
   Returns the cards that are usable for a tribute summon of c.
 status:
   index: stable

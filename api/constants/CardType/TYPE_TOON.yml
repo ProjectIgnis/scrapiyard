@@ -2,7 +2,7 @@
 name: TYPE_TOON
 enum: CardType
 value: 0x400000
-description: |-
+description: >-
   The [Toon](https://yugipedia.com/wiki/Toon_monster) Card Type for Monsters
 summary: Toon
 status: { index: stable }

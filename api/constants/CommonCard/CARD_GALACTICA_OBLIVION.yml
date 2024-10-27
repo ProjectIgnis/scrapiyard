@@ -2,7 +2,7 @@
 name: CARD_GALACTICA_OBLIVION
 enum: CommonCard
 value: 160009002
-description: |-
+description: >-
   Constant for a commonly used Rush card
 status:
   index: stable

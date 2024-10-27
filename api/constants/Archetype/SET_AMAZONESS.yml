@@ -2,7 +2,7 @@
 name: SET_AMAZONESS
 enum: Archetype
 value: 0x4
-description: |-
+description: >-
   The ["Amazoness"](https://yugipedia.com/wiki/Amazoness) archetype.
 summary: Amazoness
 status: { index: stable }

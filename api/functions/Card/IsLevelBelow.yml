@@ -1,7 +1,7 @@
 ---!function
 name: IsLevelBelow
 namespace: Card
-description: |-
+description: >-
   Returns `true` if the level of a card is less than **or equal to** a specified level.
 summary: Checks if the level of a card is less than or equal to a given level
 parameters:
@@ -10,7 +10,7 @@ parameters:
     description: The card to check the level of.
   - name: min
     type: [ int ]
-    description: |-
+    description: >-
       The minimum level. The level of `c` must be less than or equal to this level.
 returns:
   - type: [ bool ]

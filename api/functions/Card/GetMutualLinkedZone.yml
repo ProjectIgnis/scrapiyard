@@ -1,7 +1,7 @@
 ---!function
 name: GetMutualLinkedZone
 namespace: Card
-description: |-
+description: >-
   Gets all zones that (Card c) points to as part of a co-Link, that belong to player (int cp)
 status:
   index: stable

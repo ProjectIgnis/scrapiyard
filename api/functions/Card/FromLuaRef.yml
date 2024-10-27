@@ -1,7 +1,7 @@
 ---!function
 name: FromLuaRef
 namespace: Card
-description: |-
+description: >-
   Returns a Card object from a given lua reference. The function errors out if the reference is invalid or does not refer to a Card object.
 status:
   index: stable

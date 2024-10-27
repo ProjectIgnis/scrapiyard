@@ -2,7 +2,7 @@
 name: TIMING_DAMAGE
 enum: Timing
 value: 0x20000
-description: |-
+description: >-
   When a player takes damage
 status:
   index: stable

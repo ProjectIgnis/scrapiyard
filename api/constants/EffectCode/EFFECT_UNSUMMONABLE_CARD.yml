@@ -2,7 +2,7 @@
 name: EFFECT_UNSUMMONABLE_CARD
 enum: EffectCode
 value: 336
-description: |-
+description: >-
   The affected card cannot be Normal Summoned
 status:
   index: stable

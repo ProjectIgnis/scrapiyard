@@ -1,7 +1,7 @@
 ---!function
 name: GetLuaRef
 namespace: Effect
-description: |-
+description: >-
   Returns an integer representing the internal value used by lua to access the Effect e.
 status:
   index: stable

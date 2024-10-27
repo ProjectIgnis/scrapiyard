@@ -2,7 +2,7 @@
 name: EFFECT_AVOID_BATTLE_DAMAGE
 enum: EffectCode
 value: 201
-description: |-
+description: >-
   The controller of the affected card does not take battle damage when it battles
 status:
   index: stable

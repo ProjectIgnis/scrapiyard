@@ -1,7 +1,7 @@
 ---!function
 name: CheckSummonGate
 namespace: Auxiliary
-description: |-
+description: >-
   If (int count) is provided, checks if the player (int player) is affected by Summon Gate and if that the argument surpass  the maximum number of summons before Summon Gate's effect applies. If (int count) is not provided, returns the remains number of summons that would cause Summon Gate's effect to apply
 status:
   index: stable

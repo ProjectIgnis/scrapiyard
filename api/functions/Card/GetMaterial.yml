@@ -1,7 +1,7 @@
 ---!function
 name: GetMaterial
 namespace: Card
-description: |-
+description: >-
   Gets the material which was used as cost for a Card (Card c)
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: EFFECT_LIGHT_OF_INTERVENTION
 enum: EffectCode
 value: 38
-description: |-
+description: >-
   Monsters can be Normal Summoned in face-up Defense Position (Light of Intervention).
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_DIABELLESTARR
 enum: Archetype
 value: 0x1203
-description: |-
+description: >-
   The ["Diabellstar"](https://yugipedia.com/wiki/Diabellstar) archetype.
   Sub-archetype of [`SET_DIABELL`](/api/constants/Archetype/SET_DIABELL).
 summary: Diabellstar

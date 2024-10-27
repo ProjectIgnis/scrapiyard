@@ -2,7 +2,7 @@
 name: SET_PERFORMAGE
 enum: Archetype
 value: 0xc6
-description: |-
+description: >-
   The ["Performage"](https://yugipedia.com/wiki/Performage) archetype.
 summary: Performage
 status: { index: stable }

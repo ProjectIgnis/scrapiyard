@@ -1,7 +1,7 @@
 ---!function
 name: indesfilter
 namespace: Auxiliary
-description: |-
+description: >-
   Called by proc_maximum.lua
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: Clear
 namespace: Group
-description: |-
+description: >-
   Removes all the elements from a group (Group g). Returns the group itself.
 status:
   index: stable

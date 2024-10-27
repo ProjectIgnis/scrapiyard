@@ -2,7 +2,7 @@
 name: SET_ULTIMATE_INSECT
 enum: Archetype
 value: 0x5d
-description: |-
+description: >-
   The ["Ultimate Insect"](https://yugipedia.com/wiki/Ultimate_Insect) series of "LV" monsters.
   Technically not an archetype but is registered as such on some cards for the LV set handling.
 summary: Ultimate Insect

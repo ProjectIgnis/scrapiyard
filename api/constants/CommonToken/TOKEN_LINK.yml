@@ -2,7 +2,7 @@
 name: TOKEN_LINK
 enum: CommonToken
 value: 48068379
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

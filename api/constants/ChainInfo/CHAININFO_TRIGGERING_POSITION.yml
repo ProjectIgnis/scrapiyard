@@ -2,7 +2,7 @@
 name: CHAININFO_TRIGGERING_POSITION
 enum: ChainInfo
 value: 16
-description: |-
+description: >-
   When used with Duel.GetChainInfo returns an integer with the position of the card that triggered the requested Chain Link.
 status:
   index: stable

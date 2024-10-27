@@ -2,7 +2,7 @@
 name: CATEGORY_ATKCHANGE
 enum: EffectCategory
 value: 0x200000
-description: |-
+description: >-
   Describes that a card changes ATK
 status:
   index: stable

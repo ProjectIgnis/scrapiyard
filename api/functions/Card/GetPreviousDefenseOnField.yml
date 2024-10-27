@@ -1,7 +1,7 @@
 ---!function
 name: GetPreviousDefenseOnField
 namespace: Card
-description: |-
+description: >-
   Returns the DEF that "c" had when it was on the field.
 status:
   index: stable

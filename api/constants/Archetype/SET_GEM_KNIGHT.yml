@@ -2,7 +2,7 @@
 name: SET_GEM_KNIGHT
 enum: Archetype
 value: 0x1047
-description: |-
+description: >-
   The ["Gem-Knight"](https://yugipedia.com/wiki/Gem-Knight) archetype.
   Sub-archetype of [`SET_GEM`](/api/constants/Archetype/SET_GEM).
 summary: Gem-Knight

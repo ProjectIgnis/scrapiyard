@@ -1,7 +1,7 @@
 ---!function
 name: IsMaximumMode
 namespace: Card
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

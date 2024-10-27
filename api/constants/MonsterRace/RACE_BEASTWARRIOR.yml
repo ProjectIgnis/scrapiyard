@@ -2,7 +2,7 @@
 name: RACE_BEASTWARRIOR
 enum: MonsterRace
 value: 0x8000
-description: |-
+description: >-
   The [Beast-Warrior](https://yugipedia.com/wiki/Beast-Warrior) Monster Type
 summary: Beast-Warrior
 status: { index: stable }

@@ -1,7 +1,7 @@
 ---!function
 name: HasRank
 namespace: Card
-description: |-
+description: >-
   Returns `true` if the given card has a rank.
 summary: Checks if a card has a rank
 parameters:

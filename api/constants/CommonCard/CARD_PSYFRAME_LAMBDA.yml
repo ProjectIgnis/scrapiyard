@@ -2,7 +2,7 @@
 name: CARD_PSYFRAME_LAMBDA
 enum: CommonCard
 value: 8802510
-description: |-
+description: >-
   PSY-Framelord Lambda's ID, used for hardcoded effect
 status:
   index: stable

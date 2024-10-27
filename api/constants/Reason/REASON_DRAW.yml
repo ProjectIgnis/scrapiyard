@@ -2,7 +2,7 @@
 name: REASON_DRAW
 enum: Reason
 value: 0x2000000
-description: |-
+description: >-
   Event is a card being drawn
 status:
   index: stable

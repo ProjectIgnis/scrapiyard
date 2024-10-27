@@ -2,7 +2,7 @@
 name: SET_GOTTOMS
 enum: Archetype
 value: 0xb0
-description: |-
+description: >-
   The ["Gottoms"](https://yugipedia.com/wiki/Gottoms) archetype.
 summary: Gottoms
 status: { index: stable }

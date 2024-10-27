@@ -2,7 +2,7 @@
 name: EFFECT_CANNOT_CHANGE_POS_E
 enum: EffectCode
 value: 87
-description: |-
+description: >-
   Affected card's battle position cannot be changed by card effects (Raging Cloudian)
 status:
   index: stable

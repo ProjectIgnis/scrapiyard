@@ -2,7 +2,7 @@
 name: EVENT_DETACH_MATERIAL
 enum: Event
 value: 1202
-description: |-
+description: >-
   This event is raised when Xyz materials are detached (only the card that detaches the materials is available in the event group, not the detached cards)
 status:
   index: stable

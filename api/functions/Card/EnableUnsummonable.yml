@@ -1,7 +1,7 @@
 ---!function
 name: EnableUnsummonable
 namespace: Card
-description: |-
+description: >-
   Makes a card (Card c) unsummonable except with its own procedure
 status:
   index: stable

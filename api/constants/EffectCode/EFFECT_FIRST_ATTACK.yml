@@ -2,7 +2,7 @@
 name: EFFECT_FIRST_ATTACK
 enum: EffectCode
 value: 192
-description: |-
+description: >-
   Affected card must attack before its controller's other monsters
 status:
   index: stable

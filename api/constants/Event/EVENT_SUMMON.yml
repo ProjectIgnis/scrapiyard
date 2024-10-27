@@ -2,7 +2,7 @@
 name: EVENT_SUMMON
 enum: Event
 value: 1103
-description: |-
+description: >-
   This event is raised when a monster is being Normal Summoned (this is an attempt to perform a Normal Summon, aka "when a monster would be Summoned", for example, Bending Destiny's timing)
 status:
   index: stable

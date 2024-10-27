@@ -1,7 +1,7 @@
 ---!function
 name: GetOverlayCount
 namespace: Card
-description: |-
+description: >-
   Gets the number of cards overlayed to a Card (Card c)
 status:
   index: stable

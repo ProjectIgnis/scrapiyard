@@ -1,7 +1,7 @@
 ---!function
 name: IsCanTurnSet
 namespace: Card
-description: |-
+description: >-
   Checks if a card (Card c) can be made to face-down position (Set)
 status:
   index: stable

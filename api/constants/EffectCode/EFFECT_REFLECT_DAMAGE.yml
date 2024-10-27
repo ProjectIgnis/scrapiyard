@@ -2,7 +2,7 @@
 name: EFFECT_REFLECT_DAMAGE
 enum: EffectCode
 value: 83
-description: |-
+description: >-
   If the affected player would take damage, their opponent takes damage instead. SetValue in this effect receives the following parameters:
 e: this effect itself
 amount: the amount of damage

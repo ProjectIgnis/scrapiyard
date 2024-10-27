@@ -1,7 +1,7 @@
 ---!function
 name: GetReasonPlayer
 namespace: Card
-description: |-
+description: >-
   Returns the player that is the reason for an event that happened to "c".
 status:
   index: stable

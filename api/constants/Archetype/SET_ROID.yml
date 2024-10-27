@@ -2,7 +2,7 @@
 name: SET_ROID
 enum: Archetype
 value: 0x16
-description: |-
+description: >-
   The ["roid"](https://yugipedia.com/wiki/Roid) archetype.
 summary: roid
 status: { index: stable }

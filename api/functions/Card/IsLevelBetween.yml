@@ -1,7 +1,7 @@
 ---!function
 name: IsLevelBetween
 namespace: Card
-description: |-
+description: >-
   Returns `true` if the level of a card is between two specified levels, **inclusive**.
 summary: Checks if the level of a card is between two levels
 parameters:

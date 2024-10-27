@@ -2,7 +2,7 @@
 name: DUEL_FSX_MMZONE
 enum: DuelMode
 value: 0x4000
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

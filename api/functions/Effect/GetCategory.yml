@@ -1,7 +1,7 @@
 ---!function
 name: GetCategory
 namespace: Effect
-description: |-
+description: >-
   Gets an effect's (Effect e) category
 status:
   index: stable

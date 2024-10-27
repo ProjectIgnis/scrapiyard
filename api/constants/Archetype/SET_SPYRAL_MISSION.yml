@@ -2,7 +2,7 @@
 name: SET_SPYRAL_MISSION
 enum: Archetype
 value: 0x20ee
-description: |-
+description: >-
   The ["SPYRAL MISSION"](https://yugipedia.com/wiki/SPYRAL_MISSION) archetype.
   Sub-archetype of [`SET_SPYRAL`](/api/constants/Archetype/SET_SPYRAL).
 summary: SPYRAL MISSION

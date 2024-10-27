@@ -1,7 +1,7 @@
 ---!function
 name: CanPlayerSetSpellTrap
 namespace: Duel
-description: |-
+description: >-
   Returns if player can set a spell/trap card, if setcard is passed, that parameter is also passed to the EFFECT_CANNOT_SSET effects.
 status:
   index: stable

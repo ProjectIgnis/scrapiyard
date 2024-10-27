@@ -1,7 +1,7 @@
 ---!function
 name: gbspcon
 namespace: Auxiliary
-description: |-
+description: >-
   Default SetCondition for "Summoned by a "Gladiator Beast" monster"
 status:
   index: stable

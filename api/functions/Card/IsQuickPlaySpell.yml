@@ -1,7 +1,7 @@
 ---!function
 name: IsQuickPlaySpell
 namespace: Card
-description: |-
+description: >-
   Returns `true` if the given card is currently
   a [Quick-Play Spell](https://yugipedia.com/wiki/Quick-Play_Spell_Card).
 summary: Checks if a card is a Quick-Play Spell

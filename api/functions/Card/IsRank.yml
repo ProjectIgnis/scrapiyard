@@ -1,7 +1,7 @@
 ---!function
 name: IsRank
 namespace: Card
-description: |-
+description: >-
   Checks if "c" has a Rank equal to any of the ranks passed.
 status:
   index: stable

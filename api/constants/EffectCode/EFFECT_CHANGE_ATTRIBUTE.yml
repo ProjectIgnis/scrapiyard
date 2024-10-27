@@ -2,7 +2,7 @@
 name: EFFECT_CHANGE_ATTRIBUTE
 enum: EffectCode
 value: 127
-description: |-
+description: >-
   Treats a Card(s) as another element overwriting its element (written into Effect.SetValue())
 status:
   index: stable

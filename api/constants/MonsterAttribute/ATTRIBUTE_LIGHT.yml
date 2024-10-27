@@ -2,7 +2,7 @@
 name: ATTRIBUTE_LIGHT
 enum: MonsterAttribute
 value: 0x10
-description: |-
+description: >-
   The [LIGHT](https://yugipedia.com/wiki/LIGHT) attribute for monsters
 summary: LIGHT
 status: { index: stable }

@@ -2,7 +2,7 @@
 name: HINTMSG_EFFECT
 enum: HintMessage
 value: 550
-description: |-
+description: >-
   Shows the following HintMessage: "Select the effect you want to activate"
 status:
   index: stable

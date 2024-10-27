@@ -1,7 +1,7 @@
 ---!function
 name: DiscardHand
 namespace: Duel
-description: |-
+description: >-
   Makes (int player) discard between (int min) and (int max) cards from their hand for which (function f) returns true  sing as reason (int reason), except  (Group|Card ex).
 status:
   index: stable

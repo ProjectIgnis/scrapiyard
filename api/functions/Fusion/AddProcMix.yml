@@ -12,16 +12,16 @@ parameters:
     description: The monster receiving the recipe.
   - name: sub
     type: [ bool ]
-    description: |-
+    description: >-
       A boolean denoting if Fusion Substitutes
       (e.g. [King of the Swamp](https://yugipedia.com/wiki/King_of_the_Swamp))
       are allowed in the materials.
   - name: insf
     type: [ bool ]
-    description: |-
+    description: >-
       A boolean denoting if Fusion Summoning without materials
       (e.g. [Instant Fusion](https://yugipedia.com/wiki/Instant_Fusion)) is allowed.
   - name: ...
     type: [ int, FusionRecipeFilter, table ]
-    description: |-
+    description: >-
       A list of card IDs of named materials, and/or filter functions they must pass.

@@ -1,7 +1,7 @@
 ---!function
 name: Includes
 namespace: Group
-description: |-
+description: >-
   Checks if (Group g1) contains all cards in (Group g2)
 status:
   index: stable

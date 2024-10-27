@@ -2,7 +2,7 @@
 name: EFFECT_DESTROY_REPLACE
 enum: EffectCode
 value: 50
-description: |-
+description: >-
   If the affected card would be destroyed, perform a given operation instead
 status:
   index: stable

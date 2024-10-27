@@ -1,7 +1,7 @@
 ---!function
 name: RockPaperScissors
 namespace: Duel
-description: |-
+description: >-
   Has players play a game of Rock Paper Scissors. Return player (winner or PLAYER_NONE). If redo == true, RPS continues until there is a winner, otherwise RPS is only played once.
 status:
   index: stable

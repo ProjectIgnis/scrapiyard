@@ -2,7 +2,7 @@
 name: CARD_IMAGINARY_ACTOR
 enum: CommonCard
 value: 160204006
-description: |-
+description: >-
   Constant for a commonly used Rush card
 status:
   index: stable

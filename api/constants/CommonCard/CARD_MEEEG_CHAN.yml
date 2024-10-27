@@ -2,7 +2,7 @@
 name: CARD_MEEEG_CHAN
 enum: CommonCard
 value: 160009006
-description: |-
+description: >-
   Constant for a commonly used Rush card
 status:
   index: stable

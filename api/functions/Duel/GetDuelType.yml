@@ -1,7 +1,7 @@
 ---!function
 name: GetDuelType
 namespace: Duel
-description: |-
+description: >-
   Returns all of the Duel flags used in the current duel
 status:
   index: stable

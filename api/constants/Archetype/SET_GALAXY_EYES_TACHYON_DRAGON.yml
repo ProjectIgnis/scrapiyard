@@ -2,7 +2,7 @@
 name: SET_GALAXY_EYES_TACHYON_DRAGON
 enum: Archetype
 value: 0x307b
-description: |-
+description: >-
   The ["Galaxy-Eyes Tachyon Dragon"](https://yugipedia.com/wiki/Galaxy-Eyes_Tachyon_Dragon) archetype.
   Sub-archetype of [`SET_GALAXY`](/api/constants/Archetype/SET_GALAXY).
 summary: Galaxy-Eyes Tachyon Dragon

@@ -2,7 +2,7 @@
 name: EFFECT_QP_ACT_IN_NTPHAND
 enum: EffectCode
 value: 311
-description: |-
+description: >-
   A Quick Play Spell affected can be activated from the hand during the turn of the opponent's turn
 status:
   index: stable

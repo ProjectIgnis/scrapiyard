@@ -1,7 +1,7 @@
 ---!function
 name: GetBattledCount
 namespace: Duel
-description: |-
+description: >-
   Gets the number of battles (int player) has been involved in this turn
 status:
   index: stable

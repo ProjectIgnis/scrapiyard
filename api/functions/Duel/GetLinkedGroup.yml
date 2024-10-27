@@ -1,7 +1,7 @@
 ---!function
 name: GetLinkedGroup
 namespace: Duel
-description: |-
+description: >-
   Returns the group of cards in the specified locations that are pointed by a link card.
 status:
   index: stable

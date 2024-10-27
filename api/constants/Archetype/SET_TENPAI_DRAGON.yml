@@ -2,7 +2,7 @@
 name: SET_TENPAI_DRAGON
 enum: Archetype
 value: 0x1a1
-description: |-
+description: >-
   The ["Tenpai Dragon"](https://yugipedia.com/wiki/Tenpai_Dragon) archetype.
 summary: Tenpai Dragon
 status: { index: stable }

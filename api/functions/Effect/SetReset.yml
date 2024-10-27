@@ -1,7 +1,7 @@
 ---!function
 name: SetReset
 namespace: Effect
-description: |-
+description: >-
   Sets the timing that the effect (Effect e) would be erased (with reset_flag)
 status:
   index: stable

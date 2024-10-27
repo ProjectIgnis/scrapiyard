@@ -1,7 +1,7 @@
 ---!function
 name: SetAbsoluteRange
 namespace: Effect
-description: |-
+description: >-
   Sets an effect's (Effect e) target range in perspective of the supplied player (int playerid), s_range denotes the supplied player's range and o_range denotes the opponent's.
 status:
   index: stable

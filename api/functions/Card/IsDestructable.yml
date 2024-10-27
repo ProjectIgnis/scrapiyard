@@ -1,7 +1,7 @@
 ---!function
 name: IsDestructable
 namespace: Card
-description: |-
+description: >-
   Checks whether a card (Card c) can be destroyed; if an effect (effect e) is given, checks whether the card can be destroyed by that effect
 status:
   index: stable

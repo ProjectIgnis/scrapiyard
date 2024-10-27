@@ -1,7 +1,7 @@
 ---!function
 name: IsTurnPlayer
 namespace: Duel
-description: |-
+description: >-
   Checks if the current turn is (int player)'s turn.
 status:
   index: stable

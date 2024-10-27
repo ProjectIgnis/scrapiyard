@@ -1,7 +1,7 @@
 ---!function
 name: IsDefense
 namespace: Card
-description: |-
+description: >-
   Returns if a card (Card c) has an DEF equal to any of the values passed.
 status:
   index: stable

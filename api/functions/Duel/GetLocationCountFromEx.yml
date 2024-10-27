@@ -1,7 +1,7 @@
 ---!function
 name: GetLocationCountFromEx
 namespace: Duel
-description: |-
+description: >-
   Gets the number of available zones that (int player) has to perform a Special Summon from the Extra Deck. Optional Parameters: int rplayer is the player performing the summon , by default comes from the player that activates the effect itself; sg are material(s) or tribute(s) for the special summon, it's included when the effect requires the cost of one or more cards; lc is the card that will be special summoned, it's included when it's a specific card which will be special summon). If lc is group, it cannot be passed directly. Instead, pass the type of the monsters in that group (e.g. TYPE_FUSION, see "Construct Element"), which is limited to a single type and will not work properly if the group has different types. The zone parameter is used to limit the check to only some specific zones of the field. The second return is a flag with the available zones.
 status:
   index: stable

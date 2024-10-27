@@ -2,7 +2,7 @@
 name: SET_TACHYON
 enum: Archetype
 value: 0x1ab
-description: |-
+description: >-
   The ["Tachyon"](https://yugipedia.com/wiki/Tachyon) archetype.
 summary: Tachyon
 status: { index: stable }

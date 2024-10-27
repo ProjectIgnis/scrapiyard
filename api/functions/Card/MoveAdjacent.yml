@@ -1,7 +1,7 @@
 ---!function
 name: MoveAdjacent
 namespace: Card
-description: |-
+description: >-
   Executes a move operation for card c, to one of its available adjacent sequences (int the Monster Zone)
 status:
   index: stable

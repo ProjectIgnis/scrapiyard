@@ -1,7 +1,7 @@
 ---!function
 name: GetOverlayTarget
 namespace: Card
-description: |-
+description: >-
   Gets the card that (Card c) is an overlay of
 status:
   index: stable

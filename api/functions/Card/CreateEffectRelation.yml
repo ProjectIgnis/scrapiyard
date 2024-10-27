@@ -1,7 +1,7 @@
 ---!function
 name: CreateEffectRelation
 namespace: Card
-description: |-
+description: >-
   Creates a relation between a card (Card c) and an effect (Effect e)
 status:
   index: stable

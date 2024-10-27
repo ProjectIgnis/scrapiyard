@@ -2,7 +2,7 @@
 name: EFFECT_SPSUMMON_COST
 enum: EffectCode
 value: 92
-description: |-
+description: >-
   The affected player must pay a cost to Special Summon.
 status:
   index: stable

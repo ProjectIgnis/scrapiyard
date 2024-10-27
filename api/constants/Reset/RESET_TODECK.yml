@@ -2,7 +2,7 @@
 name: RESET_TODECK
 enum: Reset
 value: 0x400000
-description: |-
+description: >-
   Resets when the card is sent to the deck
 status:
   index: stable

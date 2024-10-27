@@ -1,7 +1,7 @@
 ---!function
 name: IsActivatable
 namespace: Effect
-description: |-
+description: >-
   Checks if an effect (Effect e) can be activated by a player (int player). If ignore location is true, the handler of the effect is not checked to be in a valid location for that effect to be activated. If ignore target is true, then the target function is not executed to check if the effect can be activated.
 status:
   index: stable

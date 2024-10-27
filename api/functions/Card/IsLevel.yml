@@ -1,7 +1,7 @@
 ---!function
 name: IsLevel
 namespace: Card
-description: |-
+description: >-
   Returns `true` if the level of a card is equal to any of the specified levels
 summary: Checks the level of a card
 parameters:

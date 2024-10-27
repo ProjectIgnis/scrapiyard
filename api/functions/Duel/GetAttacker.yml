@@ -1,7 +1,7 @@
 ---!function
 name: GetAttacker
 namespace: Duel
-description: |-
+description: >-
   Gets the attacking card (or nil if there is no attacker)
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_DINOWRESTLER
 enum: Archetype
 value: 0x11a
-description: |-
+description: >-
   The ["Dinowrestler"](https://yugipedia.com/wiki/Dinowrestler) archetype.
 summary: Dinowrestler
 status: { index: stable }

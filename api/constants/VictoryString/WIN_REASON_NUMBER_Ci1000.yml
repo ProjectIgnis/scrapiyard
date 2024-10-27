@@ -2,7 +2,7 @@
 name: WIN_REASON_NUMBER_Ci1000
 enum: VictoryString
 value: 0x52
-description: |-
+description: >-
   The hexadecimal value for a duel win caused by "Number iC1000: Numeronius Numeronia"
 status:
   index: stable

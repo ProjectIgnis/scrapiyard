@@ -1,7 +1,7 @@
 ---!function
 name: RegisterEffect
 namespace: Card
-description: |-
+description: >-
   Registers an Effect (Effect e) (usually an Effect created with Effect.CreateEffect()) to a Card (Card c), ... is a list of integers which Registers further effects in the utility.
 status:
   index: stable

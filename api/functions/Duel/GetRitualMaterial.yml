@@ -1,7 +1,7 @@
 ---!function
 name: GetRitualMaterial
 namespace: Duel
-description: |-
+description: >-
   Returns cards that are usable by (int player) as ritual materials. if (bool checklevel) is true, only cards with level greater than 0 will be returned
 status:
   index: stable

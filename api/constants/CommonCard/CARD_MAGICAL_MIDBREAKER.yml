@@ -2,7 +2,7 @@
 name: CARD_MAGICAL_MIDBREAKER
 enum: CommonCard
 value: 71650854
-description: |-
+description: >-
   Magical MidBreaker's ID, used to due to the interaction of cards that activate Field Spells.
 status:
   index: stable

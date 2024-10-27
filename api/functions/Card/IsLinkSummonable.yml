@@ -1,7 +1,7 @@
 ---!function
 name: IsLinkSummonable
 namespace: Card
-description: |-
+description: >-
   Checks if "c" can be Link Summoned using "must_use" as part of its materials, choosing among "mg", with "min" and "max"as the number of materials materials to be used for the Link Summon.
 status:
   index: stable

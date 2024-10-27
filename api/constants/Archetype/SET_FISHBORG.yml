@@ -2,7 +2,7 @@
 name: SET_FISHBORG
 enum: Archetype
 value: 0x96
-description: |-
+description: >-
   The ["Fishborg"](https://yugipedia.com/wiki/Fishborg) archetype.
 summary: Fishborg
 status: { index: stable }

@@ -2,7 +2,7 @@
 name: SET_VIRTUAL_WORLD_GATE
 enum: Archetype
 value: 0x1150
-description: |-
+description: >-
   The ["Virtual World Gate"](https://yugipedia.com/wiki/Virtual_World_Gate) archetype.
   Sub-archetype of [`SET_VIRTUAL_WORLD`](/api/constants/Archetype/SET_VIRTUAL_WORLD).
 summary: Virtual World Gate

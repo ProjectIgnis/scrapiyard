@@ -2,7 +2,7 @@
 name: CATEGORY_SPECIAL_SUMMON
 enum: EffectCategory
 value: 0x200
-description: |-
+description: >-
   Describes that an effect Special Summons a monster(s)
 status:
   index: stable

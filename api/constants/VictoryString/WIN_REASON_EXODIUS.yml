@@ -2,7 +2,7 @@
 name: WIN_REASON_EXODIUS
 enum: VictoryString
 value: 0x14
-description: |-
+description: >-
   The hexadecimal value for a duel win caused by "Exodius the Ultimate Forbidden Lord"
 status:
   index: stable

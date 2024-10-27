@@ -1,7 +1,7 @@
 ---!function
 name: ListsArchetype
 namespace: Card
-description: |-
+description: >-
   Returns if (Card c) lists any of the setcodes passed in (int ...), by iterating over Card c's listed_series.
 status:
   index: stable

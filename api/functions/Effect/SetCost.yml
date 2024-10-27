@@ -1,7 +1,7 @@
 ---!function
 name: SetCost
 namespace: Effect
-description: |-
+description: >-
   Sets (Effect e)'s cost function
 status:
   index: stable

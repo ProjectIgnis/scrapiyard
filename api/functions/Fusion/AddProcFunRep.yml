@@ -1,7 +1,7 @@
 ---!function
 name: AddProcFunRep
 namespace: Fusion
-description: |-
+description: >-
   Fusion monster, condition * n
 status:
   index: stable

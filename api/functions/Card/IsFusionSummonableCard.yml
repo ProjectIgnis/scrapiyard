@@ -1,7 +1,7 @@
 ---!function
 name: IsFusionSummonableCard
 namespace: Card
-description: |-
+description: >-
   Returns if (Card c) is a card that can be fusion summoned. This checks if: -the card's type is TYPE_FUSION, -the card has an EFFECT_SPSUMMON_CONDITION applied to it. If (int sumtype) is provided, it uses that value in the step. SUMMON_TYPE_FUSION is included in sumtype by default.
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: CHAININFO_TRIGGERING_LEVEL
 enum: ChainInfo
 value: 20
-description: |-
+description: >-
   When used with Duel.GetChainInfo returns an integer with the level of the card that triggered the requested Chain Link.
 status:
   index: stable

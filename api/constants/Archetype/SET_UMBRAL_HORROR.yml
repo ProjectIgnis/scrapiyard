@@ -2,7 +2,7 @@
 name: SET_UMBRAL_HORROR
 enum: Archetype
 value: 0x87
-description: |-
+description: >-
   The ["Umbral Horror"](https://yugipedia.com/wiki/Umbral_Horror) archetype.
 summary: Umbral Horror
 status: { index: stable }

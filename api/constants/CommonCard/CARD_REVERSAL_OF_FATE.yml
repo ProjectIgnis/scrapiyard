@@ -2,7 +2,7 @@
 name: CARD_REVERSAL_OF_FATE
 enum: CommonCard
 value: 36690018
-description: |-
+description: >-
   Reversal of Fate's ID, used by the Arcana Force monsters
 status:
   index: stable

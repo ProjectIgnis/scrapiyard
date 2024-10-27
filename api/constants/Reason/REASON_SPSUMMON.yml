@@ -2,7 +2,7 @@
 name: REASON_SPSUMMON
 enum: Reason
 value: 0x800
-description: |-
+description: >-
   The reason for the event is an Special Summon
 status:
   index: stable

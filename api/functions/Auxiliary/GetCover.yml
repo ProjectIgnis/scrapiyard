@@ -1,7 +1,7 @@
 ---!function
 name: GetCover
 namespace: Auxiliary
-description: |-
+description: >-
   Used by the Skill procedure.
 status:
   index: stable

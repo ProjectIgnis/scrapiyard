@@ -2,7 +2,7 @@
 name: ATTRIBUTE_DIVINE
 enum: MonsterAttribute
 value: 0x40
-description: |-
+description: >-
   The [DIVINE](https://yugipedia.com/wiki/DIVINE) attribute for monsters
 summary: DIVINE
 status: { index: stable }

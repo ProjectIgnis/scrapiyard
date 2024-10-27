@@ -2,7 +2,7 @@
 name: SET_EDGE_IMP
 enum: Archetype
 value: 0xc3
-description: |-
+description: >-
   The ["Edge Imp"](https://yugipedia.com/wiki/Edge_Imp) archetype.
 summary: Edge Imp
 status: { index: stable }

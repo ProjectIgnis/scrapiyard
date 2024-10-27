@@ -2,7 +2,7 @@
 name: DUEL_NO_STANDBY_PHASE
 enum: DuelMode
 value: 0x100000
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

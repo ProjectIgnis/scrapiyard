@@ -2,7 +2,7 @@
 name: SET_DARK_MIMIC
 enum: Archetype
 value: 0x5e
-description: |-
+description: >-
   The ["Dark Mimic"](https://yugipedia.com/wiki/Dark_Mimic) series of "LV" monsters.
   Technically not an archetype but is registered as such on some cards for the LV set handling.
 summary: Dark Mimic

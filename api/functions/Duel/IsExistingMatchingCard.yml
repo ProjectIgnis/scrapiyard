@@ -1,7 +1,7 @@
 ---!function
 name: IsExistingMatchingCard
 namespace: Duel
-description: |-
+description: >-
   Checks if (int count) cards exist in locations (int s) (on (int player)'s side of the field) and (int o) (on their opponent's) for which (function f) returns true, except (Card ex)
 status:
   index: stable

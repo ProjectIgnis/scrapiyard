@@ -1,7 +1,7 @@
 ---!function
 name: GetLP
 namespace: Duel
-description: |-
+description: >-
   Gets a specified player's (int player) current Life Point
 status:
   index: stable

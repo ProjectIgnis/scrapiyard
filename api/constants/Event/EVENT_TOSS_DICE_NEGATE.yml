@@ -2,7 +2,7 @@
 name: EVENT_TOSS_DICE_NEGATE
 enum: Event
 value: 1153
-description: |-
+description: >-
   This event is raised when dice are re-rolled
 status:
   index: stable

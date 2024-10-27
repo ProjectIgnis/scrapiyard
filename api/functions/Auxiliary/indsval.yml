@@ -1,7 +1,7 @@
 ---!function
 name: indsval
 namespace: Auxiliary
-description: |-
+description: >-
   Returns if the reason player is equal to effect e's handler player. Commonly used as filter for EFFECT_INDESTRUCTABLE_EFFECT + self
 status:
   index: stable

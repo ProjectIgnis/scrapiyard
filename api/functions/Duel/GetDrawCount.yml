@@ -1,7 +1,7 @@
 ---!function
 name: GetDrawCount
 namespace: Duel
-description: |-
+description: >-
   Gets the draw count for normal draw for a player (int player)
 status:
   index: stable

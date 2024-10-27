@@ -1,7 +1,7 @@
 ---!function
 name: IsSummonableCard
 namespace: Card
-description: |-
+description: >-
   Checks if a card (Card c) is normally summonable, returns false when the card is subject of Card.EnableUnsummonable or Card.EnableReviveLimit
 status:
   index: stable

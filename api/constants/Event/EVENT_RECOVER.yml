@@ -2,7 +2,7 @@
 name: EVENT_RECOVER
 enum: Event
 value: 1112
-description: |-
+description: >-
   When LP is gained
 status:
   index: stable

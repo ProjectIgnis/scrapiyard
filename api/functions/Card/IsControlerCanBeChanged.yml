@@ -1,7 +1,7 @@
 ---!function
 name: IsControlerCanBeChanged
 namespace: Card
-description: |-
+description: >-
   Checks if a card (Card c) can change control. It returns false in either of these situations:  - c's controller is PLAYER_NONE, - c is not in LOCATION_MZONE, - c is affected by EFFECT_CANNOT_CHANGE_CONTROL, - the opposing player has enough space. If bool ign is true, the monster zone checking is ignored. If int zone is provided, it uses only these zones as reference.
 status:
   index: stable

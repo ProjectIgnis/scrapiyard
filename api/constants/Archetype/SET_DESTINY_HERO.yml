@@ -2,7 +2,7 @@
 name: SET_DESTINY_HERO
 enum: Archetype
 value: 0xc008
-description: |-
+description: >-
   The ["Destiny HERO"](https://yugipedia.com/wiki/Destiny_HERO) archetype.
   Sub-archetype of [`SET_HERO`](/api/constants/Archetype/SET_HERO).
 summary: Destiny HERO

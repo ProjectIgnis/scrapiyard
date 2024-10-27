@@ -2,7 +2,7 @@
 name: EFFECT_FLAG_CONTINUOUS_TARGET
 enum: EffectProperty
 value: 0x8000000
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

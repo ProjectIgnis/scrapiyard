@@ -2,7 +2,7 @@
 name: SET_THUNDER_DRAGON
 enum: Archetype
 value: 0x11c
-description: |-
+description: >-
   The ["Thunder Dragon"](https://yugipedia.com/wiki/Thunder_Dragon_(archetype)) archetype.
 summary: Thunder Dragon
 status: { index: stable }

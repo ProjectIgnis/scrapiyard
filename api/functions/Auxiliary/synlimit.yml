@@ -1,7 +1,7 @@
 ---!function
 name: synlimit
 namespace: Auxiliary
-description: |-
+description: >-
   SPSUMMON condition "Must be Synchro Summoned"
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: ListsCardType
 namespace: Card
-description: |-
+description: >-
   Returns true if (Card c) specifically lists any of the CardTypes passed in (int ..), (which means that it iterates over Card c's listed_card_types)
 status:
   index: stable

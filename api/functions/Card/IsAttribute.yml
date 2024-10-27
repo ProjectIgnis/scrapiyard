@@ -1,7 +1,7 @@
 ---!function
 name: IsAttribute
 namespace: Card
-description: |-
+description: >-
   Checks if the Attribute of "c" is "attribute" (if it is to be used as material for "scard" with SummonType "sumtype" by player "playerid").
 status:
   index: stable

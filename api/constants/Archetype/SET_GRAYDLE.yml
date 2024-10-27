@@ -2,7 +2,7 @@
 name: SET_GRAYDLE
 enum: Archetype
 value: 0xd1
-description: |-
+description: >-
   The ["Graydle"](https://yugipedia.com/wiki/Graydle) archetype.
 summary: Graydle
 status: { index: stable }

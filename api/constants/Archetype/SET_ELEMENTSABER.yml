@@ -2,7 +2,7 @@
 name: SET_ELEMENTSABER
 enum: Archetype
 value: 0x400d
-description: |-
+description: >-
   The ["Elementsaber"](https://yugipedia.com/wiki/Elementsaber) archetype.
   Sub-archetype of [`SET_SABER`](/api/constants/Archetype/SET_SABER).
 summary: Elementsaber

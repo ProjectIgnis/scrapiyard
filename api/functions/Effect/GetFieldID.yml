@@ -1,7 +1,7 @@
 ---!function
 name: GetFieldID
 namespace: Effect
-description: |-
+description: >-
   Returns an effect's current unique instance ID. Each activation of an activated effect is a separate instance.
 parameters:
   - name: e

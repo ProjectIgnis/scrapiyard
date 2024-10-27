@@ -1,7 +1,7 @@
 ---!function
 name: AnnounceRace
 namespace: Duel
-description: |-
+description: >-
   Asks (int player) to announce (int count) number of Races, amongst those specified in (int available).
 status:
   index: stable

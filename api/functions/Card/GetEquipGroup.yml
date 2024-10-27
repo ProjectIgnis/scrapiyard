@@ -1,7 +1,7 @@
 ---!function
 name: GetEquipGroup
 namespace: Card
-description: |-
+description: >-
   Gets a Group of Cards equipped to a Card (Card c)
 status:
   index: stable

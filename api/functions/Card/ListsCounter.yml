@@ -1,7 +1,7 @@
 ---!function
 name: ListsCounter
 namespace: Card
-description: |-
+description: >-
   Checks if (Card c) has an effect that mentions (int counter_type) counter. This includes adding, removing, gaining ATK/DEF per counter, etc. Corresponding table: "s.counter_list" ("s.counter_place_list" is already handled)
 status:
   index: stable

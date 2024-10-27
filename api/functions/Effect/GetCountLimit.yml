@@ -1,7 +1,7 @@
 ---!function
 name: GetCountLimit
 namespace: Effect
-description: |-
+description: >-
   Returns, in order, the following information's about (Effect e): remaining usages, maximum count limit, its hopt identifier (e.g. detects if "The effect of "card name" can only be used once per turn, almost always you'd want to use the card's own id to be sure it's unique.), its count flags (e.g. EFFECT_COUNT_CODE_DUEL to indicate an effect that is n times per duel), its hopt index (that is used to handle cards that have multiple hopt effects where each can be used once, the first will have an index of 0, the second an index of 1, etc,)
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: IsReleasable
 namespace: Card
-description: |-
+description: >-
   Checks if a card (Card c) is able to be Tributed. If the reason is also provided, checks if it can be tributed for that reason, defaulting to REASON_COST.
 status:
   index: stable

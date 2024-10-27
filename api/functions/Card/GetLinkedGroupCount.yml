@@ -1,7 +1,7 @@
 ---!function
 name: GetLinkedGroupCount
 namespace: Card
-description: |-
+description: >-
   Returns the number of cards that "c" points to.
 status:
   index: stable

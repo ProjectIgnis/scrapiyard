@@ -2,7 +2,7 @@
 name: COIN_HEADS
 enum: Coin
 value: 0
-description: |-
+description: >-
   Value for coin results
 status:
   index: stable

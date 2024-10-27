@@ -1,7 +1,7 @@
 ---!function
 name: IsRitualMonster
 namespace: Card
-description: |-
+description: >-
   Returns `true` if the given card is currently
   a [Ritual Monster](https://yugipedia.com/wiki/Ritual_Monster).
 summary: Checks if a card is a Ritual Monster

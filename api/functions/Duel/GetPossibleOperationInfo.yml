@@ -1,7 +1,7 @@
 ---!function
 name: GetPossibleOperationInfo
 namespace: Duel
-description: |-
+description: >-
   Behaviour similar to Duel.GetOperationInfo, but returns the value set by Duel.SetPossibleOperationInfo instead
 status:
   index: stable

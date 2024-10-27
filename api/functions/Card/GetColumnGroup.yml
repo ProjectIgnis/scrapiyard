@@ -1,7 +1,7 @@
 ---!function
 name: GetColumnGroup
 namespace: Card
-description: |-
+description: >-
   Returns a group with all the cards that are in the same column as "c". If "left" or "right" are provided, the returned group will also include the cards from the N columns on the left or right of "c" respectively, where N is the number passed for the "left" or "right" parameter.
 status:
   index: stable

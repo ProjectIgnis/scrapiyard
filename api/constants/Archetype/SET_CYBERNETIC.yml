@@ -2,7 +2,7 @@
 name: SET_CYBERNETIC
 enum: Archetype
 value: 0x94
-description: |-
+description: >-
   The ["Cybernetic"](https://yugipedia.com/wiki/Cybernetic) archetype.
 summary: Cybernetic
 status: { index: stable }

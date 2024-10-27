@@ -1,7 +1,7 @@
 ---!function
 name: GetFreeLinkedZone
 namespace: Card
-description: |-
+description: >-
   Returns all the zones that "c" points to that are not occupied by a card.
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: BitSplit
 namespace: Auxiliary
-description: |-
+description: >-
   Auxiliary function to help printing hints for attribute-related cards such as Cynet Codec
 status:
   index: stable

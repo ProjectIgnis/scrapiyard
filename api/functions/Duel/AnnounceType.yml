@@ -1,7 +1,7 @@
 ---!function
 name: AnnounceType
 namespace: Duel
-description: |-
+description: >-
   Makes (int player) declare a type
 status:
   index: stable

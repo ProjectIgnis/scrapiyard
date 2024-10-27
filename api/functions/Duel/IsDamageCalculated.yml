@@ -1,7 +1,7 @@
 ---!function
 name: IsDamageCalculated
 namespace: Duel
-description: |-
+description: >-
   Returns true if damage has been calculated during the current (or previous) damage calculation, otherwise returns false
 status:
   index: stable

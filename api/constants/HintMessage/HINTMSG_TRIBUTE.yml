@@ -2,7 +2,7 @@
 name: HINTMSG_TRIBUTE
 enum: HintMessage
 value: 531
-description: |-
+description: >-
   Shows the following HintMessage: "Select monsters for Tribute Summon"
 status:
   index: stable

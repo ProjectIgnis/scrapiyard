@@ -2,7 +2,7 @@
 name: CARD_CHIMERA_FUSION
 enum: CommonCard
 value: 63136489
-description: |-
+description: >-
   Chimera Fusion's ID
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_PATISSCIEL
 enum: Archetype
 value: 0x206
-description: |-
+description: >-
   The ["Patissciel"](https://yugipedia.com/wiki/Patissciel) archetype.
 summary: Patissciel
 status: { index: stable }

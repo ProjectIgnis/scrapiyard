@@ -2,7 +2,7 @@
 name: RACE_DIVINE
 enum: MonsterRace
 value: 0x200000
-description: |-
+description: >-
   The [Divine-Beast](https://yugipedia.com/wiki/Divine-Beast) Monster Type
 summary: Divine-Beast
 status: { index: stable }

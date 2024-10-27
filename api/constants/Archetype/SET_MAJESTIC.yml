@@ -2,7 +2,7 @@
 name: SET_MAJESTIC
 enum: Archetype
 value: 0x3f
-description: |-
+description: >-
   The ["Majestic"](https://yugipedia.com/wiki/Majestic) archetype.
 summary: Majestic
 status: { index: stable }

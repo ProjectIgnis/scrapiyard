@@ -1,7 +1,7 @@
 ---!function
 name: CheckSummonedCount
 namespace: Duel
-description: |-
+description: >-
   Checks if the current reason player can still normal summon other monsters or has used that turn's summons, or if a card is passed and that card is affected by an EFFECT_EXTRA_SUMMON_COUNT effect allowing it to be summoned.
 status:
   index: stable

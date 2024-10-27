@@ -1,7 +1,7 @@
 ---!function
 name: IsPreviousSetCard
 namespace: Card
-description: |-
+description: >-
   Checks if "c" was previously part of the archetype "setname".
 status:
   index: stable

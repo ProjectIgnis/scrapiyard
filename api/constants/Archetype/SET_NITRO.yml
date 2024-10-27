@@ -2,7 +2,7 @@
 name: SET_NITRO
 enum: Archetype
 value: 0x2d
-description: |-
+description: >-
   The ["Nitro"](https://yugipedia.com/wiki/Nitro) archetype.
 summary: Nitro
 status: { index: stable }

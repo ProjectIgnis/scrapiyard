@@ -2,7 +2,7 @@
 name: SET_GHOSTRICK
 enum: Archetype
 value: 0x8d
-description: |-
+description: >-
   The ["Ghostrick"](https://yugipedia.com/wiki/Ghostrick) archetype.
 summary: Ghostrick
 status: { index: stable }

@@ -2,7 +2,7 @@
 name: CATEGORY_CONTROL
 enum: EffectCategory
 value: 0x2000
-description: |-
+description: >-
   Describes that an effect takes or switches control
 status:
   index: stable

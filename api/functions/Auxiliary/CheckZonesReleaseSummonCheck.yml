@@ -1,7 +1,7 @@
 ---!function
 name: CheckZonesReleaseSummonCheck
 namespace: Auxiliary
-description: |-
+description: >-
   Auxiliary function called by "Duel.SelectReleaseGroupSummon".
 status:
   index: stable

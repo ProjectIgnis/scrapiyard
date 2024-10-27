@@ -1,7 +1,7 @@
 ---!function
 name: CheckTribute
 namespace: Duel
-description: |-
+description: >-
   Checkd if there are valid tributes on the field to summon Card c to tp's field in the zones specified by zone using the rules of a normal tribute summon.
 status:
   index: stable

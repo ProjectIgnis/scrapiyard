@@ -2,7 +2,7 @@
 name: SET_DIABELL
 enum: Archetype
 value: 0x203
-description: |-
+description: >-
   The ["Diabell"](https://yugipedia.com/wiki/Diabell) archetype.
   Sub-archetype of [`SET_DIABELL`](/api/constants/Archetype/SET_DIABELL).
 summary: Diabell

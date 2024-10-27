@@ -1,7 +1,7 @@
 ---!function
 name: Cover
 namespace: Card
-description: |-
+description: >-
   Skill related function
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: TossDice
 namespace: Duel
-description: |-
+description: >-
   Rolls (int count1) dice on behalf of (int player) and (int count1) dice on behalf of the opponent of (int player). Returns all the results of the rolls.
 status:
   index: stable

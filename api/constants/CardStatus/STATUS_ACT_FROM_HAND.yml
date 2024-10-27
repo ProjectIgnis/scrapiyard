@@ -2,7 +2,7 @@
 name: STATUS_ACT_FROM_HAND
 enum: CardStatus
 value: 0x8000000
-description: |-
+description: >-
   A card with this status can be activated from hand
 status:
   index: stable

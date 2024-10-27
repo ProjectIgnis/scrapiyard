@@ -1,7 +1,7 @@
 ---!function
 name: HasCounters
 namespace: Card
-description: |-
+description: >-
   Returns `true` if a given card currently holds any counter.
 parameters:
   - name: c

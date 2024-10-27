@@ -1,7 +1,7 @@
 ---!function
 name: MainAndExtraSpSummonLoop
 namespace: Auxiliary
-description: |-
+description: >-
   Loops Special Summoning (Group sg) to ensure they go in a valid zone (Extra Monster Zone and Main Monster Zones) where (function func) is a function called after each card in the Group is summoned with the parameters (Effect e, int tp, Group eg, int ep,int ev, Effect re, int r, int rp, Card sc) where (Card sc) is the card that's Summoned. (int sumtype) is the SummonType. (int sump) is the Summoning player. (int targetp) is the target player. (bool nocheck) checks for "ignoring the Summoning conditions". And (bool nolimit) checks for "ignoring proper Summon". (int pos) is the position to be Summoned. (int mmz) is the zones where you can Special Summon monsters in (Group sg) to the Main Monster Zone, which defaults to all Main Monster Zones if there is no input or nil is inputed. (int emz) on the other is similar to (int mmz) but it checks for cards from the Extra Deck which Special Summons to the Extra Monster Zone.
 status:
   index: stable

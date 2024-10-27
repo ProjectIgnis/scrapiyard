@@ -1,7 +1,7 @@
 ---!type
 name: FusionStage2
 supertype: function
-description: |-
+description: >-
   An operation to perform in a Fusion Summon effect, after the monster has been summoned.
 summary: An operation to perform after a Fusion Summon
 parameters:

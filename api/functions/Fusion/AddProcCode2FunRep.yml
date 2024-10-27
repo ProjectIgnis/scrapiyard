@@ -1,7 +1,7 @@
 ---!function
 name: AddProcCode2FunRep
 namespace: Fusion
-description: |-
+description: >-
   Creates a Fusion Summon recipe for a monster that uses 2 specifically named materials,
   and a range of other materials that match a filter.
 summary: Creates a Fusion recipe with 2 named + a range of filtered materials
@@ -28,12 +28,12 @@ parameters:
     description: The maximum number of other materials that must match the filter.
   - name: sub
     type: [ bool ]
-    description: |-
+    description: >-
       A boolean denoting if Fusion Substitutes
       (e.g. [King of the Swamp](https://yugipedia.com/wiki/King_of_the_Swamp))
       are allowed in the materials.
   - name: insf
     type: [ bool ]
-    description: |-
+    description: >-
       A boolean denoting if Fusion Summoning without materials
       (e.g. [Instant Fusion](https://yugipedia.com/wiki/Instant_Fusion)) is allowed.

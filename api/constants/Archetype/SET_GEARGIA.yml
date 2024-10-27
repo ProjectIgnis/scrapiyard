@@ -2,7 +2,7 @@
 name: SET_GEARGIA
 enum: Archetype
 value: 0x72
-description: |-
+description: >-
   The ["Geargia"](https://yugipedia.com/wiki/Geargia) archetype.
 summary: Geargia
 status: { index: stable }

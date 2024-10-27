@@ -2,7 +2,7 @@
 name: SET_ELDLICH
 enum: Archetype
 value: 0x142
-description: |-
+description: >-
   The ["Eldlich"](https://yugipedia.com/wiki/Eldlich) archetype.
 summary: Eldlich
 status: { index: stable }

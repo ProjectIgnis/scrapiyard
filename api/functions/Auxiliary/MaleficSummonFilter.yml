@@ -1,7 +1,7 @@
 ---!function
 name: MaleficSummonFilter
 namespace: Auxiliary
-description: |-
+description: >-
   Filter used with AddMaleficSummonProcedure. Returns if card (Card c)'s ID is (cd) and if c can be banished as cost
 status:
   index: stable

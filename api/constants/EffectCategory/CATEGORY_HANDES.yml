@@ -2,7 +2,7 @@
 name: CATEGORY_HANDES
 enum: EffectCategory
 value: 0x80
-description: |-
+description: >-
   Describes that an effect removes a card(s) from the hand (to move them to the Graveyard or to banish them)
 status:
   index: stable

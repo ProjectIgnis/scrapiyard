@@ -2,7 +2,7 @@
 name: EFFECT_CANNOT_BE_SYNCHRO_MATERIAL
 enum: EffectCode
 value: 236
-description: |-
+description: >-
   Affected card cannot be used as Synchro material. SetValue takes the following parameters:
 e: this effect
 c: the card(s) for which this card cannot be used as material

@@ -1,7 +1,7 @@
 ---!function
 name: GetRightScale
 namespace: Card
-description: |-
+description: >-
   Returns the current right Pendulum Scale of "c". (Returns 0 if it has no Pendulum Scale.)
 status:
   index: stable

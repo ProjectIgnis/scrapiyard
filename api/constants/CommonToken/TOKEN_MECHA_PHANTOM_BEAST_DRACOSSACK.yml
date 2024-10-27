@@ -2,7 +2,7 @@
 name: TOKEN_MECHA_PHANTOM_BEAST_DRACOSSACK
 enum: CommonToken
 value: 22110648
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

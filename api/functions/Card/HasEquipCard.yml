@@ -1,7 +1,7 @@
 ---!function
 name: HasEquipCard
 namespace: Card
-description: |-
+description: >-
   Returns `true` if a card currently has any number of cards equipped to it.
 summary: Checks if a card has any number of equipped cards
 parameters:

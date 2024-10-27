@@ -2,7 +2,7 @@
 name: EFFECT_UNSTOPPABLE_ATTACK
 enum: EffectCode
 value: 404
-description: |-
+description: >-
   Prevents the affected monster's attack from being negated. This effect is checked in functions like Card.CanAttack and also when executing PROCESSOR_ATTACK_DISABLE
 status:
   index: stable

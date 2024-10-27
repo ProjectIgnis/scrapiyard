@@ -2,7 +2,7 @@
 name: CHAININFO_DISABLE_PLAYER
 enum: ChainInfo
 value: 12
-description: |-
+description: >-
   When used with Duel.GetChainInfo returns an integer with the player that negated the requested Chain Link's activation/effect/summon.
 status:
   index: stable

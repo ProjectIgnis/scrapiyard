@@ -1,7 +1,7 @@
 ---!function
 name: fuslimit
 namespace: Auxiliary
-description: |-
+description: >-
   SPSUMMON condition "Must be Fusion Summoned"
 status:
   index: stable

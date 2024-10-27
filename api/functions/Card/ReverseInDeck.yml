@@ -1,7 +1,7 @@
 ---!function
 name: ReverseInDeck
 namespace: Card
-description: |-
+description: >-
   Reverses a card (Card c) in Deck (make it face-up)
 status:
   index: stable

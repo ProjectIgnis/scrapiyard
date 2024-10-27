@@ -1,7 +1,7 @@
 ---!function
 name: GetDescription
 namespace: Effect
-description: |-
+description: >-
   Gets (Effect e)'s assigned description string id
 status:
   index: stable

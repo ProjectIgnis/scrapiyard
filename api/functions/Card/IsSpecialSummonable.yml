@@ -1,7 +1,7 @@
 ---!function
 name: IsSpecialSummonable
 namespace: Card
-description: |-
+description: >-
   Checks if a card (Card c) is summonable by it's summon procedure
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_TG
 enum: Archetype
 value: 0x27
-description: |-
+description: >-
   The ["T.G."](https://yugipedia.com/wiki/T.G.) archetype.
 summary: T.G.
 status: { index: stable }

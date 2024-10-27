@@ -2,7 +2,7 @@
 name: WIN_REASON_CREATOR_MIRACLE
 enum: VictoryString
 value: 0x30
-description: |-
+description: >-
   The hexadecimal value for a duel win caused by "Creator of Miracles"
 status:
   index: stable

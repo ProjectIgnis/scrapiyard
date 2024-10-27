@@ -2,7 +2,7 @@
 name: EFFECT_CANNOT_DISABLE_FLIP_SUMMON
 enum: EffectCode
 value: 39
-description: |-
+description: >-
   The Flip Summon of the affected monster cannot be negated (Spell Wall)
 status:
   index: stable

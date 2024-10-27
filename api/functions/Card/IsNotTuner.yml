@@ -1,7 +1,7 @@
 ---!function
 name: IsNotTuner
 namespace: Card
-description: |-
+description: >-
   Returns `true` if the given card can be used for a [Synchro Summon](https://yugipedia.com/wiki/Synchro_Summon)
   as a [non-Tuner monster](https://yugipedia.com/wiki/Non-Tuner_monster).
 summary: Checks if a card can be used for a Synchro Summon as a non-Tuner monster

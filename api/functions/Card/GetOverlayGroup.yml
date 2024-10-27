@@ -1,7 +1,7 @@
 ---!function
 name: GetOverlayGroup
 namespace: Card
-description: |-
+description: >-
   Gets the cards overlayed to a Card (Card c)
 status:
   index: stable

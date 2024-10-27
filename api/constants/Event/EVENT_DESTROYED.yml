@@ -2,7 +2,7 @@
 name: EVENT_DESTROYED
 enum: Event
 value: 1029
-description: |-
+description: >-
   This event is raised when a card is destroyed and leaves the field. In this case, informations it held while it was on the field might not be available. For example, counters that it held are no longer available. Compare it with EVENT_DESTROY.
 status:
   index: stable

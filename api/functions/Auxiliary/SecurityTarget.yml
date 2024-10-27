@@ -1,7 +1,7 @@
 ---!function
 name: SecurityTarget
 namespace: Auxiliary
-description: |-
+description: >-
   Target function "S-Force" archetype's "facing", aka, card in the same column as an "S-Force" monster.
 status:
   index: stable

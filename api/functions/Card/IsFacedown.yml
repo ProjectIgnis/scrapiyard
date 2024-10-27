@@ -1,7 +1,7 @@
 ---!function
 name: IsFacedown
 namespace: Card
-description: |-
+description: >-
   Checks if a card (Card c) is face-down
 status:
   index: stable

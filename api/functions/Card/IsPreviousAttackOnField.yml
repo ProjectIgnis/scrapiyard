@@ -1,7 +1,7 @@
 ---!function
 name: IsPreviousAttackOnField
 namespace: Card
-description: |-
+description: >-
   Returns `true` if a card's previous ATK on the field is equal to a given value.
 summary: Checks a card's previous ATK
 status: { index: stable }

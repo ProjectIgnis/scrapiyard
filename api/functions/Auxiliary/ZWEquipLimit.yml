@@ -1,7 +1,7 @@
 ---!function
 name: ZWEquipLimit
 namespace: Auxiliary
-description: |-
+description: >-
   to be added
 status:
   index: stable

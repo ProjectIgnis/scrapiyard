@@ -2,7 +2,7 @@
 name: EFFECT_CHANGE_RACE
 enum: EffectCode
 value: 122
-description: |-
+description: >-
   Treats a Card(s) as another type overwriting its type (written into Effect.SetValue())
 status:
   index: stable

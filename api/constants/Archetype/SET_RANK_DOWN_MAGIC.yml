@@ -2,7 +2,7 @@
 name: SET_RANK_DOWN_MAGIC
 enum: Archetype
 value: 0x15d
-description: |-
+description: >-
   The ["Rank-Down-Magic"](https://yugipedia.com/wiki/Rank-Down-Magic) archetype.
 summary: Rank-Down-Magic
 status: { index: stable }

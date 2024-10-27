@@ -2,7 +2,7 @@
 name: REASON_DISSUMMON
 enum: Reason
 value: 0x1000
-description: |-
+description: >-
   The reason for the event is a Summon being negated (dissummon= disabled summon)
 status:
   index: stable

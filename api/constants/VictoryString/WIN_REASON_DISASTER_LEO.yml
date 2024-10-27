@@ -2,7 +2,7 @@
 name: WIN_REASON_DISASTER_LEO
 enum: VictoryString
 value: 0x18
-description: |-
+description: >-
   The hexadecimal value for a duel win caused by "Number C88: Gimmick Puppet Disaster Leo"
 status:
   index: stable

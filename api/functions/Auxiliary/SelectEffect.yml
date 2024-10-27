@@ -1,7 +1,7 @@
 ---!function
 name: SelectEffect
 namespace: Auxiliary
-description: |-
+description: >-
   Function deprecated since version 40.0.0. Use "Duel.SelectEffect" instead
 status:
   index: stable

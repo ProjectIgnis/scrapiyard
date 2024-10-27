@@ -2,7 +2,7 @@
 name: EFFECT_DISCARD_COST_CHANGE
 enum: EffectCode
 value: 338
-description: |-
+description: >-
   Counter Trap cards cost change (Guilding Ariadne)
 status:
   index: stable

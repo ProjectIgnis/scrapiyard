@@ -2,7 +2,7 @@
 name: TIMING_DAMAGE_CAL
 enum: Timing
 value: 0x4000
-description: |-
+description: >-
   When performing Damage Calculation
 status:
   index: stable

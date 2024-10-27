@@ -2,7 +2,7 @@
 name: SET_DOGMATIKA
 enum: Archetype
 value: 0x146
-description: |-
+description: >-
   The ["Dogmatika"](https://yugipedia.com/wiki/Dogmatika) archetype.
 summary: Dogmatika
 status: { index: stable }

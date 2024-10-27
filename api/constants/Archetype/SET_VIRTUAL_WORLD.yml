@@ -2,7 +2,7 @@
 name: SET_VIRTUAL_WORLD
 enum: Archetype
 value: 0x150
-description: |-
+description: >-
   The ["Virtual World"](https://yugipedia.com/wiki/Virtual_World) archetype.
 summary: Virtual World
 status: { index: stable }

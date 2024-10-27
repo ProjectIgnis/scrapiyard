@@ -1,7 +1,7 @@
 ---!function
 name: IsPlayerCanDiscardDeckAsCost
 namespace: Duel
-description: |-
+description: >-
   Checks if a player (int player) can mill a number of cards (int count) from their Deck as cost
 status:
   index: stable

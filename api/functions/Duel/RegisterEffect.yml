@@ -1,7 +1,7 @@
 ---!function
 name: RegisterEffect
 namespace: Duel
-description: |-
+description: >-
   Registers an effect (Effect e) to a player (int player)
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: EFFECT_MONSTER_SSET
 enum: EffectCode
 value: 18
-description: |-
+description: >-
   The affected monster can be placed in the Spell/Trap zone. SetValue should hold the type the card is set as (for example, TYPE_SPELL). See Artifact monsters
 status:
   index: stable

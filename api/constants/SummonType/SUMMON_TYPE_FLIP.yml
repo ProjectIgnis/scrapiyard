@@ -2,7 +2,7 @@
 name: SUMMON_TYPE_FLIP
 enum: SummonType
 value: 0x20000000
-description: |-
+description: >-
   Flip Summon
 status:
   index: stable

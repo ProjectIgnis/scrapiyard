@@ -1,7 +1,7 @@
 ---!function
 name: FilterBoolFunction
 namespace: Auxiliary
-description: |-
+description: >-
   Used in filters (with parameter (Card c)) to check a function and its (...) parameters
 status:
   index: stable

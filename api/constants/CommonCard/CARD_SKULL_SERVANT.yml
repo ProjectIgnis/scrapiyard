@@ -2,7 +2,7 @@
 name: CARD_SKULL_SERVANT
 enum: CommonCard
 value: 32274490
-description: |-
+description: >-
   Skull Servant's ID
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_ASHENED
 enum: Archetype
 value: 0x1a5
-description: |-
+description: >-
   The ["Ashened"](https://yugipedia.com/wiki/Ashened) archetype.
 summary: Ashened
 status: { index: stable }

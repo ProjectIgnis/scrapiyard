@@ -2,7 +2,7 @@
 name: DUEL_1_FIELD
 enum: DuelMode
 value: 0x400
-description: |-
+description: >-
   Use this constant name in the scripts (internally called DUEL_1_FACEUP_FIELD)
 status:
   index: stable

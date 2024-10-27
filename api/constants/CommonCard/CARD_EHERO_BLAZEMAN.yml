@@ -2,7 +2,7 @@
 name: CARD_EHERO_BLAZEMAN
 enum: CommonCard
 value: 63060238
-description: |-
+description: >-
   Elemental HERO Blazeman's ID
 status:
   index: stable

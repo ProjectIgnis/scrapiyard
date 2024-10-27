@@ -2,7 +2,7 @@
 name: SET_NEMESES
 enum: Archetype
 value: 0x13d
-description: |-
+description: >-
   The ["Nemeses"](https://yugipedia.com/wiki/Nemeses) archetype.
 summary: Nemeses
 status: { index: stable }

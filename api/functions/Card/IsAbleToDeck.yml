@@ -1,7 +1,7 @@
 ---!function
 name: IsAbleToDeck
 namespace: Card
-description: |-
+description: >-
   Checks if the card c can be returned to the Deck
 status:
   index: stable

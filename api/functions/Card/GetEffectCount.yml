@@ -1,7 +1,7 @@
 ---!function
 name: GetEffectCount
 namespace: Card
-description: |-
+description: >-
   Gets the amount of an Effect (EFFECT_x) registered to a Card (Card c)
 status:
   index: stable

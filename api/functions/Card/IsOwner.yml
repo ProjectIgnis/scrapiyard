@@ -1,7 +1,7 @@
 ---!function
 name: IsOwner
 namespace: Card
-description: |-
+description: >-
   Returns `true` if a card is [owned](https://yugipedia.com/wiki/Owner) by a specified player.
 summary: Checks a card's owner
 parameters:

@@ -1,7 +1,7 @@
 ---!function
 name: AskAny
 namespace: Auxiliary
-description: |-
+description: >-
   Function deprecated since version 40.0.0. Use "Duel.AskAny" instead
 status:
   index: stable

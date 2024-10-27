@@ -1,7 +1,7 @@
 ---!function
 name: GetUnionCount
 namespace: Card
-description: |-
+description: >-
   Gets Amount of Union monsters equipped to a Card (Card c)
 status:
   index: stable

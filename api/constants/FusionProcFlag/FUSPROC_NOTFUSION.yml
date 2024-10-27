@@ -2,7 +2,7 @@
 name: FUSPROC_NOTFUSION
 enum: FusionProcFlag
 value: 0x100
-description: |-
+description: >-
   Flag used for the various filters in the fusion procedure.
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: GetAttackableTarget
 namespace: Card
-description: |-
+description: >-
   Gets a card's (Card c) valid attack targets
 status:
   index: stable

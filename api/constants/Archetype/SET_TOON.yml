@@ -2,7 +2,7 @@
 name: SET_TOON
 enum: Archetype
 value: 0x62
-description: |-
+description: >-
   The ["Toon"](https://yugipedia.com/wiki/Toon) archetype.
 summary: Toon
 status: { index: stable }

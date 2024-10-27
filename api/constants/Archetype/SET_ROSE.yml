@@ -2,7 +2,7 @@
 name: SET_ROSE
 enum: Archetype
 value: 0x123
-description: |-
+description: >-
   The ["Rose"](https://yugipedia.com/wiki/Rose) archetype.
 summary: Rose
 status: { index: stable }

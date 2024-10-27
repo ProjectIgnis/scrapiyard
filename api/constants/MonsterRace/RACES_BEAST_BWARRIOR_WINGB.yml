@@ -2,7 +2,7 @@
 name: RACES_BEAST_BWARRIOR_WINGB
 enum: MonsterRace
 value: 0xc200
-description: |-
+description: >-
   Composite constant of Beast, Beast-Warrior and Winged-Beast Monster Types
 summary: Beast, Beast-Warrior, Winged-Beast
 status: { index: stable }

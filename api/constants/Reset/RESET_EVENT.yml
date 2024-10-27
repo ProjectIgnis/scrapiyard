@@ -2,7 +2,7 @@
 name: RESET_EVENT
 enum: Reset
 value: 0x1000
-description: |-
+description: >-
   Resets when a given event occurs (add the event value)
 status:
   index: stable

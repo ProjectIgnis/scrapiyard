@@ -1,7 +1,7 @@
 ---!function
 name: SetReasonPlayer
 namespace: Card
-description: |-
+description: >-
   Sets "rp" as the player that was the reason of an event that happened to "c".
 status:
   index: stable

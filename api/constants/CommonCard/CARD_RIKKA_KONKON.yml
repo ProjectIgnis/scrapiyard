@@ -2,7 +2,7 @@
 name: CARD_RIKKA_KONKON
 enum: CommonCard
 value: 76869711
-description: |-
+description: >-
   Rikka Konkon's ID
 status:
   index: stable

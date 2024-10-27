@@ -2,7 +2,7 @@
 name: RACE_WINGEDBEAST
 enum: MonsterRace
 value: 0x200
-description: |-
+description: >-
   The [Winged-Beast](https://yugipedia.com/wiki/Winged-Beast) Monster Type
 summary: Winged-Beast
 status: { index: stable }

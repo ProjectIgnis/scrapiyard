@@ -1,7 +1,7 @@
 ---!function
 name: ChangeAttackTarget
 namespace: Duel
-description: |-
+description: >-
   Changes the current monster being attacker to another card (or makes the attack a direct attack in case of no card being passed)
 status:
   index: stable

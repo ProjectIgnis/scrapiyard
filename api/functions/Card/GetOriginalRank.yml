@@ -1,7 +1,7 @@
 ---!function
 name: GetOriginalRank
 namespace: Card
-description: |-
+description: >-
   Returns the original Rank of "c". (Returns 0 if it has no Rank.)
 status:
   index: stable

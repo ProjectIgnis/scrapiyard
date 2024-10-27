@@ -2,7 +2,7 @@
 name: SET_LYRILUSC
 enum: Archetype
 value: 0xf7
-description: |-
+description: >-
   The ["Lyrilusc"](https://yugipedia.com/wiki/Lyrilusc) archetype.
 summary: Lyrilusc
 status: { index: stable }

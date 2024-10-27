@@ -2,7 +2,7 @@
 name: EFFECT_SYNSUB_NORDIC
 enum: EffectCode
 value: 61777313
-description: |-
+description: >-
   Vanadis of the Nordic Ascendant's ID, used for the effects of Nordics that replace a material for a Synchro Summon
 status:
   index: stable

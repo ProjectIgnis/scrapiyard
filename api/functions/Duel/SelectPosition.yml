@@ -1,7 +1,7 @@
 ---!function
 name: SelectPosition
 namespace: Duel
-description: |-
+description: >-
   Makes int player select a position int pos for card c
 status:
   index: stable

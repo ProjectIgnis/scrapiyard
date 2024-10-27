@@ -2,7 +2,7 @@
 name: SET_BATTLIN_BOXER
 enum: Archetype
 value: 0x84
-description: |-
+description: >-
   The ["Battlin' Boxer"](https://yugipedia.com/wiki/Battlin%27_Boxer) archetype.
 summary: Battlin' Boxer
 status: { index: stable }

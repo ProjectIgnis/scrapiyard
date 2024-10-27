@@ -2,7 +2,7 @@
 name: SET_SUPER_QUANTAL_MECH_BEAST
 enum: Archetype
 value: 0x20dc
-description: |-
+description: >-
   The ["Super Quantal Mech Beast"](https://yugipedia.com/wiki/Super_Quantal_Mech_Beast) archetype.
   Sub-archetype of [`SET_SUPER_QUANT`](/api/constants/Archetype/SET_SUPER_QUANT).
 summary: Super Quantal Mech Beast

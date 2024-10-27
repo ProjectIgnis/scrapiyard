@@ -1,7 +1,7 @@
 ---!function
 name: GetTargetCount
 namespace: Duel
-description: |-
+description: >-
   Returns the number of targets, except (Group/Card ex), that match (function f), taking (int player) as the referential player, in locations defined in (int s) for your cards and (int o) for opponent's.
 status:
   index: stable

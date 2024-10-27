@@ -1,7 +1,7 @@
 ---!function
 name: CheckAdditional
 namespace: Fusion
-description: |-
+description: >-
   A variable used temporarily to add further checks (e.g. only up to 2 materials from the Extra Deck: Odd-Eyes Fusion)
 status:
   index: stable

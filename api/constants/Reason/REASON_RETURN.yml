@@ -2,7 +2,7 @@
 name: REASON_RETURN
 enum: Reason
 value: 0x20000
-description: |-
+description: >-
   Return from banished to Graveyard
 status:
   index: stable

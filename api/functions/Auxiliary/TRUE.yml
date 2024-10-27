@@ -1,7 +1,7 @@
 ---!function
 name: 'TRUE'
 namespace: Auxiliary
-description: |-
+description: >-
   Function that returns true. Can be used to return a whole group of cards in a certain location
 status:
   index: stable

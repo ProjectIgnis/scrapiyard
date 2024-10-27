@@ -2,7 +2,7 @@
 name: SET_ZOODIAC
 enum: Archetype
 value: 0xf1
-description: |-
+description: >-
   The ["Zoodiac"](https://yugipedia.com/wiki/Zoodiac) archetype.
 summary: Zoodiac
 status: { index: stable }

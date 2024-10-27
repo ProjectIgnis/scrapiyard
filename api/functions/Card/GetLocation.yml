@@ -1,7 +1,7 @@
 ---!function
 name: GetLocation
 namespace: Card
-description: |-
+description: >-
   Returns the location of "c".
 status:
   index: stable

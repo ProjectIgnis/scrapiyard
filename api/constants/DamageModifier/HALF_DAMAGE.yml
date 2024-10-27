@@ -2,7 +2,7 @@
 name: HALF_DAMAGE
 enum: DamageModifier
 value: 0x80000001
-description: |-
+description: >-
   Half piercing damage, used as the value of EFFECT_PIERCE
 status:
   index: stable

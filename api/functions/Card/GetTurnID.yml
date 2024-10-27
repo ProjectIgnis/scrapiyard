@@ -1,7 +1,7 @@
 ---!function
 name: GetTurnID
 namespace: Card
-description: |-
+description: >-
   Returns the turn that "c" was sent/placed to its current location.
 status:
   index: stable

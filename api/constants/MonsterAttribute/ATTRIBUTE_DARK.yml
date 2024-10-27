@@ -2,7 +2,7 @@
 name: ATTRIBUTE_DARK
 enum: MonsterAttribute
 value: 0x20
-description: |-
+description: >-
   The [DARK](https://yugipedia.com/wiki/DARK) attribute for monsters
 summary: DARK
 status: { index: stable }

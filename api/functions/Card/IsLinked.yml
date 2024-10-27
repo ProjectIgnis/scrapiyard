@@ -1,7 +1,7 @@
 ---!function
 name: IsLinked
 namespace: Card
-description: |-
+description: >-
   Checks if "c" is linked. (A card is linked if it is pointing to another card, or if another card is pointing to it.)
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: SetLabel
 namespace: Effect
-description: |-
+description: >-
   Sets an effect's (Effect e) internal labels to the integers passed as parameter (Multiple values and tables can used). This operation replaces previously set labels.
 status:
   index: stable

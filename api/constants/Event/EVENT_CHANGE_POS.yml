@@ -2,7 +2,7 @@
 name: EVENT_CHANGE_POS
 enum: Event
 value: 1016
-description: |-
+description: >-
   This event is raised when a card changes battle position
 status:
   index: stable

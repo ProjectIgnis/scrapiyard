@@ -2,7 +2,7 @@
 name: SET_GOGOGO
 enum: Archetype
 value: 0x59
-description: |-
+description: >-
   The ["Gogogo"](https://yugipedia.com/wiki/Gogogo) archetype.
 summary: Gogogo
 status: { index: stable }

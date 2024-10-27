@@ -1,7 +1,7 @@
 ---!function
 name: SelectCardsFromCodes
 namespace: Duel
-description: |-
+description: >-
   Make (int sel_player) select between (int min) and (int max) cards among the passed card codes. If cancelable is true and the selection is canceled nil will be returned. If return_index is true a number of tables equal to the number of selected cards will be returned, each table will have the selected code index (starting by 1) as the first element and the code itself as second element. Otherwise the selected codes will be returned as multiple return values.
 status:
   index: stable

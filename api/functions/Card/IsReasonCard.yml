@@ -1,7 +1,7 @@
 ---!function
 name: IsReasonCard
 namespace: Card
-description: |-
+description: >-
   Returns `true` if a given card caused the [Event](/api/enums/Event) that happened to another card.
 summary: Checks if a card caused the event that happened to another card
 parameters:

@@ -1,7 +1,7 @@
 ---!function
 name: nzatk
 namespace: Auxiliary
-description: |-
+description: >-
   Function deprecated since version 40.0.0. Use "Card.HasNonZeroAttack" instead
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: IsDifferentRace
 namespace: Card
-description: |-
+description: >-
   Returns if (Card c) does not have Race (int race)
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: TOKEN_INSECT_MONSTER
 enum: CommonToken
 value: 91512836
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

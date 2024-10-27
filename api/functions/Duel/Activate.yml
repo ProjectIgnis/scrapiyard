@@ -1,7 +1,7 @@
 ---!function
 name: Activate
 namespace: Duel
-description: |-
+description: >-
   Activates an effect in a new chain link. If the effect is the activate effect of a spell/trap, that card is also activated.
 status:
   index: stable

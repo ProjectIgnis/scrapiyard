@@ -2,7 +2,7 @@
 name: SET_DRAGONMAID
 enum: Archetype
 value: 0x133
-description: |-
+description: >-
   The ["Dragonmaid"](https://yugipedia.com/wiki/Dragonmaid) archetype.
 summary: Dragonmaid
 status: { index: stable }

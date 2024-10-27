@@ -1,7 +1,7 @@
 ---!function
 name: IsNegatable
 namespace: Card
-description: |-
+description: >-
   Checks if (Card c) can be negated (returns Card.IsNegatableMonster OR Card.IsNegatableSpellTrap)
 status:
   index: stable

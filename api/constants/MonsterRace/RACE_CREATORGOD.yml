@@ -2,7 +2,7 @@
 name: RACE_CREATORGOD
 enum: MonsterRace
 value: 0x400000
-description: |-
+description: >-
   The [Creator God](https://yugipedia.com/wiki/Creator_God) Monster Type
 summary: Creator God
 status: { index: stable }

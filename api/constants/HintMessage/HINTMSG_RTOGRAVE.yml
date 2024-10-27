@@ -2,7 +2,7 @@
 name: HINTMSG_RTOGRAVE
 enum: HintMessage
 value: 579
-description: |-
+description: >-
   Shows the following HintMessage: "Select the card(s) to return to the GY"
 summary: '"Select the card(s) to return to the GY"'
 status:

@@ -1,7 +1,7 @@
 ---!function
 name: SelectYesNo
 namespace: Duel
-description: |-
+description: >-
   Asks (int player) Yes or No, with the question being specified by (int desc)
 status:
   index: stable

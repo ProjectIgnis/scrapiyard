@@ -1,7 +1,7 @@
 ---!function
 name: IsOddScale
 namespace: Card
-description: |-
+description: >-
   Returns if a pendulum card (Card c) is a card with an odd value for the scale, using Card.GetScale to get the value.
 status:
   index: stable

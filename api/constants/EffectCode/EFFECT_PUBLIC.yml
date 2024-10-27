@@ -2,7 +2,7 @@
 name: EFFECT_PUBLIC
 enum: EffectCode
 value: 160
-description: |-
+description: >-
   Affected card becomes public knowledge
 status:
   index: stable

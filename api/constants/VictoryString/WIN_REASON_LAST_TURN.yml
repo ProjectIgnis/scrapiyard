@@ -2,7 +2,7 @@
 name: WIN_REASON_LAST_TURN
 enum: VictoryString
 value: 0x16
-description: |-
+description: >-
   The hexadecimal value for a duel win caused by "Last Turn"
 status:
   index: stable

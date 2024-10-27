@@ -2,7 +2,7 @@
 name: EFFECT_MUST_BE_FMATERIAL
 enum: EffectCode
 value: 316
-description: |-
+description: >-
   Deprecated. Use EFFECT_MUST_BE_MATERIAL with REASON_FUSION in the SetValue
 status:
   index: stable

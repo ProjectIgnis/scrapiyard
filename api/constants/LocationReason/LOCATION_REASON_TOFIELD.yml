@@ -2,7 +2,7 @@
 name: LOCATION_REASON_TOFIELD
 enum: LocationReason
 value: 0x1
-description: |-
+description: >-
   Default reason for Duel.GetLocationCount(), counts for Kaiser Colosseum
 status:
   index: stable

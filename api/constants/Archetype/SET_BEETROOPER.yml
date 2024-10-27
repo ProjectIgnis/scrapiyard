@@ -2,7 +2,7 @@
 name: SET_BEETROOPER
 enum: Archetype
 value: 0x172
-description: |-
+description: >-
   The ["Beetrooper"](https://yugipedia.com/wiki/Beetrooper) archetype.
 summary: Beetrooper
 status: { index: stable }

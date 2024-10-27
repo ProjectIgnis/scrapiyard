@@ -1,7 +1,7 @@
 ---!function
 name: exccon
 namespace: Auxiliary
-description: |-
+description: >-
   SetCondition for "except the turn this card was sent to the Graveyard".
 status:
   index: stable

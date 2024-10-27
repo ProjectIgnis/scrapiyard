@@ -20,7 +20,7 @@ parameters:
     description: The number of required materials. If the card allows a variable number of materials, this parameter is used as the minimum.
   - name: alterf
     type: [ CardFilter ]
-    description: |-
+    description: >-
       A filter for alternative material(s), if allowed by the card (e.g. [Number C39: Utopia Ray](https://yugipedia.com/wiki/9914)).
     required: false
     defaultValue: nil

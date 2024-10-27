@@ -2,7 +2,7 @@
 name: PLAYER_NONE
 enum: Player
 value: 2
-description: |-
+description: >-
   No player
 status:
   index: stable

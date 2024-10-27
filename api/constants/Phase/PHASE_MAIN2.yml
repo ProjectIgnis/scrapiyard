@@ -2,7 +2,7 @@
 name: PHASE_MAIN2
 enum: Phase
 value: 0x100
-description: |-
+description: >-
   The Main Phase 2
 status:
   index: stable

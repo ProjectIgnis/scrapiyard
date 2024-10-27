@@ -2,7 +2,7 @@
 name: SET_TIMELORD
 enum: Archetype
 value: 0x4a
-description: |-
+description: >-
   The ["Timelord"](https://yugipedia.com/wiki/Timelord) archetype.
 summary: Timelord
 status: { index: stable }

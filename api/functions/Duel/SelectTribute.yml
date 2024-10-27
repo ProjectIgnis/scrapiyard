@@ -1,7 +1,7 @@
 ---!function
 name: SelectTribute
 namespace: Duel
-description: |-
+description: >-
   Makes (int player) select a (int min) and (int max) number of tributes to be used for (Card c) to be summoned in the passed zones to to_player's field by also forcefully selecting the cards from mg. If cancelable is true and the selection is canceled, nil will be returned.
 status:
   index: stable

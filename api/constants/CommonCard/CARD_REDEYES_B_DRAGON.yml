@@ -2,7 +2,7 @@
 name: CARD_REDEYES_B_DRAGON
 enum: CommonCard
 value: 74677422
-description: |-
+description: >-
   Red-Eyes Black Dragon's ID, used because it has a lot of specific support
 status:
   index: stable

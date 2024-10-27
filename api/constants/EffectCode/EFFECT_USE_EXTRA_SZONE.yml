@@ -2,7 +2,7 @@
 name: EFFECT_USE_EXTRA_SZONE
 enum: EffectCode
 value: 262
-description: |-
+description: >-
   Card uses an additional Spell/Trap zone
 status:
   index: stable

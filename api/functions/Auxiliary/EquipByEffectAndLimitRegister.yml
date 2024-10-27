@@ -1,7 +1,7 @@
 ---!function
 name: EquipByEffectAndLimitRegister
 namespace: Auxiliary
-description: |-
+description: >-
   Function deprecated since version 40.0.0. Use "Card.EquipByEffectAndLimitRegister" instead
 status:
   index: stable

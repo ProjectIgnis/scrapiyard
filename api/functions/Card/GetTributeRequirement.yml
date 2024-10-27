@@ -1,7 +1,7 @@
 ---!function
 name: GetTributeRequirement
 namespace: Card
-description: |-
+description: >-
   Give a min and a max tribute requirement of a card
 status:
   index: stable

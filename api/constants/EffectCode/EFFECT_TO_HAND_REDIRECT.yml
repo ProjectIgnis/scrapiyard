@@ -2,7 +2,7 @@
 name: EFFECT_TO_HAND_REDIRECT
 enum: EffectCode
 value: 61
-description: |-
+description: >-
   If the affected card would go to the hand, sends it to another given location instead. The location must be set in SetValue
 status:
   index: stable

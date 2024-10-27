@@ -2,7 +2,7 @@
 name: SET_GUARDIAN
 enum: Archetype
 value: 0x52
-description: |-
+description: >-
   The ["Guardian"](https://yugipedia.com/wiki/Guardian) archetype.
 summary: Guardian
 status: { index: stable }

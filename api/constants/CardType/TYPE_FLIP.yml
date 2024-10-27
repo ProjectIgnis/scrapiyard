@@ -2,7 +2,7 @@
 name: TYPE_FLIP
 enum: CardType
 value: 0x200000
-description: |-
+description: >-
   The [Flip](https://yugipedia.com/wiki/Flip_monster) Card Type for Monsters
 summary: Flip
 status: { index: stable }

@@ -2,7 +2,7 @@
 name: SET_SPIRIT_MESSAGE
 enum: Archetype
 value: 0x1c
-description: |-
+description: >-
   The ["Spirit Message"](https://yugipedia.com/wiki/Spirit_Message) archetype.
 summary: Spirit Message
 status: { index: stable }

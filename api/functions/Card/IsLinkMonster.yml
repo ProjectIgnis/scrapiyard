@@ -1,7 +1,7 @@
 ---!function
 name: IsLinkMonster
 namespace: Card
-description: |-
+description: >-
   Returns `true` if the given card is currently
   a [Link Monster](https://yugipedia.com/wiki/Link_Monster).
 summary: Checks if a card is a Link Monster

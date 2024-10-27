@@ -2,7 +2,7 @@
 name: TIMING_STANDBY_PHASE
 enum: Timing
 value: 0x2
-description: |-
+description: >-
   During the Standby Phase
 status:
   index: stable

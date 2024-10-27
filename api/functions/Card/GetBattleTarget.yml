@@ -1,7 +1,7 @@
 ---!function
 name: GetBattleTarget
 namespace: Card
-description: |-
+description: >-
   Gets a card's (Card c) current battle target
 status:
   index: stable

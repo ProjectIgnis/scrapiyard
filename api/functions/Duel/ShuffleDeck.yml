@@ -1,7 +1,7 @@
 ---!function
 name: ShuffleDeck
 namespace: Duel
-description: |-
+description: >-
   Shuffles the deck of (int player). Handled automatically if a card is sent to DeckSequence -2.
 status:
   index: stable

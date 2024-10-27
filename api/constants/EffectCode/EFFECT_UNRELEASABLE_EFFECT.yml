@@ -2,7 +2,7 @@
 name: EFFECT_UNRELEASABLE_EFFECT
 enum: EffectCode
 value: 48
-description: |-
+description: >-
   Affected card cannot be Tributed by card effects.  SetValue receives the following parameters:
 e: this effect itself
 re: reason effect, the effect that would tribute the card

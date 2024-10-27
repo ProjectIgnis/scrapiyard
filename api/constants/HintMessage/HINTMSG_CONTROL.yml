@@ -2,7 +2,7 @@
 name: HINTMSG_CONTROL
 enum: HintMessage
 value: 520
-description: |-
+description: >-
   Shows the following HintMessage: "Select the monster(s) to change control"
 status:
   index: stable

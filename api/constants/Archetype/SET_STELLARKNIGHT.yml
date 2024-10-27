@@ -2,7 +2,7 @@
 name: SET_STELLARKNIGHT
 enum: Archetype
 value: 0x109c
-description: |-
+description: >-
   The ["Stellarknight"](https://yugipedia.com/wiki/Stellarknight) archetype.
   Sub-archetype of [`SET_TELLARKNIGHT`](/api/constants/Archetype/SET_TELLARKNIGHT).
 summary: Stellarknight

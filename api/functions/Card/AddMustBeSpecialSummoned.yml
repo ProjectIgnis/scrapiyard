@@ -1,7 +1,7 @@
 ---!function
 name: AddMustBeSpecialSummoned
 namespace: Card
-description: |-
+description: >-
   Creates and registers an [Effect](/api/types/Effect) to a monster card
   that applies a "Must be Special Summoned" Summoning condition to it
 summary: Adds a "Must be Special Summoned" Summoning condition to a monster

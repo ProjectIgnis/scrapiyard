@@ -1,7 +1,7 @@
 ---!function
 name: IsNegatableMonster
 namespace: Card
-description: |-
+description: >-
   Checks if (Card c) can be negated (for monsters)
 status:
   index: stable

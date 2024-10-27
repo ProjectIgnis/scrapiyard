@@ -1,7 +1,7 @@
 ---!function
 name: IsAbleToHandAsCost
 namespace: Card
-description: |-
+description: >-
   Checks if a card (Card c) is able to go to the Hand as a cost
 status:
   index: stable

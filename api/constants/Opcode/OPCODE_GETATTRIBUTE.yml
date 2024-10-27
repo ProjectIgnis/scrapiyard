@@ -2,7 +2,7 @@
 name: OPCODE_GETATTRIBUTE
 enum: Opcode
 value: 0x40000109
-description: |-
+description: >-
   Operation of the function Card.GetAttribute, to be used in an AnnounceCard filter.
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_TRI_BRIGADE
 enum: Archetype
 value: 0x14f
-description: |-
+description: >-
   The ["Tri-Brigade"](https://yugipedia.com/wiki/Tri-Brigade) archetype.
 summary: Tri-Brigade
 status: { index: stable }

@@ -2,7 +2,7 @@
 name: EFFECT_MUST_ATTACK
 enum: EffectCode
 value: 191
-description: |-
+description: >-
   Affected card must attack if able
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_DRYTRON
 enum: Archetype
 value: 0x151
-description: |-
+description: >-
   The ["Drytron"](https://yugipedia.com/wiki/Drytron) archetype.
 summary: Drytron
 status: { index: stable }

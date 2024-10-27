@@ -1,7 +1,7 @@
 ---!function
 name: IsOriginalSetCard
 namespace: Card
-description: |-
+description: >-
   Checks if "c" is originally part of the archetype "setname".
 status:
   index: stable

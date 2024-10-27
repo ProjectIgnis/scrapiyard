@@ -1,7 +1,7 @@
 ---!function
 name: GetTargetCards
 namespace: Duel
-description: |-
+description: >-
   Returns a group containing the targeted cards of (Effect e)'s activation and that are still related to that specific effect
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: CARD_MYUTANT_ARSENAL
 enum: CommonCard
 value: 7574904
-description: |-
+description: >-
   Myutant Arsenal's ID
 status:
   index: stable

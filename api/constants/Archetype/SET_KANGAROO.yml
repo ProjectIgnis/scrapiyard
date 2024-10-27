@@ -2,7 +2,7 @@
 name: SET_KANGAROO
 enum: Archetype
 value: 0x68
-description: |-
+description: >-
   The ["Kangaroo"](https://yugipedia.com/wiki/Kangaroo) archetype.
 summary: Kangaroo
 status: { index: stable }

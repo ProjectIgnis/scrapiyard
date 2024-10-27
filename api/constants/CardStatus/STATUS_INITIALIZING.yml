@@ -2,7 +2,7 @@
 name: STATUS_INITIALIZING
 enum: CardStatus
 value: 0x400000
-description: |-
+description: >-
   Cards which are at "initial_effect" state
 status:
   index: stable

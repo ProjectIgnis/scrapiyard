@@ -2,7 +2,7 @@
 name: CATEGORY_RECOVER
 enum: EffectCategory
 value: 0x100000
-description: |-
+description: >-
   Describes that a card recovers life points
 status:
   index: stable

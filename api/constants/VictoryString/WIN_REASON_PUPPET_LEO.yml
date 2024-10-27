@@ -2,7 +2,7 @@
 name: WIN_REASON_PUPPET_LEO
 enum: VictoryString
 value: 0x17
-description: |-
+description: >-
   The hexadecimal value for a duel win caused by "Number 88: Gimmick Puppet of Leo"
 status:
   index: stable

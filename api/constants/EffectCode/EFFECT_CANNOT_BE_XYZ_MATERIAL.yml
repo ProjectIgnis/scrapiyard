@@ -2,7 +2,7 @@
 name: EFFECT_CANNOT_BE_XYZ_MATERIAL
 enum: EffectCode
 value: 238
-description: |-
+description: >-
   Affected card cannot be used as Xyz material. SetValue takes the following parameters:
 e: this effect
 c: the card(s) for which this card cannot be used as material

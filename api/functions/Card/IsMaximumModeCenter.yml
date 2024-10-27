@@ -1,7 +1,7 @@
 ---!function
 name: IsMaximumModeCenter
 namespace: Card
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

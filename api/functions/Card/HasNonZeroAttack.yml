@@ -1,7 +1,7 @@
 ---!function
 name: HasNonZeroAttack
 namespace: Card
-description: |-
+description: >-
   Filter checking if (Card c) is face-up and has more than 0 ATK
 status:
   index: stable

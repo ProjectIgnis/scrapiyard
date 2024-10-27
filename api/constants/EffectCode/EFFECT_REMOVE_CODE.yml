@@ -2,7 +2,7 @@
 name: EFFECT_REMOVE_CODE
 enum: EffectCode
 value: 118
-description: |-
+description: >-
   Removes the code passed via SetValue from this card's codes. When used as single effect and an operation function is provided, this effect is applied if such operation returns true. In this case, the operation function receives the following parameters: sumcard, sumtype, playerid.
 status:
   index: stable

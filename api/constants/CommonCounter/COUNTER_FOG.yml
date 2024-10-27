@@ -2,7 +2,7 @@
 name: COUNTER_FOG
 enum: CommonCounter
 value: 0x1019
-description: |-
+description: >-
   The hexadecimal value of Fog Counters
 status:
   index: stable

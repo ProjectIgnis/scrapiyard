@@ -2,7 +2,7 @@
 name: HINT_OPSELECTED
 enum: HintType
 value: 4
-description: |-
+description: >-
   The message that appears on screen to tell a player which option their opponent selected
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: IsEnvironment
 namespace: Duel
-description: |-
+description: >-
   Depending on the location and player passed checks if there's: - a Field Spell with its effects applied in the field zone OR - a card with its effects applied that correspond to the code. If there are no field spells in play and LOCATION_FZONE or LOCATION_SZONE are passed, effects that treats as if a field spell is in play (e.g. "Maiden of the Aqua") are also checked.
 status:
   index: stable

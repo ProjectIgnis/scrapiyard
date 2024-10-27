@@ -1,7 +1,7 @@
 ---!function
 name: IsAttackCostPaid
 namespace: Duel
-description: |-
+description: >-
   Returns the status of payment of attack cost for a card (e.g. Mist Valley Falcon). A return value of 0 means that the attack cost hasn't been paid yet, so it can be canceled by the current effect, 1 means the attack cost has been paid by at least 1 previous card, so it HAS TO be paid and cannot be canceled, 2 means that the attack cost has been canceled by a previous effect and thus HAS TO NOT be paid nor canceled, just ignored.
 status:
   index: stable

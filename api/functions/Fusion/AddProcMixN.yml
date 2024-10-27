@@ -1,7 +1,7 @@
 ---!function
 name: AddProcMixN
 namespace: Fusion
-description: |-
+description: >-
   Adds a Fusion Procedure where (bool sub) is a check if Fusion Substitutes are allowed. (bool insf) is a check if using no materials are allowed (e.g. Instant Fusion). (int|function ...) is a list of any number of codes/conditions as Fusion Materials, by pairs wherein the first value is int/function which is the code or condition, and the second value is an int which corresponds to the number of fixed materials.
 status:
   index: stable

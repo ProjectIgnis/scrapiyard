@@ -1,7 +1,7 @@
 ---!function
 name: IsRelateToCard
 namespace: Card
-description: |-
+description: >-
   Checks whether a card (Card c1) is related to another card (Card c2) (That results from _c1:CreateRelation(c2)_)
 status:
   index: stable

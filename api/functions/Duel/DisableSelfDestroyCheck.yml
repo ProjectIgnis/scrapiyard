@@ -1,7 +1,7 @@
 ---!function
 name: DisableSelfDestroyCheck
 namespace: Duel
-description: |-
+description: >-
   If disable is true, prevents the core from performing the checks for cards that self destroy themselves (like "Burning Abyss" monsters). This behaviour persists until it's manually enabled again by passing false.
 status:
   index: stable

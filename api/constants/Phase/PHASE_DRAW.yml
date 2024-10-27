@@ -2,7 +2,7 @@
 name: PHASE_DRAW
 enum: Phase
 value: 0x01
-description: |-
+description: >-
   The Draw Phase of a player
 status:
   index: stable

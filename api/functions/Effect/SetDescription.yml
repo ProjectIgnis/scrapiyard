@@ -1,7 +1,7 @@
 ---!function
 name: SetDescription
 namespace: Effect
-description: |-
+description: >-
   Sets an effect's (Effect e) description string id with (int desc), you can use aux.Stringid() to reference strings in your database, use the "HINTMSG_" constants, or directly put the string number you want (it's not always recommended, but it is possible if you need to use a system string that is defined in the strings.conf file but doesn't have an equivalent "HINTMSG_" constant).
 status:
   index: stable

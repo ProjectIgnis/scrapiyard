@@ -1,7 +1,7 @@
 ---!function
 name: GetCardTargetCount
 namespace: Card
-description: |-
+description: >-
   Gets the number of targets that a card (Card c) is assigned to
 status:
   index: stable

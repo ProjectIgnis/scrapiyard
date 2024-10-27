@@ -2,7 +2,7 @@
 name: CHAININFO_DISABLE_REASON
 enum: ChainInfo
 value: 11
-description: |-
+description: >-
   When used with Duel.GetChainInfo returns the effect that negated the requested Chain Link's activation/summon/effect.
 status:
   index: stable

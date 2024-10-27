@@ -2,7 +2,7 @@
 name: SET_ROKKET
 enum: Archetype
 value: 0x102
-description: |-
+description: >-
   The ["Rokket"](https://yugipedia.com/wiki/Rokket) archetype.
 summary: Rokket
 status: { index: stable }

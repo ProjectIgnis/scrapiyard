@@ -2,7 +2,7 @@
 name: SET_PREDAP
 enum: Archetype
 value: 0xf3
-description: |-
+description: >-
   The ["Predap"](https://yugipedia.com/wiki/Predap) archetype.
 summary: Predap
 status: { index: stable }

@@ -2,7 +2,7 @@
 name: RESET_TOHAND
 enum: Reset
 value: 0x200000
-description: |-
+description: >-
   Resets when the card is sent to the hand
 status:
   index: stable

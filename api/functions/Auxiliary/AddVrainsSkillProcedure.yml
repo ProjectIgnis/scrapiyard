@@ -1,7 +1,7 @@
 ---!function
 name: AddVrainsSkillProcedure
 namespace: Auxiliary
-description: |-
+description: >-
   Procedure for Vrains Skills. -flip con: condition to activate the skill (function), -flipOp: operation related to the skill activation (function), -efftype: Event to trigger the Skill, default to EVENT_FREE_CHAIN. Additionally accepts EFFECT_NEGATE_SKILL for Anti Skill (int)
 status:
   index: stable

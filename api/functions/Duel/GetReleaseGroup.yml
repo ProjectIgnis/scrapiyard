@@ -1,7 +1,7 @@
 ---!function
 name: GetReleaseGroup
 namespace: Duel
-description: |-
+description: >-
   Returns the group of cards that can be used as tribute **NOT** for a Tribute Summon
 status:
   index: stable

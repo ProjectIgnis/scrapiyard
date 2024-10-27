@@ -1,7 +1,7 @@
 ---!function
 name: MoveToDeckTop
 namespace: Duel
-description: |-
+description: >-
   Places the passed cards to the top of the deck.
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: ASSUME_TYPE
 enum: AssumeCode
 value: 2
-description: |-
+description: >-
   Temporarily assumes that the affected card has a given Type
 status:
   index: stable

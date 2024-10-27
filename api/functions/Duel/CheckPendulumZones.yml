@@ -1,7 +1,7 @@
 ---!function
 name: CheckPendulumZones
 namespace: Duel
-description: |-
+description: >-
   Returns if (int player) has at least one Pendulum zone free, using Duel.CheckLocation.
 status:
   index: stable

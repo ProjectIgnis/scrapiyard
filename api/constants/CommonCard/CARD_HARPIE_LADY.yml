@@ -2,7 +2,7 @@
 name: CARD_HARPIE_LADY
 enum: CommonCard
 value: 76812113
-description: |-
+description: >-
   Harpie Lady's ID, used for listed_names and specific support
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_PHANTOM_KNIGHTS
 enum: Archetype
 value: 0xdb
-description: |-
+description: >-
   The ["Phantom Knights"](https://yugipedia.com/wiki/Phantom_Knights) archetype.
 summary: Phantom Knights
 status: { index: stable }

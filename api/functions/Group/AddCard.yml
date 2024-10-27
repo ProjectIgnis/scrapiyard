@@ -1,7 +1,7 @@
 ---!function
 name: AddCard
 namespace: Group
-description: |-
+description: >-
   Adds a card or group (Card|Group other) to a group (Group g). Returns the group itself. Equivalent to Group.Merge
 status:
   index: stable

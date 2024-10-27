@@ -2,7 +2,7 @@
 name: SET_AQUAMIRROR
 enum: Archetype
 value: 0x18f
-description: |-
+description: >-
   The ["Aquamirror"](https://yugipedia.com/wiki/Aquamirror) archetype.
 summary: Aquamirror
 status: { index: stable }

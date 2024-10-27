@@ -2,7 +2,7 @@
 name: REASON_COST
 enum: Reason
 value: 0x80
-description: |-
+description: >-
   The reason used for costs. It is also the same used to destroy/send to the GY cards that fail to pay their maintenance costs
 status:
   index: stable

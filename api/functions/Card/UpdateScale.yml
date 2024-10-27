@@ -1,7 +1,7 @@
 ---!function
 name: UpdateScale
 namespace: Card
-description: |-
+description: >-
   Applies a scale change to card c, equal to int amount. If the reset values (int reset) are not provided, the default is RESET_EVENT (+RESETS_STANDARD_DISABLE if rc == c, or just +RESETS_STANDARD). If the reason card rc is not provided, uses as default card c. Returns the amount of scales successfully changed.
 status:
   index: stable

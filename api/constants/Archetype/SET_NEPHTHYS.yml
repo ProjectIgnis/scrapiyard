@@ -2,7 +2,7 @@
 name: SET_NEPHTHYS
 enum: Archetype
 value: 0x11f
-description: |-
+description: >-
   The ["Nephthys"](https://yugipedia.com/wiki/Nephthys) archetype.
 summary: Nephthys
 status: { index: stable }

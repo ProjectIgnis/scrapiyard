@@ -1,7 +1,7 @@
 ---!function
 name: FilterEqualFunction
 namespace: Auxiliary
-description: |-
+description: >-
   Used in filters (with parameter (Card c)) to check a function and its (...) parameters is equal to the inputted (int value).
 status:
   index: stable

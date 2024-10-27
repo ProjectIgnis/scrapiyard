@@ -2,7 +2,7 @@
 name: SET_PHOTON
 enum: Archetype
 value: 0x55
-description: |-
+description: >-
   The ["Photon"](https://yugipedia.com/wiki/Photon) archetype.
 summary: Photon
 status: { index: stable }

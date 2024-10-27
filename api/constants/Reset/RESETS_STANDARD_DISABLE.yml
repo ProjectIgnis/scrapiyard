@@ -2,7 +2,7 @@
 name: RESETS_STANDARD_DISABLE
 enum: Reset
 value: 0x01ff0000
-description: |-
+description: >-
   Complex reset. The sum of RESETS_STANDARD+RESET_DISABLE, used with RESET_EVENT. Used for effects that need to reset when the monster's effects are negated (eg a monster changing its ATK/DEF or Level with its own effect).
 status:
   index: stable

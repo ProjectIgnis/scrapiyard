@@ -2,7 +2,7 @@
 name: PLAYER_SELFDES
 enum: Player
 value: 5
-description: |-
+description: >-
   This value is used only the core, in field::destroy
 status:
   index: stable

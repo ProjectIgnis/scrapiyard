@@ -1,7 +1,7 @@
 ---!function
 name: IsCanBeFusionMaterial
 namespace: Card
-description: |-
+description: >-
   Checks if a card (Card c) can be a Fusion material. If (Card fc) is provided, checks if it can be a Fusion Material for that card. Internally, this is checking if the card does not have status_forbidden and if it is not affected by EFFECT_CANNOT_BE_MATERIAL or EFFECT_CANNOT_BE_FUSION_MATERIAL (to be finished)
 status:
   index: stable

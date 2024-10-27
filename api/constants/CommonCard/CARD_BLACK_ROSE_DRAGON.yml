@@ -2,7 +2,7 @@
 name: CARD_BLACK_ROSE_DRAGON
 enum: CommonCard
 value: 73580471
-description: |-
+description: >-
   Black Rose Dragon's ID
 status:
   index: stable

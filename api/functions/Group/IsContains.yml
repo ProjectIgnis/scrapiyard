@@ -1,7 +1,7 @@
 ---!function
 name: IsContains
 namespace: Group
-description: |-
+description: >-
   Checks if a group (Group g) contains a specified card (Card c)
 status:
   index: stable

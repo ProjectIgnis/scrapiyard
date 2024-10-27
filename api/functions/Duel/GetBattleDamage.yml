@@ -1,7 +1,7 @@
 ---!function
 name: GetBattleDamage
 namespace: Duel
-description: |-
+description: >-
   Gets the battle damage (int player) would take
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: GetFlagEffectLabel
 namespace: Duel
-description: |-
+description: >-
   Gets the integer labels to the flag effect registered to the player (int player) with (int code) as the EffectCode, returns nil if there is no integer label.
 status:
   index: stable

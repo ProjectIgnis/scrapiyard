@@ -1,7 +1,7 @@
 ---!function
 name: GetAttackedCount
 namespace: Card
-description: |-
+description: >-
   Gets the number of successful(not negated) attacks done by Card c, set to 0 before drawing and when starting second Battle Phase
 status:
   index: stable

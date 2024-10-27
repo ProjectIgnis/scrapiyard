@@ -2,7 +2,7 @@
 name: EFFECT_ADD_SETCODE
 enum: EffectCode
 value: 334
-description: |-
+description: >-
   Adds a setcode (archetype) to the affected card
 status:
   index: stable

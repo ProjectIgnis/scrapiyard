@@ -2,7 +2,7 @@
 name: SET_SKULL_GUARDIAN
 enum: Archetype
 value: 0x2052
-description: |-
+description: >-
   The ["Skull Guardian"](https://yugipedia.com/wiki/Skull_Guardian_(archetype)) archetype.
   Sub-archetype of [`SET_GUARDIAN`](/api/constants/Archetype/SET_GUARDIAN).
 summary: Skull Guardian

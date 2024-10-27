@@ -2,7 +2,7 @@
 name: EVENT_PRE_DAMAGE_CALCULATE
 enum: Event
 value: 1134
-description: |-
+description: >-
   Before the damage calculation
 status:
   index: stable

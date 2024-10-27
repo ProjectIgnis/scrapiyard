@@ -2,7 +2,7 @@
 name: SET_MELFFY
 enum: Archetype
 value: 0x147
-description: |-
+description: >-
   The ["Melffy"](https://yugipedia.com/wiki/Melffy) archetype.
 summary: Melffy
 status: { index: stable }

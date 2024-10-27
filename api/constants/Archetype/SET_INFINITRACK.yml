@@ -2,7 +2,7 @@
 name: SET_INFINITRACK
 enum: Archetype
 value: 0x127
-description: |-
+description: >-
   The ["Infinitrack"](https://yugipedia.com/wiki/Infinitrack) archetype.
 summary: Infinitrack
 status: { index: stable }

@@ -1,7 +1,7 @@
 ---!function
 name: GetAttackAnnouncedCount
 namespace: Card
-description: |-
+description: >-
   Gets the number of attacks declared by Card c, set to 0 before drawing and when starting second Battle Phase
 status:
   index: stable

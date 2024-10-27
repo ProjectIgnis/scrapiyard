@@ -2,7 +2,7 @@
 name: RACE_BEAST
 enum: MonsterRace
 value: 0x4000
-description: |-
+description: >-
   The [Beast](https://yugipedia.com/wiki/Beast) Monster Type
 summary: Beast
 status: { index: stable }

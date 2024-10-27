@@ -1,7 +1,7 @@
 ---!function
 name: GetOriginalCodeRule
 namespace: Card
-description: |-
+description: >-
   Returns the original code (ID/name) of the card "c" while taking into account name clauses/alias (used for the "original name" wording).
 status:
   index: stable

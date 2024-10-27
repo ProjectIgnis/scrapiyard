@@ -2,7 +2,7 @@
 name: OPCODE_DIV
 enum: Opcode
 value: 0x40000003
-description: |-
+description: >-
   Operation of division, to be used in an AnnounceCard filter.
 status:
   index: stable

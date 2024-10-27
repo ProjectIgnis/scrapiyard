@@ -2,7 +2,7 @@
 name: EFFECT_ALLOW_NEGATIVE
 enum: EffectCode
 value: 405
-description: |-
+description: >-
   Allows the affected card to have negative levels
 status:
   index: stable

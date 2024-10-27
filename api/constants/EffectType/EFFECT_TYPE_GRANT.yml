@@ -2,7 +2,7 @@
 name: EFFECT_TYPE_GRANT
 enum: EffectType
 value: 0x2000
-description: |-
+description: >-
   Provides an effect to other cards (see "The Weather" cards)
 status:
   index: stable

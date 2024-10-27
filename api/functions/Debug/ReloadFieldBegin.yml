@@ -1,7 +1,7 @@
 ---!function
 name: ReloadFieldBegin
 namespace: Debug
-description: |-
+description: >-
   Begins loading the field for a puzzle, with DUEL_ constants in (int flag) under Master Rule (int rule). If (bool ignore_rule) is set to true, then the master rules from (int flag) are ignored and the field is constructed only from the duel flags provided
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: IsPlayerCanSpecialSummonCount
 namespace: Duel
-description: |-
+description: >-
   Checks if the player can Special Summon "count" times.
 status:
   index: stable

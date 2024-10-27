@@ -2,7 +2,7 @@
 name: CHAININFO_EXTTYPE
 enum: ChainInfo
 value: 15
-description: |-
+description: >-
   When used with Duel.GetChainInfo returns an integer with the full card type of the handler of the requested Chain Link's effect.
 status:
   index: stable

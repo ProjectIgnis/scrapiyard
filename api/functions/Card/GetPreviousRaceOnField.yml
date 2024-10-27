@@ -1,7 +1,7 @@
 ---!function
 name: GetPreviousRaceOnField
 namespace: Card
-description: |-
+description: >-
   Returns the Monster Type that "c" had when it was on the field.
 status:
   index: stable

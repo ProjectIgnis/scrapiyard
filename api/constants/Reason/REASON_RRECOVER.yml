@@ -2,7 +2,7 @@
 name: REASON_RRECOVER
 enum: Reason
 value: 0x10000
-description: |-
+description: >-
   Reversal Recovery: damage becomes gain LP - used only in the core
 status:
   index: stable

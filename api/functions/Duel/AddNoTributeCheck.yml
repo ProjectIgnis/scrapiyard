@@ -1,7 +1,7 @@
 ---!function
 name: AddNoTributeCheck
 namespace: Duel
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

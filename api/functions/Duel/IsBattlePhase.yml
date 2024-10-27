@@ -1,7 +1,7 @@
 ---!function
 name: IsBattlePhase
 namespace: Duel
-description: |-
+description: >-
   Returns if the current phase is the Battle Phase (between PHASE_BATTLE_START and PHASE_BATTLE)
 status:
   index: stable

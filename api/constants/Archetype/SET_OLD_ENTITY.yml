@@ -2,7 +2,7 @@
 name: SET_OLD_ENTITY
 enum: Archetype
 value: 0x40b7
-description: |-
+description: >-
   The ["Old Entity"](https://yugipedia.com/wiki/Old_Entity) archetype.
 summary: Old Entity
 status: { index: stable }

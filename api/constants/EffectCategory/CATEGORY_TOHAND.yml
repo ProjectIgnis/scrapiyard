@@ -2,7 +2,7 @@
 name: CATEGORY_TOHAND
 enum: EffectCategory
 value: 0x8
-description: |-
+description: >-
   Describes that an effect adds a card to the hand (from any location)
 status:
   index: stable

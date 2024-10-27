@@ -1,7 +1,7 @@
 ---!function
 name: Hint
 namespace: Duel
-description: |-
+description: >-
   Creates a message for the "player" which has "type" as key and "desc" as value. It is entirely up to the client to interpret say data, the most common case is setting the selection message with, "type" being "HINT_SELECTMSG" and "desc" being a stringId. It is also used to implement Skill Cards visually. Check the "HINT_XXX" constants for their behaviour.
 status:
   index: stable

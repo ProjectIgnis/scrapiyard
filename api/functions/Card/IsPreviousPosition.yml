@@ -1,7 +1,7 @@
 ---!function
 name: IsPreviousPosition
 namespace: Card
-description: |-
+description: >-
   Checks if a card (Card c) is previously in the specified position (int pos)
 status:
   index: stable

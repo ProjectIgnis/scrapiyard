@@ -1,7 +1,7 @@
 ---!function
 name: imval1
 namespace: Auxiliary
-description: |-
+description: >-
   default filter for EFFECT_CANNOT_BE_BATTLE_TARGET where (Card c) is checked to ensure it's not immune to (Effect e)
 status:
   index: stable

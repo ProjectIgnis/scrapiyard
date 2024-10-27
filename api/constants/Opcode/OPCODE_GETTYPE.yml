@@ -2,7 +2,7 @@
 name: OPCODE_GETTYPE
 enum: Opcode
 value: 0x40000107
-description: |-
+description: >-
   Operation of the function Card.GetType, to be used in an AnnounceCard filter.
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: SelectFusionMaterial
 namespace: Duel
-description: |-
+description: >-
   Makes the player select the fusion materials among the passed group for the fusion summon of the passed card and returns such group (this function filters the various EFFECT_FUSION_MATERIAL effects registered on the card). If must_use is provided, those cards should be materials forced for that fusion summon, chkf is a value keeping the player whose field is to check, with optional FUSPROC_XX flags or'ed to it.
 status:
   index: stable

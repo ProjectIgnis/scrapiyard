@@ -2,7 +2,7 @@
 name: DUEL_TCG_SEGOC_FIRSTTRIGGER
 enum: DuelMode
 value: 0x200000000
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: PersistentTarget
 namespace: Auxiliary
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

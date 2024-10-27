@@ -1,7 +1,7 @@
 ---!function
 name: GetLuaRef
 namespace: Card
-description: |-
+description: >-
   Returns an integer representing the internal value used by lua to access the Card c.
 status:
   index: stable

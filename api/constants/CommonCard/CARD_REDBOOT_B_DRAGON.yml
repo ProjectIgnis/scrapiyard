@@ -2,7 +2,7 @@
 name: CARD_REDBOOT_B_DRAGON
 enum: CommonCard
 value: 160315001
-description: |-
+description: >-
   Constant for a commonly used Rush card
 status:
   index: stable

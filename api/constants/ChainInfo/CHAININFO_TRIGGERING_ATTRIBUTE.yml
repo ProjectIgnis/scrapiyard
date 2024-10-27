@@ -2,7 +2,7 @@
 name: CHAININFO_TRIGGERING_ATTRIBUTE
 enum: ChainInfo
 value: 22
-description: |-
+description: >-
   When used with Duel.GetChainInfo returns an integer with the attribute(s) of the card that triggered the requested Chain Link.
 status:
   index: stable

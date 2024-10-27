@@ -1,7 +1,7 @@
 ---!function
 name: RegisterFlagEffect
 namespace: Duel
-description: |-
+description: >-
   Registers a flag effect to a player (int player) with (int code) as the EffectCode
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: HINT_SKILL_FLIP
 enum: HintType
 value: 202
-description: |-
+description: >-
   Changes the position of the skill face-down/face-up, updating the code as well. The code is value&0xffffffff. 0x100000000 is face-up and 0x200000000 is face-down.
 status:
   index: stable

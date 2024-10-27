@@ -1,7 +1,7 @@
 ---!function
 name: CheckFusionMaterial
 namespace: Card
-description: |-
+description: >-
   Check if g contains a set of fusion material that c needs [must contain gc]. Check the Condition function for the effect of EFFECT_FUSION_MATERIAL according to the type of c
 status:
   index: stable

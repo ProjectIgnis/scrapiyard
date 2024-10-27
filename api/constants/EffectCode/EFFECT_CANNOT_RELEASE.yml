@@ -2,7 +2,7 @@
 name: EFFECT_CANNOT_RELEASE
 enum: EffectCode
 value: 46
-description: |-
+description: >-
   Affected player cannot tribute cards. Requires the players to be set via SetTargetRange (and the EFFECT_FLAG_PLAYER_TARGET flag). Cards that return true for the SetTarget in this effect cannot be tributed by that player. SetTarget takes the following parameters:
 -e: this effect itself
 -c: the card(s) that would be tributed

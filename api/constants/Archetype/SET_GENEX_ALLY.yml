@@ -2,7 +2,7 @@
 name: SET_GENEX_ALLY
 enum: Archetype
 value: 0x2002
-description: |-
+description: >-
   The ["Genex Ally"](https://yugipedia.com/wiki/Genex_Ally) series.
   Technically not an archetype but is registered as such on some cards.
   Sub-archetype of [`SET_GENEX`](/api/constants/Archetype/SET_GENEX).

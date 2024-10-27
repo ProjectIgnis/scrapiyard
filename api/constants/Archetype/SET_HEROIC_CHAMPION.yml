@@ -2,7 +2,7 @@
 name: SET_HEROIC_CHAMPION
 enum: Archetype
 value: 0x206f
-description: |-
+description: >-
   The ["Heroic Champion"](https://yugipedia.com/wiki/Heroic_Champion) archetype.
   Sub-archetype of [`SET_HEROIC`](/api/constants/Archetype/SET_HEROIC).
 summary: Heroic Champion

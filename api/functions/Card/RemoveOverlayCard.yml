@@ -1,7 +1,7 @@
 ---!function
 name: RemoveOverlayCard
 namespace: Card
-description: |-
+description: >-
   Makes player (int Player) remove overlay cards from a Card (Card c), with minimum of (int min) and maximum of (int max) with (int reason) as reason. Returns the number of cards removed
 status:
   index: stable

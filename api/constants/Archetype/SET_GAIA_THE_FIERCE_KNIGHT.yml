@@ -2,7 +2,7 @@
 name: SET_GAIA_THE_FIERCE_KNIGHT
 enum: Archetype
 value: 0xbd
-description: |-
+description: >-
   The ["Gaia The Fierce Knight"](https://yugipedia.com/wiki/Gaia_The_Fierce_Knight_(archetype)) archetype.
 summary: Gaia The Fierce Knight
 status: { index: stable }

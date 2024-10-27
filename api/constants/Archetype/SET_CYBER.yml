@@ -2,7 +2,7 @@
 name: SET_CYBER
 enum: Archetype
 value: 0x93
-description: |-
+description: >-
   The ["Cyber"](https://yugipedia.com/wiki/Cyber) archetype.
 summary: Cyber
 status: { index: stable }

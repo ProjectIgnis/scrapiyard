@@ -2,7 +2,7 @@
 name: CARD_JACK_KNIGHT
 enum: CommonCard
 value: 90876561
-description: |-
+description: >-
   Jack's Knight's ID
 status:
   index: stable

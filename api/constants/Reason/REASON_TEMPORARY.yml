@@ -2,7 +2,7 @@
 name: REASON_TEMPORARY
 enum: Reason
 value: 0x4
-description: |-
+description: >-
   The card being  temporary banished
 status:
   index: stable

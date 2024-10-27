@@ -2,7 +2,7 @@
 name: HINTMSG_REMOVEXYZ
 enum: HintMessage
 value: 519
-description: |-
+description: >-
   Shows the following HintMessage: "Select the Xyz Material(s) to detach"
 status:
   index: stable

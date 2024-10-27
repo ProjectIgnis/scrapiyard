@@ -2,7 +2,7 @@
 name: HINT_ZONE
 enum: HintType
 value: 11
-description: |-
+description: >-
   To be used when the player selects a zone (e.g. Dai Dance).
 status:
   index: stable

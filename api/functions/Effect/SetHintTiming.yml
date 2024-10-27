@@ -1,7 +1,7 @@
 ---!function
 name: SetHintTiming
 namespace: Effect
-description: |-
+description: >-
   Sets (Effect e)'s client usage hint timing. This is the timing where the game will prompt the player to activate that effect (in addition to regular timings)
 status:
   index: stable

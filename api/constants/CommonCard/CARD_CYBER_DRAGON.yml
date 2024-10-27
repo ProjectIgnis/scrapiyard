@@ -2,7 +2,7 @@
 name: CARD_CYBER_DRAGON
 enum: CommonCard
 value: 70095154
-description: |-
+description: >-
   Cyber Dragon's ID, used for listed_names and specific support
 status:
   index: stable

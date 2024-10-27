@@ -1,7 +1,7 @@
 ---!function
 name: IsOriginalCodeRule
 namespace: Card
-description: |-
+description: >-
   Checks if (Card c) has original code rule of (int cd)
 status:
   index: stable

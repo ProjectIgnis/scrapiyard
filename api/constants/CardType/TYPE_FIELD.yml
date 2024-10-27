@@ -2,7 +2,7 @@
 name: TYPE_FIELD
 enum: CardType
 value: 0x80000
-description: |-
+description: >-
   The [Field](https://yugipedia.com/wiki/Field_Spell_Card) Card Type for Spells
 summary: Field
 status: { index: stable }

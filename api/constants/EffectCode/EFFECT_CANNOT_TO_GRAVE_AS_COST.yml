@@ -2,7 +2,7 @@
 name: EFFECT_CANNOT_TO_GRAVE_AS_COST
 enum: EffectCode
 value: 59
-description: |-
+description: >-
   The affected card cannot be sent to the GY.
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: SelectFieldZone
 namespace: Duel
-description: |-
+description: >-
   Asks (int player) to choose a number of Zones up to (int count),
   in locations (int s) for the player and (int o) for their opponent,
   that are bitmasked by (int filter) <in another word, zones that are not filter>.

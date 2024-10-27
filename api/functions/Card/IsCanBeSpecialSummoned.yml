@@ -1,7 +1,7 @@
 ---!function
 name: IsCanBeSpecialSummoned
 namespace: Card
-description: |-
+description: >-
   Checks whether a card (Card c) can be Special Summoned by (Effect e), by a summon of type (int sumtype), by player (int sumplayer), in position (int sumpos), to (int target_player)'s side of the field. If (bool nocheck) is true, it will check for a summon ignoring conditions. If (bool nolimit) is true, it will check for a summon ignoring the revive limit.
 status:
   index: stable

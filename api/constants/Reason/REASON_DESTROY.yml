@@ -2,7 +2,7 @@
 name: REASON_DESTROY
 enum: Reason
 value: 0x1
-description: |-
+description: >-
   The card being destroyed
 status:
   index: stable

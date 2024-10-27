@@ -1,7 +1,7 @@
 ---!function
 name: ReleaseEffectRelation
 namespace: Card
-description: |-
+description: >-
   Releases any relation between a card (Card c) and an effect (Effect e)
 status:
   index: stable

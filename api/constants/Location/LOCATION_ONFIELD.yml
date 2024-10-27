@@ -2,7 +2,7 @@
 name: LOCATION_ONFIELD
 enum: Location
 value: 0x0c
-description: |-
+description: >-
   All locations on the field. The sum of LOCATION_MZONE+LOCATION_SZONE.
 status:
   index: stable

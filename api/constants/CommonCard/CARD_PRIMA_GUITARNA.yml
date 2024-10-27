@@ -2,7 +2,7 @@
 name: CARD_PRIMA_GUITARNA
 enum: CommonCard
 value: 160001028
-description: |-
+description: >-
   Constant for a commonly used Rush card
 status:
   index: stable

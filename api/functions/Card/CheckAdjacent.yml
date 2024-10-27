@@ -1,7 +1,7 @@
 ---!function
 name: CheckAdjacent
 namespace: Card
-description: |-
+description: >-
   Returns if either of the sequences next to the card c's sequence is available. Already handles the Extra monster zone (sequence > 4). Limited to Monster Zones.
 status:
   index: stable

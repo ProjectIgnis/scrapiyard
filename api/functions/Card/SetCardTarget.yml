@@ -1,7 +1,7 @@
 ---!function
 name: SetCardTarget
 namespace: Card
-description: |-
+description: >-
   Sets the second card (Card c2) as a target of the first card (Card c1)
 status:
   index: stable

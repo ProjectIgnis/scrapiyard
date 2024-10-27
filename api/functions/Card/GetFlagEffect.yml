@@ -1,7 +1,7 @@
 ---!function
 name: GetFlagEffect
 namespace: Card
-description: |-
+description: >-
   Returns the amount of flag effects with (int code) as the EffectCode that are registered to a card (Card c)
 status:
   index: stable

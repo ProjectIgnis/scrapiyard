@@ -2,7 +2,7 @@
 name: CARD_SANCTUARY_SKY
 enum: CommonCard
 value: 56433456
-description: |-
+description: >-
   Sanctuary in the Sky's ID, used because it has a lot of specific support
 status:
   index: stable

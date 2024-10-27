@@ -2,7 +2,7 @@
 name: SET_MYUTANT
 enum: Archetype
 value: 0x159
-description: |-
+description: >-
   The ["Myutant"](https://yugipedia.com/wiki/Myutant) archetype.
 summary: Myutant
 status: { index: stable }

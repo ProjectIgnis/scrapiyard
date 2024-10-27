@@ -1,7 +1,7 @@
 ---!function
 name: GetHandlerPlayer
 namespace: Effect
-description: |-
+description: >-
   Returns the controller of the handler of the effect (Effect e). If the effect is registered to a player, it returns the player it's registered to instead.
 status:
   index: stable

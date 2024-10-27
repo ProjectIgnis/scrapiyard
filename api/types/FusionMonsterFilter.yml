@@ -1,7 +1,7 @@
 ---!type
 name: FusionMonsterFilter
 supertype: function
-description: |-
+description: >-
   A function used to filter a monster to be Fusion Summoned.
 summary: Filters monsters to be Fusion Summoned
 parameters:

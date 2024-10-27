@@ -2,7 +2,7 @@
 name: SET_ARCHFIEND
 enum: Archetype
 value: 0x45
-description: |-
+description: >-
   The ["Archfiend"](https://yugipedia.com/wiki/Archfiend) archetype.
 summary: Archfiend
 status: { index: stable }

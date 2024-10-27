@@ -2,7 +2,7 @@
 name: SET_BARIANS
 enum: Archetype
 value: 0x1178
-description: |-
+description: >-
   The ["Barian's"](https://yugipedia.com/wiki/Barian%27s) archetype.
 summary: Barian's
 status: { index: stable }

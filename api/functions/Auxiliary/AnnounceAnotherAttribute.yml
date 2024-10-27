@@ -1,7 +1,7 @@
 ---!function
 name: AnnounceAnotherAttribute
 namespace: Auxiliary
-description: |-
+description: >-
   Function deprecated since version 40.0.0. Use "Card.AnnounceAnotherAttribute" instead
 status:
   index: stable

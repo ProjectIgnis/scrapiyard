@@ -2,7 +2,7 @@
 name: TIMING_BATTLE_STEP_END
 enum: Timing
 value: 0x4000000
-description: |-
+description: >-
   When the steps in a battle have finished
 status:
   index: stable

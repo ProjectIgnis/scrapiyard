@@ -1,7 +1,7 @@
 ---!function
 name: IsRealFieldID
 namespace: Card
-description: |-
+description: >-
   Returns `true` if a given value is equal to a card's unique duel ID,
   a value assigned to a card at the start of the duel and never changes.
 summary: Checks a card's unique duel ID

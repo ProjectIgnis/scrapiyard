@@ -1,7 +1,7 @@
 ---!function
 name: GetOriginalSetCard
 namespace: Card
-description: |-
+description: >-
   Returns the original archetype(s) that "c" is a part of.
 status:
   index: stable

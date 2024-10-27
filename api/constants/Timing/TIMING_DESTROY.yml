@@ -2,7 +2,7 @@
 name: TIMING_DESTROY
 enum: Timing
 value: 0x80000
-description: |-
+description: >-
   When something is destroyed
 status:
   index: stable

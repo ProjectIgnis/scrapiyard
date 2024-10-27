@@ -2,7 +2,7 @@
 name: EFFECT_DECREASE_TRIBUTE_SET
 enum: EffectCode
 value: 152
-description: |-
+description: >-
   Decreases the amount of tributes to perform a Tribute Set
 status:
   index: stable

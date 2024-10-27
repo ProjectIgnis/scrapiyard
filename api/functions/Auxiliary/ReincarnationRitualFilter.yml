@@ -1,7 +1,7 @@
 ---!function
 name: ReincarnationRitualFilter
 namespace: Auxiliary
-description: |-
+description: >-
   Auxiliary filter for "Salamangreat" Reincarnation procedure to handle the rituals.
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_RESONATOR
 enum: Archetype
 value: 0x57
-description: |-
+description: >-
   The ["Resonator"](https://yugipedia.com/wiki/Resonator) archetype.
 summary: Resonator
 status: { index: stable }

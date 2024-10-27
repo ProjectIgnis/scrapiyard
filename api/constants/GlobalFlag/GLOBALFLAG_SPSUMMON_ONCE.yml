@@ -2,7 +2,7 @@
 name: GLOBALFLAG_SPSUMMON_ONCE
 enum: GlobalFlag
 value: 0x200
-description: |-
+description: >-
   Cards that can only be special Summoned once per turn. This flag is related to Card.SetSPSummonOnce ()
 status:
   index: stable

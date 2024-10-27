@@ -2,7 +2,7 @@
 name: EVENT_LEAVE_FIELD
 enum: Event
 value: 1015
-description: |-
+description: >-
   This event is raised when a card leaves the field
 status:
   index: stable

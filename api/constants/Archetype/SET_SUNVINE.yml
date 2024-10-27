@@ -2,7 +2,7 @@
 name: SET_SUNVINE
 enum: Archetype
 value: 0x2157
-description: |-
+description: >-
   The ["Sunvine"](https://yugipedia.com/wiki/Sunvine) archetype.
 summary: Sunvine
 status: { index: stable }

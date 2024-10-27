@@ -2,7 +2,7 @@
 name: EFFECT_REMOVE_RACE
 enum: EffectCode
 value: 121
-description: |-
+description: >-
   Treats a Card(s) as not a race(s) (written into Effect.SetValue())
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_MYSTIC_SWORDSMAN
 enum: Archetype
 value: 0x5f
-description: |-
+description: >-
   The ["Mystic Swordsman"](https://yugipedia.com/wiki/Mystic_Swordsman) series of "LV" monsters.
   Technically not an archetype but is registered as such on some cards for the LV set handling.
 summary: Mystic Swordsman

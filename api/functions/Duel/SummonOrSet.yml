@@ -1,7 +1,7 @@
 ---!function
 name: SummonOrSet
 namespace: Duel
-description: |-
+description: >-
   Makes player (int tp) Normal Summon or Set (Card c) by calling simultaneously Duel.Summon and Duel.MSet. If (Effect e) is not nil, checks if the summon can be done by that effect. If (bool ignore_count) is true, it ignores the standard once per turn summon limit. (int min) is the minimum number of tributes that are required.
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: HINTMSG_OPTION
 enum: HintMessage
 value: 555
-description: |-
+description: >-
   Shows the following HintMessage: "Select an option"
 status:
   index: stable

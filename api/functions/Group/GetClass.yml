@@ -1,7 +1,7 @@
 ---!function
 name: GetClass
 namespace: Group
-description: |-
+description: >-
   Returns a table containing all the different values returned by applying the function f to all the members of the Group g,
 status:
   index: stable

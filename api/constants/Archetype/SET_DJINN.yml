@@ -2,7 +2,7 @@
 name: SET_DJINN
 enum: Archetype
 value: 0x6d
-description: |-
+description: >-
   The ["Djinn"](https://yugipedia.com/wiki/Djinn) archetype.
 summary: Djinn
 status: { index: stable }

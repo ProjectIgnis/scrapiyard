@@ -2,7 +2,7 @@
 name: WIN_REASON_DRAW_OF_FATE
 enum: VictoryString
 value: 0x57
-description: |-
+description: >-
   The hexadecimal value for a duel win caused by "Draw of Fate"
 status:
   index: stable

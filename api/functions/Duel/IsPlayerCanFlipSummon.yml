@@ -1,7 +1,7 @@
 ---!function
 name: IsPlayerCanFlipSummon
 namespace: Duel
-description: |-
+description: >-
   Checks if (int player) can Flip Summon (Card c)
 status:
   index: stable

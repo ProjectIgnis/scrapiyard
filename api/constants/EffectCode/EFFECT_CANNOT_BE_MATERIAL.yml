@@ -2,7 +2,7 @@
 name: EFFECT_CANNOT_BE_MATERIAL
 enum: EffectCode
 value: 248
-description: |-
+description: >-
   The card cannot be used as material. Requires the SummonType for which the material can't be used to be defined via SetValue.
 status:
   index: stable

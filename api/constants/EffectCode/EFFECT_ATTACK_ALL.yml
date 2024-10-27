@@ -2,7 +2,7 @@
 name: EFFECT_ATTACK_ALL
 enum: EffectCode
 value: 193
-description: |-
+description: >-
   Affected card can attack all valid attack targets once each. SetValue receives the following parameters:
 e: this effect itself
 c: the cards that can be attack target

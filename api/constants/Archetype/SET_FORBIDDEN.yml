@@ -2,7 +2,7 @@
 name: SET_FORBIDDEN
 enum: Archetype
 value: 0x11d
-description: |-
+description: >-
   The ["Forbidden"](https://yugipedia.com/wiki/Forbidden_(archetype)) archetype.
 summary: Forbidden
 status: { index: stable }

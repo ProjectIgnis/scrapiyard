@@ -2,7 +2,7 @@
 name: SET_ATLANTEAN
 enum: Archetype
 value: 0x77
-description: |-
+description: >-
   The ["Atlantean"](https://yugipedia.com/wiki/Atlantean) archetype.
 summary: Atlantean
 status: { index: stable }

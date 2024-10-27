@@ -1,7 +1,7 @@
 ---!function
 name: AddMaleficSummonProcedure
 namespace: Auxiliary
-description: |-
+description: >-
   Procedure for "Malefic" monsters' Special Summon (also includes handling of "Malefic Paradox Gear"'s effect)
 status:
   index: stable

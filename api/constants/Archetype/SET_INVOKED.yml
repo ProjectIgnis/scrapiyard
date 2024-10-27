@@ -2,7 +2,7 @@
 name: SET_INVOKED
 enum: Archetype
 value: 0xf4
-description: |-
+description: >-
   The ["Invoked"](https://yugipedia.com/wiki/Invoked) archetype.
 summary: Invoked
 status: { index: stable }

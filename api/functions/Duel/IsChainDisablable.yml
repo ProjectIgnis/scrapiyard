@@ -1,7 +1,7 @@
 ---!function
 name: IsChainDisablable
 namespace: Duel
-description: |-
+description: >-
   Checks if a chain's (int chainc) effect can be disabled (Negate Effect)
 status:
   index: stable

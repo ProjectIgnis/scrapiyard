@@ -2,7 +2,7 @@
 name: SET_CHRYSALIS
 enum: Archetype
 value: 0x1e
-description: |-
+description: >-
   The ["Chrysalis"](https://yugipedia.com/wiki/Chrysalis) archetype.
 summary: Chrysalis
 status: { index: stable }

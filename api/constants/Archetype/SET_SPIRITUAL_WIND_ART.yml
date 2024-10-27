@@ -2,7 +2,7 @@
 name: SET_SPIRITUAL_WIND_ART
 enum: Archetype
 value: 0xa14d
-description: |-
+description: >-
   The ["Spiritual Wind Art"](https://yugipedia.com/wiki/Spiritual_Wind_Art) archetype.
 summary: Spiritual Wind Art
 status: { index: stable }

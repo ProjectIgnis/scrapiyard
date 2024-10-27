@@ -2,7 +2,7 @@
 name: CARD_GOLDEN_LORD
 enum: CommonCard
 value: 95440946
-description: |-
+description: >-
   Eldlich the Golden Lord's ID, used because of cards that mention it.
 status:
   index: stable

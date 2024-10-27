@@ -2,7 +2,7 @@
 name: REASON_RITUAL
 enum: Reason
 value: 0x100000
-description: |-
+description: >-
   Used for Ritual Summon
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: TIMING_DRAW_PHASE
 enum: Timing
 value: 0x1
-description: |-
+description: >-
   During the Draw Phase
 status:
   index: stable

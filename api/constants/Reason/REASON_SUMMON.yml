@@ -2,7 +2,7 @@
 name: REASON_SUMMON
 enum: Reason
 value: 0x10
-description: |-
+description: >-
   Used for a summon
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: EFFECT_UNRELEASABLE_NONSUM
 enum: EffectCode
 value: 44
-description: |-
+description: >-
   Affected card cannot be tributed for effects. SetValue in this effect receives only `e` and `c` as parameters.
 status:
   index: stable

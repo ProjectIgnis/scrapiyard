@@ -1,7 +1,7 @@
 ---!function
 name: ResetFlagEffect
 namespace: Card
-description: |-
+description: >-
   Resets a flag with (int code) as the EffectCode from a card (Card c)
 status:
   index: stable

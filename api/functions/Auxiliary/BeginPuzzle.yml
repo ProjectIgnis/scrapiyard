@@ -1,7 +1,7 @@
 ---!function
 name: BeginPuzzle
 namespace: Auxiliary
-description: |-
+description: >-
   Sets up the beginning of a puzzle, causing the player to lose during the End Phase
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: EVENT_BATTLED
 enum: Event
 value: 1138
-description: |-
+description: >-
   After battle
 status:
   index: stable

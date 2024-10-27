@@ -2,7 +2,7 @@
 name: TOKEN_TRICKSTAR
 enum: CommonToken
 value: 51208047
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

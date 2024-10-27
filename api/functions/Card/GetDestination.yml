@@ -1,7 +1,7 @@
 ---!function
 name: GetDestination
 namespace: Card
-description: |-
+description: >-
   Returns the location a card would be sent to (e.g. when it would be destroyed).
 summary: Returns the location a card would be sent to
 parameters:

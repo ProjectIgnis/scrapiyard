@@ -1,7 +1,7 @@
 ---!function
 name: IsDoubleTribute
 namespace: Card
-description: |-
+description: >-
   Rush related function. Returns false if (Card c) does not have all the flags (int ...) passed as arguments
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: DUEL_MODE_GOAT
 enum: DuelMode
 value: 0
-description: |-
+description: >-
   A composite flag for DuelModes.
 status:
   index: stable

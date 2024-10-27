@@ -1,7 +1,7 @@
 ---!function
 name: SetPlayerInfo
 namespace: Debug
-description: |-
+description: >-
   In puzzles, sets a player's LP, initial number of cards in the hand,
   and the number of cards to draw each Draw Phase.
 summary: Sets a player's LP, initial hand size, and draw amount

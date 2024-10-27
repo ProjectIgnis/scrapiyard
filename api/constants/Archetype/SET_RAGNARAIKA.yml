@@ -2,7 +2,7 @@
 name: SET_RAGNARAIKA
 enum: Archetype
 value: 0x1a3
-description: |-
+description: >-
   The ["Ragnaraika"](https://yugipedia.com/wiki/Ragnaraika) archetype.
 summary: Ragnaraika
 status: { index: stable }

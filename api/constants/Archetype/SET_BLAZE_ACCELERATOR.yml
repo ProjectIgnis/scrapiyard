@@ -2,7 +2,7 @@
 name: SET_BLAZE_ACCELERATOR
 enum: Archetype
 value: 0xb9
-description: |-
+description: >-
   The ["Blaze Accelerator"](https://yugipedia.com/wiki/Blaze_Accelerator_(archetype)) archetype.
 summary: Blaze Accelerator
 status: { index: stable }

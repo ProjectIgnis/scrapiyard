@@ -2,7 +2,7 @@
 name: EFFECT_MSET_COST
 enum: EffectCode
 value: 94
-description: |-
+description: >-
   The affected player must pay a cost to Set monsters.
 status:
   index: stable

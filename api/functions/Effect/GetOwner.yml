@@ -1,7 +1,7 @@
 ---!function
 name: GetOwner
 namespace: Effect
-description: |-
+description: >-
   Gets an effect's (Effect e) card owner. If the effect was created as GlobalEffect then it returns an internal card object that shouldn't be used by the scripts.
 status:
   index: stable

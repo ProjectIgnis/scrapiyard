@@ -2,7 +2,7 @@
 name: SET_REACTOR
 enum: Archetype
 value: 0x63
-description: |-
+description: >-
   The ["Reactor"](https://yugipedia.com/wiki/Reactor) archetype.
 summary: Reactor
 status: { index: stable }

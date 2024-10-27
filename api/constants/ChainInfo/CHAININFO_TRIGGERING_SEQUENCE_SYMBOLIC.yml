@@ -2,7 +2,7 @@
 name: CHAININFO_TRIGGERING_SEQUENCE_SYMBOLIC
 enum: ChainInfo
 value: 7
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

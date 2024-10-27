@@ -1,7 +1,7 @@
 ---!function
 name: DisableShuffleCheck
 namespace: Duel
-description: |-
+description: >-
   If disable is true, makes an action that adds/removes a card(s) from/to Deck/hand not trigger the shuffle check at the end of the the current routine execution. Putting false would revert to normal behavior.
 status:
   index: stable

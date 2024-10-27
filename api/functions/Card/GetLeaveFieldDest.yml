@@ -1,7 +1,7 @@
 ---!function
 name: GetLeaveFieldDest
 namespace: Card
-description: |-
+description: >-
   Returns the location a card would be sent to when it leaves the field,
   taking into account effects that would redirect it (e.g. "but banish it if it leaves the field").
 summary: Gets a card's destination when it leaves the field

@@ -2,7 +2,7 @@
 name: SET_SKYBLASTER
 enum: Archetype
 value: 0x49
-description: |-
+description: >-
   The ["Skyblaster"](https://yugipedia.com/wiki/Skyblaster) archetype.
 summary: Skyblaster
 status: { index: stable }

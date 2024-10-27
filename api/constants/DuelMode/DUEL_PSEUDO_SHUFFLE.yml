@@ -2,7 +2,7 @@
 name: DUEL_PSEUDO_SHUFFLE
 enum: DuelMode
 value: 0x10
-description: |-
+description: >-
   A flag for DuelModes. The deck is not shuffled
 status:
   index: stable

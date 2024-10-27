@@ -1,7 +1,7 @@
 ---!function
 name: IsRelateToChain
 namespace: Card
-description: |-
+description: >-
   Checks whether a card (Card c) is related to the chain numbered (int chainc)
 status:
   index: stable

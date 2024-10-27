@@ -1,7 +1,7 @@
 ---!function
 name: GetStartingHand
 namespace: Duel
-description: |-
+description: >-
   Gets a specified player's (int player) starting hand
 status:
   index: stable

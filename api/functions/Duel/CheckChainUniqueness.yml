@@ -1,7 +1,7 @@
 ---!function
 name: CheckChainUniqueness
 namespace: Duel
-description: |-
+description: >-
   Checks if there is no card with the same name in the current chain
 status:
   index: stable

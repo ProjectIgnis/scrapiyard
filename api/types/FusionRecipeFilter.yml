@@ -1,7 +1,7 @@
 ---!type
 name: FusionRecipeFilter
 supertype: function
-description: |-
+description: >-
   A function used to filter Fusion materials in Fusion recipe effects
   (i.e., in the script of the Fusion Monster).
 summary: Filters Fusion materials in recipes

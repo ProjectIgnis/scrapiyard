@@ -1,7 +1,7 @@
 ---!function
 name: IsDisabled
 namespace: Card
-description: |-
+description: >-
   Checks whether a card (Card c) is disabled, equivalent with c:IsStatus(STATUS_DISABLED)
 status:
   index: stable

@@ -1,6 +1,6 @@
 ---!tag
 name: under-construction
-description: |-
+description: >-
   Documentation entry that is not yet finalized.
   The repository should not have entries with this tag before bumping to v1.0.0.
 summary: Unfinished documentation.

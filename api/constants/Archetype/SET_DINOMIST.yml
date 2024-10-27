@@ -2,7 +2,7 @@
 name: SET_DINOMIST
 enum: Archetype
 value: 0xd8
-description: |-
+description: >-
   The ["Dinomist"](https://yugipedia.com/wiki/Dinomist) archetype.
 summary: Dinomist
 status: { index: stable }

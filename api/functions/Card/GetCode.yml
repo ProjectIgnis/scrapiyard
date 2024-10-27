@@ -1,7 +1,7 @@
 ---!function
 name: GetCode
 namespace: Card
-description: |-
+description: >-
   Returns the current code (ID/name) of the card "c".
 status:
   index: stable

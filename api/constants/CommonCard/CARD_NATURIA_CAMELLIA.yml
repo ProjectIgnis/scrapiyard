@@ -2,7 +2,7 @@
 name: CARD_NATURIA_CAMELLIA
 enum: CommonCard
 value: 29942771
-description: |-
+description: >-
   Naturia Camellia's ID
 status:
   index: stable

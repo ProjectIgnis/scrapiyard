@@ -2,7 +2,7 @@
 name: SET_KOAKI_MEIRU
 enum: Archetype
 value: 0x1d
-description: |-
+description: >-
   The ["Koa'ki Meiru"](https://yugipedia.com/wiki/Koa%27ki_Meiru) archetype.
 summary: Koa'ki Meiru
 status: { index: stable }

@@ -2,7 +2,7 @@
 name: SET_EMBLEMA
 enum: Archetype
 value: 0x1ad
-description: |-
+description: >-
   The ["Emblema"](https://yugipedia.com/wiki/Emblema) archetype.
 summary: Emblema
 status: { index: stable }

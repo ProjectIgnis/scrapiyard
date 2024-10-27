@@ -2,7 +2,7 @@
 name: SET_PSY_FRAME
 enum: Archetype
 value: 0xc1
-description: |-
+description: >-
   The ["PSY-Frame"](https://yugipedia.com/wiki/PSY-Frame) archetype.
 summary: PSY-Frame
 status: { index: stable }

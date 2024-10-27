@@ -1,7 +1,7 @@
 ---!function
 name: GetOriginalLevel
 namespace: Card
-description: |-
+description: >-
   Returns the original Level of "c". (Returns 0 if it has no Level, e.g. Xyz/Link.)
 status:
   index: stable

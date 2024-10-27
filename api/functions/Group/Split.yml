@@ -1,7 +1,7 @@
 ---!function
 name: Split
 namespace: Group
-description: |-
+description: >-
   Returns 2 groups, the first group will contain cards matched with the same behaviour as Group.Filter, the second group will contain the remaining cards from the Group g.
 status:
   index: stable

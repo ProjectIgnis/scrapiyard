@@ -2,7 +2,7 @@
 name: EFFECT_DISABLE_CHAIN
 enum: EffectCode
 value: 9
-description: |-
+description: >-
   Affected card has its activation negated
 status:
   index: stable

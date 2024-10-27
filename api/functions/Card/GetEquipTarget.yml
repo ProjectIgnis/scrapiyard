@@ -1,7 +1,7 @@
 ---!function
 name: GetEquipTarget
 namespace: Card
-description: |-
+description: >-
   Gets the Card that a Card (Card c) is equipped to
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: EFFECT_FLAG_SPSUM_PARAM
 enum: EffectProperty
 value: 0x100000
-description: |-
+description: >-
   Flag to indicate in a special summon in which zone(s) of the field and to which player. (eg. SetTargetRange in "Lava Golem")
 status:
   index: stable

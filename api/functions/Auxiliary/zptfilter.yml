@@ -1,7 +1,7 @@
 ---!function
 name: zptfilter
 namespace: Auxiliary
-description: |-
+description: >-
   Used as filter for effects that check "if [filter] monster is Special Summoned to a zone this card points to". Also includes non-trivial handling of self-destructing effects of "Burning Abyss" monsters.
 status:
   index: stable

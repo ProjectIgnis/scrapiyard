@@ -2,7 +2,7 @@
 name: EFFECT_DUAL_SUMMONABLE
 enum: EffectCode
 value: 77
-description: |-
+description: >-
   Affected card can be Normal Summon on the field as a Gemini Monster
 status:
   index: stable

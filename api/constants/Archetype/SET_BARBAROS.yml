@@ -2,7 +2,7 @@
 name: SET_BARBAROS
 enum: Archetype
 value: 0x13e
-description: |-
+description: >-
   The ["Barbaros"](https://yugipedia.com/wiki/Barbaros) archetype.
 summary: Barbaros
 status: { index: stable }

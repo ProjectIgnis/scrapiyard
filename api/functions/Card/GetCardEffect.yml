@@ -10,7 +10,7 @@ parameters:
   - name: code
     type: [ int ]
     required: false
-    description: |-
+    description: >-
       An [EffectCode](/api/enums/EffectCode) constant.
       If provided, the function will only return effects with that EffectCode.
 returns:

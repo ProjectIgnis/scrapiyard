@@ -1,7 +1,7 @@
 ---!function
 name: IsCanBeBattleTarget
 namespace: Card
-description: |-
+description: >-
   Checks if a card (Card c1) is a valid battle target for another card (Card c2)
 status:
   index: stable

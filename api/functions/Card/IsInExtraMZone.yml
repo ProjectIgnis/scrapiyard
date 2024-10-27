@@ -1,7 +1,7 @@
 ---!function
 name: IsInExtraMZone
 namespace: Card
-description: |-
+description: >-
   Checks if (Card c) is in an Extra Monster Zone. If (int tp) is provided, also returns if (Card c) is of that controller.
 status:
   index: stable

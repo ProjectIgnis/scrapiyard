@@ -2,7 +2,7 @@
 name: SET_SCRAP
 enum: Archetype
 value: 0x24
-description: |-
+description: >-
   The ["Scrap"](https://yugipedia.com/wiki/Scrap) archetype.
 summary: Scrap
 status: { index: stable }

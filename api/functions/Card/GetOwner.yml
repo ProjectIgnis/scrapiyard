@@ -1,7 +1,7 @@
 ---!function
 name: GetOwner
 namespace: Card
-description: |-
+description: >-
   Returns the [owner](https://yugipedia.com/wiki/Owner) of a card.
 summary: Gets the owner of a card
 parameters:

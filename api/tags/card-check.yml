@@ -1,6 +1,6 @@
 ---!tag
 name: card-check
-description: |-
+description: >-
   Functions that check something about a [Card](/api/types/Card).
   They are usually of the [CardFilter](/api/types/CardFilter) type.
 summary: Functions that check something about a card

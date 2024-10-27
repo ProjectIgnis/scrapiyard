@@ -1,7 +1,7 @@
 ---!function
 name: GetCurrentPhase
 namespace: Duel
-description: |-
+description: >-
   Gets the current Phase of the game (corresponds to PHASE_x in constants.lua)
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_TRICKSTAR
 enum: Archetype
 value: 0xfb
-description: |-
+description: >-
   The ["Trickstar"](https://yugipedia.com/wiki/Trickstar) archetype.
 summary: Trickstar
 status: { index: stable }

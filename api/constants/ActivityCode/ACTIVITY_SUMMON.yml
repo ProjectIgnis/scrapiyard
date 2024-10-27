@@ -2,7 +2,7 @@
 name: ACTIVITY_SUMMON
 enum: ActivityCode
 value: 1
-description: |-
+description: >-
   Refers to the action of attempting to perform Summons of any kind
 status:
   index: stable

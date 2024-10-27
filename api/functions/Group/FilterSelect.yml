@@ -1,7 +1,7 @@
 ---!function
 name: FilterSelect
 namespace: Group
-description: |-
+description: >-
   Make a player (int player) select members of a group (Group g) which meets the function (function f), with a minimum (int min) and a maximum (int max), then outputs the result as a new Group. Excludes a card (Card ex) if not nil. Function f accepts at least one parameter (f(c,...), with c as each member of the group), and the card will be included if f(c,...) returns true. If cancelable is true and the selection is canceled nil will be returned.
 status:
   index: stable

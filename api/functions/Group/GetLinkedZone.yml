@@ -1,7 +1,7 @@
 ---!function
 name: GetLinkedZone
 namespace: Group
-description: |-
+description: >-
   Returns all the zones that all the cards in g point to (on the field of player "cp").
 status:
   index: stable

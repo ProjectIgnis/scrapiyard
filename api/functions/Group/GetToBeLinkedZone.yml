@@ -1,7 +1,7 @@
 ---!function
 name: GetToBeLinkedZone
 namespace: Group
-description: |-
+description: >-
   Returns the zone(s) of a player "tp" such that "c" would point to "tc" if "tc" would be summoned. If "clink" is set to true it will only return the zone(s) so that "c" and "tc" would be co-linked. Set "emz" to true if the summoned monster could be placed in the Extra Monster Zone so that the possibility of Extra Linking is accounted for (see "G Golem Crystal Heart" for an example use).
 status:
   index: stable

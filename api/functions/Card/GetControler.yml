@@ -1,7 +1,7 @@
 ---!function
 name: GetControler
 namespace: Card
-description: |-
+description: >-
   Returns the controller of "c".
 status:
   index: stable

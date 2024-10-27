@@ -1,7 +1,7 @@
 ---!type
 name: FusionMaterialFilter
 supertype: function
-description: |-
+description: >-
   A function used to filter Fusion materials in Fusion Summon effects
   (i.e., in the script of the card that will perform the Fusion Summon).
 summary: Filters Fusion materials in Fusion Summon effects

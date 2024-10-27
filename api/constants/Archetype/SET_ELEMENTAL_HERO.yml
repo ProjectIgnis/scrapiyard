@@ -2,7 +2,7 @@
 name: SET_ELEMENTAL_HERO
 enum: Archetype
 value: 0x3008
-description: |-
+description: >-
   The ["Elemental HERO"](https://yugipedia.com/wiki/Elemental_HERO) archetype.
   Sub-archetype of [`SET_HERO`](/api/constants/Archetype/SET_HERO).
 summary: Elemental HERO

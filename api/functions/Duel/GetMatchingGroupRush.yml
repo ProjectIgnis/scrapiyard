@@ -1,7 +1,7 @@
 ---!function
 name: GetMatchingGroupRush
 namespace: Duel
-description: |-
+description: >-
   Equivalent to Duel.GetMatchingGroup, but the cards are also filtered to match Auxiliary.FilterMaximumSideFunctionEx
 status:
   index: stable

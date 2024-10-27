@@ -1,7 +1,7 @@
 ---!function
 name: GetMutualLinkedGroupCount
 namespace: Card
-description: |-
+description: >-
   Returns the number of cards that are co-linked with "c".
 status:
   index: stable

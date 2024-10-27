@@ -2,7 +2,7 @@
 name: REASON_RULE
 enum: Reason
 value: 0x400
-description: |-
+description: >-
   The value used for reasons associated with game mechanics
 status:
   index: stable

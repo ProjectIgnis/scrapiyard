@@ -1,7 +1,7 @@
 ---!function
 name: IsLeaveFieldDest
 namespace: Card
-description: |-
+description: >-
   Returns `true` if a card would be sent to a given location when it leaves the field,
   taking into account effects that would redirect it (e.g. "but banish it if it leaves the field").
 summary: Checks if a card would be sent to a given location when it leaves the field

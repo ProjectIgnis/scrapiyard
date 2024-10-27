@@ -1,7 +1,7 @@
 ---!function
 name: MaleficUniqueFilter
 namespace: Auxiliary
-description: |-
+description: >-
   Used as filter for the uniqueness on field with the "Malefic" monsters
 status:
   index: stable

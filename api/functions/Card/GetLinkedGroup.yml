@@ -1,7 +1,7 @@
 ---!function
 name: GetLinkedGroup
 namespace: Card
-description: |-
+description: >-
   Returns a group with all the cards that "c" points to. (Returns an empty group if it does not point to any cards.)
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: AddMustBePendulumSummoned
 namespace: Card
-description: |-
+description: >-
   Creates and registers an [Effect](/api/types/Effect) to a monster card
   that applies a "Must be Pendulum Summoned" Summoning condition to it
 summary: Adds a "Must be Pendulum Summoned" Summoning condition to a monster

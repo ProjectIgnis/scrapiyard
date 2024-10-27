@@ -2,7 +2,7 @@
 name: SUMMON_TYPE_MAXIMUM
 enum: SummonType
 value: 0x4e000000
-description: |-
+description: >-
   Maximum Summon (Rush duel SummonType)
 status:
   index: stable

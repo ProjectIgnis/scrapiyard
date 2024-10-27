@@ -1,7 +1,7 @@
 ---!function
 name: IsSpell
 namespace: Card
-description: |-
+description: >-
   Returns `true` if the given card is currently a [Spell](https://yugipedia.com/wiki/Spell_Card).
 summary: Checks if a card is a Spell
 parameters:

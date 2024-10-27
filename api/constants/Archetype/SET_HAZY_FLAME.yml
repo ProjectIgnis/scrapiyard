@@ -2,7 +2,7 @@
 name: SET_HAZY_FLAME
 enum: Archetype
 value: 0x107d
-description: |-
+description: >-
   The ["Hazy Flame"](https://yugipedia.com/wiki/Hazy_Flame) archetype.
   Sub-archetype of [`SET_HAZY`](/api/constants/Archetype/SET_HAZY).
 summary: Hazy Flame

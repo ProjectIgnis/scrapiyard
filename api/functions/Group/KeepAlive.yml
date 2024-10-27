@@ -1,7 +1,7 @@
 ---!function
 name: KeepAlive
 namespace: Group
-description: |-
+description: >-
   Makes a group (Group g) not be collected upon exiting the function. Returns the group itself.
 status:
   index: stable

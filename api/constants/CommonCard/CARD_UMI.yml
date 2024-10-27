@@ -2,7 +2,7 @@
 name: CARD_UMI
 enum: CommonCard
 value: 22702055
-description: |-
+description: >-
   Umi's ID, used because it has a lot of specific support
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_CRYSTAL
 enum: Archetype
 value: 0x34
-description: |-
+description: >-
   The ["Crystal"](https://yugipedia.com/wiki/Crystal) archetype.
 summary: Crystal
 status: { index: stable }

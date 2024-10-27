@@ -2,7 +2,7 @@
 name: SET_STAR_SERAPH
 enum: Archetype
 value: 0x86
-description: |-
+description: >-
   The ["Star Seraph"](https://yugipedia.com/wiki/Star_Seraph) archetype.
 summary: Star Seraph
 status: { index: stable }

@@ -2,7 +2,7 @@
 name: RACE_YOKAI
 enum: MonsterRace
 value: 0x4000000000000000
-description: |-
+description: >-
   The [Yokai](https://yugipedia.com/wiki/Yokai) Monster Type for manga cards
 summary: Yokai
 status: { index: stable }

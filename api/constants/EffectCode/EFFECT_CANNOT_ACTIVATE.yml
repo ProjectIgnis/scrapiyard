@@ -2,7 +2,7 @@
 name: EFFECT_CANNOT_ACTIVATE
 enum: EffectCode
 value: 6
-description: |-
+description: >-
   The affected player(s) cannot activate the effects that match this effect's SetValue.
 status:
   index: stable

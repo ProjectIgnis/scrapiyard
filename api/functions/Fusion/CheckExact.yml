@@ -1,7 +1,7 @@
 ---!function
 name: CheckExact
 namespace: Fusion
-description: |-
+description: >-
   A variable used temporarily to limit the usable materials' number
 status:
   index: stable

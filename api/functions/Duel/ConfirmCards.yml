@@ -1,7 +1,7 @@
 ---!function
 name: ConfirmCards
 namespace: Duel
-description: |-
+description: >-
   Reveals the passed cards to the passed player if they are in a private knowledge state.
 status:
   index: stable

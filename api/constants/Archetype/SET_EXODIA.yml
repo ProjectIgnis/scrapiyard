@@ -2,7 +2,7 @@
 name: SET_EXODIA
 enum: Archetype
 value: 0xde
-description: |-
+description: >-
   The ["Exodia"](https://yugipedia.com/wiki/Exodia) archetype.
 summary: Exodia
 status: { index: stable }

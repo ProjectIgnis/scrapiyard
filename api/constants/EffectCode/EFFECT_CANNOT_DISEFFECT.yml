@@ -2,7 +2,7 @@
 name: EFFECT_CANNOT_DISEFFECT
 enum: EffectCode
 value: 13
-description: |-
+description: >-
   Affected cards cannot have the resolution of their effects negated. If SetValue is used, it receives the following parameters:
 e: this effect itself
 chaincount: the chain associated with the effect. Can be used in Duel.GetChainInfo

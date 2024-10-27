@@ -2,7 +2,7 @@
 name: ATTRIBUTE_EARTH
 enum: MonsterAttribute
 value: 0x1
-description: |-
+description: >-
   The [EARTH](https://yugipedia.com/wiki/EARTH) attribute for monsters
 summary: EARTH
 status: { index: stable }

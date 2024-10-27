@@ -1,7 +1,7 @@
 ---!function
 name: GetAttackTarget
 namespace: Duel
-description: |-
+description: >-
   Gets the attack target card (or nil if there's no attack target/the attack is a direct attack)
 status:
   index: stable

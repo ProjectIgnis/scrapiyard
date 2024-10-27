@@ -2,7 +2,7 @@
 name: CATEGORY_FLIP
 enum: EffectCategory
 value: 0x800
-description: |-
+description: >-
   Describes a FLIP effect
 status:
   index: stable

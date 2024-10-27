@@ -2,7 +2,7 @@
 name: EFFECT_COUNT_CODE_CHAIN
 enum: CountLimitCode
 value: 0x8
-description: |-
+description: >-
   A flag to be used with SetCountLimit. Can be used when the effect can only be activated once per chain (per copy of the card)
 status:
   index: stable

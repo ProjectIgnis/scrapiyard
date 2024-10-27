@@ -1,7 +1,7 @@
 ---!function
 name: UseCountLimit
 namespace: Effect
-description: |-
+description: >-
   Decreases the remaining usages of the effect by the player "p" by "count", if "oath_only" is true, the function will do nothing unless the effect is an OATH effect.
 status:
   index: stable

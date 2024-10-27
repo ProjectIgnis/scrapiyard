@@ -1,7 +1,7 @@
 ---!function
 name: SelectUnselectLoop
 namespace: Auxiliary
-description: |-
+description: >-
   Auxiliary function used by the SelectUnselectGroup function only
 status:
   index: stable

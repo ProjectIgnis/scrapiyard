@@ -1,7 +1,7 @@
 ---!function
 name: GetPreviousAttributeOnField
 namespace: Card
-description: |-
+description: >-
   Returns the Attribute that "c" had when it was on the field.
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: CreateRelation
 namespace: Card
-description: |-
+description: >-
   Creates a relation between the first card (Card c1) and the second card (Card c2), which will be reset when the first card hits the reset flag
 status:
   index: stable

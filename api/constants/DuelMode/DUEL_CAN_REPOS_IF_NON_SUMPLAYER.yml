@@ -2,7 +2,7 @@
 name: DUEL_CAN_REPOS_IF_NON_SUMPLAYER
 enum: DuelMode
 value: 0x80000000
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

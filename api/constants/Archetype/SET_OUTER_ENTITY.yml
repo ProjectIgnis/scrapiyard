@@ -2,7 +2,7 @@
 name: SET_OUTER_ENTITY
 enum: Archetype
 value: 0x10b7
-description: |-
+description: >-
   The ["Outer Entity"](https://yugipedia.com/wiki/Outer_Entity) archetype.
 summary: Outer Entity
 status: { index: stable }

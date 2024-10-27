@@ -1,7 +1,7 @@
 ---!function
 name: SetValue
 namespace: Effect
-description: |-
+description: >-
   Sets (Effect e)'s value, or value function
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: LOCATION_MZONE
 enum: Location
 value: 0x4
-description: |-
+description: >-
   The Monster Zone
 status:
   index: stable

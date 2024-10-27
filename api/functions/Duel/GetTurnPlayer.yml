@@ -1,7 +1,7 @@
 ---!function
 name: GetTurnPlayer
 namespace: Duel
-description: |-
+description: >-
   Returns the turn player (0 for the player who went first, 1 for the other)
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: IsSummonPlayer
 namespace: Card
-description: |-
+description: >-
   Checks if (Card c) is summoned by player (int tp)
 status:
   index: stable

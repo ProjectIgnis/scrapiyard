@@ -2,7 +2,7 @@
 name: SET_FORTUNE_LADY
 enum: Archetype
 value: 0x31
-description: |-
+description: >-
   The ["Fortune Lady"](https://yugipedia.com/wiki/Fortune_Lady) archetype.
 summary: Fortune Lady
 status: { index: stable }

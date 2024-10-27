@@ -1,7 +1,7 @@
 ---!function
 name: GetToBeLinkedZone
 namespace: Card
-description: |-
+description: >-
   Iterates group g with "Card.GetToBeLinkedZone" operations.
 status:
   index: stable

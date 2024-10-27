@@ -2,7 +2,7 @@
 name: SET_URSARCTIC
 enum: Archetype
 value: 0x165
-description: |-
+description: >-
   The ["Ursarctic"](https://yugipedia.com/wiki/Ursarctic) archetype.
 summary: Ursarctic
 status: { index: stable }

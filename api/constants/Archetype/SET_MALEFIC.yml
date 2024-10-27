@@ -2,7 +2,7 @@
 name: SET_MALEFIC
 enum: Archetype
 value: 0x23
-description: |-
+description: >-
   The ["Malefic"](https://yugipedia.com/wiki/Malefic) archetype.
 summary: Malefic
 status: { index: stable }

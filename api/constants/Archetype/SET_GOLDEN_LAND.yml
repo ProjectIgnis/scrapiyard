@@ -2,7 +2,7 @@
 name: SET_GOLDEN_LAND
 enum: Archetype
 value: 0x144
-description: |-
+description: >-
   The ["Golden Land"](https://yugipedia.com/wiki/Golden_Land) archetype.
 summary: Golden Land
 status: { index: stable }

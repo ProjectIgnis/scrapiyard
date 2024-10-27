@@ -2,7 +2,7 @@
 name: COUNTER_SPELL
 enum: CommonCounter
 value: 0x1
-description: |-
+description: >-
   The hexadecimal value of Spell Counters
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: GetUsableMZoneCount
 namespace: Duel
-description: |-
+description: >-
   Gets the number of Monster Zones that are usable by (int using_player) on (int target_player)'s field.
 status:
   index: stable

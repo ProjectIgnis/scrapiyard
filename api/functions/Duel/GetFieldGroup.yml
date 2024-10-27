@@ -1,7 +1,7 @@
 ---!function
 name: GetFieldGroup
 namespace: Duel
-description: |-
+description: >-
   Gets a group containing cards from a specified location of a player (int player), s denotes the player's side of the field, o denotes opposing player's side of the field
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: EFFECT_UNION_STATUS
 enum: EffectCode
 value: 347
-description: |-
+description: >-
   (To be added)
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: SetCategory
 namespace: Effect
-description: |-
+description: >-
   Sets an effect's (Effect e) category. Refer to constant.lua for valid categories.
 status:
   index: stable

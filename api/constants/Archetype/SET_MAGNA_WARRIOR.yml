@@ -2,7 +2,7 @@
 name: SET_MAGNA_WARRIOR
 enum: Archetype
 value: 0xe9
-description: |-
+description: >-
   The ["Magna Warrior"](https://yugipedia.com/wiki/Magna_Warrior) archetype.
 summary: Magna Warrior
 status: { index: stable }

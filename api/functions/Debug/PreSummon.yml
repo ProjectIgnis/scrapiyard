@@ -1,7 +1,7 @@
 ---!function
 name: PreSummon
 namespace: Debug
-description: |-
+description: >-
   In puzzles, treats a card as if it was summoned by the provided [SummonType](/api/enums/SummonType).
   The summon location and sequence can also be specified.
 summary: Sets the summon type, location, and/or sequence of a card.

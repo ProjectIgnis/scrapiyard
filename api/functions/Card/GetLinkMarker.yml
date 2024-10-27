@@ -1,7 +1,7 @@
 ---!function
 name: GetLinkMarker
 namespace: Card
-description: |-
+description: >-
   Returns the combined LinkMarkers Card c has. The return value can be bitmasked to extract specific markers.
 status:
   index: stable

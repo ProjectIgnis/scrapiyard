@@ -1,7 +1,7 @@
 ---!function
 name: EnableReviveLimit
 namespace: Card
-description: |-
+description: >-
   Makes a card (Card c) unsummonable except with its own procedure, or after its Summon procedure is complete (for example, all extra deck monsters and Ritual monsters)
 status:
   index: stable

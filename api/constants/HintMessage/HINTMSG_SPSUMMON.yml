@@ -2,7 +2,7 @@
 name: HINTMSG_SPSUMMON
 enum: HintMessage
 value: 509
-description: |-
+description: >-
   Shows the following HintMessage: "Select the card(s) to Special Summon"
 status:
   index: stable

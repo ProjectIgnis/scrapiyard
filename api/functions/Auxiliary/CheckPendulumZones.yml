@@ -1,7 +1,7 @@
 ---!function
 name: CheckPendulumZones
 namespace: Auxiliary
-description: |-
+description: >-
   Function deprecated since version 40.0.0. Use "Duel.CheckPendulumZones" instead
 status:
   index: stable

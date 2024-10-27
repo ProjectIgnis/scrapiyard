@@ -1,7 +1,7 @@
 ---!function
 name: AddProcCodeFun
 namespace: Fusion
-description: |-
+description: >-
   Creates a Fusion Summon recipe for monsters that use 1 specifically named material,
   and an exact number of materials that match a filter.
 summary: Creates a Fusion recipe with 1 named + an exact number of filtered materials
@@ -22,12 +22,12 @@ parameters:
     description: The number of materials that must match the filter.
   - name: sub
     type: [ bool ]
-    description: |-
+    description: >-
       A boolean denoting if Fusion Substitutes
       (e.g. [King of the Swamp](https://yugipedia.com/wiki/King_of_the_Swamp))
       are allowed in the materials.
   - name: insf
     type: [ bool ]
-    description: |-
+    description: >-
       A boolean denoting if Fusion Summoning without materials
       (e.g. [Instant Fusion](https://yugipedia.com/wiki/Instant_Fusion)) is allowed.

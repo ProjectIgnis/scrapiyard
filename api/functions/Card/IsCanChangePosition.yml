@@ -1,7 +1,7 @@
 ---!function
 name: IsCanChangePosition
 namespace: Card
-description: |-
+description: >-
   Checks if the given (Card c) can change its battle position
 status:
   index: stable

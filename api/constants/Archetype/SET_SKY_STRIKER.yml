@@ -2,7 +2,7 @@
 name: SET_SKY_STRIKER
 enum: Archetype
 value: 0x115
-description: |-
+description: >-
   The ["Sky Striker"](https://yugipedia.com/wiki/Sky_Striker) archetype.
 summary: Sky Striker
 status: { index: stable }

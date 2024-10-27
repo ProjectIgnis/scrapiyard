@@ -1,7 +1,7 @@
 ---!function
 name: sumlimit
 namespace: Auxiliary
-description: |-
+description: >-
   helper function called by the various auxiliary function used as special summon conditions
 status:
   index: stable

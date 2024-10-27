@@ -2,7 +2,7 @@
 name: EVENT_BE_MATERIAL
 enum: Event
 value: 1108
-description: |-
+description: >-
   This event is raised when a card is used as material (e.g. for a Synchro Summon)
 status:
   index: stable

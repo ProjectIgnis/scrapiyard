@@ -2,7 +2,7 @@
 name: SET_G_GOLEM
 enum: Archetype
 value: 0x187
-description: |-
+description: >-
   The ["G Golem"](https://yugipedia.com/wiki/G_Golem) archetype.
 summary: G Golem
 status: { index: stable }

@@ -1,7 +1,7 @@
 ---!function
 name: CheckLPCost
 namespace: Duel
-description: |-
+description: >-
   Checks if a player (int player) can pay an amount (int cost) of LP
 status:
   index: stable

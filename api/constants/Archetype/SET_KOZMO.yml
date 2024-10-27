@@ -2,7 +2,7 @@
 name: SET_KOZMO
 enum: Archetype
 value: 0xd2
-description: |-
+description: >-
   The ["Kozmo"](https://yugipedia.com/wiki/Kozmo) archetype.
 summary: Kozmo
 status: { index: stable }

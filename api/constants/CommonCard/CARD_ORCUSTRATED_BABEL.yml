@@ -2,7 +2,7 @@
 name: CARD_ORCUSTRATED_BABEL
 enum: CommonCard
 value: 90351981
-description: |-
+description: >-
   Orcustrated Babel's ID, used for hardcoded effect
 status:
   index: stable

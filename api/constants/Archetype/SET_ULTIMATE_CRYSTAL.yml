@@ -2,7 +2,7 @@
 name: SET_ULTIMATE_CRYSTAL
 enum: Archetype
 value: 0x2034
-description: |-
+description: >-
   The ["Ultimate Crystal"](https://yugipedia.com/wiki/Ultimate_Crystal) archetype.
   Sub-archetype of [`SET_CRYSTAL`](/api/constants/Archetype/SET_CRYSTAL).
 summary: Ultimate Crystal

@@ -2,7 +2,7 @@
 name: SET_CXYZ
 enum: Archetype
 value: 0x1073
-description: |-
+description: >-
   The ["CXyz"](https://yugipedia.com/wiki/CXyz) archetype.
   Sub-archetype of [`SET_XYZ`](/api/constants/Archetype/SET_XYZ).
 summary: CXyz

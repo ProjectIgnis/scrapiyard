@@ -2,7 +2,7 @@
 name: EFFECT_CHANGE_RANK_FINAL
 enum: EffectCode
 value: 315
-description: |-
+description: >-
   Set affected card's rank to a value, overriding other changes
 status:
   index: stable

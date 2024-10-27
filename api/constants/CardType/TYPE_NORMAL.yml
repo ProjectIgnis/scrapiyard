@@ -2,7 +2,7 @@
 name: TYPE_NORMAL
 enum: CardType
 value: 0x10
-description: |-
+description: >-
   The [Normal](https://yugipedia.com/wiki/Normal_Monster) Card Type for Monsters
 summary: Normal
 status: { index: stable }

@@ -1,7 +1,7 @@
 ---!function
 name: SpiritReturnReg
 namespace: Auxiliary
-description: |-
+description: >-
   Function deprecated since version 40.0.0. Use "Spirit.SummonRegister"
 status:
   index: stable

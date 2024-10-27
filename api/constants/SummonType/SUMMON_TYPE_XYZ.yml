@@ -2,7 +2,7 @@
 name: SUMMON_TYPE_XYZ
 enum: SummonType
 value: 0x49000000
-description: |-
+description: >-
   Xyz Summon
 status:
   index: stable

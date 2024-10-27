@@ -2,7 +2,7 @@
 name: SET_MIMIGHOUL
 enum: Archetype
 value: 0x1b5
-description: |-
+description: >-
   The ["Mimighoul"](https://yugipedia.com/wiki/Mimighoul) archetype.
 summary: Mimighoul
 status: { index: stable }

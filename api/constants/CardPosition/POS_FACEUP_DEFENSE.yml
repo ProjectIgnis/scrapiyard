@@ -2,7 +2,7 @@
 name: POS_FACEUP_DEFENSE
 enum: CardPosition
 value: 0x4
-description: |-
+description: >-
   Face-up defense position
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: GetCardTarget
 namespace: Card
-description: |-
+description: >-
   Gets the group of cards that a card (Card c) is assigned targets to
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: CARD_PSYFRAME_DRIVER
 enum: CommonCard
 value: 49036338
-description: |-
+description: >-
   PSY-Frame Driver's ID, used because it has a lot of specific support
 status:
   index: stable

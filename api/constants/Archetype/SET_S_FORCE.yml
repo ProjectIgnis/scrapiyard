@@ -2,7 +2,7 @@
 name: SET_S_FORCE
 enum: Archetype
 value: 0x15a
-description: |-
+description: >-
   The ["S-Force"](https://yugipedia.com/wiki/S-Force) archetype.
 summary: S-Force
 status: { index: stable }

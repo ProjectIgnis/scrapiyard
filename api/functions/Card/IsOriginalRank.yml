@@ -1,7 +1,7 @@
 ---!function
 name: IsOriginalRank
 namespace: Card
-description: |-
+description: >-
   Returns `true` if a card's original rank is equal to a given value.
 summary: Checks a card's original rank
 parameters:

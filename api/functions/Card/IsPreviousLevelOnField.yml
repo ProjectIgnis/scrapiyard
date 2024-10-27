@@ -1,7 +1,7 @@
 ---!function
 name: IsPreviousLevelOnField
 namespace: Card
-description: |-
+description: >-
   Returns `true` if a card's previous level on the field is equal to a given value.
 summary: Checks a card's previous level
 status: { index: stable }

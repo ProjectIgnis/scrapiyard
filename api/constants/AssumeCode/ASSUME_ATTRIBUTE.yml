@@ -2,7 +2,7 @@
 name: ASSUME_ATTRIBUTE
 enum: AssumeCode
 value: 5
-description: |-
+description: >-
   Temporarily assumes that the affected card has a given attribute
 status:
   index: stable

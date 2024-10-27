@@ -2,7 +2,7 @@
 name: CARD_FIRE_FIST_EAGLE
 enum: CommonCard
 value: 46241344
-description: |-
+description: >-
   Brotherhood of the Fire Fist - Eagle's ID, used for hardcoded effect
 status:
   index: stable

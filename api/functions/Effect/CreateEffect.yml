@@ -1,7 +1,7 @@
 ---!function
 name: CreateEffect
 namespace: Effect
-description: |-
+description: >-
   Creates a new effect object with a card (Card c) as its owner.
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: SET_INFERNITY
 enum: Archetype
 value: 0xb
-description: |-
+description: >-
   The ["Infernity"](https://yugipedia.com/wiki/Infernity) archetype.
 summary: Infernity
 status: { index: stable }

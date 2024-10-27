@@ -1,7 +1,7 @@
 ---!function
 name: MaleficSummonSubstitute
 namespace: Auxiliary
-description: |-
+description: >-
   Used with the Summoning Procedure of "Malefic" monsters. Checks for the effect of "Malefic Paradox Gear"
 status:
   index: stable

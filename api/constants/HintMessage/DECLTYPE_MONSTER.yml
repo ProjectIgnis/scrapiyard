@@ -2,7 +2,7 @@
 name: DECLTYPE_MONSTER
 enum: HintMessage
 value: 70
-description: |-
+description: >-
   Constant to be used with CardType declaration
 status:
   index: stable

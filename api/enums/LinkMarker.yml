@@ -1,6 +1,6 @@
 ---!enum
 name: LinkMarker
-description: |-
+description: >-
   [Link Arrows](https://yugipedia.com/wiki/Link_Arrow), referred to as Link Markers in the ygopro codebase.
 summary: Link Arrows
 bitmaskInt: true

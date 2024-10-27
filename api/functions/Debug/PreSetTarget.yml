@@ -1,7 +1,7 @@
 ---!function
 name: PreSetTarget
 namespace: Debug
-description: |-
+description: >-
   In puzzles, sets the target of a card to be a specified card.
   Useful when placing cards on the field that require a target to keep the
   effect relation (e.g., [Call of the Haunted](https://yugipedia.com/wiki/Call_of_the_Haunted)).

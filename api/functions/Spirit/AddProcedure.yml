@@ -1,7 +1,7 @@
 ---!function
 name: AddProcedure
 namespace: Spirit
-description: |-
+description: >-
   Sets up EVENT triggers to (Card c) so it returns to the hand during that End Phase, requires a minimum of 1 (int event1)
 status:
   index: stable

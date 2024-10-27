@@ -2,7 +2,7 @@
 name: HINTMSG_DEFENSE
 enum: HintMessage
 value: 517
-description: |-
+description: >-
   Shows the following HintMessage: "Select a monster(s) in Defense Position"
 status:
   index: stable

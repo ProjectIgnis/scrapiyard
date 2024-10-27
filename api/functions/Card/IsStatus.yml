@@ -1,7 +1,7 @@
 ---!function
 name: IsStatus
 namespace: Card
-description: |-
+description: >-
   Checks if "c" has the given status (STATUS_x)
 status:
   index: stable

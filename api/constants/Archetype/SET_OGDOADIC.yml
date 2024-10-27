@@ -2,7 +2,7 @@
 name: SET_OGDOADIC
 enum: Archetype
 value: 0x163
-description: |-
+description: >-
   The ["Ogdoadic"](https://yugipedia.com/wiki/Ogdoadic) archetype.
 summary: Ogdoadic
 status: { index: stable }

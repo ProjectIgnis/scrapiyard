@@ -2,7 +2,7 @@
 name: EFFECT_CHANGE_LINKMARKER
 enum: EffectCode
 value: 425
-description: |-
+description: >-
   Sets the affected card's LinkMarkers to the value provided
 status:
   index: stable

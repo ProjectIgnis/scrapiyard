@@ -2,7 +2,7 @@
 name: DUEL_TEST_MODE
 enum: DuelMode
 value: 0x1
-description: |-
+description: >-
   A flag for DuelModes. You can control the AI/Opponent
 status:
   index: stable

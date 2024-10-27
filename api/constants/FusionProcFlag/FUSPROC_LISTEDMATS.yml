@@ -2,7 +2,7 @@
 name: FUSPROC_LISTEDMATS
 enum: FusionProcFlag
 value: 0x400
-description: |-
+description: >-
   Flag used for the various filters in the fusion procedure.
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: CARD_SANGA_OF_THE_THUNDER
 enum: CommonCard
 value: 25955164
-description: |-
+description: >-
   Sanga of the Thunder's ID
 status:
   index: stable

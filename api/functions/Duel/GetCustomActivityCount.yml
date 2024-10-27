@@ -1,7 +1,7 @@
 ---!function
 name: GetCustomActivityCount
 namespace: Duel
-description: |-
+description: >-
   Same behaviour as Duel.GetActivityCount with the difference that returns the count of the activities that were registered with the specific counter_id as Duel.AddCustomActivityCounter.
 status:
   index: stable

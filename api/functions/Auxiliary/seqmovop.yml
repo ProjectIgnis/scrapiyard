@@ -1,7 +1,7 @@
 ---!function
 name: seqmovop
 namespace: Auxiliary
-description: |-
+description: >-
   Operation for effects that make the monster change its current sequence/column.
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: ResetNegateEffect
 namespace: Card
-description: |-
+description: >-
   Resets a card c affected by the effect of cards whose card number is code1, code2 ...
 status:
   index: stable

@@ -1,7 +1,7 @@
 ---!function
 name: EnableGlobalFlag
 namespace: Duel
-description: |-
+description: >-
   Enables the specified GlobalFlags (int global_flag) for the rest of the Duel (GLOBALFLAG_x).
 status:
   index: stable

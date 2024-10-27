@@ -2,7 +2,7 @@
 name: SET_GOBLIN
 enum: Archetype
 value: 0xac
-description: |-
+description: >-
   The ["Goblin"](https://yugipedia.com/wiki/Goblin) archetype.
 summary: Goblin
 status: { index: stable }

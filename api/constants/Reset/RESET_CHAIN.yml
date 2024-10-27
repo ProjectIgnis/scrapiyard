@@ -2,7 +2,7 @@
 name: RESET_CHAIN
 enum: Reset
 value: 0x80000000
-description: |-
+description: >-
   Resets at the end of the resolving Chain
 status:
   index: stable

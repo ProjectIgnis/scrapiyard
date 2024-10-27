@@ -2,7 +2,7 @@
 name: RACE_ALL
 enum: MonsterRace
 value: 0x3ffffff
-description: |-
+description: >-
   Composite constant that includes all OCG/TCG Monster Types (Warrior to Illusion)
 summary: All OCG/TCG Monster Types
 status: { index: stable }

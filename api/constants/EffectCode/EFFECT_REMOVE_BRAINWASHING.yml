@@ -2,7 +2,7 @@
 name: EFFECT_REMOVE_BRAINWASHING
 enum: EffectCode
 value: 295
-description: |-
+description: >-
   Control of all monsters is returned to their owner
 status:
   index: stable

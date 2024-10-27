@@ -2,7 +2,7 @@
 name: SET_BES
 enum: Archetype
 value: 0x15
-description: |-
+description: >-
   The ["B.E.S."](https://yugipedia.com/wiki/B.E.S.) archetype.
 summary: B.E.S.
 status: { index: stable }

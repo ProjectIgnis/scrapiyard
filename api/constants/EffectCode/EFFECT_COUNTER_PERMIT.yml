@@ -2,7 +2,7 @@
 name: EFFECT_COUNTER_PERMIT
 enum: EffectCode
 value: 0x10000
-description: |-
+description: >-
   Allow placement of counter type
 status:
   index: stable

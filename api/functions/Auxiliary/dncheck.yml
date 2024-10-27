@@ -1,7 +1,7 @@
 ---!function
 name: dncheck
 namespace: Auxiliary
-description: |-
+description: >-
   Auxiliary function that checks for cards with different names, usually used as the resolution condition in aux.SelectUnselectGroup. Internally, it is an application of aux.dpcheck using Card.GetCode as argument
 status:
   index: stable

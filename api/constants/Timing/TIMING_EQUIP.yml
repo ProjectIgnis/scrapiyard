@@ -2,7 +2,7 @@
 name: TIMING_EQUIP
 enum: Timing
 value: 0x2000000
-description: |-
+description: >-
   This event is raised when a card is equipped to another
 status:
   index: stable

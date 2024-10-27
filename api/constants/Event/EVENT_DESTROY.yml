@@ -2,7 +2,7 @@
 name: EVENT_DESTROY
 enum: Event
 value: 1010
-description: |-
+description: >-
   This event is raised when a card is destroyed but has not yet left the field, which allows information of properties on the field to be accessed. For example, the amount of counter a card has is still available.
 status:
   index: stable

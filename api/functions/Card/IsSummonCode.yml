@@ -1,7 +1,7 @@
 ---!function
 name: IsSummonCode
 namespace: Card
-description: |-
+description: >-
   Checks if "c" has a specific code from the "..." list if it is to be used as material for the SummonType "sumtype" of "sc" performed by the player "playerid".
 status:
   index: stable

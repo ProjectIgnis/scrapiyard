@@ -1,7 +1,7 @@
 ---!function
 name: Filter
 namespace: Group
-description: |-
+description: >-
   Creates a new `Group` with `Card`s from an original `Group` that pass a `CardFilter`.
 summary: Filters a `Group`.
 status:

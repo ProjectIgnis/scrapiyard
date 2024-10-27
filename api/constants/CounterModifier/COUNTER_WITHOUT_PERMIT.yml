@@ -2,7 +2,7 @@
 name: COUNTER_WITHOUT_PERMIT
 enum: CounterModifier
 value: 0x1000
-description: |-
+description: >-
   Added to counter value to allow counters for any card (does not require Card.EnableCounterPermit)
 status:
   index: stable

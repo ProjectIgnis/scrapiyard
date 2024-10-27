@@ -1,7 +1,7 @@
 ---!function
 name: ReturnOperation
 namespace: Spirit
-description: |-
+description: >-
   Auxiliary operation. Not directed used by cards.
 status:
   index: stable

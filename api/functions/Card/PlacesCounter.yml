@@ -1,7 +1,7 @@
 ---!function
 name: PlacesCounter
 namespace: Card
-description: |-
+description: >-
   Checks whether card c has an effect that places int counter_type counters (on itself or others). Corresponding table: "s.counter_place_list".
 status:
   index: stable

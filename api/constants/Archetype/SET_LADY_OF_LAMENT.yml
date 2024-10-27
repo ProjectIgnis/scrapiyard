@@ -2,7 +2,7 @@
 name: SET_LADY_OF_LAMENT
 enum: Archetype
 value: 0x176
-description: |-
+description: >-
   The ["Lady of Lament"](https://yugipedia.com/wiki/Lady_of_Lament) archetype.
 summary: Lady of Lament
 status: { index: stable }
