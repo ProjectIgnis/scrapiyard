@@ -2,7 +2,7 @@
 name: CheckReleaseGroupSummon
 namespace: Duel
 description: |-
-  no description yet
+  (To be added)
 status:
   index: stable
 parameters:

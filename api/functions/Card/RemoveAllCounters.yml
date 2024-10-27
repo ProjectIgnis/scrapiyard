@@ -2,7 +2,7 @@
 name: RemoveAllCounters
 namespace: Card
 description: |-
-  no description yet
+  (To be added)
 status:
   index: stable
 parameters:
