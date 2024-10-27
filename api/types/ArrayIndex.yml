@@ -1,0 +1,4 @@
+---!type
+name: ArrayIndex
+supertype: int
+description: A positive integer, used to index [array-like tables](https://www.lua.org/pil/11.1.html).

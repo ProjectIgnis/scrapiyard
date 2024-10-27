@@ -29,7 +29,7 @@ fields:
     valueType: [ IntArray, nil ]
     description: An array of passcodes of the Summoning materials specifically mentioned in the card text.
   - name: material
-    valueType: [ MaterialFilter, nil ]
+    valueType: [ MaterialArray, nil ]
     description: An array of passcodes or filters of the Summoning materials mentioned in the card text.
   # Ritual Summons
   - name: fit_monster
