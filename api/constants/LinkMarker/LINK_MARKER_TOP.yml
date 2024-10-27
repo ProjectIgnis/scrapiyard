@@ -2,7 +2,6 @@
 name: LINK_MARKER_TOP
 enum: LinkMarker
 value: 0x80
-description: |-
-  Top Link Arrow (⬆)
-summary: ⬆
+description: Top Link Arrow (🡑)
+summary: 🡑
 status: { index: stable }

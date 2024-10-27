@@ -2,7 +2,6 @@
 name: LINK_MARKER_RIGHT
 enum: LinkMarker
 value: 0x20
-description: |-
-  Right Link Arrow (➡)
-summary: ➡
+description: Right Link Arrow (🡒)
+summary: 🡒
 status: { index: stable }

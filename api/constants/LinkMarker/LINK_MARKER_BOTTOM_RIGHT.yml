@@ -2,7 +2,6 @@
 name: LINK_MARKER_BOTTOM_RIGHT
 enum: LinkMarker
 value: 0x4
-description: |-
-  Bottom-Right Link Arrow (↘)
-summary: ↘
+description: Bottom-Right Link Arrow (🡖)
+summary: 🡖
 status: { index: stable }
