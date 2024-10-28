@@ -16,6 +16,7 @@ parameters:
     type: [ int ]
     description: The player in whose field the card(s) will be Set.
     required: false
+    defaultValue: player
   - name: confirm
     type: [ bool ]
     description: Determines whether the Set card(s) will be shown to the opponent or not after being Set.
