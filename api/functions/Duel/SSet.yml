@@ -2,23 +2,23 @@
 name: SSet
 namespace: Duel
 description: >-
-  A player Sets a cards(s) (Card|Group target) to the Spell/Trap Card Zone on target_player's field, if confirm is true, the card(s) set are revealed - for confirmation - to the opponent. Returns the number of cards successfully Set.
+  Sets a card(s) to the Spell & Trap Card Zone or Field Zone. Can be used to Set Spells/Traps, as well as monsters with an effect that allows them to be Set in the Spell & Trap Zone (e.g. the "Artifact" monsters).
 status:
   index: stable
 parameters:
   - name: player
     type: [ int ]
-    description: The player that is Setting the Spells/Traps.
+    description: The player that is Setting the card(s).
   - name: targets
     type: [ Card, Group ]
-    description: The Spells/Traps that will be Set.
+    description: The card(s) that will be Set.
   - name: target_player
     type: [ int ]
-    description: The player in whose field the Spells/Traps will be Set.
+    description: The player in whose field the card(s) will be Set.
     required: false
   - name: confirm
     type: [ bool ]
-    description: Determines whether the Set cards will be shown to the opponent or not after being Set.
+    description: Determines whether the Set card(s) will be shown to the opponent or not after being Set.
     required: false
     defaultValue: true
 returns:
