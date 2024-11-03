@@ -19,7 +19,7 @@ parameters:
     defaultValue: player
   - name: confirm
     type: [ bool ]
-    description: Determines whether the Set card(s) will be shown to the opponent or not after being Set. Should be set to `false` if the effect can Set any Spell/Trap (e.g. "Ariane the Labrynth Servant" or "Dust Tornado", but not "Ancient Gear Drill").
+    description: Determines whether the Set card(s) will be shown to the opponent or not after being Set. Should be set to `false` if the effect can Set any Spell/Trap (e.g. "[Ariane the Labrynth Servant](https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=17362&request_locale=ja)" or "[Dust Tornado](https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=4988&request_locale=ja)", but not "[Ancient Gear Drill](https://www.db.yugioh-card.com/yugiohdb/faq_search.action?ope=4&cid=6574&request_locale=ja)").
     required: false
     defaultValue: true
 returns:
