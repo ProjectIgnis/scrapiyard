@@ -2,7 +2,7 @@
 name: ATTRIBUTE_ALL
 enum: MonsterAttribute
 value: 0x7f
-description: >-
-  Composite constant that includes all OCG/TCG Monster Attributes
+description: Composite constant that includes all OCG/TCG monster attributes.
+summary: All OCG/TCG monster attributes.
 status: { index: stable }
 tags: [ composite-bits ]
