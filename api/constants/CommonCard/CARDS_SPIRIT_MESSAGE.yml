@@ -1,9 +1,8 @@
 ---!constant
 name: CARDS_SPIRIT_MESSAGE
 enum: CommonCard
-value: 0
-description: >-
-  A table with the IDs of all Spirit Messages placed by Destiny Board. The IDs are: {31893528,67287533,94772232,30170981}
+value: '{31893528,67287533,94772232,30170981}'
+description: A table containing the IDs of "[Spirit Message](https://yugipedia.com/wiki/Spirit_Message)" cards placed by "[Destiny Board](https://yugipedia.com/wiki/Destiny_Board)".
+summary: '"Spirit Message" cards placed by "Destiny Board"'
 status:
   index: stable
-tags: [ under-construction ]
