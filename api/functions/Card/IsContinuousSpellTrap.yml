@@ -2,16 +2,15 @@
 name: IsContinuousSpellTrap
 namespace: Card
 description: >-
-  Returns `true` if the given card is currently a
-  [Continuous Spell](https://yugipedia.com/wiki/Continuous_Spell_Card)
-  **or** [Continuous Trap](https://yugipedia.com/wiki/Continuous_Trap_Card).
-summary: Checks if a card is a Continuous Spell or Trap
+  Checks if a card is currently a Continuous [Spell](https://yugipedia.com/wiki/Continuous_Spell_Card)/[Trap](https://yugipedia.com/wiki/Continuous_Trap_Card).
+summary: Checks if a card is currently a Continuous Spell/Trap.
 parameters:
   - name: c
     type: [ Card ]
     description: The card to check.
 returns:
   - type: [ bool ]
-    description: If `c` is currently a Continuous Spell or Trap.
+    description: >-
+      `true` if the card is currently a Continuous Spell/Trap, `false` otherwise.
 status: { index: stable }
 tags: [ card-check, card-type-related ]

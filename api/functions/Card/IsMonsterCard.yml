@@ -2,14 +2,15 @@
 name: IsMonsterCard
 namespace: Card
 description: >-
-  Returns `true` if the given card is originally a [Monster Card](https://yugipedia.com/wiki/Monster_Card).
-summary: Checks if a card is originally a Monster Card
+  Checks if a card is originally a [Monster Card](https://yugipedia.com/wiki/Monster_Card).
+summary: Checks if a card is originally a Monster Card.
 parameters:
   - name: c
     type: [ Card ]
     description: The card to check.
 returns:
   - type: [ bool ]
-    description: If `c` is originally a Monter Card.
+    description: >-
+      `true` if the card is originally a Monster Card, `false` otherwise.
 status: { index: stable }
-tags: [ card-check, card-type-related, original-property ]
+tags: [ card-check, card-type-related ]

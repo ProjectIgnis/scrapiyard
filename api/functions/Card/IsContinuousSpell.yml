@@ -2,15 +2,15 @@
 name: IsContinuousSpell
 namespace: Card
 description: >-
-  Returns `true` if the given card is currently
-  a [Continuous Spell](https://yugipedia.com/wiki/Continuous_Spell_Card).
-summary: Checks if a card is a Continuous Spell
+  Checks if a card is currently a [Continuous Spell](https://yugipedia.com/wiki/Continuous_Spell_Card).
+summary: Checks if a card is currently a Continuous Spell.
 parameters:
   - name: c
     type: [ Card ]
     description: The card to check.
 returns:
   - type: [ bool ]
-    description: If `c` is currently a Continuous Spell.
+    description: >-
+      `true` if the card is currently a Continuous Spell, `false` otherwise.
 status: { index: stable }
 tags: [ card-check, card-type-related ]

@@ -2,14 +2,15 @@
 name: IsOnField
 namespace: Card
 description: >-
-  Checks if a card (Card c) is located on the field
-status:
-  index: stable
+  Checks if a card is currently on the field.
+summary: Checks if a card is currently on the field.
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
+    description: The card to check.
 returns:
   - type: [ bool ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: >-
+      `true` if the card is currently on the field, `false` otherwise.
+status: { index: stable }
+tags: [ card-check ]

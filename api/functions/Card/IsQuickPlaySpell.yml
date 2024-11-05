@@ -2,15 +2,15 @@
 name: IsQuickPlaySpell
 namespace: Card
 description: >-
-  Returns `true` if the given card is currently
-  a [Quick-Play Spell](https://yugipedia.com/wiki/Quick-Play_Spell_Card).
-summary: Checks if a card is a Quick-Play Spell
+  Checks if a card is currently a [Quick-Play Spell](https://yugipedia.com/wiki/Quick-Play_Spell_Card).
+summary: Checks if a card is currently a Quick-Play Spell.
 parameters:
   - name: c
     type: [ Card ]
     description: The card to check.
 returns:
   - type: [ bool ]
-    description: If `c` is currently a Quick-Play Spell.
+    description: >-
+      `true` if the card is currently a Quick-Play Spell, `false` otherwise.
 status: { index: stable }
 tags: [ card-check, card-type-related ]

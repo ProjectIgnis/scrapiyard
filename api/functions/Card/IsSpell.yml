@@ -2,14 +2,15 @@
 name: IsSpell
 namespace: Card
 description: >-
-  Returns `true` if the given card is currently a [Spell](https://yugipedia.com/wiki/Spell_Card).
-summary: Checks if a card is a Spell
+  Checks if a card is currently a [Spell](https://yugipedia.com/wiki/Spell_Card).
+summary: Checks if a card is currently a Spell.
 parameters:
   - name: c
     type: [ Card ]
     description: The card to check.
 returns:
   - type: [ bool ]
-    description: If `c` is currently a Spell.
+    description: >-
+      `true` if the card is currently a Spell, `false` otherwise.
 status: { index: stable }
 tags: [ card-check, card-type-related ]
