@@ -2,14 +2,14 @@
 name: IsMonster
 namespace: Card
 description: >-
-  Returns `true` if the given card is currently a [monster](https://yugipedia.com/wiki/Monster_Card).
-summary: Checks if a card is a monster
+  Checks if a card is currently a [monster](https://yugipedia.com/wiki/Monster_Card).
+summary: Checks if a card is currently a monster.
 parameters:
   - name: c
     type: [ Card ]
     description: The card to check.
 returns:
   - type: [ bool ]
-    description: If `c` is currently a monster.
+    description: `true` if the card is currently a monster, otherwise `false`.
 status: { index: stable }
 tags: [ card-check, card-type-related ]
