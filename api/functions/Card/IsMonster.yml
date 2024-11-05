@@ -11,6 +11,6 @@ parameters:
 returns:
   - type: [ bool ]
     description: >-
-    `true` if the card is currently a monster, otherwise `false`.
+      `true` if the card is currently a monster, otherwise `false`.
 status: { index: stable }
 tags: [ card-check, card-type-related ]
