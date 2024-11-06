@@ -3,7 +3,7 @@ name: IsGeminiSummoned
 namespace: Card
 description: >-
   Checks if a card is currently a [Gemini Monster that has been Normal Summoned again](https://yugipedia.com/wiki/Gemini_monster).
-summary: Checks if a card is currently a Gemini Monster that has been Normal Summoned again.
+summary: Checks if a card is currently Gemini Summoned.
 parameters:
   - name: c
     type: [ Card ]
