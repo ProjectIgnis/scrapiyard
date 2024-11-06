@@ -1,0 +1,16 @@
+---!function
+name: IsXyzSummoned
+namespace: Card
+description: >-
+  Checks if a card is currently [Xyz Summoned](https://yugipedia.com/wiki/Xyz_Summon).
+summary: Checks if a card is currently Xyz Summoned.
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check.
+returns:
+  - type: [ bool ]
+    description: >-
+      `true` if the card is currently Xyz Summoned, `false` otherwise.
+status: { index: stable }
+tags: [ card-check ]

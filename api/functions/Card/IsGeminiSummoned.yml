@@ -1,0 +1,16 @@
+---!function
+name: IsGeminiSummoned
+namespace: Card
+description: >-
+  Checks if a card is currently a [Gemini Monster that has been Normal Summoned again](https://yugipedia.com/wiki/Gemini_monster).
+summary: Checks if a card is currently a Gemini Monster that has been Normal Summoned again.
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check.
+returns:
+  - type: [ bool ]
+    description: >-
+      `true` if the card is currently a Gemini Monster that has been Normal Summoned again, `false` otherwise.
+status: { index: stable }
+tags: [ card-check ]

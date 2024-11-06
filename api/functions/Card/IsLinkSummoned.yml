@@ -1,0 +1,16 @@
+---!function
+name: IsLinkSummoned
+namespace: Card
+description: >-
+  Checks if a card is currently [Link Summoned](https://yugipedia.com/wiki/Link_Summon).
+summary: Checks if a card is currently Link Summoned.
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check.
+returns:
+  - type: [ bool ]
+    description: >-
+      `true` if the card is currently Link Summoned, `false` otherwise.
+status: { index: stable }
+tags: [ card-check ]
