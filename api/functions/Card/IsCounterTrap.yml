@@ -2,15 +2,15 @@
 name: IsCounterTrap
 namespace: Card
 description: >-
-  Returns `true` if the given card is currently
-  a [Counter Trap](https://yugipedia.com/wiki/Counter_Trap_Card).
-summary: Checks if a card is a Counter Trap
+  Checks if a card is currently a [Counter Trap](https://yugipedia.com/wiki/Counter_Trap_Card).
+summary: Checks if a card is currently a Counter Trap.
 parameters:
   - name: c
     type: [ Card ]
     description: The card to check.
 returns:
   - type: [ bool ]
-    description: If `c` is currently a Counter Trap.
+    description: >-
+      `true` if the card is currently a Counter Trap, `false` otherwise.
 status: { index: stable }
 tags: [ card-check, card-type-related ]

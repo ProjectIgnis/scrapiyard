@@ -2,7 +2,7 @@
 name: SSet
 namespace: Duel
 description: >-
-  Sets a card(s) to the Spell & Trap Card Zone or Field Zone. Can be used to Set Spells/Traps, as well as monsters with an effect that allows them to be Set in the Spell & Trap Zone (e.g. the "Artifact" monsters).
+  Sets a card(s) to the Spell & Trap Zone or Field Zone. Can be used to Set Spells/Traps, as well as monsters with an effect that allows them to be Set in the Spell & Trap Zone (e.g. the "Artifact" monsters).
 status:
   index: stable
 parameters:
@@ -11,7 +11,7 @@ parameters:
     description: The player that is Setting the card(s).
   - name: targets
     type: [ Card, Group ]
-    description: The card(s) that will be Set.
+    description: The card(s) to Set.
   - name: target_player
     type: [ int ]
     description: The player in whose field the card(s) will be Set.

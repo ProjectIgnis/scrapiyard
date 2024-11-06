@@ -2,15 +2,15 @@
 name: IsNormalTrap
 namespace: Card
 description: >-
-  Returns `true` if the given card is currently
-  a [Normal Trap](https://yugipedia.com/wiki/Normal_Trap_Card).
-summary: Checks if a card is a Normal Trap
+  Checks if a card is currently a [Normal Trap](https://yugipedia.com/wiki/Normal_Trap_Card).
+summary: Checks if a card is currently a Normal Trap.
 parameters:
   - name: c
     type: [ Card ]
     description: The card to check.
 returns:
   - type: [ bool ]
-    description: If `c` is currently a Normal Trap.
+    description: >-
+      `true` if the card is currently a Normal Trap, `false` otherwise.
 status: { index: stable }
 tags: [ card-check, card-type-related ]

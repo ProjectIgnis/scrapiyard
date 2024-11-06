@@ -2,19 +2,15 @@
 name: IsEquipCard
 namespace: Card
 description: >-
-  Returns `true` if the given card is currently
-  an [Equip Card](https://yugipedia.com/wiki/Equip_Card).
-summary: Checks if a card is an Equip Card
+  Checks if a card is currently a [Equip Card](https://yugipedia.com/wiki/Equip_Card).
+summary: Checks if a card is currently a Equip Card.
 parameters:
   - name: c
     type: [ Card ]
     description: The card to check.
 returns:
   - type: [ bool ]
-    description: If `c` is currently an Equip Card.
+    description: >-
+      `true` if the card is currently a Equip Card, `false` otherwise.
 status: { index: stable }
 tags: [ card-check, card-type-related ]
-suggestedLinks:
-  - name: Card.IsEquipSpell
-    link: /api/functions/Card/IsEquipCard
-    message: To check for Equip Spells specifically

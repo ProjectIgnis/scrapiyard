@@ -2,15 +2,15 @@
 name: IsRitualSpell
 namespace: Card
 description: >-
-  Returns `true` if the given card is currently
-  a [Ritual Spell](https://yugipedia.com/wiki/Ritual_Spell_Card).
-summary: Checks if a card is a Ritual Spell
+  Checks if a card is currently a [Ritual Spell](https://yugipedia.com/wiki/Ritual_Spell).
+summary: Checks if a card is currently a Ritual Spell.
 parameters:
   - name: c
     type: [ Card ]
     description: The card to check.
 returns:
   - type: [ bool ]
-    description: If `c` is currently a Ritual Spell.
+    description: >-
+      `true` if the card is currently a Ritual Spell, `false` otherwise.
 status: { index: stable }
 tags: [ card-check, card-type-related ]

@@ -2,14 +2,15 @@
 name: IsTrap
 namespace: Card
 description: >-
-  Returns `true` if the given card is currently a [Trap](https://yugipedia.com/wiki/Trap_Card).
-summary: Checks if a card is a Trap
+  Checks if a card is currently a [Trap](https://yugipedia.com/wiki/Trap_Card).
+summary: Checks if a card is currently a Trap.
 parameters:
   - name: c
     type: [ Card ]
     description: The card to check.
 returns:
   - type: [ bool ]
-    description: If `c` is currently a Trap.
+    description: >-
+      `true` if the card is currently a Trap, `false` otherwise.
 status: { index: stable }
 tags: [ card-check, card-type-related ]
