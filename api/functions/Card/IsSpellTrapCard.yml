@@ -13,4 +13,4 @@ returns:
     description: >-
       `true` if the card is originally a Spell/Trap Card, `false` otherwise.
 status: { index: stable }
-tags: [ card-check, card-type-related ]
+tags: [ card-check, card-type-related, original-property ]
