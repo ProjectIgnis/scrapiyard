@@ -1,7 +1,7 @@
 ---!function
 name: SelfToExtraCost
 namespace: aux
-description: A baseline [cost function](/api/types/EffectCost) used for effects that return the activating card itself to the Extra Deck as cost, such as `You can return this card (you control/from.../etc) to the Extra Deck; ...` (e.g. the "Gladiator Beast Gyzarus").
+description: A baseline [cost function](/api/types/EffectCost) used for effects that return the activating card itself to the Extra Deck as cost, such as `You can return this card (you control/from.../etc) to the Extra Deck; ...` (e.g. "Gladiator Beast Gyzarus").
 summary: Cost function for effects that return the card itself to the Extra Deck as cost.
 status:
   index: stable

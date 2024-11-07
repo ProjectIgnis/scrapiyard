@@ -1,7 +1,7 @@
 ---!function
 name: SelfToDeckCost
 namespace: aux
-description: A baseline [cost function](/api/types/EffectCost) used for effects that shuffle the activating card itself to the Main Deck as cost, such as `You can shuffle this card (you control/from.../etc) into the Deck; ...` (e.g. the "Rescue Ferret").
+description: A baseline [cost function](/api/types/EffectCost) used for effects that shuffle the activating card itself to the Main Deck as cost, such as `You can shuffle this card (you control/from.../etc) into the Deck; ...` (e.g. "Rescue Ferret").
 summary: Cost function for effects that shuffle the card itself to the Deck as cost.
 status:
   index: stable
