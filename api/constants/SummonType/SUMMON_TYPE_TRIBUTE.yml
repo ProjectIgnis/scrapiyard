@@ -6,4 +6,8 @@ description: >-
   The value used for a [Tribute Summon](https://yugipedia.com/wiki/Tribute_Summon).
 status:
   index: stable
+aliases:
+  - name: SUMMON_TYPE_ADVANCE
+    status:
+      index: deleted
 tags: [ under-construction ]
