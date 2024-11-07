@@ -10,7 +10,7 @@ parameters:
     type: [ function ]
     description: Additional filter to be used for the card(s) that are to be discarded (e.g. `Pendulum Monster` for "Dragonpit Magician").
     required: false
-    defaultValue: Card.IsDiscardable
+    defaultValue: [Card.IsDiscardable](https://projectignis.github.io/scrapi-book/api/functions/Card/IsDiscardable.html)
   - name: other
     type: [ bool ]
     description: If set to `true` the activating card itself will be excluded from the discard check and the discarding itself. Used for effects such as `You can discard 1 other card; ...` as well as Spell/Trap activations (e.g. "Twin Twisters").
