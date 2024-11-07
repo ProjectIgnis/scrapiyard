@@ -1,0 +1,16 @@
+---!function
+name: IsSpecialSummoned
+namespace: Card
+description: >-
+  Checks if a card is currently [Special Summoned](https://yugipedia.com/wiki/Special_Summon).
+summary: Checks if a card is currently Special Summoned.
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check.
+returns:
+  - type: [ bool ]
+    description: >-
+      `true` if the card is currently Special Summoned, `false` otherwise.
+status: { index: stable }
+tags: [ card-check ]

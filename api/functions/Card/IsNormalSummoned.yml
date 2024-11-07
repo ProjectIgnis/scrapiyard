@@ -1,0 +1,16 @@
+---!function
+name: IsNormalSummoned
+namespace: Card
+description: >-
+  Checks if a card is currently [Normal Summoned/Set](https://yugipedia.com/wiki/Normal_Summon).
+summary: Checks if a card is currently Normal Summoned/Set.
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check.
+returns:
+  - type: [ bool ]
+    description: >-
+      `true` if the card is currently Normal Summoned/Set, `false` otherwise.
+status: { index: stable }
+tags: [ card-check ]

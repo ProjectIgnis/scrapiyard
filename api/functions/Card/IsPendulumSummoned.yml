@@ -1,0 +1,16 @@
+---!function
+name: IsPendulumSummoned
+namespace: Card
+description: >-
+  Checks if a card is currently [Pendulum Summoned](https://yugipedia.com/wiki/Pendulum_Summon).
+summary: Checks if a card is currently Pendulum Summoned.
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check.
+returns:
+  - type: [ bool ]
+    description: >-
+      `true` if the card is currently Pendulum Summoned, `false` otherwise.
+status: { index: stable }
+tags: [ card-check ]

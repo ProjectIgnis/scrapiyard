@@ -1,0 +1,16 @@
+---!function
+name: IsFusionSummoned
+namespace: Card
+description: >-
+  Checks if a card is currently [Fusion Summoned](https://yugipedia.com/wiki/Fusion_Summon).
+summary: Checks if a card is currently Fusion Summoned.
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check.
+returns:
+  - type: [ bool ]
+    description: >-
+      `true` if the card is currently Fusion Summoned, `false` otherwise.
+status: { index: stable }
+tags: [ card-check ]

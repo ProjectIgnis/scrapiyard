@@ -1,0 +1,16 @@
+---!function
+name: IsRitualSummoned
+namespace: Card
+description: >-
+  Checks if a card is currently [Ritual Summoned](https://yugipedia.com/wiki/Ritual_Summon).
+summary: Checks if a card is currently Ritual Summoned.
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check.
+returns:
+  - type: [ bool ]
+    description: >-
+      `true` if the card is currently Ritual Summoned, `false` otherwise.
+status: { index: stable }
+tags: [ card-check ]

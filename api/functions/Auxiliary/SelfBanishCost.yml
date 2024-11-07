@@ -1,10 +1,17 @@
 ---!function
-name: selfreleasecost
+name: SelfBanishCost
 namespace: aux
-description: An [EffectCost](/api/types/EffectCost) function that checks if an effect's handler can tribute itself as activation cost.
-summary: Cost function for effects that tribute their handler as activation cost.
+description: A baseline [cost function](/api/types/EffectCost) used for effects that banish the activating card itself as cost, such as `You can banish this card (you control/from.../etc); ...` (e.g. "Destiny HERO - Malicious").
+summary: Cost function for effects that banish the card itself as cost.
 status:
   index: stable
+aliases:
+  - name: aux.bfgcost
+    status:
+      index: deprecated
+  - name: aux.selfbanishcost
+    status:
+      index: deprecated
 parameters:
   - name: e
     type: [ Effect ]

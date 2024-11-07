@@ -1,0 +1,16 @@
+---!function
+name: IsSynchroSummoned
+namespace: Card
+description: >-
+  Checks if a card is currently [Synchro Summoned](https://yugipedia.com/wiki/Synchro_Summon).
+summary: Checks if a card is currently Synchro Summoned.
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check.
+returns:
+  - type: [ bool ]
+    description: >-
+      `true` if the card is currently Synchro Summoned, `false` otherwise.
+status: { index: stable }
+tags: [ card-check ]
