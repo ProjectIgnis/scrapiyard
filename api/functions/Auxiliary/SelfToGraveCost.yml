@@ -2,7 +2,7 @@
 name: SelfToGraveCost
 namespace: aux
 description: A baseline [cost function](/api/types/EffectCost) used for effects that send the activating card itself to the GY as cost, such as `You can send this card (you control/from.../etc) to the GY; ...` (e.g. "Rescue Cat").
-summary: Cost function for effects that send the activating card itself to the GY as cost.
+summary: Cost function for effects that send the card itself to the GY as cost.
 status:
   index: stable
 parameters:
