@@ -1,9 +1,9 @@
 ---!constant
-name: SUMMON_TYPE_ADVANCE
+name: SUMMON_TYPE_TRIBUTE
 enum: SummonType
 value: 0x11000000
 description: >-
-  Tribute Summon, an specific type of Normal Summon.
+  The value used for a [Tribute Summon](https://yugipedia.com/wiki/Tribute_Summon).
 status:
   index: stable
 tags: [ under-construction ]
