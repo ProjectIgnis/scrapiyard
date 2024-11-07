@@ -9,6 +9,9 @@ aliases:
   - name: aux.bfgcost
     status:
       index: deprecated
+  - name: aux.selfbanishcost
+    status:
+      index: deprecated
 parameters:
   - name: e
     type: [ Effect ]
