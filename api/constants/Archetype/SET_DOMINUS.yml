@@ -1,0 +1,9 @@
+---!constant
+name: SET_DOMINUS
+enum: Archetype
+value: 0x1bf
+description: >-
+  The ["Dominus"](https://yugipedia.com/wiki/Dominus) archetype.
+summary: Dominus
+status:
+  index: stable

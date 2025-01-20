@@ -3,8 +3,7 @@ name: SET_ARGOSTARS
 enum: Archetype
 value: 0x1ba
 description: >-
-  The ["ARG☆S"](https://yugipedia.com/wiki/ARG%E2%98%86S) archetype.
-summary: ARG☆S
+  The ["Argostars"](https://yugipedia.com/wiki/Argostars) archetype.
+summary: Argostars
 status:
-  index: unstable
-  message: Constant's name may change to follow its official English name once confirmed.
+  index: stable

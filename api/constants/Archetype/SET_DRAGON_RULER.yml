@@ -1,0 +1,9 @@
+---!constant
+name: SET_DRAGON_RULER
+enum: Archetype
+value: 0x1bc
+description: >-
+  The ["Dragon Ruler"](https://yugipedia.com/wiki/Dragon_Ruler) archetype.
+summary: Dragon Ruler
+status:
+  index: stable

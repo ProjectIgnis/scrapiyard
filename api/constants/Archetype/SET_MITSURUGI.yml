@@ -1,0 +1,9 @@
+---!constant
+name: SET_MITSURUGI
+enum: Archetype
+value: 0x1bd
+description: >-
+  The ["Mitsurugi"](https://yugipedia.com/wiki/Mitsurugi) archetype.
+summary: Mitsurugi
+status:
+  index: stable
