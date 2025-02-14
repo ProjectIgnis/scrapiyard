@@ -2,16 +2,16 @@
 name: HintSelection
 namespace: Duel
 description: >-
-  If log_as_selection is true, that selection will be logged by the client as "card(s) selected" rather than "card(s) targeted"
+  Highlights a card(s) similar to targeting, that is typically on the field, in the GY, or that is banished. Also logs it in the in-client `Log` tab. Used for effects that select a card(s) without targeting it to indicate which card(s) was selected (e.g. "Fiendsmith Engraver", "Vision HERO Poisoner").
 status:
   index: stable
 parameters:
-  - name: selection
+  - name: card_or_group
     type: [ Card, Group ]
-    description: (To be added)
+    description: The card(s) that are highlighted.
   - name: log_as_selection
     type: [ bool ]
-    description: (To be added)
+    description: If set to `false` the log in the client will say "targeted" (string 1610) instead of "selected" (string 1680).
     required: false
-    defaultValue: false
-tags: [ under-construction ]
+    defaultValue: true
+tags: [  ]

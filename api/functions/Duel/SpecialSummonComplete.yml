@@ -2,7 +2,11 @@
 name: SpecialSummonComplete
 namespace: Duel
 description: >-
-  Completes Special Summons conducted with Duel.SpecialSummonStep. This has to be called even if all the Duel.SpecialSummonStep fails.
+  Completes any Special Summons conducted with [Duel.SpecialSummonStep](https://projectignis.github.io/scrapi-book/api/functions/Duel/SpecialSummonStep.html). Can be called after using `Duel.SpecialSummonStep` regardless of its success.
+returns:
+  - type: [ int ]
+    description: >-
+      The number of monsters that were successfully Special Summoned.
 status:
   index: stable
 tags: [ under-construction ]
