@@ -5,12 +5,12 @@ description: >-
   Returns `true` if a given card caused the [Event](/api/enums/Event) that happened to another card.
 summary: Checks if a card caused the event that happened to another card
 parameters:
+  - name: rc
+    type: [ Card ]
+    description: The card being checked to determine if it caused the event.
   - name: c
     type: [ Card ]
     description: The card to check the reason of.
-  - name: rc
-    type: [ int ]
-    description: The card being checked to determine if it caused the event.
 returns:
   - type: [ bool ]
     description: If `rc` caused the event that happened to `c`.
