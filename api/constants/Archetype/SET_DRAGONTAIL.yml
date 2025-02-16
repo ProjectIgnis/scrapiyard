@@ -1,0 +1,10 @@
+---!constant
+name: SET_DRAGONTAIL
+enum: Archetype
+value: 0x1c0
+description: >-
+  The ["Dragontail"](https://yugipedia.com/wiki/Dragon_Tail) archetype.
+summary: Dragontail
+status:
+  index: unstable
+  message: Constant's name may change to follow its official English name once confirmed.
