@@ -1,8 +1,8 @@
 ---!function
 name: StatChangeDamageStepCondition
 namespace: aux
-description: A baseline [condition function](/api/types/EffectCondition) used for effects that can be activated during the Damage Step because they change a monster's ATK/DEF, but only up until before damage calculation (e.g. "Rush Recklessly").
-summary: Condition function for effects that can be used during the Damage Step because they change a monster's ATK/DEF.
+description: A baseline [condition function](/api/types/EffectCondition) used for [fast effects](https://yugipedia.com/wiki/Fast_effect) that can be activated during the Damage Step because they change a monster's ATK/DEF, but only up until before damage calculation (e.g. "Rush Recklessly").
+summary: Condition function for fast effects that change a monster's ATK/DEF.
 parameters:
   - name: e
     type: [ Effect ]
