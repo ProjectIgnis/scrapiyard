@@ -3,8 +3,6 @@ name: StatChangeDamageStepCondition
 namespace: aux
 description: A baseline [condition function](/api/types/EffectCondition) used for effects that can be activated during the Damage Step because they change a monster's ATK/DEF, but only up until before damage calculation (e.g. "Rush Recklessly").
 summary: Condition function for effects that can be used during the Damage Step because they change a monster's ATK/DEF.
-status:
-  index: stable
 parameters:
   - name: e
     type: [ Effect ]
@@ -32,4 +30,7 @@ parameters:
     description: The player that caused the event that prompted the effect activation.
 returns:
   - type: [ bool ]
-    description: `true` if it is currently not both the Damage Step and damage calculation has already occurred, `false` otherwise.
+    description: >-
+      `true` if it is currently not both the Damage Step and damage calculation has already occurred, `false` otherwise.
+status:
+  index: stable
