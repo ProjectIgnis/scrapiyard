@@ -1,0 +1,14 @@
+---!function
+name: GetMainCardType
+namespace: Card
+description: >-
+  Returns the current main type of a card ([`TYPE_MONSTER`](api/constants/CardType/TYPE_MONSTER), [`TYPE_SPELL`]/api/constants/CardType/TYPE_SPELL), or [`TYPE_TRAP`](/api/constants/CardType/TYPE_TRAP)).
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to get the main current type of.
+returns:
+  - type: [ int ]
+    description: The main current type of the card.

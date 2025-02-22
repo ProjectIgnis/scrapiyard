@@ -2,32 +2,37 @@
 name: RegisterClientHint
 namespace: aux
 description: >-
-  Auxiliary function to simplify registering EFFECT_FLAG_CLIENT_HINT to players. (Card c) is card that creates the HintMessage,  (int property_code) are additional properties like EFFECT_FLAG_OATH (PLAYER_TARGET and CLIENT_HINT are the flags registered by default). (int reg. player) is the player that is registering the hint, to himself (int s) and/or the opponent (int o), with a description called from a string defined in (str). Additional resets, other than the default RESET_PHASE+PHASE_END, can be passed in (int reset_code) and its reset count (int ct).
+  Registers an effect that applies a hint on a player(s) which is visible when you hover over a player's info box at the top of the client. Typically used for effects that are scripted to affect monsters but will also apply to any appropriate monster that is placed in the relevant location at a later point (e.g. "Exosister Gibrine").
+summary: Registers an effect that displays a hint on players' info box.
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
+    description: The card that is registering the effect that applies the hint.
   - name: property_code
+    type: [ int, nil ]
+    description: Composite [EffectProperty](/api/enums/EffectProperty) to set to the effect in addition to  `EFFECT_FLAG_PLAYER_TARGET|EFFECT_FLAG_CLIENT_HINT`.
+  - name: reg_player
     type: [ int ]
-    description: (To be added)
-  - name: reg.player
-    type: [ int ]
-    description: (To be added)
+    description: The player registering the effect.
   - name: s
     type: [ int ]
-    description: (To be added)
+    description: The first player to apply the effect to. Set it to `1` to apply the effect to the registering player, set it to `0` otherwise.
   - name: o
     type: [ int ]
-    description: (To be added)
+    description: The second player to apply the effect to. Set it to `1` to apply the effect to the opponent of the registering player, set it to `0` otherwise.
   - name: str
-    type: [ any ]
-    description: (To be added)
+    type: [ int ]
+    description: The id of the string to display on the hint.
   - name: reset_code
     type: [ int ]
-    description: (To be added)
+    description: Additional resets to set to the effect.
+    required: false
+    defaultValue: RESET_PHASE|PHASE_END
   - name: ct
     type: [ int ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: Different reset count to set to the effect.
+    required: false
+    defaultValue: 1
+tags: [ registers-effect ]
