@@ -11,4 +11,4 @@ parameters:
     description: The card to get the main current type of.
 returns:
   - type: [ int ]
-    description: The main current type of the card.
+    description: The current main type of the card.
