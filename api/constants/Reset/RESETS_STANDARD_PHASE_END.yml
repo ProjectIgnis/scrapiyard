@@ -3,7 +3,8 @@ name: RESETS_STANDARD_PHASE_END
 enum: Reset
 value: 0x41fe1200
 description: >-
-  Complex reset. The sum of [RESET_EVENT](https://projectignis.github.io/scrapi-book/api/constants/Reset/RESET_EVENT.html), [RESETS_STANDARD](https://projectignis.github.io/scrapi-book/api/constants/Reset/RESETS_STANDARD.html), [RESET_PHASE](https://projectignis.github.io/scrapi-book/api/constants/Reset/RESET_PHASE.html), and [PHASE_END](https://projectignis.github.io/scrapi-book/api/constants/Reset/PHASE_END.html).
+  Composite reset value. The sum of [`RESET_EVENT`](/api/constants/Reset/RESET_EVENT), [`RESETS_STANDARD`](/api/constants/Reset/RESETS_STANDARD), [`RESET_PHASE`](api/constants/Reset/RESET_PHASE), and [`PHASE_END`](/api/constants/Reset/PHASE_END).
+summary: The sum of RESET_EVENT, RESETS_STANDARD, RESET_PHASE, and RESET_DISABLE.
 status:
   index: stable
 tags: [ under-construction ]

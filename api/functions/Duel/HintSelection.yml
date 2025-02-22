@@ -8,10 +8,9 @@ status:
 parameters:
   - name: card_or_group
     type: [ Card, Group ]
-    description: The card(s) that are highlighted.
+    description: The card(s) to highlight.
   - name: log_as_selection
     type: [ bool ]
     description: If set to `false` the log in the client will say "targeted" (string 1610) instead of "selected" (string 1680).
     required: false
     defaultValue: true
-tags: [  ]

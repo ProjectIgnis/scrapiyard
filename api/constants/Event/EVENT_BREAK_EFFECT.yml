@@ -3,7 +3,7 @@ name: EVENT_BREAK_EFFECT
 enum: Event
 value: 1050
 description: >-
-  This event is raised when the [Duel.BreakEffect](https://projectignis.github.io/scrapi-book/api/functions/Duel/BreakEffect.html) function is executed.
+  This event is raised when the [`Duel.BreakEffect`](/api/functions/Duel/BreakEffect) function is executed.
+summary: An event raised when Duel.BreakEffect is executed.
 status:
   index: stable
-tags: [ under-construction ]

@@ -2,7 +2,7 @@
 name: GetMainCardType
 namespace: Card
 description: >-
-  Returns the main current type of a card ([TYPE_MONSTER](https://projectignis.github.io/scrapi-book/api/constants/CardType/TYPE_MONSTER.html), [TYPE_SPELL](https://projectignis.github.io/scrapi-book/api/constants/CardType/TYPE_SPELL.html), or [TYPE_TRAP](https://projectignis.github.io/scrapi-book/api/constants/CardType/TYPE_TRAP.html)).
+  Returns the current main type of a card ([`TYPE_MONSTER`](api/constants/CardType/TYPE_MONSTER), [`TYPE_SPELL`]/api/constants/CardType/TYPE_SPELL), or [`TYPE_TRAP`](/api/constants/CardType/TYPE_TRAP)).
 status:
   index: stable
 parameters:
@@ -12,4 +12,3 @@ parameters:
 returns:
   - type: [ int ]
     description: The main current type of the card.
-tags: [ under-construction ]
