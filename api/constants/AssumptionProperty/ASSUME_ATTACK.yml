@@ -1,0 +1,8 @@
+---!constant
+name: ASSUME_ATTACK
+enum: AssumptionProperty
+value: 7
+description: &desc Temporarily assumes that the affected card has a given ATK.
+summary: *desc
+status:
+  index: stable

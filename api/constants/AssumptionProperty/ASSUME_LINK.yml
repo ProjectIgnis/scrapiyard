@@ -1,0 +1,8 @@
+---!constant
+name: ASSUME_LINK
+enum: AssumptionProperty
+value: 9
+description: &desc Temporarily assumes that the affected card has a given Link Rating.
+summary: *desc
+status:
+  index: stable

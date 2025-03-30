@@ -1,0 +1,8 @@
+---!constant
+name: ASSUME_DEFENSE
+enum: AssumptionProperty
+value: 8
+description: &desc Temporarily assumes that the affected card has a given DEF.
+summary: *desc
+status:
+  index: stable

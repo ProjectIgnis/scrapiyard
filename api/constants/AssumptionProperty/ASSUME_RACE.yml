@@ -1,0 +1,8 @@
+---!constant
+name: ASSUME_RACE
+enum: AssumptionProperty
+value: 6
+description: &desc Temporarily assumes that the affected card has given [races](/api/enums/MonsterRace).
+summary: Temporarily assumes that the affected card has given races.
+status:
+  index: stable

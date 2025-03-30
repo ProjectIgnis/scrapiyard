@@ -1,9 +1,0 @@
----!constant
-name: ASSUME_LINKMARKER
-enum: AssumeCode
-value: 10
-description: >-
-  Temporarily assumes that the affected card has given LinkMarkers
-status:
-  index: stable
-tags: [ under-construction ]

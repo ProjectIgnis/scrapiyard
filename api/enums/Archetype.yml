@@ -1,9 +1,5 @@
 ---!enum
 name: Archetype
-description: >-
-  Constants for card [archetypes](https://yugipedia.com/wiki/Archetype),
-  representing shared name substrings that are supported by at least one card.
-  These constants' values also correspond to the `setcode` values registered on `.cdb` files,
-  as explained [here](https://projectignis.github.io/scrapi-book/guides/general/archetype.html).
+description: Represents card [archetypes](https://yugipedia.com/wiki/Archetype) - shared name substrings that are supported by at least one card. These constants' values also correspond to the `setcode` values registered on `.cdb` files, as explained [here](https://projectignis.github.io/scrapi-book/guides/general/archetype.html).
 bitmaskInt: true
-summary: A shared card name substring supported by at least one card.
+summary: Shared card name substrings supported by at least one card.

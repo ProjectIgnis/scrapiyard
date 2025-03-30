@@ -1,0 +1,8 @@
+---!constant
+name: ASSUME_RANK
+enum: AssumptionProperty
+value: 4
+description: &desc Temporarily assumes that the affected card has a given Rank.
+summary: *desc
+status:
+  index: stable
