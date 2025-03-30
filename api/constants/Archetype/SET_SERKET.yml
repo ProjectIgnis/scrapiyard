@@ -1,0 +1,9 @@
+---!constant
+name: SET_SERKET
+enum: Archetype
+value: 0x1c3
+description: >-
+  The ["Serket"](https://yugipedia.com/wiki/Serket) archetype.
+summary: Serket
+status:
+  index: stable

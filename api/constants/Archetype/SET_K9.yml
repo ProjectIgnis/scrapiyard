@@ -1,0 +1,10 @@
+---!constant
+name: SET_K9
+enum: Archetype
+value: 0x1c4
+description: >-
+  The ["K9"](https://yugipedia.com/wiki/K9) archetype.
+summary: K9
+status:
+  index: unstable
+  message: Constant's name may change to follow its official English name once confirmed.
