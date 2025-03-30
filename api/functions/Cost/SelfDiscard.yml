@@ -41,3 +41,6 @@ returns:
   - type: [ bool ]
     description: If `chk` is `0`, returns `true` if the cost can be paid.
     guaranteed: false
+suggestedLinks:
+  - name: Cost.SelfDiscardToGrave
+    link: /api/functions/Cost/SelfDiscardToGrave

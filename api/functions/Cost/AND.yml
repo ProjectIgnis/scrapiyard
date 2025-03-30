@@ -1,0 +1,15 @@
+---!function
+name: AND
+namespace: Cost
+description: Combines multiple [cost functions](/api/types/EffectCost) into a single cost function that will check if every passed function can be paid, and will execute each passed function.
+summary: Combines multiple cost functions into one.
+status:
+  index: stable
+parameters:
+  - name: ...
+    type: [ EffectCost ]
+    description: The cost functions to combine.
+returns:
+  - type: [ EffectCost ]
+    description: The generated cost function.
+    guaranteed: true
