@@ -1,5 +1,4 @@
 ---!type
 name: bool
-description: >-
-  (To be added)
-tags: [ under-construction ]
+description: The lua [Boolean](https://www.lua.org/pil/2.2.html) type.
+summary: The lua Boolean type.

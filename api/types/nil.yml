@@ -1,4 +1,4 @@
 ---!type
 name: nil
-description: The type of lua's [`nil`](https://www.lua.org/pil/2.1.html), used to represent the absence of value.
-summary: The absence of value.
+description: The lua [nil](https://www.lua.org/pil/2.1.html) type.
+summary: The lua nil type.

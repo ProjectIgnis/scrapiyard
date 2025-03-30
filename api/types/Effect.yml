@@ -1,6 +1,5 @@
 ---!type
 name: Effect
 supertype: userdata
-description: >-
-  (To be added)
-tags: [ under-construction ]
+description: Represents an effect. Can use the functions in the [`Effect` namespace](/api/namespaces/Effect) as methods.
+summary: Represents an effect.

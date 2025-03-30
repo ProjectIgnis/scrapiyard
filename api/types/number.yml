@@ -1,5 +1,4 @@
 ---!type
 name: number
-description: >-
-  (To be added)
-tags: [ under-construction ]
+description: The lua [number](https://www.lua.org/pil/2.3.html) type.
+summary: The lua number type.

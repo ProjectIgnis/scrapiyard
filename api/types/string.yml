@@ -1,5 +1,4 @@
 ---!type
 name: string
-description: >-
-  (To be added)
-tags: [ under-construction ]
+description: The lua [string](https://www.lua.org/pil/2.4.html) type.
+summary: The lua string type.

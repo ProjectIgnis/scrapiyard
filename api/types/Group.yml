@@ -1,6 +1,5 @@
 ---!type
 name: Group
 supertype: userdata
-description: >-
-  (To be added)
-tags: [ under-construction ]
+description: Represents a group of cards. A group is a set, meaning the cards inside are guaranteed to be unique, and there is no guaranteed order of the items.
+summary: Represents a group of cards.

@@ -1,5 +1,4 @@
 ---!type
 name: function
-description: >-
-  (To be added)
-tags: [ under-construction ]
+description: The lua [function](https://www.lua.org/pil/2.6.html) type.
+summary: The lua function type.
