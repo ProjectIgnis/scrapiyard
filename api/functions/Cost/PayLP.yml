@@ -1,10 +1,14 @@
 ---!function
-name: PayLPCost
-namespace: aux
+name: PayLP
+namespace: Cost
 description: Creates a baseline [cost function](/api/types/EffectCost) used for effects that pay LP as cost, such as `Pay X LP; ...` (e.g. "Instant Fusion").
 summary: Creates a cost function for effects that pay LP as cost.
 status:
   index: stable
+aliases:
+  - name: aux.PayLPCost
+    status:
+      index: stable
 parameters:
   - name: lp_value
     type: [ number ]

@@ -1,10 +1,20 @@
 ---!function
-name: SelfDiscardCost
-namespace: aux
-description: A baseline [cost function](/api/types/EffectCost) used for effects that discard the activating card itself as cost, such as `You can discard this card; ...` (e.g. "Ash Blossom & Joyous Spring").
-summary: Cost function for effects that discard the card itself as cost.
+name: SelfBanish
+namespace: Cost
+description: A baseline [cost function](/api/types/EffectCost) used for effects that banish the activating card itself as cost, such as `You can banish this card (you control/from.../etc); ...` (e.g. "Destiny HERO - Malicious").
+summary: Cost function for effects that banish the card itself as cost.
 status:
   index: stable
+aliases:
+  - name: aux.bfgcost
+    status:
+      index: deprecated
+  - name: aux.selfbanishcost
+    status:
+      index: deprecated
+  - name: aux.SelfBanishCost
+    status:
+      index: stable
 parameters:
   - name: e
     type: [ Effect ]

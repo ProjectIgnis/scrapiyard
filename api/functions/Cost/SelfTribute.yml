@@ -1,10 +1,23 @@
 ---!function
-name: SelfRevealCost
-namespace: aux
-description: A baseline [cost function](/api/types/EffectCost) used for effects that reveal the activating card itself as cost, such as `You can reveal this card in your hand; ...` (e.g. "Sakitama").
-summary: Cost function for effects that reveal the card itself as cost.
+name: SelfTribute
+namespace: Cost
+description: A baseline [cost function](/api/types/EffectCost) used for effects that Tribute the activating card itself as cost, such as `You can Tribute this card (you control/from.../etc); ...` (e.g. "Kaibaman").
+summary: Cost function for effects that Tribute the card itself as cost.
 status:
   index: stable
+aliases:
+  - name: aux.selfreleasecost
+    status:
+      index: deprecated
+  - name: aux.SelfReleaseCost
+    status:
+      index: stable
+  - name: aux.SelfTributeCost
+    status:
+      index: stable
+  - name: Cost.SelfRelease
+    status:
+      index: stable
 parameters:
   - name: e
     type: [ Effect ]

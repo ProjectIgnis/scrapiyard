@@ -1,17 +1,14 @@
 ---!function
-name: SelfTributeCost
-namespace: aux
-description: A baseline [cost function](/api/types/EffectCost) used for effects that Tribute the activating card itself as cost, such as `You can Tribute this card (you control/from.../etc); ...` (e.g. "Kaibaman").
-summary: Cost function for effects that Tribute the card itself as cost.
+name: SelfToHand
+namespace: Cost
+description: A baseline [cost function](/api/types/EffectCost) used for effects that return the activating card itself to the hand as cost, such as `You can return this card (you control/from.../etc) to the/your hand; ...` (e.g. "Sauravis, the Ancient and Ascended").
+summary: Cost function for effects that return the card itself to the hand as cost.
 status:
   index: stable
 aliases:
-  - name: aux.SelfReleaseCost
+  - name: aux.SelfToHandCost
     status:
       index: stable
-  - name: aux.selfreleasecost
-    status:
-      index: deprecated
 parameters:
   - name: e
     type: [ Effect ]

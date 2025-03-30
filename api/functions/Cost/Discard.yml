@@ -1,10 +1,14 @@
 ---!function
-name: DiscardCost
-namespace: aux
+name: Discard
+namespace: Cost
 description: Creates a baseline [cost function](/api/types/EffectCost) used for effects that discard a card(s) as cost, such as `Discard 1 card; ...` (e.g. "Raigeki Break").
 summary: Creates a cost function for effects that discard a card(s) as cost.
 status:
   index: stable
+aliases:
+  - name: aux.DiscardCost
+    status:
+      index: stable
 parameters:
   - name: filter
     type: [ CardFilter ]

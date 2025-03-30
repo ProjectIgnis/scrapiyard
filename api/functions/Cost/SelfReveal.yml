@@ -1,10 +1,14 @@
 ---!function
-name: SelfToGraveCost
-namespace: aux
-description: A baseline [cost function](/api/types/EffectCost) used for effects that send the activating card itself to the GY as cost, such as `You can send this card (you control/from.../etc) to the GY; ...` (e.g. "Rescue Cat").
-summary: Cost function for effects that send the card itself to the GY as cost.
+name: SelfReveal
+namespace: Cost
+description: A baseline [cost function](/api/types/EffectCost) used for effects that reveal the activating card itself as cost, such as `You can reveal this card in your hand; ...` (e.g. "Sakitama").
+summary: Cost function for effects that reveal the card itself as cost.
 status:
   index: stable
+aliases:
+  - name: aux.SelfRevealCost
+    status:
+      index: stable
 parameters:
   - name: e
     type: [ Effect ]
