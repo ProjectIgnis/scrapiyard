@@ -1,9 +1,8 @@
 ---!constant
 name: ANNOUNCE_CARD
-enum: AnnouncementType
+enum: CardAnnouncementType
 value: 0x7
-description: >-
-  Card declaration
+description: &desc Declaring the name of any card.
+summary: *desc
 status:
   index: stable
-tags: [ under-construction ]
