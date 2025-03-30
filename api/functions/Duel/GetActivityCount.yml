@@ -1,23 +1,21 @@
 ---!function
 name: GetActivityCount
 namespace: Duel
-description: >-
-  Gets the number of times (int player) has performed activities of (int activity_type). (See ACTIVITY_XXX constants,)
+description: Returns the number of times a player has performed a specified activity or activities.
+summary: Gets the number of times a player has performed an activity.
 status:
   index: stable
 parameters:
   - name: player
     type: [ int ]
-    description: (To be added)
-  - name: activity_type
-    type: [ int ]
-    description: (To be added)
+    description: The player to get the activities of.
   - name: ...
-    type: [ any ]
-    description: (To be added)
+    type: [ ActivityCode ]
+    description: The type(s) of activity to get the count of.
 returns:
-  - type: [ int ]
-    description: (To be added)
-  - type: [ any ]
-    description: (To be added)
-tags: [ under-construction ]
+  - name: ...
+    type: [ int ]
+    description: The number of times each passed activity has been performed by `player`. The order of the returned counts correspond to the order of the passed activity codes.
+suggestedLinks:
+  - name: Duel.GetCustomActivityCount
+    link: /api/functions/Duel/GetCustomActivityCount

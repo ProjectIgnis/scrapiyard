@@ -2,8 +2,7 @@
 name: ACTIVITY_BATTLE_PHASE
 enum: ActivityCode
 value: 6
-description: >-
-  Refers to the act of conducting a battle phase. This activity is not available with custom counter
+description: The action of conducting a battle phase. This activity constant can only be used as a custom counter.
+summary: The action of conducting a battle phase.
 status:
   index: stable
-tags: [ under-construction ]

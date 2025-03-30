@@ -2,8 +2,7 @@
 name: ACTIVITY_CHAIN
 enum: ActivityCode
 value: 7
-description: >-
-  An activity only available with custom counter
+description: The action of activating an effect. This activity constant can only be used as a custom counter.
+summary: The action of activating an effect.
 status:
   index: stable
-tags: [ under-construction ]

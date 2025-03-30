@@ -1,18 +1,18 @@
 ---!function
 name: AddCustomActivityCounter
 namespace: Duel
-description: >-
-  Registers an activity with type (int activity_type), with id (int counter_id), that matches (function f)
+description: Registers an activity counter for tracking activities of a specified type with an associated custom id, *excluding* actions that match a filter. The count can be retrieved with [`Duel.GetCustomActivityCount`](/api/functions/Duel/GetCustomActivityCount), **not** [`Duel.GetActivityCount`](/api/functions/Duel/GetActivityCount).
+summary: Registers a custom activity counter.
 status:
   index: stable
 parameters:
-  - name: counter_id
+  - name: custom_id
     type: [ int ]
-    description: (To be added)
-  - name: activity_type
-    type: [ int ]
-    description: (To be added)
-  - name: f
+    description: A unique id for the activity counter.
+  - name: activity_code
+    type: [ ActivityCode ]
+    description: The type of activity to count.
+  - name: exclusion_filter
+    # TODO: document type of function
     type: [ function ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: A function for actions to *exclude* from the count.

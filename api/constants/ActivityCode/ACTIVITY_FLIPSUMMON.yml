@@ -2,8 +2,7 @@
 name: ACTIVITY_FLIPSUMMON
 enum: ActivityCode
 value: 4
-description: >-
-  Refers to the action of performing Flip Summons
+description: &desc The action of performing a Normal Summon.
+summary: *desc
 status:
   index: stable
-tags: [ under-construction ]
