@@ -1,7 +1,7 @@
 ---!namespace
 name: Ritual
-description: >-
-  (To be added)
+summary: &desc Ritual-related functions.
+description: *desc
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ ritual-related ]

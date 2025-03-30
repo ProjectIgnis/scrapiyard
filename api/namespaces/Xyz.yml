@@ -1,7 +1,7 @@
 ---!namespace
 name: Xyz
-description: >-
-  (To be added)
+summary: &desc Xyz-related functions.
+description: *desc
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ xyz-related ]

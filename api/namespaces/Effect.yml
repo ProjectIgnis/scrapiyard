@@ -1,7 +1,6 @@
 ---!namespace
 name: Effect
-description: >-
-  (To be added)
+description: Functions for working with [effects](/api/types/Effect). This is also used as the [metatable](https://www.lua.org/pil/13.html) for effects. This means functions in this namespace can be used as "methods" of effect objects, e.g. instead of `Effect.Clone(e1)`, one can use `e1.Clone(e1)` or `e1:Clone()`. It is recommended to use the colon syntax.
+summary: Functions for working with effects.
 status:
   index: stable
-tags: [ under-construction ]

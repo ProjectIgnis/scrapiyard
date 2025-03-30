@@ -1,7 +1,6 @@
 ---!namespace
 name: Gemini
-description: >-
-  (To be added)
+summary: &desc Gemini-related functions.
+description: *desc
 status:
   index: stable
-tags: [ under-construction ]

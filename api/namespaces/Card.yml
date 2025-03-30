@@ -1,7 +1,6 @@
 ---!namespace
 name: Card
-description: >-
-  (To be added)
+description: Functions for working with [cards](/api/types/Card). This is also used as the [metatable](https://www.lua.org/pil/13.html) for [Script](/api/types/Script) tables, which in turn are used as the metatable for all card instances of that script. This means functions in this namespace can be used as "methods" of card objects, e.g. instead of `Card.GetLevel(c)`, one can use `c.GetLevel(c)` or `c:GetLevel()`. It is recommended to use the colon syntax.
+summary: Functions for working with cards.
 status:
   index: stable
-tags: [ under-construction ]

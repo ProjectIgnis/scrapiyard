@@ -1,7 +1,6 @@
 ---!namespace
 name: Group
-description: >-
-  (To be added)
+description: Functions for working with [card groups](/api/types/Group). This is also used as the [metatable](https://www.lua.org/pil/13.html) for groups. This means functions in this namespace can be used as "methods" of group objects, e.g. instead of `Group.GetFirst(g)`, one can use `g.GetFirst(g)` or `g:GetFirst()`. It is recommended to use the colon syntax.
+summary: Functions for working with card groups.
 status:
   index: stable
-tags: [ under-construction ]

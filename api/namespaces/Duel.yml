@@ -1,7 +1,6 @@
 ---!namespace
 name: Duel
-description: >-
-  (To be added)
+description: &desc Functions for duel actions and checks.
+summary: *desc
 status:
   index: stable
-tags: [ under-construction ]

@@ -1,7 +1,7 @@
 ---!namespace
 name: Synchro
-description: >-
-  (To be added)
+summary: &desc Synchro-related functions.
+description: *desc
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ synchro-related ]
