@@ -2,8 +2,7 @@
 name: POS_ATTACK
 enum: CardPosition
 value: 0x3
-description: >-
-  Attack position, face-up + face-down
+description: &desc Attack Position
+summary: *desc
 status:
   index: stable
-tags: [ under-construction ]

@@ -2,8 +2,7 @@
 name: POS_DEFENSE
 enum: CardPosition
 value: 0xc
-description: >-
-  Defense position, face-up + face-down
+description: &desc Defense Position
+summary: *desc
 status:
   index: stable
-tags: [ under-construction ]

@@ -2,8 +2,7 @@
 name: NO_FLIP_EFFECT
 enum: CardPosition
 value: 0x10000
-description: >-
-  Applies position change without triggering FLIP effects
+description: A special constant to combine with other position constants to prevent triggering FLIP effects when changing a card's position.
+summary: Prevents triggering FLIP effects when changing a card's position.
 status:
   index: stable
-tags: [ under-construction ]
