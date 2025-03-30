@@ -2,8 +2,7 @@
 name: STATUS_EFFECT_ENABLED
 enum: CardStatus
 value: 0x400
-description: >-
-  Usable card on field (has activated, already Summoned, effects applied)
+description: A card with this status has its effects already enabled, meaning it has already been Summoned completely and its effects have been applied.
+summary: Has its effects already enabled.
 status:
   index: stable
-tags: [ under-construction ]

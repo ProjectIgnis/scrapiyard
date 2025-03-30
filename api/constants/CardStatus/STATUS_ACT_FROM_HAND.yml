@@ -2,8 +2,7 @@
 name: STATUS_ACT_FROM_HAND
 enum: CardStatus
 value: 0x8000000
-description: >-
-  A card with this status can be activated from hand
+description: A Trap card with this status can be activated from hand.
+summary: Can be activated from the hand.
 status:
   index: stable
-tags: [ under-construction ]

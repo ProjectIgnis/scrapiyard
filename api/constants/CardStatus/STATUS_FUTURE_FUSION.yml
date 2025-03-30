@@ -2,8 +2,7 @@
 name: STATUS_FUTURE_FUSION
 enum: CardStatus
 value: 0x100000
-description: >-
-  To be changed: Future Fusion Materials wouldn't trigger after Fusion Monster is Summoned
+description: A Fusion Monster with this status is being summoned by ["Future Fusion"](https://yugipedia.com/wiki/Future_Fusion). Its Fusion Materials will not trigger their effects when it's Summoned.
+summary: Being summoned by "Future Fusion".
 status:
   index: stable
-tags: [ under-construction ]

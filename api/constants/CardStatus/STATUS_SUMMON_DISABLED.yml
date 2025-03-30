@@ -2,8 +2,8 @@
 name: STATUS_SUMMON_DISABLED
 enum: CardStatus
 value: 0x20000
-description: >-
-  A monster which had its summon negated
+description: A monster with this status had its Summon negated.
+summary: Had its summon negated.
 status:
   index: stable
-tags: [ under-construction ]
+

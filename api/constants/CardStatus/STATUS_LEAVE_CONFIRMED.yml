@@ -2,8 +2,7 @@
 name: STATUS_LEAVE_CONFIRMED
 enum: CardStatus
 value: 0x2000
-description: >-
-  After the chain resolves, an activated card with this status would immediately go to Graveyard
+description: After the chain resolves, an activated card with this status would immediately be sent to the GY.
+summary: Would be sent to the GY after the chain resolves.
 status:
   index: stable
-tags: [ under-construction ]

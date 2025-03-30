@@ -2,8 +2,7 @@
 name: STATUS_SUMMON_TURN
 enum: CardStatus
 value: 0x800
-description: >-
-  The monster was Normal Summoned/Set in the current turn
+description: A monster with this status was Normal Summoned/Set in the current turn.
+summary: Was Normal Summoned/Set in the current turn.
 status:
   index: stable
-tags: [ under-construction ]

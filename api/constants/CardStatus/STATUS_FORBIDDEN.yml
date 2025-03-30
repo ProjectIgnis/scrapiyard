@@ -2,8 +2,7 @@
 name: STATUS_FORBIDDEN
 enum: CardStatus
 value: 0x4000000
-description: >-
-  A card that cannot be used (for example, if it was declared by Prohibition or Psi-Blocker)
+description: A card with this status cannot be used, e.g. due to the effects of ["Prohibition"](https://yugipedia.com/wiki/Prohibition) or ["Psi-Blocker"](https://yugipedia.com/wiki/Psi-Blocker).
+summary: Cannot be used.
 status:
   index: stable
-tags: [ under-construction ]

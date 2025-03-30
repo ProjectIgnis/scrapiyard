@@ -2,8 +2,7 @@
 name: STATUS_INITIALIZING
 enum: CardStatus
 value: 0x400000
-description: >-
-  Cards which are at "initial_effect" state
+description: A card with this status is currently initializing its effects, i.e. executing the `initial_effect` function of its script.
+summary: Currently initializing its effects.
 status:
   index: stable
-tags: [ under-construction ]

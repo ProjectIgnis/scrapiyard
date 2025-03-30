@@ -1,6 +1,5 @@
 ---!enum
 name: CardStatus
-description: >-
-  (To be added)
+description: Represents statuses applied to a card (states a card is in).
+summary: Statuses applied to a card.
 bitmaskInt: true
-tags: [ under-construction ]

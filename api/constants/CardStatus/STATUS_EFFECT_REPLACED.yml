@@ -2,8 +2,7 @@
 name: STATUS_EFFECT_REPLACED
 enum: CardStatus
 value: 0x80000
-description: >-
-  A card affected by ReplaceEffect
+description: A card with this status has its effects replaced.
+summary: Has its effects replaced.
 status:
   index: stable
-tags: [ under-construction ]

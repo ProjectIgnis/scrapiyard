@@ -2,8 +2,7 @@
 name: STATUS_SPSUMMON_STEP
 enum: CardStatus
 value: 0x80
-description: >-
-  Special Summon not yet finished aka "Step"
+description: A monster with this status is currently being Special Summoned. **The Special Summon is not yet complete.**
+summary: Currently being Special Summoned.
 status:
   index: stable
-tags: [ under-construction ]

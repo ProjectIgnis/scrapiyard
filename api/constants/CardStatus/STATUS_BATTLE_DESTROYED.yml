@@ -2,8 +2,10 @@
 name: STATUS_BATTLE_DESTROYED
 enum: CardStatus
 value: 0x4000
-description: >-
-  Already destroyed by battle (during battle)
+description: During battle, a card with this status has already been destroyed by battle.
+summary: Already destroyed by battle (during battle).
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: STATUS_BATTLE_RESULT
+    link: /api/constants/CardStatus/STATUS_BATTLE_RESULT
