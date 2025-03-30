@@ -1,5 +1,5 @@
 ---!function
-name: SoftOncePerChain
+name: HardOncePerChain
 namespace: Cost
 description: Creates a baseline [cost function](/api/types/EffectCost) used for effects that can only be activated once per chain by a player, e.g. "Lil-la Rap".
 summary: Creates a cost function for "hard once per chain" effects.
