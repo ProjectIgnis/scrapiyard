@@ -2,8 +2,7 @@
 name: CHINT_NUMBER
 enum: CardHintType
 value: 5
-description: >-
-  Used to display a string when the player hovers over the card. Shows the following text: "Declared number:"
+description: 'Displays "Declared number: " when a player hovers over the affected card.'
+summary: '"Declared number: "'
 status:
   index: stable
-tags: [ under-construction ]
