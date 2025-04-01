@@ -2,8 +2,7 @@
 name: CARD_DARK_FUSION
 enum: CommonCard
 value: 94820406
-description: >-
-  Dark Fusion's ID, used due to the number of scripts that call it.
+description: The passcode of ["Dark Fusion"](https://yugipedia.com/wiki/Dark_Fusion).
+summary: Dark Fusion
 status:
   index: stable
-tags: [ under-construction ]

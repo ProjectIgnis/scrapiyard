@@ -2,8 +2,7 @@
 name: CARD_GOLDEN_LORD
 enum: CommonCard
 value: 95440946
-description: >-
-  Eldlich the Golden Lord's ID, used because of cards that mention it.
+description: The passcode of ["Eldlich the Golden Lord"](https://yugipedia.com/wiki/Eldlich_the_Golden_Lord).
+summary: Eldlich the Golden Lord
 status:
   index: stable
-tags: [ under-construction ]

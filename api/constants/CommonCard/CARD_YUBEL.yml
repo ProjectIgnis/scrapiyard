@@ -1,0 +1,8 @@
+---!constant
+name: CARD_YUBEL
+enum: CommonCard
+value: 78371393
+description: The passcode of ["Yubel"](https://yugipedia.com/wiki/Yubel).
+summary: Yubel
+status:
+  index: stable

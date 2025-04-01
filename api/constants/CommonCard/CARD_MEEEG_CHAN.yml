@@ -2,8 +2,8 @@
 name: CARD_MEEEG_CHAN
 enum: CommonCard
 value: 160009006
-description: >-
-  Constant for a commonly used Rush card
+description: The passcode of ["Magical Sheep Girl Meeeg-chan"](https://yugipedia.com/wiki/Magical_Sheep_Girl_Meeeg-chan).
+summary: Magical Sheep Girl Meeeg-chan
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ rush ]

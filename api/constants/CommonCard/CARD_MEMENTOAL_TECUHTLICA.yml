@@ -1,0 +1,8 @@
+---!constant
+name: CARD_MEMENTOAL_TECUHTLICA
+enum: CommonCard
+value: 23288411
+description: The passcode of ["Mementoal Tecuhtlica - Combined Creation"](https://yugipedia.com/wiki/Mementoal_Tecuhtlica_-_Combined_Creation).
+summary: Mementoal Tecuhtlica - Combined Creation
+status:
+  index: stable

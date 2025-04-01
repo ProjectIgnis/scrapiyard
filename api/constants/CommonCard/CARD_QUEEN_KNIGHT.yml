@@ -2,8 +2,7 @@
 name: CARD_QUEEN_KNIGHT
 enum: CommonCard
 value: 25652259
-description: >-
-  Queen's Knight's ID
+description: The passcode of ["Queen's Knight"](https://yugipedia.com/wiki/Queen%27s_Knight).
+summary: Queen's Knight
 status:
   index: stable
-tags: [ under-construction ]

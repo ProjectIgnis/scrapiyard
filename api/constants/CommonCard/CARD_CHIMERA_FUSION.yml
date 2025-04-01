@@ -2,8 +2,7 @@
 name: CARD_CHIMERA_FUSION
 enum: CommonCard
 value: 63136489
-description: >-
-  Chimera Fusion's ID
+description: The passcode of ["Chimera Fusion"](https://yugipedia.com/wiki/Chimera_Fusion).
+summary: Chimera Fusion
 status:
   index: stable
-tags: [ under-construction ]

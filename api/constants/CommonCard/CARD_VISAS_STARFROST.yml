@@ -2,8 +2,8 @@
 name: CARD_VISAS_STARFROST
 enum: CommonCard
 value: 56099748
-description: >-
-  Visas Starfrost's ID
+description: The passcode of ["Visas Starfrost"](https://yugipedia.com/wiki/Visas_Starfrost).
+summary: Visas Starfrost
 status:
   index: stable
-tags: [ under-construction ]
+

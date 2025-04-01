@@ -1,0 +1,8 @@
+---!constant
+name: CARD_ZARC
+enum: CommonCard
+value: 13331639
+description: The passcode of ["Supreme King Z-ARC"](https://yugipedia.com/wiki/Supreme_King_Z-ARC).
+summary: Supreme King Z-ARC
+status:
+  index: stable

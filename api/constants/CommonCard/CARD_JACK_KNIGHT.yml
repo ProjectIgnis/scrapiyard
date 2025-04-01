@@ -2,8 +2,7 @@
 name: CARD_JACK_KNIGHT
 enum: CommonCard
 value: 90876561
-description: >-
-  Jack's Knight's ID
+description: The passcode of ["Jack's Knight"](https://yugipedia.com/wiki/Jack%27s_Knight).
+summary: Jack's Knight
 status:
   index: stable
-tags: [ under-construction ]

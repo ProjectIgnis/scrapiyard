@@ -2,8 +2,8 @@
 name: CARD_AMALILITH
 enum: CommonCard
 value: 160428037
-description: >-
-  Constant for a commonly used Rush card
+description: The passcode of ["Ama Lilith"](https://yugipedia.com/wiki/Ama_Lilith).
+summary: Ama Lilith
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ rush ]

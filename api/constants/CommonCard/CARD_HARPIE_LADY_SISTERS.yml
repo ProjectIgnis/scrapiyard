@@ -2,8 +2,7 @@
 name: CARD_HARPIE_LADY_SISTERS
 enum: CommonCard
 value: 12206212
-description: >-
-  Harpie Lady Sisters' ID, used for listed_names and specific support
+description: The passcode of ["Harpie Lady Sisters"](https://yugipedia.com/wiki/Harpie_Lady_Sisters).
+summary: Harpie Lady Sisters
 status:
   index: stable
-tags: [ under-construction ]

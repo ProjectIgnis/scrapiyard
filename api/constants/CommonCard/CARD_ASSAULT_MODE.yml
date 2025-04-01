@@ -2,8 +2,7 @@
 name: CARD_ASSAULT_MODE
 enum: CommonCard
 value: 80280737
-description: >-
-  Assault Mode Activate's ID, used for listed_names and specific support
+description: The passcode of ["Assault Mode Activate"](https://yugipedia.com/wiki/Assault_Mode_Activate).
+summary: Assault Mode Activate
 status:
   index: stable
-tags: [ under-construction ]

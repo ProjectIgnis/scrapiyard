@@ -2,8 +2,8 @@
 name: CARD_TRANSAMU_RAINAC
 enum: CommonCard
 value: 160425001
-description: >-
-  Constant for a commonly used Rush card
+description: The passcode of ["Transam Linac"](https://yugipedia.com/wiki/Transam_Linac).
+summary: Transam Linac
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ rush ]

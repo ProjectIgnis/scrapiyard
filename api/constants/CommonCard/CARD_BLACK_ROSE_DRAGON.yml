@@ -2,8 +2,7 @@
 name: CARD_BLACK_ROSE_DRAGON
 enum: CommonCard
 value: 73580471
-description: >-
-  Black Rose Dragon's ID
+description: The passcode of ["Black Rose Dragon"](https://yugipedia.com/wiki/Black_Rose_Dragon).
+summary: Black Rose Dragon
 status:
   index: stable
-tags: [ under-construction ]

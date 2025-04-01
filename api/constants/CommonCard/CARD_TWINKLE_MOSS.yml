@@ -2,8 +2,8 @@
 name: CARD_TWINKLE_MOSS
 enum: CommonCard
 value: 13857930
-description: >-
-  Neo Spacian Twinkle Moss' ID, used in core because of double name
+description: The passcode of ["Neo-Spacian Twinkle Moss"](https://yugipedia.com/wiki/Neo-Spacian_Twinkle_Moss). Used for its double name handling.
+summary: Neo-Spacian Twinkle Moss
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ special-handling ]

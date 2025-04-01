@@ -1,0 +1,8 @@
+---!constant
+name: CARD_SUPER_POLYMERIZATION
+enum: CommonCard
+value: 48130397
+description: The passcode of ["Super Polymerization"](https://yugipedia.com/wiki/Super_Polymerization).
+summary: Super Polymerization
+status:
+  index: stable

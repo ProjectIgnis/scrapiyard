@@ -2,8 +2,8 @@
 name: CARD_BIG_UMI
 enum: CommonCard
 value: 160003050
-description: >-
-  Constant for a commonly used Rush card
+description: The passcode of ["Big Umi"](https://yugipedia.com/wiki/Big_Umi).
+summary: Big Umi
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ rush ]

@@ -2,8 +2,7 @@
 name: CARD_KAZEJIN
 enum: CommonCard
 value: 62340868
-description: >-
-  Kazejin's ID
+description: The passcode of ["Kazejin"](https://yugipedia.com/wiki/Kazejin).
+summary: Kazejin
 status:
   index: stable
-tags: [ under-construction ]

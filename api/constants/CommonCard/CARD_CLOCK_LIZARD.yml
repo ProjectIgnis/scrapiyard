@@ -2,10 +2,8 @@
 name: CARD_CLOCK_LIZARD
 enum: CommonCard
 value: 51476410
-description: >-
-  ID of ["Clock Lizard"](https://yugipedia.com/wiki/Clock_Lizard).
-  Cards affected by an effect with this ID are excluded by "Clock Lizard"
-  when checking what cards it can return to the Extra Deck.
-summary: "Clock Lizard"
-status: { index: stable }
+description: The passcode of ["Clock Lizard"](https://yugipedia.com/wiki/Clock_Lizard). Cards affected by an effect with this ID are excluded by "Clock Lizard" when checking what cards it can return to the Extra Deck.
+summary: Clock Lizard
+status:
+  index: stable
 tags: [ special-handling ]

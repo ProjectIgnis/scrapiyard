@@ -2,8 +2,8 @@
 name: CARD_GALACTICA_OBLIVION
 enum: CommonCard
 value: 160009002
-description: >-
-  Constant for a commonly used Rush card
+description: The passcode of ["Galactica Oblivion"](https://yugipedia.com/wiki/Galactica_Oblivion).
+summary: Galactica Oblivion
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ rush ]

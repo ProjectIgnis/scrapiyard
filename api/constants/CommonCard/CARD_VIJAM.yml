@@ -2,8 +2,7 @@
 name: CARD_VIJAM
 enum: CommonCard
 value: 15610297
-description: >-
-  Vijam the Cubic Seed's ID, used because it has a lot of specific support
+description: The passcode of ["Vijam_the_Cubic_Seed"](https://yugipedia.com/wiki/Vijam_the_Cubic_Seed).
+summary: Vijam the Cubic Seed
 status:
   index: stable
-tags: [ under-construction ]

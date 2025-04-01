@@ -2,8 +2,8 @@
 name: CARD_STRAYNGE_CAT
 enum: CommonCard
 value: 160301010
-description: >-
-  Constant for a commonly used Rush card
+description: The passcode of ["Straynge Cat"](https://yugipedia.com/wiki/Straynge_Cat).
+summary: Straynge Cat
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ rush ]

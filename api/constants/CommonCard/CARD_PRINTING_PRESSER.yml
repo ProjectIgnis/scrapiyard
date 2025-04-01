@@ -2,8 +2,8 @@
 name: CARD_PRINTING_PRESSER
 enum: CommonCard
 value: 160003032
-description: >-
-  Constant for a commonly used Rush card
+description: The passcode of ["Printing Presser"](https://yugipedia.com/wiki/Printing_Presser).
+summary: Printing Presser
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ rush ]

@@ -2,8 +2,8 @@
 name: CARD_BLUETOOTH_B_DRAGON
 enum: CommonCard
 value: 160010101
-description: >-
-  Constant for a commonly used Rush card
+description: The passcode of ["Blue Tooth Burst Dragon"](https://yugipedia.com/wiki/Blue_Tooth_Burst_Dragon).
+summary: Blue Tooth Burst Dragon
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ rush ]

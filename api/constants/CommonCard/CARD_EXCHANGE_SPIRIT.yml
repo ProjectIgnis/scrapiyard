@@ -2,8 +2,7 @@
 name: CARD_EXCHANGE_SPIRIT
 enum: CommonCard
 value: 17484499
-description: >-
-  Exchange of the Spirit's ID
+description: The passcode of ["Exchange of the Spirit"](https://yugipedia.com/wiki/Exchange_of_the_Spirit).
+summary: Exchange of the Spirit
 status:
   index: stable
-tags: [ under-construction ]

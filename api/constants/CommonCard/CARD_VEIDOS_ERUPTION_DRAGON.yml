@@ -1,0 +1,8 @@
+---!constant
+name: CARD_VEIDOS_ERUPTION_DRAGON
+enum: CommonCard
+value: 78783557
+description: The passcode of ["Veidos the Eruption Dragon of Extinction"](https://yugipedia.com/wiki/Veidos_the_Eruption_Dragon_of_Extinction).
+summary: Veidos the Eruption Dragon of Extinction
+status:
+  index: stable

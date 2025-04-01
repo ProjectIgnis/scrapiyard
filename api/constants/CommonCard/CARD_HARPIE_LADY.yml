@@ -2,8 +2,7 @@
 name: CARD_HARPIE_LADY
 enum: CommonCard
 value: 76812113
-description: >-
-  Harpie Lady's ID, used for listed_names and specific support
+description: The passcode of ["Harpie Lady"](https://yugipedia.com/wiki/Harpie_Lady).
+summary: Harpie Lady
 status:
   index: stable
-tags: [ under-construction ]

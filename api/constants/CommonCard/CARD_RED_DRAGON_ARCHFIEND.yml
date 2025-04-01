@@ -1,0 +1,8 @@
+---!constant
+name: CARD_RED_DRAGON_ARCHFIEND
+enum: CommonCard
+value: 70902743
+description: The passcode of ["Red Dragon Archfiend"](https://yugipedia.com/wiki/Red_Dragon_Archfiend).
+summary: Red Dragon Archfiend
+status:
+  index: stable

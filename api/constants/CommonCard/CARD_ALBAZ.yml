@@ -2,8 +2,7 @@
 name: CARD_ALBAZ
 enum: CommonCard
 value: 68468459
-description: >-
-  Fallen of Albaz's ID used for listed_names and specific support
+description: The passcode of ["Fallen of Albaz"](https://yugipedia.com/wiki/Fallen_of_Albaz).
+summary: Fallen of Albaz
 status:
   index: stable
-tags: [ under-construction ]

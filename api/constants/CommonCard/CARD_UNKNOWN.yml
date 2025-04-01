@@ -1,0 +1,9 @@
+---!constant
+name: CARD_UNKNOWN
+enum: CommonCard
+value: 10000110
+description: The passcode of ["Unknown"](https://yugipedia.com/wiki/Unknown), registered in the card database as a Token. The passcode of cards are changed into this ID when they are affected by an effect that treats their name as "Unknown".
+summary: Unknown
+status:
+  index: stable
+tags: [ special-handling ]

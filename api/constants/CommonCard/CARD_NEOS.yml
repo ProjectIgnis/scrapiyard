@@ -2,8 +2,7 @@
 name: CARD_NEOS
 enum: CommonCard
 value: 89943723
-description: >-
-  Elemental HERO Neos' ID, used for listed_names and specific support
+description: The passcode of ["Elemental HERO Neos"](https://yugipedia.com/wiki/Elemental_HERO_Neos).
+summary: Elemental HERO Neos
 status:
   index: stable
-tags: [ under-construction ]

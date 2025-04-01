@@ -1,0 +1,8 @@
+---!constant
+name: CARD_MILLENNIUM_CROSS
+enum: CommonCard
+value: 37613663
+description: The passcode of ["Millennium Ankh"](https://yugipedia.com/wiki/Millennium_Ankh).
+summary: Millenniuem Ankh
+status:
+  index: stable

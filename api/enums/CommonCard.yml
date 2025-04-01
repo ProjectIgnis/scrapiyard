@@ -1,5 +1,4 @@
 ---!enum
 name: CommonCard
-description: >-
-  (To be added)
-tags: [ under-construction ]
+description: Passcodes of cards commonly used in scripts, usually due to multiple support cards or a special handling involving the card.
+summary: Passcodes of cards commonly used in scripts.

@@ -2,8 +2,8 @@
 name: CARD_REDBOOT_B_DRAGON
 enum: CommonCard
 value: 160315001
-description: >-
-  Constant for a commonly used Rush card
+description: The passcode of ["Red Boot Boost Dragon"](https://yugipedia.com/wiki/Red_Boot_Boost_Dragon).
+summary: Red Boot Boost Dragon
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ rush ]

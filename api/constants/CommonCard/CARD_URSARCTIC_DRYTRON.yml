@@ -2,8 +2,8 @@
 name: CARD_URSARCTIC_DRYTRON
 enum: CommonCard
 value: 89771220
-description: >-
-  Ursarctic Drytron's ID
+description: The passcode of ["Ursarctic Drytron"](https://yugipedia.com/wiki/Ursarctic_Drytron). If a player affected by an effect with this ID would Tribute a monster(s) to activate an "Ursarctic" or "Drytron" monster's effect, they can banish "Ursarctic Drytron" from their GY instead.
+summary: Ursarctic Drytron
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ special-handling ]

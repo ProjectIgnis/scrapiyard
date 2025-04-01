@@ -2,8 +2,7 @@
 name: CARD_SANGA_OF_THE_THUNDER
 enum: CommonCard
 value: 25955164
-description: >-
-  Sanga of the Thunder's ID
+description: The passcode of ["Sanga of the Thunder"](https://yugipedia.com/wiki/Sanga_of_the_Thunder).
+summary: Sanga of the Thunder
 status:
   index: stable
-tags: [ under-construction ]

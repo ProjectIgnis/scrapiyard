@@ -2,8 +2,7 @@
 name: CARD_DREAM_MIRROR_TERROR
 enum: CommonCard
 value: 1050355
-description: >-
-  Dream Mirror of Terror's ID, used because of the number of scripts that call it
+description: The passcode of ["Dream Mirror of Terror"](https://yugipedia.com/wiki/Dream_Mirror_of_Terror).
+summary: Dream Mirror of Terror
 status:
   index: stable
-tags: [ under-construction ]

@@ -1,0 +1,8 @@
+---!constant
+name: CARD_CRIMSON_DRAGON
+enum: CommonCard
+value: 63436931
+description: The passcode of ["Crimson Dragon"](https://yugipedia.com/wiki/Crimson_Dragon).
+summary: Crimson Dragon
+status:
+  index: stable

@@ -1,0 +1,8 @@
+---!constant
+name: SKILL_DARK_UNITY
+enum: CommonCard
+value: 300306009
+description: The passcode of ["Dark Unity"](https://yugipedia.com/wiki/Dark_Unity).
+summary: Dark Unity
+status:
+  index: stable

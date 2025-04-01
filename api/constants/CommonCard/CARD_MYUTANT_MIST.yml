@@ -2,8 +2,7 @@
 name: CARD_MYUTANT_MIST
 enum: CommonCard
 value: 61089209
-description: >-
-  Myutant Mist's ID
+description: The passcode of ["Myutant Mist"](https://yugipedia.com/wiki/Myutant_Mist).
+summary: Myutant Mist
 status:
   index: stable
-tags: [ under-construction ]

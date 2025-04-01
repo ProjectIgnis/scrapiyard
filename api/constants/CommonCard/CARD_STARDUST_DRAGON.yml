@@ -2,8 +2,7 @@
 name: CARD_STARDUST_DRAGON
 enum: CommonCard
 value: 44508094
-description: >-
-  Stardust Dragon's ID
+description: The passcode of ["Stardust Dragon"](https://yugipedia.com/wiki/Stardust_Dragon).
+summary: Stardust Dragon
 status:
   index: stable
-tags: [ under-construction ]

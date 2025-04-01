@@ -1,0 +1,8 @@
+---!constant
+name: CARD_FLAME_SWORDSMAN
+enum: CommonCard
+value: 45231177
+description: The passcode of ["Flame Swordsman"](https://yugipedia.com/wiki/Flame_Swordsman).
+summary: Flame Swordsman
+status:
+  index: stable

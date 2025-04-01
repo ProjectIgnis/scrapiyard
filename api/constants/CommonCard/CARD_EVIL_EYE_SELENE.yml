@@ -2,8 +2,7 @@
 name: CARD_EVIL_EYE_SELENE
 enum: CommonCard
 value: 44133040
-description: >-
-  Evil Eye of Selene's ID, used because it has a lot of specific support
+description: The passcode of ["Evil Eye of Selene"](https://yugipedia.com/wiki/Evil_Eye_of_Selene).
+summary: Evil Eye of Selene
 status:
   index: stable
-tags: [ under-construction ]

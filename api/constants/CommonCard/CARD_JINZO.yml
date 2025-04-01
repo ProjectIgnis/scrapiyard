@@ -2,8 +2,7 @@
 name: CARD_JINZO
 enum: CommonCard
 value: 77585513
-description: >-
-  Jinzo's ID, used for listed_names and specific support
+description: The passcode of ["Jinzo"](https://yugipedia.com/wiki/Jinzo).
+summary: Jinzo
 status:
   index: stable
-tags: [ under-construction ]

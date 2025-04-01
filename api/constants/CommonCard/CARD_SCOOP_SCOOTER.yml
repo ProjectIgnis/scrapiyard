@@ -2,8 +2,8 @@
 name: CARD_SCOOP_SCOOTER
 enum: CommonCard
 value: 160003002
-description: >-
-  Constant for a commonly used Rush card
+description: The passcode of ["Scoop Scooter"](https://yugipedia.com/wiki/Scoop_Scooter).
+summary: Scoop Scooter
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ rush ]

@@ -1,0 +1,8 @@
+---!constant
+name: CARD_TOY_BOX
+enum: CommonCard
+value: 29762407
+description: The passcode of ["Toy Box"](https://yugipedia.com/wiki/Toy_Box).
+summary: Toy Box
+status:
+  index: stable

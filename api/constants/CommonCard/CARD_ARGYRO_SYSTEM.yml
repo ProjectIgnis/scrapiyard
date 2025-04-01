@@ -2,8 +2,7 @@
 name: CARD_ARGYRO_SYSTEM
 enum: CommonCard
 value: 21887075
-description: >-
-  Endless Engine Argyro System's ID
+description: The passcode of ["Endless Engine Argyro System"](https://yugipedia.com/wiki/Endless_Engine_Argyro_System).
+summary: Endless Engine Argyro System
 status:
   index: stable
-tags: [ under-construction ]

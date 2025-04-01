@@ -2,8 +2,7 @@
 name: CARD_SALAMANGREAT_SANCTUARY
 enum: CommonCard
 value: 1295111
-description: >-
-  Salamangreat Sanctuary's ID, used for hardcoded effect and specific support
+description: The passcode of ["Salamangreat Sanctuary"](https://yugipedia.com/wiki/Salamangreat_Sanctuary).
+summary: Salamangreat Sanctuary
 status:
   index: stable
-tags: [ under-construction ]

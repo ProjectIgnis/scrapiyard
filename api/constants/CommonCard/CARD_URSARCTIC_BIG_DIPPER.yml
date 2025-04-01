@@ -2,8 +2,8 @@
 name: CARD_URSARCTIC_BIG_DIPPER
 enum: CommonCard
 value: 89264428
-description: >-
-  Ursarctic Big Dipper's ID
+description: The passcode of ["Ursarctic Big Dipper"](https://yugipedia.com/wiki/Ursarctic_Big_Dipper). If a player affected by an effect with this ID would Tribute a monster(s) to activate an "Ursarctic" monster's effect, they can banish 1 Level 7 or higher "Ursarctic" monster from their GY instead.
+summary: Ursarctic Big Dipper
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ special-handling ]

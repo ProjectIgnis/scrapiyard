@@ -2,8 +2,7 @@
 name: CARD_PSYFRAME_DRIVER
 enum: CommonCard
 value: 49036338
-description: >-
-  PSY-Frame Driver's ID, used because it has a lot of specific support
+description: The passcode of ["Psy-Frame Driver"](https://yugipedia.com/wiki/Psy-Frame_Driver).
+summary: Psy-Frame Driver
 status:
   index: stable
-tags: [ under-construction ]

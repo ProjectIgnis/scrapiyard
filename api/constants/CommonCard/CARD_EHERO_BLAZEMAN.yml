@@ -2,8 +2,7 @@
 name: CARD_EHERO_BLAZEMAN
 enum: CommonCard
 value: 63060238
-description: >-
-  Elemental HERO Blazeman's ID
+description: The passcode of ["Elemental HERO Blazeman"](https://yugipedia.com/wiki/Elemental_HERO_Blazeman).
+summary: Elemental HERO Blazeman
 status:
   index: stable
-tags: [ under-construction ]

@@ -2,8 +2,8 @@
 name: CARD_CAN_D
 enum: CommonCard
 value: 160005002
-description: >-
-  Constant for a commonly used Rush card
+description: The passcode of ["CAN:D"](https://yugipedia.com/wiki/CAN:D).
+summary: CAN:D
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ rush ]

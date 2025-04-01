@@ -2,8 +2,8 @@
 name: CARD_SEVENS_ROAD_MAGICIAN
 enum: CommonCard
 value: 160301001
-description: >-
-  Constant for a commonly used Rush card
+description: The passcode of ["Sevens Road Magician"](https://yugipedia.com/wiki/Sevens_Road_Magician).
+summary: Sevens Road Magician
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ rush ]

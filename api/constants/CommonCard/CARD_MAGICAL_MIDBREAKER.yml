@@ -2,8 +2,8 @@
 name: CARD_MAGICAL_MIDBREAKER
 enum: CommonCard
 value: 71650854
-description: >-
-  Magical MidBreaker's ID, used to due to the interaction of cards that activate Field Spells.
+description: The passcode of ["Magical Midbreaker"](https://yugipedia.com/wiki/Magical_Midbreaker). Used for its interaction with cards that activate Field Spells.
+summary: Magical Midbreaker
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ special-handling ]

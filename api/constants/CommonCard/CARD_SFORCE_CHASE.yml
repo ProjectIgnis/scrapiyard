@@ -1,0 +1,9 @@
+---!constant
+name: CARD_SFORCE_CHASE
+enum: CommonCard
+value: 55049722
+description: The passcode of ["S-Force Chase"](https://yugipedia.com/wiki/Revealer_of_the_Ice_Barrier). If a player affected by an effect with this ID would banish a card(s) from their hand to activate an "S-Force" monster's effect, they can banish "S-Force Chase" from the GY instead.
+summary: S-Force Chase
+status:
+  index: stable
+tags: [ special-handling ]

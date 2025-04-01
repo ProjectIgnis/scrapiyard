@@ -3,7 +3,9 @@ name: CARD_UNIFORM_99
 enum: CommonCard
 value: 160007027
 description: >-
-  Constant for a commonly used Rush card
+  The passcode of ["Player #99: Grand Slam Dragon"](https://yugipedia.com/wiki/Player_99:_Grand_Slam_Dragon).
+summary: >-
+  Player #99: Grand Slam Dragon
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ rush ]

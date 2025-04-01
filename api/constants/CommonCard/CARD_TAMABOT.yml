@@ -2,8 +2,8 @@
 name: CARD_TAMABOT
 enum: CommonCard
 value: 160312023
-description: >-
-  Constant for a commonly used Rush card
+description: The passcode of ["Tamabot"](https://yugipedia.com/wiki/Tamabot).
+summary: Tamabot
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ rush ]

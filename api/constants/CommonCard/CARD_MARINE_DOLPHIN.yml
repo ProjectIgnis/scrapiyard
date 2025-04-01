@@ -2,8 +2,8 @@
 name: CARD_MARINE_DOLPHIN
 enum: CommonCard
 value: 78734254
-description: >-
-  Neo Spacian Marine Dolphin's ID, used in core because of double name
+description: The passcode of ["Neo-Spacian Marine Dolphin"](https://yugipedia.com/wiki/Neo-Spacian_Marine_Dolphin). Used for its double name handling.
+summary: Neo-Spacian Marine Dolphin
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ special-handling ]

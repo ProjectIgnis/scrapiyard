@@ -2,8 +2,8 @@
 name: CARD_SPIRIT_STADIUM
 enum: CommonCard
 value: 160007047
-description: >-
-  Constant for a commonly used Rush card
+description: The passcode of ["Feverous Spirit Stadium"](https://yugipedia.com/wiki/Feverous_Spirit_Stadium).
+summary: Feverous Spirit Stadium
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ rush ]

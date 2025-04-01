@@ -2,8 +2,7 @@
 name: CARD_NECROVALLEY
 enum: CommonCard
 value: 47355498
-description: >-
-  Necrovalley's ID, used for hardcoded effect and specific support
+description: The passcode of ["Necrovalley"](https://yugipedia.com/wiki/Necrovalley).
+summary: Necrovalley
 status:
   index: stable
-tags: [ under-construction ]

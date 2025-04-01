@@ -2,8 +2,7 @@
 name: CARD_DREAMING_NEMLERIA
 enum: CommonCard
 value: 70155677
-description: >-
-  Dreaming Nemleria's ID
+description: The passcode of ["Dreaming Nemleria"](https://yugipedia.com/wiki/Dreaming_Nemleria).
+summary: Dreaming Nemleria
 status:
   index: stable
-tags: [ under-construction ]

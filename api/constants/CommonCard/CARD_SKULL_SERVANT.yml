@@ -2,8 +2,7 @@
 name: CARD_SKULL_SERVANT
 enum: CommonCard
 value: 32274490
-description: >-
-  Skull Servant's ID
+description: The passcode of ["Skull Servant"](https://yugipedia.com/wiki/Skull_Servant).
+summary: Skull Servant
 status:
   index: stable
-tags: [ under-construction ]
