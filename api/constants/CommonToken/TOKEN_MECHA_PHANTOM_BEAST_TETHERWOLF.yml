@@ -2,8 +2,7 @@
 name: TOKEN_MECHA_PHANTOM_BEAST_TETHERWOLF
 enum: CommonToken
 value: 67922703
-description: >-
-  (To be added)
+description: The passcode of ["Mecha Phantom Beast Token"](https://yugipedia.com/wiki/Mecha_Phantom_Beast_Token) Special Summoned by ["Mecha Phantom Beast Tetherwolf"](https://yugipedia.com/wiki/Mecha_Phantom_Beast_Tetherwolf).
+summary: Mecha Phantom Beast Token (Special Summoned by "Mecha Phantom Beast Tetherwolf")
 status:
   index: stable
-tags: [ under-construction ]

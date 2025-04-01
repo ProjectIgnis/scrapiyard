@@ -2,8 +2,7 @@
 name: TOKEN_TRICKSTAR
 enum: CommonToken
 value: 51208047
-description: >-
-  (To be added)
+description: The passcode of ["Trickstar Token"](https://yugipedia.com/wiki/Trickstar_Token).
+summary: Trickstar Token
 status:
   index: stable
-tags: [ under-construction ]

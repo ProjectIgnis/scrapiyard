@@ -1,0 +1,4 @@
+---!enum
+name: CommonToken
+description: Passcodes of tokens commonly used in scripts, usually due to multiple cards that support or Summon them.
+summary: Passcodes of tokens commonly used in scripts.

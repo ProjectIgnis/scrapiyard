@@ -2,8 +2,7 @@
 name: TOKEN_FIREBALL
 enum: CommonToken
 value: 23116809
-description: >-
-  (To be added)
+description: The passcode of ["Fireball Token"](https://yugipedia.com/wiki/Fireball_Token).
+summary: Fireball Token
 status:
   index: stable
-tags: [ under-construction ]

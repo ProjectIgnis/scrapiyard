@@ -2,8 +2,7 @@
 name: TOKEN_REPTILIANNE
 enum: CommonToken
 value: 21179144
-description: >-
-  (To be added)
+description: The passcode of ["Reptilianne Token"](https://yugipedia.com/wiki/Reptilianne_Token).
+summary: Reptilianne Token
 status:
   index: stable
-tags: [ under-construction ]

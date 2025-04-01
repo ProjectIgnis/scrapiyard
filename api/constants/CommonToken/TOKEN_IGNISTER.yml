@@ -2,8 +2,7 @@
 name: TOKEN_IGNISTER
 enum: CommonToken
 value: 11738490
-description: >-
-  (To be added)
+description: The passcode of ["@Ignister Token"](https://yugipedia.com/wiki/@Ignister_Token).
+summary: "@Ignister Token"
 status:
   index: stable
-tags: [ under-construction ]

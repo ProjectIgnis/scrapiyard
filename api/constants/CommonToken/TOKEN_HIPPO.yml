@@ -2,8 +2,7 @@
 name: TOKEN_HIPPO
 enum: CommonToken
 value: 11050416
-description: >-
-  (To be added)
+description: The passcode of ["Fireball Token"](https://yugipedia.com/wiki/Hippo_Token).
+summary: Hippo Token
 status:
   index: stable
-tags: [ under-construction ]

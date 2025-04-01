@@ -2,8 +2,7 @@
 name: TOKEN_ADVENTURER
 enum: CommonToken
 value: 3285552
-description: >-
-  Adventurer Token, summoned by Rite of Aramesir
+description: The passcode of ["Adventurer Token"](https://yugipedia.com/wiki/Adventurer_Token).
+summary: Adventurer Token
 status:
   index: stable
-tags: [ under-construction ]

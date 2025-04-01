@@ -2,8 +2,7 @@
 name: TOKEN_MECHA_PHANTOM_BEAST
 enum: CommonToken
 value: 31533705
-description: >-
-  (To be added)
+description: The passcode of one of the ["Mecha Phantom Beast Tokens"](https://yugipedia.com/wiki/Mecha_Phantom_Beast_Token).
+summary: One of the "Mecha Phantom Beast Tokens"
 status:
   index: stable
-tags: [ under-construction ]

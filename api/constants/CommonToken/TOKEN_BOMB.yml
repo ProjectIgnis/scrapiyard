@@ -2,8 +2,7 @@
 name: TOKEN_BOMB
 enum: CommonToken
 value: 22411610
-description: >-
-  Bomb Token, summoned by Fire Injection and Volcanic Mine
+description: The passcode of ["Bomb Token"](https://yugipedia.com/wiki/Bomb_Token).
+summary: Bomb Token
 status:
   index: stable
-tags: [ under-construction ]

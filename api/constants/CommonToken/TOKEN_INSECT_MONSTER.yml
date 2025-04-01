@@ -2,8 +2,7 @@
 name: TOKEN_INSECT_MONSTER
 enum: CommonToken
 value: 91512836
-description: >-
-  (To be added)
+description: The passcode of ["Insect Monster Token"](https://yugipedia.com/wiki/Insect_Monster_Token).
+summary: Insect Monster Token
 status:
   index: stable
-tags: [ under-construction ]

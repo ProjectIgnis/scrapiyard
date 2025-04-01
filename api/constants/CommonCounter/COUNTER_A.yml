@@ -2,8 +2,7 @@
 name: COUNTER_A
 enum: CommonCounter
 value: 0x100e
-description: >-
-  The hexadecimal value of A-Counters
+description: The counter code of [A-Counters](https://yugipedia.com/wiki/A-Counter).
+summary: A-Counter
 status:
   index: stable
-tags: [ under-construction ]

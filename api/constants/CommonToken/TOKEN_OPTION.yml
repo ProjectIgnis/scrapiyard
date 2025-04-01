@@ -2,8 +2,7 @@
 name: TOKEN_OPTION
 enum: CommonToken
 value: 93130022
-description: >-
-  (To be added)
+description: The passcode of ["Option Token"](https://yugipedia.com/wiki/Option_Token).
+summary: Option Token
 status:
   index: stable
-tags: [ under-construction ]

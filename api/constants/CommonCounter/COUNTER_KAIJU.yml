@@ -2,8 +2,7 @@
 name: COUNTER_KAIJU
 enum: CommonCounter
 value: 0x37
-description: >-
-  The hexadecimal value of Kaiju Counters
+description: The counter code of [Kaiju Counters](https://yugipedia.com/wiki/Kaiju_Counter).
+summary: Kaiju Counter
 status:
   index: stable
-tags: [ under-construction ]

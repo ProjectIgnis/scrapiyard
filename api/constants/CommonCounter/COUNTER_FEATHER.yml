@@ -2,8 +2,7 @@
 name: COUNTER_FEATHER
 enum: CommonCounter
 value: 0x10
-description: >-
-  The hexadecimal value of Black Feather Counters
+description: The counter code of [Black Feather Counters](https://yugipedia.com/wiki/Black_Feather_Counter).
+summary: Black Feather Counter
 status:
   index: stable
-tags: [ under-construction ]

@@ -2,8 +2,7 @@
 name: TOKEN_WORLD_LEGACY
 enum: CommonToken
 value: 46647145
-description: >-
-  World Legacy Token, summoned by Girsu, The Orcust Mekk-Knight and World Legacy - "World Lance"
+description: The passcode of ["World Legacy Token"](https://yugipedia.com/wiki/World_Legacy_Token).
+summary: World Legacy Token
 status:
   index: stable
-tags: [ under-construction ]

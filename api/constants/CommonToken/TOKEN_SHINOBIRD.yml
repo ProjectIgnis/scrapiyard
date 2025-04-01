@@ -2,8 +2,7 @@
 name: TOKEN_SHINOBIRD
 enum: CommonToken
 value: 52900001
-description: >-
-  (To be added)
+description: The passcode of ["Shinobird Token"](https://yugipedia.com/wiki/Shinobird_Token).
+summary: Shinobird Token
 status:
   index: stable
-tags: [ under-construction ]

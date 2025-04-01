@@ -2,8 +2,7 @@
 name: COUNTER_BUSHIDO
 enum: CommonCounter
 value: 0x3
-description: >-
-  The hexadecimal value of Bushido Counters
+description: The counter code of [Bushido Counters](https://yugipedia.com/wiki/Bushido_Counter).
+summary: Bushido Counter
 status:
   index: stable
-tags: [ under-construction ]

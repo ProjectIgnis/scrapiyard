@@ -2,8 +2,7 @@
 name: TOKEN_OJAMA_DUO
 enum: CommonToken
 value: 14470846
-description: >-
-  (To be added)
+description: The passcode of one of the ["Ojama Tokens"](https://yugipedia.com/wiki/Ojama_Token).
+summary: One of the "Ojama Tokens"
 status:
   index: stable
-tags: [ under-construction ]

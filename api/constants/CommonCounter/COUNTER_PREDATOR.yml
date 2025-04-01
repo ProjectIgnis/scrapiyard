@@ -2,8 +2,7 @@
 name: COUNTER_PREDATOR
 enum: CommonCounter
 value: 0x1041
-description: >-
-  The hexadecimal value of Predator Counters
+description: The counter code of [Predator Counters](https://yugipedia.com/wiki/Predator_Counter).
+summary: Predator Counter
 status:
   index: stable
-tags: [ under-construction ]
