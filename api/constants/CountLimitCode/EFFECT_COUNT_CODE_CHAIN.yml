@@ -1,9 +1,8 @@
 ---!constant
 name: EFFECT_COUNT_CODE_CHAIN
-enum: CountLimitCode
+enum: CountLimitFlag
 value: 0x8
-description: >-
-  A flag to be used with SetCountLimit. Can be used when the effect can only be activated once per chain (per copy of the card)
+description: When set as a flag using [`Effect.SetCountLimit`](/api/functions/Effect/SetCountLimit), the limit applies to activations per chain (per copy of the card) rather than uses per turn.
+summary: Count limit applies to activations per chain.
 status:
   index: stable
-tags: [ under-construction ]
