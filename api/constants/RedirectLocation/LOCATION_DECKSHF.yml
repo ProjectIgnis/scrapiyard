@@ -1,0 +1,8 @@
+---!constant
+name: LOCATION_DECKSHF
+enum: RedirectLocation
+value: 0x20001
+description: &desc Location for cards shuffled into the Deck upon redirection.
+summary: *desc
+status:
+  index: stable
