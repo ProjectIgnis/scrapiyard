@@ -1,9 +1,0 @@
----!constant
-name: DOUBLE_DAMAGE
-enum: DamageModifier
-value: 0x80000000
-description: >-
-  Double piercing damage, used as the value of EFFECT_PIERCE
-status:
-  index: stable
-tags: [ under-construction ]

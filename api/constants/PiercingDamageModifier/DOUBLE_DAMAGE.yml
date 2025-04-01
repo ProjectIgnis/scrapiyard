@@ -1,0 +1,8 @@
+---!constant
+name: DOUBLE_DAMAGE
+enum: PiercingDamageModifier
+value: 0x80000000
+description: When set as the [value](/api/functions/Effect/SetValue) of a [piercing effect](/api/constants/EffectCode/EFFECT_PIERCE), the damage inflicted is doubled.
+summary: Double piercing damage.
+status:
+  index: stable
