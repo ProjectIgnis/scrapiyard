@@ -1,5 +1,4 @@
 ---!enum
 name: Coin
-description: >-
-  (To be added)
-tags: [ under-construction ]
+description: Represents the result of a coin flip.
+summary: The result of a coin flip.

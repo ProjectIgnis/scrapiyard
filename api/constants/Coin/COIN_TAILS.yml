@@ -2,8 +2,7 @@
 name: COIN_TAILS
 enum: Coin
 value: 1
-description: >-
-  Value for coin results
+description: The result of a coin flip landing on tails.
+summary: Tails
 status:
   index: stable
-tags: [ under-construction ]
