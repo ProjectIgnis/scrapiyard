@@ -2,8 +2,7 @@
 name: SEQ_DECKBOTTOM
 enum: DeckSequence
 value: 1
-description: >-
-  Sequence to be used with Duel.SendtoDeck. Sends the card to the bottom of the Deck
+description: When used as the sequence for [`Duel.SendtoDeck`](/api/functions/Duel/SendtoDeck), the cards are sent to the bottom of the Deck.
+summary: Sending to the bottom of the Deck.
 status:
   index: stable
-tags: [ under-construction ]
