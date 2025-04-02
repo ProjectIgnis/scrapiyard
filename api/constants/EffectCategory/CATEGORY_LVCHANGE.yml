@@ -2,8 +2,8 @@
 name: CATEGORY_LVCHANGE
 enum: EffectCategory
 value: 0x8000000
-description: >-
-  Describes an effect that changes a card's level
+description: An activated effect with this category may modify a monster's Level on resolution.
+summary: Modifies a monster's Level.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ level-related ]

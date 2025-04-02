@@ -2,8 +2,7 @@
 name: CATEGORY_COIN
 enum: EffectCategory
 value: 0x1000000
-description: >-
-  Describes that a card uses a coin
+description: An activated effect with this category may flip a coin(s) on resolution.
+summary: Flips a coin(s).
 status:
   index: stable
-tags: [ under-construction ]

@@ -2,8 +2,7 @@
 name: CATEGORY_COUNTER
 enum: EffectCategory
 value: 0x800000
-description: >-
-  Describes an effect that places Counters
+description: An activated effect with this category may place a counter(s) on a card(s) on resolution.
+summary: Place a counter(s) on a card(s).
 status:
   index: stable
-tags: [ under-construction ]

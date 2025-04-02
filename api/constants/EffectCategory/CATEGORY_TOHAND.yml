@@ -2,8 +2,7 @@
 name: CATEGORY_TOHAND
 enum: EffectCategory
 value: 0x8
-description: >-
-  Describes that an effect adds a card to the hand (from any location)
+description: An activated effect with this category may send a card(s) to the hand on resolution.
+summary: Sends a card(s) to the hand.
 status:
   index: stable
-tags: [ under-construction ]

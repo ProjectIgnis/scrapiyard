@@ -2,8 +2,7 @@
 name: CATEGORY_TOGRAVE
 enum: EffectCategory
 value: 0x20
-description: >-
-  Describes that an effect sends a card to the Graveyard (from any location)
+description: An activated effect with this category may send a card(s) to the GY on resolution.
+summary: Sends a card(s) to the GY.
 status:
   index: stable
-tags: [ under-construction ]

@@ -2,8 +2,7 @@
 name: CATEGORY_TOKEN
 enum: EffectCategory
 value: 0x400
-description: >-
-  Describes that an effect Special Summons a token(s)
+description: An activated effect with this category may Special Summon a Token(s) on resolution.
+summary: Special Summons a Token(s).
 status:
   index: stable
-tags: [ under-construction ]

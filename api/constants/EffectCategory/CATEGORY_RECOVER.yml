@@ -2,8 +2,7 @@
 name: CATEGORY_RECOVER
 enum: EffectCategory
 value: 0x100000
-description: >-
-  Describes that a card recovers life points
+description: An activated effect with this category may make a player(s) gain LP on resolution.
+summary: Makes a player(s) gain LP.
 status:
   index: stable
-tags: [ under-construction ]

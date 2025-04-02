@@ -2,8 +2,7 @@
 name: CATEGORY_DICE
 enum: EffectCategory
 value: 0x2000000
-description: >-
-  Describes that a card uses a dice
+description: An activated effect with this category may roll a six-sided die on resolution.
+summary: Rolls a six-sided die.
 status:
   index: stable
-tags: [ under-construction ]

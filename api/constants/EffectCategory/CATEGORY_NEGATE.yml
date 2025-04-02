@@ -2,8 +2,7 @@
 name: CATEGORY_NEGATE
 enum: EffectCategory
 value: 0x10000000
-description: >-
-  Describes an effect that negates the activation of an effect
+description: An activated effect with this category may negate the **activation** of a card or effect on resolution. For effects that may negate a card **effect**, use [`CATEGORY_DISABLE`](/api/constants/EffectCategory/CATEGORY_DISABLE).
+summary: Negates the activation of a card or effect.
 status:
   index: stable
-tags: [ under-construction ]

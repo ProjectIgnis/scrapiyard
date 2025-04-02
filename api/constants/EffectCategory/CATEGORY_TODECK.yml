@@ -2,8 +2,7 @@
 name: CATEGORY_TODECK
 enum: EffectCategory
 value: 0x10
-description: >-
-  Describes that an effect adds a card to the Deck (from any location)
+description: An activated effect with this category may send a card(s) to the Deck on resolution.
+summary: Sends a card(s) to the Deck.
 status:
   index: stable
-tags: [ under-construction ]

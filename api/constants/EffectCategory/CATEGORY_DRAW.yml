@@ -2,8 +2,7 @@
 name: CATEGORY_DRAW
 enum: EffectCategory
 value: 0x10000
-description: >-
-  Describes that a card draws
+description: An activated effect with this category may draw a card(s) on resolution.
+summary: Draws a card(s).
 status:
   index: stable
-tags: [ under-construction ]

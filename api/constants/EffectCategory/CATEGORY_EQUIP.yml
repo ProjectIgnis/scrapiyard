@@ -2,8 +2,7 @@
 name: CATEGORY_EQUIP
 enum: EffectCategory
 value: 0x40000
-description: >-
-  Describes that a card equips
+description: An activated effect with this category may equip a card(s) to another card on resolution.
+summary: Equips a card(s) to another card.
 status:
   index: stable
-tags: [ under-construction ]
