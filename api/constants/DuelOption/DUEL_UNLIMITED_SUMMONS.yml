@@ -1,0 +1,8 @@
+---!constant
+name: DUEL_UNLIMITED_SUMMONS
+enum: DuelOption
+value: 0x2000000
+description: In Duels with this option, players can perform any number of Normal Summons/Sets per turn.
+summary: Players can perform any number of Normal Summons/Sets.
+status:
+  index: stable

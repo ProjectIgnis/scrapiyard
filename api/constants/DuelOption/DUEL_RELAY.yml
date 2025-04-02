@@ -1,0 +1,8 @@
+---!constant
+name: DUEL_RELAY
+enum: DuelOption
+value: 0x80
+description: In Duels with this option, players in the same team switch to the next when one loses.
+summary: Players in the same team switch to the next when one loses.
+status:
+  index: stable

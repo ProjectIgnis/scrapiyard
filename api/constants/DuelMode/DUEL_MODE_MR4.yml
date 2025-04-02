@@ -1,9 +1,0 @@
----!constant
-name: DUEL_MODE_MR4
-enum: DuelMode
-value: 4
-description: >-
-  A composite flag for DuelModes. (DUEL_PZONE+DUEL_EMZONE+DUEL_SPSUMMON_ONCE_OLD_NEGATE+DUEL_RETURN_TO_DECK_TRIGGERS+DUEL_CANNOT_SUMMON_OATH_OLD)
-status:
-  index: stable
-tags: [ under-construction ]

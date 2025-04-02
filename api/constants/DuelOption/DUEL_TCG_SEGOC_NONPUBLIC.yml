@@ -1,0 +1,11 @@
+---!constant
+name: DUEL_TCG_SEGOC_NONPUBLIC
+enum: DuelOption
+value: 0x100000000
+description: In Duels with this option, Trigger Effects of cards in private locations can be activated in the same timing as other Trigger Effects, following [TCG SEGOC rules](https://yugipedia.com/wiki/Simultaneous_Effects#TCG).
+summary: Private Trigger Effects have the same timing as other Trigger Effects.
+status:
+  index: stable
+suggestedLinks:
+  - name: DUEL_TCG_SEGOC_FIRSTTRIGGER
+    link: api/constants/DuelOption/DUEL_TCG_SEGOC_FIRSTTRIGGER

@@ -1,0 +1,8 @@
+---!constant
+name: DUEL_DRAW_UNTIL_5
+enum: DuelOption
+value: 0x800000
+description: In Duels with this option, players draw cards until they have 5 cards in their hand in the Draw Phase, or draw 1 card if they already have at least 5 cards.
+summary: Players draw cards until they have 5 cards in their hand in the Draw Phase.
+status:
+  index: stable

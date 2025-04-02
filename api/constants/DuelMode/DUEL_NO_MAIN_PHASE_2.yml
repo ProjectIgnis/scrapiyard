@@ -1,9 +1,0 @@
----!constant
-name: DUEL_NO_MAIN_PHASE_2
-enum: DuelMode
-value: 0x200000
-description: >-
-  (To be added)
-status:
-  index: stable
-tags: [ under-construction ]

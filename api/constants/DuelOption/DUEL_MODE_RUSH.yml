@@ -1,0 +1,9 @@
+---!constant
+name: DUEL_MODE_RUSH
+enum: DuelOption
+value: 0x7f20200
+description: A composite Duel option that enforces [Rush Duel](https://yugipedia.com/wiki/Yu-Gi-Oh!_Rush_Duel) rules.
+summary: Rush Duel rules
+status:
+  index: stable
+tags: [ rush, composite-bits ]

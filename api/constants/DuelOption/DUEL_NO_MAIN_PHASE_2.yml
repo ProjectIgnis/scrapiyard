@@ -1,0 +1,8 @@
+---!constant
+name: DUEL_NO_MAIN_PHASE_2
+enum: DuelOption
+value: 0x200000
+description: Duels with this option have no [Main Phase 2](https://yugipedia.com/wiki/Main_Phase_2).
+summary: No Main Phase 2.
+status:
+  index: stable

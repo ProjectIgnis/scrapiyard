@@ -1,0 +1,11 @@
+---!constant
+name: DUEL_TCG_SEGOC_FIRSTTRIGGER
+enum: DuelOption
+value: 0x200000000
+description: In Duels with this option, simultaneous trigger effects on a chain follow [TCG ordering](https://yugipedia.com/wiki/Simultaneous_Effects#TCG).
+summary: Simultaneous trigger effects on a chain follow TCG ordering.
+status:
+  index: stable
+suggestedLinks:
+  - name: DUEL_TCG_SEGOC_NONPUBLIC
+    link: api/constants/DuelOption/DUEL_TCG_SEGOC_NONPUBLIC

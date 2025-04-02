@@ -1,0 +1,8 @@
+---!constant
+name: DUEL_SIMPLE_AI
+enum: DuelOption
+value: 0x40
+description: Duels with this option include a simple AI player that will activate effects and make decisions when prompted.
+summary: Includes a simple AI player.
+status:
+  index: stable

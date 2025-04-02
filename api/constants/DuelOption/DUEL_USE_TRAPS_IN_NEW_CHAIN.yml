@@ -1,0 +1,8 @@
+---!constant
+name: DUEL_USE_TRAPS_IN_NEW_CHAIN
+enum: DuelOption
+value: 0x4
+description: In Duels with this option, a Continuous Trap cannot activate its optional fast effects in the same chain the card itself is activated.
+summary: Continuous Traps cannot activate effects in the same chain they're activated.
+status:
+  index: deprecated

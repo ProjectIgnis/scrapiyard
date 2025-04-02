@@ -1,0 +1,8 @@
+---!constant
+name: DUEL_RETURN_TO_DECK_TRIGGERS
+enum: DuelOption
+value: 0x10000
+description: In Duels with this option, Trigger Effects that are triggered when the card leaves the field can activate when the card is sent to the Deck or Extra Deck.
+summary: Trigger Effects can activate when the card is sent to the Deck.
+status:
+  index: stable

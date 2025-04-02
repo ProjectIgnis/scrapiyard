@@ -1,0 +1,8 @@
+---!constant
+name: DUEL_SINGLE_CHAIN_IN_DAMAGE_SUBSTEP
+enum: DuelOption
+value: 0x40000000
+description: In Duels with this option, only one Chain can occur during each substep of the Damage Step (unless the resolution of one Chain triggers some other effect).
+summary: Only one Chain can occur during each substep of the Damage Step.
+status:
+  index: stable

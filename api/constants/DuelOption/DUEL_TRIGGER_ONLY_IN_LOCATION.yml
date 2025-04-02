@@ -1,0 +1,8 @@
+---!constant
+name: DUEL_TRIGGER_ONLY_IN_LOCATION
+enum: DuelOption
+value: 0x20000
+description: In Duels with this option, Trigger Effects cannot activate if the card was moved from where it fulfilled its activation requirement before its effect activates.
+summary: Trigger Effects cannot activate if the card is moved.
+status:
+  index: stable

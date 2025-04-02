@@ -1,0 +1,8 @@
+---!constant
+name: DUEL_NO_HAND_LIMIT
+enum: DuelOption
+value: 0x1000000
+description: In Duels with this option, players have no hand size limit which would otherwise make them send cards to the GY if exceeded in the End Phase.
+summary: Players have no hand size limit.
+status:
+  index: stable

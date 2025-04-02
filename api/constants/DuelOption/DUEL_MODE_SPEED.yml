@@ -1,0 +1,9 @@
+---!constant
+name: DUEL_MODE_SPEED
+enum: DuelOption
+value: 0x620000
+description: A composite Duel option that enforces [Speed Duel](https://yugipedia.com/wiki/Speed_Duel) rules.
+summary: Speed Duel rules
+status:
+  index: stable
+tags: [ speed, composite-bits ]

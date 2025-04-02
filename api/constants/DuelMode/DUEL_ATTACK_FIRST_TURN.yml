@@ -1,9 +1,0 @@
----!constant
-name: DUEL_ATTACK_FIRST_TURN
-enum: DuelMode
-value: 0x2
-description: >-
-  A flag for DuelModes. You can attack on the first turn
-status:
-  index: stable
-tags: [ under-construction ]

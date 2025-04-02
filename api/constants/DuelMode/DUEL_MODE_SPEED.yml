@@ -1,9 +1,0 @@
----!constant
-name: DUEL_MODE_SPEED
-enum: DuelMode
-value: 0
-description: >-
-  A composite flag for DuelModes. (DUEL_3_COLUMNS_FIELD+DUEL_NO_MAIN_PHASE_2+DUEL_TRIGGER_ONLY_IN_LOCATION)
-status:
-  index: stable
-tags: [ under-construction ]

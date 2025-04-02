@@ -1,0 +1,8 @@
+---!constant
+name: DUEL_INVERTED_QUICK_PRIORITY
+enum: DuelOption
+value: 0x4000000
+description: In Duels with this option, Traps cannot be chained to each other, cannot [miss timing](https://yugipedia.com/wiki/If..._You_Can_VS_When..._You_Can), and can be activated in the Damage Step.
+summary: Traps can't chain to each other or miss timing, but can activate in Damage Step.
+status:
+  index: stable

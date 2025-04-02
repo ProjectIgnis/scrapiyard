@@ -1,0 +1,9 @@
+---!constant
+name: DUEL_MODE_MR3
+enum: DuelOption
+value: 0xd1800
+description: A composite Duel option that enforces [Master Rule 3](https://yugipedia.com/wiki/Master_Rule#Master_Rule_3).
+summary: Master Rule 3
+status:
+  index: stable
+tags: [ composite-bits ]

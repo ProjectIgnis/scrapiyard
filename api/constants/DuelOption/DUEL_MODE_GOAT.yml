@@ -1,0 +1,9 @@
+---!constant
+name: DUEL_MODE_GOAT
+enum: DuelOption
+value: 0x7f80d072c
+description: A composite Duel option that enforces [Goat Format rules](https://www.goatformat.com/rules.html).
+summary: Goat Format rules.
+status:
+  index: stable
+tags: [ composite-bits ]

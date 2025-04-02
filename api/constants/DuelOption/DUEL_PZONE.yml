@@ -1,0 +1,8 @@
+---!constant
+name: DUEL_PZONE
+enum: DuelOption
+value: 0x800
+description: Duels with this option have [Pendulum Zones](https://yugipedia.com/wiki/Pendulum_Zone) integrated in the Spell & Trap Zones. For separate Pendulum Zones, see [`DUEL_SEPARATE_PZONE`](/api/constants/DuelOption/DUEL_SEPARATE_PZONE).
+summary: Includes Pendulum Zones integrated in the Spell & Trap Zones.
+status:
+  index: stable

@@ -1,0 +1,9 @@
+---!constant
+name: DUEL_MODE_MR5
+enum: DuelOption
+value: 0x2e800
+description: A composite Duel option that enforces the [April 1, 2020 revision of the Master Rule](https://yugipedia.com/wiki/Master_Rule#Master_Rule_(April_1,_2020_revision)), colloquially called "Master Rule 5".
+summary: Master Rule (April 1, 2020 revision)
+status:
+  index: stable
+tags: [ composite-bits ]

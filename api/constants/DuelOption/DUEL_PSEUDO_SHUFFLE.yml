@@ -1,0 +1,8 @@
+---!constant
+name: DUEL_PSEUDO_SHUFFLE
+enum: DuelOption
+value: 0x10
+description: In Duels with this option, the Deck is **never** shuffled, whether at the start of the Duel, through rules, or card effects. The EDOPro client may still play the shuffling animation but the cards stay in the same order.
+summary: The Deck is never shuffled.
+status:
+  index: stable

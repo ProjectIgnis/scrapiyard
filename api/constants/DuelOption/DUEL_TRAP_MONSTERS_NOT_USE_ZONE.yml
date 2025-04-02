@@ -1,0 +1,8 @@
+---!constant
+name: DUEL_TRAP_MONSTERS_NOT_USE_ZONE
+enum: DuelOption
+value: 0x8000
+description: In Duels with this option, [Trap Monsters](https://yugipedia.com/wiki/Trap_Monster) do not occupy a Spell & Trap Zone while they are summoned as monsters even if they are still treated as Trap cards.
+summary: Trap Monsters do not occupy a Spell & Trap Zone.
+status:
+  index: stable

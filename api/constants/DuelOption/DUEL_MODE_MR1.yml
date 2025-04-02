@@ -1,0 +1,13 @@
+---!constant
+name: DUEL_MODE_MR1
+enum: DuelOption
+value: 0xd0700
+description: A composite Duel option that enforces the [first iteration of the Master Rule](https://yugipedia.com/wiki/Master_Rule#Master_Rule), colloquially called "Master Rule 1".
+summary: Master Rule
+aliases:
+  - name: DUEL_OBSOLETE_RULING
+    status:
+      index: stable
+status:
+  index: stable
+tags: [ composite-bits ]

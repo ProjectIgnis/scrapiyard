@@ -1,0 +1,11 @@
+---!constant
+name: DUEL_CANNOT_SUMMON_OATH_OLD
+enum: DuelOption
+value: 0x80000
+description: In Duels with this option, negated Summons do not count for Summon restrictions that care about performed Summons. For example, if the Normal Summon of a player's monster was negated, the player would still be able to activate ["Rage with Eyes of Blue"](https://yugipedia.com/wiki/Rage_with_Eyes_of_Blue).
+summary: Negated Summons do not count for restrictions that care about performed Summons.
+status:
+  index: stable
+suggestedLinks:
+  - name: DUEL_SPSUMMON_ONCE_OLD_NEGATE
+    link: /api/constants/DuelOption/DUEL_SPSUMMON_ONCE_OLD_NEGATE

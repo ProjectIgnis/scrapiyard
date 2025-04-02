@@ -1,0 +1,8 @@
+---!constant
+name: DUEL_1_FIELD
+enum: DuelOption
+value: 0x400
+description: In Duels with this option, only 1 Field Spell can be face-up in the Field Zone at once. To activate another Field Spell or place another one face-up, the existing face-up Field Spell is first sent to the GY.
+summary: Only 1 field can be face-up in the Field Zone at once.
+status:
+  index: stable

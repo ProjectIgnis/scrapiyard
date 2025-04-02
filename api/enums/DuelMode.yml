@@ -1,6 +1,0 @@
----!enum
-name: DuelMode
-description: >-
-  (To be added)
-bitmaskInt: true
-tags: [ under-construction ]
