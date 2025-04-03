@@ -1,0 +1,8 @@
+---!constant
+name: EFFECT_FLAG_IGNORE_IMMUNE
+enum: EffectFlag
+value: 0x80
+description: An [effect](/api/types/Effect) with this flag can affect cards even if they are unaffected by effects.
+summary: Can affect cards that are unaffected by effects.
+status:
+  index: stable

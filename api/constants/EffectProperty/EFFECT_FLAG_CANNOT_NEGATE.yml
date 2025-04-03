@@ -1,9 +1,0 @@
----!constant
-name: EFFECT_FLAG_CANNOT_NEGATE
-enum: EffectProperty
-value: 0x200
-description: >-
-  For effects that say "This effect cannot be negated." in their text
-status:
-  index: stable
-tags: [ under-construction ]

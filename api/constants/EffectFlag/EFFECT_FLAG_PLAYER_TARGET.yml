@@ -1,0 +1,8 @@
+---!constant
+name: EFFECT_FLAG_PLAYER_TARGET
+enum: EffectFlag
+value: 0x800
+description: An [effect](/api/types/Effect) with this flag affects a player(s).
+summary: Affects a player(s).
+status:
+  index: stable

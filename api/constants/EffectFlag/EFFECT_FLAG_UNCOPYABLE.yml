@@ -1,0 +1,8 @@
+---!constant
+name: EFFECT_FLAG_UNCOPYABLE
+enum: EffectFlag
+value: 0x40000
+description: An [effect](/api/types/Effect) with this flag cannot be copied by copying effects.
+summary: Cannot be copied by copying effects.
+status:
+  index: stable

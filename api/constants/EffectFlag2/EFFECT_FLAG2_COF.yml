@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_FLAG2_COF
+enum: EffectFlag2
+value: 0x0002
+description: A Normal Spell's [card activation](/api/constants/EffectType/EFFECT_TYPE_ACTIVATE) [effect](/api/types/Effect) with this flag activates during the Standby Phase. The name comes from ["Curse of Fiend"](https://yugipedia.com/wiki/Curse_of_Fiend), the only card that had such effect.
+summary: Normal Spell activation that activates in the Standby Phase.
+status:
+  index: deprecated
+  message: Constant is no longer used by "Curse of Fiend" or any other card.

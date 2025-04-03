@@ -1,0 +1,5 @@
+---!enum
+name: EffectFlag
+description: Constants modifying the behavior of effects, set as the second argument of [`Effect.SetProperty`](/api/functions/Effect/SetProperty).
+summary: Modifiers for effects.
+bitmaskInt: true

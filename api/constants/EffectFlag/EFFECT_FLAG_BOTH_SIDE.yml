@@ -1,0 +1,8 @@
+---!constant
+name: EFFECT_FLAG_BOTH_SIDE
+enum: EffectFlag
+value: 0x1000
+description: An [effect](/api/types/Effect) with this flag can be used by either player.
+summary: Can be used by either player.
+status:
+  index: stable

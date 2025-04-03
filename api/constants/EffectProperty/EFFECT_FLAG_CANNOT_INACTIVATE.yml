@@ -1,9 +1,0 @@
----!constant
-name: EFFECT_FLAG_CANNOT_INACTIVATE
-enum: EffectProperty
-value: 0x2000000
-description: >-
-  An effect with this flag cannot have its activation negated
-status:
-  index: stable
-tags: [ under-construction ]

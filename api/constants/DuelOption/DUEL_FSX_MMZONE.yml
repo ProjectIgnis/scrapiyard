@@ -4,3 +4,5 @@ enum: DuelOption
 value: 0x4000
 description: In Duels with this option, Fusion, Synchro, and Xyz Monsters can be Special Summoned from the Extra Deck to the Main Monster Zone even if they are not Linked.
 summary: Fusion, Synchro, and Xyz Monsters can be Special Summoned to Main Monster Zones.
+status:
+  index: stable

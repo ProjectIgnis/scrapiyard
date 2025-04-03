@@ -1,0 +1,8 @@
+---!constant
+name: EFFECT_FLAG_DAMAGE_STEP
+enum: EffectFlag
+value: 0x4000
+description: An [effect](/api/types/Effect) with this flag can be activated during the [Damage Step](https://yugipedia.com/wiki/Damage_Step).
+summary: Can be activated during the Damage Step.
+status:
+  index: stable

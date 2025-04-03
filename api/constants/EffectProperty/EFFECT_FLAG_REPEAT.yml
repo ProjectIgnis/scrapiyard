@@ -1,9 +1,0 @@
----!constant
-name: EFFECT_FLAG_REPEAT
-enum: EffectProperty
-value: 0x200000
-description: >-
-  God's incarnation's attack power is double counted
-status:
-  index: stable
-tags: [ under-construction ]

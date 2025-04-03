@@ -1,9 +1,0 @@
----!constant
-name: EFFECT_FLAG_COPY_INHERIT
-enum: EffectProperty
-value: 0x2000
-description: >-
-  Effect is inherited by a card that copies it
-status:
-  index: stable
-tags: [ under-construction ]

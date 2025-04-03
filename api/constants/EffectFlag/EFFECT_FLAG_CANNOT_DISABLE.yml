@@ -1,0 +1,8 @@
+---!constant
+name: EFFECT_FLAG_CANNOT_DISABLE
+enum: EffectFlag
+value: 0x400
+description: An [effect](/api/types/Effect) with this flag cannot be negated. If it's an activated effect, its **activation** can still be negated. To prevent activation negation, use [`EFFECT_FLAG_CANNOT_INACTIVATE`](/api/constants/EffectFlag/EFFECT_FLAG_CANNOT_INACTIVATE). Also, effects with this flag cannot become "forbidden" (e.g., due to the effect of ["Prohibition"](https://yugipedia.com/wiki/Prohibition)) unless they also have [`EFFECT_FLAG_CANNOT_NEGATE`](/api/constants/EffectFlag/EFFECT_FLAG_CANNOT_NEGATE).
+summary: Effect cannot be negated.
+status:
+  index: stable

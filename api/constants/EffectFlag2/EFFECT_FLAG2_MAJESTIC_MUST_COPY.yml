@@ -1,0 +1,8 @@
+---!constant
+name: EFFECT_FLAG2_MAJESTIC_MUST_COPY
+enum: EffectFlag2
+value: 0x80000000
+description: An [effect](/api/types/Effect) with this flag can be copied by ["Majestic Star Dragon"](https://yugipedia.com/wiki/Majestic_Star_Dragon) even if it's not an activated effect.
+summary: Non-activated effect that can be copied by "Majestic Star Dragon".
+status:
+  index: stable

@@ -1,0 +1,5 @@
+---!enum
+name: EffectFlag2
+description: Additional constants modifying the behavior of effects, set as the third argument of [`Effect.SetProperty`](/api/functions/Effect/SetProperty). These serve the same purpose as regular [effect flags](/api/enums/EffectFlag), but had to be separated for technical reasons.
+summary: Additional modifiers for effects.
+bitmaskInt: true

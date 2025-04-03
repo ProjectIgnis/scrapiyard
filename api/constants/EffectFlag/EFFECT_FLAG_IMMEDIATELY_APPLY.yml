@@ -1,0 +1,8 @@
+---!constant
+name: EFFECT_FLAG_IMMEDIATELY_APPLY
+enum: EffectFlag
+value: 0x80000000
+description: An [effect](/api/types/Effect) with this flag is applied immediately after being registered. Without this flag, effects are only enabled after certain actions are completed, such as Summoning, moving cards, and activating effects.
+summary: Applies immediately after being registered.
+status:
+  index: stable

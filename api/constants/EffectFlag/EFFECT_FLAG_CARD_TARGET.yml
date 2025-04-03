@@ -1,0 +1,8 @@
+---!constant
+name: EFFECT_FLAG_CARD_TARGET
+enum: EffectFlag
+value: 0x10
+description: An [effect](/api/types/Effect) with this flag [targets](https://yugipedia.com/wiki/Target) a card(s). Without this flag, an effect is not treated to be targetting even if [`Duel.SelectTarget`](/api/functions/Duel/SelectTarget).
+summary: Targets a card(s).
+status:
+  index: stable

@@ -1,0 +1,8 @@
+---!constant
+name: EFFECT_FLAG_EVENT_PLAYER
+enum: EffectFlag
+value: 0x800000
+description: An [effect](/api/types/Effect) with this flag is used by the player associated to the event that prompted it.
+summary: Used by the event player.
+status:
+  index: stable

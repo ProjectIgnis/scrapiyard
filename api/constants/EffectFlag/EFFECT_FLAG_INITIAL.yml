@@ -1,0 +1,8 @@
+---!constant
+name: EFFECT_FLAG_INITIAL
+enum: EffectFlag
+value: 0x1
+description: A card's original [effects](/api/types/Effect) have this flag. This flag is not set directly through scripts, but is automatically added to effects registered inside the `initial_effect` function.
+summary: An original effect of a card.
+status:
+  index: stable

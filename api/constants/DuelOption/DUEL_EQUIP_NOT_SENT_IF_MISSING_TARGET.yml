@@ -4,3 +4,5 @@ enum: DuelOption
 value: 0x8000000
 description: In Duels with this option, Equip Cards are not sent to the GY even if their target is no longer on the field.
 summary: Equip Cards are not sent to the GY if their target leaves the field.
+status:
+  index: stable

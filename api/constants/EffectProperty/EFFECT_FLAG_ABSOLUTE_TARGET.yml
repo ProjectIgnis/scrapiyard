@@ -1,9 +1,0 @@
----!constant
-name: EFFECT_FLAG_ABSOLUTE_TARGET
-enum: EffectProperty
-value: 0x40
-description: >-
-  Target Range does not change due to changes in control
-status:
-  index: stable
-tags: [ under-construction ]

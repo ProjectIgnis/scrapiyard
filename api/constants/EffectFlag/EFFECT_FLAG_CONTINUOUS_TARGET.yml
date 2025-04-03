@@ -1,0 +1,8 @@
+---!constant
+name: EFFECT_FLAG_CONTINUOUS_TARGET
+enum: EffectFlag
+value: 0x8000000
+description: An [effect](/api/types/Effect) with this flag continuously targets a card. Effects that [equip](https://yugipedia.com/wiki/Equip) have this flag inherently.
+summary: Continuously targets a card.
+status:
+  index: stable

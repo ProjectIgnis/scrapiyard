@@ -12,7 +12,7 @@ parameters:
     description: The card that is registering the effect that applies the hint.
   - name: property_code
     type: [ int, nil ]
-    description: Composite [EffectProperty](/api/enums/EffectProperty) to set to the effect in addition to  `EFFECT_FLAG_PLAYER_TARGET|EFFECT_FLAG_CLIENT_HINT`.
+    description: Composite [EffectFlag](/api/enums/EffectFlag) to set to the effect in addition to  `EFFECT_FLAG_PLAYER_TARGET|EFFECT_FLAG_CLIENT_HINT`.
   - name: reg_player
     type: [ int ]
     description: The player registering the effect.

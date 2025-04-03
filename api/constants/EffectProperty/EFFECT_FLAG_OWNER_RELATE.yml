@@ -1,9 +1,0 @@
----!constant
-name: EFFECT_FLAG_OWNER_RELATE
-enum: EffectProperty
-value: 0x1000000
-description: >-
-  Continues to be the object
-status:
-  index: stable
-tags: [ under-construction ]

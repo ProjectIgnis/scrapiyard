@@ -34,7 +34,7 @@ parameters:
   - name: prop
     type: [ int ]
     description: >-
-      [EffectProperty](/api/enums/EffectProperty) of the equipping effect.
+      [EffectFlag](/api/enums/EffectFlag) of the equipping effect.
 returns:
   - type: [ Effect ]
     description: The resulting [Effect](/api/types/Effect).

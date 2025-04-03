@@ -1,0 +1,8 @@
+---!constant
+name: EFFECT_FLAG2_CHECK_SIMULTANEOUS
+enum: EffectFlag2
+value: 0x0004
+description: A [card activation](/api/constants/EffectType/EFFECT_TYPE_ACTIVATE) [effect](/api/types/Effect) with this flag must be activated in the [location](/api/enums/Location) specified in [`Effect.SetRange`](/api/functions/Effect/SetRange).
+summary: Card activation that must be activated in a given location.
+status:
+  index: stable

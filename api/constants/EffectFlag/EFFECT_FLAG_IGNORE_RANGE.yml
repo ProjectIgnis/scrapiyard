@@ -1,0 +1,8 @@
+---!constant
+name: EFFECT_FLAG_IGNORE_RANGE
+enum: EffectFlag
+value: 0x20
+description: An [effect](/api/types/Effect) with this flag affects cards of a player(s) in all locations.
+summary: Affects cards of a player(s) in all locations.
+status:
+  index: stable

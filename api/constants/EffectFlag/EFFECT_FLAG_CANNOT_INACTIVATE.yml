@@ -1,0 +1,8 @@
+---!constant
+name: EFFECT_FLAG_CANNOT_INACTIVATE
+enum: EffectFlag
+value: 0x2000000
+description: An [effect](/api/types/Effect) with this flag cannot have its **activation** negated. The effect itself can still be negated. To prevent effect negation, use [`EFFECT_FLAG_CANNOT_DISABLE`](/api/constants/EffectFlag/EFFECT_FLAG_CANNOT_DISABLE).
+summary: Effect activation cannot be negated.
+status:
+  index: stable

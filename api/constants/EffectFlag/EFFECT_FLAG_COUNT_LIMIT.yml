@@ -1,0 +1,8 @@
+---!constant
+name: EFFECT_FLAG_COUNT_LIMIT
+enum: EffectFlag
+value: 0x4
+description: An [effect](/api/types/Effect) with this flag can only be used a limited number of times. This flag is usually not through scripts directly, but is automatically added when calling [`Effect.SetCountLimit`](/api/functions/Effect/SetCountLimit).
+summary: Can only be used a limited number of times.
+status:
+  index: stable

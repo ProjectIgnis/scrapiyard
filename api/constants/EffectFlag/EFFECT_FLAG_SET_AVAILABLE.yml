@@ -1,0 +1,8 @@
+---!constant
+name: EFFECT_FLAG_SET_AVAILABLE
+enum: EffectFlag
+value: 0x100
+description: An [effect](/api/types/Effect) with this flag also applies to face-down cards.
+summary: Also applies to face-down cards.
+status:
+  index: stable
