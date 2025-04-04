@@ -2,8 +2,7 @@
 name: EFFECT_TYPE_XMATERIAL
 enum: EffectType
 value: 0x1000
-description: >-
-  Applies an effect to a monster that has this card as Xyz Material (see "Zoodiac" cards)
+description: The type for [effects](/api/types/Effect) that are granted by Xyz materials to the Xyz monster they are attached to.
+summary: Granted by Xyz materials to the Xyz monster they are attached to
 status:
   index: stable
-tags: [ under-construction ]

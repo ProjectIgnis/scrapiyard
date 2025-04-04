@@ -2,8 +2,7 @@
 name: EFFECT_TYPE_QUICK_O
 enum: EffectType
 value: 0x100
-description: >-
-  Optional Quick effect
+description: The type for **optional** [fast](https://yugipedia.com/wiki/Fast_effect) [effects](/api/types/Effect), i.e., [Spell Speed 2](https://yugipedia.com/wiki/Spell_Speed_2) effects that the player can choose to activate when their condition is met. The exceptions to this are Spell/Trap Card activation effects, which should have [`EFFECT_TYPE_ACTIVATE`](/api/constants/EffectType/EFFECT_TYPE_ACTIVATE) instead even if they are Spell Speed 2 (e.g., Normal Traps and Quick-Play Spells).
+summary: Optional fast effect
 status:
   index: stable
-tags: [ under-construction ]

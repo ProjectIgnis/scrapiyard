@@ -2,8 +2,7 @@
 name: EFFECT_TYPE_SINGLE
 enum: EffectType
 value: 0x1
-description: >-
-  An effect that applies only to itself. When used with trigger effects, this makes the card look for the event only when it happens to itself.
+description: The type for [effects](/api/types/Effect) that only apply to the card it belongs to. If combined with [`EFFECT_TYPE_CONTINUOUS`](/api/constants/EffectType/EFFECT_TYPE_CONTINUOUS), [`EFFECT_TYPE_TRIGGER_F`](/api/constants/EffectType/EFFECT_TYPE_TRIGGER_F), or [`EFFECT_TYPE_TRIGGER_O`](/api/constants/EffectType/EFFECT_TYPE_TRIGGER_O), the effect will only be prompted or triggered when the event specified in [`Effect.SetCode`](/api/functions/Effect/SetCode) happens to the card itself.
+summary: Applies only to the handler, or listens for events happening to the handler
 status:
   index: stable
-tags: [ under-construction ]

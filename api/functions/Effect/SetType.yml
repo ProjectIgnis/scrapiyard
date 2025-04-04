@@ -1,15 +1,14 @@
 ---!function
 name: SetType
 namespace: Effect
-description: >-
-  Sets an effect's (Effect e) type. constant.lua contains the list with all valid EffectTypes but other cards' scripts can be used as reference
+description: &desc Sets the type(s) of an effect.
+summary: *desc
 status:
   index: stable
 parameters:
   - name: e
     type: [ Effect ]
-    description: (To be added)
+    description: The effect to set the type of.
   - name: type
     type: [ int ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: Composite [EffectType](/api/enums/EffectType) value to set as the effect's type(s).

@@ -2,8 +2,7 @@
 name: EFFECT_TYPE_GRANT
 enum: EffectType
 value: 0x2000
-description: >-
-  Provides an effect to other cards (see "The Weather" cards)
+description: The type for [effects](/api/types/Effect) that grant another effect to other cards, e.g., ["The Weather"](https://yugipedia.com/wiki/The_Weather) Continous Spells and Traps. The effect to be granted must be set as the [label object](/api/functions/Effect/SetLabelObject) of the effect with this type. This excludes effects that are granted by Xyz materials to the Xyz monster they are attached to, which should have [`EFFECT_TYPE_XMATERIAL`](/api/constants/EffectType/EFFECT_TYPE_XMATERIAL) instead.
+summary: Grants another effect to other cards
 status:
   index: stable
-tags: [ under-construction ]

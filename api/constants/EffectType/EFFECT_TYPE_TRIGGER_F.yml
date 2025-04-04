@@ -2,8 +2,8 @@
 name: EFFECT_TYPE_TRIGGER_F
 enum: EffectType
 value: 0x200
-description: >-
-  Mandatory Trigger effect
+description: The type for **mandatory** [Trigger](https://yugipedia.com/wiki/Trigger_Effect) [Effects](/api/types/Effect), i.e., [Spell Speed 1](https://yugipedia.com/wiki/Spell_Speed_1) effects that will always activate *in a new Chain* after their condition is met.
+summary: Mandatory Trigger Effect
 status:
   index: stable
-tags: [ under-construction ]
+

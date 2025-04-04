@@ -2,8 +2,7 @@
 name: EFFECT_TYPE_QUICK_F
 enum: EffectType
 value: 0x400
-description: >-
-  Mandatory Quick Effect (such as Light and Darkness Dragon)
+description: The type for **mandatory** [fast](https://yugipedia.com/wiki/Fast_effect) [effects](/api/types/Effect), i.e., [Spell Speed 2](https://yugipedia.com/wiki/Spell_Speed_2) effects that will always activate when their condition is met.
+summary: Mandatory fast effect
 status:
   index: stable
-tags: [ under-construction ]

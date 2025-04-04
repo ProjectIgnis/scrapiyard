@@ -2,8 +2,7 @@
 name: EFFECT_TYPE_TRIGGER_O
 enum: EffectType
 value: 0x80
-description: >-
-  Optional Trigger effect
+description: The type for **optional** [Trigger](https://yugipedia.com/wiki/Trigger_Effect) [Effects](/api/types/Effect), i.e., [Spell Speed 1](https://yugipedia.com/wiki/Spell_Speed_1) effects that the player can choose to activate *in a new Chain* after their condition is met.
+summary: Optional Trigger Effect
 status:
   index: stable
-tags: [ under-construction ]

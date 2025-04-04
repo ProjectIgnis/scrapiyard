@@ -2,8 +2,8 @@
 name: EFFECT_TYPE_TARGET
 enum: EffectType
 value: 0x4000
-description: >-
-  Currently not used by any cards. Evaluated by the core in the following functions: effect::is_target, effect::is_available, card::add_effect and card::remove_effect
+description: The type for Spell/Trap [effects](/api/types/Effect) that continuously target a card.
+summary: Continuously targets a card
 status:
-  index: stable
-tags: [ under-construction ]
+  index: deprecated
+  message: Constant is unused, and there are functions that handle continuous targetting.

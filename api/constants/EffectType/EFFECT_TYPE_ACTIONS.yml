@@ -2,8 +2,7 @@
 name: EFFECT_TYPE_ACTIONS
 enum: EffectType
 value: 0x8
-description: >-
-  Effects that trigger. (Added to effects automatically)
+description: The type for [activated](https://yugipedia.com/wiki/Activate) [effects](/api/types/Effect), i.e., effects that form a Chain Link. This type is not set directly through scripts, but is added automatically depending on the effect's other types.
+summary: Activated effect
 status:
   index: stable
-tags: [ under-construction ]

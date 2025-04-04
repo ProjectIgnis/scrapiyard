@@ -2,8 +2,7 @@
 name: EFFECT_TYPE_IGNITION
 enum: EffectType
 value: 0x40
-description: >-
-  An effect that the turn player chooses to apply during their Main Phase, in a open game state. It is Speed Spell 1
+description: The type for [Ignition Effects](https://yugipedia.com/wiki/Ignition_Effect), i.e., [Spell Speed 1](https://yugipedia.com/wiki/Spell_Speed_1) effects that the turn player can choose to activate during their Main Phase in an open game state.
+summary: Ignition Effect
 status:
   index: stable
-tags: [ under-construction ]

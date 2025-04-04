@@ -1,15 +1,14 @@
 ---!function
 name: GetType
 namespace: Effect
-description: >-
-  Gets an effect's (Effect e) type
+description: &desc Returns the type(s) of an effect.
+summary: Gets the type(s) of an effect.
 status:
   index: stable
 parameters:
   - name: e
     type: [ Effect ]
-    description: (To be added)
+    description: The effect to get the type(s) of.
 returns:
   - type: [ int ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: Composite [EffectType](/api/enums/EffectType) value representing the effect's type(s).
