@@ -2,8 +2,7 @@
 name: EVENT_ATTACK_DISABLED
 enum: Event
 value: 1142
-description: >-
-  This event is raised when an attack is negated
+description: This event is raised when an attack is negated.
+summary: An attack is negated.
 status:
   index: stable
-tags: [ under-construction ]

@@ -2,8 +2,7 @@
 name: EVENT_CHAINING
 enum: Event
 value: 1027
-description: >-
-  This event is raised when a chain is being built
+description: This event is raised when an effect is activated, i.e., a Chain Link is created.
+summary: An effect is activated, creating a Chain Link.
 status:
   index: stable
-tags: [ under-construction ]

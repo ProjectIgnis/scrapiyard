@@ -2,8 +2,12 @@
 name: EVENT_FLIP_SUMMON_NEGATED
 enum: Event
 value: 1115
-description: >-
-  This event is raised when a Flip Summon is negated
+description: This event is raised when the [Flip Summon](https://yugipedia.com/wiki/Flip_Summon) of a monster is negated.
+summary: The Flip Summon of a monster is negated.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EVENT_SUMMON_NEGATED
+    link: /api/constants/Event/EVENT_SUMMON
+  - name: EVENT_SPSUMMON_NEGATED
+    link: /api/constants/Event/EVENT_SPSUMMON

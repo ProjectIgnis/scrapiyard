@@ -2,8 +2,7 @@
 name: EVENT_FLIP
 enum: Event
 value: 1001
-description: >-
-  This event is raised when a card is flipped face-up
+description: This event is raised when a card is flipped face-up. It does not cover flipping face-down, for which [`EVENT_CHANGE_POS`](/api/constants/Event/EVENT_CHANGE_POS) should be used instead.
+summary: A card(s) is flipped face-up.
 status:
   index: stable
-tags: [ under-construction ]

@@ -2,8 +2,7 @@
 name: EVENT_TO_HAND
 enum: Event
 value: 1012
-description: >-
-  This event is raised when a card is sent to the hand (includes draw, search and return)
+description: This event is raised when a card(s) is added to the hand.
+summary: A card(s) is added to the hand.
 status:
   index: stable
-tags: [ under-construction ]

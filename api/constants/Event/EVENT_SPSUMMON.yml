@@ -2,8 +2,13 @@
 name: EVENT_SPSUMMON
 enum: Event
 value: 1105
-description: >-
-  This event is raised when a monster is being Special Summoned (this is an attempt to perform a Special Summon, aka "when a monster would be Special Summoned", for example, Solemn Strike's timing)
+description: This event is raised when a monster would be [Special Summoned](https://yugipedia.com/wiki/Special_Summon). This is when cards like ["Solemn Judgment"](https://yugipedia.com/wiki/Solemn_Judgment) can respond, as opposed to [`EVENT_SPSUMMON_SUCCESS`](/api/constants/Event/EVENT_SPSUMMON_SUCCESS), which is raised when the Special Summon is completed.
+summary: A monster would be Special Summoned.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EVENT_FLIP_SUMMON
+    link: /api/constants/Event/EVENT_FLIP_SUMMON
+  - name: EVENT_SUMMON
+    link: /api/constants/Event/EVENT_SUMMON
+

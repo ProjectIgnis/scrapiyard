@@ -2,8 +2,7 @@
 name: EVENT_ADD_COUNTER
 enum: Event
 value: 0x10000
-description: >-
-  This event is raised when a counter is placed on cards
+description: This event is raised when a counter(s) is placed on a card(s).
+summary: A counter(s) is placed on a card(s).
 status:
   index: stable
-tags: [ under-construction ]

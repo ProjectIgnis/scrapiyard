@@ -2,8 +2,7 @@
 name: EVENT_CONTROL_CHANGED
 enum: Event
 value: 1120
-description: >-
-  When control of a card changes
+description: This event is raised when the control of a card changes.
+summary: The control of a card is changed.
 status:
   index: stable
-tags: [ under-construction ]

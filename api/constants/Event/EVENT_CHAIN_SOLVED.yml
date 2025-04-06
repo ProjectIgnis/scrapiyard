@@ -2,8 +2,7 @@
 name: EVENT_CHAIN_SOLVED
 enum: Event
 value: 1022
-description: >-
-  This event is raised after a Chain Link resolves
+description: This event is raised when a Chain Link has finished resolving.
+summary: A Chain Link has finished resolving.
 status:
   index: stable
-tags: [ under-construction ]

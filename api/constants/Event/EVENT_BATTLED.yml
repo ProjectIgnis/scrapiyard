@@ -2,8 +2,7 @@
 name: EVENT_BATTLED
 enum: Event
 value: 1138
-description: >-
-  After battle
+description: This event is raised after [damage calculation](https://yugipedia.com/wiki/Damage_calculation).
+summary: After damage calculation.
 status:
   index: stable
-tags: [ under-construction ]

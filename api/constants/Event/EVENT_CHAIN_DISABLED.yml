@@ -2,8 +2,7 @@
 name: EVENT_CHAIN_DISABLED
 enum: Event
 value: 1025
-description: >-
-  This event is raised when the effect of a Chain Link is negated
+description: This event is raised when the effect of Chain Link is negated. This does not include when the **activation** of an effect is negated ([`EVENT_CHAIN_NEGATED`](/api/constants/Event/EVENT_CHAIN_NEGATED) is raised instead).
+summary: The effect of a Chain Link is negated.
 status:
   index: stable
-tags: [ under-construction ]

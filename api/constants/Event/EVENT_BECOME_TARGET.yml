@@ -2,8 +2,7 @@
 name: EVENT_BECOME_TARGET
 enum: Event
 value: 1028
-description: >-
-  This event is raised when a card is targeted for an effect
+description: This event is raised when a card(s) is [targeted](https://yugipedia.com/wiki/Target) by an effect.
+summary: A card(s) is targeted by an effect.
 status:
   index: stable
-tags: [ under-construction ]

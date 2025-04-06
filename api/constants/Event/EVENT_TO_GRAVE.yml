@@ -2,8 +2,7 @@
 name: EVENT_TO_GRAVE
 enum: Event
 value: 1014
-description: >-
-  This event is raised when a card is sent to the graveyard
+description: This event is raised when a card(s) is sent to the GY.
+summary: A card(s) is sent to the GY.
 status:
   index: stable
-tags: [ under-construction ]

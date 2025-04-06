@@ -2,8 +2,12 @@
 name: EVENT_SPSUMMON_SUCCESS
 enum: Event
 value: 1102
-description: >-
-  This event is raised when a monster is successfully Special Summoned  (which is timing for cards like Torrential Tribute)
+description: This event is raised when a monster is Special Summoned successfully. This is when cards like ["Bottomless Trap Hole"](https://yugipedia.com/wiki/Bottomless_Trap_Hole) can respond, as opposed to [`EVENT_SPSUMMON`](/api/constants/Event/EVENT_SPSUMMON), which is raised when a monster is about to be Special Summoned.
+summary: A monster is Special Summoned successfully.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EVENT_FLIP_SUMMON_SUCCESS
+    link: /api/constants/Event/EVENT_FLIP_SUMMON_SUCCESS
+  - name: EVENT_SUMMON_SUCCESS
+    link: /api/constants/Event/EVENT_SUMMON_SUCCESS

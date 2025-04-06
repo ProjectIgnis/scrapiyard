@@ -2,8 +2,7 @@
 name: EVENT_BATTLE_START
 enum: Event
 value: 1132
-description: >-
-  The start of the damage step
+description: This event is raised at the start of the [Damage Step](https://yugipedia.com/wiki/Damage_Step).
+summary: Start of the Damage Step.
 status:
   index: stable
-tags: [ under-construction ]

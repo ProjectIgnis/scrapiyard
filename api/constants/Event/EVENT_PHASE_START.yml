@@ -2,8 +2,11 @@
 name: EVENT_PHASE_START
 enum: Event
 value: 0x2000
-description: >-
-  This event is raised at the start of a certain phase (the required Phase value must be added to it)
+description: This event is raised at the start of a given [phase](api/enums/Phase), specified by combining it with the corresponding phase value (e.g., `EVENT_PHASE_START|PHASE_DRAW` for the start of the Draw Phase).
+summary: The start of a given phase.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EVENT_PHASE
+    link: /api/constants/Event/EVENT_PHASE
+# TODO: investigate when this should be used instead of EVENT_PHASE

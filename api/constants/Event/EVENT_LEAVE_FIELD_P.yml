@@ -2,8 +2,10 @@
 name: EVENT_LEAVE_FIELD_P
 enum: Event
 value: 1019
-description: >-
-  This event is raised when a card would leave the field (but before it actually leaves, so it still contains info on the field). Example of usage: in "Predaplanet", it is used to check if the card has Predacounters immediately before it leaves the field.
+description: This event is raised when a card(s) is about to leave the field. This allows accessing information about a card that might change once it leaves the field and [`EVENT_LEAVE_FIELD`](/api/constants/Event/EVENT_LEAVE_FIELD) is raised, such as its type, attribute, counters placed on it, and effects applied to it.
+summary: A card(s) is about to leave the field.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EVENT_DESTROY
+    link: /api/constants/Event/EVENT_DESTROY

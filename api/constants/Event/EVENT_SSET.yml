@@ -2,8 +2,7 @@
 name: EVENT_SSET
 enum: Event
 value: 1107
-description: >-
-  This event is raised when a Spell/Trap is set
+description: This event is raised when a Spell/Trap Card is [Set](https://yugipedia.com/wiki/Set).
+summary: A Spell/Trap Card is set.
 status:
   index: stable
-tags: [ under-construction ]

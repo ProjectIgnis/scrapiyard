@@ -2,8 +2,7 @@
 name: EVENT_REMOVE_COUNTER
 enum: Event
 value: 0x20000
-description: >-
-  This event is raised when a counter is removed from cards
+description: This event is raised when a counter is removed from cards.
+summary: A counter is removed from cards.
 status:
   index: stable
-tags: [ under-construction ]

@@ -2,8 +2,12 @@
 name: EVENT_SPSUMMON_NEGATED
 enum: Event
 value: 1116
-description: >-
-  This event is raised when a Special Summon is negated
+description: This event is raised when the [Special Summon](https://yugipedia.com/wiki/Special_Summon) of a monster is negated.
+summary: The Special Summon of a monster is negated.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EVENT_FLIP_SUMMON_NEGATED
+    link: /api/constants/Event/EVENT_FLIP_SUMMON_NEGATED
+  - name: EVENT_SUMMON_NEGATED
+    link: /api/constants/Event/EVENT_SUMMON_NEGATED

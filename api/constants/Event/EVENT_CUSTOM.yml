@@ -2,8 +2,7 @@
 name: EVENT_CUSTOM
 enum: Event
 value: 0x10000000
-description: >-
-  For custom events (Eg. Activate an effect of a card indicating `EVENT_CUSTOM+code`)
+description: This is added to a custom ID (e.g., `EVENT_CUSTOM+id`) to create a custom event which can be manually raised using [`Duel.RaiseEvent`](/api/functions/Duel/RaiseEvent) or [`Duel.RaiseSingleEvent`](/api/functions/Duel/RaiseSingleEvent).
+summary: Added to a custom ID to create a custom event.
 status:
   index: stable
-tags: [ under-construction ]

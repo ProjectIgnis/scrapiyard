@@ -2,8 +2,7 @@
 name: EVENT_TOSS_COIN
 enum: Event
 value: 1151
-description: >-
-  This event is raised when coins are flipped
+description: This event is raised when a coin is tossed. At this point, the result is final and the toss can no longer be redone, unlike [`EVENT_TOSS_COIN_NEGATE`](/api/constants/Event/EVENT_TOSS_COIN_NEGATE).
+summary: A coin is tossed.
 status:
   index: stable
-tags: [ under-construction ]

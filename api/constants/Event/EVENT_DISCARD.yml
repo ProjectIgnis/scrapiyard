@@ -2,8 +2,7 @@
 name: EVENT_DISCARD
 enum: Event
 value: 1018
-description: >-
-  This event is raised when a card is discarded
+description: This event is raised when a card(s) is [discarded](https://yugipedia.com/wiki/Discard).
+summary: A card(s) is discarded.
 status:
   index: stable
-tags: [ under-construction ]

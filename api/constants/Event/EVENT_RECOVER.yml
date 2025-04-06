@@ -2,8 +2,7 @@
 name: EVENT_RECOVER
 enum: Event
 value: 1112
-description: >-
-  When LP is gained
+description: This event is raised when a player gains LP.
+summary: A player gained LP.
 status:
   index: stable
-tags: [ under-construction ]

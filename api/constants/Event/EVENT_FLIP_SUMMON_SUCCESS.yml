@@ -2,8 +2,7 @@
 name: EVENT_FLIP_SUMMON_SUCCESS
 enum: Event
 value: 1101
-description: >-
-  This event is raised when a monster is successfully Flip Summoned (which is timing for cards like Trap Hole)
+description: This event is raised when a monster is Flip Summoned successfully. This is when cards like ["Bottomless Trap Hole"](https://yugipedia.com/wiki/Bottomless_Trap_Hole) can respond, as opposed to [`EVENT_FLIP_SUMMON`](/api/constants/Event/EVENT_FLIP_SUMMON), which is raised when a monster is about to be Flip Summoned.
+summary: A monster is Flip Summoned successfully.
 status:
   index: stable
-tags: [ under-construction ]

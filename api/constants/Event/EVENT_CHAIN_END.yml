@@ -2,8 +2,7 @@
 name: EVENT_CHAIN_END
 enum: Event
 value: 1026
-description: >-
-  This event is raised when a Chain has fully resolved
+description: This event is raised when an entire Chain has fully resolved.
+summary: A Chain has fully resolved.
 status:
   index: stable
-tags: [ under-construction ]

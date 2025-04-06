@@ -2,8 +2,7 @@
 name: EVENT_BE_PRE_MATERIAL
 enum: Event
 value: 1109
-description: >-
-  Will be used as a fusion / ceremony of the same tune / excessive material
+description: This event is raised when a card(s) is about to be used as a material for a Summon. Since the event is raised **before** a Summon is conducted, it is typically used to check or store some information that might change after the Summon, since [`EVENT_BE_MATERIAL`](/api/constants/Event/EVENT_BE_MATERIAL) would be raised too late.
+summary: A card(s) is about to be used as a material for a Summon.
 status:
   index: stable
-tags: [ under-construction ]
