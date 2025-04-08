@@ -1,0 +1,9 @@
+---!constant
+name: HINT_SKILL_FLIP
+enum: SkillHint
+value: 202
+description: Sets the position of the displayed Skill Card (face-up or face-down). The hint value should be `0x100000000` for face-up and `0x200000000` for face-down. The displayed Skill Card can also be changed by adding the new Skill Card's passcode to the hint value.
+summary: Sets the position of the displayed Skill Card.
+status:
+  index: stable
+

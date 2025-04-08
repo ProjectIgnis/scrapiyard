@@ -1,0 +1,4 @@
+---!enum
+name: SkillHint
+description: Constants used as the hint type for [`Duel.SetHint`](/api/functions/Duel/Duel.SetHint) to control the displayed [Skill](https://yugipedia.com/wiki/Skill) Card.
+summary: Constants controlling the displayed Skill Card.

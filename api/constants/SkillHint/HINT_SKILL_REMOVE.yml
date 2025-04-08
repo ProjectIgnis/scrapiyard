@@ -1,0 +1,8 @@
+---!constant
+name: HINT_SKILL_REMOVE
+enum: SkillHint
+value: 203
+description: &desc Removes the displayed Skill Card.
+summary: *desc
+status:
+  index: stable
