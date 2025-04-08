@@ -2,8 +2,7 @@
 name: LOCATION_REASON_COUNT
 enum: LocationReason
 value: 0x4
-description: >-
-  Duel.GetLocationCount() for DisableField
+description: This is used as the reason when checking if there is a zone that can be disabled (become unusable).
+summary: If there is a zone that can be disabled.
 status:
   index: stable
-tags: [ under-construction ]

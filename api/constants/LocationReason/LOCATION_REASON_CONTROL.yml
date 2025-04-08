@@ -2,8 +2,7 @@
 name: LOCATION_REASON_CONTROL
 enum: LocationReason
 value: 0x2
-description: >-
-  Used by Card.IsControlerCanBeChanged()
+description: This is used as the reason when checking if a zone is available for the purpose of changing the control of a monster. For example, to take control of an opponent's monster, a player must have at least one Main Monster Zone available.
+summary: If a zone is available for the purpose of changing the control of a monster.
 status:
   index: stable
-tags: [ under-construction ]

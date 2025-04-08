@@ -1,6 +1,5 @@
 ---!enum
 name: LocationReason
-description: >-
-  (To be added)
+description: Constants used as the reason for [`Duel.GetLocationCount`](/api/functions/Duel/GetLocationCount) when checking if a zone is available for a specific purpose.
+summary: Reasons for checking if a zone is available.
 bitmaskInt: true
-tags: [ under-construction ]
