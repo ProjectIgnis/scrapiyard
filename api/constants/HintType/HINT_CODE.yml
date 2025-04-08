@@ -1,9 +1,0 @@
----!constant
-name: HINT_CODE
-enum: HintType
-value: 8
-description: >-
-  Used with "Booster Draft Duel"
-status:
-  index: stable
-tags: [ under-construction ]

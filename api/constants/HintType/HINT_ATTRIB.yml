@@ -1,9 +1,0 @@
----!constant
-name: HINT_ATTRIB
-enum: HintType
-value: 7
-description: >-
-  Called when selecting/declaring an attribute
-status:
-  index: stable
-tags: [ under-construction ]

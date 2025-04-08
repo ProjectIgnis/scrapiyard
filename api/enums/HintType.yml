@@ -1,5 +1,4 @@
 ---!enum
 name: HintType
-description: >-
-  (To be added)
-tags: [ under-construction ]
+description: Constants for types of hints displayed to the player for various prompts.
+summary: Types of hints.

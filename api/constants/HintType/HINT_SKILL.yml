@@ -1,9 +1,0 @@
----!constant
-name: HINT_SKILL
-enum: HintType
-value: 200
-description: >-
-  Sets the code of a skill card. If it is called first, the skill is created face-up.
-status:
-  index: stable
-tags: [ under-construction ]
