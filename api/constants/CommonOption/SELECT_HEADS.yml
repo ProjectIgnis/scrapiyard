@@ -1,0 +1,8 @@
+---!constant
+name: SELECT_HEADS
+enum: CommonOption
+value: 60
+description: Displays "Heads" as an option for the player to select. Used for effects that make the player declare a coin result (Heads or [Tails](/api/constants/CommonOption/SELECT_TAILS)).
+summary: '"Heads"'
+status:
+  index: stable

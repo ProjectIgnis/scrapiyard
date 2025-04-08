@@ -1,9 +1,0 @@
----!constant
-name: DECLTYPE_TRAP
-enum: HintMessage
-value: 72
-description: >-
-  Constant to be used with CardType declaration
-status:
-  index: stable
-tags: [ under-construction ]

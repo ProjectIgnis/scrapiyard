@@ -1,0 +1,8 @@
+---!constant
+name: DECLTYPE_SPELL
+enum: CommonOption
+value: 71
+description: Displays "Spell" as an option for the player to select. Used for effects that make the player declare a card type ([Monster](/api/constants/CommonOption/DECLTYPE_MONSTER), Spell, or [Trap](/api/constants/CommonOption/DECLTYPE_TRAP)).
+summary: '"Spell"'
+status:
+  index: stable

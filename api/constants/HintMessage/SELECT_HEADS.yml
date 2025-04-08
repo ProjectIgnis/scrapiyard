@@ -1,9 +1,0 @@
----!constant
-name: SELECT_HEADS
-enum: HintMessage
-value: 60
-description: >-
-  Display "Heads". Used as description when an effect required the player to select heads/tails
-status:
-  index: stable
-tags: [ under-construction ]
