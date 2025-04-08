@@ -3,7 +3,7 @@ name: HINTMSG_CONTROL
 enum: HintMessage
 value: 520
 description: >-
-  Shows the following HintMessage: "Select the monster(s) to change control"
+  Shows the following hint to the player when selecting a card(s): "Select the monster(s) to change control"
+summary: '"Select the monster(s) to change control"'
 status:
   index: stable
-tags: [ under-construction ]

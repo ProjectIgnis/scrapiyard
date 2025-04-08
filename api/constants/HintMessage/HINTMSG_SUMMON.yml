@@ -3,7 +3,7 @@ name: HINTMSG_SUMMON
 enum: HintMessage
 value: 508
 description: >-
-  Shows the following HintMessage: "Select the card(s) to Normal Summon"
+  Shows the following hint to the player when selecting a card(s): "Select the card(s) to Normal Summon"
+summary: '"Select the card(s) to Normal Summon"'
 status:
   index: stable
-tags: [ under-construction ]

@@ -3,7 +3,7 @@ name: HINTMSG_TOFIELD
 enum: HintMessage
 value: 527
 description: >-
-  Shows the following HintMessage: "Select the card(s) to place on the field"
+  Shows the following hint to the player when selecting a card(s): "Select the card(s) to place on the field"
+summary: '"Select the card(s) to place on the field"'
 status:
   index: stable
-tags: [ under-construction ]

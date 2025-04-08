@@ -3,7 +3,7 @@ name: HINTMSG_DISCARD
 enum: HintMessage
 value: 501
 description: >-
-  Shows the following HintMessage: "Select the card(s) to discard"
+  Shows the following hint to the player when selecting a card(s): "Select the card(s) to discard"
+summary: '"Select the card(s) to discard"'
 status:
   index: stable
-tags: [ under-construction ]

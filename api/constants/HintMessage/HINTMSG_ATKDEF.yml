@@ -3,7 +3,7 @@ name: HINTMSG_ATKDEF
 enum: HintMessage
 value: 576
 description: >-
-  Shows the following HintMessage: "Select the card(s) to change its ATK/DEF"
+  Shows the following hint to the player when selecting a card(s): "Select the card(s) to change its ATK/DEF"
+summary: '"Select the card(s) to change its ATK/DEF"'
 status:
   index: stable
-tags: [ under-construction ]

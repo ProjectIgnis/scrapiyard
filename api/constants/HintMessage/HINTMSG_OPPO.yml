@@ -3,7 +3,7 @@ name: HINTMSG_OPPO
 enum: HintMessage
 value: 530
 description: >-
-  Shows the following HintMessage: "Select an opponent's card"
+  Shows the following hint to the player when selecting a card(s): "Select an opponent's card"
+summary: '"Select an opponent\'s card"'
 status:
   index: stable
-tags: [ under-construction ]

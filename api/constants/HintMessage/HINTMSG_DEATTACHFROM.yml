@@ -3,7 +3,7 @@ name: HINTMSG_DEATTACHFROM
 enum: HintMessage
 value: 532
 description: >-
-  Shows the following HintMessage: "Select the monster(s) to detach Xyz Material(s) from"
+  Shows the following hint to the player when selecting a card(s): "Select the monster(s) to detach Xyz Material(s) from"
+summary: '"Select the monster(s) to detach Xyz Material(s) from"'
 status:
   index: stable
-tags: [ under-construction ]

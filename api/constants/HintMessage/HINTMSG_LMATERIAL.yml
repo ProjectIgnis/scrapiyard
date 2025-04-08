@@ -3,7 +3,7 @@ name: HINTMSG_LMATERIAL
 enum: HintMessage
 value: 533
 description: >-
-  Shows the following HintMessage: "Select the card(s) to use as Link Material"
+  Shows the following hint to the player when selecting a card(s): "Select the card(s) to use as Link Material"
+summary: '"Select the card(s) to use as Link Material"'
 status:
   index: stable
-tags: [ under-construction ]

@@ -3,7 +3,7 @@ name: HINTMSG_FMATERIAL
 enum: HintMessage
 value: 511
 description: >-
-  Shows the following HintMessage: "Select the card(s) to use as Fusion Material"
+  Shows the following hint to the player when selecting a card(s): "Select the card(s) to use as Fusion Material"
+summary: '"Select the card(s) to use as Fusion Material"'
 status:
   index: stable
-tags: [ under-construction ]

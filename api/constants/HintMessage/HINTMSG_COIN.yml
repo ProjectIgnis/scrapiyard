@@ -3,7 +3,7 @@ name: HINTMSG_COIN
 enum: HintMessage
 value: 552
 description: >-
-  Shows the following HintMessage: "Select heads or tails"
+  Shows the following hint to the player when prompted to declare: "Select heads or tails"
+summary: '"Select heads or tails"'
 status:
   index: stable
-tags: [ under-construction ]

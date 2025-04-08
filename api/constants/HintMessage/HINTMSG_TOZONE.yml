@@ -3,7 +3,7 @@ name: HINTMSG_TOZONE
 enum: HintMessage
 value: 571
 description: >-
-  Shows the following HintMessage: "Select the zone to move the card to"
+  Shows the following hint to the player when selecting a zone: "Select the zone to move the card to"
+summary: '"Select the zone to move the card to"'
 status:
   index: stable
-tags: [ under-construction ]

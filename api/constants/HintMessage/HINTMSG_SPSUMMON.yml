@@ -3,7 +3,7 @@ name: HINTMSG_SPSUMMON
 enum: HintMessage
 value: 509
 description: >-
-  Shows the following HintMessage: "Select the card(s) to Special Summon"
+  Shows the following hint to the player when selecting a card(s): "Select the card(s) to Special Summon"
+summary: '"Select the card(s) to Special Summon"'
 status:
   index: stable
-tags: [ under-construction ]

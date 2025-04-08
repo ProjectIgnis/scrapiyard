@@ -3,7 +3,7 @@ name: HINTMSG_REMOVE
 enum: HintMessage
 value: 503
 description: >-
-  Shows the following HintMessage: "Select the card(s) to banish"
+  Shows the following hint to the player when selecting a card(s): "Select the card(s) to banish"
+summary: '"Select the card(s) to banish"'
 status:
   index: stable
-tags: [ under-construction ]

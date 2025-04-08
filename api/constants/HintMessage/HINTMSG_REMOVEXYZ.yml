@@ -3,7 +3,7 @@ name: HINTMSG_REMOVEXYZ
 enum: HintMessage
 value: 519
 description: >-
-  Shows the following HintMessage: "Select the Xyz Material(s) to detach"
+  Shows the following hint to the player when selecting a card(s): "Select the Xyz Material(s) to detach"
+summary: '"Select the Xyz Material(s) to detach"'
 status:
   index: stable
-tags: [ under-construction ]

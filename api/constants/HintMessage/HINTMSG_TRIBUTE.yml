@@ -3,7 +3,7 @@ name: HINTMSG_TRIBUTE
 enum: HintMessage
 value: 531
 description: >-
-  Shows the following HintMessage: "Select monsters for Tribute Summon"
+  Shows the following hint to the player when selecting a card(s): "Select monsters for Tribute Summon"
+summary: '"Select monsters for Tribute Summon"'
 status:
   index: stable
-tags: [ under-construction ]

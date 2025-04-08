@@ -3,7 +3,7 @@ name: HINTMSG_SMATERIAL
 enum: HintMessage
 value: 512
 description: >-
-  Shows the following HintMessage: "Select the card(s) to use as Synchro Material"
+  Shows the following hint to the player when selecting a card(s): "Select the card(s) to use as Synchro Material"
+summary: '"Select the card(s) to use as Synchro Material"'
 status:
   index: stable
-tags: [ under-construction ]

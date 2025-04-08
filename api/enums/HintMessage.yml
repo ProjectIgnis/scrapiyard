@@ -1,5 +1,4 @@
 ---!enum
 name: HintMessage
-description: >-
-  (To be added)
-tags: [ under-construction ]
+description: Constants for hints displayed to the player for various prompts.
+summary: Hints displayed to the player.

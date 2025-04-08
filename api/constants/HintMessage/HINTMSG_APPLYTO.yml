@@ -3,7 +3,7 @@ name: HINTMSG_APPLYTO
 enum: HintMessage
 value: 577
 description: >-
-  Shows the following HintMessage: "Select the card(s) to apply the effect to"
+  Shows the following hint to the player when selecting a card(s): "Select the card(s) to apply the effect to"
+summary: '"Select the card(s) to apply the effect to"'
 status:
   index: stable
-tags: [ under-construction ]

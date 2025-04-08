@@ -3,7 +3,7 @@ name: HINTMSG_FACEDOWNDEFENSE
 enum: HintMessage
 value: 525
 description: >-
-  Shows the following HintMessage: "Select a face-down Defense Position monster(s)"
+  Shows the following hint to the player when selecting a card(s): "Select a face-down Defense Position monster(s)"
+summary: '"Select a face-down Defense Position monster(s)"'
 status:
   index: stable
-tags: [ under-construction ]
