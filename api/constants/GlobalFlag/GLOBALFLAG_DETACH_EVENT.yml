@@ -2,8 +2,7 @@
 name: GLOBALFLAG_DETACH_EVENT
 enum: GlobalFlag
 value: 0x10
-description: >-
-  This flag is required when using EVENT_DETACH_MATERIAL
+description: This global flag enables the [`EVENT_DETACH_MATERIAL`](/api/constants/Event/EVENT_DETACH_MATERIAL) event to be raised when an Xyz Monster's material(s) are detached. It is automatically set when an effect with `EVENT_DETACH_MATERIAL` as [event code](/api/enums/Event) is registered.
+summary: Allows effects to respond when an Xyz Monster's material(s) are detached.
 status:
   index: stable
-tags: [ under-construction ]

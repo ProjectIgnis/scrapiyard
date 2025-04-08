@@ -1,6 +1,5 @@
 ---!enum
 name: GlobalFlag
-description: >-
-  (To be added)
+description: Constants representing certain functionalities that are disabled by default in Duels, usually to avoid executing potentially expensive code in Duels where they are not needed. They are enabled automatically when relevant effects are registered or when certain functions are called.
+summary: Functionalities that are disabled by default.
 bitmaskInt: true
-tags: [ under-construction ]

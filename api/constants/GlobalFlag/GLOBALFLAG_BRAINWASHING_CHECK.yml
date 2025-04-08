@@ -2,8 +2,7 @@
 name: GLOBALFLAG_BRAINWASHING_CHECK
 enum: GlobalFlag
 value: 0x2
-description: >-
-  This flags is used with Removing Brainshwashing
+description: This global flag enables [effects](/api/types/Effect) with [`EFFECT_REMOVE_BRAINWASHING`](/api/constants/EffectCode/EFFECT_REMOVE_BRAINWASHING) as [code](/api/enums/EffectCode), which continuously return the control of affected monsters to their owner, i.e., the effect of ["Remove Brainwashing"](https://yugipedia.com/wiki/Remove_Brainwashing). It is automatically set when an effect with `EFFECT_REMOVE_BRAINWASHING` as code is registered.
+summary: Enables effects that return the control of monsters to their owner.
 status:
   index: stable
-tags: [ under-construction ]

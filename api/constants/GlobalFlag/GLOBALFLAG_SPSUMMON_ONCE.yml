@@ -2,8 +2,7 @@
 name: GLOBALFLAG_SPSUMMON_ONCE
 enum: GlobalFlag
 value: 0x200
-description: >-
-  Cards that can only be special Summoned once per turn. This flag is related to Card.SetSPSummonOnce ()
+description: This global flag enables restricting a monster to being Special Summoned only once per turn, e.g., conditions such as `You can only Special Summon "..." once per turn`. It is automatically set when [`Card.SetSPSummonOnce`](/api/functions/Card/SetSPSummonOnce) is called.
+summary: Enables restricting a monster to being Special Summoned only once per turn.
 status:
   index: stable
-tags: [ under-construction ]
