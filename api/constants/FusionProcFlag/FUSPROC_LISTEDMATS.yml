@@ -2,8 +2,8 @@
 name: FUSPROC_LISTEDMATS
 enum: FusionProcFlag
 value: 0x400
-description: >-
-  Flag used for the various filters in the fusion procedure.
+description: This flag is used in addition to [`FUSPROC_NOTFUSION`](/api/constants/FusionProcFlag/FUSPROC_NOTFUSION) if the Summoning effect (that is not treated as a Fusion Summon) uses the materials listed on the Fusion Monster. This is not relevant for actual Fusion Summons, since they already use the listed materials by default.
+summary: Uses the materials listed on the Fusion Monster.
 status:
   index: stable
-tags: [ under-construction ]
+
