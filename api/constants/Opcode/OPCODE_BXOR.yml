@@ -1,9 +1,0 @@
----!constant
-name: OPCODE_BXOR
-enum: Opcode
-value: 0x40000011
-description: >-
-  (To be added)
-status:
-  index: stable
-tags: [ under-construction ]

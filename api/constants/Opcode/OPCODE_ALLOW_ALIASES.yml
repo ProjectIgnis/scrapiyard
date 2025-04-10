@@ -1,9 +1,0 @@
----!constant
-name: OPCODE_ALLOW_ALIASES
-enum: Opcode
-value: 0x40000014
-description: >-
-  (To be added)
-status:
-  index: stable
-tags: [ under-construction ]

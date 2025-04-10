@@ -1,9 +1,0 @@
----!constant
-name: OPCODE_GETCODE
-enum: Opcode
-value: 0x40000105
-description: >-
-  Operation of the function Card.GetCode, to be used in an AnnounceCard filter.
-status:
-  index: stable
-tags: [ under-construction ]

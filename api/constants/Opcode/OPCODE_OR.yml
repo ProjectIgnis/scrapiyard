@@ -1,9 +1,0 @@
----!constant
-name: OPCODE_OR
-enum: Opcode
-value: 0x40000005
-description: >-
-  Operation of logical OR, to be used in an AnnounceCard filter.
-status:
-  index: stable
-tags: [ under-construction ]

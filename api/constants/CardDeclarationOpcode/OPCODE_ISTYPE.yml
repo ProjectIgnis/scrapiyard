@@ -1,0 +1,8 @@
+---!constant
+name: OPCODE_ISTYPE
+enum: CardDeclarationOpcode
+value: 0x40000102
+description: In card declaration filters, this operation checks for cards whose card type(s) matches its operand, which must be a [card type](/api/enums/CardType) value.
+summary: Checks for cards whose card type(s) matches its operand.
+status:
+  index: stable

@@ -1,0 +1,8 @@
+---!constant
+name: OPCODE_GETTYPE
+enum: CardDeclarationOpcode
+value: 0x40000107
+description: In card declaration filters, this operation evaluates to the [card type(s)](/api/enums/CardType) of the card being checked.
+summary: Evaluates to the card type(s) of the card being checked.
+status:
+  index: stable

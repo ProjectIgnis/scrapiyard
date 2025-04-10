@@ -1,9 +1,0 @@
----!constant
-name: OPCODE_BAND
-enum: Opcode
-value: 0x40000008
-description: >-
-  (To be added)
-status:
-  index: stable
-tags: [ under-construction ]

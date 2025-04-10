@@ -1,0 +1,8 @@
+---!constant
+name: OPCODE_ISSETCARD
+enum: CardDeclarationOpcode
+value: 0x40000101
+description: In card declaration filters, this operation checks for cards with an archetype that matches its operand, which must be an [archetype](/api/enums/Archetype) value.
+summary: Checks for cards with an archetype that matches its operand.
+status:
+  index: stable

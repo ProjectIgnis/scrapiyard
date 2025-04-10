@@ -1,0 +1,8 @@
+---!constant
+name: OPCODE_ALLOW_ALIASES
+enum: CardDeclarationOpcode
+value: 0x40000014
+description: In card declaration filters, this operation allows alias names to be declared.
+summary: Allows alias names.
+status:
+  index: stable

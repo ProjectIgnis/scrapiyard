@@ -1,9 +1,0 @@
----!constant
-name: OPCODE_ISSETCARD
-enum: Opcode
-value: 0x40000101
-description: >-
-  Operation of the function Card.IsSetCard, to be used in an AnnounceCard filter.
-status:
-  index: stable
-tags: [ under-construction ]

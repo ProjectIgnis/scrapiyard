@@ -1,0 +1,8 @@
+---!constant
+name: OPCODE_ALLOW_TOKENS
+enum: CardDeclarationOpcode
+value: 0x40000015
+description: In card declaration filters, this operation allows token names to be declared.
+summary: Allows token names.
+status:
+  index: stable

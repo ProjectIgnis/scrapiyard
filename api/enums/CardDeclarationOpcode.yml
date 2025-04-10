@@ -1,0 +1,5 @@
+---!enum
+name: CardDeclarationOpcode
+description: Constants used with [`Duel.AnnounceCard`](/api/enums/function/Duel/AnnounceCard) as operations for filtering card names that can be declared. The operations, along with their operands, must be ordered in [Reverse Polish Notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation) (RPN).
+summary: Operations for filtering card names that can be declared.
+# TODO: more thorough explanation of using RPN to filter cards

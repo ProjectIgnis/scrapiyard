@@ -1,9 +1,0 @@
----!constant
-name: OPCODE_BNOT
-enum: Opcode
-value: 0x40000010
-description: >-
-  (To be added)
-status:
-  index: stable
-tags: [ under-construction ]
