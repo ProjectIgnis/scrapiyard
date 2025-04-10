@@ -2,8 +2,7 @@
 name: PLAYER_NONE
 enum: Player
 value: 2
-description: >-
-  No player
+description: Refers to neither player.
+summary: Neither player.
 status:
   index: stable
-tags: [ under-construction ]

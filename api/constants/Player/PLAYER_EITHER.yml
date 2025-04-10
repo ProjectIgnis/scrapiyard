@@ -2,8 +2,7 @@
 name: PLAYER_EITHER
 enum: Player
 value: 4
-description: >-
-  Any player. This constant is not defined in the core
+description: Refers to either player.
+summary: Either player.
 status:
   index: stable
-tags: [ under-construction ]
