@@ -2,8 +2,7 @@
 name: PHASE_MAIN2
 enum: Phase
 value: 0x100
-description: >-
-  The Main Phase 2
+description: The [Main Phase 2](https://yugipedia.com/wiki/Main_Phase_2).
+summary: Main Phase 2.
 status:
   index: stable
-tags: [ under-construction ]
