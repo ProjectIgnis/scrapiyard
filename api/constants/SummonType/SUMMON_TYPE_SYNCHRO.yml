@@ -2,8 +2,7 @@
 name: SUMMON_TYPE_SYNCHRO
 enum: SummonType
 value: 0x46000000
-description: >-
-  Synchro Summon
+description: The type for [Synchro Summons](https://yugipedia.com/wiki/Synchro_Summon).
+summary: Synchro Summon.
 status:
   index: stable
-tags: [ under-construction ]

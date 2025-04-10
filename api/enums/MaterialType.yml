@@ -1,6 +1,0 @@
----!enum
-name: MaterialType
-description: >-
-  (To be added)
-bitmaskInt: true
-tags: [ under-construction ]

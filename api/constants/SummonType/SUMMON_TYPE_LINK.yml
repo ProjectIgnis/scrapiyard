@@ -2,8 +2,7 @@
 name: SUMMON_TYPE_LINK
 enum: SummonType
 value: 0x4c000000
-description: >-
-  Link Summon
+description: The type for [Link Summons](https://yugipedia.com/wiki/Link_Summon).
+summary: Link Summon.
 status:
   index: stable
-tags: [ under-construction ]

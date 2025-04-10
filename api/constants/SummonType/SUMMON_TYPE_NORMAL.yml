@@ -2,8 +2,7 @@
 name: SUMMON_TYPE_NORMAL
 enum: SummonType
 value: 0x10000000
-description: >-
-  Normal summoned (EFFECT_SUMMON_PROC, EFFECT_SET_PROC can use SetValue to modify the value)
+description: The type for [Normal Summons](https://yugipedia.com/wiki/Normal_Summon).
+summary: Normal Summon.
 status:
   index: stable
-tags: [ under-construction ]

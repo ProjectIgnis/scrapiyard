@@ -2,8 +2,7 @@
 name: SUMMON_TYPE_RITUAL
 enum: SummonType
 value: 0x45000000
-description: >-
-  Ritual Summon
+description: The type for [Ritual Summons](https://yugipedia.com/wiki/Ritual_Summon).
+summary: Ritual Summon.
 status:
   index: stable
-tags: [ under-construction ]

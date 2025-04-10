@@ -2,8 +2,7 @@
 name: SUMMON_TYPE_FUSION
 enum: SummonType
 value: 0x43000000
-description: >-
-  Fusion Summon
+description: The type for [Fusion Summons](https://yugipedia.com/wiki/Fusion_Summon).
+summary: Fusion Summon.
 status:
   index: stable
-tags: [ under-construction ]
