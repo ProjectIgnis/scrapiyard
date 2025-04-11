@@ -2,8 +2,8 @@
 name: REGISTER_FLAG_DETACH_XMAT
 enum: RegisterFlag
 value: 1
-description: >-
-  Effect that activates with cost of detaching own Xyz material, for Tachyon Unit (Card.RegisterEffect)
+description: This flag must be set when [registering](/api/functions/Card/RegisterEffect) the effect of an Xyz Monster that detaches Xyz materials from itself as cost, so it could be identified by ["Tachyon Unit"](https://yugipedia.com/wiki/Tachyon_Unit).
+summary: Marks Xyz Monster effects that detach materials from themselves as cost.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ special-handling, unofficial ]
