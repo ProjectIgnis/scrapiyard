@@ -2,8 +2,7 @@
 name: REASON_XYZ
 enum: Reason
 value: 0x200000
-description: >-
-  Used for Xyz Summon
+description: The reason value for actions caused by using a card as Xyz Material.
+summary: Caused by using a card as Xyz Material.
 status:
   index: stable
-tags: [ under-construction ]

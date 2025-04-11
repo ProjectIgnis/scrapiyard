@@ -2,8 +2,7 @@
 name: REASON_COST
 enum: Reason
 value: 0x80
-description: >-
-  The reason used for costs. It is also the same used to destroy/send to the GY cards that fail to pay their maintenance costs
+description: The reason value used for actions performed as costs. This also includes actions caused by failure to pay maintenance costs.
+summary: Performed as costs.
 status:
   index: stable
-tags: [ under-construction ]

@@ -1,9 +1,0 @@
----!constant
-name: REASON_RDAMAGE
-enum: Reason
-value: 0x8000
-description: >-
-  Reversal Damage: gain LP becomes damage - used only in the core
-status:
-  index: stable
-tags: [ under-construction ]

@@ -1,9 +1,12 @@
 ---!constant
-name: REASON_REVEAL
+name: REASON_EXCAVATE
 enum: Reason
 value: 0x8000000
-description: >-
-  Used by cards that require being sent to the GY after being excavated. See "Sylvan" monsters
+description: The reason value for actions performed after excavating a card.
+summary: Performed after excavating a card.
 status:
   index: stable
-tags: [ under-construction ]
+aliases:
+  - name: REASON_REVEAL
+    status:
+      index: stable

@@ -2,8 +2,7 @@
 name: REASON_TEMPORARY
 enum: Reason
 value: 0x4
-description: >-
-  The card being  temporary banished
+description: The reason value used when banishing a monster temporarily.
+summary: Banishing a monster temporarily.
 status:
   index: stable
-tags: [ under-construction ]

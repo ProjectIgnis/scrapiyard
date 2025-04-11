@@ -2,8 +2,7 @@
 name: REASON_REPLACE
 enum: Reason
 value: 0x1000000
-description: >-
-  Event is happening because of an effect that states "If X would be destroyed, do this instead."
+description: The reason value for actions caused by replacing card destruction, e.g., `If this card would be destroyed, you can banish 1 monster from your GY instead`.
+summary: Caused by replacing card destruction.
 status:
   index: stable
-tags: [ under-construction ]

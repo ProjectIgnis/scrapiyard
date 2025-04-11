@@ -2,8 +2,7 @@
 name: REASON_FUSION
 enum: Reason
 value: 0x40000
-description: >-
-  Used for Fusion Summon
+description: The reason value for actions caused by using a card as Fusion Material.
+summary: Caused by using a card as Fusion Material.
 status:
   index: stable
-tags: [ under-construction ]

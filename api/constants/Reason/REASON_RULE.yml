@@ -2,8 +2,7 @@
 name: REASON_RULE
 enum: Reason
 value: 0x400
-description: >-
-  The value used for reasons associated with game mechanics
+description: The reason value used for actions caused by game mechanics, i.e., not part of any player's actions or any card effects.
+summary: Caused by game mechanics.
 status:
   index: stable
-tags: [ under-construction ]

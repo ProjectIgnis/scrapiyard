@@ -2,8 +2,7 @@
 name: REASON_DRAW
 enum: Reason
 value: 0x2000000
-description: >-
-  Event is a card being drawn
+description: The reason value for actions caused by drawing a card(s).
+summary: Caused by drawing a card(s).
 status:
   index: stable
-tags: [ under-construction ]

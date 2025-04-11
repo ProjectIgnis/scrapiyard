@@ -2,8 +2,7 @@
 name: REASON_MATERIAL
 enum: Reason
 value: 0x8
-description: >-
-  Used as Fusion/Synchro/Xyz/Link material, etc.
+description: The reason value for actions caused by using a card as material for a Summon.
+summary: Caused by using a card as material for a Summon.
 status:
   index: stable
-tags: [ under-construction ]
