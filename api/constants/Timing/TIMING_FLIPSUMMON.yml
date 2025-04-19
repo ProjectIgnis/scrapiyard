@@ -2,8 +2,7 @@
 name: TIMING_FLIPSUMMON
 enum: Timing
 value: 0x100
-description: >-
-  When a monster is Flip Summoned
+description: An effect with this [hint timing](/api/functions/Effect/SetHintTiming) will be prompted for activation when a monster is [Flip Summoned](https://yugipedia.com/wiki/Flip_Summon).
+summary: Prompts when a monster is Flip Summoned.
 status:
   index: stable
-tags: [ under-construction ]

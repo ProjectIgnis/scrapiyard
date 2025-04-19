@@ -2,8 +2,7 @@
 name: TIMING_STANDBY_PHASE
 enum: Timing
 value: 0x2
-description: >-
-  During the Standby Phase
+description: An effect with this [hint timing](/api/functions/Effect/SetHintTiming) will be prompted for activation in the [Standby Phase](https://yugipedia.com/wiki/Standby_Phase).
+summary: Prompts in the Standby Phase.
 status:
   index: stable
-tags: [ under-construction ]

@@ -2,8 +2,7 @@
 name: TIMING_SSET
 enum: Timing
 value: 0x400
-description: >-
-  When a Spell/Trap is Set
+description: An effect with this [hint timing](/api/functions/Effect/SetHintTiming) will be prompted for activation when a Spell/Trap Card is [Set](https://yugipedia.com/wiki/Set).
+summary: Prompts when a Spell/Trap Card is Set.
 status:
   index: stable
-tags: [ under-construction ]

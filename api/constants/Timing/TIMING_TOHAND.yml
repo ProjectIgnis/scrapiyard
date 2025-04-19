@@ -2,8 +2,7 @@
 name: TIMING_TOHAND
 enum: Timing
 value: 0x200000
-description: >-
-  When you add a hand (retrieve, recycle, etc.)
+description: An effect with this [hint timing](/api/functions/Effect/SetHintTiming) will be prompted for activation when a card(s) is sent to the hand.
+summary: Prompts when a card(s) is sent to the hand.
 status:
   index: stable
-tags: [ under-construction ]

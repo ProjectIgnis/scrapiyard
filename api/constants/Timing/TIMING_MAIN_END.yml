@@ -2,8 +2,7 @@
 name: TIMING_MAIN_END
 enum: Timing
 value: 0x4
-description: >-
-  When the Main Phase is about to end, while moving to the Battle/End phase
+description: An effect with this [hint timing](/api/functions/Effect/SetHintTiming) will be prompted for activation when the [Main Phase](https://yugipedia.com/wiki/Main_Phase) is about to end, before entering the [Battle Phase](https://yugipedia.com/wiki/Battle_Phase) or [End Phase](https://yugipedia.com/wiki/End_Phase).
+summary: Prompts when the Main Phase is about to end.
 status:
   index: stable
-tags: [ under-construction ]

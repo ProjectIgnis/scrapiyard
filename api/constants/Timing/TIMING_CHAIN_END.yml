@@ -2,8 +2,7 @@
 name: TIMING_CHAIN_END
 enum: Timing
 value: 0x8000
-description: >-
-  When a chain ends
+description: An effect with this [hint timing](/api/functions/Effect/SetHintTiming) will be prompted for activation at the end of Chain resolution.
+summary: Prompts at the end of Chain resolution.
 status:
   index: stable
-tags: [ under-construction ]

@@ -1,6 +1,6 @@
 ---!enum
 name: Timing
 description: >-
-  (To be added)
+  Constants to be used with [`Effect.SetHintTiming`](/api/functions/Effect/SetHintTiming) to specify different timings when a [fast effect](https://yugipedia.com/wiki/Fast_effect) will be prompted for activation. By default, The EDOPro client does not prompt for activations at every timing a fast effect can be activated (unless the "Chain: ON" option is enabled) to minimize interruptions in the Duel.
+summary: Timings when a fast effect will be prompted for activation.
 bitmaskInt: true
-tags: [ under-construction ]

@@ -2,8 +2,7 @@
 name: TIMING_DAMAGE
 enum: Timing
 value: 0x20000
-description: >-
-  When a player takes damage
+description: An effect with this [hint timing](/api/functions/Effect/SetHintTiming) will be prompted for activation when a player takes damage.
+summary: Prompts when a player takes damage.
 status:
   index: stable
-tags: [ under-construction ]

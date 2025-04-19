@@ -2,8 +2,7 @@
 name: TIMING_MSET
 enum: Timing
 value: 0x200
-description: >-
-  When a monster is Set
+description: An effect with this [hint timing](/api/functions/Effect/SetHintTiming) will be prompted for activation when a monster is [Normal Set](https://yugipedia.com/wiki/Normal_Set).
+summary: Prompts when a monster is Normal Set.
 status:
   index: stable
-tags: [ under-construction ]

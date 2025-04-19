@@ -2,8 +2,7 @@
 name: TIMING_DRAW
 enum: Timing
 value: 0x10000
-description: >-
-  When someplayer draws (not only in the Draw Phase)
+description: An effect with this [hint timing](/api/functions/Effect/SetHintTiming) will be prompted for activation when a card(s) is drawn.
+summary: Prompts when a card(s) is drawn.
 status:
   index: stable
-tags: [ under-construction ]
