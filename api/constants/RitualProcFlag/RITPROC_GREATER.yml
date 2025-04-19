@@ -1,9 +1,0 @@
----!constant
-name: RITPROC_GREATER
-enum: RitualProcFlag
-value: 0x2
-description: >-
-  Flag used for the type of Ritual Summon procedure
-status:
-  index: stable
-tags: [ under-construction ]
