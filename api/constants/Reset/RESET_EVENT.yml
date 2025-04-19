@@ -2,8 +2,8 @@
 name: RESET_EVENT
 enum: Reset
 value: 0x1000
-description: >-
-  Resets when a given event occurs (add the event value)
+description: An [effect](/api/types/Effect) with this [reset value](/api/functions/Effect/SetReset) resets when an event happens to the card it's registered to. The event(s) is specified by adding [its corresponding reset value](/api/tags/event-reset) to this constant. This can also be used to [manually reset](/api/functions/Card/ResetEffect) effects that reset at the specified event.
+summary: Resets when an event happens to the card it's registered to.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ manual-reset ]

@@ -2,8 +2,8 @@
 name: RESETS_REDIRECT
 enum: Reset
 value: 0x047e0000
-description: >-
-  Complex reset. The sum of RESETS_STANDARD+RESET_OVERLAY-RESET_TOFIELD-RESET_LEAVE, most often used for EFFECT_LEAVE_FIELD_REDIRECT resets
+description: A composite [reset value](/api/functions/Effect/SetReset) typically used for effects that redirect a card to a different location when it leaves the field. An [effect](/api/types/Effect) with this reset value added to [`RESET_EVENT`](/api/constants/Reset/RESET_EVENT) resets when [the card it's registered to](/api/functions/Card/GetHandler) [stops being face-up in its current location](/api/constants/Reset/RESETS_STANDARD), **except** when it [leaves the field](/api/constants/Reset/RESET_LEAVE) or is [sent to the GY](/api/constants/Reset/RESET_TOGRAVE).
+summary: Typically used for effects that redirect a card when it leaves the field.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ composite-bits, event-reset ]

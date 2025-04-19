@@ -2,8 +2,7 @@
 name: RESET_SELF_TURN
 enum: Reset
 value: 0x10000000
-description: >-
-  Resets on your turn. If this reset is used with an effect registered to a card, it is seen from the point of view of that card's controler. Thus, it should be limited to the Duel version of RegisterEffect
+description: An [effect](/api/types/Effect) with this [reset value](/api/functions/Effect/SetReset) added to [`RESET_PHASE`](/api/constants/Reset/RESET_PHASE) only resets when the added [phase(s)](/api/enums/Phase) happens on the player's own turn. If the effect is registered to a card, the player is the card's controller.
+summary: Resets only on the player's own turn.
 status:
   index: stable
-tags: [ under-construction ]

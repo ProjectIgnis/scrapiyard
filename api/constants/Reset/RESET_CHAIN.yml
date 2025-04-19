@@ -2,8 +2,7 @@
 name: RESET_CHAIN
 enum: Reset
 value: 0x80000000
-description: >-
-  Resets at the end of the resolving Chain
+description: An [effect](/api/types/Effect) with this [reset value](/api/functions/Effect/SetReset) resets at the end of Chain resolution. This cannot be used as a reset type for [`Card.ResetEffect`](/api/functions/Card/ResetEffect) to manually reset effects.
+summary: Resets at the end of Chain resolution.
 status:
   index: stable
-tags: [ under-construction ]

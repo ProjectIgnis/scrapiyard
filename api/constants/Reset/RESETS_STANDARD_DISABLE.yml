@@ -2,8 +2,8 @@
 name: RESETS_STANDARD_DISABLE
 enum: Reset
 value: 0x01ff0000
-description: >-
-  Complex reset. The sum of RESETS_STANDARD+RESET_DISABLE, used with RESET_EVENT. Used for effects that need to reset when the monster's effects are negated (eg a monster changing its ATK/DEF or Level with its own effect).
+description:  A composite [reset value](/api/functions/Effect/SetReset) typically used for effects that a card registers only to itself. An [effect](/api/types/Effect) with this reset value added to [`RESET_EVENT`](/api/constants/Reset/RESET_EVENT) resets when [the card it's registered to](/api/functions/Card/GetHandler) [has its effects negated](/api/constants/Reset/RESET_DISABLE) or [stops being face-up in its current location](/api/constants/Reset/RESETS_STANDARD).
+summary: Typically used for effects that a card registers only to itself.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ composite-bits, event-reset ]

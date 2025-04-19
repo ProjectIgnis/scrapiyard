@@ -2,8 +2,8 @@
 name: RESET_DISABLE
 enum: Reset
 value: 0x10000
-description: >-
-  Resets when the card's effects are negated
+description: An [effect](/api/types/Effect) with this [reset value](/api/functions/Effect/SetReset) added to [`RESET_EVENT`](/api/constants/Reset/RESET_EVENT) resets when the effects of [the card it's registered to](/api/functions/Card/GetHandler) is negated.
+summary: Resets when the effects of the card is negated.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ event-reset ]
