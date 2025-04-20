@@ -2,7 +2,7 @@
 name: CHAININFO_TARGET_PLAYER
 enum: ChainInfo
 value: 9
-description: >-
-  When used with Duel.GetChainInfo returns an integer with the player targeted by the effect of the requested Chain Link. The target player is usually defined in Duel.SetTargetPlayer and in effects with the EFFECT_FLAG_PLAYER_TARGET flag.
+description: When used with [`Duel.GetChainInfo`](/api/functions/Duel/GetChainInfo), retrieves the player "targeted" by the effect of the requested Chain Link. The target player is usually defined in [Duel.SetTargetPlayer](/api/functions/Duel/SetTargetPlayer) and in effects with the [EFFECT_FLAG_PLAYER_TARGET](/api/constants/EffectProperty/EFFECT_FLAG_PLAYER_TARGET) flag.
+summary: The player targeted by the effect in a Chain Link.
 status:
   index: stable

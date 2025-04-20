@@ -2,7 +2,7 @@
 name: CHAININFO_TRIGGERING_RANK
 enum: ChainInfo
 value: 21
-description: >-
-  When used with Duel.GetChainInfo returns an integer with the rank of the card that triggered the requested Chain Link.
+description: When used with [`Duel.GetChainInfo`](/api/functions/Duel/GetChainInfo), retrieves the Rank of the monster whose effect was activated in the requested Chain Link, as it was at the time of activation.
+summary: The Rank of the monster activated in a Chain Link.
 status:
   index: stable

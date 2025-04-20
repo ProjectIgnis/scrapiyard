@@ -2,7 +2,7 @@
 name: CHAININFO_TRIGGERING_STATUS
 enum: ChainInfo
 value: 26
-description: >-
-  When used with Duel.GetChainInfo returns an integer with status(es) of the monster that triggered the requested Chain Link.
+description: When used with [`Duel.GetChainInfo`](/api/functions/Duel/GetChainInfo), retrieves the [status(es)](/api/enums/CardStatus) of the card whose effect was activated in the requested Chain Link, as it was at the time of activation.
+summary: The status(es) of the card whose effect activated in a Chain Link.
 status:
   index: stable

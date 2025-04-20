@@ -2,7 +2,7 @@
 name: CHAININFO_TRIGGERING_LOCATION
 enum: ChainInfo
 value: 4
-description: >-
-  When used with Duel.GetChainInfo returns an integer with the location, in the moment the effect was triggered, of the card in requested Chain Link.
+description: When used with [`Duel.GetChainInfo`](/api/functions/Duel/GetChainInfo), retrieves the [location](/api/enums/Location) of the card whose effect was activated in the requested Chain Link, as it was at the time of activation. This excludes [symbolic locations](/api/tags/symbolic-location). To include them, use [`CHAININFO_TRIGGERING_LOCATION_SYMBOLIC`](/api/constants/ChainInfo/CHAININFO_TRIGGERING_LOCATION_SYMBOLIC) instead.
+summary: The location of the card whose effect activated in a Chain Link.
 status:
   index: stable

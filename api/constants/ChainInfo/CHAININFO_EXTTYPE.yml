@@ -2,7 +2,10 @@
 name: CHAININFO_EXTTYPE
 enum: ChainInfo
 value: 15
-description: >-
-  When used with Duel.GetChainInfo returns an integer with the full card type of the handler of the requested Chain Link's effect.
+description: When used with [`Duel.GetChainInfo`](/api/functions/Duel/GetChainInfo), retrieves the [card type(s)](/api/enums/CardType) of the card whose effect was activated in the requested Chain Link, as it was at the time of activation. This excludes [`TYPE_TRAP`](/api/constants/CardType/TYPE_TRAP) for Trap Monsters, unlike [`CHAININFO_TRIGGERING_TYPE`](/api/constants/ChainInfo/CHAININFO_TRIGGERING_TYPE).
+summary: The card type(s) of the card whose effect activated in a Chain Link.
 status:
   index: stable
+suggestedLinks:
+  - name: Effect.GetActiveType
+    link: /api/functions/Effect/GetActiveType

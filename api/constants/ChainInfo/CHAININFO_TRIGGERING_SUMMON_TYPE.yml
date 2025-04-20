@@ -2,7 +2,7 @@
 name: CHAININFO_TRIGGERING_SUMMON_TYPE
 enum: ChainInfo
 value: 28
-description: >-
-  When used with Duel.GetChainInfo returns an integer with the summon type of the monster that triggered the requested Chain Link.
+description: When used with [`Duel.GetChainInfo`](/api/functions/Duel/GetChainInfo), retrieves the [type of the Summon](/api/enums/SummonType) of the monster whose effect was activated in the requested Chain Link.
+summary: The summon type of the monster whose effect activated in a Chain Link.
 status:
   index: stable

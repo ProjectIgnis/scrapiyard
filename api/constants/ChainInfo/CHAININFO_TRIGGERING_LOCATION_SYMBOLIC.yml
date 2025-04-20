@@ -2,8 +2,8 @@
 name: CHAININFO_TRIGGERING_LOCATION_SYMBOLIC
 enum: ChainInfo
 value: 5
-description: >-
-  (To be added)
+description: When used with [`Duel.GetChainInfo`](/api/functions/Duel/GetChainInfo), retrieves the [location](/api/enums/Location) of the card whose effect was activated in the requested Chain Link, as it was at the time of activation. The retrieved value may be a [symbolic location](/api/tags/symbolic-location). To exclude them, use [`CHAININFO_TRIGGERING_LOCATION`](/api/constants/ChainInfo/CHAININFO_TRIGGERING_LOCATION) instead.
+summary: The (symbolic) location of the card whose effect activated in a Chain Link.
 status:
   index: stable
-tags: [ under-construction ]
+

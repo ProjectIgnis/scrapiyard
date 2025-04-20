@@ -2,7 +2,7 @@
 name: CHAININFO_TARGET_PARAM
 enum: ChainInfo
 value: 10
-description: >-
-  When used with Duel.GetChainInfo returns the value set in Duel.SetTargetParam for the requested Chain Link.
+description: When used with [`Duel.GetChainInfo`](/api/functions/Duel/GetChainInfo), retrieves the value set by [Duel.SetTargetParam](/api/functions/Duel/SetTargetParam) for the requested Chain Link.
+summary: The set parameter associated to a Chain Link.
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: CHAININFO_TRIGGERING_EFFECT
 enum: ChainInfo
 value: 1
-description: >-
-  When used with Duel.GetChainInfo returns the effect that trigger the requested Chain Link.
+description: When used with [`Duel.GetChainInfo`](/api/functions/Duel/GetChainInfo), retrieves the [effect](/api/types/Effect) activated in the requested Chain Link.
+summary: The effect activated in a Chain Link.
 status:
   index: stable
