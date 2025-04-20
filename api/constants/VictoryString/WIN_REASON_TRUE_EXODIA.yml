@@ -1,9 +1,0 @@
----!constant
-name: WIN_REASON_TRUE_EXODIA
-enum: VictoryString
-value: 0x21
-description: >-
-  The hexadecimal value for a duel win caused by "True Exodia"
-status:
-  index: stable
-tags: [ under-construction ]

@@ -1,0 +1,8 @@
+---!constant
+name: WIN_REASON_JACKPOT7
+enum: WinReason
+value: 0x19
+description: The reason value for a Duel win caused by ["Jackpot 7"](https://yugipedia.com/wiki/Jackpot_7).
+summary: Victory by the effect of "Jackpot 7"
+status:
+  index: stable

@@ -1,9 +1,0 @@
----!constant
-name: WIN_REASON_JACKPOT7
-enum: VictoryString
-value: 0x19
-description: >-
-  The hexadecimal value for a duel win caused by "Jackpot 7"
-status:
-  index: stable
-tags: [ under-construction ]

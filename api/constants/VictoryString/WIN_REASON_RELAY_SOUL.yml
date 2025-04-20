@@ -1,9 +1,0 @@
----!constant
-name: WIN_REASON_RELAY_SOUL
-enum: VictoryString
-value: 0x1a
-description: >-
-  The hexadecimal value for a duel win caused by "Relay Soul"
-status:
-  index: stable
-tags: [ under-construction ]

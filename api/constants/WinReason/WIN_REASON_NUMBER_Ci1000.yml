@@ -1,0 +1,10 @@
+---!constant
+name: WIN_REASON_NUMBER_Ci1000
+enum: WinReason
+value: 0x52
+description: >-
+  The reason value for a Duel win caused by ["Number iC1000: Numeronius Numeronia"](https://yugipedia.com/wiki/Number_iC1000:_Numeronius_Numeronia).
+summary: >-
+  Victory by the effect of "Number iC1000: Numeronius Numeronia"
+status:
+  index: stable

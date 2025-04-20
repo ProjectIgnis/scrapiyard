@@ -1,0 +1,8 @@
+---!constant
+name: WIN_REASON_CREATORGOD
+enum: WinReason
+value: 0x13
+description: The reason value for a Duel win caused by ["Holactie the Creator of Light"](https://yugipedia.com/wiki/Holactie_the_Creator_of_Light).
+summary: Victory by the effect of "Holactie the Creator of Light"
+status:
+  index: stable

@@ -1,0 +1,8 @@
+---!constant
+name: WIN_REASON_EXODIA
+enum: WinReason
+value: 0x10
+description: The reason value for a Duel win caused by ["Exodia, the Forbidden One"](https://yugipedia.com/wiki/Exodia, the_Forbidden_One).
+summary: Victory by the effect of "Exodia, the Forbidden One"
+status:
+  index: stable

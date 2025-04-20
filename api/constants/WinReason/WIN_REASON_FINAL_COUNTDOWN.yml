@@ -1,0 +1,8 @@
+---!constant
+name: WIN_REASON_FINAL_COUNTDOWN
+enum: WinReason
+value: 0x11
+description: The reason value for a Duel win caused by ["Final Countdown"](https://yugipedia.com/wiki/Final_Countdown).
+summary: Victory by the effect of "Final Countdown"
+status:
+  index: stable

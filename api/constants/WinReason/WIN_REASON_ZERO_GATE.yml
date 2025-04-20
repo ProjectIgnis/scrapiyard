@@ -1,0 +1,8 @@
+---!constant
+name: WIN_REASON_ZERO_GATE
+enum: WinReason
+value: 0x53
+description: The reason value for a Duel win caused by ["Zero Gate of the Void"](https://yugipedia.com/wiki/Zero_Gate_of_the_Void).
+summary: Victory by the effect of "Zero Gate of the Void"
+status:
+  index: stable

@@ -1,0 +1,4 @@
+---!enum
+name: WinReason
+description: Constants representing [alternate victory conditions](https://yugipedia.com/wiki/Victory_condition#Alternate_victory_condition). The values also correspond to the victory strings displayed when the Duel ends.
+summary: Alternate victory conditions.

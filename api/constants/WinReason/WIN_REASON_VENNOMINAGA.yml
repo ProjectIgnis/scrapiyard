@@ -1,0 +1,9 @@
+---!constant
+name: WIN_REASON_VENNOMINAGA
+enum: WinReason
+value: 0x12
+description: The reason value for a Duel win caused by ["Vennominaga the Deity of Poisonous Snakes"](https://yugipedia.com/wiki/Vennominaga_the_Deity_of_Poisonous_Snakes).
+summary: Victory by the effect of "Vennominaga the Deity of Poisonous Snakes"
+status:
+  index: stable
+

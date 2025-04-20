@@ -1,0 +1,8 @@
+---!constant
+name: WIN_REASON_FINAL_DRAW
+enum: WinReason
+value: 0x22
+description: The reason value for a Duel win caused by ["Final Draw"](https://yugipedia.com/wiki/Final_Draw).
+summary: Victory by the effect of "Final Draw"
+status:
+  index: stable

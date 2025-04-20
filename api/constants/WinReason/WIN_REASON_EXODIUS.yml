@@ -1,0 +1,8 @@
+---!constant
+name: WIN_REASON_EXODIUS
+enum: WinReason
+value: 0x14
+description: The reason value for a Duel win caused by ["Exodius the Ultimate Forbidden Lord"](https://yugipedia.com/wiki/Exodius_the_Ultimate_Forbidden_Lord).
+summary: Victory by the effect of "Exodius the Ultimate Forbidden Lord"
+status:
+  index: stable

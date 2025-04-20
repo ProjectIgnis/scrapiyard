@@ -1,0 +1,8 @@
+---!constant
+name: WIN_REASON_MUSICAL_SUMO
+enum: WinReason
+value: 0x58
+description: The reason value for a Duel win caused by ["Musical Sumo Dice Games"](https://yugipedia.com/wiki/Musical_Sumo_Dice_Games).
+summary: Victory by the effect of "Musical Sumo Dice Games"
+status:
+  index: stable

@@ -1,9 +1,0 @@
----!constant
-name: WIN_REASON_FA_WINNERS
-enum: VictoryString
-value: 0x1d
-description: >-
-  The hexadecimal value for a duel win caused by "F.A. Winners"
-status:
-  index: stable
-tags: [ under-construction ]

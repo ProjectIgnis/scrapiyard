@@ -1,0 +1,8 @@
+---!constant
+name: WIN_REASON_PHANTASM_SPIRAL
+enum: WinReason
+value: 0x1c
+description: The reason value for a Duel win caused by ["Phantasm Spiral Assault"](https://yugipedia.com/wiki/Phantasm_Spiral_Assault).
+summary: Victory by the effect of "Phantasm Spiral Assault"
+status:
+  index: stable

@@ -1,0 +1,9 @@
+---!constant
+name: WIN_REASON_EVIL_1
+enum: WinReason
+value: 0x51
+description: The reason value for a Duel win caused by ["Evil 1"](https://yugipedia.com/wiki/Evil_1).
+summary: Victory by the effect of "Evil 1"
+status:
+  index: deleted
+  message: Value is unused; "Evil 1" does not have an alternate win condition.

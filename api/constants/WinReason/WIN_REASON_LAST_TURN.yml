@@ -1,0 +1,8 @@
+---!constant
+name: WIN_REASON_LAST_TURN
+enum: WinReason
+value: 0x16
+description: The reason value for a Duel win caused by ["Last Turn"](https://yugipedia.com/wiki/Last_Turn).
+summary: Victory by the effect of "Last Turn"
+status:
+  index: stable
