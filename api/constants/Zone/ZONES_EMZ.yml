@@ -2,8 +2,11 @@
 name: ZONES_EMZ
 enum: Zone
 value: 0x60
-description: >-
-  Constant to be used as mask to filter for extra monster zones
+description: The total value of all the individual [Extra Monster Zones](https://yugipedia.com/wiki/Extra_Monster_Zone).
+summary: Extra Monster Zones
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: LOCATION_EMZONE
+    link: /api/constants/Location/LOCATION_EMZONE
+tags: [ composite-bits ]
