@@ -2,8 +2,8 @@
 name: LOCATION_PZONE
 enum: Location
 value: 0x200
-description: >-
-  The Pendulum Zone
+description: The [Pendulum Zone](https://yugipedia.com/wiki/Pendulum_Zone).
+summary: Pendulum Zone
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ symbolic-location ]

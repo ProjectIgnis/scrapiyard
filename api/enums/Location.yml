@@ -1,6 +1,5 @@
 ---!enum
 name: Location
-description: >-
-  (To be added)
+description: Constants representing locations in a Duel.
+summary: Locations.
 bitmaskInt: true
-tags: [ under-construction ]

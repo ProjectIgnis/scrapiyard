@@ -1,0 +1,4 @@
+---!tag
+name: symbolic-location
+description: Special [location](/api/enums/Location) constants representing more specific parts of some locations. These can used anywhere a location value is expected, except as the [range](/api/functions/Effect/SetRange) of trigger effects.
+summary: Location constants representing more specific parts of some locations.

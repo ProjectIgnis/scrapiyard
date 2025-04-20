@@ -2,8 +2,7 @@
 name: LOCATION_DECK
 enum: Location
 value: 0x1
-description: >-
-  The Deck. If it is used as Location Redirect, the card is placed on the top.
+description: The [Main Deck](https://yugipedia.com/wiki/Main_Deck). When used as a redirect location, the card(s) is placed on top of the Deck.
+summary: Main Deck
 status:
   index: stable
-tags: [ under-construction ]

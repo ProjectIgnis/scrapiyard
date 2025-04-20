@@ -2,8 +2,7 @@
 name: LOCATION_REMOVED
 enum: Location
 value: 0x20
-description: >-
-  The area where banished card go
+description: The location for [banished](https://yugipedia.com/wiki/Banish) cards.
+summary: Banishment
 status:
   index: stable
-tags: [ under-construction ]
