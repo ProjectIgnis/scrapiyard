@@ -5,4 +5,5 @@ value: 0x3d
 description: >-
   The ["Six Samurai"](https://yugipedia.com/wiki/Six_Samurai) archetype.
 summary: Six Samurai
-status: { index: stable }
+status:
+  index: stable

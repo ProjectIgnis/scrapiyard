@@ -3,7 +3,7 @@ name: HINTMSG_OPTION
 enum: HintMessage
 value: 555
 description: >-
-  Shows the following hint to the player: "Select an option"
+  Shows the following hint to the player: `Select an option`
 summary: '"Select an option"'
 status:
   index: stable

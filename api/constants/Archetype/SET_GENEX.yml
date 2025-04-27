@@ -5,4 +5,5 @@ value: 0x2
 description: >-
   The ["Genex"](https://yugipedia.com/wiki/Genex) archetype.
 summary: Genex
-status: { index: stable }
+status:
+  index: stable

@@ -5,4 +5,5 @@ value: 0x1b8
 description: >-
   The ["Ryu-Ge"](https://yugipedia.com/wiki/Ryu-Ge) archetype.
 summary: Ryu-Ge
-status: { index: stable }
+status:
+  index: stable

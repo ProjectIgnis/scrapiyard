@@ -5,4 +5,5 @@ value: 0x4a
 description: >-
   The ["Timelord"](https://yugipedia.com/wiki/Timelord) archetype.
 summary: Timelord
-status: { index: stable }
+status:
+  index: stable

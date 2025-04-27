@@ -16,5 +16,6 @@ parameters:
 returns:
   - type: [ bool ]
     description: If the previous race of `c` includes `race`.
-status: { index: stable }
+status:
+  index: stable
 tags: [ card-check, race-related, previous-property ]

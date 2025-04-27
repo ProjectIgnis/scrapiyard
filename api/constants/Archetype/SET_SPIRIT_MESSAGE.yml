@@ -5,4 +5,5 @@ value: 0x1c
 description: >-
   The ["Spirit Message"](https://yugipedia.com/wiki/Spirit_Message) archetype.
 summary: Spirit Message
-status: { index: stable }
+status:
+  index: stable

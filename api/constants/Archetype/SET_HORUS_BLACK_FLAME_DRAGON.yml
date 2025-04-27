@@ -6,4 +6,5 @@ description: >-
   The ["Horus the Black Flame Dragon"](https://yugipedia.com/wiki/Horus_the_Black_Flame_Dragon) archetype.
   Sub-archetype of [`SET_HORUS`](/api/constants/Archetype/SET_HORUS).
 summary: Horus the Black Flame Dragon
-status: { index: stable }
+status:
+  index: stable

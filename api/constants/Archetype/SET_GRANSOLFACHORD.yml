@@ -6,4 +6,5 @@ description: >-
   The ["GranSolfachord"](https://yugipedia.com/wiki/GranSolfachord) archetype.
   Sub-archetype of [`SET_SOLFACHORD`](/api/constants/Archetype/SET_SOLFACHORD).
 summary: GranSolfachord
-status: { index: stable }
+status:
+  index: stable

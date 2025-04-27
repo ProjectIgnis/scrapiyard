@@ -6,4 +6,5 @@ description: >-
   The ["Black Luster Soldier"](https://yugipedia.com/wiki/Black_Luster_Soldier_(archetype)) archetype.
   Sub-archetype of [`SET_CHAOS`](/api/constants/Archetype/SET_CHAOS).
 summary: Black Luster Soldier
-status: { index: stable }
+status:
+  index: stable

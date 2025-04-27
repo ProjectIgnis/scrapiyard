@@ -5,4 +5,5 @@ value: 0x176
 description: >-
   The ["Lady of Lament"](https://yugipedia.com/wiki/Lady_of_Lament) archetype.
 summary: Lady of Lament
-status: { index: stable }
+status:
+  index: stable

@@ -4,7 +4,8 @@ namespace: Card
 description: >-
   Returns `true` if a card's previous rank on the field is equal to a given value.
 summary: Checks a card's previous rank
-status: { index: stable }
+status:
+  index: stable
 parameters:
   - name: c
     type: [ Card ]

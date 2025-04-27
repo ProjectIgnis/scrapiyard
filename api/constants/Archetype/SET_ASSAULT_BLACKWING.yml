@@ -6,4 +6,5 @@ description: >-
   The ["Assault Blackwing"](https://yugipedia.com/wiki/Assault_Blackwing) archetype.
   Sub-archetype of [`SET_BLACKWING`](/api/constants/Archetype/SET_BLACKWING).
 summary: Assault Blackwing
-status: { index: stable }
+status:
+  index: stable

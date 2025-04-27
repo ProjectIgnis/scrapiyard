@@ -5,4 +5,5 @@ value: 0x40
 description: >-
   The ["Forbidden One"](https://yugipedia.com/wiki/Forbidden_One) archetype.
 summary: Forbidden One
-status: { index: stable }
+status:
+  index: stable

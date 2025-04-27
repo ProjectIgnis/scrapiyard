@@ -6,4 +6,5 @@ description: >-
   The ["Goblin Biker"](https://yugipedia.com/wiki/Goblin_Biker) archetype.
   Sub-archetype of [`SET_GOBLIN`](/api/constants/Archetype/SET_GOBLIN).
 summary: Goblin Biker
-status: { index: stable }
+status:
+  index: stable

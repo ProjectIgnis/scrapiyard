@@ -14,5 +14,6 @@ parameters:
 returns:
   - type: [ int ]
     description: If `c` would be sent to `loc`.
-status: { index: stable }
+status:
+  index: stable
 tags: [ card-check ]

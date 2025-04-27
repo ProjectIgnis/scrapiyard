@@ -6,4 +6,5 @@ description: >-
   The ["Crystal Beast"](https://yugipedia.com/wiki/Crystal_Beast) archetype.
   Sub-archetype of [`SET_CRYSTAL`](/api/constants/Archetype/SET_CRYSTAL).
 summary: Crystal Beast
-status: { index: stable }
+status:
+  index: stable

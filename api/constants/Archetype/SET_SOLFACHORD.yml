@@ -5,4 +5,5 @@ value: 0x164
 description: >-
   The ["Solfachord"](https://yugipedia.com/wiki/Solfachord) archetype.
 summary: Solfachord
-status: { index: stable }
+status:
+  index: stable

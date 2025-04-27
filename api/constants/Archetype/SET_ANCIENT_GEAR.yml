@@ -5,4 +5,5 @@ value: 0x7
 description: >-
   The ["Ancient Gear"](https://yugipedia.com/wiki/Ancient_Gear) archetype.
 summary: Ancient Gear
-status: { index: stable }
+status:
+  index: stable

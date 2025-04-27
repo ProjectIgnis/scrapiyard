@@ -12,4 +12,5 @@ parameters:
 returns:
   - type: [ int ]
     description: The [Location](/api/enums/Location) value the card would be sent to.
-status: { index: stable }
+status:
+  index: stable

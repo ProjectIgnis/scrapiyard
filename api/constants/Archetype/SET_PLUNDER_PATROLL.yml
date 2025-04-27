@@ -5,4 +5,5 @@ value: 0x13f
 description: >-
   The ["Plunder Patroll"](https://yugipedia.com/wiki/Plunder_Patroll) archetype.
 summary: Plunder Patroll
-status: { index: stable }
+status:
+  index: stable

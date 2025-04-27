@@ -5,4 +5,5 @@ value: 0x9b
 description: >-
   The ["Melodious"](https://yugipedia.com/wiki/Melodious) archetype.
 summary: Melodious
-status: { index: stable }
+status:
+  index: stable

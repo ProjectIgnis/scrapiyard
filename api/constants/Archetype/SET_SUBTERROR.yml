@@ -5,4 +5,5 @@ value: 0xed
 description: >-
   The ["Subterror"](https://yugipedia.com/wiki/Subterror) archetype.
 summary: Subterror
-status: { index: stable }
+status:
+  index: stable

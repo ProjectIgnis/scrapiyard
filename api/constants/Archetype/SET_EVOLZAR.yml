@@ -5,4 +5,5 @@ value: 0x504e
 description: >-
   The ["Evolzar"](https://yugipedia.com/wiki/Evolzar) archetype.
 summary: Evolzar
-status: { index: stable }
+status:
+  index: stable

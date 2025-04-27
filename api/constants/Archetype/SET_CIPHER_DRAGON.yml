@@ -6,4 +6,5 @@ description: >-
   The ["Cipher Dragon"](https://yugipedia.com/wiki/Cipher_Dragon) archetype.
   Sub-archetype of [`SET_CIPHER`](/api/constants/Archetype/SET_CIPHER).
 summary: Cipher Dragon
-status: { index: stable }
+status:
+  index: stable

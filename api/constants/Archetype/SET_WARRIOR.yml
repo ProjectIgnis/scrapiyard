@@ -5,4 +5,5 @@ value: 0x66
 description: >-
   The ["Warrior"](https://yugipedia.com/wiki/Warrior_(archetype)) archetype.
 summary: Warrior
-status: { index: stable }
+status:
+  index: stable

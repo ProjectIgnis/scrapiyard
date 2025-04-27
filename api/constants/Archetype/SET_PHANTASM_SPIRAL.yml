@@ -5,4 +5,5 @@ value: 0xfa
 description: >-
   The ["Phantasm Spiral"](https://yugipedia.com/wiki/Phantasm_Spiral) archetype.
 summary: Phantasm Spiral
-status: { index: stable }
+status:
+  index: stable

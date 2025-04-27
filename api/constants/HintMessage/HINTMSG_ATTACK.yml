@@ -3,7 +3,7 @@ name: HINTMSG_ATTACK
 enum: HintMessage
 value: 516
 description: >-
-  Shows the following hint to the player when selecting a card(s): "Select a monster(s) in Attack Position"
+  Shows the following hint to the player when selecting a card(s): `Select a monster(s) in Attack Position`
 summary: '"Select a monster(s) in Attack Position"'
 status:
   index: stable

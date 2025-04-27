@@ -5,4 +5,5 @@ value: 0x34
 description: >-
   The ["Crystal"](https://yugipedia.com/wiki/Crystal) archetype.
 summary: Crystal
-status: { index: stable }
+status:
+  index: stable

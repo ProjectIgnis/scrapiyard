@@ -5,4 +5,5 @@ value: 0x1ab
 description: >-
   The ["Tachyon"](https://yugipedia.com/wiki/Tachyon) archetype.
 summary: Tachyon
-status: { index: stable }
+status:
+  index: stable

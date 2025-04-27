@@ -5,4 +5,5 @@ value: 0x6e
 description: >-
   The ["Prophecy"](https://yugipedia.com/wiki/Prophecy) archetype.
 summary: Prophecy
-status: { index: stable }
+status:
+  index: stable

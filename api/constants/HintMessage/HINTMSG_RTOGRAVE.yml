@@ -3,7 +3,7 @@ name: HINTMSG_RTOGRAVE
 enum: HintMessage
 value: 579
 description: >-
-  Shows the following hint to the player when selecting a card(s): "Select the card(s) to return to the GY"
+  Shows the following hint to the player when selecting a card(s): `Select the card(s) to return to the GY`
 summary: '"Select the card(s) to return to the GY"'
 status:
   index: stable

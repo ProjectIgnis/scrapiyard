@@ -5,4 +5,5 @@ value: 0x24
 description: >-
   The ["Scrap"](https://yugipedia.com/wiki/Scrap) archetype.
 summary: Scrap
-status: { index: stable }
+status:
+  index: stable

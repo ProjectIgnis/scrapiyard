@@ -6,4 +6,5 @@ description: >-
   The ["SPYRAL MISSION"](https://yugipedia.com/wiki/SPYRAL_MISSION) archetype.
   Sub-archetype of [`SET_SPYRAL`](/api/constants/Archetype/SET_SPYRAL).
 summary: SPYRAL MISSION
-status: { index: stable }
+status:
+  index: stable

@@ -5,4 +5,5 @@ value: 0x195
 description: >-
   The ["Favorite"](https://yugipedia.com/wiki/Favorite) archetype.
 summary: Favorite
-status: { index: stable }
+status:
+  index: stable

@@ -5,4 +5,5 @@ value: 0x151
 description: >-
   The ["Drytron"](https://yugipedia.com/wiki/Drytron) archetype.
 summary: Drytron
-status: { index: stable }
+status:
+  index: stable

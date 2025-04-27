@@ -5,5 +5,6 @@ value: 0x20000000
 description: >-
   The [Plus](https://yugipedia.com/wiki/Plus_monster) Type for anime cards
 summary: Plus
-status: { index: stable }
+status:
+  index: stable
 tags: [ unofficial ]

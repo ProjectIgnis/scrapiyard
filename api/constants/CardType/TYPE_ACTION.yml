@@ -5,5 +5,6 @@ value: 0x10000000
 description: >-
   The [Action](https://yugipedia.com/wiki/Action_Card) Card Type used in Action Duels
 summary: Action
-status: { index: stable }
+status:
+  index: stable
 tags: [ unofficial ]

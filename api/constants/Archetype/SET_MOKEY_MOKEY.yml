@@ -5,4 +5,5 @@ value: 0x184
 description: >-
   The ["Mokey Mokey"](https://yugipedia.com/wiki/Mokey_Mokey_(archetype)) archetype.
 summary: Mokey Mokey
-status: { index: stable }
+status:
+  index: stable

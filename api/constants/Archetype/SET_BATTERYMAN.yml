@@ -5,4 +5,5 @@ value: 0x28
 description: >-
   The ["Batteryman"](https://yugipedia.com/wiki/Batteryman) archetype.
 summary: Batteryman
-status: { index: stable }
+status:
+  index: stable

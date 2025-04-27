@@ -5,4 +5,5 @@ value: 0x40b7
 description: >-
   The ["Old Entity"](https://yugipedia.com/wiki/Old_Entity) archetype.
 summary: Old Entity
-status: { index: stable }
+status:
+  index: stable

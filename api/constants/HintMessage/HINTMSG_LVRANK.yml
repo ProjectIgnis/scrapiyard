@@ -3,7 +3,7 @@ name: HINTMSG_LVRANK
 enum: HintMessage
 value: 567
 description: >-
-  Shows the following hint to the player when prompted to declare: "Declare a Level/Rank"
+  Shows the following hint to the player when prompted to declare: `Declare a Level/Rank`
 summary: '"Declare a Level/Rank"'
 status:
   index: stable

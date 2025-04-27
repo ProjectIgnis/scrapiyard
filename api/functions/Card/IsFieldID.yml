@@ -15,7 +15,8 @@ parameters:
 returns:
   - type: [ bool ]
     description: If the current location ID of `c` is equal to `fid`.
-status: { index: stable }
+status:
+  index: stable
 tags: [ card-check ]
 suggestedLinks:
   - name: Card.IsRealFieldID

@@ -5,4 +5,5 @@ value: 0x1000000
 description: >-
   The [Pendulum](https://yugipedia.com/wiki/Pendulum_Monster) Card Type for Monsters
 summary: Pendulum
-status: { index: stable }
+status:
+  index: stable

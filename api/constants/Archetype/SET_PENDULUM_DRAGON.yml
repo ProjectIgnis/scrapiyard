@@ -6,4 +6,5 @@ description: >-
   The ["Pendulum Dragon"](https://yugipedia.com/wiki/Pendulum_Dragon) archetype.
   Sub-archetype of [`SET_PENDULUM`](/api/constants/Archetype/SET_PENDULUM).
 summary: Pendulum Dragon
-status: { index: stable }
+status:
+  index: stable

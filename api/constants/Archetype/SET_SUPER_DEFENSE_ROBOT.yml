@@ -5,4 +5,5 @@ value: 0x85
 description: >-
   The ["Super Defense Robot"](https://yugipedia.com/wiki/Super_Defense_Robot) archetype.
 summary: Super Defense Robot
-status: { index: stable }
+status:
+  index: stable

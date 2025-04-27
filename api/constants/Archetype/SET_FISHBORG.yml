@@ -5,4 +5,5 @@ value: 0x96
 description: >-
   The ["Fishborg"](https://yugipedia.com/wiki/Fishborg) archetype.
 summary: Fishborg
-status: { index: stable }
+status:
+  index: stable

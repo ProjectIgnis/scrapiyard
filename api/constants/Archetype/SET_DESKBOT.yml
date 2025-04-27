@@ -5,4 +5,5 @@ value: 0xab
 description: >-
   The ["Deskbot"](https://yugipedia.com/wiki/Deskbot) archetype.
 summary: Deskbot
-status: { index: stable }
+status:
+  index: stable

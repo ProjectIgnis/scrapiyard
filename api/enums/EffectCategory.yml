@@ -1,5 +1,5 @@
 ---!enum
 name: EffectCategory
-description: Constants categorizing or describing activated effects, usually referring to possible actions that might be performed when resolving the [effect](/api/types/Effect).
+description: Constants categorizing or describing activated effects, usually referring to possible actions that might be performed when resolving the effect.
 summary: Categories for activated effects.
 bitmaskInt: true

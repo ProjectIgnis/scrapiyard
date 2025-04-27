@@ -5,4 +5,5 @@ value: 0xe0
 description: >-
   The ["Amorphage"](https://yugipedia.com/wiki/Amorphage) archetype.
 summary: Amorphage
-status: { index: stable }
+status:
+  index: stable

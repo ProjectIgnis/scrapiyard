@@ -11,5 +11,6 @@ parameters:
 returns:
   - type: [ int ]
     description: The battle position of `c`.
-status: { index: stable }
+status:
+  index: stable
 tags: [ battle-position ]

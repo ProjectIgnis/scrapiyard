@@ -5,4 +5,5 @@ value: 0x183
 description: >-
   The ["Vernusylph"](https://yugipedia.com/wiki/Vernusylph) archetype.
 summary: Vernusylph
-status: { index: stable }
+status:
+  index: stable

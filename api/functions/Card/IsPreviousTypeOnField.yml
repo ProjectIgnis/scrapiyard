@@ -16,5 +16,6 @@ parameters:
 returns:
   - type: [ bool ]
     description: If the previous card type of `c` includes `type`.
-status: { index: stable }
+status:
+  index: stable
 tags: [ card-check, card-type-related, previous-property ]

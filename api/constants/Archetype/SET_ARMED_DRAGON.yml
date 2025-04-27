@@ -5,4 +5,5 @@ value: 0x111
 description: >-
   The ["Armed Dragon"](https://yugipedia.com/wiki/Armed_Dragon) archetype.
 summary: Armed Dragon
-status: { index: stable }
+status:
+  index: stable

@@ -5,5 +5,6 @@ value: 0x8000
 description: >-
   The [Maximum](https://yugipedia.com/wiki/Maximum_Monster) Card Type for Monsters in Rush Duel
 summary: Maximum
-status: { index: stable }
+status:
+  index: stable
 tags: [ rush ]

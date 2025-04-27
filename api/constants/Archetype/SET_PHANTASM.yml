@@ -5,4 +5,5 @@ value: 0x145
 description: >-
   The ["Phantasm"](https://yugipedia.com/wiki/Phantasm) archetype.
 summary: Phantasm
-status: { index: stable }
+status:
+  index: stable

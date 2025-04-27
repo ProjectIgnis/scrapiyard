@@ -5,4 +5,5 @@ value: 0x103
 description: >-
   The ["Altergeist"](https://yugipedia.com/wiki/Altergeist) archetype.
 summary: Altergeist
-status: { index: stable }
+status:
+  index: stable

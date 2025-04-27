@@ -5,4 +5,5 @@ value: 0x11a
 description: >-
   The ["Dinowrestler"](https://yugipedia.com/wiki/Dinowrestler) archetype.
 summary: Dinowrestler
-status: { index: stable }
+status:
+  index: stable

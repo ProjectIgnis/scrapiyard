@@ -6,4 +6,5 @@ description: >-
   The ["Red Dragon Archfiend"](https://yugipedia.com/wiki/Red_Dragon_Archfiend_(archetype)) archetype.
   Sub-archetype of [`SET_ARCHFIEND`](/api/constants/Archetype/SET_ARCHFIEND).
 summary: Red Dragon Archfiend
-status: { index: stable }
+status:
+  index: stable

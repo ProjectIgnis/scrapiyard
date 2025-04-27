@@ -3,7 +3,7 @@ name: HINTMSG_EFFECT
 enum: HintMessage
 value: 550
 description: >-
-  Shows the following hint to the player when selecting an effect: "Select the effect you want to activate"
+  Shows the following hint to the player when selecting an effect: `Select the effect you want to activate`
 summary: '"Select the effect you want to activate"'
 status:
   index: stable

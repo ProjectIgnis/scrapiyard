@@ -5,4 +5,5 @@ value: 0x1b
 description: >-
   The ["Phantom Beast"](https://yugipedia.com/wiki/Phantom_Beast) archetype.
 summary: Phantom Beast
-status: { index: stable }
+status:
+  index: stable

@@ -18,7 +18,8 @@ returns:
     type: [ Effect ]
     description: The effects being applied to `c`.
     guaranteed: false
-status: { index: stable }
+status:
+  index: stable
 suggestedLinks:
   - name: Card.IsHasEffect
     link: /api/functions/Card/IsHasEffect

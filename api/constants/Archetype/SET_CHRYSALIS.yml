@@ -5,4 +5,5 @@ value: 0x1e
 description: >-
   The ["Chrysalis"](https://yugipedia.com/wiki/Chrysalis) archetype.
 summary: Chrysalis
-status: { index: stable }
+status:
+  index: stable

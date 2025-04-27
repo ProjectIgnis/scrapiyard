@@ -5,4 +5,5 @@ value: 0x168
 description: >-
   The ["Gunkan"](https://yugipedia.com/wiki/Gunkan) archetype.
 summary: Gunkan
-status: { index: stable }
+status:
+  index: stable

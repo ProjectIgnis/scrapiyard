@@ -1,4 +1,0 @@
----!enum
-name: CardAnnouncementType
-description: Represents different types of declaring (announcing) card names, used as the `target_param` of [`Duel.SetOperationInfo`](/api/functions/Duel/SetOperationInfo) when the [category](/api/enums/EffectCategory) is [`CATEGORY_ANNOUNCE`](/api/constants/EffectCategory/CATEGORY_ANNOUNCE).
-summary: Types of declaring card names.

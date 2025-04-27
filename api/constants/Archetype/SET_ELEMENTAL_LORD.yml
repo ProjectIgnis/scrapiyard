@@ -5,4 +5,5 @@ value: 0x113
 description: >-
   The ["Elemental Lord"](https://yugipedia.com/wiki/Elemental_Lord) archetype.
 summary: Elemental Lord
-status: { index: stable }
+status:
+  index: stable

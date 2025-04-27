@@ -5,4 +5,5 @@ value: 0x72
 description: >-
   The ["Geargia"](https://yugipedia.com/wiki/Geargia) archetype.
 summary: Geargia
-status: { index: stable }
+status:
+  index: stable

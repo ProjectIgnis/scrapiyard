@@ -14,5 +14,6 @@ parameters:
 returns:
   - type: [ bool ]
     description: If the original level of `c` is equal to `lv`.
-status: { index: stable }
+status:
+  index: stable
 tags: [ card-check, level-related, original-property ]

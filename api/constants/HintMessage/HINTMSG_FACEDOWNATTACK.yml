@@ -3,7 +3,7 @@ name: HINTMSG_FACEDOWNATTACK
 enum: HintMessage
 value: 524
 description: >-
-  Shows the following hint to the player when selecting a card(s): "Select a face-down Attack Position monster(s)"
+  Shows the following hint to the player when selecting a card(s): `Select a face-down Attack Position monster(s)`
 summary: '"Select a face-down Attack Position monster(s)"'
 status:
   index: stable

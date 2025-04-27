@@ -6,4 +6,5 @@ description: >-
   The ["Armored Xyz"](https://yugipedia.com/wiki/Armored_Xyz_(archetype)) archetype.
   Sub-archetype of [`SET_XYZ`](/api/constants/Archetype/SET_XYZ).
 summary: Armored Xyz
-status: { index: stable }
+status:
+  index: stable

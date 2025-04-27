@@ -6,4 +6,5 @@ description: >-
   The ["Shark Drake"](https://yugipedia.com/wiki/Shark_Drake) archetype.
   Sub-archetype of [`SET_SHARK`](/api/constants/Archetype/SET_SHARK).
 summary: Shark Drake
-status: { index: stable }
+status:
+  index: stable

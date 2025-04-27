@@ -5,4 +5,5 @@ value: 0x1b1
 description: >-
   The ["Six Strike"](https://yugipedia.com/wiki/Six_Strike) archetype.
 summary: Six Strike
-status: { index: stable }
+status:
+  index: stable

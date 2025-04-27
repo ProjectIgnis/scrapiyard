@@ -5,4 +5,5 @@ value: 0x94
 description: >-
   The ["Cybernetic"](https://yugipedia.com/wiki/Cybernetic) archetype.
 summary: Cybernetic
-status: { index: stable }
+status:
+  index: stable

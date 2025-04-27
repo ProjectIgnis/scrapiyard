@@ -6,4 +6,5 @@ description: >-
   The ["Ritual Beast Tamer"](https://yugipedia.com/wiki/Ritual_Beast_Tamer) archetype.
   Sub-archetype of [`SET_RITUAL_BEAST`](/api/constants/Archetype/SET_RITUAL_BEAST).
 summary: Ritual Beast Tamer
-status: { index: stable }
+status:
+  index: stable

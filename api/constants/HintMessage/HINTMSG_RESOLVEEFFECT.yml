@@ -3,7 +3,7 @@ name: HINTMSG_RESOLVEEFFECT
 enum: HintMessage
 value: 556
 description: >-
-  Shows the following hint to the player when selecting an effect: "Select effect to apply/resolve"
+  Shows the following hint to the player when selecting an effect: `Select effect to apply/resolve`
 summary: '"Select effect to apply/resolve"'
 status:
   index: stable

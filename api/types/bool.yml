@@ -1,4 +1,4 @@
 ---!type
 name: bool
-description: The lua [Boolean](https://www.lua.org/pil/2.2.html) type.
-summary: The lua Boolean type.
+description: The lua [boolean](https://www.lua.org/pil/2.2.html) type.
+summary: The lua boolean type.

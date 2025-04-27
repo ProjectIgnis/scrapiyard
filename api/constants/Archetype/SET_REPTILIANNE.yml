@@ -5,4 +5,5 @@ value: 0x3c
 description: >-
   The ["Reptilianne"](https://yugipedia.com/wiki/Reptilianne) archetype.
 summary: Reptilianne
-status: { index: stable }
+status:
+  index: stable

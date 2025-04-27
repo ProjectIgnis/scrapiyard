@@ -2,7 +2,8 @@
 name: CHINT_NUMBER
 enum: CardHintType
 value: 5
-description: 'Displays "Declared number: " when a player hovers over the affected card.'
+description: >-
+  Shows the following hint on a card's tooltip when hovered over: `Declared number: `
 summary: '"Declared number: "'
 status:
   index: stable

@@ -6,4 +6,5 @@ description: >-
   The ["R-Genex"](https://yugipedia.com/wiki/R-Genex) archetype.
   Sub-archetype of [`SET_GENEX`](/api/constants/Archetype/SET_GENEX).
 summary: R-Genex
-status: { index: stable }
+status:
+  index: stable

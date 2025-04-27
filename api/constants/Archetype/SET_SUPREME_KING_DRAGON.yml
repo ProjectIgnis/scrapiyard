@@ -5,4 +5,5 @@ value: 0x20f8
 description: >-
   The ["Supreme King Dragon"](https://yugipedia.com/wiki/Supreme_King_Dragon) archetype.
 summary: Supreme King Dragon
-status: { index: stable }
+status:
+  index: stable

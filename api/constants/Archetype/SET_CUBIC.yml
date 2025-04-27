@@ -5,4 +5,5 @@ value: 0xe3
 description: >-
   The ["Cubic"](https://yugipedia.com/wiki/Cubic) archetype.
 summary: Cubic
-status: { index: stable }
+status:
+  index: stable

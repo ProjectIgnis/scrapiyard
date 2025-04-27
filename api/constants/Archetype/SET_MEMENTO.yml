@@ -5,4 +5,5 @@ value: 0x19a
 description: >-
   The ["Memento"](https://yugipedia.com/wiki/Memento) archetype.
 summary: Memento
-status: { index: stable }
+status:
+  index: stable

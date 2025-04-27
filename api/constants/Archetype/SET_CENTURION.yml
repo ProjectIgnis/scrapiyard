@@ -5,4 +5,5 @@ value: 0x19b
 description: >-
   The ["Centur-Ion"](https://yugipedia.com/wiki/Centur-Ion) archetype.
 summary: Centur-Ion
-status: { index: stable }
+status:
+  index: stable

@@ -5,4 +5,5 @@ value: 0x12a
 description: >-
   The ["Endymion"](https://yugipedia.com/wiki/Endymion) archetype.
 summary: Endymion
-status: { index: stable }
+status:
+  index: stable

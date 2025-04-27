@@ -5,4 +5,5 @@ value: 0x10f8
 description: >-
   The ["Supreme King Gate"](https://yugipedia.com/wiki/Supreme_King_Gate) archetype.
 summary: Supreme King Gate
-status: { index: stable }
+status:
+  index: stable

@@ -3,7 +3,7 @@ name: HINTMSG_COUNTER
 enum: HintMessage
 value: 572
 description: >-
-  Shows the following hint to the player when selecting a card(s): "Select the card(s) to place a counter on"
+  Shows the following hint to the player when selecting a card(s): `Select the card(s) to place a counter on`
 summary: '"Select the card(s) to place a counter on"'
 status:
   index: stable

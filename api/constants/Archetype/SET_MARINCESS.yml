@@ -5,4 +5,5 @@ value: 0x12b
 description: >-
   The ["Marincess"](https://yugipedia.com/wiki/Marincess) archetype.
 summary: Marincess
-status: { index: stable }
+status:
+  index: stable

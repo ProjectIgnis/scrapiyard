@@ -5,4 +5,5 @@ value: 0x74
 description: >-
   The ["Mermail"](https://yugipedia.com/wiki/Mermail) archetype.
 summary: Mermail
-status: { index: stable }
+status:
+  index: stable

@@ -5,4 +5,5 @@ value: 0x9f
 description: >-
   The ["Performapal"](https://yugipedia.com/wiki/Performapal) archetype.
 summary: Performapal
-status: { index: stable }
+status:
+  index: stable

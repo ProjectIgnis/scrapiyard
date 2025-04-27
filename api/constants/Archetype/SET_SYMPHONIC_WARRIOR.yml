@@ -6,4 +6,5 @@ description: >-
   The ["Symphonic Warrior"](https://yugipedia.com/wiki/Symphonic_Warrior) archetype.
   Sub-archetype of [`SET_WARRIOR`](/api/constants/Archetype/SET_WARRIOR).
 summary: Symphonic Warrior
-status: { index: stable }
+status:
+  index: stable

@@ -3,7 +3,7 @@ name: HINTMSG_TODECK
 enum: HintMessage
 value: 507
 description: >-
-  Shows the following hint to the player when selecting a card(s): "Select the card(s) to return to Deck"
+  Shows the following hint to the player when selecting a card(s): `Select the card(s) to return to Deck`
 summary: '"Select the card(s) to return to Deck"'
 status:
   index: stable

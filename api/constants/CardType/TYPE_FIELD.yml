@@ -5,4 +5,5 @@ value: 0x80000
 description: >-
   The [Field](https://yugipedia.com/wiki/Field_Spell_Card) Card Type for Spells
 summary: Field
-status: { index: stable }
+status:
+  index: stable

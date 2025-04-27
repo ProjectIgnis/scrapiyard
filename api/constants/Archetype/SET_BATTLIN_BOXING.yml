@@ -5,4 +5,5 @@ value: 0x201
 description: >-
   The ["Battlin' Boxing"](https://yugipedia.com/wiki/Battlin%27_Boxing) archetype.
 summary: Battlin' Boxing
-status: { index: stable }
+status:
+  index: stable

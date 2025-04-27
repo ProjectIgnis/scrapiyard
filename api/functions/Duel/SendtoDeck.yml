@@ -13,11 +13,11 @@ parameters:
     type: [ int, nil ]
     description: The player whose Deck to send the cards to. If `nil`, each card is sent to its owner's Deck.
   - name: sequence
-    type: [ DeckSequence ]
-    description: The sequence (order) in which the cards will be sent to.
+    type: [ int ]
+    description: The [sequence](/api/enums/DeckSequence) (order) in which the cards will be sent to.
   - name: reason
-    type: [ Reason ]
-    description: The reason the cards are being sent to the Deck.
+    type: [ int ]
+    description: The [reason](/api/enums/Reason) why the cards are being sent to the Deck.
   - name: reason_player
     type: [ int ]
     description: The player sending the cards to the Deck. If not supplied, the player is inferred from the game state. For example, if cards are sent during the resolution of an effect, the `reason_player` is the player resolving that effect.

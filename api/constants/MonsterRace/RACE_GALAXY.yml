@@ -2,7 +2,7 @@
 name: RACE_GALAXY
 enum: MonsterRace
 value: 0x80000000
-description: >-
-  The [Galaxy](https://yugipedia.com/wiki/Galaxy) Monster Type in Rush Duels
+description: The [Galaxy](https://yugipedia.com/wiki/Galaxy) Monster Type in Rush Duel.
 summary: Galaxy
-status: { index: stable }
+status:
+  index: stable

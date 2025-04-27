@@ -5,4 +5,5 @@ value: 0x8
 description: >-
   The ["HERO"](https://yugipedia.com/wiki/HERO) archetype.
 summary: HERO
-status: { index: stable }
+status:
+  index: stable

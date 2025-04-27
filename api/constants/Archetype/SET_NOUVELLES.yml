@@ -5,4 +5,5 @@ value: 0x197
 description: >-
   The ["Nouvelles"](https://yugipedia.com/wiki/Nouvelles) archetype.
 summary: Nouvelles
-status: { index: stable }
+status:
+  index: stable

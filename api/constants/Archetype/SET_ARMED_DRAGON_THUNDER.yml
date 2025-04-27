@@ -7,4 +7,5 @@ description: >-
   Technically not an archetype and not currently registered to any card, since "Armed Dragon" is used instead.
   Sub-archetype of [`SET_ARMED_DRAGON`](/api/constants/Archetype/SET_ARMED_DRAGON).
 summary: Armed Dragon Thunder
-status: { index: stable }
+status:
+  index: stable

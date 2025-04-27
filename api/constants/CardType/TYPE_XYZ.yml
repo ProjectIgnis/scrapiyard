@@ -5,4 +5,5 @@ value: 0x800000
 description: >-
   The [Xyz](https://yugipedia.com/wiki/Xyz_Monster) Card Type for Monsters
 summary: Xyz
-status: { index: stable }
+status:
+  index: stable

@@ -5,4 +5,5 @@ value: 0xea
 description: >-
   The ["Crystron"](https://yugipedia.com/wiki/Crystron) archetype.
 summary: Crystron
-status: { index: stable }
+status:
+  index: stable

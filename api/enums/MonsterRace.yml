@@ -1,6 +1,5 @@
 ---!enum
 name: MonsterRace
-description: >-
-  [Monster Type](https://yugipedia.com/wiki/Type), referred to as "Race" in the ygopro codebase
-summary: Monster Type/Race
+description: Constants representing [monster types](https://yugipedia.com/wiki/Type), historically referred to as "races" in the codebase.
+summary: Monster types (races).
 bitmaskInt: true

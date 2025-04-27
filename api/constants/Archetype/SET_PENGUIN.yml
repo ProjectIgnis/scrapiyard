@@ -5,4 +5,5 @@ value: 0x5a
 description: >-
   The ["Penguin"](https://yugipedia.com/wiki/Penguin) archetype.
 summary: Penguin
-status: { index: stable }
+status:
+  index: stable

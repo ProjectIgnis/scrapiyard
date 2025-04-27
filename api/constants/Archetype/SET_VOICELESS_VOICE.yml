@@ -5,4 +5,5 @@ value: 0x19e
 description: >-
   The ["Voiceless Voice"](https://yugipedia.com/wiki/Voiceless_Voice) archetype.
 summary: Voiceless Voice
-status: { index: stable }
+status:
+  index: stable

@@ -5,4 +5,5 @@ value: 0xad
 description: >-
   The ["Frightfur"](https://yugipedia.com/wiki/Frightfur) archetype.
 summary: Frightfur
-status: { index: stable }
+status:
+  index: stable

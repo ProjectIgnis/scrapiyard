@@ -5,4 +5,5 @@ value: 0xd6
 description: >-
   The ["Destruction Sword"](https://yugipedia.com/wiki/Destruction_Sword) archetype.
 summary: Destruction Sword
-status: { index: stable }
+status:
+  index: stable

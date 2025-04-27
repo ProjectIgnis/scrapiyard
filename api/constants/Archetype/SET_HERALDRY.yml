@@ -5,4 +5,5 @@ value: 0x92
 description: >-
   The ["Heraldry"](https://yugipedia.com/wiki/Heraldry) archetype.
 summary: Heraldry
-status: { index: stable }
+status:
+  index: stable

@@ -6,4 +6,5 @@ description: >-
   The ["Cyberdark"](https://yugipedia.com/wiki/Cyberdark) archetype.
   Sub-archetype of [`SET_CYBER`](/api/constants/Archetype/SET_CYBER).
 summary: Cyberdark
-status: { index: stable }
+status:
+  index: stable

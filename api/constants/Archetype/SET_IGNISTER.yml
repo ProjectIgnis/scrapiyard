@@ -5,4 +5,5 @@ value: 0x135
 description: >-
   The ["@Ignister"](https://yugipedia.com/wiki/@Ignister) archetype.
 summary: '@Ignister'
-status: { index: stable }
+status:
+  index: stable

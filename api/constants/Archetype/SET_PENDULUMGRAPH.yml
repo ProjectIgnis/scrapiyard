@@ -6,4 +6,5 @@ description: >-
   The ["Pendulumgraph"](https://yugipedia.com/wiki/Pendulumgraph) archetype.
   Sub-archetype of [`SET_PENDULUM`](/api/constants/Archetype/SET_PENDULUM).
 summary: Pendulumgraph
-status: { index: stable }
+status:
+  index: stable

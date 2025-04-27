@@ -5,4 +5,5 @@ value: 0x107
 description: >-
   The ["F.A."](https://yugipedia.com/wiki/F.A.) archetype.
 summary: F.A.
-status: { index: stable }
+status:
+  index: stable

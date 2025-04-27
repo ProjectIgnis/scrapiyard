@@ -5,4 +5,5 @@ value: 0x1b9
 description: >-
   The ["Maliss"](https://yugipedia.com/wiki/Maliss) archetype.
 summary: Maliss
-status: { index: stable }
+status:
+  index: stable

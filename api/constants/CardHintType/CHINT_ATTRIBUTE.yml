@@ -2,8 +2,8 @@
 name: CHINT_ATTRIBUTE
 enum: CardHintType
 value: 4
-description: 'Displays "Declared Attribute: " when a player hovers over the affected card.'
+description: >-
+  Shows the following hint on a card's tooltip when hovered over: `Declared Attribute: `
 summary: '"Declared Attribute: "'
 status:
   index: stable
-tags: [ under-construction ]

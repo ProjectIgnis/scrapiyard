@@ -5,4 +5,5 @@ value: 0x13a
 description: >-
   The ["Palladium"](https://yugipedia.com/wiki/Palladium) archetype.
 summary: Palladium
-status: { index: stable }
+status:
+  index: stable

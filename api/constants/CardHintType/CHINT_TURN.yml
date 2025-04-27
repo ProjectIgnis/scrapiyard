@@ -2,7 +2,8 @@
 name: CHINT_TURN
 enum: CardHintType
 value: 1
-description: 'Displays "Turns passed: " when a player hovers over the affected card.'
+description: >-
+  Shows the following hint on a card's tooltip when hovered over: `Turns passed: `
 summary: '"Turns passed: "'
 status:
   index: stable

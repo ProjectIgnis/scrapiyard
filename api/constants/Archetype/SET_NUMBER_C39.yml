@@ -6,4 +6,5 @@ description: >-
   The ["Number C39"](https://yugipedia.com/wiki/Number_C39) archetype.
   Sub-archetype of [`SET_NUMBER`](/api/constants/Archetype/SET_NUMBER).
 summary: Number C39
-status: { index: stable }
+status:
+  index: stable

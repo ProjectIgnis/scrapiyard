@@ -2,7 +2,8 @@
 name: EVENT_RETURN_TO_GRAVE
 enum: Event
 value: 1203
-description: This event is raised when a card(s) is being returned to the GY.
+description: This event was raised when a card(s) is being returned to the GY.
 summary: A card(s) is being returned to the GY.
 status:
   index: deleted
+  message: Event is no longer raised.

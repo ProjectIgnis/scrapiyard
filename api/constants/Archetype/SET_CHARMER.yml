@@ -5,4 +5,5 @@ value: 0xbf
 description: >-
   The ["Charmer"](https://yugipedia.com/wiki/Charmer) archetype.
 summary: Charmer
-status: { index: stable }
+status:
+  index: stable

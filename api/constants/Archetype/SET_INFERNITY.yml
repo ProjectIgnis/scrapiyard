@@ -5,4 +5,5 @@ value: 0xb
 description: >-
   The ["Infernity"](https://yugipedia.com/wiki/Infernity) archetype.
 summary: Infernity
-status: { index: stable }
+status:
+  index: stable

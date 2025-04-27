@@ -5,4 +5,5 @@ value: 0x1a
 description: >-
   The ["Dark Scorpion"](https://yugipedia.com/wiki/Dark_Scorpion) archetype.
 summary: Dark Scorpion
-status: { index: stable }
+status:
+  index: stable

@@ -6,4 +6,5 @@ description: >-
   The ["SPYRAL GEAR"](https://yugipedia.com/wiki/SPYRAL_GEAR) archetype.
   Sub-archetype of [`SET_SPYRAL`](/api/constants/Archetype/SET_SPYRAL).
 summary: SPYRAL GEAR
-status: { index: stable }
+status:
+  index: stable

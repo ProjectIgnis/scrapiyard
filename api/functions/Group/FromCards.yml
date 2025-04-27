@@ -7,7 +7,8 @@ status:
   index: stable
 aliases:
   - name: Group.CreateGroup
-    status: { index: stable }
+    status:
+      index: stable
 parameters:
   - name: ...
     type: [ Card ]

@@ -5,4 +5,5 @@ value: 0x3
 description: >-
   The ["Horus"](https://yugipedia.com/wiki/Horus) archetype.
 summary: Horus
-status: { index: stable }
+status:
+  index: stable

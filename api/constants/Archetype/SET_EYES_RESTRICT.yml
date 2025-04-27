@@ -6,4 +6,5 @@ description: >-
   The ["Eyes Restrict"](https://yugipedia.com/wiki/Eyes_Restrict) archetype.
   Sub-archetype of [`SET_RELINQUISHED`](/api/constants/Archetype/SET_RELINQUISHED).
 summary: Eyes Restrict
-status: { index: stable }
+status:
+  index: stable

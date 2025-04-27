@@ -5,4 +5,5 @@ value: 0x1178
 description: >-
   The ["Barian's"](https://yugipedia.com/wiki/Barian%27s) archetype.
 summary: Barian's
-status: { index: stable }
+status:
+  index: stable

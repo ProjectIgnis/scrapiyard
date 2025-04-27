@@ -5,4 +5,5 @@ value: 0xb5
 description: >-
   The ["Ritual Beast"](https://yugipedia.com/wiki/Ritual_Beast) archetype.
 summary: Ritual Beast
-status: { index: stable }
+status:
+  index: stable

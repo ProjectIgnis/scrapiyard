@@ -1,6 +1,6 @@
 ---!constant
 name: ANNOUNCE_CARD_FILTER
-enum: CardAnnouncementType
+enum: CardDeclarationType
 value: 0x8
 description: &desc Declaring the name of a card matching a filter.
 constant: *desc

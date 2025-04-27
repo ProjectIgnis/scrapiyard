@@ -6,4 +6,5 @@ description: >-
   The ["Predaplant"](https://yugipedia.com/wiki/Predaplant) archetype.
   Sub-archetype of [`SET_PREDAP`](/api/constants/Archetype/SET_PREDAP).
 summary: Predaplant
-status: { index: stable }
+status:
+  index: stable

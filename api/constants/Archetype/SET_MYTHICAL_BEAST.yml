@@ -5,4 +5,5 @@ value: 0x10d
 description: >-
   The ["Mythical Beast"](https://yugipedia.com/wiki/Mythical_Beast) archetype.
 summary: Mythical Beast
-status: { index: stable }
+status:
+  index: stable

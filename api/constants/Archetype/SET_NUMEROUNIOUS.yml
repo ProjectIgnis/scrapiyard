@@ -5,4 +5,5 @@ value: 0x16b
 description: >-
   The ["Numerounius"](https://yugipedia.com/wiki/Numerounius) archetype.
 summary: Numerounius
-status: { index: stable }
+status:
+  index: stable

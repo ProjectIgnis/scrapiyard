@@ -13,5 +13,6 @@ parameters:
 returns:
   - type: [ bool ]
     description: If `c` is a Trap Monster.
-status: { index: stable }
+status:
+  index: stable
 tags: [ card-check, card-type-related ]

@@ -11,5 +11,6 @@ parameters:
 returns:
   - type: [ bool ]
     description: If there is at least one card equipped to `c`.
-status: { index: stable }
+status:
+  index: stable
 tags: [ card-check, equip-related ]

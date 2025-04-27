@@ -5,4 +5,5 @@ value: 0x1ac
 description: >-
   The ["Mulcharmy"](https://yugipedia.com/wiki/Mulcharmy) archetype.
 summary: Mulcharmy
-status: { index: stable }
+status:
+  index: stable

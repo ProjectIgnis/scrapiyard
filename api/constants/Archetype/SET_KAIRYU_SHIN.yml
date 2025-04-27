@@ -5,4 +5,5 @@ value: 0x179
 description: >-
   The ["Kairyu-Shin"](https://yugipedia.com/wiki/Kairyu-Shin_(archetype)) archetype.
 summary: Kairyu-Shin
-status: { index: stable }
+status:
+  index: stable

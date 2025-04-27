@@ -5,4 +5,5 @@ value: 0x607a
 description: >-
   The ["Infernoble Arms"](https://yugipedia.com/wiki/Infernoble_Arms) archetype.
 summary: Infernoble Arms
-status: { index: stable }
+status:
+  index: stable

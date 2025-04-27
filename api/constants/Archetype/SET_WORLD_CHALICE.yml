@@ -5,4 +5,5 @@ value: 0xfd
 description: >-
   The ["World Chalice"](https://yugipedia.com/wiki/World_Chalice) archetype.
 summary: World Chalice
-status: { index: stable }
+status:
+  index: stable

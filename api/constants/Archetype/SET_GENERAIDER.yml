@@ -5,4 +5,5 @@ value: 0x134
 description: >-
   The ["Generaider"](https://yugipedia.com/wiki/Generaider) archetype.
 summary: Generaider
-status: { index: stable }
+status:
+  index: stable

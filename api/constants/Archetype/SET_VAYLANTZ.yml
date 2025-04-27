@@ -5,4 +5,5 @@ value: 0x17e
 description: >-
   The ["Vaylantz"](https://yugipedia.com/wiki/Vaylantz) archetype.
 summary: Vaylantz
-status: { index: stable }
+status:
+  index: stable

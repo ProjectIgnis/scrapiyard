@@ -5,4 +5,5 @@ value: 0x43
 description: >-
   The ["Junk"](https://yugipedia.com/wiki/Junk) archetype.
 summary: Junk
-status: { index: stable }
+status:
+  index: stable

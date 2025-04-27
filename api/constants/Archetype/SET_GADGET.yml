@@ -5,4 +5,5 @@ value: 0x51
 description: >-
   The ["Gadget"](https://yugipedia.com/wiki/Gadget) archetype.
 summary: Gadget
-status: { index: stable }
+status:
+  index: stable

@@ -5,4 +5,5 @@ value: 0x10000
 description: >-
   The [Quick-Play](https://yugipedia.com/wiki/Quick-Play_Spell_Card) Type for Spells
 summary: Quick-Play
-status: { index: stable }
+status:
+  index: stable

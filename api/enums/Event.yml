@@ -1,4 +1,4 @@
 ---!enum
 name: Event
-description: Constants representing events that happen in the Duel.
-summary: Events that happen in the Duel.
+description: Constants representing events that happen in a Duel.
+summary: Events that happen in a Duel.

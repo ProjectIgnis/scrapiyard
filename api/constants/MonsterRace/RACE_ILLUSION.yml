@@ -2,7 +2,7 @@
 name: RACE_ILLUSION
 enum: MonsterRace
 value: 0x2000000
-description: >-
-  The [Illusion](https://yugipedia.com/wiki/Illusion) Monster Type in Rush Duels
+description: The [Illusion](https://yugipedia.com/wiki/Illusion) Monster Type in Rush Duel.
 summary: Illusion
-status: { index: stable }
+status:
+  index: stable

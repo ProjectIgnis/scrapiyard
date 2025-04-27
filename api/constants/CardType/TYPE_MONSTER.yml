@@ -5,4 +5,5 @@ value: 0x1
 description: >-
   The [Monster](https://yugipedia.com/wiki/Monster_Card) Card Type
 summary: Monster
-status: { index: stable }
+status:
+  index: stable

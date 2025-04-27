@@ -12,5 +12,6 @@ returns:
   - type: [ bool ]
     description: >-
       `true` if the card is currently a Ritual Spell, `false` otherwise.
-status: { index: stable }
+status:
+  index: stable
 tags: [ card-check, card-type-related ]

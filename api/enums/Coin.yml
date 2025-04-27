@@ -1,4 +1,4 @@
 ---!enum
 name: Coin
-description: Represents the result of a coin flip.
-summary: The result of a coin flip.
+description: Constants representing results of coin flips.
+summary: Coin flip results.

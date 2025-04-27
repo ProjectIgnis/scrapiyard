@@ -5,4 +5,5 @@ value: 0x26
 description: >-
   The ["Morphtronic"](https://yugipedia.com/wiki/Morphtronic) archetype.
 summary: Morphtronic
-status: { index: stable }
+status:
+  index: stable

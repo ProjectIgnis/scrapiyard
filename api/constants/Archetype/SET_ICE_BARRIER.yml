@@ -5,4 +5,5 @@ value: 0x2f
 description: >-
   The ["Ice Barrier"](https://yugipedia.com/wiki/Ice_Barrier) archetype.
 summary: Ice Barrier
-status: { index: stable }
+status:
+  index: stable

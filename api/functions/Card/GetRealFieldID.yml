@@ -12,7 +12,8 @@ parameters:
 returns:
   - type: [ int ]
     description: The unique duel ID of `c`.
-status: { index: stable }
+status:
+  index: stable
 suggestedLinks:
   - name: Card.GetFieldID
     link: /api/functions/Card/GetFieldID

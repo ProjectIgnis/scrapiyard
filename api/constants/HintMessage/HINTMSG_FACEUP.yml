@@ -3,7 +3,7 @@ name: HINTMSG_FACEUP
 enum: HintMessage
 value: 514
 description: >-
-  Shows the following hint to the player when selecting a card(s): "Select a face-up card(s)"
+  Shows the following hint to the player when selecting a card(s): `Select a face-up card(s)`
 summary: '"Select a face-up card(s)"'
 status:
   index: stable

@@ -5,4 +5,5 @@ value: 0x6a
 description: >-
   The ["Butterspy"](https://yugipedia.com/wiki/Butterspy) archetype.
 summary: Butterspy
-status: { index: stable }
+status:
+  index: stable

@@ -5,4 +5,5 @@ value: 0xfe
 description: >-
   The ["World Legacy"](https://yugipedia.com/wiki/World_Legacy) archetype.
 summary: World Legacy
-status: { index: stable }
+status:
+  index: stable

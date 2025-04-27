@@ -5,4 +5,5 @@ value: 0x27
 description: >-
   The ["T.G."](https://yugipedia.com/wiki/T.G.) archetype.
 summary: T.G.
-status: { index: stable }
+status:
+  index: stable

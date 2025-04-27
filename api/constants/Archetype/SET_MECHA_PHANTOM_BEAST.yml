@@ -6,4 +6,5 @@ description: >-
   The ["Mecha Phantom Beast"](https://yugipedia.com/wiki/Mecha_Phantom_Beast) archetype.
   Sub-archetype of [`SET_PHANTOM_BEAST`](/api/constants/Archetype/SET_PHANTOM_BEAST).
 summary: Mecha Phantom Beast
-status: { index: stable }
+status:
+  index: stable

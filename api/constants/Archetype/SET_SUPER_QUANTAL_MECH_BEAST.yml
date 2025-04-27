@@ -6,4 +6,5 @@ description: >-
   The ["Super Quantal Mech Beast"](https://yugipedia.com/wiki/Super_Quantal_Mech_Beast) archetype.
   Sub-archetype of [`SET_SUPER_QUANT`](/api/constants/Archetype/SET_SUPER_QUANT).
 summary: Super Quantal Mech Beast
-status: { index: stable }
+status:
+  index: stable

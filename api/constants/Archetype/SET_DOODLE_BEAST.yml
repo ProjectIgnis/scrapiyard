@@ -5,4 +5,5 @@ value: 0x1186
 description: >-
   The ["Doodle Beast"](https://yugipedia.com/wiki/Doodle_Beast) archetype.
 summary: Doodle Beast
-status: { index: stable }
+status:
+  index: stable

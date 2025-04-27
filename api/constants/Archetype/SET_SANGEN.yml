@@ -5,4 +5,5 @@ value: 0x1a2
 description: >-
   The ["Sangen"](https://yugipedia.com/wiki/Sangen) archetype.
 summary: Sangen
-status: { index: stable }
+status:
+  index: stable

@@ -12,4 +12,5 @@ returns:
     type: [ Effect ]
     description: The effects registered or being granted to `c`.
     guaranteed: false
-status: { index: stable }
+status:
+  index: stable

@@ -5,4 +5,5 @@ value: 0x7e
 description: >-
   The ["Zexal"](https://yugipedia.com/wiki/Zexal) archetype.
 summary: Zexal
-status: { index: stable }
+status:
+  index: stable

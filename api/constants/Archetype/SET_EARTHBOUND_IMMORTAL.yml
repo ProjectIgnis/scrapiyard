@@ -6,4 +6,5 @@ description: >-
   The ["Earthbound Immortal"](https://yugipedia.com/wiki/Earthbound_Immortal) archetype.
   Sub-archetype of [`SET_EARTHBOUND`](/api/constants/Archetype/SET_EARTHBOUND).
 summary: Earthbound Immortal
-status: { index: stable }
+status:
+  index: stable

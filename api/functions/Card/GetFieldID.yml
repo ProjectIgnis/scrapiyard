@@ -11,7 +11,8 @@ parameters:
 returns:
   - type: [ int ]
     description: The current location ID of `c`.
-status: { index: stable }
+status:
+  index: stable
 suggestedLinks:
   - name: Card.GetRealFieldID
     link: /api/functions/Card/GetRealFieldID

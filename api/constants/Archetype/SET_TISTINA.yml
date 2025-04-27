@@ -5,4 +5,5 @@ value: 0x208
 description: >-
   The ["Tistina"](https://yugipedia.com/wiki/Tistina) archetype.
 summary: Tistina
-status: { index: stable }
+status:
+  index: stable

@@ -1,5 +1,5 @@
 ---!enum
 name: CardStatus
-description: Represents statuses applied to a card (states a card is in).
+description: Constants representing statuses applied to a card (states a card is in).
 summary: Statuses applied to a card.
 bitmaskInt: true

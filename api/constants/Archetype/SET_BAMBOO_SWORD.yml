@@ -5,4 +5,5 @@ value: 0x60
 description: >-
   The ["Bamboo Sword"](https://yugipedia.com/wiki/Bamboo_Sword) archetype.
 summary: Bamboo Sword
-status: { index: stable }
+status:
+  index: stable

@@ -5,4 +5,5 @@ value: 0x132
 description: >-
   The ["Mathmech"](https://yugipedia.com/wiki/Mathmech) archetype.
 summary: Mathmech
-status: { index: stable }
+status:
+  index: stable

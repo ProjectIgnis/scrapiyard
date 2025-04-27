@@ -1,4 +1,4 @@
 ---!enum
 name: ActivityCode
-description: Represents actions that can be tracked (counted) for various purposes.
+description: Constants representing actions that can be tracked (counted) for various purposes.
 summary: Actions that can be tracked.

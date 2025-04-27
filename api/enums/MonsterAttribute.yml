@@ -1,6 +1,5 @@
 ---!enum
 name: MonsterAttribute
-description: >-
-  Monster [Attributes](https://yugipedia.com/wiki/Attribute)
-summary: Monster Attributes
+description: Constants representing monster [attributes](https://yugipedia.com/wiki/Attribute).
+summary: Monster attributes.
 bitmaskInt: true

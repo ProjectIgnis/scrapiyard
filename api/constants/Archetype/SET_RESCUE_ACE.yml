@@ -5,4 +5,5 @@ value: 0x18c
 description: >-
   The ["Rescue-ACE"](https://yugipedia.com/wiki/Rescue-ACE) archetype.
 summary: Rescue-ACE
-status: { index: stable }
+status:
+  index: stable

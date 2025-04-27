@@ -2,7 +2,7 @@
 name: RACE_FAIRY
 enum: MonsterRace
 value: 0x4
-description: >-
-  The [Fairy](https://yugipedia.com/wiki/Fairy) Monster Type
+description: The [Fairy](https://yugipedia.com/wiki/Fairy) Monster Type.
 summary: Fairy
-status: { index: stable }
+status:
+  index: stable

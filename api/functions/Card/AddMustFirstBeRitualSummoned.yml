@@ -12,7 +12,8 @@ parameters:
 returns:
   - type: [ Effect ]
     description: The registered effect.
-status: { index: stable }
+status:
+  index: stable
 tags: [ registers-effect, ritual-related ]
 suggestedLinks:
   - name: AddMustBeRitualSummoned

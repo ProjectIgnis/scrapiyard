@@ -5,4 +5,5 @@ value: 0x20b7
 description: >-
   The ["Elder Entity"](https://yugipedia.com/wiki/Elder_Entity) archetype.
 summary: Elder Entity
-status: { index: stable }
+status:
+  index: stable

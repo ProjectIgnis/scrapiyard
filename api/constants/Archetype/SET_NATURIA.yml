@@ -5,4 +5,5 @@ value: 0x2a
 description: >-
   The ["Naturia"](https://yugipedia.com/wiki/Naturia) archetype.
 summary: Naturia
-status: { index: stable }
+status:
+  index: stable

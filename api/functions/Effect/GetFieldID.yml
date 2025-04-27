@@ -10,4 +10,5 @@ parameters:
 returns:
   - type: [ int ]
     description: The current instance ID of `e`.
-status: { index: stable }
+status:
+  index: stable

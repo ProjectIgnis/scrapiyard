@@ -5,4 +5,5 @@ value: 0xd9
 description: >-
   The ["Shiranui"](https://yugipedia.com/wiki/Shiranui) archetype.
 summary: Shiranui
-status: { index: stable }
+status:
+  index: stable

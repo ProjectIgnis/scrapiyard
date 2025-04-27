@@ -5,4 +5,5 @@ value: 0x14
 description: >-
   The ["Allure Queen"](https://yugipedia.com/wiki/Allure_Queen) archetype.
 summary: Allure Queen
-status: { index: stable }
+status:
+  index: stable

@@ -5,4 +5,5 @@ value: 0x2186
 description: >-
   The ["Doodlebook"](https://yugipedia.com/wiki/Doodlebook) archetype.
 summary: Doodlebook
-status: { index: stable }
+status:
+  index: stable

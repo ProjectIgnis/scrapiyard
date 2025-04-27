@@ -5,4 +5,5 @@ value: 0xa0
 description: >-
   The ["Legendary Knight"](https://yugipedia.com/wiki/Legendary_Knight) archetype.
 summary: Legendary Knight
-status: { index: stable }
+status:
+  index: stable

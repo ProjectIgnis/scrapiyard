@@ -5,4 +5,5 @@ value: 0x11
 description: >-
   The ["Karakuri"](https://yugipedia.com/wiki/Karakuri) archetype.
 summary: Karakuri
-status: { index: stable }
+status:
+  index: stable

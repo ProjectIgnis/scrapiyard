@@ -6,4 +6,5 @@ description: >-
   The ["Gladiator Beast"](https://yugipedia.com/wiki/Gladiator_Beast) archetype.
   Sub-archetype of [`SET_GLADIATOR`](/api/constants/Archetype/SET_GLADIATOR).
 summary: Gladiator Beast
-status: { index: stable }
+status:
+  index: stable

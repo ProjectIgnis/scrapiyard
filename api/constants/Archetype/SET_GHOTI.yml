@@ -5,4 +5,5 @@ value: 0x18b
 description: >-
   The ["Ghoti"](https://yugipedia.com/wiki/Ghoti) archetype.
 summary: Ghoti
-status: { index: stable }
+status:
+  index: stable

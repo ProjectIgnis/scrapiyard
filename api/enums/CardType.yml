@@ -1,5 +1,5 @@
 ---!enum
 name: CardType
-description: Represents [card types](https://yugipedia.com/wiki/Card_type).
+description: Constants representing [card types](https://yugipedia.com/wiki/Card_type).
 summary: Card types.
 bitmaskInt: true

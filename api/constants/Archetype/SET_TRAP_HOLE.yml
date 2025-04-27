@@ -5,4 +5,5 @@ value: 0x4c
 description: >-
   The ["Trap Hole"](https://yugipedia.com/wiki/Trap_Hole_(archetype)) archetype.
 summary: Trap Hole
-status: { index: stable }
+status:
+  index: stable

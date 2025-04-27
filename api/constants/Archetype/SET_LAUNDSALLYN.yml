@@ -5,4 +5,5 @@ value: 0xa8
 description: >-
   The ["Laundsallyn"](https://yugipedia.com/wiki/Laundsallyn) archetype.
 summary: Laundsallyn
-status: { index: stable }
+status:
+  index: stable

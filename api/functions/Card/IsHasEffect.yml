@@ -20,7 +20,8 @@ returns:
     type: [ Effect ]
     description: The effects being applied to `c`.
     guaranteed: false
-status: { index: stable }
+status:
+  index: stable
 suggestedLinks:
   - name: Card.GetOwnEffects
     link: /api/functions/Card/GetOwnEffects

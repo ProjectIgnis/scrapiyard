@@ -1,4 +1,4 @@
 ---!enum
 name: CardHintType
-description: Represents strings ("hints") displayed when a player hovers over a card.
+description: Constants representing strings ("hints") displayed when a player hovers over a card.
 summary: Types of hints displayed on a card on hover.

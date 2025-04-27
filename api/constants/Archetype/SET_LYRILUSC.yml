@@ -5,4 +5,5 @@ value: 0xf7
 description: >-
   The ["Lyrilusc"](https://yugipedia.com/wiki/Lyrilusc) archetype.
 summary: Lyrilusc
-status: { index: stable }
+status:
+  index: stable

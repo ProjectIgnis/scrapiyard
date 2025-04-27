@@ -5,4 +5,5 @@ value: 0x13c
 description: >-
   The ["Codebreaker"](https://yugipedia.com/wiki/Codebreaker) archetype.
 summary: Codebreaker
-status: { index: stable }
+status:
+  index: stable

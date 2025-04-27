@@ -5,4 +5,5 @@ value: 0x207
 description: >-
   The ["Heart"](https://yugipedia.com/wiki/Heart) archetype.
 summary: Heart
-status: { index: stable }
+status:
+  index: stable

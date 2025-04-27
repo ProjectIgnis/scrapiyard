@@ -5,4 +5,5 @@ value: 0xf1
 description: >-
   The ["Zoodiac"](https://yugipedia.com/wiki/Zoodiac) archetype.
 summary: Zoodiac
-status: { index: stable }
+status:
+  index: stable

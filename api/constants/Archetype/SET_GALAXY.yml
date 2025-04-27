@@ -5,4 +5,5 @@ value: 0x7b
 description: >-
   The ["Galaxy"](https://yugipedia.com/wiki/Galaxy) archetype.
 summary: Galaxy
-status: { index: stable }
+status:
+  index: stable

@@ -5,4 +5,5 @@ value: 0x13e
 description: >-
   The ["Barbaros"](https://yugipedia.com/wiki/Barbaros) archetype.
 summary: Barbaros
-status: { index: stable }
+status:
+  index: stable

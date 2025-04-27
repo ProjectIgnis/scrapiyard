@@ -7,4 +7,5 @@ description: >-
   Technically not an archetype but is registered as such on some cards.
   Sub-archetype of [`SET_SABER`](/api/constants/Archetype/SET_SABER).
 summary: XX-Saber
-status: { index: stable }
+status:
+  index: stable

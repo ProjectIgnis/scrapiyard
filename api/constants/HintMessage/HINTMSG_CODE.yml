@@ -3,7 +3,7 @@ name: HINTMSG_CODE
 enum: HintMessage
 value: 564
 description: >-
-  Shows the following hint to the player when prompted to declare: "Declare a card name"
+  Shows the following hint to the player when prompted to declare: `Declare a card name`
 summary: '"Declare a card name"'
 status:
   index: stable

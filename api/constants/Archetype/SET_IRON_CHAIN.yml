@@ -5,4 +5,5 @@ value: 0x25
 description: >-
   The ["Iron Chain"](https://yugipedia.com/wiki/Iron_Chain) archetype.
 summary: Iron Chain
-status: { index: stable }
+status:
+  index: stable

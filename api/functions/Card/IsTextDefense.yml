@@ -16,5 +16,6 @@ parameters:
 returns:
   - type: [ bool ]
     description: If the printed DEF of `c` is equal to `def`.
-status: { index: stable }
+status:
+  index: stable
 tags: [ card-check, def-related, original-property ]

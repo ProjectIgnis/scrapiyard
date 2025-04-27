@@ -3,7 +3,7 @@ name: HINTMSG_ATTACH
 enum: HintMessage
 value: 578
 description: >-
-  Shows the following hint to the player when selecting a card(s): "Select the card(s) to attach as material"
+  Shows the following hint to the player when selecting a card(s): `Select the card(s) to attach as material`
 summary: '"Select the card(s) to attach as material"'
 status:
   index: stable

@@ -6,4 +6,5 @@ description: >-
   The ["PSY-Framegear"](https://yugipedia.com/wiki/PSY-Framegear) archetype.
   Sub-archetype of [`SET_PSY_FRAME`](/api/constants/Archetype/SET_PSY_FRAME).
 summary: PSY-Framegear
-status: { index: stable }
+status:
+  index: stable

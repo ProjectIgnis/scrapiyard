@@ -5,4 +5,5 @@ value: 0x16a
 description: >-
   The ["Stealth Kragen"](https://yugipedia.com/wiki/Stealth_Kragen) archetype.
 summary: Stealth Kragen
-status: { index: stable }
+status:
+  index: stable

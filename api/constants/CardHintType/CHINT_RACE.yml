@@ -2,7 +2,8 @@
 name: CHINT_RACE
 enum: CardHintType
 value: 3
-description: 'Displays "Declared Type: " when a player hovers over the affected card.'
+description: >-
+  Shows the following hint on a card's tooltip when hovered over: `Declared Type: `
 summary: '"Declared Type: "'
 status:
   index: stable

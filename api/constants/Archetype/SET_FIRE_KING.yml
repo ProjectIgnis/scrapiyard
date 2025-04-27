@@ -5,4 +5,5 @@ value: 0x81
 description: >-
   The ["Fire King"](https://yugipedia.com/wiki/Fire_King) archetype.
 summary: Fire King
-status: { index: stable }
+status:
+  index: stable

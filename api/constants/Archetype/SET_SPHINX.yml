@@ -5,4 +5,5 @@ value: 0x5c
 description: >-
   The ["Sphinx"](https://yugipedia.com/wiki/Sphinx) archetype.
 summary: Sphinx
-status: { index: stable }
+status:
+  index: stable

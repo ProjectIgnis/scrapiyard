@@ -1,5 +1,5 @@
 ---!enum
 name: CardPosition
-description: Represents a card's [position](https://yugipedia.com/wiki/Position).
+description: Constants representing a card's [position](https://yugipedia.com/wiki/Position).
 summary: A card's position.
 bitmaskInt: true

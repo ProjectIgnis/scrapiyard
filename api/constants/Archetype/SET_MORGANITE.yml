@@ -5,4 +5,5 @@ value: 0x1b3
 description: >-
   The ["Morganite"](https://yugipedia.com/wiki/Morganite) archetype.
 summary: Morganite
-status: { index: stable }
+status:
+  index: stable

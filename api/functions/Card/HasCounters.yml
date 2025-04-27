@@ -10,7 +10,8 @@ parameters:
 returns:
   - type: [ bool ]
     description: If `c` currently holds any counter.
-status: { index: stable }
+status:
+  index: stable
 tags: [ card-check ]
 suggestedLinks:
   - name: Card.HasCounter

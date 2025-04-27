@@ -5,4 +5,5 @@ value: 0x156
 description: >-
   The ["Live☆Twin"](https://yugipedia.com/wiki/Live%E2%98%86Twin) archetype.
 summary: Live☆Twin
-status: { index: stable }
+status:
+  index: stable

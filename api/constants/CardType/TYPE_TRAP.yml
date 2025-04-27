@@ -5,4 +5,5 @@ value: 0x4
 description: >-
   The [Trap](https://yugipedia.com/wiki/Trap_Card) Card Type
 summary: Trap
-status: { index: stable }
+status:
+  index: stable

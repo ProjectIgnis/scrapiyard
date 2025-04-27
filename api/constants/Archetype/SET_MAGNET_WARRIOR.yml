@@ -6,4 +6,5 @@ description: >-
   The ["Magnet Warrior"](https://yugipedia.com/wiki/Magnet_Warrior) archetype.
   Sub-archetype of [`SET_WARRIOR`](/api/constants/Archetype/SET_WARRIOR).
 summary: Magnet Warrior
-status: { index: stable }
+status:
+  index: stable

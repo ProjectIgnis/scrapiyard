@@ -38,5 +38,6 @@ parameters:
 returns:
   - type: [ Effect ]
     description: The resulting [Effect](/api/types/Effect).
-status: { index: stable }
+status:
+  index: stable
 tags: [ registers-effect, equip-related ]

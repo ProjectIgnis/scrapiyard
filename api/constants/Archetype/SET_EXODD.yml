@@ -5,4 +5,5 @@ value: 0x1a7
 description: >-
   The ["Exodd" or "Obliterate!!!"](https://yugipedia.com/wiki/Exodd) archetype.
 summary: Exodd|Obliterate!!!
-status: { index: stable }
+status:
+  index: stable

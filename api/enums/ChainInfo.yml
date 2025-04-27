@@ -1,4 +1,4 @@
 ---!enum
 name: ChainInfo
-description: Constants to be used with [`Duel.GetChainInfo`](/api/functions/Duel/GetChainInfo) to specify which information related to a Chain Link to retrieve.
+description: Constants used with [`Duel.GetChainInfo`](/api/functions/Duel/GetChainInfo) to specify which information related to a Chain Link to retrieve.
 summary: Information related to a Chain Link.

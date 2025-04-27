@@ -6,4 +6,5 @@ description: >-
   The ["Heroic Challenger"](https://yugipedia.com/wiki/Heroic_Challenger) archetype.
   Sub-archetype of [`SET_HEROIC`](/api/constants/Archetype/SET_HEROIC).
 summary: Heroic Challenger
-status: { index: stable }
+status:
+  index: stable

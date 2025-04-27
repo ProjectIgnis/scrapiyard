@@ -6,4 +6,5 @@ description: >-
   The ["Unchained Soul"](https://yugipedia.com/wiki/Unchained_Soul) archetype.
   Sub-archetype of [`SET_UNCHAINED`](/api/constants/Archetype/SET_UNCHAINED).
 summary: Unchained Soul
-status: { index: stable }
+status:
+  index: stable

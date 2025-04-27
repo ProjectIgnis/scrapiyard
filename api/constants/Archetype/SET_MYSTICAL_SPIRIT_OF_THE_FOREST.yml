@@ -5,4 +5,5 @@ value: 0x2169
 description: >-
   The ["Mystical Spirit of the Forest"](https://yugipedia.com/wiki/Mystical_Spirit_of_the_Forest) archetype.
 summary: Mystical Spirit of the Forest
-status: { index: stable }
+status:
+  index: stable

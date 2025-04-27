@@ -5,4 +5,5 @@ value: 0x187
 description: >-
   The ["G Golem"](https://yugipedia.com/wiki/G_Golem) archetype.
 summary: G Golem
-status: { index: stable }
+status:
+  index: stable

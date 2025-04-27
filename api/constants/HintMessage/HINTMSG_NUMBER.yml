@@ -3,7 +3,7 @@ name: HINTMSG_NUMBER
 enum: HintMessage
 value: 565
 description: >-
-  Shows the following hint to the player when prompted to declare: "Declare a number"
+  Shows the following hint to the player when prompted to declare: `Declare a number`
 summary: '"Declare a number"'
 status:
   index: stable

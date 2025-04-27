@@ -5,4 +5,5 @@ value: 0x141
 description: >-
   The ["Rikka"](https://yugipedia.com/wiki/Rikka) archetype.
 summary: Rikka
-status: { index: stable }
+status:
+  index: stable

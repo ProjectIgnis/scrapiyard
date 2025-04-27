@@ -5,4 +5,5 @@ value: 0x20
 description: >-
   The [Effect](https://yugipedia.com/wiki/Effect_Monster) Card Type for Monsters
 summary: Effect
-status: { index: stable }
+status:
+  index: stable

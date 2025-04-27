@@ -5,4 +5,5 @@ value: 0xbc
 description: >-
   The ["Jinzo"](https://yugipedia.com/wiki/Jinzo_(archetype)) archetype.
 summary: Jinzo
-status: { index: stable }
+status:
+  index: stable

@@ -5,4 +5,5 @@ value: 0x11e
 description: >-
   The ["Danger!"](https://yugipedia.com/wiki/Danger!) archetype.
 summary: Danger!
-status: { index: stable }
+status:
+  index: stable

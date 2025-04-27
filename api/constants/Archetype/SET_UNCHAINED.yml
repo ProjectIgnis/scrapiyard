@@ -5,4 +5,5 @@ value: 0x130
 description: >-
   The ["Unchained"](https://yugipedia.com/wiki/Unchained) archetype.
 summary: Unchained
-status: { index: stable }
+status:
+  index: stable

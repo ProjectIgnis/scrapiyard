@@ -5,4 +5,5 @@ value: 0x9
 description: >-
   The ["Neos"](https://yugipedia.com/wiki/Neos) archetype.
 summary: Neos
-status: { index: stable }
+status:
+  index: stable
