@@ -14,7 +14,7 @@ parameters:
     description: The Fusion card to be summoned with the material.
   - name: sumtype
     type: [ int ]
-    description: The summon type. Always includes [SUMMON_TYPE_FUSION](/api/constants/SummonType/SUMMON_TYPE_FUSION).
+    description: The summon type. Always includes [`SUMMON_TYPE_FUSION`](/api/constants/SummonType/SUMMON_TYPE_FUSION).
   - name: tp
     type: [ int ]
     description: The player performing the Fusion Summon.

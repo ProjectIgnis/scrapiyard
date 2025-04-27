@@ -8,4 +8,4 @@ status:
   index: stable
 suggestedLinks:
   - name: DUEL_TCG_SEGOC_NONPUBLIC
-    link: api/constants/DuelOption/DUEL_TCG_SEGOC_NONPUBLIC
+    link: /api/constants/DuelOption/DUEL_TCG_SEGOC_NONPUBLIC

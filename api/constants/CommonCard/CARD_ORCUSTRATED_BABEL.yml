@@ -2,7 +2,7 @@
 name: CARD_ORCUSTRATED_BABEL
 enum: CommonCard
 value: 90351981
-description: The passcode of ["Orcustrated Babel"](https://yugipedia.com/wiki/Obelisk_the_Tormentor). Players affected by an effect with this ID can activate the effects of "Orcust" monsters in their GY, or of Link Monsters they control with "Orcust" in their original names, as Quick Effects.
+description: The passcode of ["Orcustrated Babel"](https://yugipedia.com/wiki/Orcustrated_Babel). Players affected by an [effect](/api/types/Effect) with this as [code](/api/functions/Effect/SetCode) can activate the effects of ["Orcust"](https://yugipedia.com/wiki/Orcust) monsters in their GY, or of Link Monsters they control with "Orcust" in their original names, as Quick Effects.
 summary: Orcustrated Babel
 status:
   index: stable

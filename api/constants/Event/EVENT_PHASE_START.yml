@@ -2,7 +2,7 @@
 name: EVENT_PHASE_START
 enum: Event
 value: 0x2000
-description: This event is raised at the start of a given [phase](api/enums/Phase), specified by combining it with the corresponding phase value (e.g., `EVENT_PHASE_START|PHASE_DRAW` for the start of the Draw Phase).
+description: This event is raised at the start of a given [phase](/api/enums/Phase), specified by combining it with the corresponding phase value (e.g., `EVENT_PHASE_START|PHASE_DRAW` for the start of the Draw Phase).
 summary: The start of a given phase.
 status:
   index: stable

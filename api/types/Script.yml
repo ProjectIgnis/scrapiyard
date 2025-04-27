@@ -41,7 +41,7 @@ fields:
   # Fusion Summons
   - name: material_location
     valueType: [ int ]
-    description: A [Location](/api/enums/Location) specified as where a Fusion material should be.
+    description: A [Location](/api/enums/Location) where a Fusion material should be.
   - name: material_race
     valueType: [ int ]
     description: A [MonsterRace](/api/enums/MonsterRace) mentioned as a Fusion material.
@@ -76,10 +76,10 @@ fields:
   # Xyz Summons
   - name: minxyzct
     valueType: [ int, nil ]
-    description: The minimum number of materials a Xyz Monster uses for its Xyz Summon.
+    description: The minimum number of materials an Xyz Monster uses for its Xyz Summon.
   - name: maxxyzct
     valueType: [ int, nil ]
-    description: The maximum number of materials a Xyz Monster uses for its Xyz Summon.
+    description: The maximum number of materials an Xyz Monster uses for its Xyz Summon.
   - name: xyz_number
     valueType: [ int, nil ]
     description: The number of a ["Number"](https://yugipedia.com/wiki/Number) Xyz monster.

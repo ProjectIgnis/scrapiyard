@@ -2,7 +2,7 @@
 name: CARD_REVERSAL_OF_FATE
 enum: CommonCard
 value: 36690018
-description: The passcode of ["Reversal of Fate"](https://yugipedia.com/wiki/Reversal_of_Fate). The effect of "Arcana Force" monsters affected by a flag effect with this ID are treated as the opposite coin result.
+description: The passcode of ["Reversal of Fate"](https://yugipedia.com/wiki/Reversal_of_Fate). The effect of ["Arcana Force"](https://yugipedia.com/wiki/Arcana_Force) monsters affected by a flag effect with this ID are treated as the opposite coin result.
 summary: Reversal of Fate
 status:
   index: stable

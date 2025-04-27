@@ -2,7 +2,7 @@
 name: CARD_REVEALER_ICEBARRIER
 enum: CommonCard
 value: 18319762
-description: The passcode of ["Revealer of the Ice Barrier"](https://yugipedia.com/wiki/Revealer_of_the_Ice_Barrier). If a player affected by an effect with this ID would discard, or send a card(s) from their hand to the GY, to activate an "Ice Barrier" monster's effect, they can banish "Revealer of the Ice Barrier" from the GY instead of 1 of those cards.
+description: The passcode of ["Revealer of the Ice Barrier"](https://yugipedia.com/wiki/Revealer_of_the_Ice_Barrier).
 summary: Revealer of the Ice Barrier
 status:
   index: stable

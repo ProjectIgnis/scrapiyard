@@ -1,0 +1,9 @@
+---!constant
+name: REASON_FLIP
+enum: Reason
+value: 0x2000
+description: The reason value is currently unused.
+summary: (Unused reason value)
+status:
+  index: unstable
+  message: Value is currently unused.
