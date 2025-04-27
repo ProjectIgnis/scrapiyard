@@ -6,7 +6,7 @@ description: If a player affected by an [effect](/api/types/Effect) with this [c
 summary: Affected players take damage instead of gaining LP.
 status:
   index: stable
-suggestedLink:
+suggestedLinks:
   - name: EFFECT_REVERSE_DAMAGE
     link: /api/constants/EffectCode/EFFECT_REVERSE_DAMAGE
 # effect structure:

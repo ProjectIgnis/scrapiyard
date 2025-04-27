@@ -2,8 +2,8 @@
 name: EFFECT_SYNCHRO_MATERIAL_CUSTOM
 enum: EffectCode
 value: 237
-description: >-
-  Coexistence of material constraints
+description: If a monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) would be used as material for a [Synchro Summon](https://yugipedia.com/wiki/Synchro_Summon), the [group](/api/types/Group) of materials must fulfill the effect's [value function](/api/functions/Effect/SetValue). To check the other materials individually, use [`EFFECT_SYNCHRO_MAT_RESTRICTION`](/api/constants/EffectCode/EFFECT_SYNCHRO_MAT_RESTRICTION) instead.
+summary: The group of materials in Synchro Summons must fulfill a check.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ synchro-related ]

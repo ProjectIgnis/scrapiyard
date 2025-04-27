@@ -6,3 +6,6 @@ description: A card affected by an [effect](/api/types/Effect) with this [code](
 summary: Affected cards can be treated as 2 Tributes for a Tribute Summon.
 status:
   index: stable
+suggestedLinks:
+  - name: EFFECT_TRIPLE_TRIBUTE
+    link: /api/constants/EffectCode/EFFECT_TRIPLE_TRIBUTE

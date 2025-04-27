@@ -2,8 +2,12 @@
 name: EFFECT_UPDATE_LINK
 enum: EffectCode
 value: 420
-description: >-
-  Increase/decrease affected card's Link Value by a value (written into Effect.SetValue())
+description: The Link Rating of a monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is increased by the number specified as the effect's [value](/api/functions/Effect/SetValue) (or decreased if the value is negative).
+summary: The Link Rating of affected monsters is updated.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_CHANGE_LINK
+    link: /api/constants/EffectCode/EFFECT_CHANGE_LINK
+  - name: EFFECT_CHANGE_LINK_FINAL
+    link: /api/constants/EffectCode/EFFECT_CHANGE_LINK_FINAL

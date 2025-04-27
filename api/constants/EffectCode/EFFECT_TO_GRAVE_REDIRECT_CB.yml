@@ -2,8 +2,7 @@
 name: EFFECT_TO_GRAVE_REDIRECT_CB
 enum: EffectCode
 value: 313
-description: >-
-  If the affected card would be sent to the graveyard, executes another operation instead (Crystal Beast monsters)
+description: If a card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) would be sent to the GY, the effect's [operation function](/api/functions/Effect/SetOperation) is performed instead. This effect code is intended for the effect of ["Crystal Beast"](https://yugipedia.com/wiki/Crystal_Beast) monsters that place them face-up in the Spell & Trap Zone as a Continuous Spell instead of sending them to the GY.
+summary: Performs an operation instead of sending affected cards to the GY.
 status:
   index: stable
-tags: [ under-construction ]

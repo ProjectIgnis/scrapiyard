@@ -6,3 +6,10 @@ description: A [Quick-Play Spell](https://yugipedia.com/wiki/Quick-Play_Spell_Ca
 summary: Affected Quick-Play Spells can be activated in the turn they are Set.
 status:
   index: stable
+suggestedLinks:
+  - name: EFFECT_QP_ACT_IN_NTPHAND
+    link: /api/constants/EffectCode/EFFECT_QP_ACT_IN_NTPHAND
+  - name: EFFECT_TRAP_ACT_IN_HAND
+    link: /api/constants/EffectCode/EFFECT_TRAP_ACT_IN_HAND
+  - name: EFFECT_TRAP_ACT_IN_SET_TURN
+    link: /api/constants/EffectCode/EFFECT_TRAP_ACT_IN_SET_TURN

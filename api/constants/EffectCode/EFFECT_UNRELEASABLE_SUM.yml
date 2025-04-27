@@ -2,8 +2,7 @@
 name: EFFECT_UNRELEASABLE_SUM
 enum: EffectCode
 value: 43
-description: >-
-  Affected card cannot be tributed for a Tribute Summon. SetValue in this effect receives only `e` and `c` as parameters.
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot be [Tributed](https://yugipedia.com/wiki/Tributed) for the [Tribute Summon](https://yugipedia.com/wiki/Tributed) of a monster effects that fulfills its [value function](/api/functions/Effect/SetValue). This does not prevent Tributing for other types of Summons, such as Ritual Summons, unlike [`EFFECT_UNRELEASABLE_SUM`](/api/constants/EffectCode/EFFECT_UNRELEASABLE_SUM).
+summary: Affected cards cannot be Tributed for Tribute Summons.
 status:
   index: stable
-tags: [ under-construction ]

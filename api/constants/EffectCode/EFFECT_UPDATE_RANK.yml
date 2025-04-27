@@ -2,8 +2,12 @@
 name: EFFECT_UPDATE_RANK
 enum: EffectCode
 value: 132
-description: >-
-  Increase/decrease affected card's rank by a value (written into Effect.SetValue())
+description: The Rank of a monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is increased by the number specified as the effect's [value](/api/functions/Effect/SetValue) (or decreased if the value is negative).
+summary: The Rank of affected monsters is updated.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_CHANGE_RANK
+    link: /api/constants/EffectCode/EFFECT_CHANGE_RANK
+  - name: EFFECT_CHANGE_RANK_FINAL
+    link: /api/constants/EffectCode/EFFECT_CHANGE_RANK_FINAL

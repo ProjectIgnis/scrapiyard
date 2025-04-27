@@ -2,8 +2,10 @@
 name: EFFECT_UPDATE_LSCALE
 enum: EffectCode
 value: 134
-description: >-
-  Increase/decrease affected card's left pendulum scale (blue scale) by a value (written into Effect.SetValue())
+description: The Left Pendulum Scale of a monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is increased by the number specified as the effect's [value](/api/functions/Effect/SetValue) (or decreased if the value is negative).
+summary: The Left Pendulum Scale of affected monsters is updated.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_CHANGE_LSCALE
+    link: /api/constants/EffectCode/EFFECT_CHANGE_LSCALE

@@ -6,6 +6,6 @@ description: A monster affected by an [effect](/api/types/Effect) with this [cod
 summary: Affected monsters must attack monsters, if able.
 status:
   index: stable
-suggestedLink:
+suggestedLinks:
   - name: EFFECT_MUST_ATTACK
     link: /api/constants/EffectCode/EFFECT_MUST_ATTACK

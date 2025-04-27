@@ -2,7 +2,7 @@
 name: EFFECT_SEND_REPLACE
 enum: EffectCode
 value: 52
-description: If a card(s) would be send to another location, the [operation function](/api/functions/Effect/SetOperation) of an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can be performed instead. The cards being sent and their destination can be checked in the effect's [condition](/api/functions/Effect/SetCondition).
+description: If a card(s) would be sent to a location, the [operation function](/api/functions/Effect/SetOperation) of an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can be performed instead.
 summary: Allows performing an operation instead of sending a card(s) to some location.
 status:
   index: stable

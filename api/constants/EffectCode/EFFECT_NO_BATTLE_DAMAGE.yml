@@ -6,6 +6,6 @@ description: A monster affected by an [effect](/api/types/Effect) with this [cod
 summary: Affected monsters do not inflict battle damage.
 status:
   index: stable
-suggestedLink:
+suggestedLinks:
   - name: EFFECT_AVOID_BATTLE_DAMAGE
     link: /api/constants/EffectCode/EFFECT_AVOID_BATTLE_DAMAGE

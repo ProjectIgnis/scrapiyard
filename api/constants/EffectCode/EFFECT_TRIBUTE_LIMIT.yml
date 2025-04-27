@@ -2,8 +2,7 @@
 name: EFFECT_TRIBUTE_LIMIT
 enum: EffectCode
 value: 154
-description: >-
-  The affected card has restriction for the tribute summon
+description: If a monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) would be [Tribute Summoned](https://yugipedia.com/wiki/Tribute_Summon), all Tributes must fulfill the effect's [value function](/api/functions/Effect/SetValue).
+summary: Tributes must fulfill a check to Tribute Summon affected monsters.
 status:
   index: stable
-tags: [ under-construction ]

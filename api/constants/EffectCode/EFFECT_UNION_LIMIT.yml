@@ -2,8 +2,8 @@
 name: EFFECT_UNION_LIMIT
 enum: EffectCode
 value: 78
-description: >-
-  (To be added)
+description: An equipped [Union Monster Card](https://yugipedia.com/wiki/Union_monster) affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can only remain equipped to monsters that fulfill the effect's [value function](/api/functions/Effect/SetValue). If the equipped monster no longer meets the restriction, the Union Monster Card is destroyed. Effects with this code are typically registered using [`Auxiliary.AddUnionProcedure`](/api/functions/Auxiliary/AddUnionProcedure) rather than created manually.
+summary: Affected Unions can only remain equipped to certain cards.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ equip-limit ]

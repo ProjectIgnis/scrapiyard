@@ -2,8 +2,8 @@
 name: EFFECT_SYNCHRO_CHECK
 enum: EffectCode
 value: 310
-description: >-
-  Genomix Fighter
+description: If a monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) would be used as material for a [Synchro Summon](https://yugipedia.com/wiki/Synchro_Summon), the materials can be treated to have some property using the effect's [value function](/api/functions/Effect/SetValue).
+summary: Materials in Synchro Summons are treated to have some property.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ synchro-related ]
