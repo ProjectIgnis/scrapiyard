@@ -2,11 +2,12 @@
 name: EFFECT_REVERSE_RECOVER
 enum: EffectCode
 value: 81
-description: >-
-  If the affected player would gain LP, they take that much damage instead. SetValue in this effect receives the following parameters:
-e: this effect itself
-r: reason
-rp: reason player
+description: If a player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) would gain LP in a way that fulfills the effect's [value function](/api/functions/Effect/SetValue), they take that much damage instead.
+summary: Affected players take damage instead of gaining LP.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLink:
+  - name: EFFECT_REVERSE_DAMAGE
+    link: /api/constants/EffectCode/EFFECT_REVERSE_DAMAGE
+# effect structure:
+#   SetValue: function(e,r,rp) -> bool

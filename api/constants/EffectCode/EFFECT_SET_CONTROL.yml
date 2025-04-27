@@ -2,8 +2,7 @@
 name: EFFECT_SET_CONTROL
 enum: EffectCode
 value: 4
-description: >-
-  The affected card's control is set to a given player. The player should be defined in SetValue (SetValue receives e and c)
+description: The control of a monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is (continuously) given to the player specified as the effect's [value](/api/functions/Effect/SetValue).
+summary: Control of affected monsters is given to a specified player.
 status:
   index: stable
-tags: [ under-construction ]

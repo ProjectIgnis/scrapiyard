@@ -2,8 +2,8 @@
 name: EFFECT_REMOVE_REDIRECT
 enum: EffectCode
 value: 64
-description: >-
-  If the affected card would be removed, sends it to another given location instead. The location must be set in SetValue.
+description: This effect code is currently unused. It may have been intended for effects that send a card to a different location when it would be banished, but those effects use [`EFFECT_LEAVE_FIELD_REDIRECT`](/api/constants/EffectCode/EFFECT_LEAVE_FIELD_REDIRECT) with [`LOCATION_REMOVED`](/api/constants/Location/LOCATION_REMOVED) as value instead.
+summary: (Unused effect code)
 status:
-  index: stable
-tags: [ under-construction ]
+  index: unstable
+  summary: Value is currently unused.

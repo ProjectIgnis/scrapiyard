@@ -2,8 +2,7 @@
 name: EFFECT_SPSUMMON_COUNT_LIMIT
 enum: EffectCode
 value: 330
-description: >-
-  Limit for the number of Special Summons
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can only [Special Summon](https://yugipedia.com/wiki/Special_Summon) monsters up to the number of times specified as the effect's [value](/api/functions/Effect/SetValue). This effect code is used instead of [`EFFECT_LEFT_SPSUMMON_COUNT`](/api/constants/EffectCode/EFFECT_LEFT_SPSUMMON_COUNT) if the remaining number of Special Summons may be affected by other things is only affected by the number of Special Summons already performed.
+summary: Affected players can only perform Special Summons up to a number of times.
 status:
   index: stable
-tags: [ under-construction ]

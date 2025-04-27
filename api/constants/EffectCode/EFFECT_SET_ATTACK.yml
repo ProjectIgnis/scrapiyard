@@ -2,8 +2,7 @@
 name: EFFECT_SET_ATTACK
 enum: EffectCode
 value: 101
-description: >-
-  Sets the current ATK of a monster to a value evaluated in Effect.SetValue()
+description: The **raw** ATK of a monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) becomes the number specified as the effect's [value](/api/functions/Effect/SetValue). "Raw" here means the set value is where calculations for the actual ATK starts, i.e., the monster's actual ATK is further calculated by applying previously-registered [effects that update the monster's ATK](/api/constants/EffectCode/EFFECT_UPDATE_ATTACK). To set a value as the actual ATK, ignoring all other previous effects that change the monster's ATK, use [`EFFECT_SET_ATTACK_FINAL`](/api/constants/EffectCode/EFFECT_SET_ATTACK_FINAL) instead.
+summary: The raw ATK of affected monsters becomes a specified value.
 status:
   index: stable
-tags: [ under-construction ]

@@ -2,8 +2,9 @@
 name: EFFECT_RANK_LEVEL
 enum: EffectCode
 value: 409
-description: >-
-  Gives Level to an affected monster with a Rank
+description: A monster that has a Rank and is affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is also treated to have a Level. Its Level will initially be equal to its Rank when the effect is registered, but can be independently changed after. To ensure the Level is always equal to the Rank, use [`EFFECT_RANK_LEVEL_S`](/api/constants/EffectCode/EFFECT_RANK_LEVEL_S) instead.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_LEVEL_RANK
+    link: /api/constants/EffectCode/EFFECT_LEVEL_RANK

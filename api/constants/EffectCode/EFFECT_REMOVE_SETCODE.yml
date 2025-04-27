@@ -2,8 +2,12 @@
 name: EFFECT_REMOVE_SETCODE
 enum: EffectCode
 value: 349
-description: >-
-  (To be added)
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) stops being treated as the [archetype](/api/enums/Archetype) specified as the effect's [value](/api/functions/Effect/SetValue).
+summary: Affected cards stop being treated as the specified archetype.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_ADD_SETCODE
+    link: /api/constants/EffectCode/EFFECT_ADD_SETCODE
+  - name: EFFECT_CHANGE_SETCODE
+    link: /api/constants/EffectCode/EFFECT_CHANGE_SETCODE

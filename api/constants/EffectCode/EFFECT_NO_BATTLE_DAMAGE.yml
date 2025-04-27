@@ -2,8 +2,10 @@
 name: EFFECT_NO_BATTLE_DAMAGE
 enum: EffectCode
 value: 200
-description: >-
-  No battle damage is dealt when the affected card battles
+description: A monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) does not inflict battle damage to the opponent.
+summary: Affected monsters do not inflict battle damage.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLink:
+  - name: EFFECT_AVOID_BATTLE_DAMAGE
+    link: /api/constants/EffectCode/EFFECT_AVOID_BATTLE_DAMAGE

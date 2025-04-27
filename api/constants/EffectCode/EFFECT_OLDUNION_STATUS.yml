@@ -2,8 +2,7 @@
 name: EFFECT_OLDUNION_STATUS
 enum: EffectCode
 value: 348
-description: >-
-  (To be added)
+description: A [Union monster](https://yugipedia.com/wiki/Union_monster) affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) follows the old ruling that allows only 1 Union monster to be equipped to a monster at a time. Effects with this code are typically registered using [`Auxiliary.AddUnionProcedure`](/api/functions/Auxiliary/AddUnionProcedure) rather than created manually.
+summary: Affected Union monsters follow old ruling that limits equipped Union monsters.
 status:
   index: stable
-tags: [ under-construction ]

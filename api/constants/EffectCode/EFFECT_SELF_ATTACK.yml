@@ -2,8 +2,7 @@
 name: EFFECT_SELF_ATTACK
 enum: EffectCode
 value: 406
-description: >-
-  Allows players to attack themselves using monsters they control
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can target their own monsters for attacks.
+summary: Affected players can attack their own monsters.
 status:
   index: stable
-tags: [ under-construction ]

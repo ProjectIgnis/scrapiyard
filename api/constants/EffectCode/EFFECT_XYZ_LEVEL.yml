@@ -2,8 +2,8 @@
 name: EFFECT_XYZ_LEVEL
 enum: EffectCode
 value: 242
-description: >-
-  Affected card can be treated as a given level if used for an Xyz Summon
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is treated as the Level returned by the effect's [value function](/api/functions/Effect/SetValue) when used as material for an [Xyz Summon](https://yugipedia.com/wiki/Xyz_Summon). Up to two possible Levels can be set by concatenating them as 16-bit integers, e.g., `(2<<16)|1` means the card can be treated either as a Level 2 or Level 1 material.
+summary: Affected cards are treated as the given Level(s) when used for Xyz Summons.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ xyz-related ]

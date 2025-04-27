@@ -2,10 +2,11 @@
 name: EFFECT_NONTUNER
 enum: EffectCode
 value: 244
-description: >-
-  Affected card can be treated as a non-Tuner despite being a Tuner (Phantom King Hydride). When used as a single effect, SetValue receives the following parameters:
-e: this effect
-sc: the monster that would use this card as material
+description: A [Tuner monster](https://yugipedia.com/wiki/Tuner_monster) affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can be treated as a non-Tuner for the [Synchro Summon](https://yugipedia.com/wiki/Synchro_Summon) of a monster that fulfills its [value function](/api/functions/Effect/SetValue) (or any monster if there is no value function provided).
+summary: Affected Tuners can be treated as non-Tuners for Synchro Summons.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ synchro-related ]
+# effect structure:
+#   SetValue: function(e,sc) -> bool
+#     must be true if it can be used for the summon of `sc`

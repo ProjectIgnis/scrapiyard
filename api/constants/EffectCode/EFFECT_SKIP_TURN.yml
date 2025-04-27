@@ -2,8 +2,7 @@
 name: EFFECT_SKIP_TURN
 enum: EffectCode
 value: 188
-description: >-
-  The affected player's whole next turn is skipped
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) skips their whole turn.
+summary: Affected players skip their turn.
 status:
   index: stable
-tags: [ under-construction ]

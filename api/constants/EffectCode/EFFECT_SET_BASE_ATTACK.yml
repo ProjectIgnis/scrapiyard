@@ -2,8 +2,7 @@
 name: EFFECT_SET_BASE_ATTACK
 enum: EffectCode
 value: 103
-description: >-
-  Set the original attack of a monster
+description: The original ATK of a monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) becomes the number specified as the effect's [value](/api/functions/Effect/SetValue). The set value will be the monster's actual original ATK, i.e., it ignores all other previous effects that change the monster's original ATK.
+summary: The original ATK of affected monsters becomes a specified value.
 status:
   index: stable
-tags: [ under-construction ]

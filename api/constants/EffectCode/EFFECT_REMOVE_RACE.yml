@@ -2,8 +2,12 @@
 name: EFFECT_REMOVE_RACE
 enum: EffectCode
 value: 121
-description: >-
-  Treats a Card(s) as not a race(s) (written into Effect.SetValue())
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) stops being treated as the [race(s)](/api/enums/MonsterRace) specified as the effect's [value](/api/functions/Effect/SetValue).
+summary: Affected cards stop being treated as a specified race(s).
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_ADD_RACE
+    link: /api/constants/EffectCode/EFFECT_ADD_RACE
+  - name: EFFECT_CHANGE_RACE
+    link: /api/constants/EffectCode/EFFECT_CHANGE_RACE

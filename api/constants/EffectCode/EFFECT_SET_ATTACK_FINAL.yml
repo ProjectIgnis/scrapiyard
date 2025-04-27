@@ -2,8 +2,7 @@
 name: EFFECT_SET_ATTACK_FINAL
 enum: EffectCode
 value: 102
-description: >-
-  Set the attack of a monster, overriding other changes  (taken from the return in Effect.SetValue())
+description: The ATK of a monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) becomes the number specified as the effect's [value](/api/functions/Effect/SetValue). The set value will be the monster's actual ATK, i.e., it ignores all other previous effects that change the monster's ATK. To allow applying previously-registered [effects that update the monster's ATK](/api/constants/EffectCode/EFFECT_UPDATE_ATTACK), use [`EFFECT_SET_ATTACK`](/api/constants/EffectCode/EFFECT_SET_ATTACK) instead.
+summary: The ATK of affected monsters becomes a specified value.
 status:
   index: stable
-tags: [ under-construction ]

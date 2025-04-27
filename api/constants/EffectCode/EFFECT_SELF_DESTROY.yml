@@ -2,8 +2,12 @@
 name: EFFECT_SELF_DESTROY
 enum: EffectCode
 value: 141
-description: >-
-  Affected card destroys itself
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) destroys itself when the effect's [condition](/api/functions/Effect/SetCondition) is met.
+summary: Affected cards destroy themselves.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_SELF_TOGRAVE
+    link: /api/constants/EffectCode/EFFECT_SELF_TOGRAVE
+  - name: GLOBALFLAG_SELF_TOGRAVE
+    link: /api/constants/GlobalFlag/GLOBALFLAG_SELF_TOGRAVE

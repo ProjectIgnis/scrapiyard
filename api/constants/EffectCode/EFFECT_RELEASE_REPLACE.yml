@@ -2,8 +2,8 @@
 name: EFFECT_RELEASE_REPLACE
 enum: EffectCode
 value: 51
-description: >-
-  If the affected card would be Tributed, perform a given operation instead
+description: This effect code is currently unused. It may have been intended to implement effects that allow performing an operation instead of Tributing a card(s), but such effects use unique effect codes separately instead.
+summary: (Unused effect code)
 status:
-  index: stable
-tags: [ under-construction ]
+  index: unstable
+  summary: Value is currently unused.

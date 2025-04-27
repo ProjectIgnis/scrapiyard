@@ -2,8 +2,11 @@
 name: EFFECT_SWAP_ATTACK_FINAL
 enum: EffectCode
 value: 111
-description: >-
-  Set the final attack (used to exchange offensive and defensive)
+description: The ATK of a monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) becomes the number specified as the effect's [value](/api/functions/Effect/SetValue). Though it is only used for effects that swap ATK and DEF, This effect code's behavior is currently the same as [`EFFECT_SET_ATTACK_FINAL`](/api/constants/EffectCode/EFFECT_SET_ATTACK_FINAL).
+summary: The ATK of affected monsters becomes a specified value.
 status:
-  index: stable
-tags: [ under-construction ]
+  index: unstable
+  message: Behavior is currently redundant with `EFFECT_SET_ATTACK_FINAL`.
+suggestedLinks:
+  - name: EFFECT_SWAP_DEFENSE_FINAL
+    link: /api/constants/EffectCode/EFFECT_SWAP_DEFENSE_FINAL

@@ -2,14 +2,9 @@
 name: EFFECT_SPSUMMON_CONDITION
 enum: EffectCode
 value: 30
-description: >-
-  The affected monster has an Special Summon condition that must be fulfilled. Cards/effects that return true for the SetValue are allowed to Special Summon the monster. SetValue for this function takes the following parameters:
--effect: this effect itself
--sum_effect: the effect that would summon
--sum_player: the player that would summon
--sum_type: the SummonType what would be used for the summon
--sum_pos: the position in which the monster would be summoned
--toplayer: the player that would receive the monster
+description: A monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot be [Special Summoned](https://yugipedia.com/wiki/Special_Summon) except in ways that fulfill the effect's [value function](/api/functions/Effect/SetValue) (or by its own [Special Summoning procedure](/api/constants/EFFECT_SPSUMMON_PROC)).
+summary: Affected monsters must be Special Summoned in certain ways.
 status:
   index: stable
-tags: [ under-construction ]
+# effect structure:
+#   SetOperation: function(e,se,sp,sum_type,sum_pos,to_player) -> bool

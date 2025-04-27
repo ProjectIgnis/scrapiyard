@@ -2,8 +2,7 @@
 name: EFFECT_SKIP_EP
 enum: EffectCode
 value: 189
-description: >-
-  The affected player's End Phase is skipped
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) skips their [End Phase](https://yugipedia.com/wiki/End_Phase).
+summary: Affected players skip their End Phase.
 status:
   index: stable
-tags: [ under-construction ]

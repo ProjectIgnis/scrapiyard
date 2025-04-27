@@ -2,8 +2,10 @@
 name: EFFECT_SELF_TOGRAVE
 enum: EffectCode
 value: 142
-description: >-
-  Affected card sends itself to the graveyard, requires enabling GLOBALFLAG_SELF_TOGRAVE
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) sends itself to the GY when the effect's [condition](/api/functions/Effect/SetCondition) is met.
+summary: Affected cards send themselves to the GY.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_SELF_DESTROY
+    link: /api/constants/EffectCode/EFFECT_SELF_DESTROY

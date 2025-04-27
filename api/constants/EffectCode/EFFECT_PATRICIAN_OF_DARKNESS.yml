@@ -2,8 +2,7 @@
 name: EFFECT_PATRICIAN_OF_DARKNESS
 enum: EffectCode
 value: 345
-description: >-
-  The affected player chooses the targets of their opponent's attacks
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) chooses the target of their opponent's attacks.
+summary: Affected players choose the target of their opponent's attacks.
 status:
   index: stable
-tags: [ under-construction ]

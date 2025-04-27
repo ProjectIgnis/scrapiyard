@@ -2,8 +2,8 @@
 name: EFFECT_SUPREME_CASTLE
 enum: EffectCode
 value: 72043279
-description: >-
-  The ID of Supreme King's Castle, used for the hardcoded effect of it
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can [Fusion Summon](https://yugipedia.com/wiki/Fusion_Summon) Fusion Monsters that must be Special Summoned with ["Dark Fusion"](https://yugipedia.com/wiki/Dark_Fusion), with effects other than "Dark Fusion".
+summary: Affected players can ignore Fusion conditions that require "Dark Fusion".
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ special-handling, fusion-related ]
