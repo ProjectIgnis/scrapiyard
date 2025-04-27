@@ -2,8 +2,13 @@
 name: EFFECT_CANNOT_BE_BATTLE_TARGET
 enum: EffectCode
 value: 70
-description: >-
-  The affected card cannot be targeted for an attack
+description: A monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot be targeted for attacks by cards that fulfill the effect's [value function](/api/functions/Effect/SetValue). Also, a player cannot attack at all, even directly, if all monsters their opponent controls are affected by effects with this code. To allow direct attacks, use [`EFFECT_IGNORE_BATTLE_TARGET`](/api/constants/EffectCode/EFFECT_IGNORE_BATTLE_TARGET) instead.
+summary: Affected monsters cannot be targeted for attacks.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_CANNOT_SELECT_BATTLE_TARGET
+    link: /api/constants/EffectCode/EFFECT_CANNOT_SELECT_BATTLE_TARGET
+# effect structure:
+#   SetValue: function(e,c) -> bool
+#     must be true if `c` cannot target the affected card

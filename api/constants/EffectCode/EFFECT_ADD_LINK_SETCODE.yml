@@ -2,8 +2,8 @@
 name: EFFECT_ADD_LINK_SETCODE
 enum: EffectCode
 value: 355
-description: >-
-  Deprecated and removed effect. See core's "effect.h". Add a setcode (archetype) for the affected monster to have if used for a Link Summon
+description: A card that was affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) was **also** treated as the [archetype](/api/enums/Archetype) specified as the effect's [value](/api/functions/Effect/SetValue) when being used as material for a [Link Summon](https://yugipedia.com/wiki/Link_Summon).
+summary: Affected cards were treated as an additional archetype for Link Summons.
 status:
-  index: stable
-tags: [ under-construction ]
+  index: deleted
+  message: Code is no longer used.

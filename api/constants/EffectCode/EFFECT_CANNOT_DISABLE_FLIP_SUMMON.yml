@@ -2,8 +2,7 @@
 name: EFFECT_CANNOT_DISABLE_FLIP_SUMMON
 enum: EffectCode
 value: 39
-description: >-
-  The Flip Summon of the affected monster cannot be negated (Spell Wall)
+description: The [Flip Summon](https://yugipedia.com/wiki/Flip_Summon) of a card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot be negated.
+summary: The Flip Summon of affected cards cannot be negated.
 status:
   index: stable
-tags: [ under-construction ]

@@ -2,8 +2,7 @@
 name: EFFECT_CANNOT_ATTACK_ANNOUNCE
 enum: EffectCode
 value: 86
-description: >-
-  Affected card cannot declare attacks (but can finish conducting an attack responded to with this effect, Threatening Roar)
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot declare attacks. This does not stop an attack that has already been declared before the effect is applied, unlike[`EFFECT_CANNOT_ATTACK`](/api/constants/EffectCode/EFFECT_CANNOT_ATTACK).
+summary: Affected cards cannot declare attacks.
 status:
   index: stable
-tags: [ under-construction ]

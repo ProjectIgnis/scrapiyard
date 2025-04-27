@@ -2,8 +2,7 @@
 name: EFFECT_CANNOT_DISABLE
 enum: EffectCode
 value: 3
-description: >-
-  The affected card cannot have its effects negated
+description: The effects of a card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot be negated.
+summary: The effects of affected cards cannot be negated.
 status:
   index: stable
-tags: [ under-construction ]

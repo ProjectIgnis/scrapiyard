@@ -2,8 +2,7 @@
 name: EFFECT_BP_FIRST_TURN
 enum: EffectCode
 value: 403
-description: >-
-  Allows entering Battle Phase during the first turn
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can enter the [Battle Phase](https://yugipedia.com/wiki/Battle_Phase) in the first turn of the Duel.
+summary: Affected players can enter the Battle Phase in the first turn.
 status:
   index: stable
-tags: [ under-construction ]

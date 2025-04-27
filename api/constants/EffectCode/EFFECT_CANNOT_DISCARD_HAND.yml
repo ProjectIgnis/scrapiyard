@@ -2,12 +2,10 @@
 name: EFFECT_CANNOT_DISCARD_HAND
 enum: EffectCode
 value: 55
-description: >-
-  Affected player cannot send cards from their hand to the graveyard. SetTarget receives the following parameters:
--e: this effect itself
--c: the card that would be discarded
--re: the effect that would discard the cards
--r: the reason for the discard
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot send cards from their hand to the GY.
+summary: Affected players cannot send cards from their hand to the GY.
 status:
   index: stable
-tags: [ under-construction ]
+# effect structure:
+#   SetTarget: function(e,c,re,r) -> bool
+#     must be true if `c` cannot be discarded by `re`

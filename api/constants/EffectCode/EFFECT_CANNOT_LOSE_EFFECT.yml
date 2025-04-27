@@ -2,8 +2,7 @@
 name: EFFECT_CANNOT_LOSE_EFFECT
 enum: EffectCode
 value: 402
-description: >-
-  The affected player is prevented from losing the duel via card effects (anything that calls the Duel.Win function)
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot lose the Duel through [alternate victory conditions](https://yugipedia.com/wiki/Victory_condition#Alternate_victory_condition).
+summary: Affected players cannot lose through alternate victory conditions.
 status:
   index: stable
-tags: [ under-construction ]

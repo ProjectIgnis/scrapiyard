@@ -2,8 +2,7 @@
 name: EFFECT_ADD_EXTRA_TRIBUTE
 enum: EffectCode
 value: 157
-description: >-
-  The affected card can use as tribute other cards (than the default ones). Requires SetTargetRange and SetTarget
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can be Tributed in addition to the cards that can be Tributed by default.
+summary: Affected cards can be Tributed in addition to the default cards.
 status:
   index: stable
-tags: [ under-construction ]

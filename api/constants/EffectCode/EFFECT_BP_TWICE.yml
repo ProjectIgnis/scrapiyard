@@ -2,8 +2,7 @@
 name: EFFECT_BP_TWICE
 enum: EffectCode
 value: 296
-description: >-
-  The affected player can conduct two Battle Phases (e.g. Weather Report)
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can perform their [Battle Phase](https://yugipedia.com/wiki/Battle_Phase) twice.
+summary: Affected players perform their Battle Phase twice.
 status:
   index: stable
-tags: [ under-construction ]

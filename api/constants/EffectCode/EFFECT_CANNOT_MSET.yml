@@ -2,14 +2,10 @@
 name: EFFECT_CANNOT_MSET
 enum: EffectCode
 value: 23
-description: >-
-  Affected player cannot Set monsters. This effect's SetTarget takes the following parameters:
--e: this effect itself
--c: the cards affected by it
--playerid: the player that would Set
--sumtype: the SummonType
--toplayer: the player that would receive the monster
--sumpos: the position in which the monsters would be summoned (fixed as POS_FACEDOWN by the core)
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot [Normal Set](https://yugipedia.com/wiki/Normal_Set) monsters that fulfill the effect's [target function](/api/functions/Effect/SetTarget).
+summary: Affected players cannot Normal Set monsters.
 status:
   index: stable
-tags: [ under-construction ]
+# effect structure:
+#   SetTarget: function(e,c,sump,sumtype,targetp,sumpos) -> bool
+#     must be true if `c` cannot be summonedset

@@ -2,8 +2,7 @@
 name: EFFECT_CANNOT_ATTACK
 enum: EffectCode
 value: 85
-description: >-
-  Affected card cannot attack
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot attack. This also stops attacks that have already been declared before the effect is applied, unlike [`EFFECT_CANNOT_ATTACK_ANNOUNCE`](/api/constants/EffectCode/EFFECT_CANNOT_ATTACK_ANNOUNCE).
+summary: Affected cards cannot attack.
 status:
   index: stable
-tags: [ under-construction ]

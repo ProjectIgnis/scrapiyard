@@ -2,8 +2,10 @@
 name: EFFECT_CANNOT_SPECIAL_SUMMON
 enum: EffectCode
 value: 22
-description: >-
-  The affected player cannot Special Summon. Requires the property EFFECT_FLAG_PLAYER_TARGET and the players defined via SetRange.
+description: If an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is affecting a card(s), that card cannot be [Special Summoned](https://yugipedia.com/wiki/Special_Summon). If it's affecting a player(s), that player cannot Special Summon monsters that fulfill the effect's [target function](/api/functions/Effect/SetTarget) (or any monster if no target function is provided).
+summary: Affected cards cannot be Special Summoned.
 status:
   index: stable
-tags: [ under-construction ]
+# effect structure:
+#   SetTarget: function(e,c,sump,sumtype,sumpos,targetp,se) -> bool
+#     if field effect, must be true if `c` cannot be summoned

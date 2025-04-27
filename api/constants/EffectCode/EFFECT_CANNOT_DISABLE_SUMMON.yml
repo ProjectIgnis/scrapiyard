@@ -2,8 +2,7 @@
 name: EFFECT_CANNOT_DISABLE_SUMMON
 enum: EffectCode
 value: 26
-description: >-
-  The affected monster cannot have its Normal Summon negated
+description: The [Normal Summon](https://yugipedia.com/wiki/Normal_Summon) of a card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot be negated.
+summary: The Normal Summon of affected cards cannot be negated.
 status:
   index: stable
-tags: [ under-construction ]

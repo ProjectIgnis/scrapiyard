@@ -2,8 +2,7 @@
 name: EFFECT_BECOME_QUICK
 enum: EffectCode
 value: 407
-description: >-
-  The affected Spell cards can be played like Quick-Play Spells
+description: A [Normal Spell](https://yugipedia.com/wiki/Normal_Spell_Card) affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can be activated like a [Quick-Play Spell](https://yugipedia.com/wiki/Quick-Play_Spell_Card).
+summary: Affected Normal Spell can be activated like a Quick-Play Spell.
 status:
   index: stable
-tags: [ under-construction ]

@@ -2,8 +2,7 @@
 name: EFFECT_BOTH_BATTLE_DAMAGE
 enum: EffectCode
 value: 206
-description: >-
-  Both players take the battle damage. See Double-Edged Sword
+description: Any battle damage inflicted in battles involving a card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is inflicted to both players.
+summary: Battle damage involving affected cards is inflicted to both players.
 status:
   index: stable
-tags: [ under-construction ]

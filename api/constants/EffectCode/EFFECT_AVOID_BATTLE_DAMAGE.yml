@@ -2,8 +2,10 @@
 name: EFFECT_AVOID_BATTLE_DAMAGE
 enum: EffectCode
 value: 201
-description: >-
-  The controller of the affected card does not take battle damage when it battles
+description: The controller of a monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) does not take battle damage in battles involving the card.
+summary: Controller of affected monsters do not take battle damage in battles involving them.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLink:
+  - name: EFFECT_NO_BATTLE_DAMAGE
+    link: /api/constants/EffectCode/EFFECT_NO_BATTLE_DAMAGE

@@ -2,8 +2,10 @@
 name: EFFECT_CANNOT_BE_EFFECT_TARGET
 enum: EffectCode
 value: 71
-description: >-
-  Affected card cannot be targeted by card effects. When used as a single effect, SetValue takes: e, re, rp. e: this effect itself, re: the effect that would target, tp: the player that would target it
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot be targeted by card effects that fulfill the effect's [value function](/api/functions/Effect/SetValue).
+summary: Affected card cannot be targeted by card effects.
 status:
   index: stable
-tags: [ under-construction ]
+# effect structure:
+#   SetValue: function(e,re,rp) -> bool
+#     must be true if `re` cannot target the affected card

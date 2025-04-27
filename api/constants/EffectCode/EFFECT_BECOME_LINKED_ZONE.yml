@@ -2,8 +2,7 @@
 name: EFFECT_BECOME_LINKED_ZONE
 enum: EffectCode
 value: 266
-description: >-
-  Makes a zone linked
+description: Zones specified as the [value](/api/functions/Effect/SetValue) of an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) are treated as [linked zones](https://yugipedia.com/wiki/Points_to), as though a Link Monster is pointing to it.
+summary: Specified zones are treated as linked.
 status:
   index: stable
-tags: [ under-construction ]

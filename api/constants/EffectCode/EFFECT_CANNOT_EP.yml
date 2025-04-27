@@ -2,8 +2,7 @@
 name: EFFECT_CANNOT_EP
 enum: EffectCode
 value: 187
-description: >-
-  The affected player cannot enter the End Phase
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot enter the [End Phase](https://yugipedia.com/wiki/End_Phase).
+summary: Affected players cannot enter the End Phase.
 status:
   index: stable
-tags: [ under-construction ]
