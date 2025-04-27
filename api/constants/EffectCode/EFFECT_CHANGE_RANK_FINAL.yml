@@ -2,8 +2,7 @@
 name: EFFECT_CHANGE_RANK_FINAL
 enum: EffectCode
 value: 315
-description: >-
-  Set affected card's rank to a value, overriding other changes
+description: The Rank of a monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) becomes the number specified as the effect's [value](/api/functions/Effect/SetValue). The set value will be the monster's actual Rank, i.e., it ignores all other previous effects that change the monster's Rank. To allow applying previously-registered [effects that update the monster's Rank](/api/constants/EffectCode/EFFECT_UPDATE_RANK), use [`EFFECT_CHANGE_RANK`](/api/constants/EffectCode/EFFECT_CHANGE_RANK) instead.
+summary: The Rank of affected monsters becomes a specified value.
 status:
   index: stable
-tags: [ under-construction ]

@@ -2,8 +2,7 @@
 name: EFFECT_DARKNESS_HIDE
 enum: EffectCode
 value: 428
-description: >-
-  The affect players cannot see/confirm their face-down cards
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot look at their face-down cards that fulfill the effect's [value function](/api/functions/Effect/SetValue) (e.g., due to the effect of ["Darkness"](https://yugipedia.com/wiki/Darkness)).
+summary: Affected players cannot look at their face-down cards.
 status:
   index: stable
-tags: [ under-construction ]

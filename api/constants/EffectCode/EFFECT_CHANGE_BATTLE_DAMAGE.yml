@@ -2,8 +2,7 @@
 name: EFFECT_CHANGE_BATTLE_DAMAGE
 enum: EffectCode
 value: 208
-description: >-
-  (To be added)
+description: Any battle damage inflicted by a card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is changed by the [damage modifier](/api/enums/DamageModifier) specified as the effect's [value](/api/functions/Effect/SetValue).
+summary: Affected cards have modified battle damage.
 status:
   index: stable
-tags: [ under-construction ]

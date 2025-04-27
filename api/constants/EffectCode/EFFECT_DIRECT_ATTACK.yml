@@ -2,8 +2,7 @@
 name: EFFECT_DIRECT_ATTACK
 enum: EffectCode
 value: 74
-description: >-
-  Affected card can make a direct attack.
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can attack directly even if the opponent controls a monster.
+summary: Affected cards can attack directly even if the opponent controls a monster.
 status:
   index: stable
-tags: [ under-construction ]

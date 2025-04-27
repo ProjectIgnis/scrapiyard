@@ -2,8 +2,7 @@
 name: EFFECT_COUNTER_LIMIT
 enum: EffectCode
 value: 0x20000
-description: >-
-  Allowed to place the number of counters
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can only hold a limited number of a certain counter. The limit is specified as the effect's [value](/api/functions/Effect/SetValue), and the type of counter is specified by adding it to this code (e.g. `EFFECT_COUNTER_LIMIT+COUNTER_SPELL`). Effects with this code are typically registered using [`Card.SetCounterLimit`](/api/functions/Card/SetCounterLimit) rather than created manually.
+summary: Affected cards can only hold a limited number of a certain counter.
 status:
   index: stable
-tags: [ under-construction ]

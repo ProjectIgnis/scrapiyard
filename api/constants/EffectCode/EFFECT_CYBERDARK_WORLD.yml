@@ -2,8 +2,8 @@
 name: EFFECT_CYBERDARK_WORLD
 enum: EffectCode
 value: 64753988
-description: >-
-  (To be added)
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can equip a monster from the opponent's GY when equipping a monster by the effect of a ["Cyberdark"](https://yugipedia.com/wiki/Cyberdark) monster that activated when it was Normal or Special Summoned (i.e., due to the effect of ["Cyberdark Realm"](https://yugipedia.com/wiki/Cyberdark_Realm)).
+summary: Affected players can equip monsters from opponent's GY for "Cyberdark" effects.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ special-handling ]

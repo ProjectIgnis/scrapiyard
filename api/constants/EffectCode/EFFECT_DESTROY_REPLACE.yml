@@ -2,8 +2,7 @@
 name: EFFECT_DESTROY_REPLACE
 enum: EffectCode
 value: 50
-description: >-
-  If the affected card would be destroyed, perform a given operation instead
+description: If a card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) would be destroyed, the effect's [operation function](/api/functions/Effect/SetOperation) is performed instead.
+summary: An operation is performed instead if affected cards would be destroyed.
 status:
   index: stable
-tags: [ under-construction ]

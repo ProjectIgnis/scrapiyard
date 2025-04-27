@@ -2,12 +2,7 @@
 name: EFFECT_DESTROY_SUBSTITUTE
 enum: EffectCode
 value: 45
-description: >-
-  Required alternative to destruction (this card is destroyed with other cards instead). SetValue receives the following parameters:
-e: this effect itself
-re: reason effect (confirm in the core, might default to current.reason_effect)
-r: reason  (confirm in the core, might default to current.reason)
-rp: reason player (confirm in the core, might default to current.reason_player)
+description: If a monster that is equipped by a card through an [equip effect](/api/constants/EffectType/EFFECT_TYPE_EQUIP) with this [code](/api/functions/Effect/SetCode) would be destroyed, the Equip Card is destroyed instead.
+summary: Equip Card is destroyed instead if equipped monster would be destroyed.
 status:
   index: stable
-tags: [ under-construction ]

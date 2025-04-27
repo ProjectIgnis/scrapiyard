@@ -2,8 +2,7 @@
 name: EFFECT_DISABLE_TRAPMONSTER
 enum: EffectCode
 value: 10
-description: >-
-  Negates Trap monsters
+description: The effects of a [Trap Monster](https://yugipedia.com/wiki/Trap_Monster) affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode), that is currently Summoned and is still treated as a Trap, are negated. This includes the effect that treats it as a monster, moving it back to the Spell & Trap Zone face-up.
+summary: Affected Trap Monsters that are still Traps have their effects negated.
 status:
   index: stable
-tags: [ under-construction ]

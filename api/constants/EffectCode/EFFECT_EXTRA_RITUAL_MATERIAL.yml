@@ -2,8 +2,8 @@
 name: EFFECT_EXTRA_RITUAL_MATERIAL
 enum: EffectCode
 value: 243
-description: >-
-  Affected card can be used for a Ritual Summon in addition to what the Ritual Spell states (e.g. Sphere Kuriboh).
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can **also** be used as material for a [Ritual Summon](https://yugipedia.com/wiki/Ritual_Summon), in addition to the materials that can be used by default. When used, the card is banished if it's in the GY, Tributed if it's in the hand or field, or sent to the GY otherwise.
+summary: Affected cards can additionally be used as materials for a Ritual Summon.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ ritual-related ]

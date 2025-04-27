@@ -2,8 +2,10 @@
 name: EFFECT_CHANGE_SETCODE
 enum: EffectCode
 value: 350
-description: >-
-  The affected card's setcode is changed to the new value, replacing the SetCode(s) it currently has
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is treated as the [archetype](/api/enums/Archetype) specified as the effect's [value](/api/functions/Effect/SetValue). This overwrites the card's current archetypes, unlike [`EFFECT_ADD_SETCODE`](/api/constants/EffectCode/EFFECT_ADD_SETCODE).
+summary: Affected cards are treated as the specified archetype.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_REMOVE_SETCODE
+    link: /api/constants/EffectCode/EFFECT_REMOVE_SETCODE

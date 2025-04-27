@@ -2,8 +2,10 @@
 name: EFFECT_CHANGE_RACE
 enum: EffectCode
 value: 122
-description: >-
-  Treats a Card(s) as another type overwriting its type (written into Effect.SetValue())
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is treated as the [race(s)](/api/enums/MonsterRace) specified as the effect's [value](/api/functions/Effect/SetValue). This overwrites the card's current races, unlike [`EFFECT_ADD_RACE`](/api/constants/EffectCode/EFFECT_ADD_RACE).
+summary: Affected cards are treated as the specified race(s).
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_REMOVE_RACE
+    link: /api/constants/EffectCode/EFFECT_REMOVE_RACE

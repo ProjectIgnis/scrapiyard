@@ -2,8 +2,7 @@
 name: EFFECT_CHANGE_LEVEL
 enum: EffectCode
 value: 131
-description: >-
-  Set affected card's level to a value (written into Effect.SetValue())
+description: The **raw** Level of a monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) becomes the number specified as the effect's [value](/api/functions/Effect/SetValue). "Raw" here means the set value is where calculations for the actual Level starts, i.e., the monster's actual Level is further calculated by applying previously-registered [effects that update the monster's Level](/api/constants/EffectCode/EFFECT_UPDATE_LEVEL). To set a value as the actual Level, ignoring all other previous effects that change the monster's Level, use [`EFFECT_CHANGE_LEVEL_FINAL`](/api/constants/EffectCode/EFFECT_CHANGE_LEVEL_FINAL) instead.
+summary: The raw Level of affected monsters becomes a specified value.
 status:
   index: stable
-tags: [ under-construction ]

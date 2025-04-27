@@ -2,8 +2,7 @@
 name: EFFECT_CHANGE_LINK
 enum: EffectCode
 value: 421
-description: >-
-  Set affected card's Link Value by a value (written into Effect.SetValue())
+description: The **raw** Link Rating of a monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) becomes the number specified as the effect's [value](/api/functions/Effect/SetValue). "Raw" here means the set value is where calculations for the actual Link Rating starts, i.e., the monster's actual Link Rating is further calculated by applying previously-registered [effects that update the monster's Link Rating](/api/constants/EffectCode/EFFECT_UPDATE_LINK). To set a value as the actual Link Rating, ignoring all other previous effects that change the monster's Link Rating, use [`EFFECT_CHANGE_LINK_FINAL`](/api/constants/EffectCode/EFFECT_CHANGE_LINK_FINAL) instead.
+summary: The raw Link Rating of affected monsters becomes a specified value.
 status:
   index: stable
-tags: [ under-construction ]

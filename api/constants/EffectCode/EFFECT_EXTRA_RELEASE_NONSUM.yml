@@ -2,8 +2,7 @@
 name: EFFECT_EXTRA_RELEASE_NONSUM
 enum: EffectCode
 value: 158
-description: >-
-  The affected card can be tributed (by a cost ?) even if it is controlled by the opponent.
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can also be [Tributed](https://yugipedia.com/wiki/Tribute), except for a [Tribute Summon](https://yugipedia.com/wiki/Tribute), in addition to the cards that can be Tributed by default (usually cards a player controls or in their hand). To allow Tributing for Tribute Summons **only**, use [`EFFECT_EXTRA_RELEASE_SUM`](/api/constants/EffectCode/EFFECT_EXTRA_RELEASE_SUM) instead.
+summary: Affected cards can additionally be Tributed, except for Tribute Summons.
 status:
   index: stable
-tags: [ under-construction ]
