@@ -2,8 +2,7 @@
 name: EFFECT_MONSTER_SSET
 enum: EffectCode
 value: 18
-description: >-
-  The affected monster can be placed in the Spell/Trap zone. SetValue should hold the type the card is set as (for example, TYPE_SPELL). See Artifact monsters
+description: A monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can be [Set](https://yugipedia.com/wiki/Set) in the [Spell & Trap Zone](https://yugipedia.com/wiki/Spell_%26_Trap_Zone) as the [card type](/api/enums/CardType) specified as the effect's [value](/api/functions/Effect/SetValue).
+summary: Affected monsters can be Set in the Spell & Trap Zone.
 status:
   index: stable
-tags: [ under-construction ]

@@ -2,8 +2,7 @@
 name: EFFECT_LEFT_SPSUMMON_COUNT
 enum: EffectCode
 value: 331
-description: >-
-  The remaining number of Summoning (e.g Summon Breaker)
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can only [Special Summon](https://yugipedia.com/wiki/Special_Summon) monsters up to the number of times returned by the effect's [value function](/api/functions/Effect/SetValue). This effect code is used instead of [`EFFECT_SPSUMMON_COUNT_LIMIT`](/api/constants/EffectCode/EFFECT_SPSUMMON_COUNT_LIMIT) if the remaining number of Special Summons may be affected by things other than the number of Special Summons already performed, such as if the limit is shared with [Normal Summons](https://yugipedia.com/wiki/Normal_Summon).
+summary: Affected players can only Special Summon up to a remaining number of times.
 status:
   index: stable
-tags: [ under-construction ]

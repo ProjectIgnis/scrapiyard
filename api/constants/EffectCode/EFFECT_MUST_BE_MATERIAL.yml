@@ -1,0 +1,8 @@
+---!constant
+name: EFFECT_MUST_BE_MATERIAL
+enum: EffectCode
+value: 317
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) **must** be used as material when performing a Summon that uses materials. Monsters cannot be Summoned if they cannot use the affected card as material. The type(s) of the Summon can be specified using the corresponding [reason constant](/api/enums/Reason) as the effect's [value](/api/functions/Effect/SetValue).
+summary: Affected cards must be used as material for Summons.
+status:
+  index: stable

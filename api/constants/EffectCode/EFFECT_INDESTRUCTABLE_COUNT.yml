@@ -2,12 +2,9 @@
 name: EFFECT_INDESTRUCTABLE_COUNT
 enum: EffectCode
 value: 47
-description: >-
-  Affected card cannot be destroyed up to a given number of times. SetValue receives the following parameters:
-e: this effect itself
-re: reason effect, the effect that would cause the destruction
-rp: reason player, the player that would cause the destruction
-c: this card (to be confirmed)
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot be destroyed up to a number of times (specified as the [count limit](/api/functions/Effect/SetCountLimit)), by reasons that fulfill the effect's [value function](/api/functions/Effect/SetValue).
+summary: Affected cards cannot be destroyed up to a number of times.
 status:
   index: stable
-tags: [ under-construction ]
+# effect structure:
+#   SetValue: function(e,re,r,rp) -> bool

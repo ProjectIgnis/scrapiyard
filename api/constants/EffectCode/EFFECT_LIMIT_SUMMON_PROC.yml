@@ -2,8 +2,10 @@
 name: EFFECT_LIMIT_SUMMON_PROC
 enum: EffectCode
 value: 33
-description: >-
-  Specifies a special method through which the affected card must be Normal Summoned
+description: A monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot be [Normal Summoned](https://yugipedia.com/wiki/Normal_Summon) except by performing the effect's [operation function](/api/functions/Effect/SetOperation). To allow Normal Summoning by other ways, use [`EFFECT_SUMMON_PROC`](/api/constants/EffectCode/EFFECT_SUMMON_PROC) instead.
+summary: Affected monsters can only be Normal Summon by performing an operation.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_LIMIT_SET_PROC
+    link: /api/constants/EffectCode/EFFECT_LIMIT_SET_PROC

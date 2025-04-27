@@ -2,8 +2,8 @@
 name: EFFECT_ICEBARRIER_REPLACE
 enum: EffectCode
 value: 18319762
-description: >-
-  (To be added)
+description: If a player would discard, or send a card(s) from their hand to the GY, to activate an ["Ice Barrier"](https://yugipedia.com/wiki/Ice_Barrier) monster's effect, they can banish a card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) instead of 1 of those cards.
+summary: Affected cards can be banished to replace an "Ice Barrier" effect's cost.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ special-handling ]

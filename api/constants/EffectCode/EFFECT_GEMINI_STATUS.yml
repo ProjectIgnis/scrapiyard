@@ -1,0 +1,12 @@
+---!constant
+name: EFFECT_GEMINI_STATUS
+enum: EffectCode
+value: 75
+description: A [Gemini monster](https://yugipedia.com/wiki/Gemini_monster) affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is treated as an [Effect Monster](https://yugipedia.com/wiki/Effect_Monster) and gains its effects.
+summary: Affected Gemini monsters are treated as Effect Monsters and gain their effects.
+status:
+  index: stable
+aliases:
+  - name: EFFECT_DUAL_STATUS
+    status:
+      index: deleted

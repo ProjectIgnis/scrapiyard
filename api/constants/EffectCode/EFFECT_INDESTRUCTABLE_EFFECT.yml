@@ -2,12 +2,14 @@
 name: EFFECT_INDESTRUCTABLE_EFFECT
 enum: EffectCode
 value: 41
-description: >-
-  Affected card cannot be destroyed by card effect. SetValue receives the following parameters:
-e: this effect itself
-re: reason effect, the effect that would cause the destruction
-rp: reason player, the player that would cause the destruction
-c: this card (to be confirmed)
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot be destroyed by effects that fulfill its [value function](/api/functions/Effect/SetValue).
+summary: Affected cards cannot be destroyed by effects.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_INDESTRUCTABLE
+    link: /api/constants/EffectCode/EFFECT_INDESTRUCTABLE
+  - name: EFFECT_INDESTRUCTABLE_BATTLE
+    link: /api/constants/EffectCode/EFFECT_INDESTRUCTABLE_BATTLE
+# effect structure:
+#   SetValue: function(e,te) -> bool

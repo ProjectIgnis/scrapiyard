@@ -2,8 +2,7 @@
 name: EFFECT_HAND_LIMIT
 enum: EffectCode
 value: 270
-description: >-
-  Change the maximum number of cards the affected player can have in their hand during the End Phase. The new value should be provided via SetValue.
+description: The [hand size limit](https://yugipedia.com/wiki/Hand_size_limit) of a player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) becomes the number specified as the effect's [value](/api/functions/Effect/SetValue), instead of the usual 6.
+summary: Affected players have modified hand size limit.
 status:
   index: stable
-tags: [ under-construction ]

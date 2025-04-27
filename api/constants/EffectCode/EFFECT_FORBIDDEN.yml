@@ -2,8 +2,7 @@
 name: EFFECT_FORBIDDEN
 enum: EffectCode
 value: 292
-description: >-
-  Card cannot be used (Prohibition, Psi-Blocker)
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot be used, e.g., due to the effects of ["Prohibition"](https://yugipedia.com/wiki/Prohibition) or ["Psi-Blocker"](https://yugipedia.com/wiki/Psi-Blocker).
+summary: Affected cards cannot be used.
 status:
   index: stable
-tags: [ under-construction ]

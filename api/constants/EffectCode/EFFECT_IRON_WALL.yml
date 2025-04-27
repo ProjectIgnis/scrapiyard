@@ -2,8 +2,8 @@
 name: EFFECT_IRON_WALL
 enum: EffectCode
 value: 361
-description: >-
-  (To be added)
+description: This effect code is currently unused. It may have been intended for the effect of ["Imperial Iron Wall"](https://yugipedia.com/wiki/Imperial_Iron_Wall) that prevent players from banishing cards, but it's implemented using the card's passcode as effect code instead.
+summary: (Unused effect code)
 status:
-  index: stable
-tags: [ under-construction ]
+  index: unstable
+  summary: Value is currently unused.

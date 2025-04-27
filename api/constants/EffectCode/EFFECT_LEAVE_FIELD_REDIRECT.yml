@@ -2,8 +2,10 @@
 name: EFFECT_LEAVE_FIELD_REDIRECT
 enum: EffectCode
 value: 60
-description: >-
-  If the affected card would leave the field, sends it to another given location instead. The location must be set in SetValue
+description: If a card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) would leave the field, it is sent to the [location](/api/enums/Location) specified as the effect's [value](/api/functions/Effect/SetValue) instead.
+summary: Affected cards are sent to specified location when they leave the field.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_REMOVE_REDIRECT
+    link: /api/constants/EffectCode/EFFECT_REMOVE_REDIRECT

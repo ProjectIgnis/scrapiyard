@@ -2,8 +2,12 @@
 name: EFFECT_FORCE_SPSUMMON_POSITION
 enum: EffectCode
 value: 427
-description: >-
-  This effect's SetTarget takes the following parameters: eff, pcard, playerid, sumtype, sumpos, toplayer, peffect
+description: If a player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) would [Special Summon](https://yugipedia.com/wiki/Special_Summon) a monster that fulfills the effect's [target function](/api/functions/Effect/SetTarget), they can only Summon it in the [position](/api/enums/CardPosition) specified in the effect's [value](/api/functions/Effect/SetValue).
+summary: Affected players can only Special Summon in a specified position.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_FORCE_NORMAL_SUMMON_POSITION
+    link: /api/constants/EffectCode/EFFECT_FORCE_NORMAL_SUMMON_POSITION
+# effect structure:
+#   SetTarget: function(eff,pcard,playerid,sumtype,sumpos,toplayer,peffect) -> bool

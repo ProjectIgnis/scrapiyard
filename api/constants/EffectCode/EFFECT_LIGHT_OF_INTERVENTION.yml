@@ -2,8 +2,7 @@
 name: EFFECT_LIGHT_OF_INTERVENTION
 enum: EffectCode
 value: 38
-description: >-
-  Monsters can be Normal Summoned in face-up Defense Position (Light of Intervention).
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can [Normal Summon](https://yugipedia.com/wiki/Normal_Summon) monsters in face-up Defense Position.
+summary: Affected players can Normal Summon in face-up Defense Position.
 status:
   index: stable
-tags: [ under-construction ]

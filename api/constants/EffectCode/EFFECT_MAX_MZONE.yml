@@ -2,8 +2,10 @@
 name: EFFECT_MAX_MZONE
 enum: EffectCode
 value: 263
-description: >-
-  The maximum number of monsters
+description: Cards cannot be placed in the Monster Zone of a player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) if the number of monsters they control would exceed the amount returned by the effect's [value function](/api/functions/Effect/SetValue).
+summary: Affected players cannot control more than a specified number of monsters.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_MAX_SZONE
+    link: /api/constants/EffectCode/EFFECT_MAX_SZONE
