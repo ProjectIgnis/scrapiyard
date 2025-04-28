@@ -28,6 +28,4 @@ parameters:
   - name: rp
     type: [ int ]
     description: The player that caused the event that prompted the effect activation.
-
 # TODO: add overloads for other signatures of operation functions
-tags: [ under-construction ]

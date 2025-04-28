@@ -39,7 +39,5 @@ returns:
   - type: [ bool ]
     description: If `chk` is `0`, returns `true` if the effect can be legally activated.
     guaranteed: false
-
 # TODO: add overloads for other signatures of target functions,
 # give better descriptions for the params
-tags: [ under-construction ]

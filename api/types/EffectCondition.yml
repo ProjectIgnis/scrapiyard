@@ -31,6 +31,4 @@ parameters:
 returns:
   - type: [ bool ]
     description: If the effect can be activated.
-
 # TODO: add overloads for other signatures of condition functions
-tags: [ under-construction ]

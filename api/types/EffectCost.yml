@@ -35,6 +35,4 @@ returns:
   - type: [ bool ]
     description: If `chk` is `0`, returns `true` if the cost can be paid.
     guaranteed: false
-
 # TODO: add overloads for other signatures of cost functions
-tags: [ under-construction ]

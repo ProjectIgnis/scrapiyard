@@ -131,7 +131,6 @@ fields:
   - name: enhanced_metalmorph_stats
     valueType: [ IntArray, nil ]
     description: The level and race of the monster needed to be tributed by [Enhanced Metalmorph](https://yugipedia.com/wiki/Enhanced_Metalmorph) to Special Summon the card.
-tags: [ under-construction ]
 
 # Undocumented:
 #   s.af - anime stuff
