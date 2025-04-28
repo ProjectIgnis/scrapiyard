@@ -2,7 +2,7 @@
 name: EFFECT_DISABLE
 enum: EffectCode
 value: 2
-description: The effects of a card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) are negated.
+description: The effects of a card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) are negated. Unlike [`EFFECT_DISABLE_EFFECT`](/api/constants/EffectCode/EFFECT_DISABLE_EFFECT), this includes non-activated effects that the card is applying. Also, it negates the resolution of activated effects **only if** the card is currently affected when the effect resolves.
 summary: Affected cards have their effects negated.
 status:
   index: stable

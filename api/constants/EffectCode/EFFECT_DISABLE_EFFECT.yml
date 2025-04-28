@@ -2,7 +2,7 @@
 name: EFFECT_DISABLE_EFFECT
 enum: EffectCode
 value: 8
-description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) has had the resolution of one of its effects negated in the current Chain. Effects with this code are typically not manually registered in card scripts, but are automatically registered when the resolution of a card's effect is negated.
-summary: Affected cards have had the resolution of their effect negated.
+description: The **resolution** of the effects of a card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) are negated. Unlike [`EFFECT_DISABLE_EFFECT`](/api/constants/EffectCode/EFFECT_DISABLE_EFFECT), this does **not** negate non-activated effects that the card is applying. Also, it negates the resolution of activated effects **only if** the card was affected at the time of activation.
+summary: Affected cards have the resolution of their effects negated.
 status:
   index: stable
