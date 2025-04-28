@@ -2,7 +2,7 @@
 name: EFFECT_USE_EXTRA_SZONE
 enum: EffectCode
 value: 262
-description: While an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is being applied by a Spell/Trap Card on the field, some Spell & Trap Zones on that card's side of the field cannot be used. The amount of zones that cannot be used is specified as the effect's [value](/api/functions/SetValue), and the zones are chosen when the effect starts applying.
+description: While an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is being applied by a Spell/Trap Card on the field, some Spell & Trap Zones on that card's side of the field cannot be used. The amount of zones that cannot be used is specified as the effect's [value](/api/functions/Effect/SetValue), and the zones are chosen when the effect starts applying.
 summary: A specified number of Spell & Trap Zones cannot be used.
 status:
   index: stable

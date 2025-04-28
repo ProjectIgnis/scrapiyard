@@ -2,7 +2,7 @@
 name: RESETS_CANNOT_ACT
 enum: Reset
 value: 0x17e0000
-description: A composite [reset value](/api/functions/Effect/SetReset) typically used for effects that prevent a card's effects from being activated. An [effect](/api/types/Effect) with this reset value added to [`RESET_EVENT`](/api/constants/Reset/RESET_EVENT) resets when [the card it's registered to](/api/functions/Card/GetHandler) [stops being face-up in its current location](/api/constants/Reset/RESETS_STANDARD), **except** when it [leaves the field](/api/constants/Reset/RESET_LEAVE).
+description: A composite [reset value](/api/functions/Effect/SetReset) typically used for effects that prevent a card's effects from being activated. An [effect](/api/types/Effect) with this reset value added to [`RESET_EVENT`](/api/constants/Reset/RESET_EVENT) resets when [the card it's registered to](/api/functions/Effect/GetHandler) [stops being face-up in its current location](/api/constants/Reset/RESETS_STANDARD), **except** when it [leaves the field](/api/constants/Reset/RESET_LEAVE).
 summary: Typically used for effects that prevent a card's effects from being activated.
 status:
   index: stable

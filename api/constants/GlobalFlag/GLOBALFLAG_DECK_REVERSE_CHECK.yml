@@ -2,7 +2,7 @@
 name: GLOBALFLAG_DECK_REVERSE_CHECK
 enum: GlobalFlag
 value: 0x1
-description: This global flag allows face-up cards in the Main Deck, for [effects](/api/types/Effect) that add cards to the Main Deck face-up or flip cards in the Main Deck face-up. It is automatically set when an effect with [`EFFECT_REVERSE_DECK`](/api/constants/EffectCode/EFFECT_REVERSE_DECK) as [code](/api/enums/EffectCode) is registered, or when [`Duel.ReverseInDeck`](/api/functions/Duel/ReverseInDeck) is called.
+description: This global flag allows face-up cards in the Main Deck, for [effects](/api/types/Effect) that add cards to the Main Deck face-up or flip cards in the Main Deck face-up. It is automatically set when an effect with [`EFFECT_REVERSE_DECK`](/api/constants/EffectCode/EFFECT_REVERSE_DECK) as [code](/api/enums/EffectCode) is registered, or when [`Duel.ReverseInDeck`](/api/functions/Card/ReverseInDeck) is called.
 summary: Allows face-up cards in the Main Deck.
 status:
   index: stable

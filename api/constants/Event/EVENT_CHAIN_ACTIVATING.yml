@@ -2,7 +2,7 @@
 name: EVENT_CHAIN_ACTIVATING
 enum: Event
 value: 1021
-description: This event is raised when a Chain Link is about to resolve before applying any other effect (such as effects that apply on [`EVENT_CHAIN_SOLVING`](/api/enums/Event/EVENT_CHAIN_SOLVING)). Typically used for mandatory continuous negation effects (e.g., ["Shadow-Imprisoning Mirror"](https://yugipedia.com/wiki/Silent_Graveyard)) to make sure they are applied first and not allow other effects to respond to a negated effect.
+description: This event is raised when a Chain Link is about to resolve before applying any other effect (such as effects that apply on [`EVENT_CHAIN_SOLVING`](/api/constants/Event/EVENT_CHAIN_SOLVING)). Typically used for mandatory continuous negation effects (e.g., ["Shadow-Imprisoning Mirror"](https://yugipedia.com/wiki/Silent_Graveyard)) to make sure they are applied first and not allow other effects to respond to a negated effect.
 summary: A Chain Link is about to resolve.
 status:
   index: stable

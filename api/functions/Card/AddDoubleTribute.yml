@@ -24,6 +24,6 @@ parameters:
     defaultValue: 0
   - name: ...
     type: [ int ]
-    # TODO: clarify what the flag effects actually achieve
-    description: Any number of [DoubleTributeFlag](/api/enums/DoubleTributeFlag) constants, that will be registered to the card as a flag effects, with the same reset values as `resets`.
+    # TODO: clarify what the flags are and what they do
+    description: Any number of double tribute flags that will be registered to the card as a flag effects, with the same reset values as `resets`.
 tags: [ rush ]

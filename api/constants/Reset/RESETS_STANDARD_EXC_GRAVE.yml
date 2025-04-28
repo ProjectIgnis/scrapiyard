@@ -2,7 +2,7 @@
 name: RESETS_STANDARD_EXC_GRAVE
 enum: Reset
 value: 0x17a0000
-description: A composite [reset value](/api/functions/Effect/SetReset) typically used for negation effects that negate the effects of cards destroyed by battle (e.g. ["Worm Warlord"](https://yugipedia.com/wiki/Worm_Warlord)). An [effect](/api/types/Effect) with this reset value added to [`RESET_EVENT`](/api/constants/Reset/RESET_EVENT) resets when [the card it's registered to](/api/functions/Card/GetHandler) [stops being face-up in its current location](/api/constants/Reset/RESETS_STANDARD), **except** when it [leaves the field](/api/constants/Reset/RESET_LEAVE) or is [sent to the GY](/api/constants/Reset/RESET_TOGRAVE).
+description: A composite [reset value](/api/functions/Effect/SetReset) typically used for negation effects that negate the effects of cards destroyed by battle (e.g. ["Worm Warlord"](https://yugipedia.com/wiki/Worm_Warlord)). An [effect](/api/types/Effect) with this reset value added to [`RESET_EVENT`](/api/constants/Reset/RESET_EVENT) resets when [the card it's registered to](/api/functions/Effect/GetHandler) [stops being face-up in its current location](/api/constants/Reset/RESETS_STANDARD), **except** when it [leaves the field](/api/constants/Reset/RESET_LEAVE) or is [sent to the GY](/api/constants/Reset/RESET_TOGRAVE).
 summary: Typically used for effects that negate cards destroyed by battle.
 status:
   index: stable

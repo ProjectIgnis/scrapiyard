@@ -2,7 +2,7 @@
 name: RESET_TOGRAVE
 enum: Reset
 value: 0x40000
-description: An [effect](/api/types/Effect) with this [reset value](/api/functions/Effect/SetReset) added to [`RESET_EVENT`](/api/constants/Reset/RESET_EVENT) resets when [the card it's registered to](/api/functions/Card/GetHandler) is sent to the GY.
+description: An [effect](/api/types/Effect) with this [reset value](/api/functions/Effect/SetReset) added to [`RESET_EVENT`](/api/constants/Reset/RESET_EVENT) resets when [the card it's registered to](/api/functions/Effect/GetHandler) is sent to the GY.
 summary: Resets when the card is sent to the GY.
 status:
   index: stable

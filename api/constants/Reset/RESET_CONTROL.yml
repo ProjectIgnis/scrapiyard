@@ -2,7 +2,7 @@
 name: RESET_CONTROL
 enum: Reset
 value: 0x2000000
-description: An [effect](/api/types/Effect) with this [reset value](/api/functions/Effect/SetReset) added to [`RESET_EVENT`](/api/constants/Reset/RESET_EVENT) resets when control of [the card it's registered to](/api/functions/Card/GetHandler) changes.
+description: An [effect](/api/types/Effect) with this [reset value](/api/functions/Effect/SetReset) added to [`RESET_EVENT`](/api/constants/Reset/RESET_EVENT) resets when control of [the card it's registered to](/api/functions/Effect/GetHandler) changes.
 summary: Resets when control of the card changes.
 status:
   index: stable

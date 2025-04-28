@@ -2,7 +2,7 @@
 name: FUSPROC_CONTACTFUS
 enum: FusionProcFlag
 value: 0x200
-description: A Fusion Summoning [effect](/api/types/Effect] created with this flag performs a [Contact Fusion](https://yugipedia.com/wiki/Contact_Fusion). This flag is usually not set directly in card scripts, but is set automatically by [`Fusion.AddContactProc`](/api/functions/Fusion.AddContactProc).
+description: A Fusion Summoning [effect](/api/types/Effect] created with this flag performs a [Contact Fusion](https://yugipedia.com/wiki/Contact_Fusion). This flag is usually not set directly in card scripts, but is set automatically by [`Fusion.AddContactProc`](/api/functions/Fusion/AddContactProc).
 summary: Performs a Contact Fusion.
 status:
   index: stable

@@ -2,7 +2,7 @@
 name: RESET_TOFIELD
 enum: Reset
 value: 0x1000000
-description: An [effect](/api/types/Effect) with this [reset value](/api/functions/Effect/SetReset) added to [`RESET_EVENT`](/api/constants/Reset/RESET_EVENT) resets when [the card it's registered to](/api/functions/Card/GetHandler) moves to the field. Returning to the field, such as after being temporarily banished, is not included.
+description: An [effect](/api/types/Effect) with this [reset value](/api/functions/Effect/SetReset) added to [`RESET_EVENT`](/api/constants/Reset/RESET_EVENT) resets when [the card it's registered to](/api/functions/Effect/GetHandler) moves to the field. Returning to the field, such as after being temporarily banished, is not included.
 summary: Resets when the card moves to the field.
 status:
   index: stable

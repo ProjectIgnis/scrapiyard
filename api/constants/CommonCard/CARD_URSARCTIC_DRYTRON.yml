@@ -2,7 +2,7 @@
 name: CARD_URSARCTIC_DRYTRON
 enum: CommonCard
 value: 89771220
-description: The passcode of ["Ursarctic Drytron"](https://yugipedia.com/wiki/Ursarctic_Drytron). If a player would Tribute a monster(s) to activate an ["Ursarctic"](https://yugipedia.com/wiki/Ursarctic) or ["Drytron"](https://yugipedia.com/wiki/Drytron) monster's effect while they are affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode), they can perform a different cost, specified as the effect's [operation function](/api/funtions/Effect/SetOperation), instead.
+description: The passcode of ["Ursarctic Drytron"](https://yugipedia.com/wiki/Ursarctic_Drytron). If a player would Tribute a monster(s) to activate an ["Ursarctic"](https://yugipedia.com/wiki/Ursarctic) or ["Drytron"](https://yugipedia.com/wiki/Drytron) monster's effect while they are affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode), they can perform a different cost, specified as the effect's [operation function](/api/functions/Effect/SetOperation), instead.
 summary: Ursarctic Drytron
 status:
   index: stable

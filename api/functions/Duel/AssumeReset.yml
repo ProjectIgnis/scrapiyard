@@ -1,7 +1,7 @@
 ---!function
 name: AssumeReset
 namespace: Duel
-description: &desc Manually resets [assumed properties](AssumptionProperty) immediately instead of letting them reset when the function scope ends.
+description: &desc Manually resets [assumed properties](/api/enums/AssumptionProperty) immediately instead of letting them reset when the function scope ends.
 summary: Manually resets assumed properties.
 status:
   index: stable

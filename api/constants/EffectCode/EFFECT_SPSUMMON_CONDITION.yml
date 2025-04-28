@@ -2,7 +2,7 @@
 name: EFFECT_SPSUMMON_CONDITION
 enum: EffectCode
 value: 30
-description: A monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot be [Special Summoned](https://yugipedia.com/wiki/Special_Summon) except in ways that fulfill the effect's [value function](/api/functions/Effect/SetValue) (or by its own [Special Summoning procedure](/api/constants/EFFECT_SPSUMMON_PROC)).
+description: A monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot be [Special Summoned](https://yugipedia.com/wiki/Special_Summon) except in ways that fulfill the effect's [value function](/api/functions/Effect/SetValue) (or by its own [Special Summoning procedure](/api/constants/EffectCode/EFFECT_SPSUMMON_PROC)).
 summary: Affected monsters must be Special Summoned in certain ways.
 status:
   index: stable

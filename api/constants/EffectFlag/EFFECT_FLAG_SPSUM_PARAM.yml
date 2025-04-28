@@ -2,7 +2,7 @@
 name: EFFECT_FLAG_SPSUM_PARAM
 enum: EffectFlag
 value: 0x100000
-description: A [Special Summon procedure](/api/enums/EffectCode/EFFECT_SPSUMMON_PROC) [effect](/api/types/Effect) with this flag will Special Summon the card in the [position](/api/enums/CardPosition) and side of the field specified as parameters of [`Effect.SetTargetRange`](/api/functions/Effect/SetTargetRange).
+description: A [Special Summon procedure](/api/constants/EffectCode/EFFECT_SPSUMMON_PROC) [effect](/api/types/Effect) with this flag will Special Summon the card in the [position](/api/enums/CardPosition) and side of the field specified as parameters of [`Effect.SetTargetRange`](/api/functions/Effect/SetTargetRange).
 summary: Special Summons in a given position and side of the field.
 status:
   index: stable
