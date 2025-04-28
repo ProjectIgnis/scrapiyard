@@ -1,9 +1,0 @@
----!constant
-name: EFFECT_CLIENT_MODE_RESOLVE
-enum: EffectCode
-value: 1
-description: >-
-  (To be added)
-status:
-  index: stable
-tags: [ under-construction ]

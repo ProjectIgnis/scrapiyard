@@ -2,8 +2,8 @@
 name: TIMINGS_CHECK_MONSTER_E
 enum: Timing
 value: 0x1e0
-description: >-
-  When a monster is placed on the field and also during the End Phase
+description: An effect with this [hint timing](/api/functions/Effect/SetHintTiming) will be prompted for activation [when a monster(s) is Normal, Flip, or Special Summoned](/api/constants/Timing/TIMINGS_CHECK_MONSTER) and [in the End Phase](/api/constants/Timing/TIMING_END_PHASE).
+summary: Prompts when a monster(s) is Summoned and in the End Phase.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ composite-bits ]

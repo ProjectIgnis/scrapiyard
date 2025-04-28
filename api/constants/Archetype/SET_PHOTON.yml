@@ -5,4 +5,5 @@ value: 0x55
 description: >-
   The ["Photon"](https://yugipedia.com/wiki/Photon) archetype.
 summary: Photon
-status: { index: stable }
+status:
+  index: stable

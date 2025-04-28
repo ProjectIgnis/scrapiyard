@@ -2,8 +2,7 @@
 name: EVENT_PREDRAW
 enum: Event
 value: 1113
-description: >-
-  At the start of the Draw Phase
+description: This event is raised at the start of the [Draw Phase](https://yugipedia.com/wiki/Draw_Phase), before the turn player draws a card for their [normal draw](https://yugipedia.com/wiki/Normal_draw).
+summary: Start of the Draw Phase, before the turn player draws a card.
 status:
   index: stable
-tags: [ under-construction ]

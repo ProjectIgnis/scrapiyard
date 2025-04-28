@@ -5,4 +5,5 @@ value: 0x5
 description: >-
   The ["Arcana Force"](https://yugipedia.com/wiki/Arcana_Force) archetype.
 summary: Arcana Force
-status: { index: stable }
+status:
+  index: stable

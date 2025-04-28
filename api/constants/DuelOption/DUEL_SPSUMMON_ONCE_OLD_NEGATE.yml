@@ -1,0 +1,11 @@
+---!constant
+name: DUEL_SPSUMMON_ONCE_OLD_NEGATE
+enum: DuelOption
+value: 0x40000
+description: In Duels with this option, negated Special Summons do not count for Special Summon limits. For example, if the Special Summon of ["Sky Striker Ace - Kagari"](https://yugipedia.com/wiki/Sky_Striker_Ace_-_Kagari) is negated, the player would still be able to Special Summon another copy of "Sky Striker Ace - Kagari".
+summary: Negated Special Summons do not count for Special Summon limits.
+status:
+  index: stable
+suggestedLinks:
+  - name: DUEL_CANNOT_SUMMON_OATH_OLD
+    link: /api/constants/DuelOption/DUEL_CANNOT_SUMMON_OATH_OLD

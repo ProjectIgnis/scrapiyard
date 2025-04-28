@@ -1,0 +1,4 @@
+---!enum
+name: CountLimitFlag
+description: Constants passed to [`Effect.SetCountLimit`](/api/functions/Effect/SetCountLimit) to modify the count limit behavior.
+summary: Modifiers for count limit behavior.

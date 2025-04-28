@@ -1,0 +1,8 @@
+---!constant
+name: ASSUME_ATTRIBUTE
+enum: AssumptionProperty
+value: 5
+description: &desc Temporarily assumes that the affected card has given [attributes](/api/enums/MonsterAttribute).
+summary: Temporarily assumes that the affected card has given attributes.
+status:
+  index: stable

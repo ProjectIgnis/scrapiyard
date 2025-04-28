@@ -3,7 +3,7 @@ name: HINTMSG_SET
 enum: HintMessage
 value: 510
 description: >-
-  Shows the following HintMessage: "Select the card(s) to Set to the field"
+  Shows the following hint to the player when selecting a card(s): `Select the card(s) to Set to the field`
+summary: '"Select the card(s) to Set to the field"'
 status:
   index: stable
-tags: [ under-construction ]

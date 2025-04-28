@@ -2,8 +2,7 @@
 name: EFFECT_IGNORE_BATTLE_TARGET
 enum: EffectCode
 value: 72
-description: >-
-  Affected card cannot be targeted for an attack, but it doesn't prevent direct attack.
+description: A monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot be targeted for attacks, but the opponent can attack directly. To also prevent direct attacks, use [`EFFECT_CANNOT_BE_BATTLE_TARGET`](/api/constants/EffectCode/EFFECT_CANNOT_BE_BATTLE_TARGET) instead.
+summary: Opponent cannot attack affected monsters, but can attack directly.
 status:
   index: stable
-tags: [ under-construction ]

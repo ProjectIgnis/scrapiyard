@@ -1,0 +1,8 @@
+---!constant
+name: DUEL_EMZONE
+enum: DuelOption
+value: 0x2000
+description: Duels with this option include the [Extra Monster Zones](https://yugipedia.com/wiki/Extra_Monster_Zone).
+summary: Includes the Extra Monster Zones.
+status:
+  index: stable

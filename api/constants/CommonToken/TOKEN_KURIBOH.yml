@@ -2,8 +2,7 @@
 name: TOKEN_KURIBOH
 enum: CommonToken
 value: 40703223
-description: >-
-  (To be added)
+description: The passcode of ["Kuriboh Token"](https://yugipedia.com/wiki/Kuriboh_Token).
+summary: Kuriboh Token
 status:
   index: stable
-tags: [ under-construction ]

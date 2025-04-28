@@ -2,7 +2,7 @@
 name: RACE_PLANT
 enum: MonsterRace
 value: 0x400
-description: >-
-  The [Plant](https://yugipedia.com/wiki/Plant) Monster Type
+description: The [Plant](https://yugipedia.com/wiki/Plant) Monster Type.
 summary: Plant
-status: { index: stable }
+status:
+  index: stable

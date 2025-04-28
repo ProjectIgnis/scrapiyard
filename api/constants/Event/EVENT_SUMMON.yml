@@ -2,8 +2,13 @@
 name: EVENT_SUMMON
 enum: Event
 value: 1103
-description: >-
-  This event is raised when a monster is being Normal Summoned (this is an attempt to perform a Normal Summon, aka "when a monster would be Summoned", for example, Bending Destiny's timing)
+description: This event is raised when a monster would be [Normal Summoned](https://yugipedia.com/wiki/Normal_Summon). This is when cards like ["Solemn Judgment"](https://yugipedia.com/wiki/Solemn_Judgment) can respond, as opposed to [`EVENT_SUMMON_SUCCESS`](/api/constants/Event/EVENT_SUMMON_SUCCESS), which is raised when the Normal Summon is completed.
+summary: A monster would be Normal Summoned.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EVENT_FLIP_SUMMON
+    link: /api/constants/Event/EVENT_FLIP_SUMMON
+  - name: EVENT_SPSUMMON
+    link: /api/constants/Event/EVENT_SPSUMMON
+

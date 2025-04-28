@@ -1,0 +1,8 @@
+---!constant
+name: DUEL_0_ATK_DESTROYED
+enum: DuelOption
+value: 0x10000000
+description: In Duels with this option, 0-ATK monsters are destroyed when battling each other.
+summary: 0-ATK monsters are destroyed when battling each other.
+status:
+  index: stable

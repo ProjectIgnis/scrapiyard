@@ -5,4 +5,5 @@ value: 0x83
 description: >-
   The ["Puppet"](https://yugipedia.com/wiki/Puppet) archetype.
 summary: Puppet
-status: { index: stable }
+status:
+  index: stable

@@ -2,8 +2,8 @@
 name: CARD_BLUEEYES_SPIRIT
 enum: CommonCard
 value: 59822133
-description: >-
-  Blue-Eyes Spirit Dragon's ID, used for the support to its effect
+description: The passcode of ["Blue-Eyes Spirit Dragon"](https://yugipedia.com/wiki/Blue-Eyes_Spirit_Dragon). Players affected by an [effect](/api/types/Effect) with this as [code](/api/functions/Effect/SetCode) cannot Special Summon 2 or more monsters at the same time.
+summary: Blue-Eyes Spirit Dragon
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ special-handling ]

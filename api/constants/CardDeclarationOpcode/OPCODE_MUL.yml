@@ -1,0 +1,8 @@
+---!constant
+name: OPCODE_MUL
+enum: CardDeclarationOpcode
+value: 0x40000002
+description: In card declaration filters, this operation multiplies its operands, which must be numbers.
+summary: Multiplies its operands.
+status:
+  index: stable

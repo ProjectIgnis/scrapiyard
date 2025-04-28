@@ -1,0 +1,8 @@
+---!constant
+name: WIN_REASON_DEUCE
+enum: WinReason
+value: 0x54
+description: The reason value for a Duel win caused by ["Deuce"](https://yugipedia.com/wiki/Deuce).
+summary: Victory by the effect of "Deuce"
+status:
+  index: stable

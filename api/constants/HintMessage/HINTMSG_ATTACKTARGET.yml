@@ -3,7 +3,7 @@ name: HINTMSG_ATTACKTARGET
 enum: HintMessage
 value: 549
 description: >-
-  Shows the following HintMessage: "Select an attack target"
+  Shows the following hint to the player when selecting a card(s): `Select an attack target`
+summary: '"Select an attack target"'
 status:
   index: stable
-tags: [ under-construction ]

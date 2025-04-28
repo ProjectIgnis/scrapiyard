@@ -2,8 +2,8 @@
 name: LOCATION_SZONE
 enum: Location
 value: 0x8
-description: >-
-  The Spell/Trap Zones. It includes the Field Spell Zone and the Pendulum Zones (<=MR3).
+description: The location for Spells and Traps, consisting of the [Spell & Trap Zones](https://yugipedia.com/wiki/Spell_%26_Trap_Zone), the [Field Zone](https://yugipedia.com/wiki/Field_Zone), and the [Pendulum Zones](https://yugipedia.com/wiki/Pendulum_Zone).
+summary: Location for Spells and Traps
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ symbolic-location ]

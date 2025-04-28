@@ -2,11 +2,10 @@
 name: EFFECT_CANNOT_SSET
 enum: EffectCode
 value: 24
-description: >-
-  The affected player (set via SetTargetRange, with EFFECT_FLAG_PLAYER_TARGET as property) cannot set Spell/Trap cards. If a target function is used, the following parameters are passed to it:
--e: this effect itself
--c: the card(s) that cannot be set
--tp: the player that cannot set  (to be confirmed, might be player whose field cannot have cards set)
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot [Set](https://yugipedia.com/wiki/Set) Spells and Traps that fulfill the effect's [target function](/api/functions/Effect/SetTarget).
+summary: Affected players cannot Set Spells and Traps.
 status:
   index: stable
-tags: [ under-construction ]
+# effect structure:
+#   SetValue: function(e,c,tp) -> bool
+#     must be true if `c` cannot be set by `tp`

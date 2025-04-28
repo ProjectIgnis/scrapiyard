@@ -2,8 +2,7 @@
 name: EFFECT_REMAIN_FIELD
 enum: EffectCode
 value: 17
-description: >-
-  Affected card remains on the field (e.g. Swords of Revealing Light)
+description: A Spell/Trap Card that would normally leave the field after activation remains on the field instead if affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode).
+summary: Affected Spell/Trap Card remains on the field after activation.
 status:
   index: stable
-tags: [ under-construction ]

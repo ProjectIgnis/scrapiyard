@@ -5,4 +5,5 @@ value: 0xc9
 description: >-
   The ["Aroma"](https://yugipedia.com/wiki/Aroma) archetype.
 summary: Aroma
-status: { index: stable }
+status:
+  index: stable

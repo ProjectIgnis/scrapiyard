@@ -3,7 +3,7 @@ name: HINTMSG_CARDTYPE
 enum: HintMessage
 value: 554
 description: >-
-  Shows the following HintMessage: "Declare 1 CardType"
+  Shows the following hint to the player when prompted to declare: `Declare 1 card type`
+summary: '"Declare 1 card type"'
 status:
   index: stable
-tags: [ under-construction ]

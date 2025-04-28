@@ -2,8 +2,7 @@
 name: EVENT_TOSS_COIN_NEGATE
 enum: Event
 value: 1152
-description: >-
-  This event is raised when coin tosses happen again, replacing previous result
+description: This event is raised when a coin toss has just been performed and can be redone, resulting in a different result.
+summary: A coin toss has just been performed and can be redone.
 status:
   index: stable
-tags: [ under-construction ]

@@ -6,4 +6,5 @@ description: >-
   The ["Meklord Astro"](https://yugipedia.com/wiki/Meklord_Astro) archetype.
   Sub-archetype of [`SET_MEKLORD`](/api/constants/Archetype/SET_MEKLORD).
 summary: Meklord Astro
-status: { index: stable }
+status:
+  index: stable

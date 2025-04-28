@@ -2,8 +2,7 @@
 name: TOKEN_ROSE
 enum: CommonToken
 value: 71645243
-description: >-
-  (To be added)
+description: The passcode of ["Rose Token"](https://yugipedia.com/wiki/Rose_Token).
+summary: Rose Token
 status:
   index: stable
-tags: [ under-construction ]

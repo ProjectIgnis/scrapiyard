@@ -5,7 +5,8 @@ namespace: Card
 description: >-
   Returns `true` if a card was previously in a given sequence.
 summary: Checks a card's previous sequence
-status: { index: stable }
+status:
+  index: stable
 parameters:
   - name: c
     type: [ Card ]

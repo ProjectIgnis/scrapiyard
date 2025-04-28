@@ -2,8 +2,8 @@
 name: EFFECT_EXTRA_FUSION_MATERIAL
 enum: EffectCode
 value: 352
-description: >-
-  Allows using affected cards as Fusion Materials
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can **also** use cards from the [group](/api/types/Group) returned by the effect's [target function](/api/functions/Effect/SetTarget) as materials for the [Fusion Summon](https://yugipedia.com/wiki/Fusion_Summon) of a monster that fulfills the effect's [value function](/api/functions/Effect/SetValue). The returned group is added to the default group of usable materials. To completely replace the default group, use [`EFFECT_CHAIN_MATERIAL`](/api/constants/EffectCode/EFFECT_CHAIN_MATERIAL) instead.
+summary: Affected players can also use specified materials for a Fusion Summon.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ fusion-related ]

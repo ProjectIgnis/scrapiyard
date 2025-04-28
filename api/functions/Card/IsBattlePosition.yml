@@ -14,5 +14,6 @@ parameters:
 returns:
   - type: [ int ]
     description: If `c` is in `pos` battle position.
-status: { index: stable }
+status:
+  index: stable
 tags: [ card-check, battle-position ]

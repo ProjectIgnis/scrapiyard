@@ -2,8 +2,7 @@
 name: CARD_BLUEEYES_W_DRAGON
 enum: CommonCard
 value: 89631139
-description: >-
-  Blue-Eyes White Dragon's ID, used for listed_names and specific support
+description: The passcode of ["Blue-Eyes White Dragon"](https://yugipedia.com/wiki/Blue-Eyes_White_Dragon).
+summary: Blue-Eyes White Dragon
 status:
   index: stable
-tags: [ under-construction ]

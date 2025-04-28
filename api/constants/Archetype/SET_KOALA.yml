@@ -5,4 +5,5 @@ value: 0x67
 description: >-
   The ["Koala"](https://yugipedia.com/wiki/Koala) archetype.
 summary: Koala
-status: { index: stable }
+status:
+  index: stable

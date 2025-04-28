@@ -2,8 +2,7 @@
 name: EFFECT_FORCE_MZONE
 enum: EffectCode
 value: 265
-description: >-
-  Forces a zone to be used (see Dai Dance).
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) must use the Monster Zone(s) specified in the effect's [value](/api/functions/Effect/SetValue) when Summoning, Setting, or moving a monster (if any of the zones is available).
+summary: Affected players must use specified zone(s) to Summon, Set, or move monsters.
 status:
   index: stable
-tags: [ under-construction ]

@@ -2,8 +2,7 @@
 name: EFFECT_LPCOST_REPLACE
 enum: EffectCode
 value: 171
-description: >-
-  If the affected player would pay LP for a cost, perform a given operation instead
+description: If a player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) would pay LP as cost, they perform the effect's [operation function](/api/functions/Effect/SetOperation) instead. To change only the amount of LP paid, use [`EFFECT_LPCOST_CHANGE`](/api/constants/EffectCode/EFFECT_LPCOST_CHANGE) instead.
+summary: Affected players perform an operation instead of paying LP as cost.
 status:
   index: stable
-tags: [ under-construction ]

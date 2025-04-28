@@ -5,4 +5,5 @@ value: 0x800
 description: >-
   The [Gemini](https://yugipedia.com/wiki/Gemini_monster) Card Type for Monsters
 summary: Gemini
-status: { index: stable }
+status:
+  index: stable

@@ -5,4 +5,5 @@ value: 0x31
 description: >-
   The ["Fortune Lady"](https://yugipedia.com/wiki/Fortune_Lady) archetype.
 summary: Fortune Lady
-status: { index: stable }
+status:
+  index: stable

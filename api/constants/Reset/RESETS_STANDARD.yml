@@ -2,8 +2,8 @@
 name: RESETS_STANDARD
 enum: Reset
 value: 0x01fe0000
-description: >-
-  Complex reset. The sum of RESET_TURN_SET, TOGRAVE, REMOVE, TEMP_REMOVE, TOHAND, TODECK, LEAVE and TOFIELD, to be used with RESET_EVENT
+description: An [effect](/api/types/Effect) with this [reset value](/api/functions/Effect/SetReset) added to [`RESET_EVENT`](/api/constants/Reset/RESET_EVENT) resets when [the card it's registered to](/api/functions/Card/GetHandler) [leaves the field](/api/constants/Reset/RESET_LEAVE), [moves to the field](/api/constants/Reset/RESET_TOFIELD), is [flipped face-down](/api/constants/Reset/RESET_TURN_SET), is [banished](/api/constants/Reset/RESET_REMOVE) (even [temporarily](/api/constants/Reset/RESET_TEMP_REMOVE)), or is [sent to the hand](/api/constants/Reset/RESET_TOHAND), [Deck](/api/constants/Reset/RESET_TODECK), or [GY](/api/constants/Reset/RESET_TOGRAVE). This roughly corresponds to when the card stops being face-up in its current location, and is typically used for effects that are registered to the cards they affect.
+summary: Typically used for effects registered to cards they affect.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ composite-bits, event-reset ]

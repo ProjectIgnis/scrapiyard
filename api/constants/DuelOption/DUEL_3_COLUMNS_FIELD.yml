@@ -1,0 +1,8 @@
+---!constant
+name: DUEL_3_COLUMNS_FIELD
+enum: DuelOption
+value: 0x400000
+description: In Duels with this option, there are only 3 Main Monster Zones and 3 Spell & Trap Zones.
+summary: There are only 3 Main Monster Zones and 3 Spell & Trap Zones.
+status:
+  index: stable

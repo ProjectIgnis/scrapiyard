@@ -5,4 +5,5 @@ value: 0x190
 description: >-
   The ["Firewall"](https://yugipedia.com/wiki/Firewall_(archetype)) archetype.
 summary: Firewall
-status: { index: stable }
+status:
+  index: stable

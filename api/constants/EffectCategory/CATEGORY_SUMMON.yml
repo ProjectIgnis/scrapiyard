@@ -2,8 +2,7 @@
 name: CATEGORY_SUMMON
 enum: EffectCategory
 value: 0x100
-description: >-
-  Describes that an effect Normal Summons a monster(s)
+description: An activated effect with this category may Normal Summon a monster(s) after its Chain Link resolves.
+summary: Normal Summons a monster(s).
 status:
   index: stable
-tags: [ under-construction ]

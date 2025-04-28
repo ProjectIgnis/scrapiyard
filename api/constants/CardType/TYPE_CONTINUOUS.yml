@@ -6,4 +6,5 @@ description: >-
   The Continuous Card Type, for [Continuous Spells](https://yugipedia.com/wiki/Continuous_Spell_Card)
   or [Continuous Traps](https://yugipedia.com/wiki/Continuous_Trap_Card)
 summary: Continuous
-status: { index: stable }
+status:
+  index: stable

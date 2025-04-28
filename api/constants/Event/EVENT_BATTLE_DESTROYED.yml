@@ -2,8 +2,7 @@
 name: EVENT_BATTLE_DESTROYED
 enum: Event
 value: 1140
-description: >-
-  This event is raised after a monster is destroyed by battle
+description: This event is raised after a monster is destroyed by battle. This event is considered to happen to the monster that is destroyed, unlike [`EVENT_BATTLE_DESTROYING`](/api/constants/Event/EVENT_BATTLE_DESTROYING).
+summary: A monster is destroyed by battle.
 status:
   index: stable
-tags: [ under-construction ]

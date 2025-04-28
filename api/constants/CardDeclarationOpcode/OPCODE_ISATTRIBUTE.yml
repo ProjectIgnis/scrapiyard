@@ -1,0 +1,8 @@
+---!constant
+name: OPCODE_ISATTRIBUTE
+enum: CardDeclarationOpcode
+value: 0x40000104
+description: In card declaration filters, this operation checks for cards whose attribute(s) matches its operand, which must be an [attribute](/api/enums/MonsterAttribute) value.
+summary: Checks for cards whose attribute(s) matches its operand.
+status:
+  index: stable

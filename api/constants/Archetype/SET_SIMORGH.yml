@@ -5,4 +5,5 @@ value: 0x12d
 description: >-
   The ["Simorgh"](https://yugipedia.com/wiki/Simorgh) archetype.
 summary: Simorgh
-status: { index: stable }
+status:
+  index: stable

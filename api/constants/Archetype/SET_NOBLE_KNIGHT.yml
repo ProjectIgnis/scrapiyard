@@ -5,4 +5,5 @@ value: 0x107a
 description: >-
   The ["Noble Knight"](https://yugipedia.com/wiki/Noble_Knight) archetype.
 summary: Noble Knight
-status: { index: stable }
+status:
+  index: stable

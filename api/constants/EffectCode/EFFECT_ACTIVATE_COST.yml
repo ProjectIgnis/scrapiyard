@@ -2,8 +2,12 @@
 name: EFFECT_ACTIVATE_COST
 enum: EffectCode
 value: 90
-description: >-
-  Affected player must pay a cost to activate effects
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) must perform an additional cost, defined as the effect's [operation function](/api/functions/Effect/SetOperation), to activate effects.
+summary: Affected players must pay a cost to activate effects.
 status:
   index: stable
-tags: [ under-construction ]
+# effect structure:
+#   SetCost: function(e,tp,eg,ep,ev,re,r,rp) -> bool
+#     checks if the cost can be performed
+#   SetOperation: function(e,tp,eg,ep,ev,re,r,rp) -> nil
+#     performs the cost

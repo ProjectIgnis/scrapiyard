@@ -3,7 +3,9 @@ name: CARD_UNIFORM_39
 enum: CommonCard
 value: 160007028
 description: >-
-  Constant for a commonly used Rush card
+  The passcode of ["Player #39: Home Run Hitter"](https://yugipedia.com/wiki/Player_39:_Home_Run_Hitter).
+summary: >-
+  Player #39: Home Run Hitter
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ rush ]

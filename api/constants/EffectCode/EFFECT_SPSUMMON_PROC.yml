@@ -2,8 +2,14 @@
 name: EFFECT_SPSUMMON_PROC
 enum: EffectCode
 value: 34
-description: >-
-  Specifies a special method through which the affected card can be Special Summoned
+description: A monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can be [Special Summoned](https://yugipedia.com/wiki/Special_Summon) by performing the effect's [operation function](/api/functions/Effect/SetOperation).
+summary: Affected monsters can be Special Summoned by performing an operation.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_SET_PROC
+    link: /api/constants/EffectCode/EFFECT_SET_PROC
+  - name: EFFECT_SPSUMMON_PROC_G
+    link: /api/constants/EffectCode/EFFECT_SPSUMMON_PROC_G
+  - name: EFFECT_SUMMON_PROC
+    link: /api/constants/EffectCode/EFFECT_SUMMON_PROC

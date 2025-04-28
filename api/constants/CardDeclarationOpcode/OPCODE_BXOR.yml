@@ -1,0 +1,8 @@
+---!constant
+name: OPCODE_BXOR
+enum: CardDeclarationOpcode
+value: 0x40000011
+description: In card declaration filters, this operation performs bitwise XOR on its operands, which must be integers.
+summary: Performs bitwise XOR on its operands.
+status:
+  index: stable

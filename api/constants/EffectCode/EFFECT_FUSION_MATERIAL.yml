@@ -2,8 +2,8 @@
 name: EFFECT_FUSION_MATERIAL
 enum: EffectCode
 value: 230
-description: >-
-  Placeholder effect of a Fusion Monster's listed Fusion Material
+description: A monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) uses Fusion Materials that fulfill the effect's [condition function](/api/functions/Effect/SetCondition) for its [Fusion Summon](https://yugipedia.com/wiki/Fusion_Summon). Also, the player performs the effect's [operation function](/api/functions/Effect/SetOperation) to select the materials to use. Effects with this code are typically registered as part of the various Fusion Summon procedure functions such as [`Fusion.AddProcMix`](/api/functions/Fusion/AddProcMix) rather than created manually.
+summary: Affected monsters use Fusion Materials for their Fusion Summon.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ fusion-related ]

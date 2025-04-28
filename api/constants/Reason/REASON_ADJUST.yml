@@ -2,8 +2,7 @@
 name: REASON_ADJUST
 enum: Reason
 value: 0x100
-description: >-
-  Adjustment (Royal before the test)
+description: The reason value for actions caused by adjusting a player's hand size at the end of the turn.
+summary: Caused by adjusting a player's hand size at the end of the turn.
 status:
   index: stable
-tags: [ under-construction ]

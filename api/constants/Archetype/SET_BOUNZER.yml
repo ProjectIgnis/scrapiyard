@@ -5,4 +5,5 @@ value: 0x6b
 description: >-
   The ["Bounzer"](https://yugipedia.com/wiki/Bounzer) archetype.
 summary: Bounzer
-status: { index: stable }
+status:
+  index: stable

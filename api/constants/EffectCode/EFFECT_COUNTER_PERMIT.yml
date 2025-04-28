@@ -2,8 +2,7 @@
 name: EFFECT_COUNTER_PERMIT
 enum: EffectCode
 value: 0x10000
-description: >-
-  Allow placement of counter type
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is allowed  to hold a certain counter that otherwise cannot be placed on cards, i.e., counters that "need permission" to be placed. The type of counter is specified by adding it to this code (e.g. `EFFECT_COUNTER_PERMIT+COUNTER_SPELL`). Effects with this code are typically registered using [`Card.EnableCounterPermit`](/api/functions/Card/EnableCounterPermit) rather than created manually.
+summary: Affected cards are allowed to hold a certain counter that needs permission.
 status:
   index: stable
-tags: [ under-construction ]

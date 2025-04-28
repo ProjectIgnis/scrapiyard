@@ -1,0 +1,8 @@
+---!constant
+name: OPCODE_LSHIFT
+enum: CardDeclarationOpcode
+value: 0x40000012
+description: In card declaration filters, this operation shifts its first operand's bits to the left by the number of positions specified by its second operand. Both operands must be numbers.
+summary: Performs bitwise left shift.
+status:
+  index: stable

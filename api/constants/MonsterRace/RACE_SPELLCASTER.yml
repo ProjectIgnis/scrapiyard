@@ -2,7 +2,7 @@
 name: RACE_SPELLCASTER
 enum: MonsterRace
 value: 0x2
-description: >-
-  The [Spellcaster](https://yugipedia.com/wiki/Spellcaster) Monster Type
+description: The [Spellcaster](https://yugipedia.com/wiki/Spellcaster) Monster Type.
 summary: Spellcaster
-status: { index: stable }
+status:
+  index: stable

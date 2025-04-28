@@ -1,5 +1,4 @@
 ---!enum
 name: Coin
-description: >-
-  (To be added)
-tags: [ under-construction ]
+description: Constants representing results of coin flips.
+summary: Coin flip results.

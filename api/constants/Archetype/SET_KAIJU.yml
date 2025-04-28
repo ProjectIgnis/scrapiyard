@@ -5,4 +5,5 @@ value: 0xd3
 description: >-
   The ["Kaiju"](https://yugipedia.com/wiki/Kaiju) archetype.
 summary: Kaiju
-status: { index: stable }
+status:
+  index: stable

@@ -1,0 +1,9 @@
+---!constant
+name: DUEL_MODE_MR4
+enum: DuelOption
+value: 0xd2800
+description: A composite Duel option that enforces the [New Master Rule](https://yugipedia.com/wiki/Master_Rule#Master_Rule_4), colloquially called "Master Rule 4".
+summary: New Master Rule
+status:
+  index: stable
+tags: [ composite-bits ]

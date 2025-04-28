@@ -2,8 +2,8 @@
 name: LOCATION_EMZONE
 enum: Location
 value: 0x1000
-description: >-
-  The Extra Monster Zones. Symbolic location. Can be used in functions expecting a location and also in SetRange (except with trigger effects)
+description: The [Extra Monster Zone](https://yugipedia.com/wiki/Extra_Monster_Zone).
+summary: Extra Monster Zone
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ symbolic-location ]

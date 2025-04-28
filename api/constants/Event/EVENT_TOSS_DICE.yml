@@ -2,8 +2,7 @@
 name: EVENT_TOSS_DICE
 enum: Event
 value: 1150
-description: >-
-  This event is raised when dice are rolled
+description: This event is raised when a six-sided die is rolled. At this point, the result is final and the roll can no longer be redone, unlike [`EVENT_TOSS_DICE_NEGATE`](/api/constants/Event/EVENT_TOSS_DICE_NEGATE).
+summary: A six-sided die is rolled.
 status:
   index: stable
-tags: [ under-construction ]

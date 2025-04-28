@@ -5,4 +5,5 @@ value: 0x1b0
 description: >-
   The ["Primite"](https://yugipedia.com/wiki/Primite) archetype.
 summary: Primite
-status: { index: stable }
+status:
+  index: stable

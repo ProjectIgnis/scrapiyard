@@ -1,9 +1,0 @@
----!constant
-name: DUEL_TRAP_MONSTERS_NOT_USE_ZONE
-enum: DuelMode
-value: 0x8000
-description: >-
-  (To be added)
-status:
-  index: stable
-tags: [ under-construction ]

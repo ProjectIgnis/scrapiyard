@@ -5,4 +5,5 @@ value: 0x57
 description: >-
   The ["Resonator"](https://yugipedia.com/wiki/Resonator) archetype.
 summary: Resonator
-status: { index: stable }
+status:
+  index: stable

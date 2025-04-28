@@ -2,8 +2,7 @@
 name: SUMMON_TYPE_XYZ
 enum: SummonType
 value: 0x49000000
-description: >-
-  Xyz Summon
+description: The type for [Xyz Summons](https://yugipedia.com/wiki/Xyz_Summon).
+summary: Xyz Summon.
 status:
   index: stable
-tags: [ under-construction ]

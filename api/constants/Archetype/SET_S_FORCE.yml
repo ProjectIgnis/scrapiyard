@@ -5,4 +5,5 @@ value: 0x15a
 description: >-
   The ["S-Force"](https://yugipedia.com/wiki/S-Force) archetype.
 summary: S-Force
-status: { index: stable }
+status:
+  index: stable

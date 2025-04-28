@@ -2,8 +2,8 @@
 name: EFFECT_MUST_BE_FMATERIAL
 enum: EffectCode
 value: 316
-description: >-
-  Deprecated. Use EFFECT_MUST_BE_MATERIAL with REASON_FUSION in the SetValue
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) **must** be used as material when performing a Fusion Summon. Monsters cannot be Fusion Summoned if they cannot use the affected card as material.
+summary: Affected cards must be used as material for Fusion Summons.
 status:
-  index: stable
-tags: [ under-construction ]
+  index: deprecated
+  message: Use `EFFECT_MUST_BE_MATERIAL` with `REASON_FUSION` as value instead.

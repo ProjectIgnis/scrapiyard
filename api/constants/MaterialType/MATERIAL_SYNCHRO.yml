@@ -1,8 +1,0 @@
----!constant
-name: MATERIAL_SYNCHRO
-enum: MaterialType
-value: 0x200000000
-description: (To be added)
-status:
-  index: stable
-tags: [ under-construction ]

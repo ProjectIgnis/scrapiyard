@@ -2,8 +2,8 @@
 name: TOKEN_ENGINE
 enum: CommonToken
 value: 82556059
-description: >-
-  (To be added)
+description: The passcode of ["Engine Token"](https://yugipedia.com/wiki/Engine_Token).
+summary: Engine Token
 status:
   index: stable
-tags: [ under-construction ]
+

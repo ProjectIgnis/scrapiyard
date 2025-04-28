@@ -5,4 +5,5 @@ value: 0xba
 description: >-
   The ["Raidraptor"](https://yugipedia.com/wiki/Raidraptor) archetype.
 summary: Raidraptor
-status: { index: stable }
+status:
+  index: stable

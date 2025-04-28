@@ -2,8 +2,8 @@
 name: CARD_PRANKKIDS_MEOWMU
 enum: CommonCard
 value: 25725326
-description: >-
-  Prank-Kids Meow-Meow-Mu's ID
+description: The passcode of ["Prank-Kids Meow-Meow-Mu"](https://yugipedia.com/wiki/Prank-Kids_Meow-Meow-Mu). If a player would activate a ["Prank-Kids"](https://yugipedia.com/wiki/Prank-Kids) monster's effect that would Tribute itself as cost while they are affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode), they can perform a different cost, specified as the effect's [operation function](/api/funtions/Effect/SetOperation), instead.
+summary: Prank-Kids Meow-Meow-Mu
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ special-handling ]

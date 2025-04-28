@@ -2,8 +2,7 @@
 name: CATEGORY_FLIP
 enum: EffectCategory
 value: 0x800
-description: >-
-  Describes a FLIP effect
+description: An activated effect with this category is a [FLIP effect](https://yugipedia.com/wiki/Flip_effect).
+summary: A FLIP effect.
 status:
   index: stable
-tags: [ under-construction ]

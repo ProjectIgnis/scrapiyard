@@ -5,4 +5,5 @@ value: 0x154
 description: >-
   The ["Lil-la"](https://yugipedia.com/wiki/Lil-la) archetype.
 summary: Lil-la
-status: { index: stable }
+status:
+  index: stable

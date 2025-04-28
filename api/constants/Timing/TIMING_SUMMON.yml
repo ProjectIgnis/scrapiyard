@@ -2,8 +2,7 @@
 name: TIMING_SUMMON
 enum: Timing
 value: 0x40
-description: >-
-  When a monster is Summoned
+description: An effect with this [hint timing](/api/functions/Effect/SetHintTiming) will be prompted for activation when a monster is [Normal Summoned](https://yugipedia.com/wiki/Normal_Summon).
+summary: Prompts when a monster is Normal Summoned.
 status:
   index: stable
-tags: [ under-construction ]

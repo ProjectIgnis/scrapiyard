@@ -2,8 +2,8 @@
 name: CARD_REVEALER_ICEBARRIER
 enum: CommonCard
 value: 18319762
-description: >-
-  Revealer of the Ice Barrier's ID
+description: The passcode of ["Revealer of the Ice Barrier"](https://yugipedia.com/wiki/Revealer_of_the_Ice_Barrier).
+summary: Revealer of the Ice Barrier
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ special-handling ]

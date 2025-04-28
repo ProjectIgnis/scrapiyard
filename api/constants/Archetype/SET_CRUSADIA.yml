@@ -5,4 +5,5 @@ value: 0x116
 description: >-
   The ["Crusadia"](https://yugipedia.com/wiki/Crusadia) archetype.
 summary: Crusadia
-status: { index: stable }
+status:
+  index: stable

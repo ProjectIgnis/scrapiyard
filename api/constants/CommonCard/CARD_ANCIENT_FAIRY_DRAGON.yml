@@ -1,0 +1,8 @@
+---!constant
+name: CARD_ANCIENT_FAIRY_DRAGON
+enum: CommonCard
+value: 25862681
+description: The passcode of ["Ancient Fairy Dragon"](https://yugipedia.com/wiki/Ancient_Fairy_Dragon).
+summary: Ancient Fairy Dragon
+status:
+  index: stable

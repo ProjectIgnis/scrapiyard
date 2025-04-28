@@ -2,7 +2,7 @@
 name: RACE_PSYCHIC
 enum: MonsterRace
 value: 0x100000
-description: >-
-  The [Psychic](https://yugipedia.com/wiki/Psychic) Monster Type
+description: The [Psychic](https://yugipedia.com/wiki/Psychic) Monster Type.
 summary: Psychic
-status: { index: stable }
+status:
+  index: stable

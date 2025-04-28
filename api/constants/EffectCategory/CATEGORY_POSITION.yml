@@ -2,8 +2,7 @@
 name: CATEGORY_POSITION
 enum: EffectCategory
 value: 0x1000
-description: >-
-  Describes an effect that changes a card's battle position
+description: An activated effect with this category may change a monster's battle position on resolution.
+summary: Changes a monster's battle position.
 status:
   index: stable
-tags: [ under-construction ]

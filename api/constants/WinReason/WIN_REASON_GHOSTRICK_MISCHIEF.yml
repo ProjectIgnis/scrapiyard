@@ -1,0 +1,8 @@
+---!constant
+name: WIN_REASON_GHOSTRICK_MISCHIEF
+enum: WinReason
+value: 0x1b
+description: The reason value for a Duel win caused by ["Ghostrick Angel of Mischief"](https://yugipedia.com/wiki/Ghostrick_Angel_of_Mischief).
+summary: Victory by the effect of "Ghostrick Angel of Mischief"
+status:
+  index: stable

@@ -2,7 +2,7 @@
 name: CHAININFO_TRIGGERING_CODE
 enum: ChainInfo
 value: 17
-description: >-
-  When used with Duel.GetChainInfo returns an integer with the ID/passcode of the card that triggered requested Chain Link.
+description: When used with [`Duel.GetChainInfo`](/api/functions/Duel/GetChainInfo), retrieves the passcode of the card whose effect was activated in the requested Chain Link, as it was at the time of activation.
+summary: The passcode of the card whose effect activated in a Chain Link.
 status:
   index: stable

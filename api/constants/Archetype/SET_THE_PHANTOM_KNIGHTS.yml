@@ -6,4 +6,5 @@ description: >-
   The ["The Phantom Knights"](https://yugipedia.com/wiki/The_Phantom_Knights) archetype.
   Sub-archetype of [`SET_PHANTOM_KNIGHTS`](/api/constants/Archetype/SET_PHANTOM_KNIGHTS).
 summary: The Phantom Knights
-status: { index: stable }
+status:
+  index: stable

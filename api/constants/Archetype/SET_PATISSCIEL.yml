@@ -5,4 +5,5 @@ value: 0x206
 description: >-
   The ["Patissciel"](https://yugipedia.com/wiki/Patissciel) archetype.
 summary: Patissciel
-status: { index: stable }
+status:
+  index: stable

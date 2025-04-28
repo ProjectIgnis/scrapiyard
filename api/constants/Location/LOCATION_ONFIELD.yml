@@ -2,8 +2,8 @@
 name: LOCATION_ONFIELD
 enum: Location
 value: 0x0c
-description: >-
-  All locations on the field. The sum of LOCATION_MZONE+LOCATION_SZONE.
+description: All zones on the field, consisting of the [Monster Zone](/api/constants/Location/LOCATION_MZONE) and the [location for Spells and Traps](/api/constants/Location/LOCATION_SZONE).
+summary: All zones on the field
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ composite-bits ]

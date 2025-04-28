@@ -2,8 +2,12 @@
 name: EFFECT_REMOVE_LINKMARKER
 enum: EffectCode
 value: 424
-description: >-
-  Remove LinkMarkers from the affected card
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) loses the [Link Arrow(s)](/api/enums/LinkMarker) specified as the effect's [value](/api/functions/Effect/SetValue).
+summary: Affected cards loses specified Link Arrows.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_ADD_LINKMARKER
+    link: /api/constants/EffectCode/EFFECT_ADD_LINKMARKER
+  - name: EFFECT_CHANGE_LINKMARKER
+    link: /api/constants/EffectCode/EFFECT_CHANGE_LINKMARKER

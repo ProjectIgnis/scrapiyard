@@ -1,7 +1,6 @@
 ---!namespace
 name: Spirit
-description: >-
-  (To be added)
+summary: &desc Spirit-related functions.
+description: *desc
 status:
   index: stable
-tags: [ under-construction ]

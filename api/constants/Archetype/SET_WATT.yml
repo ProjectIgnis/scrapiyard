@@ -5,4 +5,5 @@ value: 0xe
 description: >-
   The ["Watt"](https://yugipedia.com/wiki/Watt) archetype.
 summary: Watt
-status: { index: stable }
+status:
+  index: stable

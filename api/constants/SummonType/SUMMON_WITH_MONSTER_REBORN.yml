@@ -2,8 +2,7 @@
 name: SUMMON_WITH_MONSTER_REBORN
 enum: SummonType
 value: 1010
-description: >-
-  Summon value (sumtype variable) used by the "Monster Reborn". Cards that need to check if a monster was summoned by Monster Reborn should check for this SummonType
+description: The type for Special Summons performed by the effect of a ["Monster Reborn"](https://yugipedia.com/wiki/Monster_Reborn).
+summary: Special Summon by the effect of a "Monster Reborn".
 status:
   index: stable
-tags: [ under-construction ]

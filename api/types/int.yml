@@ -1,6 +1,5 @@
 ---!type
 name: int
 supertype: number
-description: >-
-  (To be added)
-tags: [ under-construction ]
+description: &desc An integer value.
+summary: *desc

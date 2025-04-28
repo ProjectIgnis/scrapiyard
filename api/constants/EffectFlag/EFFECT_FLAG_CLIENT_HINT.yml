@@ -1,0 +1,8 @@
+---!constant
+name: EFFECT_FLAG_CLIENT_HINT
+enum: EffectFlag
+value: 0x4000000
+description: An [effect](/api/types/Effect) with this flag uses a string as a user hint, which is set using the effect's [`Effect.SetDescription`](/api/functions/Effect/SetDescription) call. If it affects a card(s), the string is displayed when hovering over the card. If it affects a player(s), the string is displayed when hovering over the player's LP bar.
+summary: Uses a string as a user hint.
+status:
+  index: stable

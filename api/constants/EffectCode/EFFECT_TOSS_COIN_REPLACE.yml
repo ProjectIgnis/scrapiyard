@@ -2,8 +2,10 @@
 name: EFFECT_TOSS_COIN_REPLACE
 enum: EffectCode
 value: 220
-description: >-
-  If an effect requires a coin toss, replace it with a given result instead
+description: If a coin(s) would be tossed, the [operation function](/api/functions/Effect/SetOperation) of an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can be performed instead. To perform an operation without preventing the coin toss, use [`EFFECT_TOSS_COIN_CHOOSE`](/api/constants/EffectCode/EFFECT_TOSS_COIN_CHOOSE) instead.
+summary: Allows performing an operation instead of tossing a coin(s).
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_TOSS_DICE_REPLACE
+    link: /api/constants/EffectCode/EFFECT_TOSS_DICE_REPLACE

@@ -5,4 +5,5 @@ value: 0xe9
 description: >-
   The ["Magna Warrior"](https://yugipedia.com/wiki/Magna_Warrior) archetype.
 summary: Magna Warrior
-status: { index: stable }
+status:
+  index: stable

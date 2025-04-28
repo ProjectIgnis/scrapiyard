@@ -2,8 +2,11 @@
 name: EFFECT_HAND_SYNCHRO
 enum: EffectCode
 value: 339
-description: >-
-  Can Synchro Summon using monsters in the hand (e.g. Tatsunoko)
+description: If a card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) would be used as material for a [Synchro Summon](https://yugipedia.com/wiki/Synchro_Summon), the player can also use monsters in their hand that fulfill the effect's [value function](/api/functions/Effect/SetValue).
+summary: Allows Synchro Materials from the hand if affected card would also be used.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ synchro-related ]
+# effect structure:
+#   SetValue: function(e,c,sc) -> bool
+#     checks if c (other material) can be used to summon sc

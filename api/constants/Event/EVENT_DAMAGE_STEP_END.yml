@@ -2,8 +2,7 @@
 name: EVENT_DAMAGE_STEP_END
 enum: Event
 value: 1141
-description: >-
-  At the end of the Damage Step
+description: This event is raised at the [end of the Damage Step](https://yugipedia.com/wiki/Damage_Step#End_of_the_Damage_Step).
+summary: End of the Damage Step.
 status:
   index: stable
-tags: [ under-construction ]

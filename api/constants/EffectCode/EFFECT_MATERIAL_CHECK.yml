@@ -2,8 +2,7 @@
 name: EFFECT_MATERIAL_CHECK
 enum: EffectCode
 value: 251
-description: >-
-  Applies a check to the materials used. The SetValue in this effect takes as parameter e and c
+description: When a monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) would be Summoned using a material(s), its [value function](/api/functions/Effect/SetValue) is executed. This is typically used to check some properties of the materials that may change when they leave the field.
+summary: Executes a function when an affected monster would be Summoned with materials.
 status:
   index: stable
-tags: [ under-construction ]

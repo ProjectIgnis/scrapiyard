@@ -2,8 +2,7 @@
 name: CARD_FIRE_FIST_EAGLE
 enum: CommonCard
 value: 46241344
-description: >-
-  Brotherhood of the Fire Fist - Eagle's ID, used for hardcoded effect
+description: The passcode of ["Brotherhood of the Fire Fist - Eagle"](https://yugipedia.com/wiki/Brotherhood_of_the_Fire_Fist_-_Eagle).
+summary: Brotherhood of the Fire Fist - Eagle
 status:
   index: stable
-tags: [ under-construction ]

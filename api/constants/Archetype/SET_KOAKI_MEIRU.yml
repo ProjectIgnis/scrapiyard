@@ -5,4 +5,5 @@ value: 0x1d
 description: >-
   The ["Koa'ki Meiru"](https://yugipedia.com/wiki/Koa%27ki_Meiru) archetype.
 summary: Koa'ki Meiru
-status: { index: stable }
+status:
+  index: stable

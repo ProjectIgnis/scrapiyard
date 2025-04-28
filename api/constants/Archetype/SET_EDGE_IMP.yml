@@ -5,4 +5,5 @@ value: 0xc3
 description: >-
   The ["Edge Imp"](https://yugipedia.com/wiki/Edge_Imp) archetype.
 summary: Edge Imp
-status: { index: stable }
+status:
+  index: stable

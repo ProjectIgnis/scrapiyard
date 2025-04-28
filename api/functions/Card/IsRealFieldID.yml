@@ -12,7 +12,8 @@ parameters:
 returns:
   - type: [ int ]
     description: The value to check.
-status: { index: stable }
+status:
+  index: stable
 tags: [ card-check ]
 suggestedLinks:
   - name: Card.IsFieldID

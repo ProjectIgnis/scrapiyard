@@ -2,8 +2,7 @@
 name: EFFECT_ATTACK_DISABLED
 enum: EffectCode
 value: 197
-description: >-
-  The affected card's attack has been negated (shows application of Duel.NegateAttack() )
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) has had its attack negated in the current Battle Phase. Effects with this code are typically not manually registered in card scripts, but are automatically registered when a card's attack is negated.
+summary: Affected cards have had their attack negated.
 status:
   index: stable
-tags: [ under-construction ]

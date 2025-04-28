@@ -2,8 +2,7 @@
 name: EFFECT_NECRO_VALLEY
 enum: EffectCode
 value: 291
-description: >-
-  Cannot affect cards in the Graveyard (Necrovalley)
+description: If a player would select a card(s) to move to a different location, cards in the [GY](https://yugipedia.com/wiki/Graveyard) of a player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot be selected, i.e., they would be forced to select cards in other locations.
+summary: Cards in affected players' GYs cannot be moved to a different location.
 status:
   index: stable
-tags: [ under-construction ]

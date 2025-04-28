@@ -1,9 +1,0 @@
----!constant
-name: DUEL_3_COLUMNS_FIELD
-enum: DuelMode
-value: 0x400000
-description: >-
-  (To be added)
-status:
-  index: stable
-tags: [ under-construction ]

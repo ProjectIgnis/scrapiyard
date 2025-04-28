@@ -2,8 +2,7 @@
 name: COUNTER_VENOM
 enum: CommonCounter
 value: 0x1009
-description: >-
-  The hexadecimal value of Venom Counters
+description: The counter code of [Venom Counters](https://yugipedia.com/wiki/Venom_Counter).
+summary: Venom Counter
 status:
   index: stable
-tags: [ under-construction ]

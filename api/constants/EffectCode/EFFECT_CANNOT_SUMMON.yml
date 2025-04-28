@@ -2,14 +2,10 @@
 name: EFFECT_CANNOT_SUMMON
 enum: EffectCode
 value: 20
-description: >-
-  The affected player cannot Normal Summon. A field effect that requires EFFECT_FLAG_PLAYER_TARGET to be set and the players to be defined in SetTargetRange. SetTarget receives the following parameters:
-e: this effect itself
-c: the card that would be summoned
-sump: the player that would Summon
-sumtyp: the SummonType
-sumpos: the summon position (fixed as POS_FACEUP in the core)
-tp: the target player (the player that would get the monster)
+description: If an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is affecting a card(s), that card cannot be [Normal Summoned](https://yugipedia.com/wiki/Normal_Summon). If it's affecting a player(s), that player cannot Normal Summon monsters that fulfill the effect's [target function](/api/functions/Effect/SetTarget) (or any monster if no target function is provided).
+summary: Affected cards cannot be Normal Summoned.
 status:
   index: stable
-tags: [ under-construction ]
+# effect structure:
+#   SetTarget: function(e,c,sump,sumtype,sumpos,targetp,se) -> bool
+#     if field effect, must be true if `c` cannot be summoned

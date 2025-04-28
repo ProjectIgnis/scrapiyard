@@ -5,4 +5,5 @@ value: 0xdf
 description: >-
   The ["Lunalight"](https://yugipedia.com/wiki/Lunalight) archetype.
 summary: Lunalight
-status: { index: stable }
+status:
+  index: stable

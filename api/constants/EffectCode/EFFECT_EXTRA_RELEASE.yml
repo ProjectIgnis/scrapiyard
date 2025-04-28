@@ -2,8 +2,7 @@
 name: EFFECT_EXTRA_RELEASE
 enum: EffectCode
 value: 153
-description: >-
-  The affected card must be used when performing a tribute (Soul Exchange)
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) **must be** [Tributed](https://yugipedia.com/wiki/Tribute) when performing a Tribute, even if it's not a card that can be Tributed by default (usually cards a player controls or in their hand). This is not optional, unlike [`EFFECT_EXTRA_RELEASE_NONSUM`](/api/constants/EffectCode/EFFECT_EXTRA_RELEASE_NONSUM) and [`EFFECT_EXTRA_RELEASE_SUM`](/api/constants/EffectCode/EFFECT_EXTRA_RELEASE_SUM).
+summary: Affected cards must be Tributed.
 status:
   index: stable
-tags: [ under-construction ]

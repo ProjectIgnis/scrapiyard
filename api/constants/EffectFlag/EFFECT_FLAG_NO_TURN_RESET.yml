@@ -1,0 +1,8 @@
+---!constant
+name: EFFECT_FLAG_NO_TURN_RESET
+enum: EffectFlag
+value: 0x400000
+description: The use count limit of an [effect](/api/types/Effect) with this flag does not reset at the end of the turn. Usually used for texts such as `Once while face-up on the field, ...` (e.g., ["Baronne de Fleur"](https://yugipedia.com/wiki/Baronne_de_Fleur)).
+summary: Count limit does not reset each turn.
+status:
+  index: stable

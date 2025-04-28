@@ -1,0 +1,8 @@
+---!constant
+name: CARD_SLIFER
+enum: CommonCard
+value: 32274490
+description: The passcode of ["Slifer the Sky Dragon"](https://yugipedia.com/wiki/Slifer_the_Sky_Dragon).
+summary: Slifer the Sky Dragon
+status:
+  index: stable

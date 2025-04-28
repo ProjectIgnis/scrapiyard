@@ -2,8 +2,7 @@
 name: EFFECT_CANNOT_BP
 enum: EffectCode
 value: 185
-description: >-
-  The affected player cannot enter the Battle Phase
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot enter the [Battle Phase](https://yugipedia.com/wiki/Battle_Phase).
+summary: Affected players cannot enter the Battle Phase.
 status:
   index: stable
-tags: [ under-construction ]

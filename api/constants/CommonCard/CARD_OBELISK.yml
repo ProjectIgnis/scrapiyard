@@ -1,0 +1,8 @@
+---!constant
+name: CARD_OBELISK
+enum: CommonCard
+value: 10000000
+description: The passcode of ["Obelisk the Tormentor"](https://yugipedia.com/wiki/Obelisk_the_Tormentor).
+summary: Obelisk the Tormentor
+status:
+  index: stable

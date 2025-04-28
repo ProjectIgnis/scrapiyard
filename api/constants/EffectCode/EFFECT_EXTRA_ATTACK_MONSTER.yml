@@ -2,8 +2,7 @@
 name: EFFECT_EXTRA_ATTACK_MONSTER
 enum: EffectCode
 value: 346
-description: >-
-  Affected card can make a given number of additional attacks on monsters
+description: A monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can make additional attacks **on monsters**. The number of additional attacks is specified as the effect's [value](/api/functions/Effect/SetCode). To allow additional direct attacks, use [`EFFECT_EXTRA_ATTACK`](/api/constants/EffectCode/EFFECT_EXTRA_ATTACK) instead.
+summary: Affected monsters can make additional attacks on monsters.
 status:
   index: stable
-tags: [ under-construction ]

@@ -12,5 +12,6 @@ returns:
   - type: [ bool ]
     description: >-
       `true` if the card is currently a Gemini Monster that has been Normal Summoned again, `false` otherwise.
-status: { index: stable }
+status:
+  index: stable
 tags: [ card-check ]

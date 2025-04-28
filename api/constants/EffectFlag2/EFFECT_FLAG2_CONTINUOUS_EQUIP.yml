@@ -1,0 +1,8 @@
+---!constant
+name: EFFECT_FLAG2_CONTINUOUS_EQUIP
+enum: EffectFlag2
+value: 0x001
+description: A Continuous Trap's trigger and fast [effects](/api/types/Effect) with this flag can be activated while the card is equipped to a monster.
+summary: Continuous Trap effects that can be activated while equipped.
+status:
+  index: stable

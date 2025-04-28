@@ -2,12 +2,9 @@
 name: EFFECT_UNRELEASABLE_EFFECT
 enum: EffectCode
 value: 48
-description: >-
-  Affected card cannot be Tributed by card effects.  SetValue receives the following parameters:
-e: this effect itself
-re: reason effect, the effect that would tribute the card
-rp: reason player, the player that would tribute the card
-c: this card (to be confirmed)
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot be [Tributed](https://yugipedia.com/wiki/Tributed) by a card effect that fulfills its [value function](/api/functions/Effect/SetValue). This does not prevent Tributing as part of an effect's cost, unlike [`EFFECT_UNRELEASABLE_NONSUM`](/api/constants/EffectCode/EFFECT_UNRELEASABLE_NONSUM).
+summary: Affected cards cannot be Tributed by card effects.
 status:
   index: stable
-tags: [ under-construction ]
+# effect structure:
+#   SetValue: function(e,re,rp,c) -> bool

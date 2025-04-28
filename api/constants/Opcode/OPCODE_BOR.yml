@@ -1,9 +1,0 @@
----!constant
-name: OPCODE_BOR
-enum: Opcode
-value: 0x40000009
-description: >-
-  (To be added)
-status:
-  index: stable
-tags: [ under-construction ]

@@ -2,8 +2,7 @@
 name: EFFECT_CANNOT_TURN_SET
 enum: EffectCode
 value: 69
-description: >-
-  The affected card cannot be turned face-down ("Set"). If used as a field effect, only e and c are passed to SetTarget
+description: If an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is affecting a card(s), that card cannot be flipped face-down. If it's affecting a player(s), that player cannot flip cards that fulfill the effect's [target function](/api/functions/Effect/SetTarget) face-down (or any card if no target function is provided).
+summary: Affected cards cannot be flipped face-down.
 status:
   index: stable
-tags: [ under-construction ]

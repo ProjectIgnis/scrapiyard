@@ -2,8 +2,14 @@
 name: EFFECT_SPSUMMON_PROC_G
 enum: EffectCode
 value: 320
-description: >-
-  Pendulum Summon rules (e.g. Harmonic Oscillation)
+description: Monsters can be [Special Summoned](https://yugipedia.com/wiki/Special_Summon) by performing the [operation function](/api/functions/Effect/SetOperation) of an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode). Effects with this code are typically used to implement Special Summoning procedures that can Special Summon multiple monsters at once (e.g., a [Pendulum Summon](https://yugipedia.com/wiki/Pendulum Summon)).
+summary: Allows Special Summoning (possibly multiple) monsters.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_SET_PROC
+    link: /api/constants/EffectCode/EFFECT_SET_PROC
+  - name: EFFECT_SPSUMMON_PROC
+    link: /api/constants/EffectCode/EFFECT_SPSUMMON_PROC
+  - name: EFFECT_SUMMON_PROC
+    link: /api/constants/EffectCode/EFFECT_SUMMON_PROC

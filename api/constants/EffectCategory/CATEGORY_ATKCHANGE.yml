@@ -2,8 +2,8 @@
 name: CATEGORY_ATKCHANGE
 enum: EffectCategory
 value: 0x200000
-description: >-
-  Describes that a card changes ATK
+description: An activated effect with this category may modify a monster's ATK on resolution.
+summary: Modifies a monster's ATK.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ atk-related ]

@@ -1,9 +1,0 @@
----!constant
-name: DUEL_0_ATK_DESTROYED
-enum: DuelMode
-value: 0x10000000
-description: >-
-  (To be added)
-status:
-  index: stable
-tags: [ under-construction ]

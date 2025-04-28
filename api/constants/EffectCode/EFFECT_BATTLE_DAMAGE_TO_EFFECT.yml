@@ -2,8 +2,7 @@
 name: EFFECT_BATTLE_DAMAGE_TO_EFFECT
 enum: EffectCode
 value: 205
-description: >-
-  The affected card deals effect damage when it battles (Gravekeeper's Vassal)
+description: Any battle damage inflicted by a card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is treated as effect damage instead.
+summary: Battle damage from affected cards is treated as effect damage.
 status:
   index: stable
-tags: [ under-construction ]

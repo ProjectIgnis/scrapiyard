@@ -2,8 +2,7 @@
 name: REASON_EFFECT
 enum: Reason
 value: 0x40
-description: >-
-  The reason that causes the event is a card effect
+description: The reason value used for actions performed during the resolution of an effect.
+summary: Performed during the resolution of an effect.
 status:
   index: stable
-tags: [ under-construction ]

@@ -5,4 +5,5 @@ value: 0x167
 description: >-
   The ["Magikey"](https://yugipedia.com/wiki/Magikey) archetype.
 summary: Magikey
-status: { index: stable }
+status:
+  index: stable

@@ -1,0 +1,8 @@
+---!constant
+name: DUEL_NO_STANDBY_PHASE
+enum: DuelOption
+value: 0x100000
+description: Duels with this option have no [Standby Phase](https://yugipedia.com/wiki/Standby_Phase).
+summary: No Standby Phase.
+status:
+  index: stable

@@ -5,4 +5,5 @@ value: 0x207a
 description: >-
   The ["Noble Arms"](https://yugipedia.com/wiki/Noble_Arms) archetype.
 summary: Noble Arms
-status: { index: stable }
+status:
+  index: stable

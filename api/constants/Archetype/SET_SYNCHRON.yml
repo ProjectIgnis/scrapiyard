@@ -6,4 +6,5 @@ description: >-
   The ["Synchron"](https://yugipedia.com/wiki/Synchron) archetype.
   Sub-archetype of [`SET_SYNCHRO`](/api/constants/Archetype/SET_SYNCHRO).
 summary: Synchron
-status: { index: stable }
+status:
+  index: stable

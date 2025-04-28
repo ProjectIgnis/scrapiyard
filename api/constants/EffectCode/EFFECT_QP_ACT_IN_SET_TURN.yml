@@ -2,8 +2,14 @@
 name: EFFECT_QP_ACT_IN_SET_TURN
 enum: EffectCode
 value: 19
-description: >-
-  Allows Quick-Play Spells to be activated the turn they are set. This effect is skipped if any of the following 3 tests is false: the card is TYPE_SPELL, the card is TYPE_QUICKPLAY or has EFFECT_BECOME_QUICK, the card has STATUS_SET_TURN. Usually used as EFFECT_TYPE_SINGLE if a field version is used SetTarget receives e and c as parameters. It is suggested that SetDescription is also applied with this effect, for the scenarios where multiple similar effects are available, to allow the player to choose which one to apply.
+description: A [Quick-Play Spell](https://yugipedia.com/wiki/Quick-Play_Spell_Card) affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can be activated in the same turn it is Set.
+summary: Affected Quick-Play Spells can be activated in the turn they are Set.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_QP_ACT_IN_NTPHAND
+    link: /api/constants/EffectCode/EFFECT_QP_ACT_IN_NTPHAND
+  - name: EFFECT_TRAP_ACT_IN_HAND
+    link: /api/constants/EffectCode/EFFECT_TRAP_ACT_IN_HAND
+  - name: EFFECT_TRAP_ACT_IN_SET_TURN
+    link: /api/constants/EffectCode/EFFECT_TRAP_ACT_IN_SET_TURN

@@ -1,0 +1,8 @@
+---!constant
+name: OPCODE_GETCODE
+enum: CardDeclarationOpcode
+value: 0x40000105
+description: In card declaration filters, this operation evaluates to the passcode of the card being checked.
+summary: Evaluates to the passcode of the card being checked.
+status:
+  index: stable

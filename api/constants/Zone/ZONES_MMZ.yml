@@ -2,8 +2,11 @@
 name: ZONES_MMZ
 enum: Zone
 value: 0x1f
-description: >-
-  Constant to be used as mask to filter for main monster zones
+description: The total value of all the individual [Main Monster Zones](https://yugipedia.com/wiki/Main_Monster_Zone).
+summary: Main Monster Zones
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: LOCATION_MMZONE
+    link: /api/constants/Location/LOCATION_MMZONE
+tags: [ composite-bits ]

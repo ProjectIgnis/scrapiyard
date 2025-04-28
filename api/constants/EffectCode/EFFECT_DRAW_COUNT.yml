@@ -2,8 +2,7 @@
 name: EFFECT_DRAW_COUNT
 enum: EffectCode
 value: 271
-description: >-
-  Change the number of cards the affected player draws for their Draw Phase
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) draws the amount of cards specified as the effect's [value](/api/functions/Effect/SetValue) for their [normal draw](https://yugipedia.com/wiki/Normal_draw).
+summary: Affected players draw the specified amount of cards for their normal draw.
 status:
   index: stable
-tags: [ under-construction ]

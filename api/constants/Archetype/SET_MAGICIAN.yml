@@ -5,4 +5,5 @@ value: 0x98
 description: >-
   The ["Magician"](https://yugipedia.com/wiki/Magician) archetype.
 summary: Magician
-status: { index: stable }
+status:
+  index: stable

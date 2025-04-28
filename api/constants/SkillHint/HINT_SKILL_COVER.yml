@@ -1,0 +1,8 @@
+---!constant
+name: HINT_SKILL_COVER
+enum: SkillHint
+value: 201
+description: Sets the cover of the displayed Skill Card, specified by its passcode as the hint value. If this is set first before [`HINT_SKILL`](/api/constants/SkillHint/HINT_SKILL), the Skill is displayed face-down. The Skill Card can also be set by adding `code<<32` to the hint value, where `code` is its passcode.
+summary: Sets the cover of the displayed Skill Card.
+status:
+  index: stable

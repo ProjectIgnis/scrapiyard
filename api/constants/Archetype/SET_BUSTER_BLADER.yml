@@ -5,4 +5,5 @@ value: 0xd7
 description: >-
   The ["Buster Blader"](https://yugipedia.com/wiki/Buster_Blader_(archetype)) archetype.
 summary: Buster Blader
-status: { index: stable }
+status:
+  index: stable

@@ -2,8 +2,7 @@
 name: EVENT_RELEASE
 enum: Event
 value: 1017
-description: >-
-  This event is raised when a card is Tributed (includes tributing for a tribute summon, tributing by an effect and tributing by costs)
+description: This event is raised when a card(s) is Tributed.
+summary: A card(s) is Tributed.
 status:
   index: stable
-tags: [ under-construction ]

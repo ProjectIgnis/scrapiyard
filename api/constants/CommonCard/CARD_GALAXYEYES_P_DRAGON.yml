@@ -2,8 +2,7 @@
 name: CARD_GALAXYEYES_P_DRAGON
 enum: CommonCard
 value: 93717133
-description: >-
-  Galaxy-Eyes Photon Dragon's ID, used for listed_names and specific support
+description: The passcode of ["Galaxy-Eyes Photon Dragon"](https://yugipedia.com/wiki/Galaxy-Eyes_Photon_Dragon).
+summary: Galaxy-Eyes Photon Dragon
 status:
   index: stable
-tags: [ under-construction ]

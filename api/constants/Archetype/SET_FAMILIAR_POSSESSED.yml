@@ -6,4 +6,5 @@ description: >-
   The ["Familiar-Possessed"](https://yugipedia.com/wiki/Familiar-Possessed) archetype.
   Sub-archetype of [`SET_POSSESSED`](/api/constants/Archetype/SET_POSSESSED).
 summary: Familiar-Possessed
-status: { index: stable }
+status:
+  index: stable

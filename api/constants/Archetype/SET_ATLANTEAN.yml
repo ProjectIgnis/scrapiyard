@@ -5,4 +5,5 @@ value: 0x77
 description: >-
   The ["Atlantean"](https://yugipedia.com/wiki/Atlantean) archetype.
 summary: Atlantean
-status: { index: stable }
+status:
+  index: stable

@@ -9,9 +9,9 @@ parameters:
   - name: c
     type: [ Card ]
     description: The card that will have the temporary property.
-  - name: assume_type
+  - name: property
+    type: [ AssumptionProperty ]
+    description: The property to be assumed.
+  - name: value
     type: [ int ]
-    description: The [AssumeCode](/api/enums/AssumeCode) property to be assumed.
-  - name: assume_value
-    type: [ int ]
-    description: The value to be assumed for the `assume_type`.
+    description: The value of the property the card will be assumed to have.

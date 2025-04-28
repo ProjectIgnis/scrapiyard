@@ -1,0 +1,8 @@
+---!constant
+name: ASSUME_LEVEL
+enum: AssumptionProperty
+value: 3
+description: &desc Temporarily assumes that the affected card has a given Level.
+summary: *desc
+status:
+  index: stable

@@ -1,9 +1,0 @@
----!constant
-name: DUEL_OBSOLETE_RULING
-enum: DuelMode
-value: 0x8
-description: >-
-  A flag for DuelModes. Applies First turn draw and ignition priority
-status:
-  index: stable
-tags: [ under-construction ]

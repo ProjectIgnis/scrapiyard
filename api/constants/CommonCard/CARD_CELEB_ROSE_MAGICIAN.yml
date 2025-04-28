@@ -2,8 +2,8 @@
 name: CARD_CELEB_ROSE_MAGICIAN
 enum: CommonCard
 value: 160013012
-description: >-
-  Constant for a commonly used Rush card
+description: The passcode of ["Celeb Rose Magician"](https://yugipedia.com/wiki/Celeb_Rose_Magician).
+summary: Celeb Rose Magician
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ rush ]

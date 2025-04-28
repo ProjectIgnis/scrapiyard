@@ -1,0 +1,5 @@
+---!tag
+name: event-reset
+description: >-
+  [Reset](/api/enums/Reset) constants that must be added to [`RESET_EVENT`](/api/constants/Reset/RESET_EVENT) to specify when an effect will be reset using [`Effect.SetReset`](/api/functions/Effect/SetReset).
+summary: Reset constants for specifying when an effect will be reset.

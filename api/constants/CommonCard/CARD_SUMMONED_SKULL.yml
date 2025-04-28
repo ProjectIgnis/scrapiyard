@@ -2,8 +2,8 @@
 name: CARD_SUMMONED_SKULL
 enum: CommonCard
 value: 70781052
-description: >-
-  Summon Skull's ID, used because it has a lot of specific support
+description: The passcode of ["Summoned Skull"](https://yugipedia.com/wiki/Summoned_Skull).
+summary: Summoned Skull
 status:
   index: stable
-tags: [ under-construction ]
+

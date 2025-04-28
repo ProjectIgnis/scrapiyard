@@ -2,8 +2,7 @@
 name: CARD_NUMERON_NETWORK
 enum: CommonCard
 value: 41418852
-description: >-
-  Numeron Networks's ID, used for listed_names
+description: The passcode of ["Numeron Network"](https://yugipedia.com/wiki/Numeron_Network).
+summary: Numeron Network
 status:
   index: stable
-tags: [ under-construction ]

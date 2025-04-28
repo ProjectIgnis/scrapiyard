@@ -1,0 +1,8 @@
+---!constant
+name: RITPROC_GREATER
+enum: RitualProcLevelType
+value: 2
+description: A Ritual Summoning [effect](/api/types/Effect] created with this Level type uses Ritual Materials whose total Levels equal or exceed the Ritual Monster's Level.
+summary: Uses Ritual Materials whose total Levels equal or exceed the Ritual Monster's.
+status:
+  index: stable

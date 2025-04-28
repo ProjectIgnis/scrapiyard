@@ -3,7 +3,7 @@ name: HINTMSG_EQUIP
 enum: HintMessage
 value: 518
 description: >-
-  Shows the following HintMessage: "Select a card(s) to equip"
+  Shows the following hint to the player when selecting a card(s): `Select a card(s) to equip`
+summary: '"Select a card(s) to equip"'
 status:
   index: stable
-tags: [ under-construction ]

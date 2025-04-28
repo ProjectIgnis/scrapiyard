@@ -2,8 +2,10 @@
 name: EFFECT_ONLY_ATTACK_MONSTER
 enum: EffectCode
 value: 343
-description: >-
-  Affected card can only attack monster.
+description: A monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can only attack monsters that fulfill the effect's [value function](/api/functions/Effect/SetValue).
+summary: Affected monsters can only attack specified monsters.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_ONLY_BE_ATTACKED
+    link: /api/constants/EffectCode/EFFECT_ONLY_BE_ATTACKED

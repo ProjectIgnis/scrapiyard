@@ -2,8 +2,7 @@
 name: EFFECT_SET_BASE_DEFENSE
 enum: EffectCode
 value: 107
-description: >-
-  Set the original defense of a monster
+description: The original DEF of a monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) becomes the number specified as the effect's [value](/api/functions/Effect/SetValue). The set value will be the monster's actual original DEF, i.e., it ignores all other previous effects that change the monster's original DEF.
+summary: The original DEF of affected monsters becomes a specified value.
 status:
   index: stable
-tags: [ under-construction ]

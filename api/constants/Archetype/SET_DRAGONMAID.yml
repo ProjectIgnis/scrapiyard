@@ -5,4 +5,5 @@ value: 0x133
 description: >-
   The ["Dragonmaid"](https://yugipedia.com/wiki/Dragonmaid) archetype.
 summary: Dragonmaid
-status: { index: stable }
+status:
+  index: stable

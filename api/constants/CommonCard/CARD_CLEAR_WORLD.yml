@@ -1,0 +1,8 @@
+---!constant
+name: CARD_CLEAR_WORLD
+enum: CommonCard
+value: 33900648
+description: The passcode of ["Clear World"](https://yugipedia.com/wiki/Clear_World).
+summary: Clear World
+status:
+  index: stable

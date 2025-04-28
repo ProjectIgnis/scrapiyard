@@ -1,0 +1,8 @@
+---!constant
+name: WIN_REASON_DRAW_OF_FATE
+enum: WinReason
+value: 0x57
+description: The reason value for a Duel win caused by ["Draw of Fate"](https://yugipedia.com/wiki/Draw_of_Fate).
+summary: Victory by the effect of "Draw of Fate"
+status:
+  index: stable

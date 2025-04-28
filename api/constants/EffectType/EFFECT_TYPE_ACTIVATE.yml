@@ -2,8 +2,7 @@
 name: EFFECT_TYPE_ACTIVATE
 enum: EffectType
 value: 0x10
-description: >-
-  Spell/Trap Activation
+description: The type for [effects](/api/types/Effect) that define Spell/Trap Card activation, i.e., playing a Spell/Trap Card on the field face-up from the hand or flipping it from face-down on the field.
+summary: Spell/Trap Card activation
 status:
   index: stable
-tags: [ under-construction ]

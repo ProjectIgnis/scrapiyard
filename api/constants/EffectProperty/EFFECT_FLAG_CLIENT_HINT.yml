@@ -1,9 +1,0 @@
----!constant
-name: EFFECT_FLAG_CLIENT_HINT
-enum: EffectProperty
-value: 0x4000000
-description: >-
-  A client prompt/description
-status:
-  index: stable
-tags: [ under-construction ]

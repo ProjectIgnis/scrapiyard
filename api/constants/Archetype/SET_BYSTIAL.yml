@@ -5,4 +5,5 @@ value: 0x189
 description: >-
   The ["Bystial"](https://yugipedia.com/wiki/Bystial) archetype.
 summary: Bystial
-status: { index: stable }
+status:
+  index: stable

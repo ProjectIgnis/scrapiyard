@@ -5,4 +5,5 @@ value: 0x56
 description: >-
   The ["Inzektor"](https://yugipedia.com/wiki/Inzektor) archetype.
 summary: Inzektor
-status: { index: stable }
+status:
+  index: stable

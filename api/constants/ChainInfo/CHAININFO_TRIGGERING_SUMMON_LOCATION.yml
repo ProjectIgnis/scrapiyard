@@ -2,7 +2,7 @@
 name: CHAININFO_TRIGGERING_SUMMON_LOCATION
 enum: ChainInfo
 value: 27
-description: >-
-  When used with Duel.GetChainInfo returns an integer with the summon location of the monster that triggered the requested Chain Link.
+description: When used with [`Duel.GetChainInfo`](/api/functions/Duel/GetChainInfo), retrieves the [location](/api/enums/Location) where the monster whose effect was activated in the requested Chain Link was summoned from.
+summary: The summon location of the monster whose effect activated in a Chain Link.
 status:
   index: stable

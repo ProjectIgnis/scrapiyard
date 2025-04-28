@@ -2,8 +2,8 @@
 name: REASON_FLIP
 enum: Reason
 value: 0x2000
-description: >-
-  Being flipped
+description: The reason value is currently unused.
+summary: (Unused reason value)
 status:
-  index: stable
-tags: [ under-construction ]
+  index: unstable
+  message: Value is currently unused.

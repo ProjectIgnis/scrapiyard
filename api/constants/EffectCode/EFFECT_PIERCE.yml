@@ -2,8 +2,7 @@
 name: EFFECT_PIERCE
 enum: EffectCode
 value: 203
-description: >-
-  The affected monster deals piercing battle damage
+description: A monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) inflicts [piercing battle damage](https://yugipedia.com/wiki/Piercing). The amount of damage inflicted can also be modified by specifying a [damage modifier](/api/enums/DamageModifier) as the effect's [value](/api/functions/Effect/SetValue).
+summary: Affected monsters inflict piercing battle damage.
 status:
   index: stable
-tags: [ under-construction ]

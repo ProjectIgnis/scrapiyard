@@ -5,4 +5,5 @@ value: 0xdd
 description: >-
   The ["Blue-Eyes"](https://yugipedia.com/wiki/Blue-Eyes) archetype.
 summary: Blue-Eyes
-status: { index: stable }
+status:
+  index: stable

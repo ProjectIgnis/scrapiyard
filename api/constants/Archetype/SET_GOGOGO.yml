@@ -5,4 +5,5 @@ value: 0x59
 description: >-
   The ["Gogogo"](https://yugipedia.com/wiki/Gogogo) archetype.
 summary: Gogogo
-status: { index: stable }
+status:
+  index: stable

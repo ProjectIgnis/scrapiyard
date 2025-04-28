@@ -2,8 +2,7 @@
 name: STATUS_DESTROY_CONFIRMED
 enum: CardStatus
 value: 0x1000
-description: >-
-  The card is going to be destroyed
+description: A card with this status is going to be destroyed.
+summary: Confirmed to be destroyed.
 status:
   index: stable
-tags: [ under-construction ]

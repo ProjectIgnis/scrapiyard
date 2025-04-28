@@ -5,4 +5,5 @@ value: 0x22
 description: >-
   The ["Jurrac"](https://yugipedia.com/wiki/Jurrac) archetype.
 summary: Jurrac
-status: { index: stable }
+status:
+  index: stable

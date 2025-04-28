@@ -5,4 +5,5 @@ value: 0x38
 description: >-
   The ["Lightsworn"](https://yugipedia.com/wiki/Lightsworn) archetype.
 summary: Lightsworn
-status: { index: stable }
+status:
+  index: stable

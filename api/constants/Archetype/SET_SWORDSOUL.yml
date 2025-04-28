@@ -5,4 +5,5 @@ value: 0x16d
 description: >-
   The ["Swordsoul"](https://yugipedia.com/wiki/Swordsoul) archetype.
 summary: Swordsoul
-status: { index: stable }
+status:
+  index: stable

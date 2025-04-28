@@ -5,4 +5,5 @@ value: 0x193
 description: >-
   The ["Gold Pride"](https://yugipedia.com/wiki/Gold_Pride) archetype.
 summary: Gold Pride
-status: { index: stable }
+status:
+  index: stable

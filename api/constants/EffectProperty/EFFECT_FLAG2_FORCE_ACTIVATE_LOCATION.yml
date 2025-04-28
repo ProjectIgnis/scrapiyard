@@ -1,9 +1,0 @@
----!constant
-name: EFFECT_FLAG2_FORCE_ACTIVATE_LOCATION
-enum: EffectProperty
-value: 0x40000000
-description: >-
-  (To be added)
-status:
-  index: stable
-tags: [ under-construction ]

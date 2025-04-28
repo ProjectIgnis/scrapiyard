@@ -1,0 +1,8 @@
+---!constant
+name: CARD_SHINING_SARCOPHAGUS
+enum: CommonCard
+value: 79791878
+description: The passcode of ["Shining Sarcophagus"](https://yugipedia.com/wiki/Shining_Sarcophagus).
+summary: Shining Sarcophagus
+status:
+  index: stable

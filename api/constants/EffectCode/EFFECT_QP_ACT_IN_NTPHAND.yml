@@ -2,8 +2,14 @@
 name: EFFECT_QP_ACT_IN_NTPHAND
 enum: EffectCode
 value: 311
-description: >-
-  A Quick Play Spell affected can be activated from the hand during the turn of the opponent's turn
+description: A [Quick-Play Spell](https://yugipedia.com/wiki/Quick-Play_Spell_Card) affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can be activated from the hand during the opponent's turn.
+summary: Affected Quick-Play Spells can be activated from the hand in opponent's turn.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_QP_ACT_IN_SET_TURN
+    link: /api/constants/EffectCode/EFFECT_QP_ACT_IN_SET_TURN
+  - name: EFFECT_TRAP_ACT_IN_HAND
+    link: /api/constants/EffectCode/EFFECT_TRAP_ACT_IN_HAND
+  - name: EFFECT_TRAP_ACT_IN_SET_TURN
+    link: /api/constants/EffectCode/EFFECT_TRAP_ACT_IN_SET_TURN

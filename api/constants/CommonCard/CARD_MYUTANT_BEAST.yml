@@ -2,8 +2,7 @@
 name: CARD_MYUTANT_BEAST
 enum: CommonCard
 value: 34695290
-description: >-
-  Myutant Beast's ID
+description: The passcode of ["Myutant Beast"](https://yugipedia.com/wiki/Myutant_Beast).
+summary: Myutant Beast
 status:
   index: stable
-tags: [ under-construction ]

@@ -2,8 +2,7 @@
 name: CARD_VALIANTS_SHINRABANSHO
 enum: CommonCard
 value: 49568943
-description: >-
-  Vaylantz World - Shinra Bansho's ID
+description: The passcode of ["Vaylantz World - Shinra Bansho"](https://yugipedia.com/wiki/Vaylantz_World_-_Shinra_Bansho).
+summary: Vaylantz World - Shinra Bansho
 status:
   index: stable
-tags: [ under-construction ]

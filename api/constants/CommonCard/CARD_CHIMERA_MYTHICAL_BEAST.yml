@@ -2,8 +2,7 @@
 name: CARD_CHIMERA_MYTHICAL_BEAST
 enum: CommonCard
 value: 4796100
-description: >-
-  Chimera the Flying Mythical Beast's ID
+description: The passcode of ["Chimera the Flying Mythical Beast"](https://yugipedia.com/wiki/Chimera_the_Flying_Mythical_Beast).
+summary: Chimera the Flying Mythical Beast
 status:
   index: stable
-tags: [ under-construction ]

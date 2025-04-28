@@ -5,4 +5,5 @@ value: 0x99
 description: >-
   The ["Odd-Eyes"](https://yugipedia.com/wiki/Odd-Eyes) archetype.
 summary: Odd-Eyes
-status: { index: stable }
+status:
+  index: stable

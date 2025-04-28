@@ -2,8 +2,7 @@
 name: EFFECT_FIRST_ATTACK
 enum: EffectCode
 value: 192
-description: >-
-  Affected card must attack before its controller's other monsters
+description: A monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) must attack first in the [Battle Phase](https://yugipedia.com/wiki/Battle_Phase), i.e., other monsters the player controls cannot attack if the affected monster has not attacked yet.
+summary: Affected monsters must attack first in the Battle Phase.
 status:
   index: stable
-tags: [ under-construction ]

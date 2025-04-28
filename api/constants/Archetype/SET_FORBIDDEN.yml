@@ -5,4 +5,5 @@ value: 0x11d
 description: >-
   The ["Forbidden"](https://yugipedia.com/wiki/Forbidden_(archetype)) archetype.
 summary: Forbidden
-status: { index: stable }
+status:
+  index: stable

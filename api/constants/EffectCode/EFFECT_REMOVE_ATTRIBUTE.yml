@@ -2,8 +2,12 @@
 name: EFFECT_REMOVE_ATTRIBUTE
 enum: EffectCode
 value: 126
-description: >-
-  Treats a Card(s) as not a element(s) (written into Effect.SetValue())
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) stops being treated as the [attribute(s)](/api/enums/MonsterAttribute) specified as the effect's [value](/api/functions/Effect/SetValue).
+summary: Affected cards stop being treated as a specified attribute(s).
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_ADD_ATTRIBUTE
+    link: /api/constants/EffectCode/EFFECT_ADD_ATTRIBUTE
+  - name: EFFECT_CHANGE_ATTRIBUTE
+    link: /api/constants/EffectCode/EFFECT_CHANGE_ATTRIBUTE

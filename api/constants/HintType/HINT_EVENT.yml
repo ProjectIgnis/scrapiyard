@@ -1,9 +1,0 @@
----!constant
-name: HINT_EVENT
-enum: HintType
-value: 1
-description: >-
-  used by the core
-status:
-  index: stable
-tags: [ under-construction ]

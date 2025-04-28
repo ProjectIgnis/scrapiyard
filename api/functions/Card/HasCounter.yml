@@ -14,7 +14,8 @@ parameters:
 returns:
   - type: [ bool ]
     description: If `c` currently holds any amount of `ct` counters.
-status: { index: stable }
+status:
+  index: stable
 tags: [ card-check ]
 suggestedLinks:
   - name: Card.HasCounters

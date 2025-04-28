@@ -2,8 +2,8 @@
 name: EFFECT_MUST_BE_LMATERIAL
 enum: EffectCode
 value: 318
-description: >-
-  Deprecated. Use EFFECT_MUST_BE_MATERIAL with REASON_LINK in the SetValue
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) **must** be used as material when performing a Link Summon. Monsters cannot be Link Summoned if they cannot use the affected card as material.
+summary: Affected cards must be used as material for Link Summons.
 status:
-  index: stable
-tags: [ under-construction ]
+  index: deprecated
+  message: Use `EFFECT_MUST_BE_MATERIAL` with `REASON_LINK` as value instead.

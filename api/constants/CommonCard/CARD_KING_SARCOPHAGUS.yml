@@ -1,0 +1,8 @@
+---!constant
+name: CARD_KING_SARCOPHAGUS
+enum: CommonCard
+value: 16528181
+description: The passcode of ["King's Sarcophagus"](https://yugipedia.com/wiki/King%27s_Sarcophagus).
+summary: King's Sarcophagus
+status:
+  index: stable

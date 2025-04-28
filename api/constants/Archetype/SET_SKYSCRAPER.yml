@@ -5,4 +5,5 @@ value: 0xf6
 description: >-
   The ["Skyscraper"](https://yugipedia.com/wiki/Skyscraper_(archetype)) archetype.
 summary: Skyscraper
-status: { index: stable }
+status:
+  index: stable

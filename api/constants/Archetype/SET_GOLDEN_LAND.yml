@@ -5,4 +5,5 @@ value: 0x144
 description: >-
   The ["Golden Land"](https://yugipedia.com/wiki/Golden_Land) archetype.
 summary: Golden Land
-status: { index: stable }
+status:
+  index: stable

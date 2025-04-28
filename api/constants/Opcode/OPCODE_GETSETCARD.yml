@@ -1,9 +1,0 @@
----!constant
-name: OPCODE_GETSETCARD
-enum: Opcode
-value: 0x40000106
-description: >-
-  Operation of the function Card.GetSetCard, to be used in an AnnounceCard filter.
-status:
-  index: stable
-tags: [ under-construction ]

@@ -1,9 +1,0 @@
----!constant
-name: DUEL_INVERTED_QUICK_PRIORITY
-enum: DuelMode
-value: 0x4000000
-description: >-
-  (To be added)
-status:
-  index: stable
-tags: [ under-construction ]

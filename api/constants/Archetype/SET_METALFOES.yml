@@ -5,4 +5,5 @@ value: 0xe1
 description: >-
   The ["Metalfoes"](https://yugipedia.com/wiki/Metalfoes) archetype.
 summary: Metalfoes
-status: { index: stable }
+status:
+  index: stable

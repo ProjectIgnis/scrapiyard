@@ -1,0 +1,8 @@
+---!constant
+name: EFFECT_FLAG_LIMIT_ZONE
+enum: EffectFlag
+value: 0x10000000
+description: An [effect](/api/types/Effect) would limit the available zones on the field when activated. The remaining available zones must be specified in the effect's [value](/api/functions/Effect/SetValue).
+summary: Limits the available zones on the field when activated.
+status:
+  index: stable

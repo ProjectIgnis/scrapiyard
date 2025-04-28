@@ -5,4 +5,5 @@ value: 0x1b2
 description: >-
   The ["Metalmorph"](https://yugipedia.com/wiki/Metalmorph_(archetype)) archetype.
 summary: Metalmorph
-status: { index: stable }
+status:
+  index: stable

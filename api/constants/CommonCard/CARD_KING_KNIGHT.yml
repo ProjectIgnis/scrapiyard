@@ -2,8 +2,7 @@
 name: CARD_KING_KNIGHT
 enum: CommonCard
 value: 64788463
-description: >-
-  King's Knight's ID
+description: The passcode of ["King's Knight"](https://yugipedia.com/wiki/King%27s_Knight).
+summary: King's Knight
 status:
   index: stable
-tags: [ under-construction ]

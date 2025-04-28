@@ -2,8 +2,7 @@
 name: CATEGORY_DAMAGE
 enum: EffectCategory
 value: 0x80000
-description: >-
-  Describes that a card deals damage
+description: An activated effect with this category may inflict effect damage on resolution.
+summary: Inflicts effect damage.
 status:
   index: stable
-tags: [ under-construction ]

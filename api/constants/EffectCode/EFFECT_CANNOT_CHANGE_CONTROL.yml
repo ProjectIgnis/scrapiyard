@@ -2,8 +2,7 @@
 name: EFFECT_CANNOT_CHANGE_CONTROL
 enum: EffectCode
 value: 5
-description: >-
-  Control of the affected card cannot change. Does not take a SetTarget or Setvalue.
+description: The control of a card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot be changed.
+summary: Control of affected cards cannot be changed.
 status:
   index: stable
-tags: [ under-construction ]

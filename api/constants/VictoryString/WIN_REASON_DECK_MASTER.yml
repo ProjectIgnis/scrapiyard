@@ -1,9 +1,0 @@
----!constant
-name: WIN_REASON_DECK_MASTER
-enum: VictoryString
-value: 0x56
-description: >-
-  The hexadecimal value for a duel win caused by the rules of Deck Masters
-status:
-  index: stable
-tags: [ under-construction ]

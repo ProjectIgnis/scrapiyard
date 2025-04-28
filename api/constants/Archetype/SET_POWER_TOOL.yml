@@ -5,4 +5,5 @@ value: 0xc2
 description: >-
   The ["Power Tool"](https://yugipedia.com/wiki/Power_Tool) archetype.
 summary: Power Tool
-status: { index: stable }
+status:
+  index: stable

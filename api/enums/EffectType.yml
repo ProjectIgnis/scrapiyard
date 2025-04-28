@@ -1,5 +1,4 @@
 ---!enum
 name: EffectType
-description: >-
-  (To be added)
-tags: [ under-construction ]
+description: Constants representing types of [effects](/api/types/Effect), which are set using [`Effect.SetType`](/api/functions/Effect/SetType).
+summary: Types of effects.

@@ -5,4 +5,5 @@ value: 0x11c
 description: >-
   The ["Thunder Dragon"](https://yugipedia.com/wiki/Thunder_Dragon_(archetype)) archetype.
 summary: Thunder Dragon
-status: { index: stable }
+status:
+  index: stable

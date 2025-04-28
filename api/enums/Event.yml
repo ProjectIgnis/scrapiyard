@@ -1,5 +1,4 @@
 ---!enum
 name: Event
-description: >-
-  (To be added)
-tags: [ under-construction ]
+description: Constants representing events that happen in a Duel.
+summary: Events that happen in a Duel.

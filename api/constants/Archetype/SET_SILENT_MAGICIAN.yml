@@ -5,4 +5,5 @@ value: 0xe8
 description: >-
   The ["Silent Magician"](https://yugipedia.com/wiki/Silent_Magician_(archetype)) archetype.
 summary: Silent Magician
-status: { index: stable }
+status:
+  index: stable

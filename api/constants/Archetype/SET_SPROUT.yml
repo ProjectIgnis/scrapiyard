@@ -5,4 +5,5 @@ value: 0xa6
 description: >-
   The ["sprout"](https://yugipedia.com/wiki/Sprout) archetype.
 summary: sprout
-status: { index: stable }
+status:
+  index: stable

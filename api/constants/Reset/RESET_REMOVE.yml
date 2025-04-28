@@ -2,8 +2,8 @@
 name: RESET_REMOVE
 enum: Reset
 value: 0x80000
-description: >-
-  Resets when the card is banished
+description: An [effect](/api/types/Effect) with this [reset value](/api/functions/Effect/SetReset) added to [`RESET_EVENT`](/api/constants/Reset/RESET_EVENT) resets when [the card it's registered to](/api/functions/Card/GetHandler) is banished.
+summary: Resets when the card is banished.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ event-reset ]

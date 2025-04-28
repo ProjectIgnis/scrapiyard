@@ -2,8 +2,7 @@
 name: CARD_SUMMON_GATE
 enum: CommonCard
 value: 29724053
-description: >-
-  Summon Gate's ID, used for hardcoded effect
+description: The passcode of ["Summon Gate"](https://yugipedia.com/wiki/Summon_Gate). Players affected by an [effect](/api/types/Effect) with this as [code](/api/functions/Effect/SetCode) can only [Special Summon](https://yugipedia.com/wiki/Special_Summon) a maximum of 3 monsters from the Extra Deck each turn.
+summary: Summon Gate
 status:
   index: stable
-tags: [ under-construction ]

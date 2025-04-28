@@ -1,0 +1,5 @@
+---!enum
+name: RitualProcLevelType
+description: Constants that specify how the total Levels of Ritual Materials used for a Ritual Summon should match the Ritual Monster's Level.
+summary: Constants specifying how the total Levels of Ritual Materials are checked.
+tags: [ ritual-related ]

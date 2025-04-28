@@ -1,9 +1,0 @@
----!constant
-name: EFFECT_WITCHCRAFT_REPLACE
-enum: EffectCode
-value: 83289866
-description: >-
-  Witchcraft Bystreet's ID, used for the hardcoded effect of it and Witchcraft Scroll
-status:
-  index: stable
-tags: [ under-construction ]

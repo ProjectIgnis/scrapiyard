@@ -5,4 +5,5 @@ value: 0x1aa
 description: >-
   The ["White Forest"](https://yugipedia.com/wiki/White_Forest) archetype.
 summary: White Forest
-status: { index: stable }
+status:
+  index: stable

@@ -5,4 +5,5 @@ value: 0xac
 description: >-
   The ["Goblin"](https://yugipedia.com/wiki/Goblin) archetype.
 summary: Goblin
-status: { index: stable }
+status:
+  index: stable

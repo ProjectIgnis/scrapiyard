@@ -2,8 +2,7 @@
 name: EFFECT_SET_POSITION
 enum: EffectCode
 value: 140
-description: >-
-  Set affected card's battle position to a given value
+description: A monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is (continuously) changed to the [battle position](/api/enums/CardPosition) specified as the effect's [value](/api/functions/Effect/SetValue).
+summary: Affected monsters are changed to a specified battle position.
 status:
   index: stable
-tags: [ under-construction ]

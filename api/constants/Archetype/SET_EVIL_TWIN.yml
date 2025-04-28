@@ -5,4 +5,5 @@ value: 0x155
 description: >-
   The ["Evil★Twin"](https://yugipedia.com/wiki/Evil%E2%98%85Twin) archetype.
 summary: Evil★Twin
-status: { index: stable }
+status:
+  index: stable

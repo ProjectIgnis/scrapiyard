@@ -2,8 +2,8 @@
 name: EVENT_RETURN_TO_GRAVE
 enum: Event
 value: 1203
-description: >-
-  Deprecated and removed event. See core's "effect.h". Card is being returned to the Graveyard
+description: This event was raised when a card(s) is being returned to the GY.
+summary: A card(s) is being returned to the GY.
 status:
-  index: stable
-tags: [ under-construction ]
+  index: deleted
+  message: Event is no longer raised.

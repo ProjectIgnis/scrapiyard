@@ -5,4 +5,5 @@ value: 0x142
 description: >-
   The ["Eldlich"](https://yugipedia.com/wiki/Eldlich) archetype.
 summary: Eldlich
-status: { index: stable }
+status:
+  index: stable

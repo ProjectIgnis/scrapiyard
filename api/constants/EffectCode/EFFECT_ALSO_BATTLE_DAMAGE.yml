@@ -2,8 +2,10 @@
 name: EFFECT_ALSO_BATTLE_DAMAGE
 enum: EffectCode
 value: 207
-description: >-
-  The opponent also takes the battle damage. See Lyrilusc - Recital Starling
+description: Any battle damage inflicted to the controller of a card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) (in battles involving that monster) is also inflicted to their opponent.
+summary: Battle damage inflicted to controller is also inflicted to the opponent.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_REFLECT_BATTLE_DAMAGE
+    link: /api/constants/EffectCode/EFFECT_REFLECT_BATTLE_DAMAGE

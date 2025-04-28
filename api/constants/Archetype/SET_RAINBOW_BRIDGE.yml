@@ -5,4 +5,5 @@ value: 0x188
 description: >-
   The ["Rainbow Bridge"](https://yugipedia.com/wiki/Rainbow_Bridge_(archetype)) archetype.
 summary: Rainbow Bridge
-status: { index: stable }
+status:
+  index: stable

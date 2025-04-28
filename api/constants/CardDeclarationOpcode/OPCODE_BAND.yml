@@ -1,0 +1,8 @@
+---!constant
+name: OPCODE_BAND
+enum: CardDeclarationOpcode
+value: 0x40000008
+description: In card declaration filters, this operation performs bitwise AND on its operands, which must be integers.
+summary: Performs bitwise AND on its operands.
+status:
+  index: stable

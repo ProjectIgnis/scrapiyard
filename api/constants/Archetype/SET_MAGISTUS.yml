@@ -5,4 +5,5 @@ value: 0x152
 description: >-
   The ["Magistus"](https://yugipedia.com/wiki/Magistus) archetype.
 summary: Magistus
-status: { index: stable }
+status:
+  index: stable

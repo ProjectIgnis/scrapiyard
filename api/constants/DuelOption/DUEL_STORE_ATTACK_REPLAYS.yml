@@ -1,0 +1,8 @@
+---!constant
+name: DUEL_STORE_ATTACK_REPLAYS
+enum: DuelOption
+value: 0x20000000
+description: In Duels with this option, [battle replays](https://yugipedia.com/wiki/Replay) rewind back to the beginning of the Battle Step where the attack may be redeclared, and will be treated as an entirely new attack. This means that if the attacking player decides not to attack at all with the monster involved in the replay, it may attack again later in the Battle Phase.
+summary: Battle replays rewind back to the beginning of the Battle Step.
+status:
+  index: stable

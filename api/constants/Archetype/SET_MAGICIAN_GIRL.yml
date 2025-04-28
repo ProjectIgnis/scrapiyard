@@ -5,4 +5,5 @@ value: 0x20a2
 description: >-
   The ["Magician Girl"](https://yugipedia.com/wiki/Magician_Girl) archetype.
 summary: Magician Girl
-status: { index: stable }
+status:
+  index: stable

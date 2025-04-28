@@ -5,4 +5,5 @@ value: 0xbb
 description: >-
   The ["Infernoid"](https://yugipedia.com/wiki/Infernoid) archetype.
 summary: Infernoid
-status: { index: stable }
+status:
+  index: stable

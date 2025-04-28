@@ -5,4 +5,5 @@ value: 0x19d
 description: >-
   The ["Yubel"](https://yugipedia.com/wiki/Yubel_(archetype)) archetype.
 summary: Yubel
-status: { index: stable }
+status:
+  index: stable

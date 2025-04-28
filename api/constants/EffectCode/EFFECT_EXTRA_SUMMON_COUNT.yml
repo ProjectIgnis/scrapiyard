@@ -2,8 +2,11 @@
 name: EFFECT_EXTRA_SUMMON_COUNT
 enum: EffectCode
 value: 29
-description: >-
-  Increases the number of Normal Summons the player can make. The value should be set in SetValue.
+description: A monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can be [Normal Summoned](https://yugipedia.com/wiki/Normal_Summon) in addition to the Normal Summon/[Set](https://yugipedia.com/wiki/Normal_Set)(s) the player can conduct in a turn. Effects with this code, along with [effects that grant additional Normal Sets](/api/constants/EffectCode/EFFECT_EXTRA_SET_COUNT), cannot stack with each other. However, they are counted separately from [effects that change the number of Normal Summon/Sets that can be conducted](/api/constants/EffectCode/EFFECT_SET_SUMMON_COUNT_LIMIT).
+summary: Affected monsters can be Normal Summoned in addition to the Summon/Set limit.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: Double Summon list
+    link: https://ygorganization.com/doublesummonlist/
+    message: An explanation of the different kinds of additional Normal Summons/Sets. Effects with this code are part of "Group 2".

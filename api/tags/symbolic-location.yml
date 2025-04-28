@@ -1,0 +1,4 @@
+---!tag
+name: symbolic-location
+description: Special [location](/api/enums/Location) constants representing more specific parts of some locations.
+summary: Location constants representing more specific parts of some locations.

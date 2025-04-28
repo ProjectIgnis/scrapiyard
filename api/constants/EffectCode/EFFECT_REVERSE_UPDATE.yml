@@ -2,8 +2,7 @@
 name: EFFECT_REVERSE_UPDATE
 enum: EffectCode
 value: 108
-description: >-
-  Any change to ATK and DEF is reversed (For the effects of 'Reverse Trap')
+description: Any change to the ATK or DEF of a monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is reversed.
+summary: ATK/DEF changes on affected monsters are reversed.
 status:
   index: stable
-tags: [ under-construction ]

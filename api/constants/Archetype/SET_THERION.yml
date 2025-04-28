@@ -5,4 +5,5 @@ value: 0x17b
 description: >-
   The ["Therion"](https://yugipedia.com/wiki/Therion) archetype.
 summary: Therion
-status: { index: stable }
+status:
+  index: stable

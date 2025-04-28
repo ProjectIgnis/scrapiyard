@@ -2,8 +2,7 @@
 name: CARD_LABRYNTH_LABYRINTH
 enum: CommonCard
 value: 33407125
-description: >-
-  Labrynth Labyrinth's ID
+description: The passcode of ["Labrynth Labyrinth"](https://yugipedia.com/wiki/Labrynth_Labyrinth).
+summary: Labrynth Labyrinth
 status:
   index: stable
-tags: [ under-construction ]

@@ -5,4 +5,5 @@ value: 0x14e
 description: >-
   The ["Dual Avatar"](https://yugipedia.com/wiki/Dual_Avatar) archetype.
 summary: Dual Avatar
-status: { index: stable }
+status:
+  index: stable

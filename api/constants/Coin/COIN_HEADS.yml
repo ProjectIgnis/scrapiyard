@@ -2,8 +2,7 @@
 name: COIN_HEADS
 enum: Coin
 value: 0
-description: >-
-  Value for coin results
+description: The result of a coin flip landing on heads.
+summary: Heads
 status:
   index: stable
-tags: [ under-construction ]

@@ -1,9 +1,0 @@
----!constant
-name: WIN_REASON_EXODIA_DEFENDER
-enum: VictoryString
-value: 0x1f
-description: >-
-  The hexadecimal value for a duel win caused by "Exodia, the Legendary Defender"
-status:
-  index: stable
-tags: [ under-construction ]

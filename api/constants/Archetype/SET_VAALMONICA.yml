@@ -5,4 +5,5 @@ value: 0x19c
 description: >-
   The ["Vaalmonica"](https://yugipedia.com/wiki/Vaalmonica) archetype.
 summary: Vaalmonica
-status: { index: stable }
+status:
+  index: stable

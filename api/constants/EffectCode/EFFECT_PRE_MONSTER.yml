@@ -2,8 +2,7 @@
 name: EFFECT_PRE_MONSTER
 enum: EffectCode
 value: 250
-description: >-
-  Can access the monster's value (Card.AddMonsterAttribute () only)
+description: A non-monster card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is about to be [Special Summoned](https://yugipedia.com/wiki/Special_Summon) as a monster. Effects with this code are typically registered automatically by [`Card.AddMonsterAttribute`](/api/functions/Card/AddMonsterAttribute) rather than created manually.
+summary: Affected non-monster cards are about to be Special Summoned as a monster.
 status:
   index: stable
-tags: [ under-construction ]

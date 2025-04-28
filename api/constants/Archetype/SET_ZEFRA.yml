@@ -5,4 +5,5 @@ value: 0xc4
 description: >-
   The ["Zefra"](https://yugipedia.com/wiki/Zefra) archetype.
 summary: Zefra
-status: { index: stable }
+status:
+  index: stable

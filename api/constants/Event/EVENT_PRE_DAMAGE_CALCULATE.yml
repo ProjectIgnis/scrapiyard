@@ -2,8 +2,7 @@
 name: EVENT_PRE_DAMAGE_CALCULATE
 enum: Event
 value: 1134
-description: >-
-  Before the damage calculation
+description: This event is raised when [damage calculation](https://yugipedia.com/wiki/Damage_calculation) is about to be performed.
+summary: Damage calculation is about to be performed.
 status:
   index: stable
-tags: [ under-construction ]

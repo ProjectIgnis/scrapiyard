@@ -5,4 +5,5 @@ value: 0x127
 description: >-
   The ["Infinitrack"](https://yugipedia.com/wiki/Infinitrack) archetype.
 summary: Infinitrack
-status: { index: stable }
+status:
+  index: stable

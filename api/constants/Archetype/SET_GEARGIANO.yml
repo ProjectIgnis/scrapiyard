@@ -6,4 +6,5 @@ description: >-
   The ["Geargiano"](https://yugipedia.com/wiki/Geargiano_(archetype)) archetype.
   Sub-archetype of [`SET_GEARGIA`](/api/constants/Archetype/SET_GEARGIA).
 summary: Geargiano
-status: { index: stable }
+status:
+  index: stable

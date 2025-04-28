@@ -1,9 +1,0 @@
----!constant
-name: EFFECT_FLAG_BOTH_SIDE
-enum: EffectProperty
-value: 0x1000
-description: >-
-  Effect affects both sides of the field
-status:
-  index: stable
-tags: [ under-construction ]

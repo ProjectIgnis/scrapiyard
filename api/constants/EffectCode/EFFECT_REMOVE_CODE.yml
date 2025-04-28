@@ -2,8 +2,15 @@
 name: EFFECT_REMOVE_CODE
 enum: EffectCode
 value: 118
-description: >-
-  Removes the code passed via SetValue from this card's codes. When used as single effect and an operation function is provided, this effect is applied if such operation returns true. In this case, the operation function receives the following parameters: sumcard, sumtype, playerid.
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) stops being treated as the the name (passcode) specified as the effect's [value](/api/functions/Effect/SetValue).
+summary: Affected cards stop being treated as the specified name.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_ADD_CODE
+    link: /api/constants/EffectCode/EFFECT_ADD_CODE
+  - name: EFFECT_CHANGE_CODE
+    link: /api/constants/EffectCode/EFFECT_CHANGE_CODE
+# effect structure:
+#   SetOperation: function(sumcard,sumtype,playerid) -> bool
+#     for single effects, must return true for the effect to apply

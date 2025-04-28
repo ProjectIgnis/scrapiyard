@@ -1,0 +1,8 @@
+---!constant
+name: CARD_CRYSTAL_GOD_TISTINA
+enum: CommonCard
+value: 86999951
+description: The passcode of ["Crystal God Tistina"](https://yugipedia.com/wiki/Crystal_God_Tistina).
+summary: Crystal God Tistina
+status:
+  index: stable

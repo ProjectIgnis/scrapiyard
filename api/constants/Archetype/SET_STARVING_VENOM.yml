@@ -6,4 +6,5 @@ description: >-
   The ["Starving Venom"](https://yugipedia.com/wiki/Starving_Venom) archetype.
   Sub-archetype of [`SET_VENOM`](/api/constants/Archetype/SET_VENOM).
 summary: Starving Venom
-status: { index: stable }
+status:
+  index: stable

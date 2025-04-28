@@ -2,8 +2,8 @@
 name: CARD_PRIMA_GUITARNA
 enum: CommonCard
 value: 160001028
-description: >-
-  Constant for a commonly used Rush card
+description: The passcode of ["Prima Guitarna the Shining Superstar"](https://yugipedia.com/wiki/Prima_Guitarna_the_Shining_Superstar).
+summary: Prima Guitarna the Shining Superstar
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ rush ]

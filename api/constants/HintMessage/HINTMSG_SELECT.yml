@@ -3,7 +3,7 @@ name: HINTMSG_SELECT
 enum: HintMessage
 value: 560
 description: >-
-  Shows the following HintMessage: "Select"
+  Shows the following hint to the player: `Select`
+summary: '"Select"'
 status:
   index: stable
-tags: [ under-construction ]

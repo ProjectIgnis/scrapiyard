@@ -1,9 +1,0 @@
----!constant
-name: OPCODE_ALLOW_TOKENS
-enum: Opcode
-value: 0x40000015
-description: >-
-  (To be added)
-status:
-  index: stable
-tags: [ under-construction ]

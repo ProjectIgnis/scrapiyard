@@ -14,5 +14,6 @@ parameters:
 returns:
   - type: [ int ]
     description: If `player` is the owner of `c`
-status: { index: stable }
+status:
+  index: stable
 tags: [ card-check ]

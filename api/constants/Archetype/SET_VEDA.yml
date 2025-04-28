@@ -5,4 +5,5 @@ value: 0x202
 description: >-
   The ["Veda"](https://yugipedia.com/wiki/Veda) archetype.
 summary: Veda
-status: { index: stable }
+status:
+  index: stable

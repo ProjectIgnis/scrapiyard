@@ -1,6 +1,5 @@
 ---!enum
 name: Reason
-description: >-
-  (To be added)
+description: Constants representing the reasons for actions performed in the game.
+summary: Reasons for actions performed in the game.
 bitmaskInt: true
-tags: [ under-construction ]

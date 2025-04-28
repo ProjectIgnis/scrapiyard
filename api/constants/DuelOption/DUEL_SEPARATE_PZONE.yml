@@ -1,0 +1,8 @@
+---!constant
+name: DUEL_SEPARATE_PZONE
+enum: DuelOption
+value: 0x1000
+description: Duels with this option have distinct [Pendulum Zones](https://yugipedia.com/wiki/Pendulum_Zone), separate from the Spell & Trap Zones. For Pendulum Zones integrated in the Spell & Trap Zones, see [`DUEL_PZONE`](/api/constants/DuelOption/DUEL_PZONE).
+summary: Includes Pendulum Zones separate from Spell & Trap Zones.
+status:
+  index: stable

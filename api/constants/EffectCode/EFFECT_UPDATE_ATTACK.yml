@@ -2,8 +2,12 @@
 name: EFFECT_UPDATE_ATTACK
 enum: EffectCode
 value: 100
-description: >-
-  Changes the ATK of a monster by a value (taken from the return in Effect.SetValue())
+description: The ATK of a monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is increased by the number specified as the effect's [value](/api/functions/Effect/SetValue) (or decreased if the value is negative).
+summary: The ATK of affected monsters is updated.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_SET_ATTACK
+    link: /api/constants/EffectCode/EFFECT_SET_ATTACK
+  - name: EFFECT_SET_ATTACK_FINAL
+    link: /api/constants/EffectCode/EFFECT_SET_ATTACK_FINAL

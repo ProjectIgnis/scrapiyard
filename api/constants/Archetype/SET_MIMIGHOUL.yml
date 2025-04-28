@@ -5,4 +5,5 @@ value: 0x1b5
 description: >-
   The ["Mimighoul"](https://yugipedia.com/wiki/Mimighoul) archetype.
 summary: Mimighoul
-status: { index: stable }
+status:
+  index: stable

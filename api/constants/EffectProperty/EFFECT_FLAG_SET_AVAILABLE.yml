@@ -1,9 +1,0 @@
----!constant
-name: EFFECT_FLAG_SET_AVAILABLE
-enum: EffectProperty
-value: 0x100
-description: >-
-  Effect applies to face-down ("Set") cards
-status:
-  index: stable
-tags: [ under-construction ]

@@ -5,4 +5,5 @@ value: 0x115
 description: >-
   The ["Sky Striker"](https://yugipedia.com/wiki/Sky_Striker) archetype.
 summary: Sky Striker
-status: { index: stable }
+status:
+  index: stable

@@ -1,5 +1,5 @@
 ---!enum
 name: Zone
-description: >-
-  (To be added)
-tags: [ under-construction ]
+description: Constants representing total values of individual zones on the field.
+summary: Zones on the field.
+bitmaskInt: true

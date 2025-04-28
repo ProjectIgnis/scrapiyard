@@ -1,0 +1,9 @@
+# God's incarnation's attack power is double counted
+---!constant
+name: EFFECT_FLAG_REPEAT
+enum: EffectFlag
+value: 0x200000
+description: Changes caused by an [effect](/api/types/Effect) with this flag are always recalculated in each gamestate, e.g., the ATK/DEF modification of ["The Wicked Avatar"](https://yugipedia.com/wiki/The_Wicked_Avatar).
+summary: Changes are recalculated each gamestate.
+status:
+  index: stable

@@ -5,4 +5,5 @@ value: 0x14f
 description: >-
   The ["Tri-Brigade"](https://yugipedia.com/wiki/Tri-Brigade) archetype.
 summary: Tri-Brigade
-status: { index: stable }
+status:
+  index: stable

@@ -2,8 +2,7 @@
 name: EFFECT_SWAP_BASE_AD
 enum: EffectCode
 value: 110
-description: >-
-  Swap the affected card's original ATK and DEF
+description: The original ATK and DEF of a monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) are switched. The new original ATK/DEF will be the monster's actual original ATK/DEF, i.e., it ignores all other previous effects that change the monster's original ATK/DEF.
+summary: The original ATK/DEF of affected monsters are switched.
 status:
   index: stable
-tags: [ under-construction ]

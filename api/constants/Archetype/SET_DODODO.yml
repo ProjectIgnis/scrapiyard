@@ -5,4 +5,5 @@ value: 0x82
 description: >-
   The ["Dododo"](https://yugipedia.com/wiki/Dododo) archetype.
 summary: Dododo
-status: { index: stable }
+status:
+  index: stable

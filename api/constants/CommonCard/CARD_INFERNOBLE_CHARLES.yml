@@ -2,8 +2,7 @@
 name: CARD_INFERNOBLE_CHARLES
 enum: CommonCard
 value: 77656797
-description: >-
-  Infernoble Knight Emperor Charles's ID
+description: The passcode of ["Infernoble Knight Emperor Charles"](https://yugipedia.com/wiki/Infernoble_Knight_Emperor_Charles).
+summary: Infernoble Knight Emperor Charles
 status:
   index: stable
-tags: [ under-construction ]

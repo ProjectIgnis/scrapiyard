@@ -2,8 +2,7 @@
 name: TIMING_BATTLE_START
 enum: Timing
 value: 0x8
-description: >-
-  When the Battle Phase has just started
+description: An effect with this [hint timing](/api/functions/Effect/SetHintTiming) will be prompted for activation at the start of the [Battle Phase](https://yugipedia.com/wiki/Battle_Phase).
+summary: Prompts at the start of the Battle Phase.
 status:
   index: stable
-tags: [ under-construction ]

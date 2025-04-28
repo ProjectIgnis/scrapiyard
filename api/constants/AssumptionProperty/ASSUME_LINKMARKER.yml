@@ -1,0 +1,8 @@
+---!constant
+name: ASSUME_LINKMARKER
+enum: AssumptionProperty
+value: 10
+description: &desc Temporarily assumes that the affected card has given [Link Markers](/api/enums/LinkMarker).
+summary: Temporarily assumes that the affected card has given Link Markers.
+status:
+  index: stable

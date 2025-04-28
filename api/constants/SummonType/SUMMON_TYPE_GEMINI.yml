@@ -2,8 +2,7 @@
 name: SUMMON_TYPE_GEMINI
 enum: SummonType
 value: 0x12000000
-description: >-
-  Normal Summoned Gemini Monster.
+description: The type for the [Normal Summon of Gemini monsters while they are already on the field](https://yugipedia.com/wiki/Normal_Summon#Normal_Summoning_Gemini_monsters_again).
+summary: Normal Summon of a Gemini monster on the field.
 status:
   index: stable
-tags: [ under-construction ]

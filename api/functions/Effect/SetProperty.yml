@@ -1,19 +1,17 @@
 ---!function
 name: SetProperty
 namespace: Effect
-description: >-
-  Sets an effect's (Effect e) property. Refer to constant.lua and card scripts that has been already there for valid properties (or ask someone).
+description: Sets an effect's properties or ["flags"](/api/enums/EffectFlag), which modify its behavior in different ways.
 status:
   index: stable
 parameters:
   - name: e
     type: [ Effect ]
-    description: (To be added)
-  - name: prop1
+    description: The effect to set the fla
+  - name: flags1
     type: [ int ]
-    description: (To be added)
-  - name: prop2
+    description: Composite [EffectFlag](/api/enums/EffectFlag) value of the flags to set. Consult each flag constant to learn what they do.
+  - name: flags2
     type: [ int ]
-    description: (To be added)
+    description: Composite [EffectFlag2](/api/enums/EffectFlag) value of the additional flags to set. Consult each flag constant to learn what they do.
     required: false
-tags: [ under-construction ]

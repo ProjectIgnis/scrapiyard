@@ -6,4 +6,5 @@ description: >-
   The ["Ultimate Crystal"](https://yugipedia.com/wiki/Ultimate_Crystal) archetype.
   Sub-archetype of [`SET_CRYSTAL`](/api/constants/Archetype/SET_CRYSTAL).
 summary: Ultimate Crystal
-status: { index: stable }
+status:
+  index: stable

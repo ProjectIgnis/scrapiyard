@@ -2,8 +2,8 @@
 name: CARD_NEEDLKYRIE
 enum: CommonCard
 value: 160007001
-description: >-
-  Constant for a commonly used Rush card
+description: The passcode of ["Needlkyrie the Celestial Seamstress"](https://yugipedia.com/wiki/Needlkyrie_the_Celestial_Seamstress).
+summary: Needlkyrie the Celestial Seamstress
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ rush ]

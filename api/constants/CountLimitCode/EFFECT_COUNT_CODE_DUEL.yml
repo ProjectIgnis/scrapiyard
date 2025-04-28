@@ -1,9 +1,8 @@
 ---!constant
 name: EFFECT_COUNT_CODE_DUEL
-enum: CountLimitCode
+enum: CountLimitFlag
 value: 0x2
-description: >-
-  A flag to be used with SetCountLimit. The effect that receives this flag can only be used a given amount of times per duel.
+description: When set as a flag using [`Effect.SetCountLimit`](/api/functions/Effect/SetCountLimit), the limit applies to uses per Duel rather than uses per turn.
+summary: Count limit applies to uses per Duel.
 status:
   index: stable
-tags: [ under-construction ]

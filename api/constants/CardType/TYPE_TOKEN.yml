@@ -5,4 +5,5 @@ value: 0x4000
 description: >-
   The [Token](https://yugipedia.com/wiki/Monster_Token) Card Type for Monsters
 summary: Token
-status: { index: stable }
+status:
+  index: stable

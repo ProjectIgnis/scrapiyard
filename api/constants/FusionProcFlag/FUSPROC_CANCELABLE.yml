@@ -2,8 +2,7 @@
 name: FUSPROC_CANCELABLE
 enum: FusionProcFlag
 value: 0x1000
-description: >-
-  Flag used in the fusion procedure. Allows the selection of fusion materials to be canceled
+description: A Fusion Summoning [effect](/api/types/Effect] created with this flag can be canceled when selecting the Fusion materials. This flag is set by default, meaning most Fusion Summons can be canceled. The only exceptions are Summoning effects with preset materials (e.g., ["Clock Lizard"](https://yugipedia.com/wiki/Clock_Lizard)).
+summary: Can be canceled when selecting the Fusion materials.
 status:
   index: stable
-tags: [ under-construction ]

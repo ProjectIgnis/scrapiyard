@@ -6,4 +6,5 @@ description: >-
   The ["Galaxy-Eyes Tachyon Dragon"](https://yugipedia.com/wiki/Galaxy-Eyes_Tachyon_Dragon) archetype.
   Sub-archetype of [`SET_GALAXY`](/api/constants/Archetype/SET_GALAXY).
 summary: Galaxy-Eyes Tachyon Dragon
-status: { index: stable }
+status:
+  index: stable

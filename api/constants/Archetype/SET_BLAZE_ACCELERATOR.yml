@@ -5,4 +5,5 @@ value: 0xb9
 description: >-
   The ["Blaze Accelerator"](https://yugipedia.com/wiki/Blaze_Accelerator_(archetype)) archetype.
 summary: Blaze Accelerator
-status: { index: stable }
+status:
+  index: stable

@@ -2,8 +2,8 @@
 name: CARD_SKYSAVIOR_SOLEIL
 enum: CommonCard
 value: 160012020
-description: >-
-  Constant for a commonly used Rush card
+description: The passcode of ["Soleil the Skysavior Angel"](https://yugipedia.com/wiki/Soleil_the_Skysavior_Angel).
+summary: Soleil the Skysavior Angel
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ rush ]

@@ -1,0 +1,9 @@
+---!constant
+name: CARD_SFORCE_CHASE
+enum: CommonCard
+value: 55049722
+description: The passcode of ["S-Force Chase"](https://yugipedia.com/wiki/S-Force-Chase).
+summary: S-Force Chase
+status:
+  index: stable
+tags: [ special-handling ]

@@ -2,8 +2,12 @@
 name: EVENT_SUMMON_SUCCESS
 enum: Event
 value: 1100
-description: >-
-  This event is raised when a monster is successfully Normal Summoned (which is timing for cards like Trap Hole)
+description: This event is raised when a monster is Normal Summoned successfully. This is when cards like ["Bottomless Trap Hole"](https://yugipedia.com/wiki/Bottomless_Trap_Hole) can respond, as opposed to [`EVENT_SUMMON`](/api/constants/Event/EVENT_SUMMON), which is raised when a monster is about to be Normal Summoned.
+summary: A monster is Normal Summoned successfully.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EVENT_FLIP_SUMMON_SUCCESS
+    link: /api/constants/Event/EVENT_FLIP_SUMMON_SUCCESS
+  - name: EVENT_SPSUMMON_SUCCESS
+    link: /api/constants/Event/EVENT_SPSUMMON_SUCCESS

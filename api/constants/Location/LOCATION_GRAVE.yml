@@ -2,8 +2,7 @@
 name: LOCATION_GRAVE
 enum: Location
 value: 0x10
-description: >-
-  The graveyard/GY
+description: The [GY](https://yugipedia.com/wiki/Graveyard).
+summary: GY
 status:
   index: stable
-tags: [ under-construction ]

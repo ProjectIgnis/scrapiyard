@@ -11,4 +11,5 @@ parameters:
 returns:
   - type: [ int ]
     description: The player that owns the card.
-status: { index: stable }
+status:
+  index: stable

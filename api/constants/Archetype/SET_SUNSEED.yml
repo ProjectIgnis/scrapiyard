@@ -5,4 +5,5 @@ value: 0x4157
 description: >-
   The ["Sunseed"](https://yugipedia.com/wiki/Sunseed) archetype.
 summary: Sunseed
-status: { index: stable }
+status:
+  index: stable

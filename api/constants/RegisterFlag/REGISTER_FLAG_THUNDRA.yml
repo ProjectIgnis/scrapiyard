@@ -2,8 +2,8 @@
 name: REGISTER_FLAG_THUNDRA
 enum: RegisterFlag
 value: 4
-description: >-
-  Thunders Dragon monster's effects that activates by discarding themselves, for Thunder Dragon Thunderstormech (Card.RegisterEffect)
+description: This flag must be set when [registering](/api/functions/Card/RegisterEffect) the effect of a ["Thunder Dragon"](https://yugipedia.com/wiki/Thunder_Dragon) monster that activates by discarding itself, so it could be identified by ["Thunder Dragon Thunderstormech"](https://yugipedia.com/wiki/Thunder_Dragon_Thunderstormech).
+summary: Marks "Thunder Dragon" effects that activate by discarding themselves.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ special-handling ]

@@ -2,8 +2,7 @@
 name: ACTIVITY_SPSUMMON
 enum: ActivityCode
 value: 3
-description: >-
-  Refers to the action of performing Special Summons
+description: &desc The action of performing a Special Summon.
+summary: *desc
 status:
   index: stable
-tags: [ under-construction ]

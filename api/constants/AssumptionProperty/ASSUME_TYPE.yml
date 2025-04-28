@@ -1,0 +1,9 @@
+---!constant
+name: ASSUME_TYPE
+enum: AssumptionProperty
+value: 2
+description: Temporarily assumes that the affected card has given [card types](/api/enums/CardType).
+summary: Temporarily assumes that the affected card has given card types.
+status:
+  index: stable
+tags: [ under-construction ]

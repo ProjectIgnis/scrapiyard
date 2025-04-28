@@ -1,9 +1,0 @@
----!constant
-name: EFFECT_FLAG_INITIAL
-enum: EffectProperty
-value: 0x1
-description: >-
-  Original effect of a card (automatically applied)
-status:
-  index: stable
-tags: [ under-construction ]

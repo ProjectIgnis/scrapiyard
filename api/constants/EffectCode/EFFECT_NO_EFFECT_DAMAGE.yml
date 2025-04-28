@@ -2,8 +2,10 @@
 name: EFFECT_NO_EFFECT_DAMAGE
 enum: EffectCode
 value: 335
-description: >-
-  The affected player does not take damage from card effects
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) takes no effect damage.
+summary: Affected players take no effect damage.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_AVOID_BATTLE_DAMAGE
+    link: /api/constants/EffectCode/EFFECT_AVOID_BATTLE_DAMAGE

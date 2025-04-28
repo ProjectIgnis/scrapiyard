@@ -2,8 +2,8 @@
 name: CARD_SKYSAVIOR_LUA
 enum: CommonCard
 value: 160012021
-description: >-
-  Constant for a commonly used Rush card
+description: The passcode of ["Lua the Skysavior Angel"](https://yugipedia.com/wiki/Lua_the_Skysavior_Angel).
+summary: Lua the Skysavior Angel
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ rush ]

@@ -2,8 +2,7 @@
 name: TIMING_SPSUMMON
 enum: Timing
 value: 0x80
-description: >-
-  When a monster is Special Summoned
+description: An effect with this [hint timing](/api/functions/Effect/SetHintTiming) will be prompted for activation when a monster is [Special Summoned](https://yugipedia.com/wiki/Special_Summon).
+summary: Prompts when a monster is Special Summoned.
 status:
   index: stable
-tags: [ under-construction ]

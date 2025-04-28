@@ -2,8 +2,7 @@
 name: CARD_DESTINY_BOARD
 enum: CommonCard
 value: 94212438
-description: >-
-  Destiny Board's ID, frequently called by some scripts.
+description: The passcode of ["Destiny Board"](https://yugipedia.com/wiki/Destiny_Board).
+summary: Destiny Board
 status:
   index: stable
-tags: [ under-construction ]

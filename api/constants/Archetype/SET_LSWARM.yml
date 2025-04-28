@@ -5,4 +5,5 @@ value: 0xa
 description: >-
   The ["lswarm"](https://yugipedia.com/wiki/Lswarm) archetype.
 summary: lswarm
-status: { index: stable }
+status:
+  index: stable

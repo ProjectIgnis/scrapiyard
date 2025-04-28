@@ -2,8 +2,10 @@
 name: EFFECT_REVERSE_DECK
 enum: EffectCode
 value: 294
-description: >-
-  Flip affected player's deck upside-down, used with GLOBALFLAG_DECK_REVERSE_CHECK, set the player affected with SetTargetRange(,)
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) plays with their Main Deck turned face-up.
+summary: Affected players play with their Deck turned face-up.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: GLOBALFLAG_DECK_REVERSE_CHECK
+    link: /api/constants/GlobalFlag/GLOBALFLAG_DECK_REVERSE_CHECK

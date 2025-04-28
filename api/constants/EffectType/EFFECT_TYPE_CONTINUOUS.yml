@@ -2,8 +2,7 @@
 name: EFFECT_TYPE_CONTINUOUS
 enum: EffectType
 value: 0x800
-description: >-
-  Auxiliary effect / persistent effect triggered by an event
+description: The type for [effects](/api/types/Effect) that are continuously applied.
+summary: Continuously-applied effect
 status:
   index: stable
-tags: [ under-construction ]

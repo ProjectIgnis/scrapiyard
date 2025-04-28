@@ -2,8 +2,7 @@
 name: HINT_SELECTMSG
 enum: HintType
 value: 3
-description: >-
-  The message that appears when the player selects a card
+description: Describes a hint that prompts a player to select a card(s). The prompt string is a [hint message](/api/enums/HintMessage) specified as the hint value.
+summary: Prompts a player to select a card(s).
 status:
   index: stable
-tags: [ under-construction ]

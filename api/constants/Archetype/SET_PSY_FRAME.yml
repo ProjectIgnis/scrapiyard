@@ -5,4 +5,5 @@ value: 0xc1
 description: >-
   The ["PSY-Frame"](https://yugipedia.com/wiki/PSY-Frame) archetype.
 summary: PSY-Frame
-status: { index: stable }
+status:
+  index: stable

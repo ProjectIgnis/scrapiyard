@@ -2,8 +2,12 @@
 name: EFFECT_RCOUNTER_REPLACE
 enum: EffectCode
 value: 0x30000
-description: >-
-  Instead of removing the counter
+description: If a [counter(s)](https://yugipedia.com/wiki/Counter) would be removed from a card, the [operation function](/api/functions/Effect/SetOperation) of an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can be performed instead.
+summary: Allows performing an operation instead of removing a counter(s).
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_OVERLAY_REMOVE_REPLACE
+    link: /api/constants/EffectCode/EFFECT_OVERLAY_REMOVE_REPLACE
+  - name: EFFECT_SEND_REPLACE
+    link: /api/constants/EffectCode/EFFECT_SEND_REPLACE

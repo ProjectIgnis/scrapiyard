@@ -1,5 +1,4 @@
 ---!enum
 name: CounterModifier
-description: >-
-  (To be added)
-tags: [ under-construction ]
+description: Constants that can be combined with counter codes (by adding them or using bitwise OR) to modify their behavior.
+summary: Added to counter codes to modify their behavior.

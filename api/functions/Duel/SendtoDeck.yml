@@ -1,29 +1,27 @@
 ---!function
 name: SendtoDeck
 namespace: Duel
-description: >-
-  Sends a card or group (Card|Group targets) to the Deck with (int reason) as reason, if (int player) is supplied, the destination would be that player's Deck. If (int rp) is provided, sets the reason player to be that player. Available sequence values (SEQ_DECKTOP, SEQ_DECKBOTTOM and SEQ_DECKSHUFFLE). If SEQ_DECKSHUFFLE or other values are used for the sequence, the card is put on the top, and the Deck will be shuffled after the function resolution, except if Duel.DisableShuffleCheck() is set to true beforehand. Returns the number of cards successfully sent to the Deck.
+description: &desc Sends a card(s) to the Deck.
+summary: *desc
 status:
   index: stable
 parameters:
-  - name: targets
+  - name: cards
     type: [ Card, Group ]
-    description: (To be added)
-  - name: player
+    description: The card(s) to send to the Deck.
+  - name: dest_player
     type: [ int, nil ]
-    description: (To be added)
-    defaultValue: PLAYER_NONE
-  - name: seq
+    description: The player whose Deck to send the cards to. If `nil`, each card is sent to its owner's Deck.
+  - name: sequence
     type: [ int ]
-    description: (To be added)
+    description: The [sequence](/api/enums/DeckSequence) (order) in which the cards will be sent to.
   - name: reason
     type: [ int ]
-    description: (To be added)
-  - name: rp
+    description: The [reason](/api/enums/Reason) why the cards are being sent to the Deck.
+  - name: reason_player
     type: [ int ]
-    description: (To be added)
+    description: The player sending the cards to the Deck. If not supplied, the player is inferred from the game state. For example, if cards are sent during the resolution of an effect, the `reason_player` is the player resolving that effect.
     required: false
 returns:
   - type: [ int ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: The number of cards successfully sent to the Deck.

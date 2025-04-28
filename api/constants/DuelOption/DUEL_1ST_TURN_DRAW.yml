@@ -1,0 +1,9 @@
+---!constant
+name: DUEL_1ST_TURN_DRAW
+enum: DuelOption
+value: 0x200
+description: In Duels with this option, the starting player draws a card on their first turn.
+summary: The starting player draws a card on their first turn.
+status:
+  index: stable
+

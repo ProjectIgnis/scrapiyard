@@ -1,7 +1,7 @@
 ---!namespace
 name: Link
-description: >-
-  (To be added)
+summary: &desc Link-related functions.
+description: *desc
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ link-related ]

@@ -2,8 +2,8 @@
 name: CARD_RIKKA_KONKON
 enum: CommonCard
 value: 76869711
-description: >-
-  Rikka Konkon's ID
+description: The passcode of ["Rikka Konkon"](https://yugipedia.com/wiki/Rikka_Konkon). If a player would Tribute a Plant monster they control to activate a ["Rikka"](https://yugipedia.com/wiki/Rikka) card or effect, they can Tribute an opponent's monster affected by an [effect](/api/types/Effect) with this as [code](/api/functions/Effect/SetCode), even though they do not control it.
+summary: Rikka Konkon
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ special-handling ]

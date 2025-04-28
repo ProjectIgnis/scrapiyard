@@ -1,0 +1,8 @@
+---!constant
+name: DUEL_TEST_MODE
+enum: DuelOption
+value: 0x1
+description: In Duels with this option, the user can control both players.
+summary: The user can control both players.
+status:
+  index: stable

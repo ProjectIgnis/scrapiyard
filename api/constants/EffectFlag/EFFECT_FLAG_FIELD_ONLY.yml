@@ -1,0 +1,8 @@
+---!constant
+name: EFFECT_FLAG_FIELD_ONLY
+enum: EffectFlag
+value: 0x8
+description: An [effect](/api/types/Effect) with this flag does not belong to any card, but is applied globally in the Duel. This flag is usually not set through scripts directly, but is automatically added when registering an effect without a handler, i.e., using [`Duel.RegisterEffect`](/api/functions/Duel/RegisterEffect).
+summary: Does not belong to any card.
+status:
+  index: stable

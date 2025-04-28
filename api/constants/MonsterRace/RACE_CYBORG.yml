@@ -2,7 +2,7 @@
 name: RACE_CYBORG
 enum: MonsterRace
 value: 0x4000000
-description: >-
-  The [Cyborg](https://yugipedia.com/wiki/Cyborg) Monster Type
+description: The [Cyborg](https://yugipedia.com/wiki/Cyborg) Monster Type.
 summary: Cyborg
-status: { index: stable }
+status:
+  index: stable

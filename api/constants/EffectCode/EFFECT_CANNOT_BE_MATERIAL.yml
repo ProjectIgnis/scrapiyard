@@ -2,8 +2,10 @@
 name: EFFECT_CANNOT_BE_MATERIAL
 enum: EffectCode
 value: 248
-description: >-
-  The card cannot be used as material. Requires the SummonType for which the material can't be used to be defined via SetValue.
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot be used as material for the Summon of a card that fulfills the effect's [value function](/api/functions/Effect/SetValue).
+summary: Affected card cannot be used as material for a Summon.
 status:
   index: stable
-tags: [ under-construction ]
+# effect structure:
+#   SetValue: function(e,sc,sumtype,tp) -> bool
+#     must be true if the affected card cannot be used for the summon of sc

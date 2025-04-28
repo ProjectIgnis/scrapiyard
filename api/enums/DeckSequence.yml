@@ -1,5 +1,4 @@
 ---!enum
 name: DeckSequence
-description: >-
-  (To be added)
-tags: [ under-construction ]
+description: Constants used as the sequence for [`Duel.SendtoDeck`](/api/functions/Duel/SendtoDeck) to specify the sequence (order) in which the cards will be sent to in the Deck.
+summary: Constants for specifying the sequence in which cards are sent to in the Deck.

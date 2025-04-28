@@ -5,4 +5,5 @@ value: 0x11f
 description: >-
   The ["Nephthys"](https://yugipedia.com/wiki/Nephthys) archetype.
 summary: Nephthys
-status: { index: stable }
+status:
+  index: stable

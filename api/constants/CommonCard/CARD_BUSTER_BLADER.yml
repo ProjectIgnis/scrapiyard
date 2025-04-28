@@ -1,0 +1,8 @@
+---!constant
+name: CARD_BUSTER_BLADER
+enum: CommonCard
+value: 78193831
+description: The passcode of ["Buster Blader"](https://yugipedia.com/wiki/Buster_Blader).
+summary: Buster Blader
+status:
+  index: stable

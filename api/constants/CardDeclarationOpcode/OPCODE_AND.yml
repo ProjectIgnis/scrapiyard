@@ -1,0 +1,8 @@
+---!constant
+name: OPCODE_AND
+enum: CardDeclarationOpcode
+value: 0x40000004
+description: In card declaration filters, this operation performs logical AND on its operands, which must be bools.
+summary: Performs logical AND on its operands.
+status:
+  index: stable

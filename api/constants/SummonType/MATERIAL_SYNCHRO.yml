@@ -1,0 +1,8 @@
+---!constant
+name: MATERIAL_SYNCHRO
+enum: MaterialType
+value: 0x200000000
+description: The type for Summons that use [Synchro Materials](https://yugipedia.com/wiki/Synchro_Material).
+summary: Summon using Synchro Materials.
+status:
+  index: stable

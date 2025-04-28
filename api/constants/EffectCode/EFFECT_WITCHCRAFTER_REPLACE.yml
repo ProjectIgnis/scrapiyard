@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_WITCHCRAFTER_REPLACE
+enum: EffectCode
+value: 83289866
+description: If a player would discard a card(s) to activate a ["Witchcrafter"](https://yugipedia.com/wiki/Witchcrafter) monster's effect while they are affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode), they can perform a different cost, specified as the effect's [operation function](/api/funtions/Effect/SetOperation), instead.
+summary: Affected players can perform a different cost for a "Witchcrafter" effect.
+status:
+  index: stable
+tags: [ special-handling ]

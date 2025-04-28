@@ -1,0 +1,8 @@
+---!constant
+name: EFFECT_GEMINI_SUMMONABLE
+enum: EffectCode
+value: 77
+description: A monster affected card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can be [Normal Summoned](https://yugipedia.com/wiki/Normal_Summon) again while on the field (i.e., the mechanic that allows [Gemini monster](https://yugipedia.com/wiki/Gemini_monster) to be Normal Summoned again). Effects with this code are typically registered as part of [`Gemini.AddProcedure`](/api/functions/Gemini/AddProcedure) rather than created manually.
+summary: Affected monsters can be Normal Summoned again while on the field.
+status:
+  index: stable

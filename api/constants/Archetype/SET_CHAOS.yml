@@ -5,4 +5,5 @@ value: 0xcf
 description: >-
   The ["Chaos"](https://yugipedia.com/wiki/Chaos) archetype.
 summary: Chaos
-status: { index: stable }
+status:
+  index: stable

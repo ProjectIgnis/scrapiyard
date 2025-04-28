@@ -5,4 +5,5 @@ value: 0x14b
 description: >-
   The ["Numeron"](https://yugipedia.com/wiki/Numeron) archetype.
 summary: Numeron
-status: { index: stable }
+status:
+  index: stable

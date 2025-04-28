@@ -2,8 +2,7 @@
 name: EFFECT_CANNOT_USE_AS_COST
 enum: EffectCode
 value: 57
-description: >-
-  The affected card cannot be used as Cost. Usually used as a single effect. Does not use SetTarget
+description: If an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is affecting a card(s), that card cannot be used as cost. If it's affecting a player(s), that player cannot use cards that fulfill the effect's [target function](/api/functions/Effect/SetTarget) as cost (or any card if no target function is provided).
+summary: Affected cards cannot be used as cost.
 status:
   index: stable
-tags: [ under-construction ]

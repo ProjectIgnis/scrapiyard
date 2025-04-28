@@ -5,4 +5,5 @@ value: 0xc
 description: >-
   The ["Alien"](https://yugipedia.com/wiki/Alien) archetype.
 summary: Alien
-status: { index: stable }
+status:
+  index: stable

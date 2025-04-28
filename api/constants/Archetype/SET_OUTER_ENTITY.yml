@@ -5,4 +5,5 @@ value: 0x10b7
 description: >-
   The ["Outer Entity"](https://yugipedia.com/wiki/Outer_Entity) archetype.
 summary: Outer Entity
-status: { index: stable }
+status:
+  index: stable

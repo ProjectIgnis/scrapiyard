@@ -5,4 +5,5 @@ value: 0x147
 description: >-
   The ["Melffy"](https://yugipedia.com/wiki/Melffy) archetype.
 summary: Melffy
-status: { index: stable }
+status:
+  index: stable

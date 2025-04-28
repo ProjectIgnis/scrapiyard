@@ -2,8 +2,7 @@
 name: PHASE_BATTLE_STEP
 enum: Phase
 value: 0x10
-description: >-
-  The Battle Step
+description: The [Battle Step](https://yugipedia.com/wiki/Battle_Step), one of the four steps of the [Battle Phase](https://yugipedia.com/wiki/Battle_Phase).
+summary: Battle Step of the Battle Phase.
 status:
   index: stable
-tags: [ under-construction ]

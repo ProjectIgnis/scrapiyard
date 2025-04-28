@@ -5,4 +5,5 @@ value: 0x100000
 description: >-
   The [Counter](https://yugipedia.com/wiki/Counter_Trap_Card) Card Type for Traps
 summary: Counter
-status: { index: stable }
+status:
+  index: stable

@@ -5,4 +5,5 @@ value: 0x14a
 description: >-
   The ["Appliancer"](https://yugipedia.com/wiki/Appliancer) archetype.
 summary: Appliancer
-status: { index: stable }
+status:
+  index: stable

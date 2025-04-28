@@ -2,8 +2,7 @@
 name: EFFECT_UNSUMMONABLE_CARD
 enum: EffectCode
 value: 336
-description: >-
-  The affected card cannot be Normal Summoned
+description: A monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot be [Normal Summoned](https://yugipedia.com/wiki/Normal_Summon)/[Set](https://yugipedia.com/wiki/Normal_Set). Effects with this code are typically registered using [`Card.EnableUnsummonable`](/api/functions/Card/EnableUnsummonable) rather than created manually.
+summary: Affected monsters cannot be Normal Summoned/Set.
 status:
   index: stable
-tags: [ under-construction ]

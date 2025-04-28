@@ -2,8 +2,7 @@
 name: LOCATION_REASON_TOFIELD
 enum: LocationReason
 value: 0x1
-description: >-
-  Default reason for Duel.GetLocationCount(), counts for Kaiser Colosseum
+description: This is used as the reason when checking if a zone is available to place a card in. This is the default reason for [`Duel.GetLocationCount`](/api/functions/Duel/GetLocationCount) and is typically not set in card scripts.
+summary: If a zone is available to place a card in.
 status:
   index: stable
-tags: [ under-construction ]

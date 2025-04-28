@@ -2,7 +2,7 @@
 name: CHAININFO_TRIGGERING_SEQUENCE
 enum: ChainInfo
 value: 6
-description: >-
-  When used with Duel.GetChainInfo returns the sequence (zone within a location) of the card that triggered the requested Chain Link.
+description: When used with [`Duel.GetChainInfo`](/api/functions/Duel/GetChainInfo), retrieves the sequence of the card whose effect was activated in the requested Chain Link, as it was at the time of activation. The returned sequence is not limited to a [symbolic location](/api/tags/symbolic-location) even if the card was in one. To account for symbolic locations, use  [`CHAININFO_TRIGGERING_SEQUENCE_SYMBOLIC`](/api/constants/ChainInfo/CHAININFO_TRIGGERING_SEQUENCE_SYMBOLIC) instead.
+summary: The sequence of the card whose effect activated in a Chain Link.
 status:
   index: stable

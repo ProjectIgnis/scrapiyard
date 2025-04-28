@@ -2,8 +2,8 @@
 name: REGISTER_FLAG_ALLURE_LVUP
 enum: RegisterFlag
 value: 8
-description: >-
-  Allure Queen's effect to Special Summon the next level, for Allure Palace (Card.RegisterEffect)
+description: This flag must be set when [registering](/api/functions/Card/RegisterEffect) the effect of an ["Allure Queen"](https://yugipedia.com/wiki/Allure_Queen) monster that activates by sending itself to the GY, so it could be identified by [the anime version of "Allure Palace"](https://yugipedia.com/wiki/Allure_Palace_(anime)).
+summary: Marks "Allure Queen" effects that activate by sending themselves to the GY.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ special-handling, unofficial ]

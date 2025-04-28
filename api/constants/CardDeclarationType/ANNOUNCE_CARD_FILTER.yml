@@ -1,0 +1,8 @@
+---!constant
+name: ANNOUNCE_CARD_FILTER
+enum: CardDeclarationType
+value: 0x8
+description: &desc Declaring the name of a card matching a filter.
+constant: *desc
+status:
+  index: stable

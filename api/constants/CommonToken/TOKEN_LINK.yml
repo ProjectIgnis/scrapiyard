@@ -2,8 +2,7 @@
 name: TOKEN_LINK
 enum: CommonToken
 value: 48068379
-description: >-
-  (To be added)
+description: The passcode of ["Link Token"](https://yugipedia.com/wiki/Link_Token).
+summary: Link Token
 status:
   index: stable
-tags: [ under-construction ]

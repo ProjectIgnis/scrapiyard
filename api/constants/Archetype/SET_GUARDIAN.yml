@@ -5,4 +5,5 @@ value: 0x52
 description: >-
   The ["Guardian"](https://yugipedia.com/wiki/Guardian) archetype.
 summary: Guardian
-status: { index: stable }
+status:
+  index: stable

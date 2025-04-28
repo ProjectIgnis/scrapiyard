@@ -1,9 +1,0 @@
----!constant
-name: EFFECT_FLAG_UNCOPYABLE
-enum: EffectProperty
-value: 0x40000
-description: >-
-  The effect that has this flag cannot be copied
-status:
-  index: stable
-tags: [ under-construction ]

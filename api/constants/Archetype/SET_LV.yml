@@ -5,4 +5,5 @@ value: 0x41
 description: >-
   The ["LV"](https://yugipedia.com/wiki/LV) archetype.
 summary: LV
-status: { index: stable }
+status:
+  index: stable

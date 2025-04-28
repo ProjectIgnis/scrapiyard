@@ -2,8 +2,7 @@
 name: STATUS_NO_LEVEL
 enum: CardStatus
 value: 0x20
-description: >-
-  The card is treated as having Level/Rank/Link 0
+description: A monster with this status is treated as having Level/Rank/Link 0.
+summary: Treated as having Level/Rank/Link 0.
 status:
   index: stable
-tags: [ under-construction ]

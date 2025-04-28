@@ -5,4 +5,5 @@ value: 0x10a2
 description: >-
   The ["Dark Magician"](https://yugipedia.com/wiki/Dark_Magician_(archetype)) archetype.
 summary: Dark Magician
-status: { index: stable }
+status:
+  index: stable

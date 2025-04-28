@@ -1,0 +1,8 @@
+---!constant
+name: EFFECT_FLAG_FUNC_VALUE
+enum: EffectFlag
+value: 0x2
+description: An [effect](/api/types/Effect) with this flag has a [function](/api/types/function) as an associated ["value"](/api/functions/Effect/SetValue). This flag is usually not set through scripts directly, but is automatically added when a function is passed as the second parameter to `Effect.SetValue`.
+summary: Has a function as an associated value.
+status:
+  index: stable

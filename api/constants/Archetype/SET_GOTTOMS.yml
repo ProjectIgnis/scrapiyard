@@ -5,4 +5,5 @@ value: 0xb0
 description: >-
   The ["Gottoms"](https://yugipedia.com/wiki/Gottoms) archetype.
 summary: Gottoms
-status: { index: stable }
+status:
+  index: stable

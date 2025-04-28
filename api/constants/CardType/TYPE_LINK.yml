@@ -5,4 +5,5 @@ value: 0x4000000
 description: >-
   The [Link](https://yugipedia.com/wiki/Link_Monster) Card Type for Monsters
 summary: Link
-status: { index: stable }
+status:
+  index: stable

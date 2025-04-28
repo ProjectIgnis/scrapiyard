@@ -5,4 +5,5 @@ value: 0xb2
 description: >-
   The ["U.A."](https://yugipedia.com/wiki/U.A.) archetype.
 summary: U.A.
-status: { index: stable }
+status:
+  index: stable

@@ -2,8 +2,7 @@
 name: CARD_NATURIA_CAMELLIA
 enum: CommonCard
 value: 29942771
-description: >-
-  Naturia Camellia's ID
+description: The passcode of ["Naturia Camellia"](https://yugipedia.com/wiki/Naturia_Camellia).
+summary: Naturia Camellia
 status:
   index: stable
-tags: [ under-construction ]

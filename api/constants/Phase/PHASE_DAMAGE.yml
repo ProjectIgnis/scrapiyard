@@ -2,8 +2,7 @@
 name: PHASE_DAMAGE
 enum: Phase
 value: 0x20
-description: >-
-  The Damage Step
+description: The [Damage Step](https://yugipedia.com/wiki/Damage_Step), one of the four steps of the [Battle Phase](https://yugipedia.com/wiki/Battle_Phase).
+summary: Damage Step of the Battle Phase.
 status:
   index: stable
-tags: [ under-construction ]

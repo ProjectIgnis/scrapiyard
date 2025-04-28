@@ -2,8 +2,7 @@
 name: EFFECT_SPIRIT_MAYNOT_RETURN
 enum: EffectCode
 value: 281
-description: >-
-  Affected card optionally may not return to the hand in the End Phase even if a Spirit Monster
+description: A [Spirit monster](https://yugipedia.com/wiki/Spirit_monster) affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can optionally be kept on the field in the End Phase instead of returning it to the hand.
+summary: Affected Spirit monsters can optionally be kept on the field in the End Phase.
 status:
   index: stable
-tags: [ under-construction ]

@@ -2,8 +2,7 @@
 name: SUMMON_TYPE_FLIP
 enum: SummonType
 value: 0x20000000
-description: >-
-  Flip Summon
+description: The type for [Flip Summons](https://yugipedia.com/wiki/Flip_Summon).
+summary: Flip Summon.
 status:
   index: stable
-tags: [ under-construction ]

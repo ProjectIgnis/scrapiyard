@@ -5,4 +5,5 @@ value: 0xf9
 description: >-
   The ["True Draco" or "True King"](https://yugipedia.com/wiki/True_Draco) archetype.
 summary: True Draco|True King
-status: { index: stable }
+status:
+  index: stable

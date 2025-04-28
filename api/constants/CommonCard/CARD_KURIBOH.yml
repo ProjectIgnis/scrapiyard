@@ -2,8 +2,7 @@
 name: CARD_KURIBOH
 enum: CommonCard
 value: 40640057
-description: >-
-  Kuriboh's ID
+description: The passcode of ["Kuriboh"](https://yugipedia.com/wiki/Kuriboh).
+summary: Kuriboh
 status:
   index: stable
-tags: [ under-construction ]

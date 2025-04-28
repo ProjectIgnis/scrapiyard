@@ -2,8 +2,7 @@
 name: COUNTER_SPELL
 enum: CommonCounter
 value: 0x1
-description: >-
-  The hexadecimal value of Spell Counters
+description: The counter code of [Spell Counters](https://yugipedia.com/wiki/Spell_Counter).
+summary: Spell Counter
 status:
   index: stable
-tags: [ under-construction ]

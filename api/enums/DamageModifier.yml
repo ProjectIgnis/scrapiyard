@@ -1,5 +1,4 @@
 ---!enum
 name: DamageModifier
-description: >-
-  (To be added)
-tags: [ under-construction ]
+description: Constants set as the [value](/api/functions/Effect/SetValue) of [effects that change battle damage](/api/constants/EffectType/EFFECT_CHANGE_BATTLE_DAMAGE) and [piercing effects](/api/constants/EffectType/EFFECT_PIERCE) to modify the amount of damage inflicted.
+summary: Battle damage modifiers.

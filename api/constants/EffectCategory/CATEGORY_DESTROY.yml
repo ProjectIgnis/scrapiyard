@@ -2,8 +2,7 @@
 name: CATEGORY_DESTROY
 enum: EffectCategory
 value: 0x1
-description: >-
-  Describes that an effect destroys cards
+description: An activated effect with this category may destroy a card(s) on resolution.
+summary: Destroys a card(s).
 status:
   index: stable
-tags: [ under-construction ]

@@ -1,6 +1,5 @@
 ---!enum
 name: Reset
-description: >-
-  (To be added)
+description: Constants used to "reset" an effect, effectively removing it from the Duel such that it no longer applies and can no longer be used.
+summary: Constants used to reset effects.
 bitmaskInt: true
-tags: [ under-construction ]

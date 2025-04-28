@@ -2,8 +2,7 @@
 name: CATEGORY_SEARCH
 enum: EffectCategory
 value: 0x20000
-description: >-
-  Describes that a card searches
+description: An activated effect with this category may add a card(s) from the Deck to the hand on resolution.
+summary: Adds a card(s) from the Deck to the hand.
 status:
   index: stable
-tags: [ under-construction ]

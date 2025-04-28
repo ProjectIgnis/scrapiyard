@@ -3,7 +3,7 @@ name: HINTMSG_RACE
 enum: HintMessage
 value: 563
 description: >-
-  Shows the following HintMessage: "Declare a Type"
+  Shows the following hint to the player when prompted to declare: `Declare a Type`
+summary: '"Declare a Type"'
 status:
   index: stable
-tags: [ under-construction ]

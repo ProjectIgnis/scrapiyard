@@ -1,0 +1,9 @@
+---!constant
+name: EFFECT_FLAG_SINGLE_RANGE
+enum: EffectFlag
+value: 0x20000
+description: An [effect](/api/types/Effect) with this flag only affects the card it's registered to while it's in the location defined in [`Effect.SetRange`](/api/functions/Effect/SetRange). It also doesn't apply if the card is on the field but is face-down.
+summary: Applies only to the card it's registered to while in a given location.
+status:
+  index: stable
+# TODO: investigate ATK/DEF modification interactions and add it here as guide

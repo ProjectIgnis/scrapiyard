@@ -2,8 +2,7 @@
 name: STATUS_JUST_POS
 enum: CardStatus
 value: 0x1000000
-description: >-
-  A monster that had just changed its position
+description: A monster with this status just had its position changed.
+summary: Just had its position changed.
 status:
   index: stable
-tags: [ under-construction ]

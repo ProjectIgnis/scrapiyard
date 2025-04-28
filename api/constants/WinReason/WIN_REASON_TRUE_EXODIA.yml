@@ -1,0 +1,8 @@
+---!constant
+name: WIN_REASON_TRUE_EXODIA
+enum: WinReason
+value: 0x21
+description: The reason value for a Duel win caused by ["True Exodia"](https://yugipedia.com/wiki/True_Exodia).
+summary: Victory by the effect of "True Exodia"
+status:
+  index: stable

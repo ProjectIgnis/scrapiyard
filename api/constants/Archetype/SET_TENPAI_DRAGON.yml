@@ -5,4 +5,5 @@ value: 0x1a1
 description: >-
   The ["Tenpai Dragon"](https://yugipedia.com/wiki/Tenpai_Dragon) archetype.
 summary: Tenpai Dragon
-status: { index: stable }
+status:
+  index: stable

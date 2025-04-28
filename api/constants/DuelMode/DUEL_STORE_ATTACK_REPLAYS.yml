@@ -1,9 +1,0 @@
----!constant
-name: DUEL_STORE_ATTACK_REPLAYS
-enum: DuelMode
-value: 0x20000000
-description: >-
-  (To be added)
-status:
-  index: stable
-tags: [ under-construction ]

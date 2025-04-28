@@ -5,4 +5,5 @@ value: 0xd2
 description: >-
   The ["Kozmo"](https://yugipedia.com/wiki/Kozmo) archetype.
 summary: Kozmo
-status: { index: stable }
+status:
+  index: stable

@@ -2,8 +2,7 @@
 name: CARD_MONSTER_REBORN
 enum: CommonCard
 value: 83764718
-description: >-
-  Monster Reborn's ID
+description: The passcode of ["Monster Reborn"](https://yugipedia.com/wiki/Monster_Reborn).
+summary: Monster Reborn
 status:
   index: stable
-tags: [ under-construction ]

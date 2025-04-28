@@ -2,8 +2,8 @@
 name: EFFECT_EQUIP_LIMIT
 enum: EffectCode
 value: 76
-description: This effect code restricts which monsters an equip card can remain equipped to. If the equip card is equipped to a monster that does not meet the restriction, the equip card will be destroyed.
-summary: Restricts which monsters an equip card can remain equipped to.
+description: An [Equip Card](https://yugipedia.com/wiki/Equip_Card) affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can only remain equipped to monsters that fulfill the effect's [value function](/api/functions/Effect/SetValue). If the equipped monster no longer meets the restriction, the Equip Card is destroyed.
+summary: Affected Equip Cards can only remain equipped to certain cards.
 status:
   index: stable
 tags: [ equip-limit, equip-related ]

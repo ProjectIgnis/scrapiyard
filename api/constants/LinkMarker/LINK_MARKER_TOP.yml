@@ -4,4 +4,5 @@ enum: LinkMarker
 value: 0x80
 description: Top Link Arrow (↑)
 summary: ↑
-status: { index: stable }
+status:
+  index: stable

@@ -2,8 +2,7 @@
 name: EVENT_FREE_CHAIN
 enum: Event
 value: 1002
-description: >-
-  An event that describes a timing at any valid response window or open game state
+description: Represents the activation window for a card or effect that can be activated at any time (provided they meet their condition). This event is not raised by any specific action but is used to indicate that a card or effect can be activated freely.
+summary: A card or effect can be activated freely.
 status:
   index: stable
-tags: [ under-construction ]

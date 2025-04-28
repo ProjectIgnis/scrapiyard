@@ -5,4 +5,5 @@ value: 0x16c
 description: >-
   The ["Number"](https://yugipedia.com/wiki/Number) archetype.
 summary: Number
-status: { index: stable }
+status:
+  index: stable

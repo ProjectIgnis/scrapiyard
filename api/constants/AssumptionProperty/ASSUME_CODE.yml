@@ -1,0 +1,8 @@
+---!constant
+name: ASSUME_CODE
+enum: AssumptionProperty
+value: 1
+description: &desc Temporarily assumes that the affected card has a given passcode.
+summary: *desc
+status:
+  index: stable

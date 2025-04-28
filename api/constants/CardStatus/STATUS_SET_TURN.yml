@@ -2,8 +2,7 @@
 name: STATUS_SET_TURN
 enum: CardStatus
 value: 0x10
-description: >-
-  Spell/Traps set this turn
+description: A Spell/Trap with this status was Set in the current turn.
+summary: Was Set in the current turn.
 status:
   index: stable
-tags: [ under-construction ]

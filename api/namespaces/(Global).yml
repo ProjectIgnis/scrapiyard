@@ -1,7 +1,6 @@
 ---!namespace
 name: (Global)
-description: >-
-  (To be added)
+description: Functions that are in the global scope and not part of any namespace (table).
+summary: Functions that are not part of any namespace.
 status:
   index: stable
-tags: [ under-construction ]

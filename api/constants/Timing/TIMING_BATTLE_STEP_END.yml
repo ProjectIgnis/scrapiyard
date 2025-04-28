@@ -2,8 +2,7 @@
 name: TIMING_BATTLE_STEP_END
 enum: Timing
 value: 0x4000000
-description: >-
-  When the steps in a battle have finished
+description: An effect with this [hint timing](/api/functions/Effect/SetHintTiming) will be prompted for activation when the player is attempting to end the [Battle Phase](https://yugipedia.com/wiki/Battle_Phase).
+summary: Prompts when the player is attempting to end the Battle Phase.
 status:
   index: stable
-tags: [ under-construction ]

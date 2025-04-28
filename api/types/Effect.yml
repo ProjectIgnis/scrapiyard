@@ -1,6 +1,5 @@
 ---!type
 name: Effect
 supertype: userdata
-description: >-
-  (To be added)
-tags: [ under-construction ]
+description: Represents an effect. Can use the functions in the [`Effect` namespace](/api/namespaces/Effect) as methods. This type not limited to what are officially referred to as ["effects"](https://yugipedia.com/wiki/Effect) in *Yu-Gi-Oh!*. It is also used to implement ["conditions"](https://yugipedia.com/wiki/Condition) and even some Duel rules.
+summary: Represents an effect.

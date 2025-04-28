@@ -2,8 +2,12 @@
 name: EFFECT_OVERLAY_REMOVE_REPLACE
 enum: EffectCode
 value: 245
-description: >-
-  Replaces detaching Xyz materials from monsters by some other operation. SetCondition must be used to match the exact effects that can be replaced. SetOperation must return something.
+description: If an [Xyz Material(s)](https://yugipedia.com/wiki/Xyz_Material) would be detached, the [operation function](/api/functions/Effect/SetOperation) of an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can be performed instead.
+summary: Allows performing an operation instead of detaching a material(s).
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_OVERLAY_REMOVE_REPLACE
+    link: /api/constants/EffectCode/EFFECT_OVERLAY_REMOVE_REPLACE
+  - name: EFFECT_SEND_REPLACE
+    link: /api/constants/EffectCode/EFFECT_SEND_REPLACE

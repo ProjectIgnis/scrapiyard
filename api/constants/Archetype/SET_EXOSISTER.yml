@@ -5,4 +5,5 @@ value: 0x174
 description: >-
   The ["Exosister"](https://yugipedia.com/wiki/Exosister) archetype.
 summary: Exosister
-status: { index: stable }
+status:
+  index: stable

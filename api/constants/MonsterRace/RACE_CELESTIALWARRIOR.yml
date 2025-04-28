@@ -2,8 +2,8 @@
 name: RACE_CELESTIALWARRIOR
 enum: MonsterRace
 value: 0x40000000
-description: >-
-  The [Celestial Warrior](https://yugipedia.com/wiki/Celestial_Warrior) Monster Type in Rush Duel
+description: The [Celestial Warrior](https://yugipedia.com/wiki/Celestial_Warrior) Monster Type in Rush Duel.
 summary: Celestial Warrior
-status: { index: stable }
+status:
+  index: stable
 tags: [ rush ]

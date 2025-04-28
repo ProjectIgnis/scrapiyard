@@ -2,8 +2,7 @@
 name: CHAININFO_TRIGGERING_SEQUENCE_SYMBOLIC
 enum: ChainInfo
 value: 7
-description: >-
-  (To be added)
+description: When used with [`Duel.GetChainInfo`](/api/functions/Duel/GetChainInfo), retrieves the sequence of the card whose effect was activated in the requested Chain Link, as it was at the time of activation. If the card was in a [symbolic location](/api/tags/symbolic-location), the returned value is its sequence when limited to that symbolic location. To **not** account for symbolic locations, use [`CHAININFO_TRIGGERING_SEQUENCE`](/api/constants/ChainInfo/CHAININFO_TRIGGERING_SEQUENCE) instead.
+summary: The (symbolic) sequence of the card whose effect activated in a Chain Link.
 status:
   index: stable
-tags: [ under-construction ]

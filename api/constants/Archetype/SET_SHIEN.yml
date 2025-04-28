@@ -5,4 +5,5 @@ value: 0x20
 description: >-
   The ["Shien"](https://yugipedia.com/wiki/Shien) archetype.
 summary: Shien
-status: { index: stable }
+status:
+  index: stable

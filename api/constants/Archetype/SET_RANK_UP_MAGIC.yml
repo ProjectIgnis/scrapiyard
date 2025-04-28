@@ -5,4 +5,5 @@ value: 0x95
 description: >-
   The ["Rank-Up-Magic"](https://yugipedia.com/wiki/Rank-Up-Magic) archetype.
 summary: Rank-Up-Magic
-status: { index: stable }
+status:
+  index: stable

@@ -5,4 +5,5 @@ value: 0xa1
 description: >-
   The ["Legendary Dragon"](https://yugipedia.com/wiki/Legendary_Dragon) archetype.
 summary: Legendary Dragon
-status: { index: stable }
+status:
+  index: stable

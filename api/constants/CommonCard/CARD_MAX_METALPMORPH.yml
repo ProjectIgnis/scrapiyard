@@ -1,0 +1,8 @@
+---!constant
+name: CARD_MAX_METALMORPH
+enum: CommonCard
+value: 89812483
+description: The passcode of ["Max Metalmorph"](https://yugipedia.com/wiki/Max_Metalmorph).
+summary: Max Metalmorph
+status:
+  index: stable

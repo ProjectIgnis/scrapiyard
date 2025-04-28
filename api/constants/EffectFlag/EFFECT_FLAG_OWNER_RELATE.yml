@@ -1,0 +1,8 @@
+---!constant
+name: EFFECT_FLAG_OWNER_RELATE
+enum: EffectFlag
+value: 0x1000000
+description: An [effect](/api/types/Effect) with this flag is not applied if the card that registered it is no longer "related" to the effect, such as if it has left the field or is negated.
+summary: Does not apply if the card that registered it is no longer related.
+status:
+  index: stable

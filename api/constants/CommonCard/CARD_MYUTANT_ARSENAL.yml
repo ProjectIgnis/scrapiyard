@@ -2,8 +2,7 @@
 name: CARD_MYUTANT_ARSENAL
 enum: CommonCard
 value: 7574904
-description: >-
-  Myutant Arsenal's ID
+description: The passcode of ["Myutant Arsenal"](https://yugipedia.com/wiki/Myutant_Arsenal).
+summary: Myutant Arsenal
 status:
   index: stable
-tags: [ under-construction ]

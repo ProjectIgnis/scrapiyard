@@ -2,8 +2,7 @@
 name: EFFECT_CHANGE_BATTLE_STAT
 enum: EffectCode
 value: 198
-description: >-
-  Changes the values used to calculate damage, during damage calculation only. Doesn't actually change the values, only what is calculated
+description: During battles involving a card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode), the number returned by the effect's [value function](/api/functions/Effect/SetValue) is used for each battling monster for [damage calculation](https://yugipedia.com/wiki/Damage_calculation) instead of their respective ATK/DEF.
+summary: Battles involving affected cards use different stats for damage calculation.
 status:
   index: stable
-tags: [ under-construction ]

@@ -2,8 +2,7 @@
 name: REASON_SYNCHRO
 enum: Reason
 value: 0x80000
-description: >-
-  Used for Synchro Summon
+description: The reason value for actions caused by Synchro Summoning a monster.
+summary: Caused by Synchro Summoning a monster.
 status:
   index: stable
-tags: [ under-construction ]

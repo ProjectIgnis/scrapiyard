@@ -1,0 +1,10 @@
+---!constant
+name: WIN_REASON_PUPPET_LEO
+enum: WinReason
+value: 0x17
+description: >-
+  The reason value for a Duel win caused by ["Number 88: Gimmick Puppet of Leo"](https://yugipedia.com/wiki/Number_88:_Gimmick_Puppet_of_Leo).
+summary: >-
+  Victory by the effect of "Number 88: Gimmick Puppet of Leo"
+status:
+  index: stable

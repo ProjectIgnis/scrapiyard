@@ -2,8 +2,7 @@
 name: DOUBLE_DAMAGE
 enum: DamageModifier
 value: 0x80000000
-description: >-
-  Double piercing damage, used as the value of EFFECT_PIERCE
+description: When set as the [value](/api/functions/Effect/SetValue) of an [effect that changes battle damage](/api/constants/EffectType/EFFECT_CHANGE_BATTLE_DAMAGE) or a [piercing effect](/api/constants/EffectType/EFFECT_PIERCE), the damage inflicted is doubled.
+summary: Doubles battle damage.
 status:
   index: stable
-tags: [ under-construction ]

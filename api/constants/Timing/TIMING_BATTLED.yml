@@ -2,8 +2,7 @@
 name: TIMING_BATTLED
 enum: Timing
 value: 0x8000000
-description: >-
-  (To be added)
+description: An effect with this [hint timing](/api/functions/Effect/SetHintTiming) will be prompted for activation after [damage calculation](https://yugipedia.com/wiki/Damage_calculation).
+summary: Prompts after damage calculation.
 status:
   index: stable
-tags: [ under-construction ]

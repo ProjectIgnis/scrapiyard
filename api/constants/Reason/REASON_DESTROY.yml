@@ -2,8 +2,7 @@
 name: REASON_DESTROY
 enum: Reason
 value: 0x1
-description: >-
-  The card being destroyed
+description: The reason value for actions caused by destroying a card(s).
+summary: Caused by destroying a card(s).
 status:
   index: stable
-tags: [ under-construction ]

@@ -2,8 +2,7 @@
 name: CARD_DARK_SANCTUARY
 enum: CommonCard
 value: 16625614
-description: >-
-  Dark Sanctuary's ID, frequently called by some scripts
+description: The passcode of ["Dark Sanctuary"](https://yugipedia.com/wiki/Dark_Sanctuary).
+summary: Dark Sanctuary
 status:
   index: stable
-tags: [ under-construction ]

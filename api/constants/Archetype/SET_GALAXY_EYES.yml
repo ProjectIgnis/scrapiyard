@@ -6,4 +6,5 @@ description: >-
   The ["Galaxy-Eyes"](https://yugipedia.com/wiki/Galaxy-Eyes) archetype.
   Sub-archetype of [`SET_GALAXY`](/api/constants/Archetype/SET_GALAXY).
 summary: Galaxy-Eyes
-status: { index: stable }
+status:
+  index: stable

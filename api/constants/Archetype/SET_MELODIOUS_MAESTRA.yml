@@ -6,4 +6,5 @@ description: >-
   The ["Melodious Maestra"](https://yugipedia.com/wiki/Melodious_Maestra) archetype.
   Sub-archetype of [`SET_MELODIOUS`](/api/constants/Archetype/SET_MELODIOUS).
 summary: Melodious Maestra
-status: { index: stable }
+status:
+  index: stable

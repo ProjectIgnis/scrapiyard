@@ -1,5 +1,4 @@
 ---!enum
 name: Player
-description: >-
-  (To be added)
-tags: [ under-construction ]
+description: Constants used to refer to players. These constants do not directly correspond to specific players (which are simply represented as `0` and `1`), but serve to indicate players in a more abstract sense.
+summary: Players.

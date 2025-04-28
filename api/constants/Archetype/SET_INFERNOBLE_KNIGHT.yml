@@ -5,4 +5,5 @@ value: 0x507a
 description: >-
   The ["Infernoble Knight"](https://yugipedia.com/wiki/Infernoble_Knight) archetype.
 summary: Infernoble Knight
-status: { index: stable }
+status:
+  index: stable

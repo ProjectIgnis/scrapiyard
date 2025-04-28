@@ -2,8 +2,7 @@
 name: CATEGORY_DISABLE_SUMMON
 enum: EffectCategory
 value: 0x8000
-description: >-
-  Describes an effect that negates the summon of a monster
+description: An activated effect with this category may negate the Summon of a monster(s) on resolution.
+summary: Negates the Summon of a monster(s).
 status:
   index: stable
-tags: [ under-construction ]

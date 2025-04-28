@@ -2,8 +2,7 @@
 name: STATUS_TO_DISABLE
 enum: CardStatus
 value: 0x4
-description: >-
-  Effect would be negated
+description: A card with this status *would be* negated.
+summary: Would be negated.
 status:
   index: stable
-tags: [ under-construction ]

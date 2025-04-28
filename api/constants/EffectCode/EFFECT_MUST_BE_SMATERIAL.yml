@@ -2,8 +2,8 @@
 name: EFFECT_MUST_BE_SMATERIAL
 enum: EffectCode
 value: 312
-description: >-
-  Deprecated. Use EFFECT_MUST_BE_MATERIAL with REASON_SYNCHRO in the SetValue
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) **must** be used as material when performing a Synchro Summon. Monsters cannot be Synchro Summoned if they cannot use the affected card as material.
+summary: Affected cards must be used as material for Synchro Summons.
 status:
-  index: stable
-tags: [ under-construction ]
+  index: deprecated
+  message: Use `EFFECT_MUST_BE_MATERIAL` with `REASON_SYNCHRO` as value instead.

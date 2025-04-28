@@ -5,4 +5,5 @@ value: 0x90
 description: >-
   The ["Sylvan"](https://yugipedia.com/wiki/Sylvan) archetype.
 summary: Sylvan
-status: { index: stable }
+status:
+  index: stable

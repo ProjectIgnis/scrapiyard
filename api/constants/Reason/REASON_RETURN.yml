@@ -2,8 +2,7 @@
 name: REASON_RETURN
 enum: Reason
 value: 0x20000
-description: >-
-  Return from banished to Graveyard
+description: The reason value for actions caused by returning a banished card to the GY.
+summary: Caused by returning a banished card to the GY.
 status:
   index: stable
-tags: [ under-construction ]

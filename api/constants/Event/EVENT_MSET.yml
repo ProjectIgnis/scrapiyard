@@ -2,8 +2,7 @@
 name: EVENT_MSET
 enum: Event
 value: 1106
-description: >-
-  This event is raised when a monster is Set
+description: This event is raised when a monster is [Normal Set](https://yugipedia.com/wiki/Normal_Set).
+summary: A monster is Normal Set.
 status:
   index: stable
-tags: [ under-construction ]

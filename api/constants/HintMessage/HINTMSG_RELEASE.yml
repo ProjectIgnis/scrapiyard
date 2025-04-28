@@ -3,7 +3,8 @@ name: HINTMSG_RELEASE
 enum: HintMessage
 value: 500
 description: >-
-  Shows the following HintMessage: "Select the card(s) to tribute"
+  Shows the following hint to the player when selecting a card(s): `Select the card(s) to tribute`
+summary: '"Select the card(s) to tribute"'
 status:
   index: stable
-tags: [ under-construction ]
+

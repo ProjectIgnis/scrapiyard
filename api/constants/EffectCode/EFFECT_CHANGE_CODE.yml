@@ -2,8 +2,13 @@
 name: EFFECT_CHANGE_CODE
 enum: EffectCode
 value: 114
-description: >-
-  Treats a a card as a different card by overwriting its current code(s). The new code is taken from this effect's SetValue. When used as single effect and an operation function is provided, this effect is applied if such operation returns true. In this case, the operation function receives the following parameters: sumcard, sumtype, playerid.
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is treated as the name (passcode) specified as the effect's [value](/api/functions/Effect/SetValue). This overwrites the card's current passcode, unlike [`EFFECT_ADD_CODE`](/api/constants/EffectCode/EFFECT_ADD_CODE).
+summary: Affected cards are treated as the specified name (passcode).
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_REMOVE_CODE
+    link: /api/constants/EffectCode/EFFECT_REMOVE_CODE
+# effect structure:
+#   SetOperation: function(sumcard,sumtype,playerid) -> bool
+#     for single effects, must return true for the effect to apply

@@ -2,8 +2,11 @@
 name: EFFECT_SWAP_DEFENSE_FINAL
 enum: EffectCode
 value: 112
-description: >-
-  Set the final defense (for exchange of offensive and defensive)
+description: The DEF of a monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) becomes the number specified as the effect's [value](/api/functions/Effect/SetValue). Though it is only used for effects that swap DEF and DEF, This effect code's behavior is currently the same as [`EFFECT_SET_DEFENSE_FINAL`](/api/constants/EffectCode/EFFECT_SET_DEFENSE_FINAL).
+summary: The DEF of affected monsters becomes a specified value.
 status:
-  index: stable
-tags: [ under-construction ]
+  index: unstable
+  message: Behavior is currently redundant with `EFFECT_SET_DEFENSE_FINAL`.
+suggestedLinks:
+  - name: EFFECT_SWAP_ATTACK_FINAL
+    link: /api/constants/EffectCode/EFFECT_SWAP_ATTACK_FINAL

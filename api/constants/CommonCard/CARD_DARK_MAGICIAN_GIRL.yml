@@ -2,8 +2,7 @@
 name: CARD_DARK_MAGICIAN_GIRL
 enum: CommonCard
 value: 38033121
-description: >-
-  Dark Magician Girl's ID, used because it has a lot of specific support
+description: The passcode of ["Dark Magician Girl"](https://yugipedia.com/wiki/Dark_Magician_Girl).
+summary: Dark Magician Girl
 status:
   index: stable
-tags: [ under-construction ]

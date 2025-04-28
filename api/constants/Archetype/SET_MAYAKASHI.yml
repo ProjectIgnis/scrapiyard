@@ -5,4 +5,5 @@ value: 0x121
 description: >-
   The ["Mayakashi"](https://yugipedia.com/wiki/Mayakashi) archetype.
 summary: Mayakashi
-status: { index: stable }
+status:
+  index: stable

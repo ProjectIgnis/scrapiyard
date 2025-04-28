@@ -5,4 +5,5 @@ value: 0xef
 description: >-
   The ["Darklord"](https://yugipedia.com/wiki/Darklord) archetype.
 summary: Darklord
-status: { index: stable }
+status:
+  index: stable

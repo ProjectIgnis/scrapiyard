@@ -5,4 +5,5 @@ value: 0x166
 description: >-
   The ["Despia"](https://yugipedia.com/wiki/Despia) archetype.
 summary: Despia
-status: { index: stable }
+status:
+  index: stable

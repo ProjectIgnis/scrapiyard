@@ -2,8 +2,8 @@
 name: CARD_SPIRIT_ELIMINATION
 enum: CommonCard
 value: 69832741
-description: >-
-  Spirit Elimination's ID. Can be used when it is necessary to check for this card's effect.
+description: The passcode of ["Spirit Elimination"](https://yugipedia.com/wiki/Spirit_Elimination). Players affected by an [effect](/api/types/Effect) with this as [code](/api/functions/Effect/SetCode) must banish monsters they control instead of monsters in their GY.
+summary: Spirit Elimination
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ special-handling ]

@@ -1,0 +1,8 @@
+---!constant
+name: OPCODE_ISCODE
+enum: CardDeclarationOpcode
+value: 0x40000100
+description: In card declaration filters, this operation checks for cards whose passcode matches its operand, which must be a card passcode.
+summary: Checks for cards whose passcode matches its operand.
+status:
+  index: stable

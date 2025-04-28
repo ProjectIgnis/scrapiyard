@@ -5,4 +5,5 @@ value: 0x10b
 description: >-
   The ["Tindangle"](https://yugipedia.com/wiki/Tindangle) archetype.
 summary: Tindangle
-status: { index: stable }
+status:
+  index: stable

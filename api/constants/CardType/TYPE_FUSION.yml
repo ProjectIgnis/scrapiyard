@@ -5,4 +5,5 @@ value: 0x40
 description: >-
   The [Fusion](https://yugipedia.com/wiki/Fusion_Monster) Card Type for Monsters
 summary: Fusion
-status: { index: stable }
+status:
+  index: stable

@@ -5,4 +5,5 @@ value: 0xaf
 description: >-
   The ["D/D"](https://yugipedia.com/wiki/D/D) archetype.
 summary: D/D
-status: { index: stable }
+status:
+  index: stable

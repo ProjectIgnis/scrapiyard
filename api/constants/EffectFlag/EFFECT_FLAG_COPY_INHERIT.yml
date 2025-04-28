@@ -1,0 +1,8 @@
+---!constant
+name: EFFECT_FLAG_COPY_INHERIT
+enum: EffectFlag
+value: 0x2000
+description: An [effect](/api/types/Effect) with this flag will be copied when copying a card's effects even if it's not an initial effect.
+summary: Will be copied when copying card effects even if it's not an initial effect.
+status:
+  index: stable

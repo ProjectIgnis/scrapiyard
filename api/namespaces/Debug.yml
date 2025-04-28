@@ -1,7 +1,6 @@
 ---!namespace
 name: Debug
-description: >-
-  (To be added)
+description: Helper functions for debugging. Also contains functions commonly used when [creating puzzles](https://projectignis.github.io/scrapi-book/guides/scripting/puzzle.html).
+summary: Helper functions for debugging and creating puzzles.
 status:
   index: stable
-tags: [ under-construction ]

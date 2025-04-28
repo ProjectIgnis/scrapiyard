@@ -3,7 +3,7 @@ name: HINTMSG_ZONE
 enum: HintMessage
 value: 569
 description: >-
-  Shows the following HintMessage: "Select the zone to place "card name""
+  Shows the following hint to the player when selecting a zone, where `"..."` is the card's name: `Select the zone to place "..."`
+summary: '"Select the zone to place "...""'
 status:
   index: stable
-tags: [ under-construction ]

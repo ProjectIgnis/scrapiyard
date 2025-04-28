@@ -2,8 +2,7 @@
 name: CARD_DARK_MAGICIAN
 enum: CommonCard
 value: 46986414
-description: >-
-  Dark Magician's ID, used for listed_names and specific support
+description: The passcode of ["Dark Magician"](https://yugipedia.com/wiki/Dark_Magician).
+summary: Dark Magician
 status:
   index: stable
-tags: [ under-construction ]

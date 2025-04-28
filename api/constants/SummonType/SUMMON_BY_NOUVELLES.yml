@@ -2,8 +2,7 @@
 name: SUMMON_BY_NOUVELLES
 enum: SummonType
 value: 181
-description: >-
-  Summon value (sumtype variable) used by the "Nouvelles" monsters. Cards that need to check if a monster was summoned by the effect of a "Nouvelles" monster should check for this SummonType
+description: The type for Special Summons performed by the effect of a ["Nouvelles"](https://yugipedia.com/wiki/Nouvelles) monster.
+summary: Special Summon by the effect of a "Nouvelles" monster.
 status:
   index: stable
-tags: [ under-construction ]

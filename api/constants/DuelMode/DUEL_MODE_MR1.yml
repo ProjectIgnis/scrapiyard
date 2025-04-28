@@ -1,9 +1,0 @@
----!constant
-name: DUEL_MODE_MR1
-enum: DuelMode
-value: 1
-description: >-
-  A composite flag for DuelModes. (DUEL_OBSOLETE_IGNITION+DUEL_1ST_TURN_DRAW+DUEL_1_FIELD+DUEL_SPSUMMON_ONCE_OLD_NEGATE+DUEL_RETURN_TO_DECK_TRIGGERS+DUEL_CANNOT_SUMMON_OATH_OLD)
-status:
-  index: stable
-tags: [ under-construction ]

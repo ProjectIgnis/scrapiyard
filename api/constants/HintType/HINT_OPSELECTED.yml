@@ -2,8 +2,7 @@
 name: HINT_OPSELECTED
 enum: HintType
 value: 4
-description: >-
-  The message that appears on screen to tell a player which option their opponent selected
+description: Describes a hint that shows a message, specified by its string ID as the hint value, indicating what option the opponent selected.
+summary: Shows the option selected by the opponent.
 status:
   index: stable
-tags: [ under-construction ]

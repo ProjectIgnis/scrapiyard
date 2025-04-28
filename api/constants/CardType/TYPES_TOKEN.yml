@@ -5,5 +5,6 @@ value: 0x4011
 description: >-
   Composite constant of Monster, Normal, and Token Card Types
 summary: Monster, Normal, Token
-status: { index: stable }
+status:
+  index: stable
 tags: [ composite-bits ]

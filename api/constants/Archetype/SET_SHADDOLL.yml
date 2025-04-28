@@ -5,4 +5,5 @@ value: 0x9d
 description: >-
   The ["Shaddoll"](https://yugipedia.com/wiki/Shaddoll) archetype.
 summary: Shaddoll
-status: { index: stable }
+status:
+  index: stable

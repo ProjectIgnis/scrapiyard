@@ -2,8 +2,7 @@
 name: CARD_LIGHT_BARRIER
 enum: CommonCard
 value: 73206827
-description: >-
-  Light Barrier's ID
+description: The passcode of ["Light Barrier"](https://yugipedia.com/wiki/Light_Barrier).
+summary: Light Barrier
 status:
   index: stable
-tags: [ under-construction ]

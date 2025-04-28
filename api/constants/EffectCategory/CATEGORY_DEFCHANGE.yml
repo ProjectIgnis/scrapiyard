@@ -2,8 +2,8 @@
 name: CATEGORY_DEFCHANGE
 enum: EffectCategory
 value: 0x400000
-description: >-
-  Describes that a card changes DEF
+description: An activated effect with this category may modify a monster's DEF on resolution.
+summary: Modifies a monster's DEF.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ def-related ]

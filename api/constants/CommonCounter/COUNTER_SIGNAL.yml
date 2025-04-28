@@ -2,8 +2,7 @@
 name: COUNTER_SIGNAL
 enum: CommonCounter
 value: 0x1148
-description: >-
-  The hexadecimal value of Signal Counters
+description: The counter code of [Signal Counters](https://yugipedia.com/wiki/Signal_Counter).
+summary: Signal Counter
 status:
   index: stable
-tags: [ under-construction ]

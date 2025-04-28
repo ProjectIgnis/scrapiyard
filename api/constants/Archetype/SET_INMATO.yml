@@ -5,4 +5,5 @@ value: 0x5b
 description: >-
   The ["Inmato"](https://yugipedia.com/wiki/Inmato_(archetype)) archetype.
 summary: Inmato
-status: { index: stable }
+status:
+  index: stable

@@ -2,8 +2,7 @@
 name: EVENT_CHANGE_POS
 enum: Event
 value: 1016
-description: >-
-  This event is raised when a card changes battle position
+description: This event is raised when a monster's [battle position](https://yugipedia.com/wiki/Battle_position) is changed.
+summary: A monster's battle position is changed.
 status:
   index: stable
-tags: [ under-construction ]

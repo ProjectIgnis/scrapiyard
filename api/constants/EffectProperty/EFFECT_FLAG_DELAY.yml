@@ -1,9 +1,0 @@
----!constant
-name: EFFECT_FLAG_DELAY
-enum: EffectProperty
-value: 0x10000
-description: >-
-  By adding this delay flag, the effect is prevented from missing the timing
-status:
-  index: stable
-tags: [ under-construction ]

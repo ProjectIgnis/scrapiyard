@@ -1,9 +1,0 @@
----!constant
-name: ANNOUNCE_CARD_FILTER
-enum: AnnouncementType
-value: 0x8
-description: >-
-  Card declaration with filters
-status:
-  index: stable
-tags: [ under-construction ]

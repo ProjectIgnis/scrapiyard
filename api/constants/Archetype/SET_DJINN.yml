@@ -5,4 +5,5 @@ value: 0x6d
 description: >-
   The ["Djinn"](https://yugipedia.com/wiki/Djinn) archetype.
 summary: Djinn
-status: { index: stable }
+status:
+  index: stable

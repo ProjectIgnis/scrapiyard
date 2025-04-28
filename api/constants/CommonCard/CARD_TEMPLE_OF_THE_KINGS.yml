@@ -1,0 +1,8 @@
+---!constant
+name: CARD_TEMPLE_OF_THE_KINGS
+enum: CommonCard
+value: 29762407
+description: The passcode of ["Temple of the Kings"](https://yugipedia.com/wiki/Temple_of_the_Kings).
+summary: Temple of the Kings
+status:
+  index: stable

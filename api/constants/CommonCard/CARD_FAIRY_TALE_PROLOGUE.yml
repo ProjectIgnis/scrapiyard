@@ -1,0 +1,9 @@
+---!constant
+name: CARD_FAIRY_TALE_PROLOGUE
+enum: CommonCard
+value: 43236494
+description: >-
+  The passcode of ["Fairy Tale Prologue: Journey's Dawn"](https://yugipedia.com/wiki/Fairy_Tale_Prologue:_Journey%27s_Dawn).
+summary: "Fairy Tale Prologue: Journey's Dawn"
+status:
+  index: stable

@@ -2,8 +2,10 @@
 name: EFFECT_TOSS_DICE_CHOOSE
 enum: EffectCode
 value: 223
-description: >-
-  (To be added)
+description: When a six-sided die would be rolled, the [operation function](/api/functions/Effect/SetOperation) of an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can be performed immediately. This can be used to [set the result of the die roll](/api/functions/Duel/SetDiceResult). To completely replace the action rolling a die, use [`EFFECT_TOSS_DICE_REPLACE`](/api/constants/EffectCode/EFFECT_TOSS_DICE_REPLACE) instead.
+summary: Allows performing an operation when a coin(s) would be tossed.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_TOSS_COIN_CHOOSE
+    link: /api/constants/EffectCode/EFFECT_TOSS_COIN_CHOOSE

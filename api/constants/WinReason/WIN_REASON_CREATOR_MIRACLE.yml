@@ -1,0 +1,8 @@
+---!constant
+name: WIN_REASON_CREATOR_MIRACLE
+enum: WinReason
+value: 0x30
+description: The reason value for a Duel win caused by ["Creator of Miracles"](https://yugipedia.com/wiki/Creator_of_Miracles).
+summary: Victory by the effect of "Creator of Miracles"
+status:
+  index: stable

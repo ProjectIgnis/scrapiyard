@@ -1,0 +1,8 @@
+---!constant
+name: WIN_REASON_FLYING_ELEPHANT
+enum: WinReason
+value: 0x1e
+description: The reason value for a Duel win caused by ["Flying Elephant"](https://yugipedia.com/wiki/Flying_Elephant).
+summary: Victory by the effect of "Flying Elephant"
+status:
+  index: stable

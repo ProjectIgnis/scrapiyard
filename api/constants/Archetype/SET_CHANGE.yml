@@ -5,4 +5,5 @@ value: 0xa5
 description: >-
   The ["Change"](https://yugipedia.com/wiki/Change) archetype.
 summary: Change
-status: { index: stable }
+status:
+  index: stable

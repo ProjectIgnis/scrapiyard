@@ -2,8 +2,7 @@
 name: COUNTER_NEED_ENABLE
 enum: CounterModifier
 value: 0x2000
-description: >-
-  Added to counter value to require target to require its effects not negated
+description: Added to counter codes to require the card they're placed on to not have its effects negated.
+summary: Counter is removed when the card it's placed on is negated.
 status:
   index: stable
-tags: [ under-construction ]

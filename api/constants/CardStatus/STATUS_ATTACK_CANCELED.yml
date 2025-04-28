@@ -2,8 +2,7 @@
 name: STATUS_ATTACK_CANCELED
 enum: CardStatus
 value: 0x200000
-description: >-
-  Attack was negated
+description: A card with this status had its attack negated.
+summary: Had its attack negated.
 status:
   index: stable
-tags: [ under-construction ]

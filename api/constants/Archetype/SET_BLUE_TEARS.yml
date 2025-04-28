@@ -5,4 +5,5 @@ value: 0x1a9
 description: >-
   The ["Blue Tears"](https://yugipedia.com/wiki/Blue_Tears) archetype.
 summary: Blue Tears
-status: { index: stable }
+status:
+  index: stable

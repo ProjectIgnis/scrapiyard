@@ -1,9 +1,9 @@
 ---!constant
 name: LOCATION_MMZONE
-enum: Location
+enum: SymbolicLocation
 value: 0x800
-description: >-
-  The Main Monster Zones. Symbolic location. Can be used in functions expecting a location and also in SetRange (except with trigger effects)
+description: The [Main Monster Zone](https://yugipedia.com/wiki/Main_Monster_Zone).
+summary: Main Monster Zone
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ symbolic-location ]

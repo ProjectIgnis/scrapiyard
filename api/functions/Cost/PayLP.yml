@@ -1,0 +1,24 @@
+---!function
+name: PayLP
+namespace: Cost
+description: Creates a baseline [cost function](/api/types/EffectCost) used for effects that pay LP as cost, such as `Pay X LP; ...` (e.g. "Instant Fusion").
+summary: Creates a cost function for effects that pay LP as cost.
+status:
+  index: stable
+aliases:
+  - name: aux.PayLPCost
+    status:
+      index: stable
+parameters:
+  - name: lp_value
+    type: [ number ]
+    description: The amount of LP that must be paid. If set to less than `1`, then that fraction of LP will be paid instead (e.g. `1/2` to pay half, "Solemn Judgment").
+  - name: pay_until
+    type: [ bool ]
+    description: If set to `true`, the cost will become `Pay LP so that you only have "lp_value" left; ...` (e.g. "The Winged Dragon of Ra").
+    required: false
+    defaultValue: false
+returns:
+  - type: [ CostFunction ]
+    description: The cost function generated based on the given parameters.
+    guaranteed: true

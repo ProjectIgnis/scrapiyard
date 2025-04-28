@@ -1,6 +1,5 @@
 ---!enum
 name: SummonType
-description: >-
-  (To be added)
+description: Constants representing types of [Summons](https://yugipedia.com/wiki/Summon).
+summary: Types of Summons.
 bitmaskInt: true
-tags: [ under-construction ]

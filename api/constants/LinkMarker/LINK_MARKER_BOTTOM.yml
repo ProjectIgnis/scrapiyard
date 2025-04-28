@@ -4,4 +4,5 @@ enum: LinkMarker
 value: 0x2
 description: Bottom Link Arrow (↓)
 summary: ↓
-status: { index: stable }
+status:
+  index: stable

@@ -2,9 +2,8 @@
 name: RESETS_STANDARD_PHASE_END
 enum: Reset
 value: 0x41fe1200
-description: >-
-  Composite reset value. The sum of [`RESET_EVENT`](/api/constants/Reset/RESET_EVENT), [`RESETS_STANDARD`](/api/constants/Reset/RESETS_STANDARD), [`RESET_PHASE`](/api/constants/Reset/RESET_PHASE), and [`PHASE_END`](/api/constants/Phase/PHASE_END).
-summary: The sum of RESET_EVENT, RESETS_STANDARD, RESET_PHASE, and RESET_DISABLE.
+description: A composite [reset value](/api/functions/Effect/SetReset) typically used for effects that are registered to the cards they affect until the end of the turn. An [effect](/api/types/Effect) with this reset value resets [in the End Phase](/api/constants/Phase/PHASE_END) or when [the card it's registered to](/api/functions/Card/GetHandler) [stops being face-up in its current location](/api/constants/Reset/RESETS_STANDARD).
+summary: Typically used for effects registered to cards they affect until the End Phase.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ composite-bits ]

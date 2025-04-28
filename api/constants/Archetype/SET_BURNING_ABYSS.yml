@@ -5,4 +5,5 @@ value: 0xb1
 description: >-
   The ["Burning Abyss"](https://yugipedia.com/wiki/Burning_Abyss) archetype.
 summary: Burning Abyss
-status: { index: stable }
+status:
+  index: stable

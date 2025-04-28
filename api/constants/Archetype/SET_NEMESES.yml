@@ -5,4 +5,5 @@ value: 0x13d
 description: >-
   The ["Nemeses"](https://yugipedia.com/wiki/Nemeses) archetype.
 summary: Nemeses
-status: { index: stable }
+status:
+  index: stable

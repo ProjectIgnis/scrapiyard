@@ -2,8 +2,7 @@
 name: EVENT_MOVE
 enum: Event
 value: 1030
-description: >-
-  This event is raised when a card moves from one location or sequence to another
+description: This event is raised when a card(s) is moved to a different [location](/api/enums/Location) or sequence.
+summary: A card(s) is moved to a different location or sequence.
 status:
   index: stable
-tags: [ under-construction ]

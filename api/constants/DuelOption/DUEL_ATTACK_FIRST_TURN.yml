@@ -1,0 +1,8 @@
+---!constant
+name: DUEL_ATTACK_FIRST_TURN
+enum: DuelOption
+value: 0x2
+description: In Duels with this option, the starting player can attack on their first turn.
+summary: The starting player can attack on their first turn.
+status:
+  index: stable

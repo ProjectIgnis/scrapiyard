@@ -2,8 +2,7 @@
 name: CARD_ADVANCED_DARK
 enum: CommonCard
 value: 12644061
-description: >-
-  Advanced Dark's ID
+description: The passcode of ["Advanced Dark"](https://yugipedia.com/wiki/Advanced_Dark).
+summary: Advanced Dark
 status:
   index: stable
-tags: [ under-construction ]

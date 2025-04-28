@@ -1,0 +1,8 @@
+---!constant
+name: EFFECT_FLAG_DAMAGE_CAL
+enum: EffectFlag
+value: 0x8000
+description: An [effect](/api/types/Effect) with this flag can be activated during [damage calculation](https://yugipedia.com/wiki/Damage_calculation).
+summary: Can be activated during damage calculation.
+status:
+  index: stable

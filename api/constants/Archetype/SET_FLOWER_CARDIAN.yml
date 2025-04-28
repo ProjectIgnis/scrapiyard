@@ -5,4 +5,5 @@ value: 0xe6
 description: >-
   The ["Flower Cardian"](https://yugipedia.com/wiki/Flower_Cardian) archetype.
 summary: Flower Cardian
-status: { index: stable }
+status:
+  index: stable

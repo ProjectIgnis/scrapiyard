@@ -1,5 +1,4 @@
 ---!enum
 name: CommonCounter
-description: >-
-  (To be added)
-tags: [ under-construction ]
+description: Codes of counters commonly used in scripts, usually due to multiple cards that support them.
+summary: Codes of counters commonly used in scripts.

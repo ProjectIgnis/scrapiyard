@@ -1,9 +1,0 @@
----!constant
-name: CARD_PHARAONIC_SARCOPHAGUS
-enum: CommonCard
-value: 101202058
-description: >-
-  (To be added)
-status:
-  index: stable
-tags: [ under-construction ]

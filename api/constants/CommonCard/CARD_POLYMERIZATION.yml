@@ -2,8 +2,7 @@
 name: CARD_POLYMERIZATION
 enum: CommonCard
 value: 24094653
-description: >-
-  Polymerization's ID, used because it has a lot of specific support
+description: The passcode of ["Polymerization"](https://yugipedia.com/wiki/Polymerization).
+summary: Polymerization
 status:
   index: stable
-tags: [ under-construction ]

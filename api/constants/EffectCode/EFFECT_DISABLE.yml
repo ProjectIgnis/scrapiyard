@@ -2,8 +2,7 @@
 name: EFFECT_DISABLE
 enum: EffectCode
 value: 2
-description: >-
-  Ineffective (skills extraction)
+description: The effects of a card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) are negated.
+summary: Affected cards have their effects negated.
 status:
   index: stable
-tags: [ under-construction ]

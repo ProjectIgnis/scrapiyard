@@ -1,0 +1,8 @@
+---!constant
+name: DUEL_CAN_REPOS_IF_NON_SUMPLAYER
+enum: DuelOption
+value: 0x80000000
+description: In Duels with this option, players can change the battle position of monsters they did not Summon after taking control of it from the opponent, even if they were Summoned that turn.
+summary: Players can change the battle position of monsters they did not Summon.
+status:
+  index: stable

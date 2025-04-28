@@ -5,4 +5,5 @@ value: 0xd
 description: >-
   The ["Saber"](https://yugipedia.com/wiki/Saber) archetype.
 summary: Saber
-status: { index: stable }
+status:
+  index: stable

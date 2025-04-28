@@ -2,8 +2,7 @@
 name: EFFECT_SWAP_AD
 enum: EffectCode
 value: 109
-description: >-
-  Swap the affected card's ATK and DEF
+description: The **raw** ATK and DEF of a monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) are switched. "Raw" here means the new ATK/DEF are where calculations for the actual ATK/DEF starts, i.e., the monster's actual ATK and DEF are further calculated by applying previously-registered [effects that update the monster's ATK](/api/constants/EffectCode/EFFECT_UPDATE_ATTACK) or [DEF](/api/constants/EffectCode/EFFECT_UPDATE_DEFENSE). To switch the actual values, ignoring all other previous effects that change the monster's ATK/DEF, use [`EFFECT_SWAP_ATTACK_FINAL`](/api/constants/EffectCode/EFFECT_UPDATE_ATTACK) and [`EFFECT_SWAP_DEFENSE_FINAL`](/api/constants/EffectCode/EFFECT_SWAP_DEFENSE_FINAL) instead.
+summary: The raw ATK/DEF of affected monsters are switched.
 status:
   index: stable
-tags: [ under-construction ]

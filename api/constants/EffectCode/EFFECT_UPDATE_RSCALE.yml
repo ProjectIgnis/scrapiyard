@@ -2,8 +2,10 @@
 name: EFFECT_UPDATE_RSCALE
 enum: EffectCode
 value: 136
-description: >-
-  Increase/decrease affected card's right pendulum scale (red scale) by a value (written into Effect.SetValue())
+description: The Right Pendulum Scale of a monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is increased by the number specified as the effect's [value](/api/functions/Effect/SetValue) (or decreased if the value is negative).
+summary: The Right Pendulum Scale of affected monsters is updated.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_CHANGE_RSCALE
+    link: /api/constants/EffectCode/EFFECT_CHANGE_RSCALE

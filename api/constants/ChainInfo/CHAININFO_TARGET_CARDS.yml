@@ -2,7 +2,7 @@
 name: CHAININFO_TARGET_CARDS
 enum: ChainInfo
 value: 8
-description: >-
-  When used with Duel.GetChainInfo returns a group with the cards targeted by the effect of the requested Chain Link.
+description: When used with [`Duel.GetChainInfo`](/api/functions/Duel/GetChainInfo), retrieves the [group](/api/types/Group) of cards targeted by the effect of the requested Chain Link.
+summary: The group of cards targeted by the effect in a Chain Link.
 status:
   index: stable

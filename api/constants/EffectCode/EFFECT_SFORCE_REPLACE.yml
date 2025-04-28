@@ -2,8 +2,8 @@
 name: EFFECT_SFORCE_REPLACE
 enum: EffectCode
 value: 55049722
-description: >-
-  Uses "S-Force Chase"'s code, but it is also an effect of "S-Force Retroactive"
+description: If a player would banish a card(s) from their hand to activate an ["S-Force"](https://yugipedia.com/wiki/S-Force) monster's effect while they are affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode), they can perform a different cost, specified as the effect's [operation function](/api/funtions/Effect/SetOperation), instead.
+summary: Affected players can perform a different cost to activate an "S-Force" effect.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ special-handling ]

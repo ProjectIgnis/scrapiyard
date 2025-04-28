@@ -2,8 +2,8 @@
 name: GLOBALFLAG_SPSUMMON_COUNT
 enum: GlobalFlag
 value: 0x40
-description: >-
-  A flag related with a limit a player can attempt Special Summons. Used with El Shaddoll Winda
+description: This global flag was used to enable [effects](/api/types/Effect) with [`EFFECT_SPSUMMON_COUNT_LIMIT`](/api/constants/EffectCode/EFFECT_SPSUMMON_COUNT_LIMIT) as [code](/api/enums/EffectCode), which limit the number of times affected players can attempt to Special Summon per turn.
+summary: Enabled effects that limit the number of times players can Special Summon.
 status:
-  index: stable
-tags: [ under-construction ]
+  index: deleted
+  message: '`EFFECT_SPSUMMON_COUNT_LIMIT` effects no longer need this flag.'

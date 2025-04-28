@@ -2,8 +2,7 @@
 name: CARD_SUSHIP_SHARI
 enum: CommonCard
 value: 24639891
-description: >-
-  Gunkan Suship Shari's ID, used by the Gunkan archetype.
+description: The passcode of ["Gunkan Suship Shari"](https://yugipedia.com/wiki/Gunkan_Suship_Shari).
+summary: Gunkan Suship Shari
 status:
   index: stable
-tags: [ under-construction ]

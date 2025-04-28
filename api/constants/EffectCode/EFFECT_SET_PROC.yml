@@ -2,8 +2,14 @@
 name: EFFECT_SET_PROC
 enum: EffectCode
 value: 36
-description: >-
-  Specifies a special method through which the affected card can be Normal Set
+description: A monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can be [Normal Set](https://yugipedia.com/wiki/Normal_Set) by performing the effect's [operation function](/api/functions/Effect/SetOperation).
+summary: Affected monsters can be Normal Set by performing an operation.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_SPSUMMON_PROC
+    link: /api/constants/EffectCode/EFFECT_SPSUMMON_PROC
+  - name: EFFECT_SPSUMMON_PROC_G
+    link: /api/constants/EffectCode/EFFECT_SPSUMMON_PROC_G
+  - name: EFFECT_SUMMON_PROC
+    link: /api/constants/EffectCode/EFFECT_SUMMON_PROC

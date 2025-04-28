@@ -2,8 +2,7 @@
 name: EVENT_CHAIN_SOLVING
 enum: Event
 value: 1020
-description: >-
-  This event is raised when a Chain Link is resolving
+description: This event is raised when resolving a Chain Link that has not been negated (such as by an effect applied on [`EVENT_CHAIN_ACTIVATING`](/api/enums/Event/EVENT_CHAIN_ACTIVATING)). Typically used for effects that can optionally respond to a resolving effect.
+summary: A Chain Link is resolving.
 status:
   index: stable
-tags: [ under-construction ]

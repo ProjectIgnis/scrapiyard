@@ -27,7 +27,8 @@ parameters:
 returns:
   - type: [ Effect ]
     description: The effect that was registered.
-status: { index: stable }
+status:
+  index: stable
 tags: [ registers-effect, special-handling ]
 suggestedLinks:
   - name: aux.createContinuousLizardCheck

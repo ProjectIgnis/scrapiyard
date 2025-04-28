@@ -2,8 +2,11 @@
 name: EVENT_PHASE
 enum: Event
 value: 0x1000
-description: >-
-  This event is raised when a certain phase is reached (the required Phase value must be added to it, for example EVENT_PHASE+PHASE_END)
+description: This event is raised when a given [phase](/api/enums/Phase) is reached, specified by combining it with the corresponding phase value (e.g., `EVENT_PHASE|PHASE_DRAW` for the Draw Phase).
+summary: A given phase is reached.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EVENT_PHASE_START
+    link: /api/constants/Event/EVENT_PHASE_START
+# TODO: investigate when this should be used instead of EVENT_PHASE_START

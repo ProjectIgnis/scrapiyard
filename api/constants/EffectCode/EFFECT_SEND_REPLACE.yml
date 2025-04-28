@@ -2,8 +2,12 @@
 name: EFFECT_SEND_REPLACE
 enum: EffectCode
 value: 52
-description: >-
-  Card is sent to some location instead of another (Madolche Chateau)
+description: If a card(s) would be sent to a location, the [operation function](/api/functions/Effect/SetOperation) of an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can be performed instead.
+summary: Allows performing an operation instead of sending a card(s) to some location.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_OVERLAY_REMOVE_REPLACE
+    link: /api/constants/EffectCode/EFFECT_OVERLAY_REMOVE_REPLACE
+  - name: EFFECT_RCOUNTER_REPLACE
+    link: /api/constants/EffectCode/EFFECT_RCOUNTER_REPLACE

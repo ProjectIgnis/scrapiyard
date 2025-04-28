@@ -6,4 +6,5 @@ description: >-
   The ["Rose Dragon"](https://yugipedia.com/wiki/Rose_Dragon) archetype.
   Sub-archetype of [`SET_ROSE`](/api/constants/Archetype/SET_ROSE).
 summary: Rose Dragon
-status: { index: stable }
+status:
+  index: stable

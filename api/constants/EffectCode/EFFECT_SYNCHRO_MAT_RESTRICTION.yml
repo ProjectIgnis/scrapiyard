@@ -2,8 +2,13 @@
 name: EFFECT_SYNCHRO_MAT_RESTRICTION
 enum: EffectCode
 value: 73941492+TYPE_SYNCHRO
-description: >-
-  73941492+TYPE_SYNCHRO. Used by the Synchro Summon procedure as an implementation of Harmonizing Magician's effect
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot be used as material for a [Synchro Summon](https://yugipedia.com/wiki/Synchro_Summon) unless all other materials fulfill the effect's [target function](/api/functions/Effect/SetTarget). To check the materials as a [group](/api/types/Group), use [`EFFECT_SYNCHRO_MATERIAL_CUSTOM`](/api/constants/EffectCode/EFFECT_SYNCHRO_MATERIAL_CUSTOM) instead.
+summary: Affected cards cannot be used with non-matching materials for Synchro Summons.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ synchro-related ]
+suggestedLinks:
+  - name: EFFECT_FUSION_MAT_RESTRICTION
+    link: /api/constants/EffectCode/EFFECT_FUSION_MAT_RESTRICTION
+  - name: EFFECT_XYZ_MAT_RESTRICTION
+    link: /api/constants/EffectCode/EFFECT_XYZ_MAT_RESTRICTION

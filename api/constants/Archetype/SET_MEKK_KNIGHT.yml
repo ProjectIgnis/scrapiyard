@@ -5,4 +5,5 @@ value: 0x10c
 description: >-
   The ["Mekk-Knight"](https://yugipedia.com/wiki/Mekk-Knight) archetype.
 summary: Mekk-Knight
-status: { index: stable }
+status:
+  index: stable

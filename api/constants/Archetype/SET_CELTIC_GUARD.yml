@@ -5,4 +5,5 @@ value: 0xe4
 description: >-
   The ["Celtic Guard"](https://yugipedia.com/wiki/Celtic_Guard) archetype.
 summary: Celtic Guard
-status: { index: stable }
+status:
+  index: stable

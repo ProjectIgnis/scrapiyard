@@ -5,4 +5,5 @@ value: 0x73
 description: >-
   The ["Xyz"](https://yugipedia.com/wiki/Xyz_(archetype)) archetype.
 summary: Xyz
-status: { index: stable }
+status:
+  index: stable

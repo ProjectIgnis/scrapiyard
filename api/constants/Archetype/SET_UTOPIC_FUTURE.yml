@@ -6,4 +6,5 @@ description: >-
   The ["Utopic Future"](https://yugipedia.com/wiki/Utopic_Future) archetype.
   Sub-archetype of [`SET_UTOPIC`](/api/constants/Archetype/SET_UTOPIC).
 summary: Utopic Future
-status: { index: stable }
+status:
+  index: stable

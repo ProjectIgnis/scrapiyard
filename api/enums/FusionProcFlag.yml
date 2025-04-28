@@ -1,6 +1,6 @@
 ---!enum
 name: FusionProcFlag
-description: >-
-  (To be added)
+description: Constants that modify the behavior of Fusion Summoning effects.
+summary: Modifiers for Fusion Summoning effects.
 bitmaskInt: true
-tags: [ under-construction ]
+tags: [ fusion-related ]

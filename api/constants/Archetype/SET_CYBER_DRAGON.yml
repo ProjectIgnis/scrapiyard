@@ -6,4 +6,5 @@ description: >-
   The ["Cyber Dragon"](https://yugipedia.com/wiki/Cyber_Dragon_(archetype)) archetype.
   Sub-archetype of [`SET_CYBER`](/api/constants/Archetype/SET_CYBER).
 summary: Cyber Dragon
-status: { index: stable }
+status:
+  index: stable

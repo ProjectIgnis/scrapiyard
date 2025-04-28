@@ -2,8 +2,7 @@
 name: TIMING_ATTACK
 enum: Timing
 value: 0x1000
-description: >-
-  When an attack is declared
+description: An effect with this [hint timing](/api/functions/Effect/SetHintTiming) will be prompted for activation when an attack is declared.
+summary: Prompts when an attack is declared.
 status:
   index: stable
-tags: [ under-construction ]

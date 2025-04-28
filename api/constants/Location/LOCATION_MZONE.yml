@@ -2,8 +2,7 @@
 name: LOCATION_MZONE
 enum: Location
 value: 0x4
-description: >-
-  The Monster Zone
+description: The [Monster Zone](https://yugipedia.com/wiki/Monster_Zone).
+summary: Monster Zone
 status:
   index: stable
-tags: [ under-construction ]

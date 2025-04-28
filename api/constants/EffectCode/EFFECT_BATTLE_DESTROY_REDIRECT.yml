@@ -2,8 +2,7 @@
 name: EFFECT_BATTLE_DESTROY_REDIRECT
 enum: EffectCode
 value: 204
-description: >-
-  If the affected card is destroyed by battle, send it to a given location
+description: Monsters destroyed by battle by a card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is sent to the [location](/api/enum/Location) specified as the effect's [value](/api/functions/Effect/SetValue).
+summary: Monsters destroyed by battle by affected cards are sent to a given location.
 status:
   index: stable
-tags: [ under-construction ]

@@ -2,8 +2,8 @@
 name: CARD_VERNUSYLPH_COROLLA
 enum: CommonCard
 value: 14108995
-description: >-
-  Vernusylph Corolla's ID
+description: The passcode of ["Vernusylph Corolla"](https://yugipedia.com/wiki/Vernusylph_Corolla). If a player would discard a ["Vernusylph"](https://yugipedia.com/wiki/Vernusylph) monster(s) and 1 other card to activate the effect of that "Vernusylph" monster in their hand while they are affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode), they can perform a different cost, specified as the effect's [operation function](/api/funtions/Effect/SetOperation), instead.
+summary: Vernusylph Corolla
 status:
   index: stable
-tags: [ under-construction ]
+

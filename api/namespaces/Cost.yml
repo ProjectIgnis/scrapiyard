@@ -1,0 +1,6 @@
+---!namespace
+name: Cost
+summary: Cost-related functions.
+description: Helper functions for working with [costs](/api/types/EffectCost).
+status:
+  index: stable

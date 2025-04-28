@@ -1,0 +1,5 @@
+---!enum
+name: DuelOption
+description: Constants representing rules enforced in a Duel. These are usually set automatically depending on the type of Duel being played.
+summary: Rules enforced in a Duel.
+bitmaskInt: true

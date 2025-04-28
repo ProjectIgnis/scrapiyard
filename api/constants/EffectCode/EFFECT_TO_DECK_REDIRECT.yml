@@ -2,8 +2,7 @@
 name: EFFECT_TO_DECK_REDIRECT
 enum: EffectCode
 value: 62
-description: >-
-  If the affected card would go to the deck, sends it to another given location instead.  The location must be set in SetValue
+description: If a card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) would be sent to the Deck, it is sent to the [location](/api/enums/Location) specified as the effect's [value](/api/functions/Effect/SetValue) instead.
+summary: Affected cards are sent to a given location if they would be sent to the Deck.
 status:
   index: stable
-tags: [ under-construction ]

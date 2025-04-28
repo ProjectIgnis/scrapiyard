@@ -2,8 +2,7 @@
 name: CATEGORY_TOEXTRA
 enum: EffectCategory
 value: 0x80000000
-description: >-
-  Describes an effect that sends/return a card to the Extra Deck
+description: An activated effect with this category may send a card(s) to the Extra Deck on resolution.
+summary: Sends a card(s) to the Extra Deck.
 status:
   index: stable
-tags: [ under-construction ]

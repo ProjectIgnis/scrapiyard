@@ -2,8 +2,13 @@
 name: EFFECT_CANNOT_SELECT_BATTLE_TARGET
 enum: EffectCode
 value: 332
-description: >-
-  The affected cards cannot be chosen to be an attack target
+description: A monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot target cards that fulfill the effect's [value function](/api/functions/Effect/SetValue) for attacks.
+summary: Affected monster cannot target monsters for attacks.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_CANNOT_BE_BATTLE_TARGET
+    link: /api/constants/EffectCode/EFFECT_CANNOT_BE_BATTLE_TARGET
+# effect structure:
+#   SetValue: function(e,re,rp) -> bool
+#     must be true if `re` cannot target the affected card

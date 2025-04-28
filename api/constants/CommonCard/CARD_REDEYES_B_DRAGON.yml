@@ -2,8 +2,8 @@
 name: CARD_REDEYES_B_DRAGON
 enum: CommonCard
 value: 74677422
-description: >-
-  Red-Eyes Black Dragon's ID, used because it has a lot of specific support
+description: The passcode of ["Red-Eyes Black Dragon"](https://yugipedia.com/wiki/Red-Eyes_Black_Dragon).
+summary: Red-Eyes Black Dragon
 status:
   index: stable
-tags: [ under-construction ]
+

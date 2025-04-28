@@ -2,8 +2,8 @@
 name: CARD_PSYFRAME_LAMBDA
 enum: CommonCard
 value: 8802510
-description: >-
-  PSY-Framelord Lambda's ID, used for hardcoded effect
+description: The passcode of ["Psy-Framelord Lambda"](https://yugipedia.com/wiki/Psy-Framelord_Lambda). Players affected by an [effect](/api/types/Effect) with this as [code](/api/functions/Effect/SetCode) can activate the effects of "PSY-Framegear" monsters in their hand even while they control a monster(s).
+summary: Psy-Framelord Lambda
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ special-handling ]

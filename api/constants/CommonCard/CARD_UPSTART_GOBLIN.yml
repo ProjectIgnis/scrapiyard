@@ -2,8 +2,8 @@
 name: CARD_UPSTART_GOBLIN
 enum: CommonCard
 value: 70368879
-description: >-
-  Constant for a commonly used Rush card
+description: The passcode of ["Upstart Goblin"](https://yugipedia.com/wiki/Upstart_Goblin). The constant is only used in Rush scripts but the passcode refers to the OCG card, since the Rush version is aliased to it.
+summary: Upstart Goblin
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ rush ]

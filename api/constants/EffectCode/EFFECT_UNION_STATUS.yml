@@ -2,8 +2,10 @@
 name: EFFECT_UNION_STATUS
 enum: EffectCode
 value: 347
-description: >-
-  (To be added)
+description: A [Union Monster Card](https://yugipedia.com/wiki/Union_monster) affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is currently equipped as an Equip Card. Effects with this code are typically registered using [`Auxiliary.SetUnionState`](/api/functions/Auxiliary/SetUnionState) rather than created manually.
+summary: Affected Unions are currently equipped as Equip Cards.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_OLDUNION_STATUS
+    link: /api/constants/EffectCode/EFFECT_OLDUNION_STATUS

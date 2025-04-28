@@ -5,4 +5,5 @@ value: 0xaa
 description: >-
   The ["Qli"](https://yugipedia.com/wiki/Qli) archetype.
 summary: Qli
-status: { index: stable }
+status:
+  index: stable

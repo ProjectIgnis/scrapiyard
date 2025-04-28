@@ -2,8 +2,7 @@
 name: EFFECT_FLIPSUMMON_COST
 enum: EffectCode
 value: 93
-description: >-
-  Affected player must pay a cost to Flip Summon.
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) must perform a cost, defined as the effect's [operation function](/api/functions/Effect/SetOperation), to [Flip Summon](https://yugipedia.com/wiki/Flip_Summon) a monster.
+summary: Affected players must pay a cost to Flip Summon monsters.
 status:
   index: stable
-tags: [ under-construction ]

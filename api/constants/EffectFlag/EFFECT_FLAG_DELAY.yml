@@ -1,0 +1,8 @@
+---!constant
+name: EFFECT_FLAG_DELAY
+enum: EffectFlag
+value: 0x10000
+description: A trigger [effect](/api/types/Effect) with this flag can be activated even if its event requirement is not the last thing to happen, i.e, it is prevented from ["missing the timing"](https://yugipedia.com/wiki/If..._You_Can_VS_When..._You_Can).
+summary: Cannot miss the timing.
+status:
+  index: stable

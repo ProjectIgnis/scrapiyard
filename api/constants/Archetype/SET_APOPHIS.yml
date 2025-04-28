@@ -1,0 +1,9 @@
+---!constant
+name: SET_APOPHIS
+enum: Archetype
+value: 0x1c2
+description: >-
+  The ["Apophis"](https://yugipedia.com/wiki/Apophis) archetype.
+summary: Apophis
+status:
+  index: stable

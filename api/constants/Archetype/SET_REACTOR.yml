@@ -5,4 +5,5 @@ value: 0x63
 description: >-
   The ["Reactor"](https://yugipedia.com/wiki/Reactor) archetype.
 summary: Reactor
-status: { index: stable }
+status:
+  index: stable

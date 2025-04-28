@@ -5,4 +5,5 @@ value: 0x14c
 description: >-
   The ["Fossil"](https://yugipedia.com/wiki/Fossil) archetype.
 summary: Fossil
-status: { index: stable }
+status:
+  index: stable

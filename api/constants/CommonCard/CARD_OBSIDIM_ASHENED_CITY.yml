@@ -1,0 +1,8 @@
+---!constant
+name: CARD_OBSIDIM_ASHENED_CITY
+enum: CommonCard
+value: 3055018
+description: The passcode of ["Obsidim, the Ashened City"](https://yugipedia.com/wiki/Obsidim,_the_Ashened_City).
+summary: Obsidim, the Ashened City
+status:
+  index: stable

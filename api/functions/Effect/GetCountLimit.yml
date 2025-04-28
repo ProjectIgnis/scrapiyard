@@ -1,25 +1,25 @@
 ---!function
 name: GetCountLimit
 namespace: Effect
-description: >-
-  Returns, in order, the following information's about (Effect e): remaining usages, maximum count limit, its hopt identifier (e.g. detects if "The effect of "card name" can only be used once per turn, almost always you'd want to use the card's own id to be sure it's unique.), its count flags (e.g. EFFECT_COUNT_CODE_DUEL to indicate an effect that is n times per duel), its hopt index (that is used to handle cards that have multiple hopt effects where each can be used once, the first will have an index of 0, the second an index of 1, etc,)
+description: Returns information related to an effect's count limit.
+summary: Gets information related to an effect's count limit.
 status:
   index: stable
 parameters:
   - name: e
     type: [ Effect ]
-    description: (To be added)
+    description: The effect to get the count limit information of.
 returns:
   - type: [ int ]
-    description: (To be added)
+    description: The remaining number of times the effect can still be used.
   - type: [ int ]
-    description: (To be added)
+    description: The count limit, i.e., the maximum number of times the effect can be used.
   - type: [ int ]
-    description: (To be added)
+    description: The code used to specify globally shared count limits.
+  - type: [ CountLimitFlag ]
+    description: Additional modifiers for the use limit behavior.
   - type: [ int ]
-    description: (To be added)
-  - type: [ int ]
-    description: (To be added)
-  - type: [ int ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: The additional "index" used to distinguish between globally shared count limits.
+suggestedLinks:
+  - name: Effect.SetCountLimit
+    link: /api/functions/Effect/SetCountLimit

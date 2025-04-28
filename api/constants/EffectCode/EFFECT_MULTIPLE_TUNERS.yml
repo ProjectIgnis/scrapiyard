@@ -2,8 +2,7 @@
 name: EFFECT_MULTIPLE_TUNERS
 enum: EffectCode
 value: 21142671
-description: >-
-  An effect that flags the card that uses it as card that require 2or more tuners. Uses "Red-Nova" as ID
+description: A [Synchro Monster](https://yugipedia.com/wiki/Synchro_Monster) affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) uses multiple [Tuner monsters](https://yugipedia.com/wiki/Tuner_monster) for its [Synchro Summon](https://yugipedia.com/wiki/Synchro_Summon).
+summary: Affected Synchro Monsters use multiple Tuners for their Synchro Summon.
 status:
   index: stable
-tags: [ under-construction ]

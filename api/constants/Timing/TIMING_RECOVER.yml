@@ -2,8 +2,7 @@
 name: TIMING_RECOVER
 enum: Timing
 value: 0x40000
-description: >-
-  When a player gains LP
+description: An effect with this [hint timing](/api/functions/Effect/SetHintTiming) will be prompted for activation when a player gains LP.
+summary: Prompts when a player gains LP.
 status:
   index: stable
-tags: [ under-construction ]

@@ -5,4 +5,5 @@ value: 0x20ec
 description: >-
   The ["Abyss Script"](https://yugipedia.com/wiki/Abyss_Script) archetype.
 summary: Abyss Script
-status: { index: stable }
+status:
+  index: stable

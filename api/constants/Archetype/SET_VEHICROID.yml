@@ -6,4 +6,5 @@ description: >-
   The ["Vehicroid"](https://yugipedia.com/wiki/Vehicroid) archetype.
   Sub-archetype of [`SET_ROID`](/api/constants/Archetype/SET_ROID).
 summary: Vehicroid
-status: { index: stable }
+status:
+  index: stable

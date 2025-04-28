@@ -2,8 +2,7 @@
 name: TOKEN_SLIME
 enum: CommonToken
 value: 21770261
-description: >-
-  (To be added)
+description: The passcode of ["Slime Token"](https://yugipedia.com/wiki/Slime_Token).
+summary: Slime Token
 status:
   index: stable
-tags: [ under-construction ]

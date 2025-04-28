@@ -1,0 +1,8 @@
+---!constant
+name: WIN_REASON_DECK_MASTER
+enum: WinReason
+value: 0x56
+description: The reason value for a Duel win caused by [Deck Master](https://yugipedia.com/wiki/Deck_Master) rules.
+summary: Victory by the rules of Deck Masters
+status:
+  index: stable

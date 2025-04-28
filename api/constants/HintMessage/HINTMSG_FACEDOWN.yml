@@ -3,7 +3,7 @@ name: HINTMSG_FACEDOWN
 enum: HintMessage
 value: 515
 description: >-
-  Shows the following HintMessage: "Select a face-down card(s)"
+  Shows the following hint to the player when selecting a card(s): `Select a face-down card(s)`
+summary: '"Select a face-down card(s)"'
 status:
   index: stable
-tags: [ under-construction ]

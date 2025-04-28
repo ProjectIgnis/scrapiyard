@@ -2,8 +2,12 @@
 name: EFFECT_REFLECT_BATTLE_DAMAGE
 enum: EffectCode
 value: 202
-description: >-
-  If the controller of the affected card would take battle damage from a battle involving that card, the opponent takes the damage
+description: If the controller of a monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) would take battle damage from a battle involving that monster, the opponent takes the damage instead.
+summary: Battle damage inflicted to controller is inflicted to the opponent instead.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_ALSO_BATTLE_DAMAGE
+    link: /api/constants/EffectCode/EFFECT_ALSO_BATTLE_DAMAGE
+  - name: EFFECT_REFLECT_DAMAGE
+    link: /api/constants/EffectCode/EFFECT_REFLECT_DAMAGE

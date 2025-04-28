@@ -2,8 +2,7 @@
 name: EFFECT_EXTRA_MATERIAL
 enum: EffectCode
 value: 358
-description: >-
-  Allows the use of an extra material in a group of materials to summon a monster (e.g. "Micro Coder). This effect is not defined in the core. See the utility for its implementation
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can **also** use cards from the [group](/api/types/Group) returned by the effect's [value function](/api/functions/Effect/SetValue) as materials for a Summon. The returned group is added to the default group of usable materials.
+summary: Affected players can also use specified materials for a Summon.
 status:
   index: stable
-tags: [ under-construction ]

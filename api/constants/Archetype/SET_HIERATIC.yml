@@ -5,4 +5,5 @@ value: 0x69
 description: >-
   The ["Hieratic"](https://yugipedia.com/wiki/Hieratic) archetype.
 summary: Hieratic
-status: { index: stable }
+status:
+  index: stable

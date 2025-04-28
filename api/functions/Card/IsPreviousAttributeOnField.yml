@@ -16,5 +16,6 @@ parameters:
 returns:
   - type: [ bool ]
     description: If the previous attribute of `c` includes `attr`.
-status: { index: stable }
+status:
+  index: stable
 tags: [ card-check, attribute-related, previous-property ]

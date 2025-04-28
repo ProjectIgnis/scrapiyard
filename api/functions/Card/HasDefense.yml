@@ -10,5 +10,6 @@ parameters:
 returns:
   - type: [ bool ]
     description: If `c` currently has a DEF value.
-status: { index: stable }
+status:
+  index: stable
 tags: [ card-check, def-related ]

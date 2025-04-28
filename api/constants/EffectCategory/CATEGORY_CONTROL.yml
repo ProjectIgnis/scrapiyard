@@ -2,8 +2,7 @@
 name: CATEGORY_CONTROL
 enum: EffectCategory
 value: 0x2000
-description: >-
-  Describes that an effect takes or switches control
+description: An activated effect with this category may switch the control of a monster(s) on resolution.
+summary: Switches control of a monster(s).
 status:
   index: stable
-tags: [ under-construction ]

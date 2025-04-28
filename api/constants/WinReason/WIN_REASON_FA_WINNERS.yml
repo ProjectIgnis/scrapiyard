@@ -1,0 +1,8 @@
+---!constant
+name: WIN_REASON_FA_WINNERS
+enum: WinReason
+value: 0x1d
+description: The reason value for a Duel win caused by ["F.A. Winners"](https://yugipedia.com/wiki/F.A._Winners).
+summary: Victory by the effect of "F.A. Winners"
+status:
+  index: stable

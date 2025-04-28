@@ -2,8 +2,10 @@
 name: EFFECT_REMOVE_BRAINWASHING
 enum: EffectCode
 value: 295
-description: >-
-  Control of all monsters is returned to their owner
+description: The control of a monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is always returned to its owner.
+summary: Control of affected monsters is always returned to their owner.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: GLOBALFLAG_BRAINWASHING_CHECK
+    link: /api/constants/GlobalFlag/GLOBALFLAG_BRAINWASHING_CHECK

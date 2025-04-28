@@ -5,4 +5,5 @@ value: 0x119
 description: >-
   The ["Salamangreat"](https://yugipedia.com/wiki/Salamangreat) archetype.
 summary: Salamangreat
-status: { index: stable }
+status:
+  index: stable

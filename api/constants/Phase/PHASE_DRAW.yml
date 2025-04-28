@@ -2,8 +2,7 @@
 name: PHASE_DRAW
 enum: Phase
 value: 0x01
-description: >-
-  The Draw Phase of a player
+description: The [Draw Phase](https://yugipedia.com/wiki/Draw_Phase).
+summary: Draw Phase.
 status:
   index: stable
-tags: [ under-construction ]

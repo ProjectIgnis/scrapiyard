@@ -2,8 +2,7 @@
 name: EFFECT_CANNOT_DIRECT_ATTACK
 enum: EffectCode
 value: 73
-description: >-
-  Affected card cannot attack directly
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot attack directly.
+summary: Affected cards cannot attack directly.
 status:
   index: stable
-tags: [ under-construction ]

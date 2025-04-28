@@ -1,0 +1,4 @@
+---!enum
+name: AssumptionProperty
+description: Constants representing properties a card is temporarily "assumed" to have inside a function scope.
+summary: Properties that a card is temporarily assumed to have.

@@ -5,4 +5,5 @@ value: 0x108a
 description: >-
   The ["Traptrix"](https://yugipedia.com/wiki/Traptrix) archetype.
 summary: Traptrix
-status: { index: stable }
+status:
+  index: stable

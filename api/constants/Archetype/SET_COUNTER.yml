@@ -5,4 +5,5 @@ value: 0x200
 description: >-
   The ["Counter"](https://yugipedia.com/wiki/Counter_(archetype)) archetype.
 summary: Counter
-status: { index: stable }
+status:
+  index: stable

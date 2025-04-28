@@ -2,8 +2,7 @@
 name: EFFECT_SET_DEFENSE
 enum: EffectCode
 value: 105
-description: >-
-  Set the defense of a monster
+description: The **raw** DEF of a monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) becomes the number specified as the effect's [value](/api/functions/Effect/SetValue). "Raw" here means the set value is where calculations for the actual DEF starts, i.e., the monster's actual DEF is further calculated by applying previously-registered [effects that update the monster's DEF](/api/constants/EffectCode/EFFECT_UPDATE_DEFENSE). To set a value as the actual DEF, ignoring all other previous effects that change the monster's DEF, use [`EFFECT_SET_DEFENSE_FINAL`](/api/constants/EffectCode/EFFECT_SET_DEFENSE_FINAL) instead.
+summary: The raw DEF of affected monsters becomes a specified value.
 status:
   index: stable
-tags: [ under-construction ]

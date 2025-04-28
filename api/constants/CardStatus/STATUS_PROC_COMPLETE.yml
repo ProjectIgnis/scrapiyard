@@ -2,8 +2,7 @@
 name: STATUS_PROC_COMPLETE
 enum: CardStatus
 value: 0x8
-description: >-
-  The card has been summoned properly  (usually by its own condition)
+description: A monster with this status has been Summoned properly (usually by its own condition).
+summary: Has been Summoned properly.
 status:
   index: stable
-tags: [ under-construction ]

@@ -2,8 +2,7 @@
 name: COUNTER_FOG
 enum: CommonCounter
 value: 0x1019
-description: >-
-  The hexadecimal value of Fog Counters
+description: The counter code of [Fog Counters](https://yugipedia.com/wiki/Fog_Counter).
+summary: Fog Counter
 status:
   index: stable
-tags: [ under-construction ]

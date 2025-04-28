@@ -1,0 +1,8 @@
+---!constant
+name: WIN_REASON_EXODIA_DEFENDER
+enum: WinReason
+value: 0x1f
+description: The reason value for a Duel win caused by ["Exodia, the Legendary Defender"](https://yugipedia.com/wiki/Exodia,_the_Legendary_Defender).
+summary: Victory by the effect of "Exodia, the Legendary Defender"
+status:
+  index: stable

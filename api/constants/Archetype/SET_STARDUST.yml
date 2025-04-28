@@ -5,4 +5,5 @@ value: 0xa3
 description: >-
   The ["Stardust"](https://yugipedia.com/wiki/Stardust_(archetype)) archetype.
 summary: Stardust
-status: { index: stable }
+status:
+  index: stable

@@ -5,4 +5,5 @@ value: 0x9e
 description: >-
   The ["Yang Zing"](https://yugipedia.com/wiki/Yang_Zing) archetype.
 summary: Yang Zing
-status: { index: stable }
+status:
+  index: stable

@@ -2,8 +2,7 @@
 name: EFFECT_CANNOT_M2
 enum: EffectCode
 value: 186
-description: >-
-  The affected player cannot enter the Main Phase 2
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot enter the [Main Phase 2](https://yugipedia.com/wiki/Main_Phase_2).
+summary: Affected players cannot enter the Main Phase 2.
 status:
   index: stable
-tags: [ under-construction ]

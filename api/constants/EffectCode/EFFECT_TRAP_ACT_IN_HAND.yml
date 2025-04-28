@@ -2,8 +2,14 @@
 name: EFFECT_TRAP_ACT_IN_HAND
 enum: EffectCode
 value: 15
-description: >-
-  The affected Trap Card can be activated from the hand. If the card is not TYPE_TRAP, this effect is skipped. Usually used as EFFECT_TYPE_SINGLE if a field version is used SetTarget receives e and c as parameters. It is suggested that SetDescription is also applied with this effect, for the scenarios where multiple similar effects are available, to allow the player to choose which one to apply.
+description: A [Trap Card](https://yugipedia.com/wiki/Trap_Card) affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can be activated from the hand.
+summary: Affected Traps can be activated from the hand.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_QP_ACT_IN_NTPHAND
+    link: /api/constants/EffectCode/EFFECT_QP_ACT_IN_NTPHAND
+  - name: EFFECT_QP_ACT_IN_SET_TURN
+    link: /api/constants/EffectCode/EFFECT_QP_ACT_IN_SET_TURN
+  - name: EFFECT_TRAP_ACT_IN_SET_TURN
+    link: /api/constants/EffectCode/EFFECT_TRAP_ACT_IN_SET_TURN

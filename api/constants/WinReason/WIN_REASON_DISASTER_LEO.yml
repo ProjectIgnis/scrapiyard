@@ -1,0 +1,10 @@
+---!constant
+name: WIN_REASON_DISASTER_LEO
+enum: WinReason
+value: 0x18
+description: >-
+  The reason value for a Duel win caused by ["Number C88: Gimmick Puppet Disaster Leo"](https://yugipedia.com/wiki/Number_C88:_Gimmick_Puppet_Disaster_Leo).
+summary: >-
+  Victory by the effect of "Number C88: Gimmick Puppet Disaster Leo"
+status:
+  index: stable

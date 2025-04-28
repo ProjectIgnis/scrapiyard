@@ -5,4 +5,5 @@ value: 0x46
 description: >-
   The ["Polymerization" or "Fusion"](https://yugipedia.com/wiki/Fusion_(archetype)) archetype.
 summary: Polymerization|Fusion
-status: { index: stable }
+status:
+  index: stable

@@ -2,8 +2,7 @@
 name: CARD_RA
 enum: CommonCard
 value: 10000010
-description: >-
-  Winged Dragon of Ra's ID
+description: The passcode of ["The Winged Dragon of Ra"](https://yugipedia.com/wiki/The_Winged_Dragon_of_Ra).
+summary: The Winged Dragon of Ra
 status:
   index: stable
-tags: [ under-construction ]

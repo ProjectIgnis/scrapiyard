@@ -5,4 +5,5 @@ value: 0x131
 description: >-
   The ["Dream Mirror"](https://yugipedia.com/wiki/Dream_Mirror) archetype.
 summary: Dream Mirror
-status: { index: stable }
+status:
+  index: stable

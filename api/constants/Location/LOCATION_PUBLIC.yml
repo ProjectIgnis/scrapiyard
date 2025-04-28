@@ -2,8 +2,8 @@
 name: LOCATION_PUBLIC
 enum: Location
 value: 0x3c
-description: >-
-  Used for scripting purposes. The sum of locations (LOCATION_ONFIELD+LOCATION_REMOVED+LOCATION_GRAVE) where cards are, usually, public knowledge.
+description: The [field](/api/constants/Location/LOCATION_ONFIELD), [banishment](/api/constants/Location/LOCATION_REMOVED), and [GY](/api/constants/Location/LOCATION_GRAVE), i.e., locations where cards are usually public knowledge.
+summary: Public knowledge locations
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ composite-bits ]

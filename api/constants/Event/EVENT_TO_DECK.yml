@@ -2,8 +2,7 @@
 name: EVENT_TO_DECK
 enum: Event
 value: 1013
-description: >-
-  This event is raised when a card is sent to the deck
+description: This event is raised when a card(s) is sent to the either Main or Extra Deck.
+summary: A card(s) is sent to the Deck.
 status:
   index: stable
-tags: [ under-construction ]

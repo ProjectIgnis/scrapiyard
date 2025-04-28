@@ -5,4 +5,5 @@ value: 0xdc
 description: >-
   The ["Super Quant"](https://yugipedia.com/wiki/Super_Quant) archetype.
 summary: Super Quant
-status: { index: stable }
+status:
+  index: stable

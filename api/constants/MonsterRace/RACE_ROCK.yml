@@ -2,7 +2,7 @@
 name: RACE_ROCK
 enum: MonsterRace
 value: 0x100
-description: >-
-  The [Rock](https://yugipedia.com/wiki/Rock) Monster Type
+description: The [Rock](https://yugipedia.com/wiki/Rock) Monster Type.
 summary: Rock
-status: { index: stable }
+status:
+  index: stable

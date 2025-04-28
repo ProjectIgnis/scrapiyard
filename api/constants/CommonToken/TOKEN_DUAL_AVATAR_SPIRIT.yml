@@ -2,8 +2,7 @@
 name: TOKEN_DUAL_AVATAR_SPIRIT
 enum: CommonToken
 value: 87669905
-description: >-
-  (To be added)
+description: The passcode of ["Dual Avatar Spirit Token"](https://yugipedia.com/wiki/Dual_Avatar_Spirit_Token).
+summary: Dual Avatar Spirit Token
 status:
   index: stable
-tags: [ under-construction ]

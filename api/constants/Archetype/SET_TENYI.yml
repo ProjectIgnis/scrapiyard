@@ -5,4 +5,5 @@ value: 0x12c
 description: >-
   The ["Tenyi"](https://yugipedia.com/wiki/Tenyi) archetype.
 summary: Tenyi
-status: { index: stable }
+status:
+  index: stable

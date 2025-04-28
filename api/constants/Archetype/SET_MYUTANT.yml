@@ -5,4 +5,5 @@ value: 0x159
 description: >-
   The ["Myutant"](https://yugipedia.com/wiki/Myutant) archetype.
 summary: Myutant
-status: { index: stable }
+status:
+  index: stable

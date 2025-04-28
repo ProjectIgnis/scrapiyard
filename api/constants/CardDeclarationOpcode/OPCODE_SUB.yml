@@ -1,0 +1,8 @@
+---!constant
+name: OPCODE_SUB
+enum: CardDeclarationOpcode
+value: 0x40000001
+description: In card declaration filters, this operation subtracts its second operand from its first operand. Both operands must be numbers.
+summary: Subtracts its second operand from its first operand.
+status:
+  index: stable

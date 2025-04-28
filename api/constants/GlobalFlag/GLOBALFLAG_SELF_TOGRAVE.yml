@@ -2,8 +2,7 @@
 name: GLOBALFLAG_SELF_TOGRAVE
 enum: GlobalFlag
 value: 0x100
-description: >-
-  Allows checking the Graveyard in the middle of a resolving chain. Flag required to use EFFECT_SELF_TOGRAVE
+description: This global flag enables [effects](/api/types/Effect) with [`EFFECT_SELF_TOGRAVE`](/api/constants/EffectCode/EFFECT_SELF_TOGRAVE) as [code](/api/enums/EffectCode), which continuously send their handler to the GY when their condition is met. It is automatically set when an effect with `EFFECT_SELF_TOGRAVE` as code is registered.
+summary: Enables effects that continuously send their handler to the GY.
 status:
   index: stable
-tags: [ under-construction ]

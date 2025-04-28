@@ -6,4 +6,5 @@ description: >-
   The ["Nordic Relic"](https://yugipedia.com/wiki/Nordic_Relic) archetype.
   Sub-archetype of [`SET_NORDIC`](/api/constants/Archetype/SET_NORDIC).
 summary: Nordic Relic
-status: { index: stable }
+status:
+  index: stable

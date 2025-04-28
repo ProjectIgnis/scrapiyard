@@ -1,9 +1,0 @@
----!constant
-name: DUEL_EMZONE
-enum: DuelMode
-value: 0x2000
-description: >-
-  (To be added)
-status:
-  index: stable
-tags: [ under-construction ]

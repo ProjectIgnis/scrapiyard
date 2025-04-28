@@ -5,4 +5,5 @@ value: 0x110
 description: >-
   The ["Relinquished"](https://yugipedia.com/wiki/Relinquished_(archetype)) archetype.
 summary: Relinquished
-status: { index: stable }
+status:
+  index: stable

@@ -1,0 +1,5 @@
+---!enum
+name: RedirectLocation
+description: Special location constants that can only be used as redirection destination, for texts such as `shuffled into the Deck instead of going to the GY` (e.g., ["Grave Protector"](https://yugipedia.com/wiki/Grave_Protector)). Note that regular [location constants](/api/enums/Location) can also be used as destination.
+summary: Location constants that can only be used as redirection destination.
+bitmaskInt: true

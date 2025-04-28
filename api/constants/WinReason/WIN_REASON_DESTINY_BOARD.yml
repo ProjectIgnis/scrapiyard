@@ -1,0 +1,8 @@
+---!constant
+name: WIN_REASON_DESTINY_BOARD
+enum: WinReason
+value: 0x15
+description: The reason value for a Duel win caused by ["Destiny Board"](https://yugipedia.com/wiki/Destiny_Board).
+summary: Victory by the effect of "Destiny Board"
+status:
+  index: stable

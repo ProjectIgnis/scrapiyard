@@ -5,4 +5,5 @@ value: 0x2
 description: >-
   The [Spell](https://yugipedia.com/wiki/Spell_Card) Card Type
 summary: Spell
-status: { index: stable }
+status:
+  index: stable

@@ -5,4 +5,5 @@ value: 0x1b4
 description: >-
   The ["Azamina"](https://yugipedia.com/wiki/Azamina) archetype.
 summary: Azamina
-status: { index: stable }
+status:
+  index: stable

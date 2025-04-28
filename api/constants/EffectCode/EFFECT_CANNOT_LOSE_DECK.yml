@@ -2,8 +2,7 @@
 name: EFFECT_CANNOT_LOSE_DECK
 enum: EffectCode
 value: 400
-description: >-
-  The affected player is prevented from losing the duel via deckout
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot lose the Duel by ["deck out"](https://yugipedia.com/wiki/Deck_out).
+summary: Affected players cannot lose by deckout.
 status:
   index: stable
-tags: [ under-construction ]

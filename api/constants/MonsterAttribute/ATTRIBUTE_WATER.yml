@@ -2,7 +2,7 @@
 name: ATTRIBUTE_WATER
 enum: MonsterAttribute
 value: 0x2
-description: >-
-  The [WATER](https://yugipedia.com/wiki/WATER) attribute for monsters
+description: The [WATER](https://yugipedia.com/wiki/WATER) attribute.
 summary: WATER
-status: { index: stable }
+status:
+  index: stable

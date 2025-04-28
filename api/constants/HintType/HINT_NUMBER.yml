@@ -2,8 +2,7 @@
 name: HINT_NUMBER
 enum: HintType
 value: 9
-description: >-
-  Called when a player has to pick/declare a number
+description: Describes a hint that shows a number specified by the hint value. If this constant is used as a hint value instead, it prompts a player to declare a number.
+summary: Shows a number or prompts a player to declare a number.
 status:
   index: stable
-tags: [ under-construction ]

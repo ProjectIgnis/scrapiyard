@@ -1,0 +1,9 @@
+---!constant
+name: DUEL_MODE_MR2
+enum: DuelOption
+value: 0xd0700
+description: A composite Duel option that enforces [Master Rule 2](https://yugipedia.com/wiki/Master_Rule#Master_Rule_2).
+summary: Master Rule 2
+status:
+  index: stable
+tags: [ composite-bits ]

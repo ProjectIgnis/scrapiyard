@@ -5,4 +5,5 @@ value: 0x93
 description: >-
   The ["Cyber"](https://yugipedia.com/wiki/Cyber) archetype.
 summary: Cyber
-status: { index: stable }
+status:
+  index: stable

@@ -2,8 +2,7 @@
 name: CARD_STROMBERG
 enum: CommonCard
 value: 72283691
-description: >-
-  Golden Castle of Stromberg's ID, used for listed_names and specific support
+description: The passcode of ["Golden Castle of Stromberg"](https://yugipedia.com/wiki/Golden_Castle_of_Stromberg).
+summary: Golden Castle of Stromberg
 status:
   index: stable
-tags: [ under-construction ]

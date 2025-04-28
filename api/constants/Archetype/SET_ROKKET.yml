@@ -5,4 +5,5 @@ value: 0x102
 description: >-
   The ["Rokket"](https://yugipedia.com/wiki/Rokket) archetype.
 summary: Rokket
-status: { index: stable }
+status:
+  index: stable

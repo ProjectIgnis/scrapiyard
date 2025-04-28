@@ -2,7 +2,7 @@
 name: RACE_REPTILE
 enum: MonsterRace
 value: 0x80000
-description: >-
-  The [Reptile](https://yugipedia.com/wiki/Reptile) Monster Type
+description: The [Reptile](https://yugipedia.com/wiki/Reptile) Monster Type.
 summary: Reptile
-status: { index: stable }
+status:
+  index: stable

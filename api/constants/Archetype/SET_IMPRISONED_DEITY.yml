@@ -1,0 +1,10 @@
+---!constant
+name: SET_IMPRISONED_DEITY
+enum: Archetype
+value: 0x1c6
+description: >-
+  The ["Imprisoned Deity"](https://yugipedia.com/wiki/Imprisoned_Deity) archetype.
+summary: Imprisoned Deity
+status:
+  index: unstable
+  message: Constant's name may change to follow the archetype's official English name.

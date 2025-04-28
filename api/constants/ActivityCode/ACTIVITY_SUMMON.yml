@@ -2,8 +2,7 @@
 name: ACTIVITY_SUMMON
 enum: ActivityCode
 value: 1
-description: >-
-  Refers to the action of attempting to perform Summons of any kind
+description: &desc The action of attempting to perform a Summon of any kind.
+summary: *desc
 status:
   index: stable
-tags: [ under-construction ]

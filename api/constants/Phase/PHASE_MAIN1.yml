@@ -2,8 +2,7 @@
 name: PHASE_MAIN1
 enum: Phase
 value: 0x04
-description: >-
-  The Main Phase 1
+description: The [Main Phase 1](https://yugipedia.com/wiki/Main_Phase_1).
+summary: Main Phase 1.
 status:
   index: stable
-tags: [ under-construction ]

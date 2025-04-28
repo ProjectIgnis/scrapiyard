@@ -1,0 +1,8 @@
+---!constant
+name: EFFECT_FLAG_CANNOT_NEGATE
+enum: EffectFlag
+value: 0x200
+description: An [effect](/api/types/Effect) that cannot be negated but has this flag can become "forbidden" (e.g., due to the effect of ["Prohibition"](https://yugipedia.com/wiki/Prohibition)). This flag can only be used along with [`EFFECT_FLAG_CANNOT_DISABLE`](/api/constants/EffectFlag/EFFECT_FLAG_CANNOT_DISABLE), since other effects can already become forbidden by default.
+summary: Can become forbidden even if it cannot be negated.
+status:
+  index: stable

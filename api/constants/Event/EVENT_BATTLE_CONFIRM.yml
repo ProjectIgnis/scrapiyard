@@ -2,8 +2,7 @@
 name: EVENT_BATTLE_CONFIRM
 enum: Event
 value: 1133
-description: >-
-  This event is raised when a monster battles another monster
+description: This event is raised when a monster battles another monster.
+summary: A monster is battling another monster.
 status:
   index: stable
-tags: [ under-construction ]

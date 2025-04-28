@@ -1,0 +1,5 @@
+---!tag
+name: manual-reset
+description: >-
+  [Reset](/api/enums/Reset) constants that can be used as the reset type when manually resetting effects using [`Card.ResetEffect`](/api/functions/Card/ResetEffect).
+summary: Reset constants for manual resets.

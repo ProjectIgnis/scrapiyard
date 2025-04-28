@@ -2,8 +2,7 @@
 name: CARD_VALIANTS_KOENIGWISSEN
 enum: CommonCard
 value: 75952542
-description: >-
-  Vaylantz World - Konig Wissen's ID
+description: The passcode of ["Vaylantz World - Konig Wissen"](https://yugipedia.com/wiki/Vaylantz_World_-_Konig_Wissen).
+summary: Vaylantz World - Konig Wissen
 status:
   index: stable
-tags: [ under-construction ]

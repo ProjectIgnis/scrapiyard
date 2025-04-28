@@ -2,8 +2,8 @@
 name: EFFECT_SYNCHRO_MATERIAL
 enum: EffectCode
 value: 232
-description: >-
-  Can be used as Synchro material
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can **also** be used as material for a [Synchro Summon](https://yugipedia.com/wiki/Synchro_Summon), in addition to the materials that can be used by default.
+summary: Affected cards can additionally be used as materials for a Synchro Summon.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ synchro-related ]

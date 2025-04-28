@@ -38,7 +38,8 @@ parameters:
 returns:
   - type: [ Effect ]
     description: The effect that was created.
-status: { index: stable }
+status:
+  index: stable
 tags: [ creates-effect, special-handling ]
 suggestedLinks:
   - name: aux.addTempLizardCheck

@@ -2,8 +2,7 @@
 name: EFFECT_DISABLE_FIELD
 enum: EffectCode
 value: 260
-description: >-
-  Given card zones cannot be used. The zones affected must be defined via SetOperation
+description: Zones returned by the [operation function](/api/functions/Effect/SetOperation) of an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot be used.
+summary: Specified zones cannot be used.
 status:
   index: stable
-tags: [ under-construction ]

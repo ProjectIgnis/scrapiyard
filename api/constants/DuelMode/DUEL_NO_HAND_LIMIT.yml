@@ -1,9 +1,0 @@
----!constant
-name: DUEL_NO_HAND_LIMIT
-enum: DuelMode
-value: 0x1000000
-description: >-
-  (To be added)
-status:
-  index: stable
-tags: [ under-construction ]

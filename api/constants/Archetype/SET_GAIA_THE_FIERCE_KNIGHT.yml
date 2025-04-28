@@ -5,4 +5,5 @@ value: 0xbd
 description: >-
   The ["Gaia The Fierce Knight"](https://yugipedia.com/wiki/Gaia_The_Fierce_Knight_(archetype)) archetype.
 summary: Gaia The Fierce Knight
-status: { index: stable }
+status:
+  index: stable

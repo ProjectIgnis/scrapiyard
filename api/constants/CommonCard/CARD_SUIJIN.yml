@@ -2,8 +2,7 @@
 name: CARD_SUIJIN
 enum: CommonCard
 value: 98434877
-description: >-
-  Suijin's ID
+description: The passcode of ["Suijin"](https://yugipedia.com/wiki/Suijin).
+summary: Suijin
 status:
   index: stable
-tags: [ under-construction ]

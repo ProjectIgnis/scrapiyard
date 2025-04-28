@@ -2,8 +2,7 @@
 name: EFFECT_CANNOT_DISABLE_SPSUMMON
 enum: EffectCode
 value: 27
-description: >-
-  The affected monster cannot have its Special Summon negated
+description: The [Special Summon](https://yugipedia.com/wiki/Special_Summon) of a card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot be negated.
+summary: The Special Summon of affected cards cannot be negated.
 status:
   index: stable
-tags: [ under-construction ]

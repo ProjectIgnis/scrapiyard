@@ -2,8 +2,8 @@
 name: CARD_LIGHTNING_VOLTCONDOR
 enum: CommonCard
 value: 160002017
-description: >-
-  Constant for a commonly used Rush card
+description: The passcode of ["Lightning Voltcondor"](https://yugipedia.com/wiki/Lightning_Voltcondor).
+summary: Lightning Voltcondor
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ rush ]

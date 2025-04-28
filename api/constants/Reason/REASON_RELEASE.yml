@@ -2,8 +2,7 @@
 name: REASON_RELEASE
 enum: Reason
 value: 0x2
-description: >-
-  The card being tributed
+description: The reason value for actions caused by Tributing a card(s).
+summary: Caused by Tributing a card(s).
 status:
   index: stable
-tags: [ under-construction ]

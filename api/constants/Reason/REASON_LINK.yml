@@ -2,8 +2,7 @@
 name: REASON_LINK
 enum: Reason
 value: 0x10000000
-description: >-
-  Used for Link Summon
+description: The reason value for actions caused by using a card as Link Material.
+summary: Caused by using a card as Link Material.
 status:
   index: stable
-tags: [ under-construction ]

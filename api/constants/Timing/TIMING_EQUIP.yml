@@ -2,8 +2,7 @@
 name: TIMING_EQUIP
 enum: Timing
 value: 0x2000000
-description: >-
-  This event is raised when a card is equipped to another
+description: An effect with this [hint timing](/api/functions/Effect/SetHintTiming) will be prompted for activation when a card is equipped to another.
+summary: Prompts when a card is equipped to another.
 status:
   index: stable
-tags: [ under-construction ]

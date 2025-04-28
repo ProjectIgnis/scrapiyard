@@ -1,0 +1,8 @@
+---!constant
+name: DUEL_TRIGGER_WHEN_PRIVATE_KNOWLEDGE
+enum: DuelOption
+value: 0x20
+description: In Duels with this option, Trigger Effects can activate even if the card is sent to a location that is not public knowledge.
+summary: Trigger Effects can activate when sent to a location that is private knowledge.
+status:
+  index: stable

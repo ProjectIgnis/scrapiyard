@@ -2,8 +2,7 @@
 name: TOKEN_MECHA_PHANTOM_BEAST_HARRLIARD
 enum: CommonToken
 value: 20368764
-description: >-
-  (To be added)
+description: The passcode of ["Mecha Phantom Beast Token"](https://yugipedia.com/wiki/Mecha_Phantom_Beast_Token) Special Summoned by ["Mecha Phantom Beast Harrliard"](https://yugipedia.com/wiki/Mecha_Phantom_Beast_Harrliard).
+summary: Mecha Phantom Beast Token (Special Summoned by "Mecha Phantom Beast Harrliard")
 status:
   index: stable
-tags: [ under-construction ]

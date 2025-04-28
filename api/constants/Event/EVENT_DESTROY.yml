@@ -2,8 +2,10 @@
 name: EVENT_DESTROY
 enum: Event
 value: 1010
-description: >-
-  This event is raised when a card is destroyed but has not yet left the field, which allows information of properties on the field to be accessed. For example, the amount of counter a card has is still available.
+description: This event is raised when a card(s) is [destroyed](https://yugipedia.com/wiki/Destroy) but has not yet left the field. This allows accessing information about a card that might change once it leaves the field and [`EVENT_DESTROYED`](/api/constants/Event/EVENT_DESTROYED) is raised, such as its type, attribute, counters placed on it, and effects applied to it.
+summary: A card(s) is destroyed but has not yet left the field.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EVENT_LEAVE_FIELD_P
+    link: /api/constants/Event/EVENT_LEAVE_FIELD_P

@@ -2,8 +2,14 @@
 name: EFFECT_INDESTRUCTABLE_BATTLE
 enum: EffectCode
 value: 42
-description: >-
-  Affected card cannot be destroyed by battle
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot be destroyed by battle with monsters that fulfill its [value function](/api/functions/Effect/SetValue).
+summary: Affected cards cannot be destroyed by battle.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_INDESTRUCTABLE
+    link: /api/constants/EffectCode/EFFECT_INDESTRUCTABLE
+  - name: EFFECT_INDESTRUCTABLE_EFFECT
+    link: /api/constants/EffectCode/EFFECT_INDESTRUCTABLE_EFFECT
+# effect structure:
+#   SetValue: function(e,c) -> bool

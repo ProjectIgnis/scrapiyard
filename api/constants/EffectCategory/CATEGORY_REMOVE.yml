@@ -2,8 +2,7 @@
 name: CATEGORY_REMOVE
 enum: EffectCategory
 value: 0x4
-description: >-
-  Describes that an effect banishes
+description: An activated effect with this category may banish a card(s) on resolution.
+summary: Banishes a card(s).
 status:
   index: stable
-tags: [ under-construction ]

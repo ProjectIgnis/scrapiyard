@@ -2,8 +2,8 @@
 name: EFFECT_FUSION_SUBSTITUTE
 enum: EffectCode
 value: 234
-description: >-
-  When Fusion Summoning, the affected card can be used to substitute for any specifically named material
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can be used as a Fusion Material for a [Fusion Summon](https://yugipedia.com/wiki/Fusion_Summon) instead of 1 **specifically-named** material (but the other Fusion Materials must be correct).
+summary: Affected cards can be substituted for a specifically named Fusion Material.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ fusion-related ]

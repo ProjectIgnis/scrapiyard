@@ -2,8 +2,7 @@
 name: GLOBALFLAG_DELAYED_QUICKEFFECT
 enum: GlobalFlag
 value: 0x8
-description: >-
-  N/A
+description: This global flag is no longer used and has been deleted.
 status:
-  index: stable
-tags: [ under-construction ]
+  index: deleted
+# TODO: if possible, document what it was used for

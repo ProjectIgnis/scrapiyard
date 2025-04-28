@@ -2,8 +2,8 @@
 name: GLOBALFLAG_XMAT_COUNT_LIMIT
 enum: GlobalFlag
 value: 0x80
-description: >-
-  Allows EFFECT_TYPE_XMATERIAL to take SetCountLimit into account
+description: This global flag allowed [effects](/api/types/Effect) with [`EFFECT_TYPE_XMATERIAL`](/api/constants/EffectType/EFFECT_TYPE_XMATERIAL) as [code](/api/enums/EffectCode) to have [count limits](/api/functions/Effect/SetCountLimit).
+summary: Allowed EFFECT_TYPE_XMATERIAL effects to have count limits.
 status:
-  index: stable
-tags: [ under-construction ]
+  index: deleted
+  message: '`EFFECT_TYPE_XMATERIAL` effects no longer need this flag to have count limits.'

@@ -2,8 +2,10 @@
 name: EFFECT_TRIPLE_TRIBUTE
 enum: EffectCode
 value: 156
-description: >-
-  Treats a card as 2 and 3 tributes for a tribute summon
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can be treated  three Tributes for the [Tribute Summon](https://yugipedia.com/wiki/Tribute_Summon) of a monster that fulfills the effect's [value function](/api/functions/Effect/SetValue).
+summary: Affected cards can be treated as 3 Tributes for a Tribute Summon.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_DOUBLE_TRIBUTE
+    link: /api/constants/EffectCode/EFFECT_DOUBLE_TRIBUTE

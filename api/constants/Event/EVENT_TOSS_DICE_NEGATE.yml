@@ -2,8 +2,7 @@
 name: EVENT_TOSS_DICE_NEGATE
 enum: Event
 value: 1153
-description: >-
-  This event is raised when dice are re-rolled
+description: This event is raised when a six-sided die has just been rolled and can be redone, resulting in a different result.
+summary: A six-sided die has just been rolled and can be redone.
 status:
   index: stable
-tags: [ under-construction ]

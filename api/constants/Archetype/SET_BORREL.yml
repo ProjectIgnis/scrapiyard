@@ -5,4 +5,5 @@ value: 0x10f
 description: >-
   The ["Borrel"](https://yugipedia.com/wiki/Borrel) archetype.
 summary: Borrel
-status: { index: stable }
+status:
+  index: stable

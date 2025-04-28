@@ -5,4 +5,5 @@ value: 0x15d
 description: >-
   The ["Rank-Down-Magic"](https://yugipedia.com/wiki/Rank-Down-Magic) archetype.
 summary: Rank-Down-Magic
-status: { index: stable }
+status:
+  index: stable

@@ -2,8 +2,8 @@
 name: RESET_PHASE
 enum: Reset
 value: 0x40000000
-description: >-
-  Resets at a given phase (add the phase value)
+description: An [effect](/api/types/Effect) with this [reset value](/api/functions/Effect/SetReset) resets in a given phase. The phase(s) is specified by adding [its corresponding phase value](/api/enums/Phase) to this constant. This can also be used to [manually reset](/api/functions/Card/ResetEffect) effects that reset at the specified phase.
+summary: Resets in a given phase.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ manual-reset ]

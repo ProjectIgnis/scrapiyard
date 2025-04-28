@@ -2,8 +2,7 @@
 name: CARD_BLACK_WINGED_DRAGON
 enum: CommonCard
 value: 9012916
-description: >-
-  Black-Winged Dragon's ID
+description: The passcode of ["Black-Winged Dragon"](https://yugipedia.com/wiki/Black-Winged_Dragon).
+summary: Black-Winged Dragon
 status:
   index: stable
-tags: [ under-construction ]

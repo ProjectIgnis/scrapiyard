@@ -1,0 +1,8 @@
+---!constant
+name: MATERIAL_LINK
+enum: MaterialType
+value: 0x800000000
+description: The type for Summons that use [Link Materials](https://yugipedia.com/wiki/Link_Material).
+summary: Summon using Link Materials.
+status:
+  index: stable

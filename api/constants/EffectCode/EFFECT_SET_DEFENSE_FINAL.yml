@@ -2,8 +2,7 @@
 name: EFFECT_SET_DEFENSE_FINAL
 enum: EffectCode
 value: 106
-description: >-
-  Set the defense of a monster, overriding other changes (written into Effect.SetValue())
+description: The DEF of a monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) becomes the number specified as the effect's [value](/api/functions/Effect/SetValue). The set value will be the monster's actual DEF, i.e., it ignores all other previous effects that change the monster's DEF. To allow applying previously-registered [effects that update the monster's DEF](/api/constants/EffectCode/EFFECT_UPDATE_DEFENSE), use [`EFFECT_SET_DEFENSE`](/api/constants/EffectCode/EFFECT_SET_DEFENSE) instead.
+summary: The DEF of affected monsters becomes a specified value.
 status:
   index: stable
-tags: [ under-construction ]

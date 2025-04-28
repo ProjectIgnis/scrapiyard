@@ -2,8 +2,7 @@
 name: EFFECT_CHANGE_DAMAGE
 enum: EffectCode
 value: 82
-description: >-
-  Modify the amount of damage the affected player would take
+description: Any damage inflicted to a player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is changed into the number returned by the effect's [value function](/api/functions/Effect/SetValue).
+summary: Damage inflicted to affected players is changed.
 status:
   index: stable
-tags: [ under-construction ]

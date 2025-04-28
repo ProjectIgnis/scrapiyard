@@ -2,8 +2,8 @@
 name: CARD_TASTE_INSPECTOR
 enum: CommonCard
 value: 160007008
-description: >-
-  Constant for a commonly used Rush card
+description: The passcode of ["Flavor Inspector"](https://yugipedia.com/wiki/Flavor_Inspector).
+summary: Flavor Inspector
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ rush ]

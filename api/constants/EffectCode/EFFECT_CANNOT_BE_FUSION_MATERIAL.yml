@@ -2,8 +2,10 @@
 name: EFFECT_CANNOT_BE_FUSION_MATERIAL
 enum: EffectCode
 value: 235
-description: >-
-  Affected card cannot be used as Fusion material
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot be used as [Fusion Material](https://yugipedia.com/wiki/Fusion_Material) for the Fusion Summon of a card that fulfills the effect's [value function](/api/functions/Effect/SetValue).
+summary: Affected card cannot be used as Fusion Material.
 status:
   index: stable
-tags: [ under-construction ]
+# effect structure:
+#   SetValue: function(e,sc) -> bool
+#     must be true if the affected card cannot be used for the summon of sc

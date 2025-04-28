@@ -1,0 +1,8 @@
+---!constant
+name: DECLTYPE_TRAP
+enum: CommonOption
+value: 72
+description: Displays "Trap" as an option for the player to select. Used for effects that make the player declare a card type ([Monster](/api/constants/CommonOption/DECLTYPE_MONSTER), [Spell](/api/constants/CommonOption/DECLTYPE_SPELL), or Trap).
+summary: '"Trap"'
+status:
+  index: stable

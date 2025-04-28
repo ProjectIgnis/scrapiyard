@@ -2,8 +2,7 @@
 name: FUSPROC_NOLIMIT
 enum: FusionProcFlag
 value: 0x800
-description: >-
-  (To be added)
+description: A Fusion Summoning [effect](/api/types/Effect] created with this flag ignores [Summoning conditions](https://yugipedia.com/wiki/Summoning_condition), such as `Must be Special Summoned with "..."`.
+summary: Ignores Summoning conditions.
 status:
   index: stable
-tags: [ under-construction ]

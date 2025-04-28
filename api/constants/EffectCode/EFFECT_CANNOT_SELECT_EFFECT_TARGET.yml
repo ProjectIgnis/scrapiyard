@@ -2,11 +2,10 @@
 name: EFFECT_CANNOT_SELECT_EFFECT_TARGET
 enum: EffectCode
 value: 333
-description: >-
-  The affected cards cannot activate their effects that target. SetValue takes the following parameters:
-e: this effect
-re: the effect that would be activated
-c: the cards that cannot activate the effect
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot activate its effects that target.
+summary: Affected cards cannot activate their effects that target.
 status:
   index: stable
-tags: [ under-construction ]
+# effect structure:
+#   SetValue: function(e,re,c) -> bool
+#     must be true if `re` cannot be activated

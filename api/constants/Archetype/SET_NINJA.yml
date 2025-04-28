@@ -5,4 +5,5 @@ value: 0x2b
 description: >-
   The ["Ninja"](https://yugipedia.com/wiki/Ninja) archetype.
 summary: Ninja
-status: { index: stable }
+status:
+  index: stable

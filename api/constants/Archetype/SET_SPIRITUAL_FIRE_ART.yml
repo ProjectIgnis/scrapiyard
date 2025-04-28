@@ -5,4 +5,5 @@ value: 0x514d
 description: >-
   The ["Spiritual Fire Art"](https://yugipedia.com/wiki/Spiritual_Fire_Art) archetype.
 summary: Spiritual Fire Art
-status: { index: stable }
+status:
+  index: stable

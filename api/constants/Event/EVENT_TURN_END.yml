@@ -2,8 +2,7 @@
 name: EVENT_TURN_END
 enum: Event
 value: 1210
-description: >-
-  This event is raised when the turn ends
+description: This event is raised at the end of the turn (after the End Phase).
+summary: The end of the turn.
 status:
   index: stable
-tags: [ under-construction ]

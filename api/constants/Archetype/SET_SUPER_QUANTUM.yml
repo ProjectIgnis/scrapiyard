@@ -6,4 +6,5 @@ description: >-
   The ["Super Quantum"](https://yugipedia.com/wiki/Super_Quantum) archetype.
   Sub-archetype of [`SET_SUPER_QUANT`](/api/constants/Archetype/SET_SUPER_QUANT).
 summary: Super Quantum
-status: { index: stable }
+status:
+  index: stable

@@ -5,4 +5,5 @@ value: 0x15e
 description: >-
   The ["Amazement"](https://yugipedia.com/wiki/Amazement) archetype.
 summary: Amazement
-status: { index: stable }
+status:
+  index: stable

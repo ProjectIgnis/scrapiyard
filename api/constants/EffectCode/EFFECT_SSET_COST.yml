@@ -2,8 +2,7 @@
 name: EFFECT_SSET_COST
 enum: EffectCode
 value: 95
-description: >-
-  The affected player must pay a cost to Set Spell/Traps.
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) must perform a cost, defined as the effect's [operation function](/api/functions/Effect/SetOperation), to [Set](https://yugipedia.com/wiki/Set) a Spell/Trap Card.
+summary: Affected players must pay a cost to Set Spells and Traps.
 status:
   index: stable
-tags: [ under-construction ]

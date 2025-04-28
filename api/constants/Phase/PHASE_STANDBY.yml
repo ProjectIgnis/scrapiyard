@@ -2,8 +2,7 @@
 name: PHASE_STANDBY
 enum: Phase
 value: 0x02
-description: >-
-  The Standby Phase
+description: The [Standby Phase](https://yugipedia.com/wiki/Standby_Phase).
+summary: Standby Phase.
 status:
   index: stable
-tags: [ under-construction ]

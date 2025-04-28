@@ -5,4 +5,5 @@ value: 0x8d
 description: >-
   The ["Ghostrick"](https://yugipedia.com/wiki/Ghostrick) archetype.
 summary: Ghostrick
-status: { index: stable }
+status:
+  index: stable

@@ -2,8 +2,7 @@
 name: SUMMON_TYPE_SPECIAL
 enum: SummonType
 value: 0x40000000
-description: >-
-  Special summon (EFFECT_SPSUMMON_PROC, EFFECT_SPSUMMON_PROC_G can use SetValue to modify the value)
+description: The type for [Special Summons](https://yugipedia.com/wiki/Special_Summon).
+summary: Special Summon.
 status:
   index: stable
-tags: [ under-construction ]

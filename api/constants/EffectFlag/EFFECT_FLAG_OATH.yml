@@ -1,0 +1,8 @@
+---!constant
+name: EFFECT_FLAG_OATH
+enum: EffectFlag
+value: 0x80000
+description: An [effect](/api/types/Effect) that was registered with this flag during effect activation (e.g., in the [cost](/api/types/EffectCost) or [target](/api/types/EffectTarget) function) is removed if the activation of the effect that registered it is negated.
+summary: Removed if the activation of the effect that registered it is negated.
+status:
+  index: stable

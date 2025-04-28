@@ -2,8 +2,7 @@
 name: EVENT_PRE_BATTLE_DAMAGE
 enum: Event
 value: 1136
-description: >-
-  Before battle damage applies
+description: This event is raised when a player is about to take battle damage.
+summary: A player is about to take battle damage.
 status:
   index: stable
-tags: [ under-construction ]

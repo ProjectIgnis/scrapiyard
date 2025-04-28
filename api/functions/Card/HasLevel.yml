@@ -12,5 +12,6 @@ parameters:
 returns:
   - type: [ bool ]
     description: If `c` has a level.
-status: { index: stable }
+status:
+  index: stable
 tags: [ card-check, level-related ]

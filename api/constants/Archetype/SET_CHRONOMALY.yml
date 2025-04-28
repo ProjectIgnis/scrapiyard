@@ -5,4 +5,5 @@ value: 0x70
 description: >-
   The ["Chronomaly"](https://yugipedia.com/wiki/Chronomaly) archetype.
 summary: Chronomaly
-status: { index: stable }
+status:
+  index: stable

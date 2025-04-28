@@ -1,0 +1,4 @@
+---!enum
+name: CommonOption
+description: String IDs of options commonly used in scripts as arguments to [`Duel.SelectOption`](/api/functions/Duel/SelectOption).
+summary: String IDs of options commonly used in scripts.

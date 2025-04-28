@@ -2,8 +2,7 @@
 name: EFFECT_DECREASE_TRIBUTE_SET
 enum: EffectCode
 value: 152
-description: >-
-  Decreases the amount of tributes to perform a Tribute Set
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can be Tribute Set with fewer Tributes. The amount to reduce is specified as a 32-bit integer in the effect's [value](/api/functions/Effect/SetValue), with the first 16 bits (4 hex digits) reducing the maximum amount of Tributes and the last 16 bits reducing the minimum (e.g., `0x00010001` or `0x10001`, reduces both the maximum and minimum by 1).
+summary: Affected cards can be Tribute Set with fewer Tributes.
 status:
   index: stable
-tags: [ under-construction ]

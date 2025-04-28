@@ -3,7 +3,7 @@ name: HINTMSG_ATTRIBUTE
 enum: HintMessage
 value: 562
 description: >-
-  Shows the following HintMessage: "Declare an Attribute"
+  Shows the following hint to the player when prompted to declare: `Declare an Attribute`
+summary: '"Declare an Attribute"'
 status:
   index: stable
-tags: [ under-construction ]

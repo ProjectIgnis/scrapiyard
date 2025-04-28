@@ -1,22 +1,20 @@
 ---!type
 name: CardFilter
 supertype: function
-description: &desc |-
-  A function used to filter `Card`s.
+description: &desc A function used to filter cards.
 summary: *desc
 parameters:
   - name: c
     type: [ Card ]
-    description: The `Card` to check.
+    description: The card to check.
   - name: ...
     type: [ any ]
-    description: Additional arguments, usually passed by the function using the `CardFilter`.
+    description: Additional arguments, usually passed by the function that's using the filter.
 returns:
   - type: [ bool ]
-    description: If the `Card` passed the filter.
+    description: "`true` if the card fulfills the filter, `false` otherwise."
 guide: |-
-  A `CardFilter` is a function that takes a `Card` as its first parameter and
-  returns a boolean (either `true` or `false`). A simple example would be:
+  A `CardFilter` is a function that takes a `Card` as its first parameter and returns a boolean (either `true` or `false`). A simple example would be:
 
   ```lua
   function s.lvfilter(c)
@@ -27,32 +25,22 @@ guide: |-
   This returns `true` if `c` is a Level 4 monster.
 
   ## Using filters
-  Filters are mostly used with certain `Duel` and `Group` functions that collect or check
-  for `Card`s that fulfill the filter (in other words, `Card`s that make the function return `true`).
-  Those functions will call the filter passed to them for every card they are concerned with.
+  Filters are mostly used with certain `Duel` and `Group` functions that collect or check for cards that fulfill the filter (in other words, cards that make the function return `true`). Those functions will call the filter passed to them for every card they are concerned with.
 
-  For example, we can use the `s.lvfilter` we have earlier to check if there are `Card`s that fulfill it in certain locations.
-  The following expression will be `true` if there is at least 1 Level 4 monster in either player's GY:
+  For example, we can use the `s.lvfilter` we have earlier to check if there are cards that fulfill it in certain locations. The following expression will be `true` if there is at least 1 Level 4 monster in either player's GY:
   ```lua
   Duel.IsExistingMatchingCard(s.lvfilter,tp,LOCATION_GRAVE,LOCATION_GRAVE,1,nil)
   ```
 
-  We can also make a player select `Card`s that fulfill a `CardFilter`.
-  Here, a player will select 1 Level 4 monster in their hand, and the selected `Card` will be stored in a `Group` called `g`:
+  We can also make a player select cards that fulfill a filter. Here, a player will select 1 Level 4 monster in their hand, and the selected card will be stored in a group called `g`:
   ```lua
   local g=Duel.SelectMatchingCard(tp,s.lvfilter,LOCATION_HAND,0,1,1,nil)
   ```
 
   ## Additional `CardFilter` Arguments
-  Sometimes, filters need additional details other than the `Card` they're checking.
-  For example, we may need to write a filter for a face-up monster with ATK higher
-  than the activating player's LP - a value that changes throughout the duel.
-  This is where having additional filter arguments comes in.
+  Sometimes, filters need additional details other than the card they're checking. For example, we may need to write a filter for a face-up monster with ATK higher than the activating player's LP - a value that changes throughout the duel. This is where having additional filter arguments comes in.
 
-  Filter functions always take a `Card` as their first parameter (usually named `c` by convention),
-  but they can take any amount of arguments after that. For the earlier example,
-  we can create a filter that has an additional parameter called `minatk`.
-  We then check inside the filter if `c`'s ATK is greater than or equal to `minatk`.
+  Filter functions always take a card as their first parameter (usually named `c` by convention), but they can take any amount of arguments after that. For the earlier example, we can create a filter that has an additional parameter called `minatk`. We then check inside the filter if `c`'s ATK is greater than or equal to `minatk`.
 
   ```lua
   function s.atkfilter(c,minatk)
@@ -60,15 +48,9 @@ guide: |-
   end
   ```
 
-  Now, for the filter to know what `minatk` is, **it needs to be passed to it**. This part is important.
-  Otherwise, `minatk` would just be `nil`.
-  Functions that use filters can take additional arguments.
-  These functions will pass the additional arguments they receive (usually after the "exception" argument)
-  to the filter they're using, and they become additional arguments of that filter.
+  Now, for the filter to know what `minatk` is, **it needs to be passed to it**. This part is important. Otherwise, `minatk` would just be `nil`. Functions that use filters can take additional arguments. These functions will pass the additional arguments they receive (usually after the "exception" argument) to the filter they're using, and they become additional arguments of that filter.
 
-  To illustrate, say we have an effect with an activation condition that says
-  *If you control a face-up monster with ATK higher than your LP:*.
-  For this, we can use the `s.atkfilter` earlier like so:
+  To illustrate, say we have an effect with an activation condition that says *If you control a face-up monster with ATK higher than your LP:*. For this, we can use the `s.atkfilter` earlier like so:
 
   ```lua
   function s.condition(e,tp,eg,ep,ev,re,r,rp)
@@ -77,23 +59,15 @@ guide: |-
   end
   ```
 
-  Here, we first obtained `tp`'s LP and assigned it to the variable named `lp`.
-  Then, we passed that `lp` as an extra argument to `Duel.IsExistingMatchingCard`.
-  Note that it counts as an extra argument since it comes after the "exception" argument, which is `nil` in this case.
+  Here, we first obtained `tp`'s LP and assigned it to the variable named `lp`. Then, we passed that `lp` as an extra argument to `Duel.IsExistingMatchingCard`. Note that it counts as an extra argument since it comes after the "exception" argument, which is `nil` in this case.
 
-  Internally, `Duel.IsExistingMatchingCard` will call `s.atkfilter` using `lp` as an extra argument.
-  This will correspond to the `minatk` parameter of the filter.
-  In other words, the first extra argument passed to `Duel.IsExistingMatchingCard` (called `lp`)
-  becomes the first argument passed to `s.atkfilter` (called `minatk`).
+  Internally, `Duel.IsExistingMatchingCard` will call `s.atkfilter` using `lp` as an extra argument. This will correspond to the `minatk` parameter of the filter. In other words, the first extra argument passed to `Duel.IsExistingMatchingCard` (called `lp`)
+  becomes the second argument passed to `s.atkfilter` (called `minatk`).
 
   ## Nesting `CardFilter` functions
-  There are also cases where a filter needs additional information that depends on another `Card` that fulfills a separate `CardFilter`.
-  A simple example is an effect that needs to banish 1 monster from a player's hand,
-  and send another monster from that player's Deck to the GY with the same level as the first monster.
+  There are also cases where a filter needs additional information that depends on another `Card` that fulfills a separate filter. A simple example is an effect that needs to banish 1 monster from a player's hand, and send another monster from that player's Deck to the GY with the same level as the first monster.
 
-  This means that the second monster's level will depend on the first monster's level.
-  Naturally, we would need two `CardFilter`s for this, but more importantly,
-  the first monster's filter will need to call `Duel.IsExistingMatchingCard` inside it using the second monster's filter.
+  This means that the second monster's level will depend on the first monster's level. Naturally, we would need two filters for this, but more importantly, the first monster's filter will need to call `Duel.IsExistingMatchingCard` inside it using the second monster's filter.
 
   ```lua
   --filter for the first monster (the card to be banished)
@@ -107,22 +81,12 @@ guide: |-
   end
   ```
 
-  Here, `s.rmfilter` is fulfilled if `c` is a monster that has a level and can be banished,
-  and that there exists a monster in `tp`'s Deck which satisfies `s.tgfilter`.
-  It passes `c:GetLevel()` (the monster's level) as an additional argument to the `Duel.IsExistingMatchingCard` call,
-  which will in turn pass it to `s.tgfilter` as its additional argument called `lv`.
+  Here, `s.rmfilter` is fulfilled if `c` is a monster that has a level and can be banished, and that there exists a monster in `tp`'s Deck which satisfies `s.tgfilter`. It passes `c:GetLevel()` (the monster's level) as an additional argument to the `Duel.IsExistingMatchingCard` call, which will in turn pass it to `s.tgfilter` as its additional argument called `lv`.
 
-  `s.tgfilter` will then be fulfilled by monsters that can be sent to the GY and has a level equal to the passed `lv`.
-  The following legality check can be used to see if we have a valid monster to banish
-  (such that we'll also have a valid monster to send to the GY):
+  `s.tgfilter` will then be fulfilled by monsters that can be sent to the GY and has a level equal to the passed `lv`. The following legality check can be used to see if we have a valid monster to banish (such that we'll also have a valid monster to send to the GY):
 
   ```lua
   if chk==0 then return Duel.IsExistingMatchingCard(s.rmfilter,tp,LOCATION_HAND,0,1,nil,tp) end
   ```
 
-  Essentially, we're using a function that uses a filter that uses a function that uses a filter.
-  Hence, "nested". In theory, there's no limit to how deep such nesting could go
-  (ignoring technical stuff like memory, performance, and stack size),
-  but in practice, most cards that require nesting filters will only need single nesting.
-  For a card that uses nesting filters two levels deep, you can check out
-  [<u>Small World</u>](https://github.com/ProjectIgnis/CardScripts/blob/master/official/c89558743.lua).
+  Essentially, we're using a function that uses a filter that uses a function that uses a filter. Hence, "nested". In theory, there's no limit to how deep such nesting could go (ignoring technical limitations like memory, performance, and stack size), but in practice, most cards that require nesting filters will only need single nesting. For a card that uses nesting filters two levels deep, you can check out [<u>Small World</u>](https://github.com/ProjectIgnis/CardScripts/blob/master/official/c89558743.lua).

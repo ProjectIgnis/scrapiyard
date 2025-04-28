@@ -5,4 +5,5 @@ value: 0x196
 description: >-
   The ["Vanquish Soul"](https://yugipedia.com/wiki/Vanquish_Soul) archetype.
 summary: Vanquish Soul
-status: { index: stable }
+status:
+  index: stable

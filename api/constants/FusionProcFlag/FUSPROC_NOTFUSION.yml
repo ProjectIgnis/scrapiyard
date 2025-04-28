@@ -2,8 +2,7 @@
 name: FUSPROC_NOTFUSION
 enum: FusionProcFlag
 value: 0x100
-description: >-
-  Flag used for the various filters in the fusion procedure.
+description: This flag is used for effects that use the Fusion Summon procedure but do not count as a Fusion Summon, such as ["Favorite Contact"](https://yugipedia.com/wiki/Favorite_Contact).
+summary: Not treated as a Fusion Summon.
 status:
   index: stable
-tags: [ under-construction ]

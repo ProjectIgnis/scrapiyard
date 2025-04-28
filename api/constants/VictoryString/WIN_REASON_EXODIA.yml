@@ -1,9 +1,0 @@
----!constant
-name: WIN_REASON_EXODIA
-enum: VictoryString
-value: 0x10
-description: >-
-  The hexadecimal value for a duel win caused by "Exodia, the Forbidden One"
-status:
-  index: stable
-tags: [ under-construction ]

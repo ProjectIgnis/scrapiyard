@@ -5,4 +5,5 @@ value: 0xff
 description: >-
   The ["Clear Wing"](https://yugipedia.com/wiki/Clear_Wing) archetype.
 summary: Clear Wing
-status: { index: stable }
+status:
+  index: stable

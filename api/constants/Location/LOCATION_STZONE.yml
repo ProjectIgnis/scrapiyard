@@ -1,9 +1,9 @@
 ---!constant
 name: LOCATION_STZONE
-enum: Location
+enum: SymbolicLocation
 value: 0x400
-description: >-
-  The Spell/Trap Zone (without the Field Zone). Symbolic location. Can be used in functions expecting a location and also in SetRange (except with trigger effects)
+description: The [Spell & Trap Zones](https://yugipedia.com/wiki/Spell_%26_Trap_Zone). This excludes the [Field Zone](https://yugipedia.com/wiki/Field_Zone) and the separate [Pendulum Zones](https://yugipedia.com/wiki/Pendulum_Zone) in Master Rule 3.
+summary: Spell & Trap Zones
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ symbolic-location ]

@@ -5,4 +5,5 @@ value: 0x17c
 description: >-
   The ["Scareclaw"](https://yugipedia.com/wiki/Scareclaw) archetype.
 summary: Scareclaw
-status: { index: stable }
+status:
+  index: stable

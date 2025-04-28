@@ -9,4 +9,5 @@ returns:
   - name: id
     type: [ int ]
     description: The card passcode.
-status: { index: stable }
+status:
+  index: stable

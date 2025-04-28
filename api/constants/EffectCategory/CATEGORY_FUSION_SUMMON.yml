@@ -2,8 +2,7 @@
 name: CATEGORY_FUSION_SUMMON
 enum: EffectCategory
 value: 0x40000000
-description: >-
-  Describes an effect that Fusion Summons
+description: An activated effect with this category may perform a Fusion Summon(s) on resolution.
+summary: Performs a Fusion Summon(s).
 status:
   index: stable
-tags: [ under-construction ]

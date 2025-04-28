@@ -2,8 +2,10 @@
 name: EFFECT_CHANGE_LINKMARKER
 enum: EffectCode
 value: 425
-description: >-
-  Sets the affected card's LinkMarkers to the value provided
+description: The Link Arrows of a card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) become the [Link Arrow(s)](/api/enums/LinkMarker) specified as the effect's [value](/api/functions/Effect/SetValue). This overwrites the card's current Link Arrows, unlike [`EFFECT_ADD_LINKMARKER`](/api/constants/EffectCode/EFFECT_ADD_LINKMARKER).
+summary: The Link Arrows of affected cards become the specified value.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_REMOVE_LINKMARKER
+    link: /api/constants/EffectCode/EFFECT_REMOVE_LINKMARKER

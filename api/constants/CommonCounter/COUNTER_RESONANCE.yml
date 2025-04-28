@@ -1,0 +1,8 @@
+---!constant
+name: COUNTER_RESONANCE
+enum: CommonCounter
+value: 0x1041
+description: The counter code of [Resonance Counters](https://yugipedia.com/wiki/Resonance_Counter).
+summary: Resonance Counter
+status:
+  index: stable

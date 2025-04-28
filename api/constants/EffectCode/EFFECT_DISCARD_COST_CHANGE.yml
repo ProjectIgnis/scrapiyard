@@ -2,8 +2,7 @@
 name: EFFECT_DISCARD_COST_CHANGE
 enum: EffectCode
 value: 338
-description: >-
-  Counter Trap cards cost change (Guilding Ariadne)
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) can activate [Counter Traps](https://yugipedia.com/wiki/Counter_Trap_Card) without discarding cards as cost (i.e., due to the effect of ["Guiding Ariadne"](https://yugipedia.com/wiki/Guiding_Ariadne)).
+summary: Affected players can activate Counter Traps without discarding for cost.
 status:
   index: stable
-tags: [ under-construction ]

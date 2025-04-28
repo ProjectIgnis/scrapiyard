@@ -9,4 +9,5 @@ status:
   index: stable
 aliases:
   - name: Auxiliary
-    status: { index: stable }
+    status:
+      index: stable

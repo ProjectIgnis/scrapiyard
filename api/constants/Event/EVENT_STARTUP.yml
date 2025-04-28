@@ -2,8 +2,7 @@
 name: EVENT_STARTUP
 enum: Event
 value: 1000
-description: >-
-  This event is raised once, at the start of the duel
+description: This event is raised at the start of the Duel.
+summary: The start of the Duel.
 status:
   index: stable
-tags: [ under-construction ]

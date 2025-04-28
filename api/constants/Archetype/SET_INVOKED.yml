@@ -5,4 +5,5 @@ value: 0xf4
 description: >-
   The ["Invoked"](https://yugipedia.com/wiki/Invoked) archetype.
 summary: Invoked
-status: { index: stable }
+status:
+  index: stable

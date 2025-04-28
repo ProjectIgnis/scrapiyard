@@ -2,8 +2,7 @@
 name: EFFECT_SUMMON_COST
 enum: EffectCode
 value: 91
-description: >-
-  The affected player must pay a cost to Normal Summon.
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) must perform a cost, defined as the effect's [operation function](/api/functions/Effect/SetOperation), to [Normal Summon](https://yugipedia.com/wiki/Normal_Summon) a monster.
+summary: Affected players must pay a cost to Normal Summon monsters.
 status:
   index: stable
-tags: [ under-construction ]

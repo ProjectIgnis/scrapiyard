@@ -2,8 +2,7 @@
 name: ACTIVITY_NORMALSUMMON
 enum: ActivityCode
 value: 2
-description: >-
-  Refers to the action of performing a Normal Summon
+description: &desc The action of performing a Normal Summon.
+summary: *desc
 status:
   index: stable
-tags: [ under-construction ]

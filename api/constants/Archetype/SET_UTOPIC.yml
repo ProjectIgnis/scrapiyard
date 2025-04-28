@@ -5,4 +5,5 @@ value: 0x7f
 description: >-
   The ["Utopic"](https://yugipedia.com/wiki/Utopic) archetype.
 summary: Utopic
-status: { index: stable }
+status:
+  index: stable

@@ -2,7 +2,7 @@
 name: RACE_DRAGON
 enum: MonsterRace
 value: 0x2000
-description: >-
-  The [Dragon](https://yugipedia.com/wiki/Dragon) Monster Type
+description: The [Dragon](https://yugipedia.com/wiki/Dragon) Monster Type.
 summary: Dragon
-status: { index: stable }
+status:
+  index: stable

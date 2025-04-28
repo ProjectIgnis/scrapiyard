@@ -2,8 +2,7 @@
 name: EFFECT_CANNOT_LOSE_LP
 enum: EffectCode
 value: 401
-description: >-
-  The affected player is prevent from losing the duel while their LP is 0
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot lose the Duel by having 0 LP.
+summary: Affected players cannot lose by having 0 LP.
 status:
   index: stable
-tags: [ under-construction ]

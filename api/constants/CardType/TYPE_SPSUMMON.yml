@@ -5,4 +5,5 @@ value: 0x2000000
 description: >-
   The [Special Summon](https://yugipedia.com/wiki/Special_Summon_Monster) Card Type for Monsters
 summary: Special Summon
-status: { index: stable }
+status:
+  index: stable

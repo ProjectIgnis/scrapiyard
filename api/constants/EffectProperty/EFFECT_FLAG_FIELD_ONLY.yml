@@ -1,9 +1,0 @@
----!constant
-name: EFFECT_FLAG_FIELD_ONLY
-enum: EffectProperty
-value: 0x8
-description: >-
-  This effect is registered to the global environment
-status:
-  index: stable
-tags: [ under-construction ]

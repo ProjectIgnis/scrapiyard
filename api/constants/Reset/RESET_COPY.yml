@@ -2,6 +2,8 @@
 name: RESET_COPY
 enum: Reset
 value: 0x8000
-description: Resets effects registered by copying
+description: The reset type used to [manually reset](/api/functions/Card/ResetEffect) [effects](/api/types/Effect) that were registered by [copying](/api/functions/Card/CopyEffect), with a specified instance ID. This cannot be used as a reset value for [`Effect.SetReset`](/api/functions/Effect/SetReset).
+summary: Manually resets effects copied effects.
 status:
   index: stable
+tags: [ manual-reset ]

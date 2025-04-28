@@ -1,9 +1,0 @@
----!constant
-name: WIN_REASON_PHANTASM_SPIRAL
-enum: VictoryString
-value: 0x1c
-description: >-
-  The hexadecimal value for a duel win caused by "Phantasm Spiral Assault"
-status:
-  index: stable
-tags: [ under-construction ]

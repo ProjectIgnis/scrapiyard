@@ -2,8 +2,7 @@
 name: STATUS_CHAINING
 enum: CardStatus
 value: 0x10000
-description: >-
-  A card with this status has one of its effects on the current Chain
+description: A card with this status has one of its effects on the current chain.
+summary: Has one of its effects on the current chain.
 status:
   index: stable
-tags: [ under-construction ]

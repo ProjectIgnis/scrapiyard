@@ -2,8 +2,8 @@
 name: RESET_CODE
 enum: Reset
 value: 0x4000
-description: >-
-  Resets the single effect of the specified Code (excluding EFFECT_FLAG_SINGLE_RANGE)
+description: The reset type used to [manually reset](/api/functions/Card/ResetEffect) [effects](/api/types/Effect) with a specified [effect code](/api/enums/EffectCode). This cannot be used as a reset value for [`Effect.SetReset`](/api/functions/Effect/SetReset).
+summary: Manually resets effects with a given effect code.
 status:
   index: stable
-tags: [ under-construction ]
+tags: [ manual-reset ]

@@ -2,8 +2,7 @@
 name: CARD_FOSSIL_FUSION
 enum: CommonCard
 value: 59419719
-description: >-
-  Fossil Fusion's ID, used for listed_names and specific support
+description: The passcode of ["Fossil Fusion"](https://yugipedia.com/wiki/Fossil_Fusion).
+summary: Fossil Fusion
 status:
   index: stable
-tags: [ under-construction ]

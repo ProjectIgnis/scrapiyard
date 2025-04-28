@@ -2,8 +2,7 @@
 name: REASON_SUMMON
 enum: Reason
 value: 0x10
-description: >-
-  Used for a summon
+description: The reason value for actions caused by Normal Summoning a monster.
+summary: Caused by Normal Summoning a monster.
 status:
   index: stable
-tags: [ under-construction ]

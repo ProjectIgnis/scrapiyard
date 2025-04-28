@@ -2,8 +2,7 @@
 name: EFFECT_CHANGE_ENVIRONMENT
 enum: EffectCode
 value: 290
-description: >-
-  The active Field Spell is treated as a given card if none exists (Maiden of the Aqua, Gravekeeper's Priestess)
+description: If an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is applying and there are no cards in either Field Zone, the passcode specified as the effect's [value](/api/functions/Effect/SetValue) is treated as an active Field Spell.
+summary: Treats a given passcode as an active Field Spell.
 status:
   index: stable
-tags: [ under-construction ]

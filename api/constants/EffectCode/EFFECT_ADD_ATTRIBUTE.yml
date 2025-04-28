@@ -2,8 +2,10 @@
 name: EFFECT_ADD_ATTRIBUTE
 enum: EffectCode
 value: 125
-description: >-
-  Treats a Card(s) as a additional element(s) (written into Effect.SetValue())
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is **also** treated as the [attribute(s)](/api/enums/MonsterAttribute) specified as the effect's [value](/api/functions/Effect/SetValue). This does not overwrite the card's current attributes, unlike [`EFFECT_CHANGE_ATTRIBUTE`](/api/constants/EffectCode/EFFECT_CHANGE_ATTRIBUTE).
+summary: Affected cards are treated as an additional attribute(s).
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_REMOVE_ATTRIBUTE
+    link: /api/constants/EffectCode/EFFECT_REMOVE_ATTRIBUTE

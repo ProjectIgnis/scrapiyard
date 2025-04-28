@@ -2,8 +2,7 @@
 name: TIMING_END_PHASE
 enum: Timing
 value: 0x20
-description: >-
-  During the End Phase of a turn
+description: An effect with this [hint timing](/api/functions/Effect/SetHintTiming) will be prompted for activation in the [End Phase](https://yugipedia.com/wiki/End_Phase).
+summary: Prompts in the End Phase.
 status:
   index: stable
-tags: [ under-construction ]

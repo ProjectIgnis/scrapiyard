@@ -2,8 +2,10 @@
 name: EFFECT_MUST_ATTACK
 enum: EffectCode
 value: 191
-description: >-
-  Affected card must attack if able
+description: A monster affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) must attack, if able. Its controller cannot end the [Battle Phase](https://yugipedia.com/wiki/Battle_Phase) if the monster has not attacked yet.
+summary: Affected monsters must attack, if able.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EFFECT_MUST_ATTACK_MONSTER
+    link: /api/constants/EffectCode/EFFECT_MUST_ATTACK_MONSTER

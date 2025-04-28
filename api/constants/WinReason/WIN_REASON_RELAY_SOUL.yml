@@ -1,0 +1,8 @@
+---!constant
+name: WIN_REASON_RELAY_SOUL
+enum: WinReason
+value: 0x1a
+description: The reason value for a Duel win caused by ["Relay Soul"](https://yugipedia.com/wiki/Relay_Soul).
+summary: Victory by the effect of "Relay Soul"
+status:
+  index: stable

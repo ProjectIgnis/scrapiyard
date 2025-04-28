@@ -5,4 +5,5 @@ value: 0x30a2
 description: >-
   The ["Dark Magician Girl"](https://yugipedia.com/wiki/Dark_Magician_Girl_(archetype)) archetype.
 summary: Dark Magician Girl
-status: { index: stable }
+status:
+  index: stable

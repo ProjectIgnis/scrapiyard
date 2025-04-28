@@ -2,11 +2,11 @@
 name: EFFECT_IMMUNE_EFFECT
 enum: EffectCode
 value: 1
-description: >-
-  Affected card is unaffected by card effects. The SetValue of this effect takes the following parameters:
-e: this effect itself
-re: the effect that would affect the card.
-c: the card that would be affected (uncertain, to be confirmed)
+description: A card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) is unaffected by effects that fulfill its [value function](/api/functions/Effect/SetValue).
+summary: Opponent cannot attack affected monsters, but can attack directly.
 status:
   index: stable
-tags: [ under-construction ]
+# effect structure:
+#   SetValue: function(e,re,c) -> bool
+#     checks if `re` can affect the handler of `e`
+#     not certain what `c` is for

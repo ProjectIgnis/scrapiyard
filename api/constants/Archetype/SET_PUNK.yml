@@ -5,4 +5,5 @@ value: 0x173
 description: >-
   The ["P.U.N.K."](https://yugipedia.com/wiki/P.U.N.K.) archetype.
 summary: P.U.N.K.
-status: { index: stable }
+status:
+  index: stable

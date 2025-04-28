@@ -2,8 +2,7 @@
 name: EFFECT_SKIP_SP
 enum: EffectCode
 value: 181
-description: >-
-  Skip affected player's standby phase (used with SetTargetRange(tp value,1-tp value), 0 for not affected, 1 for affect)
+description: A player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) skips their [Standby Phase](https://yugipedia.com/wiki/Standby_Phase).
+summary: Affected players skip their Standby Phase.
 status:
   index: stable
-tags: [ under-construction ]

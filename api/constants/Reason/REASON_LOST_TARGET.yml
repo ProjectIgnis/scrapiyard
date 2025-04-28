@@ -2,8 +2,7 @@
 name: REASON_LOST_TARGET
 enum: Reason
 value: 0x200
-description: >-
-  Equip Target stops being face-up, either by leaving the field or being flipped face-down
+description: The reason value for actions caused by losing the equip target of an Equip Card, e.g., it leaves the field or is flipped face-down.
+summary: Caused by an losing the equip target of an Equip Card.
 status:
   index: stable
-tags: [ under-construction ]

@@ -1,6 +1,5 @@
 ---!type
 name: Card
 supertype: userdata
-description: >-
-  (To be added)
-tags: [ under-construction ]
+description: Represents a card. Can use the functions in the [`Card` namespace](/api/namespaces/Card) as methods.
+summary: Represents a card.

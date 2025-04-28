@@ -1,9 +1,0 @@
----!constant
-name: DECLTYPE_MONSTER
-enum: HintMessage
-value: 70
-description: >-
-  Constant to be used with CardType declaration
-status:
-  index: stable
-tags: [ under-construction ]

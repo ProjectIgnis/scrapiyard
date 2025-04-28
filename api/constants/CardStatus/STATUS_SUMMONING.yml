@@ -2,8 +2,7 @@
 name: STATUS_SUMMONING
 enum: CardStatus
 value: 0x200
-description: >-
-  The timing for when a monster "Would be Summoned"
+description: A monster with this status *would be* Summoned.
+summary: Would be Summoned.
 status:
   index: stable
-tags: [ under-construction ]

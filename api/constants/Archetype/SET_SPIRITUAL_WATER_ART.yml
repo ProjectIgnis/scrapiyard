@@ -5,4 +5,5 @@ value: 0x614d
 description: >-
   The ["Spiritual Water Art"](https://yugipedia.com/wiki/Spiritual_Water_Art) archetype.
 summary: Spiritual Water Art
-status: { index: stable }
+status:
+  index: stable

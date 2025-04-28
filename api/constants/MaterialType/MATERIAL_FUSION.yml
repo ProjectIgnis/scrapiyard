@@ -1,8 +1,0 @@
----!constant
-name: MATERIAL_FUSION
-enum: MaterialType
-value: 0x100000000
-description: (To be added)
-status:
-  index: stable
-tags: [ under-construction ]

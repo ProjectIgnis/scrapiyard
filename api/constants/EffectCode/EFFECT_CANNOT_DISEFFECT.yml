@@ -2,10 +2,9 @@
 name: EFFECT_CANNOT_DISEFFECT
 enum: EffectCode
 value: 13
-description: >-
-  Affected cards cannot have the resolution of their effects negated. If SetValue is used, it receives the following parameters:
-e: this effect itself
-chaincount: the chain associated with the effect. Can be used in Duel.GetChainInfo
+description: The effects (resolution) activated by a card affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) cannot be negated. However, their **activation** can still be negated. To prevent activation negation, use [`EFFECT_CANNOT_INACTIVATE`](/api/constants/EffectCode/EFFECT_CANNOT_INACTIVATE).
+summary: The resolution of effects of affected cards cannot be negated.
 status:
   index: stable
-tags: [ under-construction ]
+# effect structure:
+#   SetValue: function(e,chaincount) -> bool

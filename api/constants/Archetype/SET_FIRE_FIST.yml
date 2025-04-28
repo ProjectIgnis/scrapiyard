@@ -5,4 +5,5 @@ value: 0x79
 description: >-
   The ["Fire Fist"](https://yugipedia.com/wiki/Fire_Fist) archetype.
 summary: Fire Fist
-status: { index: stable }
+status:
+  index: stable

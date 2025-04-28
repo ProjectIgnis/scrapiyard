@@ -1,9 +1,0 @@
----!constant
-name: EFFECT_FLAG2_CHECK_SIMULTANEOUS
-enum: EffectProperty
-value: 0x0004
-description: >-
-  The effect shouldn't trigger if the card was sent in the triggering location at the same time of the event that triggered it
-status:
-  index: stable
-tags: [ under-construction ]

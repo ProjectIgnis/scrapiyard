@@ -2,8 +2,12 @@
 name: EVENT_SUMMON_NEGATED
 enum: Event
 value: 1114
-description: >-
-  This event is raised when a Summon is negated, to be detected by Witch's Strike.
+description: This event is raised when the [Normal Summon](https://yugipedia.com/wiki/Normal_Summon) of a monster is negated.
+summary: The Normal Summon of a monster is negated.
 status:
   index: stable
-tags: [ under-construction ]
+suggestedLinks:
+  - name: EVENT_FLIP_SUMMON_NEGATED
+    link: /api/constants/Event/EVENT_FLIP_SUMMON_NEGATED
+  - name: EVENT_SPSUMMON_NEGATED
+    link: /api/constants/Event/EVENT_SPSUMMON_NEGATED

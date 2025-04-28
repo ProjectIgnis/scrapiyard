@@ -1,0 +1,8 @@
+---!constant
+name: ANNOUNCE_CARD
+enum: CardDeclarationType
+value: 0x7
+description: &desc Declaring the name of any card.
+summary: *desc
+status:
+  index: stable

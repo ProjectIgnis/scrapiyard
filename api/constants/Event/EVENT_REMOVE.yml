@@ -2,8 +2,7 @@
 name: EVENT_REMOVE
 enum: Event
 value: 1011
-description: >-
-  This event is raised when a card is banished
+description: This event is raised when a card(s) is banished.
+summary: A card(s) is banished.
 status:
   index: stable
-tags: [ under-construction ]
