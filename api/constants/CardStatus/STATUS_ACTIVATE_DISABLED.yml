@@ -6,4 +6,3 @@ description: A card with this status had its activation negated.
 summary: Had its activation negated.
 status:
   index: stable
-tags: [ under-construction ]
