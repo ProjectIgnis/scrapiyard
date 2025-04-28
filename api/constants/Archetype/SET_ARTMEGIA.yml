@@ -1,0 +1,10 @@
+---!constant
+name: SET_ARTMEGIA
+enum: Archetype
+value: 0x1c7
+description: >-
+  The ["Artmegia"](https://yugipedia.com/wiki/Artmegia) archetype.
+summary: Artmegia
+status:
+  index: unstable
+  message: Constant's name may change to follow the archetype's official English name.
