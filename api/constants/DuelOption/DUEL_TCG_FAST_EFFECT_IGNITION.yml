@@ -1,0 +1,8 @@
+---!constant
+name: DUEL_TCG_FAST_EFFECT_IGNITION
+enum: DuelOption
+value: 0x400000000
+description: In Duels with this option, an Ignition Effect is treated as a fast effect if it is the first effect in the Chain.
+summary: Ignition Effects in Chain Link 1 are treated as fast effects.
+status:
+  index: stable

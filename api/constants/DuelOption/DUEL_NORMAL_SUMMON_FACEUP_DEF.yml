@@ -1,0 +1,8 @@
+---!constant
+name: DUEL_NORMAL_SUMMON_FACEUP_DEF
+enum: DuelOption
+value: 0x1000000000
+description: In Duels with this option, monsters can be Normal Summoned in face-up Defense Position.
+summary: Monsters can be Normal Summoned in face-up Defense Position.
+status:
+  index: stable

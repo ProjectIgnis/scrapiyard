@@ -1,8 +1,0 @@
----!constant
-name: DUEL_OBSOLETE_IGNITION
-enum: DuelOption
-value: 0x100
-description: In Duels with this option, when a Summon is completed or a Chain has finished resolving, the turn player can activate an Ignition Effect (not just fast effects) before the opponent is allowed to respond.
-summary: The turn player can activate an Ignition Effect after a Chain or Summon.
-status:
-  index: stable
