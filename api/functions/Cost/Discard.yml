@@ -26,6 +26,6 @@ parameters:
     required: false
     defaultValue: 1
 returns:
-  - type: [ CostFunction ]
+  - type: [ EffectCost ]
     description: The cost function generated based on the given parameters.
     guaranteed: true

@@ -1,7 +1,7 @@
 ---!function
 name: Detach
 namespace: Cost
-description: Creates a baseline [cost function](/api/types/EffectCost) used for effects that detach Xyz materials the activating card itself as cost, such as `You can detach 1 material from this card; ...` (e.g. "M-X-Saber Invoker").
+description: Creates a baseline [cost function](/api/types/EffectCost) used for effects that detach Xyz materials from the activating card as cost, such as `You can detach 1 material from this card; ...` (e.g. "M-X-Saber Invoker").
 summary: Creates a cost function that detaches materials from the activating card.
 status:
   index: stable
@@ -25,6 +25,6 @@ parameters:
     description: Additional handling to apply to the materials after detaching them.
     required: false
 returns:
-  - type: [ CostFunction ]
+  - type: [ EffectCost ]
     description: The cost function generated based on the given parameters.
     guaranteed: true
