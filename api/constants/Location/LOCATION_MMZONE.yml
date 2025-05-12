@@ -1,6 +1,6 @@
 ---!constant
 name: LOCATION_MMZONE
-enum: SymbolicLocation
+enum: Location
 value: 0x800
 description: The [Main Monster Zone](https://yugipedia.com/wiki/Main_Monster_Zone).
 summary: Main Monster Zone
