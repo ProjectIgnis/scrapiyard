@@ -1,9 +1,9 @@
 ---!constant
 name: CARD_MEDIUS_THE_INNOCENT
 enum: CommonCard
-value: 101301008
-description: The passcode of ["Medius the Innocent"](https://yugipedia.com/wiki/Medius the Innocent).
-summary: Medius the Innocent
+value: 97556336
+description: The passcode of ["Medius the Pure"](https://yugipedia.com/wiki/Medius_the_Pure).
+summary: Medius the Pure
 status:
   index: unstable
   message: Constant's name may change to follow the card's official English name.
