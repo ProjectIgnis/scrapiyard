@@ -1,0 +1,17 @@
+---!function
+name: GetMarkedEffects
+namespace: Card
+description: Returns all the effects a card that were [registered](/api/functions/Card/RegisterEffect) with a specified effect marker.
+summary: Gets all of a card's effects that were registered with an effect marker.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to get the effects of.
+  - name: marker
+    type: [ int ]
+    description: The [EffectMarker](/api/enums/EffectMarker) used to mark the effects.
+returns:
+  - type: [ EffectArray ]
+    description: The effects registered to `c` that were marked with `marker`.
