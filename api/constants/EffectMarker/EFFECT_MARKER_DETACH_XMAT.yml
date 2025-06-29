@@ -1,0 +1,13 @@
+---!constant
+name: EFFECT_MARKER_DETACH_XMAT
+enum: EffectMarker
+value: 511002571
+description: This marker must be used when [registering](/api/functions/Card/RegisterEffect) the effect of an Xyz Monster that detaches Xyz materials from itself as cost, so it could be identified by ["Tachyon Unit"](https://yugipedia.com/wiki/Tachyon_Unit).
+summary: Marks Xyz Monster effects that detach materials from themselves as cost.
+status:
+  index: stable
+aliases:
+  - name: REGISTER_FLAG_DETACH_XMAT
+    status:
+      index: deprecated
+tags: [ special-handling, unofficial ]

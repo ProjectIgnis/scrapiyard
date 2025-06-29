@@ -1,6 +1,0 @@
----!enum
-name: RegisterFlag
-description: Additional flags that can be set when [registering](/api/functions/Card/RegisterEffect) an effect to mark it so it could be identified by other effects.
-summary: Flags for marking effects.
-bitmaskInt: true
-tags: [ special-handling ]

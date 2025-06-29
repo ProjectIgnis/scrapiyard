@@ -1,0 +1,13 @@
+---!constant
+name: EFFECT_MARKER_CARDIAN
+enum: EffectMarker
+value: 511001692
+description: This marker must be used when [registering](/api/functions/Card/RegisterEffect) the Summoning condition of a ["Flower Cardian"](https://yugipedia.com/wiki/Allure_Queen) monster, so it could be identified by various "Flower Cardian" anime cards.
+summary: Marks "Flower Cardian" Summoning conditions.
+status:
+  index: stable
+aliases:
+  - name: REGISTER_FLAG_CARDIAN
+    status:
+      index: deprecated
+tags: [ special-handling, unofficial ]

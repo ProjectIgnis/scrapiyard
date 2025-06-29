@@ -1,9 +1,0 @@
----!constant
-name: REGISTER_FLAG_TELLAR
-enum: RegisterFlag
-value: 16
-description: This flag must be set when [registering](/api/functions/Card/RegisterEffect) the effect of a ["tellarknight"](https://yugipedia.com/wiki/tellarknight) or ["Constellar"](https://yugipedia.com/wiki/Constellar) monster that activates when the card is Normal Summoned, so it could be identified by ["Tellarknight Constellar Caduceus"](https://yugipedia.com/wiki/Tellarknight_Constellar_Caduceus).
-summary: Marks "tellarknight"/"Constellar" effects that activate when Normal Summoned.
-status:
-  index: stable
-tags: [ special-handling ]

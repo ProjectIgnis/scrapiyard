@@ -1,0 +1,13 @@
+---!constant
+name: EFFECT_MARKER_THUNDRA
+enum: EffectMarker
+value: 12081875
+description: This marker must be used when [registering](/api/functions/Card/RegisterEffect) the effect of a ["Thunder Dragon"](https://yugipedia.com/wiki/Thunder_Dragon) monster that activates by discarding itself, so it could be identified by ["Thunder Dragon Thunderstormech"](https://yugipedia.com/wiki/Thunder_Dragon_Thunderstormech).
+summary: Marks "Thunder Dragon" effects that activate by discarding themselves.
+status:
+  index: stable
+aliases:
+  - name: REGISTER_FLAG_THUNDRA
+    status:
+      index: deprecated
+tags: [ special-handling ]

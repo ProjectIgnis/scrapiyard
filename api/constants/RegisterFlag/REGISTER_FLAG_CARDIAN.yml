@@ -1,9 +1,0 @@
----!constant
-name: REGISTER_FLAG_CARDIAN
-enum: RegisterFlag
-value: 2
-description: This flag must be set when [registering](/api/functions/Card/RegisterEffect) the Summoning condition of a ["Flower Cardian"](https://yugipedia.com/wiki/Allure_Queen) monster, so it could be identified by various "Flower Cardian" anime cards.
-summary: Marks "Flower Cardian" Summoning conditions.
-status:
-  index: stable
-tags: [ special-handling, unofficial ]

@@ -1,0 +1,13 @@
+---!constant
+name: EFFECT_MARKER_DRAGON_RULER
+enum: EffectMarker
+value: 4965193
+description: This marker must be used when [registering](/api/functions/Card/RegisterEffect) the effect of a ["Dragon Ruler"](https://yugipedia.com/wiki/Dragon_Ruler) monster that activates by discarding itself, so it could be identified by ["Chasmatis, Dragon Ruler of Auroras"](https://yugipedia.com/wiki/Chasmatis,_Dragon_Ruler_of_Auroras).
+summary: Marks "Dragon Ruler" effects that activate by discarding themselves.
+status:
+  index: stable
+aliases:
+  - name: REGISTER_FLAG_DRAGON_RULER
+    status:
+      index: deprecated
+tags: [ special-handling ]

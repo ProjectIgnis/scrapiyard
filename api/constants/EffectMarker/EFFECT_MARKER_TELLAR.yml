@@ -1,0 +1,13 @@
+---!constant
+name: EFFECT_MARKER_TELLAR
+enum: EffectMarker
+value: 58858807
+description: This marker must be used when [registering](/api/functions/Card/RegisterEffect) the effect of a ["tellarknight"](https://yugipedia.com/wiki/tellarknight) or ["Constellar"](https://yugipedia.com/wiki/Constellar) monster that activates when the card is Normal Summoned, so it could be identified by ["Tellarknight Constellar Caduceus"](https://yugipedia.com/wiki/Tellarknight_Constellar_Caduceus).
+summary: Marks "tellarknight"/"Constellar" effects that activate when Normal Summoned.
+status:
+  index: stable
+aliases:
+  - name: REGISTER_FLAG_TELLAR
+    status:
+      index: deprecated
+tags: [ special-handling ]

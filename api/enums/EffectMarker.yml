@@ -1,0 +1,5 @@
+---!enum
+name: EffectMarker
+description: Marks an effect when [registering](/api/functions/Card/RegisterEffect) it to a card so it could be identified by other effects.
+summary: Constants for marking effects on registration.
+tags: [ special-handling ]
