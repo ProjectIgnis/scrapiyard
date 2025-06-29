@@ -1,27 +1,26 @@
 ---!function
 name: RegisterEffect
 namespace: Card
-description: >-
-  Registers an Effect (Effect e) (usually an Effect created with Effect.CreateEffect()) to a Card (Card c), ... is a list of integers which Registers further effects in the utility.
+description: &desc Registers an effect to a card.
+summary: *desc
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
+    description: The card to register the effect to. This card becomes the effect's **handler**.
   - name: e
     type: [ Effect ]
-    description: (To be added)
+    description: The effect to register to the card.
   - name: forced
     type: [ bool ]
-    description: (To be added)
+    description: If set to `true`, the effect will be registered even if the card currently cannot be affected by the effect.
     required: false
     defaultValue: false
   - name: ...
-    type: [ any ]
-    description: (To be added)
+    type: [ int ]
+    description: Any amount of [EffectMarker](/api/enums/EffectMarker) values to be used to mark the effect.
     required: false
 returns:
-  - type: [ int ]
-    description: (To be added)
-tags: [ under-construction ]
+  - type: [ Effect, nil ]
+    description: Returns the effect (same as `e`) if successfully registered, `nil` otherwise.
