@@ -1,24 +1,26 @@
 ---!function
 name: AddSetcodesRule
 namespace: Card
-description: Creates and registers [`EFFECT_ADD_SETCODE`](/api/constants/EffectCode/EFFECT_ADD_SETCODE) effects to add any number of archetypes to a card.
-summary: Adds any number of archetypes (setcodes) to a card.
+description: |-
+  Adds additional **original** archetype(s) to a card that couldn't be added in its database entry (due to it being limited to 4 archetypes).
+  This should not be used to add archetypes to a card due to card effects.
+summary: Adds additional original archetype(s) to a card.
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: The card that will receive the archetypes.
+    description: The card that will receive the additional archetype(s).
   - name: code
     type: [ int ]
-    description: A passcode/ID the card should have for the additional archetypes to apply.
+    description: An ID the card should have for the additional archetype(s) to apply.
   - name: copyable
     type: [ any ]
     description: If provided as a non-nil value, the registered effects can be copied.
   - name: ...
     type: [ int ]
-    description: Any number of archetypes that the card will receive.
+    description: The setcode(s) of the archetype(s) the card will receive.
 returns:
   - type: [ EffectArray ]
-    description: A table containing all the `EFFECT_ADD_SETCODE` effects registered.
+    description: A table containing all the [`EFFECT_ADD_SETCODE`](/api/constants/EffectCode/EFFECT_ADD_SETCODE) effects used to add the archetypes.
 tags: [ registers-effect ]
