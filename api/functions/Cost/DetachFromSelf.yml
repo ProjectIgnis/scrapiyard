@@ -1,5 +1,5 @@
 ---!function
-name: Detach
+name: DetachFromSelf
 namespace: Cost
 description: Creates a baseline [cost function](/api/types/EffectCost) used for effects that detach Xyz materials from the activating card as cost, such as `You can detach 1 material from this card; ...` (e.g. "M-X-Saber Invoker").
 summary: Creates a cost function that detaches materials from the activating card.
@@ -9,9 +9,13 @@ aliases:
   - name: aux.dxmcostgen
     status:
       index: deprecated
+  - name: Cost.Detach
+    status:
+      index: deleted
 parameters:
   - name: min
-    type: [ int ]
+  # TODO: document type of function
+    type: [ int, function ]
     description: The minimum number of materials to detach.
   - name: max
   # TODO: document type of function
