@@ -1,0 +1,21 @@
+---!function
+name: IsEndOfBattlePhase
+namespace: Duel
+description: >-
+  Checks if it is currently the end of the Battle Phase (End Step). If `player` is provided it will also check that it is currently that player's turn.
+status:
+  index: stable
+aliases:
+  - name: Duel.IsEndStep
+    status:
+      index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ bool ]
+    description: >-
+      `true` if it is currently the end of the Battle Phase (End Step), `false` otherwise.
+tags: [ under-construction ]

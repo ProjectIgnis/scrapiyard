@@ -2,10 +2,16 @@
 name: IsMainPhase
 namespace: Duel
 description: >-
-  Returns if the current phase is either Main Phase 1 or Main Phase 2.
+  Checks if it is currently the Main Phase. If `player` is provided it will also check that it is currently that player's turn.
 status:
   index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: (To be added)
+    required: false
 returns:
   - type: [ bool ]
-    description: (To be added)
+    description: >-
+      `true` if it is currently the Main Phase, `false` otherwise.
 tags: [ under-construction ]

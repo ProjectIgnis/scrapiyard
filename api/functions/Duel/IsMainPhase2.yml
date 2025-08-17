@@ -1,8 +1,8 @@
 ---!function
-name: IsBattlePhase
+name: IsMainPhase2
 namespace: Duel
 description: >-
-  Checks if it is currently the Battle Phase. If `player` is provided it will also check that it is currently that player's turn.
+  Checks if it is currently the Main Phase 2. If `player` is provided it will also check that it is currently that player's turn.
 status:
   index: stable
 parameters:
@@ -13,5 +13,5 @@ parameters:
 returns:
   - type: [ bool ]
     description: >-
-      `true` if it is currently the Battle Phase, `false` otherwise.
+      `true` if it is currently the Main Phase 2, `false` otherwise.
 tags: [ under-construction ]
