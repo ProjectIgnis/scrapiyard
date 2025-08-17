@@ -9,11 +9,11 @@ parameters:
   - name: player
     type: [ int ]
     description: (To be added)
-  - name: sumtype
-    type: [ int ]
-    description: (To be added)
   - name: c
     type: [ Card ]
+    description: (To be added)
+  - name: sumtype
+    type: [ int ]
     description: (To be added)
   - name: must_use
     type: [ Group, Card, nil ]
