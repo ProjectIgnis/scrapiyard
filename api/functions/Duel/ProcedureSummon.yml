@@ -2,35 +2,35 @@
 name: ProcedureSummon
 namespace: Duel
 description: >-
-  A player (int player) "Procedure Summons" (the SummonType performed is determined by the corresponding parameter) a card (Card c) using "must_use" as part of its materials, choosing among "mg", with "min" and "max" materials to be used for the Summon.
+  Summons a monster such that it is considered to have been [properly Summoned](https://yugipedia.com/wiki/Special_Summon_Monster#Properly_Special_Summoned).
+summary: Summons a monster such that it is considered to have been properly Summoned.
 status:
   index: stable
 parameters:
   - name: player
     type: [ int ]
-    description: (To be added)
+    description: The player performing the Summon.
   - name: c
     type: [ Card ]
-    description: (To be added)
+    description: The monster to Summon.
   - name: sumtype
     type: [ int ]
-    description: (To be added)
+    description: The [type of the Summon](/api/enums/SummonType).
   - name: must_use
     type: [ Group, Card, nil ]
-    description: (To be added)
+    description: A card(s) that must be used as material for the Summon.
     required: false
   - name: mg
     type: [ Group, Card, nil ]
-    description: (To be added)
+    description: A card(s) that the player can choose to use as material for the Summon.
     required: false
   - name: minc
     type: [ int ]
-    description: (To be added)
+    description: The minimum amount of materials that can be used for the Summon.
     required: false
     defaultValue: 0
   - name: maxc
     type: [ int ]
-    description: (To be added)
+    description: The maximum amount of materials that can be used for the Summon.
     required: false
     defaultValue: 0
-tags: [ under-construction ]
