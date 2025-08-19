@@ -1,11 +1,15 @@
 ---!function
-name: IsBattlePhase
+name: IsEndOfBattlePhase
 namespace: Duel
 description: &desc >-
-  Checks if it is currently the Battle Phase.
+  Checks if it is currently the end of the Battle Phase (End Step).
 summary: *desc
 status:
   index: stable
+aliases:
+  - name: Duel.IsEndStep
+    status:
+      index: stable
 parameters:
   - name: player
     type: [ int ]
@@ -14,4 +18,4 @@ parameters:
 returns:
   - type: [ bool ]
     description: >-
-      `true` if it is currently the Battle Phase, `false` otherwise.
+      `true` if it is currently the end of the Battle Phase (End Step), `false` otherwise.

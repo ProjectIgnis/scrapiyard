@@ -1,8 +1,8 @@
 ---!function
-name: IsMainPhase
+name: IsStandbyPhase
 namespace: Duel
 description: &desc >-
-  Checks if it is currently the Main Phase.
+  Checks if it is currently the Standby Phase.
 summary: *desc
 status:
   index: stable
@@ -14,4 +14,4 @@ parameters:
 returns:
   - type: [ bool ]
     description: >-
-      `true` if it is currently the Main Phase, `false` otherwise.
+      `true` if it is currently the Standby Phase, `false` otherwise.

@@ -1,8 +1,7 @@
 ---!function
-name: IsBattlePhase
+name: IsBattleStep
 namespace: Duel
-description: &desc >-
-  Checks if it is currently the Battle Phase.
+description: &desc Checks if it is currently the Battle Step.
 summary: *desc
 status:
   index: stable
@@ -14,4 +13,4 @@ parameters:
 returns:
   - type: [ bool ]
     description: >-
-      `true` if it is currently the Battle Phase, `false` otherwise.
+      `true` if it is currently the Battle Step, `false` otherwise.
