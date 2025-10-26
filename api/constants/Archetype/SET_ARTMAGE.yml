@@ -1,0 +1,9 @@
+---!constant
+name: SET_ARTMAGE
+enum: Archetype
+value: 0x1c7
+description: >-
+  The ["Artmage"](https://yugipedia.com/wiki/Artmage) archetype.
+summary: Artmage
+status:
+  index: stable

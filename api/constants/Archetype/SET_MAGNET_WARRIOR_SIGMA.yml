@@ -1,0 +1,10 @@
+---!constant
+name: SET_MAGNET_WARRIOR_SIGMA
+enum: Archetype
+value: 0xb066
+description: >-
+  The ["Magnet Warrior Σ"](https://yugipedia.com/wiki/Magnet_Warrior_%CE%A3) archetype.
+  Sub-archetype of [`SET_MAGNET_WARRIOR`](/api/constants/Archetype/SET_MAGNET_WARRIOR).
+summary: Magnet Warrior Σ
+status:
+  index: stable

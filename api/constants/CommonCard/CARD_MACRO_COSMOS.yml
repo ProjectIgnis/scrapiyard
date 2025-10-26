@@ -1,0 +1,8 @@
+---!constant
+name: CARD_MACRO_COSMOS
+enum: CommonCard
+value: 30241314
+description: The passcode of ["Macro Cosmos"](https://yugipedia.com/wiki/Macro_Cosmos).
+summary: Macro Cosmos
+status:
+  index: stable

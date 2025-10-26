@@ -1,0 +1,9 @@
+---!constant
+name: SET_RADIANT_TYPHOON
+enum: Archetype
+value: 0x1c9
+description: >-
+  The ["Radiant Typhoon"](https://yugipedia.com/wiki/Radiant_Typhoon) archetype.
+summary: Radiant Typhoon
+status:
+  index: stable

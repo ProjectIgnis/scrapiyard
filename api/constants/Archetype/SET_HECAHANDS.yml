@@ -1,0 +1,9 @@
+---!constant
+name: SET_HECAHANDS
+enum: Archetype
+value: 0x1cc
+description: >-
+  The ["Hecahands"](https://yugipedia.com/wiki/Hecahands) archetype.
+summary: Hecahands
+status:
+  index: stable

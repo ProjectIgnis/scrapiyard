@@ -1,0 +1,8 @@
+---!constant
+name: CARD_BOX_OF_FRIENDS
+enum: CommonCard
+value: 81587028
+description: The passcode of ["Box of Friends"](https://yugipedia.com/wiki/Box_of_Friends).
+summary: Box of Friends
+status:
+  index: stable

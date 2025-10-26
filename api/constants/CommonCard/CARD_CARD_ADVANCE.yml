@@ -1,0 +1,8 @@
+---!constant
+name: CARD_CARD_ADVANCE
+enum: CommonCard
+value: 52112003
+description: The passcode of ["Card Advance"](https://yugipedia.com/wiki/Card_Advance).
+summary: Card Advance
+status:
+  index: stable

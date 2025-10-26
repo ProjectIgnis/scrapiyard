@@ -1,0 +1,9 @@
+---!constant
+name: SET_END_OF_THE_WORLD
+enum: Archetype
+value: 0x1d1
+description: >-
+  The ["End of the World"](https://yugipedia.com/wiki/End_of_the_World) archetype.
+summary: End of the World
+status:
+  index: stable

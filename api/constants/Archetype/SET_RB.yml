@@ -1,0 +1,9 @@
+---!constant
+name: SET_RB
+enum: Archetype
+value: 0x1ca
+description: >-
+  The ["R.B."](https://yugipedia.com/wiki/R.B.) archetype.
+summary: R.B.
+status:
+  index: stable

@@ -13,7 +13,7 @@ aliases:
 parameters:
   - name: player
     type: [ int ]
-    description: If `player` is provided it will also check that it is currently that player's turn.
+    description: If provided, the function will also check if it is currently that player's turn.
     required: false
 returns:
   - type: [ bool ]

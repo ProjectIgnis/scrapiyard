@@ -1,0 +1,9 @@
+---!constant
+name: SET_DRACOTAIL
+enum: Archetype
+value: 0x1c0
+description: >-
+  The ["Dracotail"](https://yugipedia.com/wiki/Dracotail) archetype.
+summary: Dracotail
+status:
+  index: stable

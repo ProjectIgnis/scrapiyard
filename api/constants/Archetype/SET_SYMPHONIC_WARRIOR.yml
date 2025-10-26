@@ -1,7 +1,7 @@
 ---!constant
 name: SET_SYMPHONIC_WARRIOR
 enum: Archetype
-value: 0x1066
+value: 0x6066
 description: >-
   The ["Symphonic Warrior"](https://yugipedia.com/wiki/Symphonic_Warrior) archetype.
   Sub-archetype of [`SET_WARRIOR`](/api/constants/Archetype/SET_WARRIOR).

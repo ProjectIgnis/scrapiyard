@@ -1,10 +1,10 @@
 ---!constant
-name: SET_WARRIOR
+name: SET_MAGNET
 enum: Archetype
-value: 0x2066
+value: 0x1066
 description: >-
-  The ["Warrior"](https://yugipedia.com/wiki/Warrior_(archetype)) archetype.
+  The ["Magnet"](https://yugipedia.com/wiki/Magnet) archetype.
   Implemented as a sub-archetype of a non-existent archetype (`0x66`) due to technical limitations.
-summary: Warrior
+summary: Magnet
 status:
   index: stable

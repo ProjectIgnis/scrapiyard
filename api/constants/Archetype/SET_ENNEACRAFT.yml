@@ -1,0 +1,9 @@
+---!constant
+name: SET_ENNEACRAFT
+enum: Archetype
+value: 0x1cd
+description: >-
+  The ["Enneacraft"](https://yugipedia.com/wiki/Enneacraft) archetype.
+summary: Enneacraft
+status:
+  index: stable

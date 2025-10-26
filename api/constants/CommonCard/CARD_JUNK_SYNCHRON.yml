@@ -1,0 +1,8 @@
+---!constant
+name: CARD_JUNK_SYNCHRON
+enum: CommonCard
+value: 63977008
+description: The passcode of ["Junk Synchron"](https://yugipedia.com/wiki/Junk_Synchron).
+summary: Junk Synchron
+status:
+  index: stable

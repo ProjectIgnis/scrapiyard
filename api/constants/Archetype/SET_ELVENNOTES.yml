@@ -1,10 +1,10 @@
 ---!constant
-name: SET_ARTMEGIA
+name: SET_ELVENNOTES
 enum: Archetype
-value: 0x1c7
+value: 0x1d0
 description: >-
-  The ["Artmegia"](https://yugipedia.com/wiki/Artmegia) archetype.
-summary: Artmegia
+  The ["Elvennotes"](https://yugipedia.com/wiki/Elvennotes) archetype.
+summary: Elvennotes
 status:
   index: unstable
   message: Constant's name may change to follow the archetype's official English name.

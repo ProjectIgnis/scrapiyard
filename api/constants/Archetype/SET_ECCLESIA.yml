@@ -1,0 +1,9 @@
+---!constant
+name: SET_ECCLESIA
+enum: Archetype
+value: 0x1cf
+description: >-
+  The ["Ecclesia"](https://yugipedia.com/wiki/Ecclesia) archetype.
+summary: Ecclesia
+status:
+  index: stable

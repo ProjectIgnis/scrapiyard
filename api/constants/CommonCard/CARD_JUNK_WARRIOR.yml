@@ -1,0 +1,8 @@
+---!constant
+name: CARD_JUNK_WARRIOR
+enum: CommonCard
+value: 60800381
+description: The passcode of ["Junk Warrior"](https://yugipedia.com/wiki/Junk_Warrior).
+summary: Junk Warrior
+status:
+  index: stable

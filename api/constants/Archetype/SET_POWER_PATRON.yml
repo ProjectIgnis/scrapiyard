@@ -1,0 +1,9 @@
+---!constant
+name: SET_POWER_PATRON
+enum: Archetype
+value: 0x1c6
+description: >-
+  The ["Power Patron"](https://yugipedia.com/wiki/Power_Patron) archetype.
+summary: Power Patron
+status:
+  index: stable

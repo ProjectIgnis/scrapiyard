@@ -1,0 +1,8 @@
+---!constant
+name: CARD_PRINCESS_COLOGNE
+enum: CommonCard
+value: 75574498
+description: The passcode of ["Princess Cologne"](https://yugipedia.com/wiki/Princess_Cologne).
+summary: Princess Cologne
+status:
+  index: stable

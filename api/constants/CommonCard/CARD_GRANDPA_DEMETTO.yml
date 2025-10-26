@@ -1,0 +1,8 @@
+---!constant
+name: CARD_GRANDPA_DEMETTO
+enum: CommonCard
+value: 44190146
+description: The passcode of ["Grandpa Demetto"](https://yugipedia.com/wiki/Grandpa_Demetto).
+summary: Grandpa Demetto
+status:
+  index: stable

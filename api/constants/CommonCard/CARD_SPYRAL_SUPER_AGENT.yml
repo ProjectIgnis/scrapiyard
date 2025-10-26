@@ -1,0 +1,8 @@
+---!constant
+name: CARD_SPYRAL_SUPER_AGENT
+enum: CommonCard
+value: 41091257
+description: The passcode of ["SPYRAL Super Agent"](https://yugipedia.com/wiki/SPYRAL_Super_Agent).
+summary: SPYRAL Super Agent
+status:
+  index: stable

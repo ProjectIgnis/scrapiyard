@@ -1,0 +1,8 @@
+---!constant
+name: CARD_MYSTICAL_SPACE_TYPHOON
+enum: CommonCard
+value: 5318639
+description: The passcode of ["Mystical Space Typhoon"](https://yugipedia.com/wiki/Mystical_Space_Typhoon).
+summary: Mystical Space Typhoon
+status:
+  index: stable

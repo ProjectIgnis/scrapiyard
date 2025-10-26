@@ -1,0 +1,9 @@
+---!constant
+name: SET_DOOMZ
+enum: Archetype
+value: 0x1cb
+description: >-
+  The ["DoomZ"](https://yugipedia.com/wiki/DoomZ) archetype.
+summary: DoomZ
+status:
+  index: stable

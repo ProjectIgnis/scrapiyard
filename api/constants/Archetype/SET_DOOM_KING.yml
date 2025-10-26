@@ -1,0 +1,9 @@
+---!constant
+name: SET_DOOM_KING
+enum: Archetype
+value: 0x1c8
+description: >-
+  The ["Doom King"](https://yugipedia.com/wiki/Doom_King) archetype.
+summary: Doom King
+status:
+  index: stable
