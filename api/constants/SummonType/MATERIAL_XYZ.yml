@@ -1,6 +1,6 @@
 ---!constant
 name: MATERIAL_XYZ
-enum: MaterialType
+enum: SummonType
 value: 0x400000000
 description: The type for Summons that use [Xyz Materials](https://yugipedia.com/wiki/Xyz_Material).
 summary: Summon using Xyz Materials.
