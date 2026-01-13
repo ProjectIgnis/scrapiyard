@@ -1,0 +1,8 @@
+---!constant
+name: CARD_REGULUS_THE_PRINCE_OF_ENDYMION
+enum: CommonCard
+value: 96228804
+description: The passcode of ["Regulus, the Prince of Endymion"](https://yugipedia.com/wiki/Regulus,_the_Prince_of_Endymion).
+summary: Regulus, the Prince of Endymion
+status:
+  index: stable

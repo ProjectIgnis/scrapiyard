@@ -2,7 +2,8 @@
 name: CARD_UNKNOWN
 enum: CommonCard
 value: 10000110
-description: The passcode of ["Unknown"](https://yugipedia.com/wiki/Unknown), registered in the card database as a Token.
+description: >-
+  The passcode of ["Unknown"](https://yugipedia.com/wiki/Unknown). This is not an actual card. ["Flash of Heraldry"](https://yugipedia.com/wiki/Flash_of_Heraldry), ["Number 69: Heraldry Crest - Dark Matter Demolition"](https://yugipedia.com/wiki/Number_69:_Heraldry_Crest_-_Dark_Matter_Demolition), ["Number 8: Heraldic King Genom-Heritage (Anime)"](https://yugipedia.com/wiki/Number_8:_Heraldic_King_Genom-Heritage_(anime)) have effects which can change monsters' names to "Unknown".
 summary: Unknown
 status:
   index: stable

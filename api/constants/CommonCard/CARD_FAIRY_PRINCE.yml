@@ -1,0 +1,9 @@
+---!constant
+name: CARD_FAIRY_PRINCE
+enum: CommonCard
+value: 10000120
+description: The passcode of ["Fairy Prince"](https://yugipedia.com/wiki/Fairy_Prince). This is not an actual card. Cards from the ["Fairy Tail"](https://yugipedia.com/wiki/Fairy_Tail) archetype have effects which can change monsters' names to "Fairy Prince".
+summary: Fairy Prince
+status:
+  index: stable
+tags: [ special-handling ]

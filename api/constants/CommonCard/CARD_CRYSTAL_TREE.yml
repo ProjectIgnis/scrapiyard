@@ -1,0 +1,8 @@
+---!constant
+name: CARD_CRYSTAL_TREE
+enum: CommonCard
+value: 47408488
+description: The passcode of ["Crystal Tree"](https://yugipedia.com/wiki/Crystal_Tree).
+summary: Crystal Tree
+status:
+  index: stable

@@ -1,0 +1,8 @@
+---!constant
+name: CARD_ZEFRAATH
+enum: CommonCard
+value: 29432356
+description: The passcode of ["Zefraath"](https://yugipedia.com/wiki/Zefraath).
+summary: Zefraath
+status:
+  index: stable

@@ -1,0 +1,8 @@
+---!constant
+name: CARD_HARMONIC_OSCILLATION
+enum: CommonCard
+value: 31531170
+description: The passcode of ["Harmonic Oscillation"](https://yugipedia.com/wiki/Harmonic_Oscillation).
+summary: Harmonic Oscillation
+status:
+  index: stable
