@@ -6,5 +6,4 @@ description: >-
   The ["Yummy"](https://yugipedia.com/wiki/Yummy) archetype.
 summary: Yummy
 status:
-  index: unstable
-  message: Constant's name may change to follow the archetype's official English name.
+  index: stable

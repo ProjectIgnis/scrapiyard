@@ -1,0 +1,9 @@
+---!constant
+name: SET_FAIRY_TAIL
+enum: Archetype
+value: 0x1d2
+description: >-
+  The ["Fairy Tail"](https://yugipedia.com/wiki/Fairy_Tail) archetype.
+summary: Fairy Tail
+status:
+  index: stable

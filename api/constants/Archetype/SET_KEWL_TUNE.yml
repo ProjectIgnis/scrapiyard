@@ -1,10 +1,9 @@
 ---!constant
-name: SET_KILLER_TUNE
+name: SET_KEWL_TUNE
 enum: Archetype
 value: 0x1ce
 description: >-
   The ["Kewl Tune"](https://yugipedia.com/wiki/Kewl_Tune) archetype.
 summary: Kewl Tune
 status:
-  index: unstable
-  message: Constant's name may change to follow the archetype's official English name.
+  index: stable

@@ -1,0 +1,9 @@
+---!constant
+name: SET_CLOWN_CREW
+enum: Archetype
+value: 0x1d3
+description: >-
+  The ["Clown Crew"](https://yugipedia.com/wiki/Clown_Clan) archetype.
+summary: Clown Crew
+status:
+  index: stable
