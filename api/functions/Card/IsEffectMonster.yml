@@ -3,7 +3,7 @@ name: IsEffectMonster
 namespace: Card
 description: >-
   Checks if a card is currently an [Effect Monster](https://yugipedia.com/wiki/Effect_Monster).
-summary: Checks if a card is currently a Effect Monster.
+summary: Checks if a card is currently an Effect Monster.
 parameters:
   - name: c
     type: [ Card ]
@@ -11,7 +11,7 @@ parameters:
 returns:
   - type: [ bool ]
     description: >-
-      `true` if the card is currently a Effect Monster, `false` otherwise.
+      `true` if the card is currently an Effect Monster, `false` otherwise.
 status:
   index: stable
 tags: [ card-check, card-type-related ]
