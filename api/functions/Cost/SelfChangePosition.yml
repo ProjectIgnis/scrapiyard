@@ -2,7 +2,7 @@
 name: SelfChangePosition
 namespace: Cost
 description: Creates a baseline [cost function](/api/types/EffectCost) used for effects that change the battle position of the activating card itself as cost, such as `You can change this face-down card to face-up Defense Position; ...` (e.g. "Enneacraft - Atori.MAR").
-summary: Creates a cost function for effects that change the battle position of the card itself as cost.
+summary: Creates a cost function for effects that change the card's own position as cost.
 status:
   index: stable
 parameters:
