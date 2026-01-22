@@ -1,0 +1,9 @@
+---!function
+name: GetReasonPlayer
+namespace: Duel
+description: >-
+  Returns the player that the core considers as the "current player" (`core.reason_player`)
+status:
+  index: stable
+returns:
+  - type: [ int ]
