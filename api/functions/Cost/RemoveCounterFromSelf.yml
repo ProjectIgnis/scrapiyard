@@ -2,7 +2,7 @@
 name: RemoveCounterFromSelf
 namespace: Cost
 description: Creates a baseline [cost function](/api/types/EffectCost) used for effects that remove a counter(s) from the activating card itself as cost, such as `You can remove 1 Spell Counter from this card... ; ...` (e.g. "Breaker the Magical Warrior").
-summary: Creates a cost function for effects that remove a counter(s) from the card itself as cost.
+summary: Creates a cost function for effects that remove a counter from the card itself.
 status:
   index: stable
 parameters:
