@@ -7,3 +7,4 @@ status:
   index: stable
 returns:
   - type: [ int ]
+    description: (To be added)
