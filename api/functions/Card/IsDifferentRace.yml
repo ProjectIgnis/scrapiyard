@@ -2,7 +2,7 @@
 name: IsDifferentRace
 namespace: Card
 description: >-
-  Returns if (Card c) does not have Race (int race)
+  Deprecated function. Use Card.IsRaceExcept
 status:
   index: stable
 parameters:
