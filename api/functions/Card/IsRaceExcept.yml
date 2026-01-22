@@ -1,0 +1,30 @@
+---!function
+name: IsRaceExcept
+namespace: Card
+description: >-
+  Checks if (Card c) has any race other than (int race). If the optional parameters are passed, does the checks by calling the equivalent behavior with such parameters with Card.GetRace
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: (To be added)
+  - name: race
+    type: [ int ]
+    description: (To be added)
+  - name: scard
+    type: [ Card ]
+    description: (To be added)
+    required: false
+  - name: sumtype
+    type: [ int ]
+    description: (To be added)
+    required: false
+  - name: playerid
+    type: [ int ]
+    description: (To be added)
+    required: false
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]

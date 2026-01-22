@@ -1,15 +1,15 @@
 ---!function
-name: IsDifferentRace
-namespace: Card
+name: HasDetachCost
+namespace: Effect
 description: >-
-  Deprecated function. Use Card.IsRaceExcept
+  Returns true if the effect (Effect e) has a cost that detaches Xyz Material(s)
 status:
   index: stable
 parameters:
-  - name: c
-    type: [ Card ]
+  - name: e
+    type: [ Effect ]
     description: (To be added)
-  - name: race
+  - name: type
     type: [ int ]
     description: (To be added)
 returns:

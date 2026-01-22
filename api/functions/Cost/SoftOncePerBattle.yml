@@ -1,0 +1,18 @@
+---!function
+name: SoftOncePerBattle
+namespace: Cost
+description: Creates a baseline [cost function](/api/types/EffectCost) used for effects that can only be activated once per battle *per card*, e.g. "Lavalval Ignis".
+summary: Creates a cost function for "soft once per battle" effects.
+status:
+  index: stable
+parameters:
+  - name: flag
+    type: [ int ]
+    description: The value of the flag to register to the card.
+returns:
+  - type: [ EffectCost ]
+    description: The generated cost function.
+    guaranteed: true
+suggestedLinks:
+  - name: Cost.HardOncePerBattle
+    link: /api/functions/Cost/HardOncePerBattle

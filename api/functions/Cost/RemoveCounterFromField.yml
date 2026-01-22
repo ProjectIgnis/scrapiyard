@@ -1,0 +1,18 @@
+---!function
+name: RemoveCounterFromField
+namespace: Cost
+description: Creates a baseline [cost function](/api/types/EffectCost) used for effects that remove a counter(s) from the activating player's field as cost, such as `You can remove 1 Spell Counter from your field... ; ...` (e.g. "Arcanite Magician").
+summary: Creates a cost function for effects that remove a counter from the field.
+status:
+  index: stable
+parameters:
+  - name: counter_type
+    type: [ int ]
+    description: The type of counter to remove.
+  - name: count
+    type: [ int ]
+    description: The amount of counters to remove.
+returns:
+  - type: [ EffectCost ]
+    description: The cost function generated based on the given parameters.
+    guaranteed: true

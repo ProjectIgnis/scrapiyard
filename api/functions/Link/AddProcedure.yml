@@ -37,3 +37,10 @@ parameters:
     required: false
     defaultValue: |-
         The default string 1174: "Link Summon".
+  - name: spcon
+    type: [ function]
+    description: >-
+        An additional check equivalent to a Special Summon condition for the Link Monster (e.g. "Lib the World Key Blademaster").
+        Its signature is `(e,se,sp,st)` like the value function of a typical `EFFECT_SPSUMMON_CONDITION` effect.
+    required: false
+    defaultValue: nil

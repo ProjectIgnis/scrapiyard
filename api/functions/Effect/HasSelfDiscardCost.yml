@@ -1,16 +1,13 @@
 ---!function
-name: IsDifferentRace
-namespace: Card
+name: HasSelfDiscardCost
+namespace: Effect
 description: >-
-  Deprecated function. Use Card.IsRaceExcept
+  Returns true if the effect (Effect e) has a cost that discards the card itself
 status:
   index: stable
 parameters:
-  - name: c
-    type: [ Card ]
-    description: (To be added)
-  - name: race
-    type: [ int ]
+  - name: e
+    type: [ Effect ]
     description: (To be added)
 returns:
   - type: [ bool ]

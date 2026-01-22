@@ -1,0 +1,10 @@
+---!function
+name: GetReasonEffect
+namespace: Duel
+description: >-
+  Returns the [effect](/api/types/Effect) that the core considers as the "current effect" (`core.reason_effect`)
+status:
+  index: stable
+returns:
+  - type: [ Effect ]
+    description: (To be added)
