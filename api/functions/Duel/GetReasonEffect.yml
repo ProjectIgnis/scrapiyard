@@ -7,3 +7,4 @@ status:
   index: stable
 returns:
   - type: [ Effect ]
+    description: (To be added)
