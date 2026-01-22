@@ -1,0 +1,15 @@
+---!function
+name: Choice
+namespace: Cost
+description: Creates a baseline [cost function](/api/types/EffectCost) that gives the player a choice between different baseline cost functions for the same effect (e.g. "Starliege Lord Galaxion"). The ellipsis (...) allows tables in the form {base cost function, effect description, additional check function} (e.g. "{Cost.DetachFromSelf(1),aux.Stringid(id,0),s.extracheck}"). [`Duel.SelectEffect`](/api/functions/Duel/SelectEffect) is used to have the player choose, and their choice is then set as the effect's label.
+summary: Creates a cost function that gives the player a choice between different baseline cost functions for the same effect.
+status:
+  index: stable
+parameters:
+  - name: ...
+    type: [ any ]
+    description: (To be added)
+returns:
+  - type: [ EffectCost ]
+    description: The cost function generated based on the given parameters.
+    guaranteed: true
