@@ -1,0 +1,15 @@
+---!function
+name: HasSelfToGraveCost
+namespace: Effect
+description: >-
+  Returns true if the effect (Effect e) has a cost that sends the card itself to the GY
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: (To be added)
+returns:
+  - type: [ bool ]
+    description: (To be added)
+tags: [ under-construction ]
