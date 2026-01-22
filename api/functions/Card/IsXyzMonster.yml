@@ -1,0 +1,17 @@
+---!function
+name: IsXyzMonster
+namespace: Card
+description: >-
+  Checks if a card is currently an [Xyz Monster](https://yugipedia.com/wiki/Xyz_Monster).
+summary: Checks if a card is currently a Xyz Monster.
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check.
+returns:
+  - type: [ bool ]
+    description: >-
+      `true` if the card is currently a Xyz Monster, `false` otherwise.
+status:
+  index: stable
+tags: [ card-check, card-type-related ]

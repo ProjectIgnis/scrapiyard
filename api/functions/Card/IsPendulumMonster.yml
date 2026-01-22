@@ -1,0 +1,17 @@
+---!function
+name: IsPendulumMonster
+namespace: Card
+description: >-
+  Checks if a card is currently a [Pendulum Monster](https://yugipedia.com/wiki/Pendulum_Monster).
+summary: Checks if a card is currently a Pendulum Monster.
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check.
+returns:
+  - type: [ bool ]
+    description: >-
+      `true` if the card is currently a Pendulum Monster, `false` otherwise.
+status:
+  index: stable
+tags: [ card-check, card-type-related ]
