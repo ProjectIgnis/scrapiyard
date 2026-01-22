@@ -2,7 +2,7 @@
 name: UpdateAttack
 namespace: Card
 description: >-
-  Applies an ATK change to card c, equal to int amount. If the reset values (int reset) are not provided, the default is RESET_EVENT (+RESETS_STANDARD_DISABLE , if rc == c, or just +RESETS_STANDARD). If the reason card rc is not provided, uses as default card c. Returns the amount of ATK successfully changed.
+  Applies an ATK change to card c, equal to int amount. If the reset values (int reset) are not provided, the default is RESET_EVENT (+RESETS_STANDARD_DISABLE , if rc == c, or just +RESETS_STANDARD). If the reason card rc is not provided, uses as default card c. If reset_count is not provided it defaults to 1. Returns the amount of ATK successfully changed.
 status:
   index: stable
 parameters:
@@ -18,6 +18,10 @@ parameters:
     required: false
   - name: rc
     type: [ Card ]
+    description: (To be added)
+    required: false
+  - name: reset_count
+    type: [ int ]
     description: (To be added)
     required: false
 returns:
