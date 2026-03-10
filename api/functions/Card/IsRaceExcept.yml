@@ -1,30 +1,50 @@
 ---!function
 name: IsRaceExcept
 namespace: Card
-description: >-
-  Checks if (Card c) has any race other than (int race). If the optional parameters are passed, does the checks by calling the equivalent behavior with such parameters with Card.GetRace
+description: &desc Checks if a card currently has any race other than a specified race(s).
+summary: *desc
 status:
   index: stable
+aliases:
+  - name: Card.IsDifferentRace
+    status:
+      index: deleted
 parameters:
-  - name: c
+  - &c
+    name: c
     type: [ Card ]
-    description: (To be added)
-  - name: race
+    description: The monster to check the race(s) of.
+  - &race
+    name: race
     type: [ int ]
-    description: (To be added)
-  - name: scard
-    type: [ Card ]
-    description: (To be added)
-    required: false
-  - name: sumtype
-    type: [ int ]
-    description: (To be added)
-    required: false
-  - name: playerid
-    type: [ int ]
-    description: (To be added)
-    required: false
+    description: >-
+      Composite [MonsterRace](/api/enums/MonsterRace) value to check.
+      `c` needs to have any race other than this value.
 returns:
   - type: [ bool ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: >-
+      `true` if `c` has any race other than the specified `race`, `false` otherwise.
+overloads:
+  - description: Checks if a card would be treated as any race other than a specified race(s) if it would be used as material to Summon a monster.
+    parameters:
+      - *c
+      - *race
+      - name: scard
+        type: [ Card ]
+        description: The monster that would be Summoned using `c` as material.
+      - name: sumtype
+        type: [ int ]
+        description: The [type of Summon](/api/enums/SummonType).
+      - name: playerid
+        type: [ int ]
+        description: The player that would perform the Summon.
+    returns:
+      - type: [ bool ]
+        description: >-
+          `true` if `c` would be treated as any race other than the specified `race` when used as material for the Summon of `scard`, `false` otherwise.
+suggestedLinks:
+  - name: Card.IsRace
+    link: /api/functions/Card/IsRace
+  - name: Card.GetRace
+    link: /api/functions/Card/GetRace
+tags: [ card-check, race-related ]

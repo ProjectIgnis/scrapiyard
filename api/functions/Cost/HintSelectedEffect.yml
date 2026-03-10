@@ -1,7 +1,7 @@
 ---!function
 name: HintSelectedEffect
 namespace: Cost
-description: A baseline [cost function](/api/types/EffectCost) used for effects that need to display which effect was activated (e.g. "Exosister Gibrine").
+description: A baseline [cost function](/api/types/EffectCost) used for effects that need to display which effect was activated (e.g. ["Exosister Gibrine"](https://yugipedia.com/wiki/Exosister_Gibrine)).
 summary: Cost function for effects that need to display which effect was activated.
 status:
   index: stable

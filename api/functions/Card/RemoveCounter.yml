@@ -1,27 +1,28 @@
 ---!function
 name: RemoveCounter
 namespace: Card
-description: >-
-  Removes a number (int count) of the specified counter (int countertype) from a card (Card c), with reason described by (int reason)
+description: &desc Removes any amount of a specified counter from a card.
+summary: *desc
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
+    description: The card to remove counters from.
   - name: player
     type: [ int ]
-    description: (To be added)
+    description: The player removing the counters.
   - name: countertype
     type: [ int ]
-    description: (To be added)
+    description: The type of counter to remove.
   - name: count
     type: [ int ]
-    description: (To be added)
+    description: The amount of counters to remove.
   - name: reason
     type: [ int ]
-    description: (To be added)
+    description: Composite [Reason](/api/enums/Reason) value describing why the counters are being removed.
 returns:
   - type: [ bool ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: >-
+      `true` if at least 1 counter was successfully removed, `false` otherwise.
+tags: [ counters-related ]

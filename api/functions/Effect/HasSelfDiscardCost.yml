@@ -1,15 +1,15 @@
 ---!function
 name: HasSelfDiscardCost
 namespace: Effect
-description: >-
-  Returns true if the effect (Effect e) has a cost that discards the card itself
+description: Checks if an [Effect](/api/types/Effect) has a cost that discards the activating card itself.
+summary: Checks if an effect has a cost that discards the activating card itself.
 status:
   index: stable
 parameters:
   - name: e
     type: [ Effect ]
-    description: (To be added)
+    description: The effect to check the cost of.
 returns:
   - type: [ bool ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: >-
+      `true` if `e` has a cost that discards the activating card, `false` otherwise.

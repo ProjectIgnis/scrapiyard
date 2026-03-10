@@ -8,11 +8,10 @@ status:
 parameters:
   - name: flag
     type: [ int ]
-    description: The value of the flag to register to the duel.
+    description: The value of the flag to register to the Duel.
 returns:
   - type: [ EffectCost ]
-    description: The generated cost function.
-    guaranteed: true
+    description: The cost function generated based on the given parameters.
 suggestedLinks:
   - name: Cost.SoftOncePerBattle
     link: /api/functions/Cost/SoftOncePerBattle

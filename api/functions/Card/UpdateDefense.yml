@@ -1,30 +1,34 @@
 ---!function
 name: UpdateDefense
 namespace: Card
-description: >-
-  Applies a DEF change to card c, equal to int amount. If the reset values (int reset) are not provided, the default is RESET_EVENT (+RESETS_STANDARD_DISABLE , if rc == c, or just +RESETS_STANDARD). If the reason card rc is not provided, uses as default card c. If reset_count is not provided it defaults to 1. Returns the amount of DEF successfully changed.
+description: Increases the DEF of a card by a specified value (or decreases it if the value is negative).
+summary: Increases (or decreases) the DEF of a card.
 status:
   index: stable
 parameters:
   - name: c
     type: [ Card ]
-    description: (To be added)
+    description: The card to update the DEF of.
   - name: amount
     type: [ int ]
-    description: (To be added)
+    description: >-
+      The value to add to the card's current DEF.
+      Can be negative to decrease the card's DEF.
   - name: reset
     type: [ int ]
-    description: (To be added)
+    description: Composite [Reset](/api/enums/Reset) value describing when the DEF change stops applying.
     required: false
   - name: rc
     type: [ Card ]
-    description: (To be added)
+    description: The card causing the DEF change.
     required: false
+    defaultValue: c
   - name: reset_count
     type: [ int ]
-    description: (To be added)
+    description: How many times `reset` must happen for the DEF change to stop applying.
     required: false
+    defaultValue: 1
 returns:
   - type: [ int ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: The amount of DEF successfully changed (the difference between the card's new DEF and its previous DEF).
+tags: [ def-related, registers-effect ]

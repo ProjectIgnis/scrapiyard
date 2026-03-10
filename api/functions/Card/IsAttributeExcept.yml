@@ -1,30 +1,50 @@
 ---!function
 name: IsAttributeExcept
 namespace: Card
-description: >-
-  Checks if (Card c) has any attribute other than (int att). If the optional parameters are passed, does the checks by calling the equivalent behavior with such parameters with Card.GetAttribute
+description: Checks if a card currently has any attribute other than a specified attribute(s).
+summary: Checks if a card currently has any attribute other than a specified attribute(s)
 status:
   index: stable
+aliases:
+  - name: Card.IsDifferentAttribute
+    status:
+      index: deleted
 parameters:
-  - name: c
+  - &c
+    name: c
     type: [ Card ]
-    description: (To be added)
-  - name: att
+    description: The monster to check the attribute(s) of.
+  - &attr
+    name: attr
     type: [ int ]
-    description: (To be added)
-  - name: scard
-    type: [ Card ]
-    description: (To be added)
-    required: false
-  - name: sumtype
-    type: [ int ]
-    description: (To be added)
-    required: false
-  - name: playerid
-    type: [ int ]
-    description: (To be added)
-    required: false
+    description: >-
+      Composite [MonsterAttribute](/api/enums/MonsterAttribute) value to check.
+      `c` needs to have any attribute other than this value.
 returns:
   - type: [ bool ]
-    description: (To be added)
-tags: [ under-construction ]
+    description: >-
+      `true` if `c` has any attribute other than `attr`, `false` otherwise.
+overloads:
+  - description: Checks if a card would be treated as any attribute other than a specified attribute(s) if it would be used as material to Summon a monster.
+    parameters:
+      - *c
+      - *attr
+      - name: scard
+        type: [ Card ]
+        description: The monster that would be Summoned using `c` as material.
+      - name: sumtype
+        type: [ int ]
+        description: The [type of Summon](/api/enums/SummonType).
+      - name: playerid
+        type: [ int ]
+        description: The player that would perform the Summon.
+    returns:
+      - type: [ bool ]
+        description: >-
+          `true` if `c` would be treated as any attribute other than `attr` when used as material for the Summon of `scard`, `false` otherwise.
+suggestedLinks:
+  - name: Card.IsAttribute
+    link: /api/functions/Card/IsAttribute
+  - name: Card.GetAttribute
+    link: /api/functions/Card/GetAttribute
+tags: [ card-check, attribute-related ]

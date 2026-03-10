@@ -1,10 +1,10 @@
 ---!function
 name: GetReasonPlayer
 namespace: Duel
-description: >-
-  Returns the player that the core considers as the "current player" (`core.reason_player`)
+description: Returns the [effect](/api/types/Effect) that the simulator considers as the "current player", typically the player currently performing an action.
+summary: Returns the "current player".
 status:
   index: stable
 returns:
   - type: [ int ]
-    description: (To be added)
+    description: The "current player".
