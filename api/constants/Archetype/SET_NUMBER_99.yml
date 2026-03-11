@@ -1,0 +1,10 @@
+---!constant
+name: SET_NUMBER_99
+enum: Archetype
+value: 0x8048
+description: >-
+  The ["Number 99"](https://yugipedia.com/wiki/Number_99) archetype.
+  Sub-archetype of [`SET_NUMBER`](/api/constants/Archetype/SET_NUMBER).
+summary: Number 99
+status:
+  index: stable

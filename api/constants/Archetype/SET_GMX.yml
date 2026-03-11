@@ -1,0 +1,9 @@
+---!constant
+name: SET_GMX
+enum: Archetype
+value: 0x1d4
+description: >-
+  The ["GMX"](https://yugipedia.com/wiki/GMX) archetype.
+summary: GMX
+status:
+  index: stable
