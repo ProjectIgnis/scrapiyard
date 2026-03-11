@@ -1,0 +1,13 @@
+---!constant
+name: SET_SCHOOLWORK
+enum: Archetype
+value: 0x1b7
+description: >-
+  The ["Schoolwork"](https://yugipedia.com/wiki/Schoolwork) archetype.
+aliases:
+  - name: SET_SCHOOLWORK_SUCCESS
+    status:
+      index: deleted
+summary: Schoolwork
+status:
+  index: stable

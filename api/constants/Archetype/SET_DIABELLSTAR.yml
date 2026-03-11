@@ -1,5 +1,5 @@
 ---!constant
-name: SET_DIABELLESTARR
+name: SET_DIABELLSTAR
 enum: Archetype
 value: 0x1203
 description: >-
@@ -7,5 +7,4 @@ description: >-
   Sub-archetype of [`SET_DIABELL`](/api/constants/Archetype/SET_DIABELL).
 summary: Diabellstar
 status:
-  index: unstable
-  message: Constant's name may change to follow its official English name.
+  index: stable

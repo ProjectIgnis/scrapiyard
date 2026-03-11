@@ -1,0 +1,9 @@
+---!constant
+name: SET_ELFNOTE
+enum: Archetype
+value: 0x1d0
+description: >-
+  The ["Elfnote"](https://yugipedia.com/wiki/Elfnote) archetype.
+summary: Elfnote
+status:
+  index: stable

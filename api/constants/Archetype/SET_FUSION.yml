@@ -3,7 +3,11 @@ name: SET_FUSION
 enum: Archetype
 value: 0x46
 description: >-
-  The ["Polymerization" or "Fusion"](https://yugipedia.com/wiki/Fusion_(archetype)) archetype.
+  The ["Fusion"](https://yugipedia.com/wiki/Fusion_(archetype)) and ["Polymerization"](https://yugipedia.com/wiki/Polymerization_(archetype)) archetypes.
+aliases:
+  - name: SET_POLYMERIZATION
+    status:
+      index: stable
 summary: Polymerization|Fusion
 status:
   index: stable
