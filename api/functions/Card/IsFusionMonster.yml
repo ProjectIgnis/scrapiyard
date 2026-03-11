@@ -1,0 +1,17 @@
+---!function
+name: IsFusionMonster
+namespace: Card
+description: >-
+  Checks if a card is currently a [Fusion Monster](https://yugipedia.com/wiki/Fusion_Monster).
+summary: Checks if a card is currently a Fusion Monster.
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check.
+returns:
+  - type: [ bool ]
+    description: >-
+      `true` if the card is currently a Fusion Monster, `false` otherwise.
+status:
+  index: stable
+tags: [ card-check, card-type-related ]

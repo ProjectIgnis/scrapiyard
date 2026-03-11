@@ -1,0 +1,10 @@
+---!function
+name: GetReasonEffect
+namespace: Duel
+description: Returns the [effect](/api/types/Effect) that the simulator considers as the "current effect", typically the effect being currently checked, activated, resolved, or applied.
+summary: Returns the "current effect".
+status:
+  index: stable
+returns:
+  - type: [ Effect ]
+    description: The current effect.

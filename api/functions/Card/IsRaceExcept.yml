@@ -1,0 +1,50 @@
+---!function
+name: IsRaceExcept
+namespace: Card
+description: &desc Checks if a card currently has any race other than a specified race(s).
+summary: *desc
+status:
+  index: stable
+aliases:
+  - name: Card.IsDifferentRace
+    status:
+      index: deleted
+parameters:
+  - &c
+    name: c
+    type: [ Card ]
+    description: The monster to check the race(s) of.
+  - &race
+    name: race
+    type: [ int ]
+    description: >-
+      Composite [MonsterRace](/api/enums/MonsterRace) value to check.
+      `c` needs to have any race other than this value.
+returns:
+  - type: [ bool ]
+    description: >-
+      `true` if `c` has any race other than the specified `race`, `false` otherwise.
+overloads:
+  - description: Checks if a card would be treated as any race other than a specified race(s) if it would be used as material to Summon a monster.
+    parameters:
+      - *c
+      - *race
+      - name: scard
+        type: [ Card ]
+        description: The monster that would be Summoned using `c` as material.
+      - name: sumtype
+        type: [ int ]
+        description: The [type of Summon](/api/enums/SummonType).
+      - name: playerid
+        type: [ int ]
+        description: The player that would perform the Summon.
+    returns:
+      - type: [ bool ]
+        description: >-
+          `true` if `c` would be treated as any race other than the specified `race` when used as material for the Summon of `scard`, `false` otherwise.
+suggestedLinks:
+  - name: Card.IsRace
+    link: /api/functions/Card/IsRace
+  - name: Card.GetRace
+    link: /api/functions/Card/GetRace
+tags: [ card-check, race-related ]

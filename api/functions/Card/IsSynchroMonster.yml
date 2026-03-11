@@ -1,0 +1,17 @@
+---!function
+name: IsSynchroMonster
+namespace: Card
+description: >-
+  Checks if a card is currently a [Synchro Monster](https://yugipedia.com/wiki/Synchro_Monster).
+summary: Checks if a card is currently a Synchro Monster.
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check.
+returns:
+  - type: [ bool ]
+    description: >-
+      `true` if the card is currently a Synchro Monster, `false` otherwise.
+status:
+  index: stable
+tags: [ card-check, card-type-related ]

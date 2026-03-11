@@ -1,0 +1,15 @@
+---!function
+name: HasDetachCost
+namespace: Effect
+description: Checks if an [Effect](/api/types/Effect) has a cost that detaches an Xyz Material(s) from the activating card itself.
+summary: Checks if an effect has a cost that detaches Xyz Materials from itself.
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: The effect to check the cost of.
+returns:
+  - type: [ bool ]
+    description: >-
+      `true` if `e` has a cost that detaches Xyz Materials from the activating card, `false` otherwise.

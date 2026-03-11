@@ -1,0 +1,15 @@
+---!function
+name: HasSelfToGraveCost
+namespace: Effect
+description: Checks if an [Effect](/api/types/Effect) has a cost that discards the activating card itself to the GY.
+summary: Checks if an effect has a cost that sends the activating card itself to the GY.
+status:
+  index: stable
+parameters:
+  - name: e
+    type: [ Effect ]
+    description: The effect to check the cost of.
+returns:
+  - type: [ bool ]
+    description: >-
+      `true` if `e` has a cost that sends the activating card to the GY, `false` otherwise.

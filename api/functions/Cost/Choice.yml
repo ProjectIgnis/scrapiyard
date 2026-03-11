@@ -1,0 +1,16 @@
+---!function
+name: Choice
+namespace: Cost
+description: Creates a baseline [cost function](/api/types/EffectCost) that gives the player a choice between different baseline cost functions for the same effect (e.g. ["Starliege Lord Galaxion"](https://yugipedia.com/wiki/Starliege_Lord_Galaxion)).
+summary: Creates a cost function that gives the player a choice between different costs.
+status:
+  index: stable
+parameters:
+  - name: ...
+    type: [ table ]
+    description: >-
+      Any amount of choices represented by tables in the form {base [cost function](/api/types/EffectCost), effect description, additional check function} (e.g. `{Cost.DetachFromSelf(1),aux.Stringid(id,0),s.extracheck}`).
+      The index of the player's choice will be set as the effect's [label](/api/functions/Effect/SetLabel).
+returns:
+  - type: [ EffectCost ]
+    description: The cost function generated based on the given parameters.

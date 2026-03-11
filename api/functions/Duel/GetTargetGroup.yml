@@ -1,0 +1,31 @@
+---!function
+name: GetTargetGroup
+namespace: Duel
+description: >-
+  Returns cards from given locations that match a filter and can be targeted by the ["current effect"](/api/functions/Duel/GetReasonEffect).
+  Essentially [`Duel.GetMatchingGroup`](/api/functions/Duel/GetMatchingGroup), but implicitly checks for targetable cards.
+summary: Returns targetable cards from given locations that match a filter.
+status:
+  index: stable
+parameters:
+  - name: filter
+    type: [ FilterFunction ]
+    description: A function that must return `true` for a card to be included.
+  - name: player
+    type: [ int ]
+    description: The player from whose perspective the `s` and `o` locations will be based on.
+  - name: s
+    type: [ int ]
+    description: Composite [Location](/api/enums/Location) value representing locations on `player`'s side of the Duel.
+  - name: o
+    type: [ int ]
+    description:  Composite [Location](/api/enums/Location) value representing locations on `player`'s opponent's side of the Duel.
+  - name: ex
+    type: [ Group, Card, nil ]
+    description: Cards to exclude from the returned group even if they match the filter.
+  - name: ...
+    type: [ any ]
+    description: Additional arguments to be passed as additional arguments to `filter`.
+returns:
+  - type: [ Group ]
+    description: The group of cards from the given locations that fulfill `filter` and can be targeted by the "current effect".
