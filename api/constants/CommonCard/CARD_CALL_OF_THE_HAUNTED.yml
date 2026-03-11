@@ -1,0 +1,8 @@
+---!constant
+name: CARD_CALL_OF_THE_HAUNTED
+enum: CommonCard
+value: 97077563
+description: The passcode of ["Call of the Haunted"](https://yugipedia.com/wiki/Call_of_the_Haunted).
+summary: Call of the Haunted
+status:
+  index: stable

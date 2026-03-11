@@ -1,0 +1,9 @@
+---!constant
+name: CARD_RITUAL_OF_LIGHT_AND_DARKNESS
+enum: CommonCard
+value: 101305044
+description: The passcode of ["Ritual of Light and Darkness"](https://yugipedia.com/wiki/Ritual_of_Light and Darkness).
+summary: Ritual of Light and Darkness
+status:
+  index: unstable
+  message: Constant's name may change to follow its official English name.
