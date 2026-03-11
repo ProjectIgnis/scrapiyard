@@ -1,0 +1,8 @@
+---!constant
+name: COUNTER_EC
+enum: CommonCounter
+value: 0x217
+description: The counter code of [E.C. Counters](https://yugipedia.com/wiki/E.C._Counter).
+summary: E.C. Counter
+status:
+  index: stable
