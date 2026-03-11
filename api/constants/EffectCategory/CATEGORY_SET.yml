@@ -1,0 +1,8 @@
+---!constant
+name: CATEGORY_SET
+enum: EffectCategory
+value: 0x100000000
+description: An activated effect with this category may set a card(s) to the field on resolution.
+summary: Set a card to the field.
+status:
+  index: stable
