@@ -1,0 +1,8 @@
+---!constant
+name: CARD_TOON_WORLD
+enum: CommonCard
+value: 15259703
+description: The passcode of ["Toon World"](https://yugipedia.com/wiki/Toon_World).
+summary: Toon World
+status:
+  index: stable
