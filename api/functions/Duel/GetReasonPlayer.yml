@@ -1,7 +1,7 @@
 ---!function
 name: GetReasonPlayer
 namespace: Duel
-description: Returns the [effect](/api/types/Effect) that the simulator considers as the "current player", typically the player currently performing an action.
+description: Returns the player that the simulator considers as the "current player", typically the player performing the action that's currently being processed.
 summary: Returns the "current player".
 status:
   index: stable
