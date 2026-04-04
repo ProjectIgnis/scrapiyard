@@ -23,17 +23,18 @@ parameters:
   - name: min
   # TODO: document type of function
     type: [ int, function ]
-    description: The minimum number of materials to detach.
+    description: The minimum number of cards to discard.
+    defaultValue: 1
   - name: max
   # TODO: document type of function
     type: [ int, function ]
-    description: The maximum number of materials to detach.
+    description: The maximum number of cards to discard.
     required: false
     defaultValue: min
   - name: op
   # TODO: document type of function
     type: [ function ]
-    description: Additional handling to apply to the materials after detaching them.
+    description: Additional handling to apply to the cards after discarding them.
     required: false
 returns:
   - type: [ EffectCost ]
