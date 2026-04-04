@@ -24,6 +24,7 @@ parameters:
   # TODO: document type of function
     type: [ int, function ]
     description: The minimum number of cards to discard.
+    required: false
     defaultValue: 1
   - name: max
   # TODO: document type of function
