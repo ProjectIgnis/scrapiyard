@@ -20,11 +20,21 @@ parameters:
     description: If set to `true`, the activating card itself will be excluded from the discard check and the discarding itself. Used for effects such as `You can discard 1 other card; ...` as well as Spell/Trap activations (e.g. "Twin Twisters").
     required: false
     defaultValue: false
-  - name: count
-    type: [ int ]
-    description: The number of cards to be discarded.
+  - name: min
+  # TODO: document type of function
+    type: [ int, function ]
+    description: The minimum number of materials to detach.
+  - name: max
+  # TODO: document type of function
+    type: [ int, function ]
+    description: The maximum number of materials to detach.
     required: false
-    defaultValue: 1
+    defaultValue: min
+  - name: op
+  # TODO: document type of function
+    type: [ function ]
+    description: Additional handling to apply to the materials after detaching them.
+    required: false
 returns:
   - type: [ EffectCost ]
     description: The cost function generated based on the given parameters.
