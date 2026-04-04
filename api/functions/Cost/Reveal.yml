@@ -1,0 +1,44 @@
+---!function
+name: Reveal
+namespace: Cost
+description: Creates a baseline [cost function](/api/types/EffectCost) used for effects that reveal a card(s) as cost, such as `Reveal 1... in your hand; ...` (e.g. "Amazoness Spy").
+summary: Creates a cost function for effects that reveal a card(s) as cost.
+status:
+  index: stable
+parameters:
+  - name: filter
+    type: [ CardFilter ]
+    description: Additional filter to be used for the card(s) that are to be revealed (e.g. `"Amazoness" monster` for "Amazoness Spy").
+    required: false
+    defaultValue: not Card.IsPublic
+  - name: other
+    type: [ bool ]
+    description: If set to `true`, the activating card itself will be excluded from the reveal check and the revealing itself. Used for effects such as `You can reveal 1 other... in your hand; ...` (e.g. "Amazoness Spy").
+    required: false
+    defaultValue: false
+  - name: min
+  # TODO: document type of function
+    type: [ int, function ]
+    description: The minimum number of cards to reveal.
+    required: false
+    defaultValue: 1
+  - name: max
+  # TODO: document type of function
+    type: [ int, function ]
+    description: The maximum number of cards to reveal.
+    required: false
+    defaultValue: min
+  - name: op
+  # TODO: document type of function
+    type: [ function ]
+    description: Additional handling to apply to the cards after revealing them.
+    required: false
+  - name: location
+    type: [ int ]
+    description: The location to reveal cards from.
+    required: false
+    defaultValue: LOCATION_HAND
+returns:
+  - type: [ EffectCost ]
+    description: The cost function generated based on the given parameters.
+    guaranteed: true
