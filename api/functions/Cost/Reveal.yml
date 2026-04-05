@@ -10,7 +10,6 @@ parameters:
     type: [ CardFilter ]
     description: Additional filter to be used for the card(s) that are to be revealed (e.g. `"Amazoness" monster` for "Amazoness Spy").
     required: false
-    defaultValue: function(c) return not c:IsPublic() end
   - name: other
     type: [ bool ]
     description: If set to `true`, the activating card itself will be excluded from the reveal check and the revealing itself. Used for effects such as `You can reveal 1 other... in your hand; ...` (e.g. "Amazoness Spy").
