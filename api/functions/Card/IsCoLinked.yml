@@ -8,6 +8,11 @@ parameters:
   - name: c
     type: [ Card ]
     description: The card to check.
+  - name: count
+    type: [ int ]
+    description: The number of co-links to check for.
+    required: false
+    defaultValue: 1
 returns:
   - type: [ bool ]
     description: >-
