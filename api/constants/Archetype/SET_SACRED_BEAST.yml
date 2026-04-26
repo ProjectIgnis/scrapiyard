@@ -1,0 +1,9 @@
+---!constant
+name: SET_SACRED_BEAST
+enum: Archetype
+value: 0x1145
+description: >-
+  The ["Sacred Beast"](https://yugipedia.com/wiki/Sacred_Beast_(archetype)) archetype.
+summary: Sacred Beast
+status:
+  index: stable

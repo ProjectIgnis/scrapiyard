@@ -1,0 +1,9 @@
+---!constant
+name: SET_ALEISTER
+enum: Archetype
+value: 0x1d8
+description: >-
+  The ["Aleister"](https://yugipedia.com/wiki/Aleister) archetype.
+summary: Aleister
+status:
+  index: stable

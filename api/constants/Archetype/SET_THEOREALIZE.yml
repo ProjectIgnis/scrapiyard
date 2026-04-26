@@ -1,0 +1,9 @@
+---!constant
+name: SET_THEOREALIZE
+enum: Archetype
+value: 0x1d7
+description: >-
+  The ["Theorealize"](https://yugipedia.com/wiki/Theorealize_(archetype)) archetype.
+summary: Theorealize
+status:
+  index: stable
