@@ -1,0 +1,8 @@
+---!constant
+name: CARD_INVOCATION
+enum: CommonCard
+value: 74063034
+description: The passcode of ["Invocation"](https://yugipedia.com/wiki/Invocation).
+summary: Invocation
+status:
+  index: stable
