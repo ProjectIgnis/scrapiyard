@@ -1,0 +1,22 @@
+---!function
+name: IsCoLinked
+namespace: Card
+description: >-
+  Checks if a card is currently [co-linked](https://yugipedia.com/wiki/Co-linked).
+summary: Checks if a card is currently co-linked.
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to check.
+  - name: count
+    type: [ int ]
+    description: The number of co-links to check for.
+    required: false
+    defaultValue: 1
+returns:
+  - type: [ bool ]
+    description: >-
+      `true` if the card is currently co-linked, `false` otherwise.
+status:
+  index: stable
+tags: [ card-check, card-type-related ]
