@@ -1,0 +1,8 @@
+---!constant
+name: ZONE_CENTER_MMZ
+enum: Zone
+value: 0x4
+description: The center Main Monster Zone.
+summary: Center Main Monster Zone
+status:
+  index: stable
