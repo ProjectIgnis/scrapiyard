@@ -2,7 +2,7 @@
 name: EFFECT_LPCOST_CHANGE
 enum: EffectCode
 value: 170
-description: If a player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) would pay LP as cost, they pay the amount returned by the effect's [value function](/api/functions/Effect/SetValue) instead. To perform a completely different action(s) instead of paying LP, use [`EFFECT_LPCOST_CHANGE`](/api/constants/EffectCode/EFFECT_LPCOST_CHANGE) instead.
+description: If a player affected by an [effect](/api/types/Effect) with this [code](/api/functions/Effect/SetCode) would pay LP as cost, they pay the amount returned by the effect's [value function](/api/functions/Effect/SetValue) instead. To perform a completely different action(s) instead of paying LP, use [`EFFECT_LPCOST_REPLACE`](/api/constants/EffectCode/EFFECT_LPCOST_REPLACE) instead.
 summary: Affected players pay a different amount of LP as cost.
 status:
   index: stable
