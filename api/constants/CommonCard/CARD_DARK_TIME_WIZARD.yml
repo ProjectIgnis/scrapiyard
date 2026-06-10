@@ -1,0 +1,9 @@
+---!constant
+name: CARD_DARK_TIME_WIZARD
+enum: CommonCard
+value: 101402052
+description: The passcode of ["Dark Time Wizard"](https://yugipedia.com/wiki/Dark_Time_Wizard).
+summary: Dark Time Wizard
+status:
+  index: unstable
+  message: Constant's name may change to follow its official English name.
