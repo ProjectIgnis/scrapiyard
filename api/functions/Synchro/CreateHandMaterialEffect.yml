@@ -1,0 +1,33 @@
+---!function
+name: CreateHandMaterialEffect
+namespace: Synchro
+description: >-
+  Creates an effect that allows monsters in the hand to be used as Synchro Material (e.g. the "Kewl Tune" monsters).
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The owner of the effect. 
+  - name: id
+    type: [ int ]
+    description: The ID of the card creating the effect.
+  - name: material_filter
+    type: [ function, nil ]
+    description: Additional filter to be applied to the monsters in the hand.
+    required: false
+  - name: synchro_filter
+    type: [ function, nil ]
+    description: Additional filter for the Synchro Monsters the effect can be applied for.
+    required: false
+  - name: banish_mats
+    type: [ bool, nil ]
+    description: If set to `true` the materials used will be banished ("Tatsunecro").
+    required: false
+  - name: rc
+    type: [ Card, nil ]
+    description: Will be the owner of the effect instead if defined.
+    required: false
+returns:
+  - type: [ Effect ]
+    description: The created effect.
