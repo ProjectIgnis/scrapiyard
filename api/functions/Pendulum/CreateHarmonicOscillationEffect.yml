@@ -10,10 +10,10 @@ parameters:
     type: [ Card ]
     description: The card that is creating the effect.
   - name: pendulum_filter
-    type: [ function ]
+    type: [ function, nil ]
     description: Additional filter to be applied to the monsters that can be Pendulum Summoned. If `nil`, defaults to `aux.TRUE`.
   - name: effect_description
-    type: [ int ]
+    type: [ int, nil ]
     description: The description of the Pendulum Summon effect. If `nil`, defaults to `aux.Stringid(CARD_HARMONIC_OSCILLATION,2)` (`Pendulum Summon ("Harmonic Oscillation")`).
   - name: owner_card_id
     type: [ int ]
