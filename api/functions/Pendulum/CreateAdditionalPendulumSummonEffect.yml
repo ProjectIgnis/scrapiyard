@@ -10,27 +10,24 @@ parameters:
     type: [ Card ]
     description: The card that is creating the effect.
   - name: pendulum_filter
-    type: [ function ]
-    description: Additional filter to be applied to the monsters that can be Pendulum Summoned.
-    defaultValue: aux.TRUE
+    type: [ function, nil ]
+    description: Additional filter to be applied to the monsters that can be Pendulum Summoned. If `nil`, defaults to `aux.TRUE`.
   - name: pendulum_location
-    type: [ int ]
-    description: The location where the additional Pendulum Summon effect can Pendulum Summon from.
-    defaultValue: LOCATION_HAND|LOCATION_EXTRA
+    type: [ int, nil ]
+    description: The location where the additional Pendulum Summon effect can Pendulum Summon from. If `nil`, defaults to `LOCATION_HAND|LOCATION_EXTRA`.
   - name: effect_description
-    type: [ int ]
-    description: The description of the additional Pendulum Summon effect.
-    defaultValue: 1163 (`Pendulum Summon`)
+    type: [ int, nil ]
+    description: The description of the additional Pendulum Summon effect. If `nil`, defaults to `1163` (`Pendulum Summon`).
   - name: owner_card_id
     type: [ int ]
     description: The ID of the card that is creating the effect.
   - name: reset
-    type: [ int ]
+    type: [ int, nil ]
     description: Reset for the additional Pendulum Summon effect.
     required: false
     defaultValue: RESET_PHASE|PHASE_END
   - name: reset_count
-    type: [ int ]
+    type: [ int, nil ]
     description: Reset count for the additional Pendulum Summon effect.
     required: false
     defaultValue: 1
