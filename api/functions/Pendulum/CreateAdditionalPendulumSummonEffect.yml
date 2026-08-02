@@ -12,17 +12,14 @@ parameters:
   - name: pendulum_filter
     type: [ function ]
     description: Additional filter to be applied to the monsters that can be Pendulum Summoned.
-    required: false
     defaultValue: aux.TRUE
   - name: pendulum_location
     type: [ int ]
     description: The location where the additional Pendulum Summon effect can Pendulum Summon from.
-    required: false
     defaultValue: LOCATION_HAND|LOCATION_EXTRA
   - name: effect_description
     type: [ int ]
     description: The description of the additional Pendulum Summon effect.
-    required: false
     defaultValue: 1163 (`Pendulum Summon`)
   - name: owner_card_id
     type: [ int ]
