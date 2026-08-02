@@ -14,4 +14,5 @@ parameters:
     description: The ID of the card that is being checked.
 returns:
   - type: [ bool ]
-    description: `true` if the player can gain an additional Pendulum Summon this turn, `false` otherwise.
+    description: >-
+      `true` if the player can gain an additional Pendulum Summon this turn, `false` otherwise.
