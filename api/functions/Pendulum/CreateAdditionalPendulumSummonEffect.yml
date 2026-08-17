@@ -22,12 +22,12 @@ parameters:
     type: [ int ]
     description: The ID of the card that is creating the effect.
   - name: reset
-    type: [ int, nil ]
+    type: [ int ]
     description: Reset for the additional Pendulum Summon effect.
     required: false
     defaultValue: RESET_PHASE|PHASE_END
   - name: reset_count
-    type: [ int, nil ]
+    type: [ int ]
     description: Reset count for the additional Pendulum Summon effect.
     required: false
     defaultValue: 1
