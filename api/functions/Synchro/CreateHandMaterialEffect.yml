@@ -13,19 +13,19 @@ parameters:
     type: [ int ]
     description: The ID of the card creating the effect.
   - name: material_filter
-    type: [ function, nil ]
+    type: [ function ]
     description: Additional filter to be applied to the monsters in the hand.
     required: false
   - name: synchro_filter
-    type: [ function, nil ]
+    type: [ function ]
     description: Additional filter for the Synchro Monsters the effect can be applied for.
     required: false
   - name: banish_mats
-    type: [ bool, nil ]
+    type: [ bool ]
     description: If set to `true` the materials used will be banished ("Tatsunecro").
     required: false
   - name: rc
-    type: [ Card, nil ]
+    type: [ Card ]
     description: Will be the owner of the effect instead if defined.
     required: false
 returns:
