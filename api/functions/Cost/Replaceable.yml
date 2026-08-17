@@ -10,7 +10,7 @@ parameters:
     type: [ function ]
     description: The base cost function used by the effect (e.g. [Cost.SelfTribute](api/functions/Cost/SelfTribute.yml) in the case of "Naturia Mole Cricket").
   - name: extracon
-    type: [ ReplaceableCostCondition, nil ]
+    type: [ ReplaceableCostCondition ]
     description: Additional condition function to be checked when determining if the cost can be replaced or not (e.g. "Naturia Mole Cricket" needs to check that there's an available Main Monster Zone for its cost to be replaced).
     required: false
 returns:
