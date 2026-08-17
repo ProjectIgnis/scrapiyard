@@ -1,0 +1,39 @@
+---!function
+name: GrantAdditionalPendulumSummon
+namespace: Pendulum
+description: >-
+  Creates and grants an additional Pendulum Summon effect.
+status:
+  index: stable
+parameters:
+  - name: handler
+    type: [ Card ]
+    description: The card that is creating the effects.
+  - name: pendulum_filter
+    type: [ function, nil ]
+    description: Additional filter to be applied to the monsters that can be Pendulum Summoned. If `nil`, defaults to `aux.TRUE`.
+  - name: player
+    type: [ int ]
+    description: The player that will gain the additional Pendulum Summon effects.
+  - name: pendulum_location
+    type: [ int, nil ]
+    description: The location where the additional Pendulum Summon effect can Pendulum Summon from. If `nil`, defaults to `LOCATION_HAND|LOCATION_EXTRA`.
+  - name: hint_description
+    type: [ int ]
+    description: The string to be used as the client hint.
+  - name: effect_description
+    type: [ int, nil ]
+    description: The description of the additional Pendulum Summon effect. If `nil`, defaults to `1163` (`Pendulum Summon`).
+  - name: owner_card_id
+    type: [ int ]
+    description: The ID of the card that is creating the effect.
+  - name: reset
+    type: [ int ]
+    description: Reset for the additional Pendulum Summon effect.
+    required: false
+    defaultValue: RESET_PHASE|PHASE_END
+  - name: reset_count
+    type: [ int ]
+    description: Reset count for the additional Pendulum Summon effect.
+    required: false
+    defaultValue: 1

@@ -14,17 +14,28 @@ parameters:
     type: [ CardFilter ]
     description: Additional filter to be used for the card(s) that are to be discarded (e.g. `Pendulum Monster` for "Dragonpit Magician").
     required: false
-    defaultValue: Card.IsDiscardable
   - name: other
     type: [ bool ]
     description: If set to `true`, the activating card itself will be excluded from the discard check and the discarding itself. Used for effects such as `You can discard 1 other card; ...` as well as Spell/Trap activations (e.g. "Twin Twisters").
     required: false
     defaultValue: false
-  - name: count
-    type: [ int ]
-    description: The number of cards to be discarded.
+  - name: min
+  # TODO: document type of function
+    type: [ int, function ]
+    description: The minimum number of cards to discard.
     required: false
     defaultValue: 1
+  - name: max
+  # TODO: document type of function
+    type: [ int, function ]
+    description: The maximum number of cards to discard.
+    required: false
+    defaultValue: min
+  - name: op
+  # TODO: document type of function
+    type: [ function ]
+    description: Additional handling to apply to the cards after discarding them.
+    required: false
 returns:
   - type: [ EffectCost ]
     description: The cost function generated based on the given parameters.

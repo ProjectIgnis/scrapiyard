@@ -2,21 +2,21 @@
 name: TossDice
 namespace: Duel
 description: >-
-  Rolls (int count1) dice on behalf of (int player) and (int count1) dice on behalf of the opponent of (int player). Returns all the results of the rolls.
+  Makes a player roll a given number of dice. If both players roll a die with 1 call of this function, the rolls are considered to happen at the same time ([`EVENT_TOSS_DICE`](/api/constants/Event/EVENT_TOSS_DICE) will only be raised once).
 status:
   index: stable
 parameters:
   - name: player
     type: [ int ]
-    description: (To be added)
+    description: The player that will roll.
   - name: count1
     type: [ int ]
-    description: (To be added)
+    description: The number of dice that the player will roll.
   - name: count2
     type: [ int ]
-    description: (To be added)
+    description: The number of dice that the opponent of the player will roll, if provided.
     required: false
 returns:
   - type: [ any ]
-    description: (To be added)
+    description: The results of all the die rolls.
 tags: [ under-construction ]

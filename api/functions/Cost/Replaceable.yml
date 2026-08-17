@@ -1,0 +1,18 @@
+---!function
+name: Replaceable
+namespace: Cost
+description: >-
+  Creates a [cost function](/api/types/EffectCost) used for effects that can have their cost replaced (e.g. "Naturia Mole Cricket"). That actual replacing itself occurs in the card with the replacing effect (e.g. "Naturia Camellia"), see [EFFECT_COST_REPLACE](api/constants/EffectCode/EFFECT_COST_REPLACE.yml).
+status:
+  index: stable
+parameters:
+  - name: base
+    type: [ function ]
+    description: The base cost function used by the effect (e.g. [Cost.SelfTribute](api/functions/Cost/SelfTribute.yml) in the case of "Naturia Mole Cricket").
+  - name: extracon
+    type: [ ReplaceableCostCondition ]
+    description: Additional condition function to be checked when determining if the cost can be replaced or not (e.g. "Naturia Mole Cricket" needs to check that there's an available Main Monster Zone for its cost to be replaced).
+    required: false
+returns:
+  - type: [ EffectCost ]
+    description: The cost function generated based on the given parameters.

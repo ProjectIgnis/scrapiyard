@@ -1,0 +1,28 @@
+---!function
+name: CreateHarmonicOscillationEffect
+namespace: Pendulum
+description: >-
+  Creates a "Harmonic Oscillation" effect (allowing the player to use the opponent's Pendulum Scales for a Pendulum Summon), plus an effect that resets that "Harmonic Oscillation" effect when the card that has it registered leaves the field. The first effect is to be registered on the left Pendulum Scale and the second effect on the right Pendulum Scale, typically.
+status:
+  index: stable
+parameters:
+  - name: handler
+    type: [ Card ]
+    description: The card that is creating the effect.
+  - name: pendulum_filter
+    type: [ function, nil ]
+    description: Additional filter to be applied to the monsters that can be Pendulum Summoned. If `nil`, defaults to `aux.TRUE`.
+  - name: effect_description
+    type: [ int, nil ]
+    description: The description of the Pendulum Summon effect. If `nil`, defaults to `aux.Stringid(CARD_HARMONIC_OSCILLATION,2)` (`Pendulum Summon ("Harmonic Oscillation")`).
+  - name: owner_card_id
+    type: [ int ]
+    description: The ID of the card that is creating the effect. Only used when an additional Pendulum Summon effect uses this function.
+  - name: pendulum_flag
+    type: [ int ]
+    description: The ID for the flag effect that checks if you can perform this summon and for the register after performing it. "Harmonic Oscillation" itself uses `10000000` here which is the ID used for the regular Pendulum Summon.
+    required: false
+    defaultValue: CARD_ZEFRAATH
+returns:
+  - type: [ Effect ]
+    description: The 2 created effects.
