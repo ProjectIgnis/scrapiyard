@@ -26,6 +26,7 @@ parameters:
   - name: ex
     type: [ Group, Card, nil ]
     description: (To be added)
+    required: false
 returns:
   - type: [ Group ]
     description: (To be added)
