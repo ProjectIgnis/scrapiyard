@@ -1,0 +1,17 @@
+---!function
+name: AddHandMaterialEffect
+namespace: Synchro
+description: >-
+  Creates an effect that allows monsters in the hand to be used as Synchro Material (e.g. the "Kewl Tune" monsters) and registers it to a card.
+status:
+  index: stable
+parameters:
+  - name: c
+    type: [ Card ]
+    description: The card to register the effect to and the owner of the effect. 
+  - name: ...
+    type: [ any ]
+    description: Additional arguments to be passed to [`Synchro.CreateHandMaterialEffect`](/api/functions/Synchro/CreateHandMaterialEffect).
+returns:
+  - type: [ Effect ]
+    description: The created effect.

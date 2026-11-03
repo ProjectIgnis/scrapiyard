@@ -1,0 +1,18 @@
+---!function
+name: PlayerCanGainAdditionalPendulumSummon
+namespace: Pendulum
+description: >-
+  Checks if a player can still gain an additional Pendulum Summon this turn.
+status:
+  index: stable
+parameters:
+  - name: player
+    type: [ int ]
+    description: The player that is checked. 
+  - name: effect_flag
+    type: [ int ]
+    description: The ID of the card that is being checked.
+returns:
+  - type: [ bool ]
+    description: >-
+      `true` if the player can gain an additional Pendulum Summon this turn, `false` otherwise.

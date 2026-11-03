@@ -2,17 +2,17 @@
 name: TossCoin
 namespace: Duel
 description: >-
-  Tosses (int count) coins on behalf of (int player). Returns all the results of the tosses.
+  Makes a player toss a given number of coins.
 status:
   index: stable
 parameters:
   - name: player
     type: [ int ]
-    description: (To be added)
+    description: The player that will toss the coin(s).
   - name: count
     type: [ int ]
-    description: (To be added)
+    description: The number of coins that the player will toss.
 returns:
   - type: [ any ]
-    description: (To be added)
+    description: The results of all the coin tosses.
 tags: [ under-construction ]

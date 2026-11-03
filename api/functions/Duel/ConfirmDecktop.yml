@@ -12,4 +12,7 @@ parameters:
   - name: count
     type: [ int ]
     description: (To be added)
+returns:
+  - type: [ Group ]
+    description: Group containing the top `count` cards of `player`'s Deck.
 tags: [ under-construction ]

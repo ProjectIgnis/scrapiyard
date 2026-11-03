@@ -2,7 +2,7 @@
 name: ACTIVITY_SUMMON
 enum: ActivityCode
 value: 1
-description: &desc The action of attempting to perform a Summon of any kind.
+description: &desc The action of performing a Normal Summon.
 summary: *desc
 status:
   index: stable
