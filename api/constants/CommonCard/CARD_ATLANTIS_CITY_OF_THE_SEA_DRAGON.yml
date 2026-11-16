@@ -1,0 +1,8 @@
+---!constant
+name: CARD_ATLANTIS_CITY_OF_THE_SEA_DRAGON
+enum: CommonCard
+value: 38391684
+description: The passcode of ["Atlantis, City of the Sea Dragon"](https://yugipedia.com/wiki/Atlantis,_City_of_the_Sea_Dragon).
+summary: Atlantis, City of the Sea Dragon
+status:
+  index: stable

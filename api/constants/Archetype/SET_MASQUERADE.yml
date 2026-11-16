@@ -1,0 +1,9 @@
+---!constant
+name: SET_MASQUERADE
+enum: Archetype
+value: 0x1e0
+description: >-
+  The ["Masquerade"](https://yugipedia.com/wiki/Masquerade) archetype.
+summary: Masquerade
+status:
+  index: stable

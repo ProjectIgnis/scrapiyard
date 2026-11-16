@@ -1,0 +1,9 @@
+---!constant
+name: SET_THE_WINGED_DRAGON_OF_RA
+enum: Archetype
+value: 0x1e7
+description: >-
+  The ["The Winged Dragon of Ra"](https://yugipedia.com/wiki/The_Winged_Dragon_of_Ra_(archetype)) archetype.
+summary: The Winged Dragon of Ra
+status:
+  index: stable

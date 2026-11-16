@@ -1,0 +1,9 @@
+---!constant
+name: SET_ASHTRA
+enum: Archetype
+value: 0x1db
+description: >-
+  The ["Ashtra"](https://yugipedia.com/wiki/Ashtra) archetype.
+summary: Ashtra
+status:
+  index: stable

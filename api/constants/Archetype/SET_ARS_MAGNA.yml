@@ -1,0 +1,9 @@
+---!constant
+name: SET_ARS_MAGNA
+enum: Archetype
+value: 0x1dd
+description: >-
+  The ["Ars Magna"](https://yugipedia.com/wiki/Ars_Magna) archetype.
+summary: Ars Magna
+status:
+  index: stable

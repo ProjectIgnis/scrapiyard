@@ -1,0 +1,9 @@
+---!constant
+name: SET_RAISE_MOON
+enum: Archetype
+value: 0x1e4
+description: >-
+  The ["Raise Moon"](https://yugipedia.com/wiki/Raise_Moon) archetype.
+summary: Raise Moon
+status:
+  index: stable

@@ -1,0 +1,10 @@
+---!constant
+name: CARD_PRINCE_OF_FAIRIES
+enum: CommonCard
+value: 10000120
+description: >-
+  The passcode of ["Prince of Fairies"](https://yugipedia.com/wiki/Prince_of_Fairies). This is not an actual card. Certain ["Fairy Tail"](https://yugipedia.com/wiki/Fairy_Tail) cards have effects which can change monsters' names to "Prince of Fairies".
+summary: Prince of Fairies
+status:
+  index: stable
+tags: [ special-handling ]

@@ -1,0 +1,9 @@
+---!constant
+name: SET_DAEDALUS
+enum: Archetype
+value: 0x1da
+description: >-
+  The ["Daedalus"](https://yugipedia.com/wiki/Daedalus) archetype.
+summary: Daedalus
+status:
+  index: stable

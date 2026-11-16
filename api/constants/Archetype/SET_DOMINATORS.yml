@@ -1,0 +1,9 @@
+---!constant
+name: SET_DOMINATORS
+enum: Archetype
+value: 0x1e2
+description: >-
+  The ["Dominators"](https://yugipedia.com/wiki/Dominators) archetype.
+summary: Dominators
+status:
+  index: stable

@@ -1,0 +1,9 @@
+---!constant
+name: SET_ZENET
+enum: Archetype
+value: 0x1e1
+description: >-
+  The ["Zenet"](https://yugipedia.com/wiki/Zenet) archetype.
+summary: Zenet
+status:
+  index: stable

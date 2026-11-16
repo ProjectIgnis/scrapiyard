@@ -1,0 +1,9 @@
+---!constant
+name: SET_SUN_GOD
+enum: Archetype
+value: 0x1e6
+description: >-
+  The ["Sun God"](https://yugipedia.com/wiki/Sun_God) archetype.
+summary: Sun God
+status:
+  index: stable

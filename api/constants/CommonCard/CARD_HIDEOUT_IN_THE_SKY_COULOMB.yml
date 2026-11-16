@@ -1,0 +1,8 @@
+---!constant
+name: CARD_HIDEOUT_IN_THE_SKY_COULOMB
+enum: CommonCard
+value: 37654623
+description: The passcode of ["Hideout in the Sky, Coulomb"](https://yugipedia.com/wiki/Hideout_in_the_Sky,_Coulomb).
+summary: Hideout in the Sky, Coulomb
+status:
+  index: stable

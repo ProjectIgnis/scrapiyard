@@ -1,0 +1,9 @@
+---!constant
+name: SET_DIACTORUS
+enum: Archetype
+value: 0x1de
+description: >-
+  The ["Diactorus"](https://yugipedia.com/wiki/Diactorus) archetype.
+summary: Diactorus
+status:
+  index: stable

@@ -1,0 +1,9 @@
+---!constant
+name: SET_ANGELECHY
+enum: Archetype
+value: 0x1dc
+description: >-
+  The ["Angelechy"](https://yugipedia.com/wiki/Angelechy) archetype.
+summary: Angelechy
+status:
+  index: stable

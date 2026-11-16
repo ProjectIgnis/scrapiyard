@@ -1,0 +1,10 @@
+---!constant
+name: SET_DOMINUS_PURGE
+enum: Archetype
+value: 0x11bf
+description: >-
+  The ["Dominus Purge"](https://yugipedia.com/wiki/Dominus_Purge) archetype.
+  Sub-archetype of [`SET_DOMINUS`](/api/constants/Archetype/SET_DOMINUS).
+summary: Dominus Purge
+status:
+  index: stable

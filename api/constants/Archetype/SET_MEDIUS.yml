@@ -1,0 +1,9 @@
+---!constant
+name: SET_MEDIUS
+enum: Archetype
+value: 0x1df
+description: >-
+  The ["Medius"](https://yugipedia.com/wiki/Medius) archetype.
+summary: Medius
+status:
+  index: stable
