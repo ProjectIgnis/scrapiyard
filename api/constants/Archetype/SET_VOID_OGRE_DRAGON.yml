@@ -1,0 +1,9 @@
+--- !constant
+name: SET_VOID_OGRE_DRAGON
+enum: Archetype
+value: 0x10c5
+description: >-
+  The ["Void Ogre Dragon"](https://yugipedia.com/wiki/Void_Ogre_Dragon_(archetype)) archetype.
+summary: Void Ogre Dragon
+status:
+  index: stable
